@@ -36,7 +36,7 @@
       "stylelint-check": "stylelint-config-prettier-check",
       "development": "cross-env NODE_ENV=development postcss ./css/index.css -o assets/css/styles.min.css",
       "production": "cross-env NODE_ENV=production postcss ./css/index.css -o assets/css/styles.min.css",
-      "blank": "echo \"Error: no test specified\" && exit 1",
+      "blank": "echo \"Error: no test specified\"",
       "deploy": "npm run blank"
     },
     "dependencies": {
