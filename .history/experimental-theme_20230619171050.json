@@ -1,21 +1,12 @@
 {
-	"templateParts": [
-		{
-			"name": "header",
-			"title": "Header",
+	"templateParts": {
+		"header": {
 			"area": "header"
 		},
-		{
-			"name": "banner",
-			"title": "banner",
-			"area": "banner"
-		},
-		{
-			"name": "footer",
-			"title": "Footer",
+		"footer": {
 			"area": "footer"
 		}
-	],
+	},
 	"global": {
 		"presets": {
 			"color": [
