@@ -116,6 +116,6 @@ Tags: one-column, flexible-header, accessibility-ready, custom-colors, custom-me
 }
 
 .body{
-	background-color: black!important;
-	color: white!important;
+	background-color: black;!important
+	color: white;!important
 }
