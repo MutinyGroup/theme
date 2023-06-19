@@ -301,7 +301,7 @@ if ( function_exists( 'register_block_style' ) ) {
 function twentytwentyblocks_register_styles() {
 	$theme_version = wp_get_theme()->get( 'Version' );
 	wp_enqueue_style( 'twentytwentyblocks-style', get_stylesheet_uri(), array(), $theme_version );
-	wp_enqueue_script('tailwind', '//cdn.tailwindcss.com', NULL, '3.3.2', true);
+	wp_enqueue_script('tailwind', '//maps.googleapis.com/maps/api/js?key=AIzaSyDin3iGCdZ7RPomFLyb2yqFERhs55dmfTI', NULL, '1.0', true);
 
 }
 add_action( 'wp_enqueue_scripts', 'twentytwentyblocks_register_styles' );
