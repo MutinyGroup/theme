@@ -322,7 +322,7 @@ if ( function_exists( 'register_block_pattern' ) ) {
 
 function bannerBlock() {
   wp_register_script('bannerBlockScript', get_theme_file_uri('/my-blocks/banner2.js'), array('wp-blocks', 'wp-editor'));
-  register_block_type("myBlockTheme/banner2", array(
+  register_block_type("ourblocktheme/banner", array(
     'editor_script' => 'bannerBlockScript'
   ));
 }
