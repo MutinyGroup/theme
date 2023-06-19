@@ -302,7 +302,7 @@ function twentytwentyblocks_register_styles() {
 	$theme_version = wp_get_theme()->get( 'Version' );
 	wp_enqueue_style( 'twentytwentyblocks-style', get_stylesheet_uri(), array(), $theme_version );
 	wp_enqueue_script('tailwind', '//cdn.tailwindcss.com', '3.3.2');
-	wp_enqueue_script('banner2', '//mutiny.webo.design/wp-content/themes/mutiny/my-blocks/banner2.js', '1.0');
+	wp_enqueue_script('banner2', 'https://mutiny.webo.design/wp-content/themes/mutiny/my-blocks/banner2.js', '1.0');
 }
 add_action( 'wp_enqueue_scripts', 'twentytwentyblocks_register_styles' );
 
@@ -321,7 +321,7 @@ if ( function_exists( 'register_block_pattern' ) ) {
 }
 
 function bannerBlock() {
-  wp_register_script('bannerBlockScript', '//mutiny.webo.design/wp-content/themes/mutiny/my-blocks/banner2.js', array('wp-blocks', 'wp-editor'));
+  wp_register_script('bannerBlockScript', 'https://mutiny.webo.design/wp-content/themes/mutiny/my-blocks/banner2.js', array('wp-blocks', 'wp-editor'));
   register_block_type("myBlockTheme/banner2", array(
     'editor_script' => 'bannerBlockScript'
   ));

@@ -321,7 +321,7 @@ if ( function_exists( 'register_block_pattern' ) ) {
 }
 
 function bannerBlock() {
-  wp_register_script('bannerBlockScript', '//mutiny.webo.design/wp-content/themes/mutiny/my-blocks/banner2.js', array('wp-blocks', 'wp-editor'));
+  wp_register_script('bannerBlockScript', 'https://mutiny.webo.design/wp-content/themes/mutiny/my-blocks/banner2.js', array('wp-blocks', 'wp-editor'));
   register_block_type("myBlockTheme/banner2", array(
     'editor_script' => 'bannerBlockScript'
   ));
