@@ -7,11 +7,13 @@
 		},
 		{
 			"name": "banner",
-			"title": "banner"
+			"title": "banner",
+			"area": "banner"
 		},
 		{
 			"name": "about-us",
-			"title": "about-us"
+			"title": "about-us",
+			"area": "about-us"
 		},
 		{
 			"name": "footer",
