@@ -6,10 +6,11 @@
         "title": "banner"
     },
     {
-        "name": "about-us",
-        "title": "about-us",
+        "name": "page-contact",
+        "title": "Contact",
+        "postTypes": [ "page" ]
     }
-],
+]
 	"templateParts": [
 		{
 			"name": "header",
