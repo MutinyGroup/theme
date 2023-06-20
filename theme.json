@@ -18,6 +18,14 @@
 			"title": "services"
 		},
 		{
+			"name": "companies-coop",
+			"title": "companies-coop"
+		},
+		{
+			"name": "realizations",
+			"title": "realizations"
+		},
+		{
 			"name": "footer",
 			"title": "Footer",
 			"area": "footer"
