@@ -319,22 +319,3 @@ if ( function_exists( 'register_block_pattern' ) ) {
 	    )
 	);
 }
-
-function bannerBlock() {
-  wp_register_script('bannerBlockScript', get_theme_file_uri('/our-blocks/banner-build.js'), array('wp-blocks', 'wp-editor'));
-  wp_register_script('bannerBlockScript2', get_theme_file_uri('/our-blocks/genericheading-build.js'), array('wp-blocks', 'wp-editor'));
-  register_block_type("ourblocktheme/banner", array(
-    'editor_script' => 'bannerBlockScript'
-  ));
-}
-
-add_action('init', 'bannerBlock');
-
-function genericHeading() {
-  wp_register_script('genericHeadingScript', get_theme_file_uri('/our-blocks/genericheading-build.js'), array('wp-blocks', 'wp-editor'));
-  register_block_type("ourblocktheme/genericheading", array(
-    'editor_script' => 'genericHeadingScript'
-  ));
-}
-
-add_action('init', 'genericHeading');
