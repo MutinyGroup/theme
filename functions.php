@@ -295,6 +295,7 @@ if ( function_exists( 'register_block_style' ) ) {
 function mutinyblocks_register_styles() {
 	$theme_version = wp_get_theme()->get( 'Version' );
 	wp_enqueue_style( 'mutinyblocks-style', get_stylesheet_uri(), array(), $theme_version );
+	wp_enqueue_script('custom-styles', get_theme_file_uri('/assets/custom-styles.css'), '1.0');
 	wp_enqueue_script('tailwind', '//cdn.tailwindcss.com', '3.3.2');
 	wp_enqueue_script('tailwind-config', get_theme_file_uri('/assets/tailwind-config.js'), '1.0');
 }
