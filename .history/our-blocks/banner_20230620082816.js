@@ -98,23 +98,23 @@ wp.blocks.registerBlockType("ourblocktheme/banner", {
 
 function EditComponent() {
   return (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
-    className: "page-banner-test text-[30px]"
+    className: "page-banner"
   }, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
     className: "page-banner__bg-image",
     style: {
-      backgroundImage: "url('')"
+      backgroundImage: "url('/wp-content/themes/fictional-block-theme/images/library-hero.jpg')"
     }
   }), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
-    className: "page-banner__content container text-[30px] text-white bg-black"
+    className: "page-banner__content container t-center c-white"
   }, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("h1", {
-    className: "headline"
+    className: "headline headline--large"
   }, "Mutiny group"), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("h2", {
-    className: "headline"
+    className: "headline headline--medium"
   }, "Wchodzimy na rynek z mocnym"), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("h3", {
-    className: ""
+    className: "headline headline--small"
   }, "UDERZENIEM", (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("strong", null, "major"), " you\u2019re interested in?"), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("a", {
     href: "#",
-    className: "btn"
+    className: "btn btn--large btn--blue"
   }, "Zobacz więcej")));
 }
 
