@@ -2,26 +2,6 @@
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
-/***/ "@wordpress/block-editor":
-/*!*************************************!*\
-  !*** external ["wp","blockEditor"] ***!
-  \*************************************/
-/***/ (function(module) {
-
-module.exports = window["wp"]["blockEditor"];
-
-/***/ }),
-
-/***/ "@wordpress/blocks":
-/*!********************************!*\
-  !*** external ["wp","blocks"] ***!
-  \********************************/
-/***/ (function(module) {
-
-module.exports = window["wp"]["blocks"];
-
-/***/ }),
-
 /***/ "@wordpress/element":
 /*!*********************************!*\
   !*** external ["wp","element"] ***!
@@ -109,42 +89,33 @@ var __webpack_exports__ = {};
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _wordpress_element__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @wordpress/element */ "@wordpress/element");
 /* harmony import */ var _wordpress_element__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_wordpress_element__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _wordpress_block_editor__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @wordpress/block-editor */ "@wordpress/block-editor");
-/* harmony import */ var _wordpress_block_editor__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _wordpress_blocks__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @wordpress/blocks */ "@wordpress/blocks");
-/* harmony import */ var _wordpress_blocks__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_wordpress_blocks__WEBPACK_IMPORTED_MODULE_2__);
 
-
-
-(0,_wordpress_blocks__WEBPACK_IMPORTED_MODULE_2__.registerBlockType)("ourblocktheme/banner", {
+wp.blocks.registerBlockType("ourblocktheme/banner", {
   title: "Banner",
   edit: EditComponent,
   save: SaveComponent
 });
 
 function EditComponent() {
-  const useMeLater = (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("h1", {
-    className: "headline headline--large"
-  }, "Welcome!"), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("h2", {
-    className: "headline headline--medium"
-  }, "We think you\u2019ll like it here."), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("h3", {
-    className: "headline headline--small"
-  }, "Why don\u2019t you check out the ", (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("strong", null, "major"), " you\u2019re interested in?"), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("a", {
-    href: "#",
-    className: "btn btn--large btn--blue"
-  }, "Find Your Major"));
   return (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
-    className: "page-banner"
+    className: "page-banner-test text-[30px]"
   }, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
     className: "page-banner__bg-image",
     style: {
       backgroundImage: "url('https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/banner-bg.png')"
     }
   }), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
-    className: "page-banner__content container t-center c-white"
-  }, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_1__.InnerBlocks, {
-    allowedBlocks: ["ourblocktheme/genericheading"]
-  })));
+    className: "page-banner__content container text-[30px] text-white bg-black"
+  }, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("h1", {
+    className: "headline"
+  }, "Mutiny group"), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("h2", {
+    className: "headline"
+  }, "Wchodzimy na rynek z mocnym"), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("h3", {
+    className: ""
+  }, "UDERZENIEM", (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("strong", null, " test"), ""), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("a", {
+    href: "#",
+    className: "btn"
+  }, "Zobacz więcej")));
 }
 
 function SaveComponent() {
@@ -167,17 +138,7 @@ function SaveComponent() {
     href: "#",
     className: "btn"
   }, "Zobacz więcej")));
-//   return (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
-//     className: "page-banner w-[400px] h-[300px] text-[30px]"
-//   }, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
-//     className: "page-banner__bg-image",
-//     style: {
-//       backgroundImage: "url('https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/banner-bg.png')"
-//     }
-//   }), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
-//     className: "page-banner__content container t-center c-white"
-//   }, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_1__.InnerBlocks.Content, null)));
-// }
+}
 }();
 /******/ })()
 ;
