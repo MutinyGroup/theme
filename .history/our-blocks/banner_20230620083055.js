@@ -12,10 +12,10 @@ function EditComponent() {
         <h1 className="headline headline--large">WCHODZIMY NA RYNEK Z MOCNYM</h1>
         <h2 className="headline headline--medium">UDERZENIEM</h2>
         <h3 className="headline headline--small">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          Why don&rsquo;t you check out the <strong>major</strong> you&rsquo;re interested in?
         </h3>
         <a href="#" className="btn btn--large btn--blue">
-          Zobacz więcej
+          Find Your Major
         </a>
       </div>
     </div>

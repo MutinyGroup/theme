@@ -15,7 +15,7 @@ function EditComponent() {
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
         </h3>
         <a href="#" className="btn btn--large btn--blue">
-          Zobacz więcej
+          Find Your Major
         </a>
       </div>
     </div>
