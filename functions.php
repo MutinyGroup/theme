@@ -10,12 +10,6 @@ if ( ! function_exists( 'mutinyblocks_theme_support' ) ) :
 		// Add support for full and wide align images.
 		add_theme_support( 'align-wide' );
 
-		// Add support for editor styles.
-		add_theme_support( 'editor-styles' );
-
-		// Enqueue editor styles.
-		add_editor_style( 'mutiny-styles/editor-style-block.css' );
-
 		// Add support for custom line height controls.
 		add_theme_support( 'custom-line-height' );
 
