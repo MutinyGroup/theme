@@ -336,12 +336,4 @@ function bannerBlock() {
   ));
 }
 
-add_action('init', 'genericHeading');
-function bannerBlock() {
-  wp_register_script('genericHeadingScript', get_theme_file_uri('/our-blocks/genericheading-build.js'), array('wp-blocks', 'wp-editor'));
-  register_block_type("ourblocktheme/genericheading", array(
-    'editor_script' => 'genericHeadingScript'
-  ));
-}
-
-add_action('init', 'genericHeading');
+add_action('init', 'bannerBlock');
