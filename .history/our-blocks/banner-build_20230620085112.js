@@ -124,7 +124,7 @@ function SaveComponent() {
   }, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
     className: "page-banner__bg-image",
     style: {
-      backgroundImage: "url('https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/banner-bg-shape.png')"
+      backgroundImage: "url('')"
     }
   }), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
     className: "page-banner__content container text-[30px] text-white bg-black"
