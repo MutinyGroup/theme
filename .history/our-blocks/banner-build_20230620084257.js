@@ -119,25 +119,7 @@ function EditComponent() {
 }
 
 function SaveComponent() {
-  return (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
-    className: "page-banner-test text-[30px]"
-  }, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
-    className: "page-banner__bg-image",
-    style: {
-      backgroundImage: "url('')"
-    }
-  }), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
-    className: "page-banner__content container text-[30px] text-white bg-black"
-  }, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("h1", {
-    className: "headline"
-  }, "Mutiny group"), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("h2", {
-    className: "headline"
-  }, "Wchodzimy na rynek z mocnym"), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("h3", {
-    className: ""
-  }, "UDERZENIEM", (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("strong", null, " test"), ""), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("a", {
-    href: "#",
-    className: "btn"
-  }, "Zobacz więcej")));
+  return (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, "from banner-build saveComponent");
 }
 }();
 /******/ })()
