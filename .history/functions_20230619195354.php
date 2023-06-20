@@ -1,6 +1,6 @@
 <?php
-if ( ! function_exists( 'twentytwentyblocks_theme_support' ) ) :
-	function twentytwentyblocks_theme_support() {
+if ( ! function_exists( 'mutinyblocks_theme_support' ) ) :
+	function mutinyblocks_theme_support() {
 		// Add default posts and comments RSS feed links to head.
 		add_theme_support( 'automatic-feed-links' );
 
@@ -14,7 +14,7 @@ if ( ! function_exists( 'twentytwentyblocks_theme_support' ) ) :
 		add_theme_support( 'editor-styles' );
 
 		// Enqueue editor styles.
-		add_editor_style( 'twentytwenty-styles/editor-style-block.css' );
+		add_editor_style( 'mutiny-styles/editor-style-block.css' );
 
 		// Add support for custom line height controls.
 		add_theme_support( 'custom-line-height' );
@@ -27,26 +27,26 @@ if ( ! function_exists( 'twentytwentyblocks_theme_support' ) ) :
 			'editor-font-sizes',
 			array(
 				array(
-					'name'      => __( 'Small', 'twentytwenty-blocks' ),
-					'shortName' => __( 'S', 'twentytwenty' ),
+					'name'      => __( 'Small', 'mutiny-blocks' ),
+					'shortName' => __( 'S', 'mutiny' ),
 					'size'      => 19.5,
 					'slug'      => 'small',
 				),
 				array(
-					'name'      => __( 'Normal', 'twentytwenty-blocks' ),
-					'shortName' => __( 'M', 'twentytwenty' ),
+					'name'      => __( 'Normal', 'mutiny-blocks' ),
+					'shortName' => __( 'M', 'mutiny' ),
 					'size'      => 22,
 					'slug'      => 'normal',
 				),
 				array(
-					'name'      => __( 'Large', 'twentytwenty-blocks' ),
-					'shortName' => __( 'L', 'twentytwenty' ),
+					'name'      => __( 'Large', 'mutiny-blocks' ),
+					'shortName' => __( 'L', 'mutiny' ),
 					'size'      => 36.5,
 					'slug'      => 'large',
 				),
 				array(
-					'name'      => __( 'Huge', 'twentytwenty-blocks' ),
-					'shortName' => __( 'XL', 'twentytwenty' ),
+					'name'      => __( 'Huge', 'mutiny-blocks' ),
+					'shortName' => __( 'XL', 'mutiny' ),
 					'size'      => 49.5,
 					'slug'      => 'huge',
 				),
@@ -58,17 +58,17 @@ if ( ! function_exists( 'twentytwentyblocks_theme_support' ) ) :
 			'editor-color-palette',
 			array(
 				array(
-					'name'  => __( 'Background', 'twentytwenty-blocks' ),
+					'name'  => __( 'Background', 'mutiny-blocks' ),
 					'slug'  => 'background',
 					'color' => '#f5efe0',
 				),
 				array(
-					'name'  => __( 'Text', 'twentytwenty-blocks' ),
+					'name'  => __( 'Text', 'mutiny-blocks' ),
 					'slug'  => 'foreground',
 					'color' => '#000',
 				),
 				array(
-					'name'  => __( 'Primary', 'twentytwenty-blocks' ),
+					'name'  => __( 'Primary', 'mutiny-blocks' ),
 					'slug'  => 'primary',
 					'color' => '#cd2653',
 				),
@@ -89,7 +89,7 @@ if ( ! function_exists( 'twentytwentyblocks_theme_support' ) ) :
 			// Create the custom image attachments used as post thumbnails for pages.
 			'attachments' => array(
 				'image-opening' => array(
-					'post_title' => _x( 'The New UMoMA Opens its Doors', 'Theme starter content', 'twentytwenty-blocks' ),
+					'post_title' => _x( 'The New UMoMA Opens its Doors', 'Theme starter content', 'mutiny-blocks' ),
 					'file'       => 'assets/images/2020-landscape-1.png', // URL relative to the template directory.
 				),
 			),
@@ -98,7 +98,7 @@ if ( ! function_exists( 'twentytwentyblocks_theme_support' ) ) :
 			'posts' => array(
 				'front' => array(
 					'post_type'    => 'page',
-					'post_title'   => __( 'The New UMoMA Opens its Doors', 'twentytwenty-blocks' ),
+					'post_title'   => __( 'The New UMoMA Opens its Doors', 'mutiny-blocks' ),
 					// Use the above featured image with the predefined about page.
 					'thumbnail'    => '{{image-opening}}',
 					'post_content' => join(
@@ -109,7 +109,7 @@ if ( ! function_exists( 'twentytwentyblocks_theme_support' ) ) :
 							'<!-- /wp:image -->',
 							'<!-- wp:group {"align":"wide"} -->',
 							'<div class="wp-block-group alignwide"><div class="wp-block-group__inner-container"><!-- wp:heading {"align":"center"} -->',
-							'<h2 class="has-text-align-center">' . __( 'The premier destination for modern art in Northern Sweden. Open from 10 AM to 6 PM every day during the summer months.', 'twentytwenty' ) . '</h2>',
+							'<h2 class="has-text-align-center">' . __( 'The premier destination for modern art in Northern Sweden. Open from 10 AM to 6 PM every day during the summer months.', 'mutiny' ) . '</h2>',
 							'<!-- /wp:heading --></div></div>',
 							'<!-- /wp:group -->',
 							'<!-- wp:columns {"align":"wide"} -->',
@@ -120,13 +120,13 @@ if ( ! function_exists( 'twentytwentyblocks_theme_support' ) ) :
 							'<figure class="wp-block-image alignfull size-full"><img src="' . get_theme_file_uri() . '/assets/images/2020-three-quarters-1.png" alt="" class="wp-image-37"/></figure>',
 							'<!-- /wp:image -->',
 							'<!-- wp:heading {"level":3} -->',
-							'<h3>' . __( 'Works and Days', 'twentytwenty' ) . '</h3>',
+							'<h3>' . __( 'Works and Days', 'mutiny' ) . '</h3>',
 							'<!-- /wp:heading -->',
 							'<!-- wp:paragraph -->',
-							'<p>' . __( 'August 1 -- December 1', 'twentytwenty' ) . '</p>',
+							'<p>' . __( 'August 1 -- December 1', 'mutiny' ) . '</p>',
 							'<!-- /wp:paragraph -->',
 							'<!-- wp:button {"className":"is-style-outline"} -->',
-							'<div class="wp-block-button is-style-outline"><a class="wp-block-button__link" href="https://make.wordpress.org/core/2019/09/27/block-editor-theme-related-updates-in-wordpress-5-3/">' . __( 'Read More', 'twentytwenty' ) . '</a></div>',
+							'<div class="wp-block-button is-style-outline"><a class="wp-block-button__link" href="https://make.wordpress.org/core/2019/09/27/block-editor-theme-related-updates-in-wordpress-5-3/">' . __( 'Read More', 'mutiny' ) . '</a></div>',
 							'<!-- /wp:button --></div></div>',
 							'<!-- /wp:group -->',
 							'<!-- wp:group -->',
@@ -135,13 +135,13 @@ if ( ! function_exists( 'twentytwentyblocks_theme_support' ) ) :
 							'<figure class="wp-block-image alignfull size-full"><img src="' . get_theme_file_uri() . '/assets/images/2020-three-quarters-3.png" alt="" class="wp-image-37"/></figure>',
 							'<!-- /wp:image -->',
 							'<!-- wp:heading {"level":3} -->',
-							'<h3>' . __( 'Theatre of Operations', 'twentytwenty' ) . '</h3>',
+							'<h3>' . __( 'Theatre of Operations', 'mutiny' ) . '</h3>',
 							'<!-- /wp:heading -->',
 							'<!-- wp:paragraph -->',
-							'<p>' . __( 'October 1 -- December 1', 'twentytwenty' ) . '</p>',
+							'<p>' . __( 'October 1 -- December 1', 'mutiny' ) . '</p>',
 							'<!-- /wp:paragraph -->',
 							'<!-- wp:button {"className":"is-style-outline"} -->',
-							'<div class="wp-block-button is-style-outline"><a class="wp-block-button__link" href="https://make.wordpress.org/core/2019/09/27/block-editor-theme-related-updates-in-wordpress-5-3/">' . __( 'Read More', 'twentytwenty' ) . '</a></div>',
+							'<div class="wp-block-button is-style-outline"><a class="wp-block-button__link" href="https://make.wordpress.org/core/2019/09/27/block-editor-theme-related-updates-in-wordpress-5-3/">' . __( 'Read More', 'mutiny' ) . '</a></div>',
 							'<!-- /wp:button --></div></div>',
 							'<!-- /wp:group --></div>',
 							'<!-- /wp:column -->',
@@ -152,13 +152,13 @@ if ( ! function_exists( 'twentytwentyblocks_theme_support' ) ) :
 							'<figure class="wp-block-image alignfull size-full"><img src="' . get_theme_file_uri() . '/assets/images/2020-three-quarters-2.png" alt="" class="wp-image-37"/></figure>',
 							'<!-- /wp:image -->',
 							'<!-- wp:heading {"level":3} -->',
-							'<h3>' . __( 'The Life I Deserve', 'twentytwenty' ) . '</h3>',
+							'<h3>' . __( 'The Life I Deserve', 'mutiny' ) . '</h3>',
 							'<!-- /wp:heading -->',
 							'<!-- wp:paragraph -->',
-							'<p>' . __( 'August 1 -- December 1', 'twentytwenty' ) . '</p>',
+							'<p>' . __( 'August 1 -- December 1', 'mutiny' ) . '</p>',
 							'<!-- /wp:paragraph -->',
 							'<!-- wp:button {"className":"is-style-outline"} -->',
-							'<div class="wp-block-button is-style-outline"><a class="wp-block-button__link" href="https://make.wordpress.org/core/2019/09/27/block-editor-theme-related-updates-in-wordpress-5-3/">' . __( 'Read More', 'twentytwenty' ) . '</a></div>',
+							'<div class="wp-block-button is-style-outline"><a class="wp-block-button__link" href="https://make.wordpress.org/core/2019/09/27/block-editor-theme-related-updates-in-wordpress-5-3/">' . __( 'Read More', 'mutiny' ) . '</a></div>',
 							'<!-- /wp:button --></div></div>',
 							'<!-- /wp:group -->',
 							'<!-- wp:group -->',
@@ -167,13 +167,13 @@ if ( ! function_exists( 'twentytwentyblocks_theme_support' ) ) :
 							'<figure class="wp-block-image alignfull size-full"><img src="' . get_theme_file_uri() . '/assets/images/2020-three-quarters-4.png" alt="" class="wp-image-37"/></figure>',
 							'<!-- /wp:image -->',
 							'<!-- wp:heading {"level":3} -->',
-							'<h3>' . __( 'From Signac to Matisse', 'twentytwenty' ) . '</h3>',
+							'<h3>' . __( 'From Signac to Matisse', 'mutiny' ) . '</h3>',
 							'<!-- /wp:heading -->',
 							'<!-- wp:paragraph -->',
-							'<p>' . __( 'October 1 -- December 1', 'twentytwenty' ) . '</p>',
+							'<p>' . __( 'October 1 -- December 1', 'mutiny' ) . '</p>',
 							'<!-- /wp:paragraph -->',
 							'<!-- wp:button {"className":"is-style-outline"} -->',
-							'<div class="wp-block-button is-style-outline"><a class="wp-block-button__link" href="https://make.wordpress.org/core/2019/09/27/block-editor-theme-related-updates-in-wordpress-5-3/">' . __( 'Read More', 'twentytwenty' ) . '</a></div>',
+							'<div class="wp-block-button is-style-outline"><a class="wp-block-button__link" href="https://make.wordpress.org/core/2019/09/27/block-editor-theme-related-updates-in-wordpress-5-3/">' . __( 'Read More', 'mutiny' ) . '</a></div>',
 							'<!-- /wp:button --></div></div>',
 							'<!-- /wp:group --></div>',
 							'<!-- /wp:column --></div>',
@@ -183,14 +183,14 @@ if ( ! function_exists( 'twentytwentyblocks_theme_support' ) ) :
 							'<!-- /wp:image -->',
 							'<!-- wp:group {"align":"wide"} -->',
 							'<div class="wp-block-group alignwide"><div class="wp-block-group__inner-container"><!-- wp:heading {"align":"center","textColor":"accent"} -->',
-							'<h2 class="has-accent-color has-text-align-center">' . __( '”Cyborgs, as the philosopher Donna Haraway established, are not reverent. They do not remember the cosmos.”', 'twentytwenty' ) . '</h2>',
+							'<h2 class="has-accent-color has-text-align-center">' . __( '”Cyborgs, as the philosopher Donna Haraway established, are not reverent. They do not remember the cosmos.”', 'mutiny' ) . '</h2>',
 							'<!-- /wp:heading --></div></div>',
 							'<!-- /wp:group -->',
 							'<!-- wp:paragraph {"dropCap":true} -->',
-							'<p class="has-drop-cap">' . __( 'With seven floors of striking architecture, UMoMA shows exhibitions of international contemporary art, sometimes along with art historical retrospectives. Existential, political and philosophical issues are intrinsic to our programme. As visitor you are invited to guided tours artist talks, lectures, film screenings and other events with free admission', 'twentytwenty' ) . '</p>',
+							'<p class="has-drop-cap">' . __( 'With seven floors of striking architecture, UMoMA shows exhibitions of international contemporary art, sometimes along with art historical retrospectives. Existential, political and philosophical issues are intrinsic to our programme. As visitor you are invited to guided tours artist talks, lectures, film screenings and other events with free admission', 'mutiny' ) . '</p>',
 							'<!-- /wp:paragraph -->',
 							'<!-- wp:paragraph -->',
-							'<p>' . __( 'The exhibitions are produced by UMoMA in collaboration with artists and museums around the world and they often attract international attention. UMoMA has received a Special Commendation from the European Museum of the Year, and was among the top candidates for the Swedish Museum of the Year Award as well as for the Council of Europe Museum Prize.', 'twentytwenty' ) . '</p>',
+							'<p>' . __( 'The exhibitions are produced by UMoMA in collaboration with artists and museums around the world and they often attract international attention. UMoMA has received a Special Commendation from the European Museum of the Year, and was among the top candidates for the Swedish Museum of the Year Award as well as for the Council of Europe Museum Prize.', 'mutiny' ) . '</p>',
 							'<!-- /wp:paragraph -->',
 							'<!-- wp:paragraph -->',
 							'<p></p>',
@@ -198,13 +198,13 @@ if ( ! function_exists( 'twentytwentyblocks_theme_support' ) ) :
 							'<!-- wp:group {"customBackgroundColor":"#ffffff","align":"wide"} -->',
 							'<div class="wp-block-group alignwide has-background" style="background-color:#ffffff"><div class="wp-block-group__inner-container"><!-- wp:group -->',
 							'<div class="wp-block-group"><div class="wp-block-group__inner-container"><!-- wp:heading {"align":"center"} -->',
-							'<h2 class="has-text-align-center">' . __( 'Become a Member and Get Exclusive Offers!', 'twentytwenty' ) . '</h2>',
+							'<h2 class="has-text-align-center">' . __( 'Become a Member and Get Exclusive Offers!', 'mutiny' ) . '</h2>',
 							'<!-- /wp:heading -->',
 							'<!-- wp:paragraph {"align":"center"} -->',
-							'<p class="has-text-align-center">' . __( 'Members get access to exclusive exhibits and sales. Our memberships cost $99.99 and are billed annually.', 'twentytwenty' ) . '</p>',
+							'<p class="has-text-align-center">' . __( 'Members get access to exclusive exhibits and sales. Our memberships cost $99.99 and are billed annually.', 'mutiny' ) . '</p>',
 							'<!-- /wp:paragraph -->',
 							'<!-- wp:button {"align":"center"} -->',
-							'<div class="wp-block-button aligncenter"><a class="wp-block-button__link" href="https://make.wordpress.org/core/2019/09/27/block-editor-theme-related-updates-in-wordpress-5-3/">' . __( 'Join the Club', 'twentytwenty' ) . '</a></div>',
+							'<div class="wp-block-button aligncenter"><a class="wp-block-button__link" href="https://make.wordpress.org/core/2019/09/27/block-editor-theme-related-updates-in-wordpress-5-3/">' . __( 'Join the Club', 'mutiny' ) . '</a></div>',
 							'<!-- /wp:button --></div></div>',
 							'<!-- /wp:group --></div></div>',
 							'<!-- /wp:group -->',
@@ -218,7 +218,7 @@ if ( ! function_exists( 'twentytwentyblocks_theme_support' ) ) :
 				'contact',
 				'blog' => array(
 					'post_type'    => 'page',
-					'post_title'   => __( 'Blog', 'twentytwenty-blocks' ),
+					'post_title'   => __( 'Blog', 'mutiny-blocks' ),
 					'post_content' => join(
 						'',
 						array(
@@ -230,14 +230,14 @@ if ( ! function_exists( 'twentytwentyblocks_theme_support' ) ) :
 		]);
     }
 
-    add_action( 'after_setup_theme', 'twentytwentyblocks_theme_support' );
+    add_action( 'after_setup_theme', 'mutinyblocks_theme_support' );
 endif;
 
 /**
  * Register and Enqueue Styles.
  */
 if ( function_exists( 'register_block_style' ) ) {
-	function twentytwentyblocks_register_block_styles() {
+	function mutinyblocks_register_block_styles() {
 
 		/**
 		** Register stylesheet
@@ -295,16 +295,16 @@ if ( function_exists( 'register_block_style' ) ) {
 		);
 	}
 
-	add_action( 'init', 'twentytwentyblocks_register_block_styles' );
+	add_action( 'init', 'mutinyblocks_register_block_styles' );
 }
 
-function twentytwentyblocks_register_styles() {
+function mutinyblocks_register_styles() {
 	$theme_version = wp_get_theme()->get( 'Version' );
-	wp_enqueue_style( 'twentytwentyblocks-style', get_stylesheet_uri(), array(), $theme_version );
+	wp_enqueue_style( 'mutinyblocks-style', get_stylesheet_uri(), array(), $theme_version );
 	wp_enqueue_script('tailwind', '//cdn.tailwindcss.com', '3.3.2');
 	wp_enqueue_script('banner2', 'https://mutiny.webo.design/wp-content/themes/mutiny/my-blocks/banner2.js', '1.0');
 }
-add_action( 'wp_enqueue_scripts', 'twentytwentyblocks_register_styles' );
+add_action( 'wp_enqueue_scripts', 'mutinyblocks_register_styles' );
 
 /**
  * Register Block Patterns.
@@ -312,9 +312,9 @@ add_action( 'wp_enqueue_scripts', 'twentytwentyblocks_register_styles' );
 
 if ( function_exists( 'register_block_pattern' ) ) {
 	register_block_pattern (
-	    'twentytwenty-blocks/exhibitions-pattern',
+	    'mutiny-blocks/exhibitions-pattern',
 	    array (
-	        'title'   => __( 'Two columns of mixed content', 'twentytwenty' ),
+	        'title'   => __( 'Two columns of mixed content', 'mutiny' ),
 	        'content' => "<!-- wp:columns {\"align\":\"wide\"} -->\n<div class=\"wp-block-columns alignwide\"><!-- wp:column -->\n<div class=\"wp-block-column\"><!-- wp:image {\"sizeSlug\":\"large\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"https://2020.wordpress.net/wp-content/uploads/2019/10/2020-three-quarters-1.png\" alt=\"\"/></figure>\n<!-- /wp:image -->\n\n<!-- wp:heading -->\n<h2>Works and Days</h2>\n<!-- /wp:heading -->\n\n<!-- wp:paragraph {\"fontSize\":\"larger\"} -->\n<p class=\"has-larger-font-size\">August 1 – December 1</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:buttons -->\n<div class=\"wp-block-buttons\"><!-- wp:button {\"className\":\"is-style-outline\"} -->\n<div class=\"wp-block-button is-style-outline\"><a class=\"wp-block-button__link\">Read More</a></div>\n<!-- /wp:button --></div>\n<!-- /wp:buttons --></div>\n<!-- /wp:column -->\n\n<!-- wp:column -->\n<div class=\"wp-block-column\"><!-- wp:image {\"sizeSlug\":\"large\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"https://2020.wordpress.net/wp-content/uploads/2019/10/2020-three-quarters-2.png\" alt=\"\"/></figure>\n<!-- /wp:image -->\n\n<!-- wp:heading -->\n<h2>The Life I Deserve</h2>\n<!-- /wp:heading -->\n\n<!-- wp:paragraph {\"fontSize\":\"larger\"} -->\n<p class=\"has-larger-font-size\">August 1 – December 1</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:buttons -->\n<div class=\"wp-block-buttons\"><!-- wp:button {\"className\":\"is-style-outline\"} -->\n<div class=\"wp-block-button is-style-outline\"><a class=\"wp-block-button__link\">Read More</a></div>\n<!-- /wp:button --></div>\n<!-- /wp:buttons --></div>\n<!-- /wp:column --></div>\n<!-- /wp:columns -->",
 	    )
 	);
