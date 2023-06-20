@@ -295,9 +295,12 @@ if ( function_exists( 'register_block_style' ) ) {
 function mutinyblocks_register_styles() {
 	$theme_version = wp_get_theme()->get( 'Version' );
 	wp_enqueue_style( 'mutinyblocks-style', get_stylesheet_uri(), array(), $theme_version );
-	wp_enqueue_script('custom-styles', get_theme_file_uri('/assets/custom-styles.css'), '1.0');
+	wp_enqueue_style('custom-styles', get_theme_file_uri('/assets/custom-styles.css'), '1.0');
 	wp_enqueue_script('tailwind', '//cdn.tailwindcss.com', '3.3.2');
 	wp_enqueue_script('tailwind-config', get_theme_file_uri('/assets/tailwind-config.js'), '1.0');
+	wp_enqueue_style('swiper-css', '//cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css', '9.4.1');
+	wp_enqueue_script('swiper-js', '//cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.esm.browser.min.js', '9.4.1');
+	wp_enqueue_script('swiper-main', get_theme_file_uri('/assets/swiper-main.js'), '1.0');
 }
 add_action( 'wp_enqueue_scripts', 'mutinyblocks_register_styles' );
 
