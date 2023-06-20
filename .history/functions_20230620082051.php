@@ -329,7 +329,7 @@ function add_block_template_part_support() {
 }
 
 function bannerBlock() {
-  wp_register_script('bannerBlockScript', get_theme_file_uri('/our-blocks/banner.js'), array('wp-blocks', 'wp-editor'));
+  wp_register_script('bannerBlockScript', get_stylesheet_directory_uri() . '/build/banner.js', array('wp-blocks', 'wp-editor'));
   register_block_type("ourblocktheme/banner", array(
     'editor_script' => 'bannerBlockScript'
   ));
