@@ -2,8 +2,8 @@ tailwind.config = {
   theme: {
     container: {
       screens: {
-        xl: "1080px",
-        "2xl": "1496px",
+        xl: "1180px",
+        "2xl": "1440px",
       },
     },
     extend: {
