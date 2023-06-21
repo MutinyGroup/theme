@@ -3,8 +3,7 @@
  * Title: Banner test
  * Slug: mutiny/banner
  * Categories: test
- * Block Types: mutiny/footer
- * Viewport Width: 1024
+ * Block Types: mutiny/banner
  */
 ?>
 
