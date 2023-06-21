@@ -10,10 +10,11 @@ const swiper = new Swiper('.swiperServices', {
 });
 
 const swiper = new Swiper('.swiperOpinions', {
-  direction: "horizontal",
-  loop: false,
-  slidesPerView: 2,
-  spaceBetween: 50,
+  spaceBetween: 30,
+  pagination: {
+    el: ".swiper-pagination",
+    type: "fraction",
+  },
   navigation: {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
