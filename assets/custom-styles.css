@@ -55,7 +55,7 @@ body{
   display: none;
 }
 
-.swiper-slide::before {
+.swiper-slide-services::before {
   opacity: 0;
   content: "";
   position: absolute;
