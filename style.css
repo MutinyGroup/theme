@@ -97,26 +97,3 @@ Tags: one-column, flexible-header, accessibility-ready, custom-colors, custom-me
 	width: auto;	
 	height: auto;	
 }
-
-/* tk tests */
-.bg-flash {
-  position: absolute;
-  width: 300px;
-  height: 300px;
-  left: -50px;
-  top: -80px;
-
-  background: linear-gradient(
-    180deg,
-    rgba(254, 196, 0, 0.55) 0%,
-    rgba(254, 196, 0, 0) 100%
-  );
-  z-index: -1;
-  filter: blur(125px);
-  transform: rotate(-45deg);
-}
-
-body{
-	background-color: black!important;
-	color: white!important;
-}

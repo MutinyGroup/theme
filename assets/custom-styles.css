@@ -2,6 +2,8 @@
 
 body{
   font-family: 'Urbanist', sans-serif;
+  background-color: #101010;
+	color: white;
 }
 .bg-flash {
   position: absolute;
