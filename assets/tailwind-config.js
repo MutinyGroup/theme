@@ -11,7 +11,6 @@ tailwind.config = {
         primaryYellow: "#FEC400",
         secondary: "#FFBE34",
         textgray: "#4D5053",
-        darkblue: "#091242",
       },
     },
     screens: {
