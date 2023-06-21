@@ -1,31 +1,4 @@
 {
-	"settings": {
-		"layout": {
-			"contentSize": "340px",
-			"wideSize": "600px"
-		},
-		"spacing": {
-			"margin": true,
-			"padding": true,
-			"spacingSizes": [
-				{
-				"size": "clamp(1.5rem, 5vw, 2rem)",
-				"slug": "30",
-				"name": "1"
-				},
-				{
-				"size": "clamp(1.8rem, 1.8rem + ((1vw - 0.48rem) * 2.885), 3rem)",
-				"slug": "40",
-				"name": "2"
-				},
-				{
-				"size": "clamp(2.5rem, 8vw, 6.5rem)",
-				"slug": "50",
-				"name": "3"
-				}
-			]
-		}
-	},
 	"templateParts": [
 		{
 			"name": "header-main",
