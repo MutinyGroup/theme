@@ -330,4 +330,4 @@ function banner_block_pattern() {
 	);
 };
  
-add_action( 'init', 'prefix_block_pattern' );
+add_action( 'init', 'banner_block_pattern' );
