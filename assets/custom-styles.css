@@ -14,7 +14,7 @@ body{
 
   background: linear-gradient(
     180deg,
-    rgba(254, 196, 0, 0.55) 0%,
+    rgba(254, 196, 0, 0.35) 0%,
     rgba(254, 196, 0, 0) 100%
   );
   z-index: -1;
