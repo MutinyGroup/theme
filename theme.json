@@ -1,4 +1,10 @@
 {
+	"settings": {
+		"layout": {
+			"contentSize": "640px",
+			"wideSize": "800px"
+		}
+	},
 	"templateParts": [
 		{
 			"name": "header-main",
