@@ -2,6 +2,12 @@
 	"name": "mutiny",
 	"version": 2,
 	"customTemplates": [],
+	"settings": {
+		"layout": {
+			"contentSize": "440px",
+			"wideSize": "500px"
+		}
+	},
 	"templateParts": [
 		{
 			"name": "header-main",
