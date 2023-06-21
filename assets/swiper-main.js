@@ -9,7 +9,7 @@ const swiper = new Swiper('.swiperServices', {
   },
 });
 
-const swiper = new Swiper('.swiperOpinions', {
+const swiper2 = new Swiper('.swiperOpinions', {
   spaceBetween: 30,
   pagination: {
     el: ".swiper-pagination",
