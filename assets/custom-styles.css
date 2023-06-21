@@ -1,3 +1,5 @@
+/* general */
+
 body{
   font-family: 'Urbanist', sans-serif;
 }
@@ -18,7 +20,7 @@ body{
   transform: rotate(-45deg);
 }
 
-/* ------------------------------------------- */
+/* swiper general */
 
 .swiper {
   width: 100%;
@@ -104,6 +106,24 @@ body{
   width: 100%;
   height: 700px;
   background: url("/assets/img/realizacje-bg1.png"),
+    linear-gradient(0deg, #000000 0%, rgba(0, 0, 0, 0) 50%),
+    linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(48, 37, 28, 0.2));
+  background-position: center center;
+  background-size: cover;
+  background-blend-mode: hard-light, hard-light, luminosity;
+  filter: grayscale(100%);
+  transition: all 0.3s ease-out;
+}
+.col2-realizacje::before {
+  opacity: 0;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  width: 100%;
+  height: 700px;
+  background: url("/assets/img/realizacje-bg2.png"),
     linear-gradient(0deg, #000000 0%, rgba(0, 0, 0, 0) 50%),
     linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(48, 37, 28, 0.2));
   background-position: center center;
