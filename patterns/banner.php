@@ -3,7 +3,6 @@
  * Title: Banner test
  * Slug: mutiny/banner
  * Categories: test
- * Block Types: mutiny/banner
  */
 ?>
 
