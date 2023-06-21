@@ -12,7 +12,7 @@
   <!-- wp:group {"templateLock":"contentOnly"} -->
   <div class="wp-block-group container mx-auto desktop:px-0 px-[20px] wide:h-[1180px] desktop:h-[790px] h-[700px] bg-neutral-800 text-[30px]">
     <!-- wp:paragraph {"templateLock":"contentOnly"} -->
-    <p class="test clean">test</p>
+    <p class="test po edycji w wp">test</p>
     <!-- /wp:paragraph -->
   </div>
   <!-- /wp:group -->
