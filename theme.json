@@ -1,4 +1,7 @@
 {
+	"name": "mutiny",
+	"version": 2,
+	"customTemplates": [],
 	"templateParts": [
 		{
 			"name": "header-main",
