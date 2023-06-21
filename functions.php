@@ -320,3 +320,14 @@ if ( function_exists( 'register_block_pattern' ) ) {
 	    )
 	);
 }
+
+function banner_block_pattern() {
+  register_block_pattern(
+		array (
+			'title'   => __( 'test', 'mutiny' ),
+			'content' => "test",
+	)
+	);
+};
+ 
+add_action( 'init', 'prefix_block_pattern' );
