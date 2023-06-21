@@ -1,8 +1,8 @@
 {
 	"settings": {
 		"layout": {
-			"contentSize": "640px",
-			"wideSize": "800px"
+			"contentSize": "340px",
+			"wideSize": "600px"
 		},
 		"spacing": {
 			"margin": true,
