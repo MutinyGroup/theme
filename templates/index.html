@@ -1,15 +1,21 @@
 <!-- wp:template-part {"slug":"header"} /-->
-  
-<!-- wp:template-part {"slug":"banner-main"} /-->
 
-<!-- wp:pattern {"slug":"mutiny/banner", "syncStatus":"partial"} /-->
+<!-- wp:group {"align":"full","className":"site-header"} -->
+<div class="wp-block-group alignfull site-header"><div class="wp-block-group__inner-container"><!-- wp:template-part {"slug":"header","theme":"gutenberg-starter-theme"} /--></div></div>
+<!-- /wp:group -->
 
-<!-- wp:template-part {"slug":"about-us"} /-->
+<!-- wp:group {"align":"full","className":"site-content"} -->
+<div class="wp-block-group alignfull site-content"><div class="wp-block-group__inner-container">
+<!-- wp:query-loop -->
+<!-- wp:post-title /-->
 
-<!-- wp:template-part {"slug":"services"} /-->
+<!-- wp:post-content /-->
+<!-- /wp:query-loop -->
+</div></div>
+<!-- /wp:group -->
 
-<!-- wp:template-part {"slug":"companies-coop"} /-->
-
-<!-- wp:template-part {"slug":"realizations"} /-->
+<!-- wp:group {"align":"full","className":"site-footer"} -->
+<div class="wp-block-group alignfull site-footer"><div class="wp-block-group__inner-container"><!-- wp:template-part {"slug":"footer","theme":"gutenberg-starter-theme"} /--></div></div>
+<!-- /wp:group -->
 
 <!-- wp:template-part {"slug":"footer"} /-->
