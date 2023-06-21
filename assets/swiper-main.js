@@ -21,3 +21,11 @@ const swiper2 = new Swiper('.swiperOpinions', {
   },
 });
 
+const swiper3 = new Swiper(".swiperBlog", {
+  spaceBetween: 30,
+  pagination: {
+    el: ".swiper-pagination",
+    type: "fraction",
+  },
+});
+
