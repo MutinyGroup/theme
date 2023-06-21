@@ -17,7 +17,7 @@ tailwind.config = {
     screens: {
       tablet: "640px",
       desktop: "1024px",
-      wide: "1440px",
+      wide: "1496px",
       fullhd: "1920px"
     },
   },
