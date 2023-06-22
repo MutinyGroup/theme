@@ -125,7 +125,7 @@
       <!-- /wp:group -->
       
       <!-- wp:group -->
-      <div class="wp-block-group swiper-button-prev">
+      <div class="wp-block-group swiper-button-prev absolute desktop:top-[100px] top-[180px] desktop:left-[800px] right-[10px]">
         <!-- wp:paragraph -->
         <svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 56 56" fill="none" class="rotate-180">
           <path d="M28 35L35 28.0189L28.0379 21" stroke="white" stroke-width="1.5"/>
@@ -136,7 +136,7 @@
       </div>
       <!-- /wp:group -->
       <!-- wp:group -->
-      <div class="wp-block-group swiper-button-next ">
+      <div class="wp-block-group swiper-button-next w-[100px] absolute desktop:top-[100px] top-[180px] desktop:left-[880px] right-[10px]">
         <!-- wp:paragraph -->
         <svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 56 56" fill="none">
           <path d="M28 35L35 28.0189L28.0379 21" stroke="white" stroke-width="1.5"/>
@@ -149,13 +149,20 @@
     </div>
     <!-- /wp:group -->
 
-    <!-- wp:buttons -->
-    <div class="wp-block-buttons btn-more w-[390px] ml-[0px] p-[15px_30px] uppercase border-[2px] border-white rounded-full hover:bg-white hover:text-black transition ease-out duration-300">
-      <!-- wp:paragraph -->
-      <a href="#" class="uppercase text-[14px] font-bold">Zobacz wszystkie realizacje</a>
-      <!-- /wp:paragraph -->
+    <!-- wp:group -->
+    <div class="wp-block-group button-wrapper mt-[80px] flex items-center justify-center gap-[80px]">
+      <!-- wp:group -->
+      <div class="wp-block-group gray-border w-full h-[2px] bg-[#808080] opacity-[25%]"></div>
+      <!-- /wp:group -->
+      <!-- wp:buttons -->
+      <div class="wp-block-buttons btn-more w-[390px] ml-[0px] p-[15px_30px] uppercase border-[2px] border-white rounded-full hover:bg-white hover:text-black transition ease-out duration-300">
+        <!-- wp:paragraph -->
+        <a href="#" class="uppercase text-[14px] font-bold">Zobacz wszystkie realizacje</a>
+        <!-- /wp:paragraph -->
+      </div>
+      <!-- /wp:buttons -->
     </div>
-    <!-- /wp:buttons -->
+    <!-- /wp:group -->
   </div>
   <!-- /wp:group -->
 </div>
