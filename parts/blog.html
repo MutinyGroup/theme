@@ -40,25 +40,29 @@
       <div class="wp-block-group swiper-wrapper">
         <!-- wp:group -->
         <div class="wp-block-group swiper-slide mr-[80px] relative group w-[444px] h-[580px] ">
-          <!-- wp:group -->
-          <div class=" wp-block-group img-wrapper overflow-hidden rounded-[20px]">
-            <!-- wp:image -->
-            <figure class="wp-block-image post-img  scale-[1.06] group-hover:scale-[1] transition ease-out duration-[700ms]">
-              <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/blog-post-img/blog-post-img2.png" alt="blog-post-img">
-            </figure>
-            <!-- /wp:image -->
-          </div>
-          <!-- /wp:group -->
+          <div class="img-wrapper">
+            <!-- wp:group -->
+            <div class=" wp-block-group img-clip-path overflow-hidden rounded-[20px]">
+              <!-- wp:image -->
+              <figure class="wp-block-image post-img  scale-[1.06] group-hover:scale-[1] transition ease-out duration-[700ms]">
+                <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/blog-post-img/blog-post-img2.png" alt="blog-post-img">
+              </figure>
+              <!-- /wp:image -->
 
-          <svg style="visibility: hidden; position: absolute;" width="0" height="0" xmlns="http://www.w3.org/2000/svg" version="1.1">
-            <defs>
-                  <filter id="round">
-                      <feGaussianBlur in="SourceGraphic" stdDeviation="5" result="blur" />    
-                      <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9" result="goo" />
-                      <feComposite in="SourceGraphic" in2="goo" operator="atop"/>
-                  </filter>
-              </defs>
-          </svg>
+              <svg class="flt_svg" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                    <filter id="flt_tag">
+                        <feGaussianBlur in="SourceGraphic" stdDeviation="8" result="blur" />    
+                        <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9" result="flt_tag" />
+                        <feComposite in="SourceGraphic" in2="flt_tag" operator="atop"/>
+                    </filter>
+                </defs>
+            </svg>
+            </div>
+            <!-- /wp:group -->
+          </div>
+
+
 
 
           <!-- wp:paragraph -->

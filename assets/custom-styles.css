@@ -137,8 +137,16 @@ body{
 
 /* blog */
 
-.img-wrapper{
+.img-clip-path{
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 86%, 55% 86%, 47% 100%, 0 100%);
   clip-path: polygon(0 0, 100% 0, 100% 86%, 55% 86%, 47% 100%, 0 100%);
-  filter:url(#round);
+}
+.flt_svg {
+  visibility: hidden; 
+  position: absolute;
+  width: 0px;
+  height: 0px;
+}
+.img-wrapper{
+  filter: url('#flt_tag');
 }
