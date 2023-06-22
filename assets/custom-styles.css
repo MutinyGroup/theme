@@ -138,8 +138,8 @@ body{
 /* blog */
 
 .img-clip-path{
-  -webkit-clip-path: polygon(0 0, 100% 0, 100% 86%, 55% 86%, 47% 100%, 0 100%);
-  clip-path: polygon(0 0, 100% 0, 100% 86%, 55% 86%, 47% 100%, 0 100%);
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 90%, 62% 90%, 53% 100%, 0 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 90%, 62% 90%, 53% 100%, 0 100%);
 }
 .flt_svg {
   visibility: hidden; 
