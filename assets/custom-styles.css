@@ -21,6 +21,9 @@ body{
   filter: blur(125px);
   transform: rotate(-45deg);
 }
+.wp-block-image{
+  margin-bottom: 0;
+}
 
 /* swiper services */
 
