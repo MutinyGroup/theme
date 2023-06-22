@@ -9,7 +9,7 @@
       <!-- /wp:group -->
       <!-- wp:image -->
       <figure class="wp-block-image bg-shape w-[1290px] z-[-1] opacity-[0.20] absolute top-[-150px] left-[-140px]">
-        <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/cta-bg-shape4.png" alt="background-shape">
+        <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/cta-bg-shape.png" alt="background-shape">
       </figure>
       <!-- /wp:image -->
       <!-- wp:paragraph -->
@@ -31,10 +31,27 @@
     <!-- /wp:group -->
   </div>
   <!-- /wp:group -->
-  <!-- wp:image -->
-  <figure class="wp-block-image">
-    <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/cta-bg.png" alt="cta-backgroun-image">
-  </figure>
-  <!-- /wp:image -->
+  
+  <!-- wp:group -->
+  <div class="wp-block-group img-clip-path-wrapper">
+    <!-- wp:image -->
+    <figure class="wp-block-image img-clip-path-cta">
+      <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/section-separator.jpg" alt="cta-backgroun-image">
+    </figure>
+    <!-- /wp:image -->
+    <!-- wp:paragraph -->
+    <svg class="flt_svg" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <filter id="flt_tag">
+          <feGaussianBlur in="SourceGraphic" stdDeviation="8" result="blur" />    
+          <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9" result="flt_tag" />
+          <feComposite in="SourceGraphic" in2="flt_tag" operator="atop"/>
+        </filter>
+      </defs>
+    </svg>
+    <!-- wp:paragraph -->
+  </div>
+  <!-- /wp:group -->
+
 </div>
 <!-- /wp:group -->
