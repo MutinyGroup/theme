@@ -134,3 +134,10 @@ body{
   filter: grayscale(100%);
   transition: all 0.3s ease-out;
 }
+
+/* blog */
+
+.img-wrapper{
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 86%, 55% 86%, 47% 100%, 0 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 86%, 55% 86%, 47% 100%, 0 100%);
+}
