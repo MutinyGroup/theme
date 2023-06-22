@@ -39,10 +39,11 @@
       <!-- wp:group -->
       <div class="wp-block-group swiper-wrapper">
         <!-- wp:group -->
-        <div class="wp-block-group swiper-slide mr-[80px] relative group w-[444px] h-[580px] ">
-          <div class="img-wrapper">
+        <div class="wp-block-group swiper-slide mr-[80px] relative group w-[444px] h-[580px]">
+          <!-- wp:group -->
+          <div class="wp-block-group img-wrapper">
             <!-- wp:group -->
-            <div class=" wp-block-group img-clip-path overflow-hidden rounded-[20px]">
+            <div class="wp-block-group img-clip-path overflow-hidden rounded-[20px]">
               <!-- wp:image -->
               <figure class="wp-block-image post-img  scale-[1.06] group-hover:scale-[1] transition ease-out duration-[700ms]">
                 <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/blog-post-img/blog-post-img2.png" alt="blog-post-img">
@@ -50,16 +51,19 @@
               <!-- /wp:image -->
             </div>
             <!-- /wp:group -->
+            <!-- wp:paragraph -->
             <svg class="flt_svg" xmlns="http://www.w3.org/2000/svg">
               <defs>
-                  <filter id="flt_tag">
-                      <feGaussianBlur in="SourceGraphic" stdDeviation="8" result="blur" />    
-                      <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9" result="flt_tag" />
-                      <feComposite in="SourceGraphic" in2="flt_tag" operator="atop"/>
-                  </filter>
+                <filter id="flt_tag">
+                  <feGaussianBlur in="SourceGraphic" stdDeviation="8" result="blur" />    
+                  <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9" result="flt_tag" />
+                  <feComposite in="SourceGraphic" in2="flt_tag" operator="atop"/>
+                </filter>
               </defs>
             </svg>
+            <!-- /wp:paragraph -->
           </div>
+          <!-- /wp:group -->
 
 
 
