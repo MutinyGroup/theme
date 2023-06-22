@@ -154,6 +154,6 @@ body{
 /* cta */
 
 .img-clip-path-cta{
-  -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 33% 100%, 0 68%);
-  clip-path: polygon(0 0, 100% 0, 100% 100%, 33% 100%, 0 68%);
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 25% 100%, 0 68%);
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 25% 100%, 0 68%);
 }
