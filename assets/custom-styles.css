@@ -107,6 +107,17 @@ body{
   clip-path: polygon(16% 0, 100% 0, 100% 100%, 0 100%, 0 16%);
 }
 
+/* Hide scrollbar for Chrome, Safari and Opera */
+.swiper-wrapper::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.swiper-wrapper {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
 /* realizations */
 
 .col1-realizacje::before {
