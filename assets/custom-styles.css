@@ -98,7 +98,7 @@ body{
 .swiper-slide-services:hover:before,
 .swiper-slide-services:hover:after,
 .col1-realizacje:hover::before,
-.col2-realizacje:hover::before {
+.test:hover::before {
   opacity: 1;
 }
 
