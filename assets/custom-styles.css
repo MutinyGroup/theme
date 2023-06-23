@@ -98,7 +98,7 @@ body{
 .swiper-slide-services:hover:before,
 .swiper-slide-services:hover:after,
 .col1-realizacje:hover::before,
-.test:hover::before {
+.col2-img:hover::before {
   opacity: 1;
 }
 
@@ -138,7 +138,7 @@ body{
   filter: grayscale(100%);
   transition: all 0.3s ease-out;
 }
-.test::before {
+.col2-img::before {
   opacity: 0;
   content: "";
   position: absolute;
