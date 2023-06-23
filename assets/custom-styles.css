@@ -31,7 +31,7 @@ body{
   width: 0px;
   height: 0px;
 }
-.img-wrapper{
+.img-clip-path-rounded{
   filter: url('#flt_tag');
 }
 
