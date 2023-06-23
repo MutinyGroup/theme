@@ -3,7 +3,6 @@
 window.addEventListener("load", function () {
   const btnOpenMenu = document.querySelector(".btn-open-menu");
   const mainNavContainer = document.querySelector(".mobile-nav-wrapper");
-  const menuInput = document.querySelector(".menuInput");
 
   btnOpenMenu.addEventListener("click", () => {
     if (mainNavContainer.classList.contains("opacity-[0]")) {
