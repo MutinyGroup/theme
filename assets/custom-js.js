@@ -9,11 +9,14 @@ window.addEventListener("load", function () {
     if (mainNavContainer.classList.contains("opacity-[0]")) {
       mainNavContainer.classList.remove("opacity-[0]");
       mainNavContainer.classList.add("opacity-[1]");
-      navMobile.classList.add('bg-[#101010]')
+      navMobile.classList.replace('bg-black','bg-[#101010]')
+      navMobile.classList.replace('z-[-2]','z-[3]')
     } else if (mainNavContainer.classList.contains("opacity-[1]")) {
       mainNavContainer.classList.remove("opacity-[1]");
       mainNavContainer.classList.add("opacity-[0]");
-      navMobile.classList.remove('bg-[#101010]')
+      navMobile.classList.replace('bg-[#101010]', 'bg-black')
+      navMobile.classList.replace('z-[3]', 'z-[-2]')
+
     }
   });
 });
