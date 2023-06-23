@@ -159,7 +159,7 @@ body{
 
 /* blog */
 
-.img-clip-path{
+.img-clip-path-blog{
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 92%, 62% 92%, 53% 100%, 0 100%);
   clip-path: polygon(0 0, 100% 0, 100% 92%, 62% 92%, 53% 100%, 0 100%);
 }
