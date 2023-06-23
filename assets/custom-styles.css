@@ -138,7 +138,7 @@ body{
   filter: grayscale(100%);
   transition: all 0.3s ease-out;
 }
-.col2-realizacje::before {
+.test::before {
   opacity: 0;
   content: "";
   position: absolute;
