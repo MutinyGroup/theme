@@ -26,6 +26,7 @@ body{
 }
 .vertical {
   writing-mode: vertical-rl;
+  transform: rotate(180deg);
 }
 /* clip path */
 .flt_svg {
