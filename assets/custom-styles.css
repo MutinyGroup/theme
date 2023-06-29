@@ -162,8 +162,8 @@ body{
   background-size: cover;
   background-blend-mode: hard-light, hard-light, luminosity;
   transition: all 0.3s ease-out;
-} */
-/* .col1-realizacje:hover::before,
+}
+.col1-realizacje:hover::before,
 .img-clip-path-realizations:hover::before {
   opacity: 1;
 }
