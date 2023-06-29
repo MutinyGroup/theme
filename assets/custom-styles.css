@@ -146,7 +146,7 @@ body{
   background-blend-mode: hard-light, hard-light, luminosity;
   transition: all 0.3s ease-out;
 }
-.img-clip-path-realizations::before {
+/* .img-clip-path-realizations::before {
   opacity: 0;
   content: "";
   position: absolute;
@@ -162,11 +162,11 @@ body{
   background-size: cover;
   background-blend-mode: hard-light, hard-light, luminosity;
   transition: all 0.3s ease-out;
-}
-.col1-realizacje:hover::before,
+} */
+/* .col1-realizacje:hover::before,
 .img-clip-path-realizations:hover::before {
   opacity: 1;
-}
+} */
 
 .img-clip-path-realizations{
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 93%, 61% 93%, 52% 100%, 0 100%);
