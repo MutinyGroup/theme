@@ -146,7 +146,6 @@ body{
   background-position: center center;
   background-size: cover;
   background-blend-mode: hard-light, hard-light, luminosity;
-  filter: grayscale(100%);
   transition: all 0.3s ease-out;
 }
 .col2-img::before {
@@ -164,7 +163,6 @@ body{
   background-position: center center;
   background-size: cover;
   background-blend-mode: hard-light, hard-light, luminosity;
-  filter: grayscale(100%);
   transition: all 0.3s ease-out;
 }
 
