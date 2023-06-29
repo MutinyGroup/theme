@@ -146,7 +146,7 @@ body{
   background-blend-mode: hard-light, hard-light, luminosity;
   transition: all 0.3s ease-out;
 }
-.for-before::before {
+.img-clip-path-realizations::before {
   opacity: 0;
   content: "";
   position: absolute;
@@ -164,7 +164,7 @@ body{
   transition: all 0.3s ease-out;
 }
 .col1-realizacje:hover::before,
-.for-before:hover::before {
+.img-clip-path-realizations:hover::before {
   opacity: 1;
 }
 
