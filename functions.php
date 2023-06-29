@@ -325,11 +325,3 @@ if ( function_exists( 'register_block_pattern' ) ) {
 
 
 // tk test
-function custom_body_class( array $classes ) {
-	$new_class = is_page('about') ? get_post_meta( get_the_ID(), 'body_class', true ) : null;
-	if ( $new_class ) {
-		$classes[] = $new_class;
-	};
-	return $classes;
-};
-add_filter( 'body_class', 'custom_body_class' );
