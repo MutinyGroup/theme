@@ -39,6 +39,13 @@ body{
   filter: url('#flt_tag');
 }
 
+/* about us */
+
+.img-clip-path-about-us{
+  -webkit-clip-path: polygon(16% 0, 100% 0, 100% 100%, 0 100%, 0 16%);
+  clip-path: polygon(16% 0, 100% 0, 100% 100%, 0 100%, 0 16%);
+}
+
 /* services */
 
 .swiper {
