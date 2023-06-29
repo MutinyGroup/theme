@@ -42,8 +42,8 @@ body{
 /* about us */
 
 .img-clip-path-about-us{
-  -webkit-clip-path: polygon(0 0, 100% 0, 100% 95%, 60% 95%, 51% 100%, 0 100%);
-  clip-path: polygon(0 0, 100% 0, 100% 95%, 60% 95%, 51% 100%, 0 100%);
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 95%, 60% 95%, 53% 100%, 0 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 95%, 60% 95%, 53% 100%, 0 100%);
 }
 
 /* services */
