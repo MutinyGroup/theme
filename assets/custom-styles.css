@@ -148,7 +148,7 @@ body{
   background-blend-mode: hard-light, hard-light, luminosity;
   transition: all 0.3s ease-out;
 }
-.col2-img::before {
+.col2-realizacje::before {
   opacity: 0;
   content: "";
   position: absolute;
