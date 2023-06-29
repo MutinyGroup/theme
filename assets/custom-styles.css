@@ -146,16 +146,16 @@ body{
   background-blend-mode: hard-light, hard-light, luminosity;
   transition: all 0.3s ease-out;
 }
-.img-clip-path-realizations::before {
+.col2-realizacje::before {
   opacity: 0;
   content: "";
   position: absolute;
   top: 0;
   left: 0;
-  z-index: 1;
+  z-index: 0;
   width: 100%;
   height: 700px;
-  background: 
+  background:
     linear-gradient(0deg, #000000 0%, rgba(0, 0, 0, 0) 50%),
     linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(48, 37, 28, 0.2));
   background-position: center center;
@@ -164,7 +164,7 @@ body{
   transition: all 0.3s ease-out;
 }
 .col1-realizacje:hover::before,
-.img-clip-path-realizations:hover::before {
+.col2-realizacje:hover::before {
   opacity: 1;
 }
 
