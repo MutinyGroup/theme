@@ -107,9 +107,7 @@ body{
   transition: all 0.3s ease-out;
 }
 .swiper-slide-services:hover:before,
-.swiper-slide-services:hover:after,
-.col1-realizacje:hover::before,
-.col2-realizacje:hover::before {
+.swiper-slide-services:hover:after{
   opacity: 1;
 }
 
@@ -148,7 +146,7 @@ body{
   background-blend-mode: hard-light, hard-light, luminosity;
   transition: all 0.3s ease-out;
 }
-.col2-realizacje::before {
+.img-clip-path-realizations::before {
   opacity: 0;
   content: "";
   position: absolute;
@@ -164,6 +162,10 @@ body{
   background-size: cover;
   background-blend-mode: hard-light, hard-light, luminosity;
   transition: all 0.3s ease-out;
+}
+.col1-realizacje:hover::before,
+.img-clip-path-realizations:hover::before {
+  opacity: 1;
 }
 
 .img-clip-path-realizations{
