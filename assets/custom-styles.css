@@ -169,8 +169,8 @@ body{
 }
 
 .img-clip-path-realizations{
-  -webkit-clip-path: polygon(0 0, 100% 0, 100% 88%, 61% 88%, 51% 100%, 0 100%);
-  clip-path: polygon(0 0, 100% 0, 100% 88%, 61% 88%, 51% 100%, 0 100%);
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 90%, 61% 90%, 51% 100%, 0 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 90%, 61% 90%, 51% 100%, 0 100%);
 }
 
 /* blog */
