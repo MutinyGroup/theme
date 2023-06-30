@@ -46,7 +46,7 @@
     <!-- wp:group -->
     <div class="wp-block-group circle-title desktop:w-[120px] desktop:h-[120px] w-[110px] h-[110px] mx-0 text-center leading-[50px] flex items-center justify-center flex-col rounded-full border border-[4px] border-[#D5D5D5] absolute desktop:top-[150px] top-[130px] dekstop:left-[100px] left-[90px] translate-x-[-50%]">
       <!-- wp:paragraph -->
-      <p class="desktop:mt-[10px] self-center desktop:mt-0 leading-[0px] desktop:text-[14px] text-[13px]">Marketing na</p>
+      <p class="self-center leading-[0px] desktop:text-[14px] text-[13px]">Marketing na</p>
       <!-- /wp:paragraph -->
       <!-- wp:paragraph -->
       <p class="uppercase mt-[20px] self-center desktop:text-[35px] text-[30px] font-extrabold leading-[15px]">100%</p>
