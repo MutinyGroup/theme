@@ -48,7 +48,6 @@ body{
 .hamburger-btn-line:nth-child(1){
   transform-origin: left;
   transform: rotate(0);
-  width: 30px;
 }
 .hamburger-btn-line:nth-child(2){
   transition: all 0.3s ease-out;
@@ -57,13 +56,11 @@ body{
 .hamburger-btn-line:nth-child(3){
   transform-origin: left;
   transform: rotate(0);
-  width: 30px;
 }
 
 .active .hamburger-btn-line:nth-child(1){
   transform-origin: left;
-  transform: rotate(45deg);
-  width: 26px;
+  transform: rotate(38deg);
 }
 .active .hamburger-btn-line:nth-child(2){
   transition: all 0.3s ease-out;
@@ -71,8 +68,7 @@ body{
 }
 .active .hamburger-btn-line:nth-child(3){
   transform-origin: left;
-  transform: rotate(-45deg);
-  width: 26px;
+  transform: rotate(-38deg);
 }
 
 /* about us */
