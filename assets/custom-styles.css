@@ -2,11 +2,13 @@
 
 body{
   font-family: 'Urbanist', sans-serif;
+}
+.home{
   background-color: #101010;
 	color: white;
 }
 .page-id-99{
-  background-color: #f2f2f2;
+  background-color: #F2F2F2;
   color: black;
 }
 .bg-flash {
