@@ -60,7 +60,7 @@ body{
 
 .active .hamburger-btn-line:nth-child(1){
   transform-origin: left;
-  transform: rotate(42deg);
+  transform: rotate(43deg);
 }
 .active .hamburger-btn-line:nth-child(2){
   transition: all 0.3s ease-out;
@@ -68,7 +68,7 @@ body{
 }
 .active .hamburger-btn-line:nth-child(3){
   transform-origin: left;
-  transform: rotate(-42deg);
+  transform: rotate(-43deg);
 }
 
 /* about us */
