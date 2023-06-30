@@ -1,3 +1,11 @@
+<?php
+/**
+ * Title: cta
+ * Slug: cta
+ * Categories: text, banner
+ * Viewport Width: 1280
+ */
+?>
 <!-- wp:group -->
 <div class="wp-block-group relative cta desktop:mb-[150px] overflow-hidden">
   <!-- wp:group -->
