@@ -49,11 +49,11 @@ body{
   transform-origin: left;
   transform: rotate(45deg);
 }
-.active .btn-open-menu:nth-child(2){
+.active .line1:nth-child(2){
   transform-origin: left;
   width: 0;
 }
-.active .btn-open-menu:nth-child(3){
+.active .line1:nth-child(3){
   transform-origin: left;
   transform: rotate(-45deg);
 }
