@@ -29,7 +29,6 @@
       <!-- wp:paragraph -->
       <p class="company-title font-normal text-[16px] leading-[125%]">Mutiny Group</p>
       <!-- /wp:paragraph -->
-      <?php echo 'test'; ?>
 
       <!-- wp:paragraph -->
       <p class="font-medium">Wchodzimy <br> na rynek z mocnym</p>
