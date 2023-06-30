@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: banner
- * Slug: about/banner-about
+ * Slug: banner-img-full-width
  * Categories: text, banner
  * Viewport Width: 1280
  */
