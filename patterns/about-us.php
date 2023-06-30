@@ -1,7 +1,7 @@
 <?php
 /**
- * Title: banner
- * Slug: banner-main
+ * Title: about-us
+ * Slug: about-us
  * Categories: text, banner
  * Viewport Width: 1280
  */

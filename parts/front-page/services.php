@@ -1,3 +1,11 @@
+<?php
+/**
+ * Title: services
+ * Slug: front-page/services
+ * Categories: text, banner
+ * Viewport Width: 1280
+ */
+?>
 <!-- wp:group -->
 <div class="wp-block-group uslugi desktop:mb-[150px] mb-[80px]">
   <!-- wp:group -->
