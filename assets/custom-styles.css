@@ -48,6 +48,7 @@ body{
 .active .hamburger-btn-line:nth-child(1){
   transform-origin: left;
   transform: rotate(45deg);
+  width: 26px;
 }
 .active .hamburger-btn-line:nth-child(2){
   transform-origin: left;
@@ -56,6 +57,7 @@ body{
 .active .hamburger-btn-line:nth-child(3){
   transform-origin: left;
   transform: rotate(-45deg);
+  width: 26px;
 }
 
 /* about us */
