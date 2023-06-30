@@ -45,7 +45,7 @@ body{
 
 /* header */
 
-.active .btn-open-menu:nth-child(1){
+.active .line1:nth-child(1){
   transform-origin: left;
   transform: rotate(45deg);
 }
