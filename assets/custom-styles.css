@@ -45,15 +45,15 @@ body{
 
 /* header */
 
-.active :nth-child(1){
+.btn-open-menu .active :nth-child(1){
   transform-origin: left;
   transform: rotate(45deg);
 }
-.active :nth-child(2){
+.btn-open-menu .active :nth-child(2){
   transform-origin: left;
   width: 0;
 }
-.active :nth-child(3){
+.btn-open-menu .active :nth-child(3){
   transform-origin: left;
   transform: rotate(-45deg);
 }
