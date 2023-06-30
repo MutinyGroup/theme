@@ -1,3 +1,11 @@
+<?php
+/**
+ * Title: opinions
+ * Slug: opinions
+ * Categories: text, banner
+ * Viewport Width: 1280
+ */
+?>
 <!-- wp:group -->
 <div class="wp-block-group opinions desktop:mb-[150px] mb-[60px]">
   <!-- wp:group -->

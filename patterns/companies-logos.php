@@ -1,3 +1,11 @@
+<?php
+/**
+ * Title: companies-logos
+ * Slug: companies-logos
+ * Categories: text, banner
+ * Viewport Width: 1280
+ */
+?>
 <!-- wp:group -->
 <div class="wp-block-group zaufali-nam mb-0">
   <!-- wp:group -->

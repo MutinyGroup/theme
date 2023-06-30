@@ -1,3 +1,11 @@
+<?php
+/**
+ * Title: realizations
+ * Slug: realizations
+ * Categories: text, banner
+ * Viewport Width: 1280
+ */
+?>
 <!-- wp:group -->
 <div class="wp-block-group realizacje relative desktop:mb-[150px] desktop:pt-[220px] pt-[200px] desktop:mb-[200px] mb-[60px] overflow-hidden">
   <!-- wp:group -->
