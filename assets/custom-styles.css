@@ -43,6 +43,21 @@ body{
   filter: url('#flt_tag');
 }
 
+/* header */
+
+.active :nth-child(1){
+  transform-origin: left;
+  transform: rotate(45deg);
+}
+.active :nth-child(2){
+  transform-origin: left;
+  width: 0;
+}
+.active :nth-child(3){
+  transform-origin: left;
+  transform: rotate(-45deg);
+}
+
 /* about us */
 
 .img-clip-path-about-us{
