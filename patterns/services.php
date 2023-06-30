@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: services
- * Slug: front-page/services
+ * Slug: services
  * Categories: text, banner
  * Viewport Width: 1280
  */
