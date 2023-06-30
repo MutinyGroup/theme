@@ -45,7 +45,7 @@ body{
 
 /* header */
 
-.btn-open-menu .active .hamburger-btn-line:nth-child(1){
+.active .hamburger-btn-line:nth-child(1){
   transform-origin: left;
   transform: rotate(45deg);
 }
