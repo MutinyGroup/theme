@@ -45,14 +45,27 @@ body{
 
 /* header */
 
+.hamburger-btn-line:nth-child(1){
+  transform-origin: left;
+  transform: rotate(0);
+  width: 30px;
+}
+.hamburger-btn-line:nth-child(2){
+  width: 30px;
+}
+.hamburger-btn-line:nth-child(3){
+  transform-origin: left;
+  transform: rotate(0);
+  width: 30px;
+}
+
 .active .hamburger-btn-line:nth-child(1){
   transform-origin: left;
   transform: rotate(45deg);
   width: 26px;
 }
 .active .hamburger-btn-line:nth-child(2){
-  transform-origin: left;
-  width: 0;
+  width: 0px;
 }
 .active .hamburger-btn-line:nth-child(3){
   transform-origin: left;
