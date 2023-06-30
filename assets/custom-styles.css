@@ -51,6 +51,7 @@ body{
   width: 30px;
 }
 .hamburger-btn-line:nth-child(2){
+  transition: all 0.3s ease-out;
   width: 30px;
 }
 .hamburger-btn-line:nth-child(3){
@@ -65,6 +66,7 @@ body{
   width: 26px;
 }
 .active .hamburger-btn-line:nth-child(2){
+  transition: all 0.3s ease-out;
   width: 0px;
 }
 .active .hamburger-btn-line:nth-child(3){
