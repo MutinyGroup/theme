@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: banner
- * Slug: mutiny/banner
+ * Slug: banner-main
  * Categories: text, banner
  * Viewport Width: 1280
  */
