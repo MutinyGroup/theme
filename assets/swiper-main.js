@@ -28,18 +28,17 @@ document.addEventListener("DOMContentLoaded", function(event) {
       el: '[data-swiper-opinions="pagination"]',
       type: 'fraction',
         formatFractionCurrent: function (number) {
-            return ('0' + number).slice(-2);
+          return ('0' + number).slice(-2);
         },
         formatFractionTotal: function (number) {
-            return ('0' + number).slice(-2);
+          return ('0' + number).slice(-2);
         },
         renderFraction: function (currentClass, totalClass) {
-            return '<span class="mr-[10px] ' + currentClass + '"></span>' +
-                   ' / ' +
-                   '<span class="ml-[10px] text-white text-[20px] ' + totalClass + '"></span>';
+          return {
+            '<span class="mr-[10px] ' + currentClass + '"></span>' + ' / ' + '<span class="ml-[10px] text-white text-[20px] ' + totalClass + '"></span>';
+          };
         }
     },
-    
     navigation: {
       nextEl: '[data-swiper-opinions="next"]',
       prevEl: '[data-swiper-opinions="prev"]',
@@ -51,6 +50,10 @@ document.addEventListener("DOMContentLoaded", function(event) {
     pagination: {
       el: '[data-swiper-blog="pagination"]',
       type: "fraction",
+    },
+    navigation: {
+      nextEl: '[data-swiper-blog="next"]',
+      prevEl: '[data-swiper-blog="prev"]',
     },
   });
 });

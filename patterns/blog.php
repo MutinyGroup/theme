@@ -45,7 +45,7 @@
     <!-- wp:group -->
     <div class="wp-block-group swiper swiperBlog">
       <!-- wp:group -->
-      <div class="wp-block-group swiper-wrapper overflow-x-scroll">
+      <div class="wp-block-group swiper-wrapper">
         <!-- wp:group -->
         <div class="wp-block-group swiper-slide desktop:mr-[80px] mr-[20px] relative group desktop:w-[444px] w-[280px] desktop:h-[675px] h-[520px]">
           <!-- wp:group -->
@@ -116,12 +116,12 @@
           <!-- /wp:group -->
 
           <!-- wp:paragraph -->
-          <p class="slide-date font-light flex items-center before:content-[''] before:w-[20px] before:h-[1px] before:bg-primaryYellow before:inline-block before:mr-[10px] mb-[20px]">10 / 03 / 2023</p>
+          <p class="slide-date font-light flex items-center before:content-[''] before:w-[20px] before:h-[1px] before:bg-primaryYellow before:inline-block before:mr-[10px] mb-[20px]">25 / 02 / 2023</p>
           <!-- /wp:paragraph -->
 
           <!-- wp:paragraph -->
           <p class="subtitle inline text-[23px] font-medium leading-[30px] border-b-[1px] border-transparent group-hover:border-primaryYellow group-hover:text-primaryYellow transition ease-out duration-[800ms]">
-            5 urodziny Galerii Navigator - zajrzyjmy na backstage
+          Podsumowanie akcji WOŚP 2023 z Mutiny Group
           </p>
           <!-- /wp:paragraph -->
         </div>
@@ -174,7 +174,7 @@
     <!-- /wp:group -->
 
     <!-- wp:group -->
-    <div class="wp-block-group group swiper-button-prev desktop:block hidden desktop:block w-[100px] z-0 absolute desktop:top-[100px] top-[180px] desktop:left-[800px]">
+    <div data-swiper-blog="prev" class="wp-block-group group swiper-button-prev desktop:block hidden desktop:block w-[100px] z-0 absolute desktop:top-[100px] top-[180px] desktop:left-[800px]">
       <!-- wp:paragraph -->
       <svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 56 56" fill="none" class="rotate-180 group fill-transparent group-hover:fill-white">
           <rect x="1.5" y="1.5" width="53" height="53" rx="26.5" stroke="#D5D5D5" stroke-width="3" class="group-hover:stroke-white transition-stroke ease-out duration-500"/>
@@ -185,7 +185,7 @@
     </div>
     <!-- /wp:group -->
     <!-- wp:group -->
-    <div class="wp-block-group swiper-button-next group desktop:block hidden w-[100px] z-0 absolute desktop:top-[100px] top-[180px] desktop:left-[880px]">
+    <div data-swiper-blog="prev" class="wp-block-group swiper-button-next group desktop:block hidden w-[100px] z-0 absolute desktop:top-[100px] top-[180px] desktop:left-[880px]">
       <!-- wp:paragraph -->
       <svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 56 56" fill="none" class="group fill-transparent group-hover:fill-white">
           <rect x="1.5" y="1.5" width="53" height="53" rx="26.5" stroke="#D5D5D5" stroke-width="3" class="group-hover:stroke-white transition-stroke ease-out duration-500"/>
