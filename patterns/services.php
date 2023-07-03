@@ -60,7 +60,7 @@
     <!-- /wp:paragraph -->
 
     <!-- wp:group -->
-    <div class="wp-block-group swiper swiperServices relative pt-[80px]">
+    <div data-swiper-services="init" class="wp-block-group swiper swiperServices  relative pt-[80px]">
       <!-- wp:group -->
       <div class="wp-block-group swiper-wrapper overflow-y-scroll">
 
@@ -77,7 +77,7 @@
             <svg class="flt_svg" xmlns="http://www.w3.org/2000/svg">
               <defs>
                 <filter id="flt_tag">
-                  <feGaussianBlur in="SourceGraphic" stdDeviation="8" result="blur" />    
+                  <feGaussianBlur in="SourceGraphic" stdDeviation="8" result="blur" />
                   <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9" result="flt_tag" />
                   <feComposite in="SourceGraphic" in2="flt_tag" operator="atop"/>
                 </filter>
@@ -128,7 +128,7 @@
             <svg class="flt_svg" xmlns="http://www.w3.org/2000/svg">
               <defs>
                 <filter id="flt_tag">
-                  <feGaussianBlur in="SourceGraphic" stdDeviation="8" result="blur" />    
+                  <feGaussianBlur in="SourceGraphic" stdDeviation="8" result="blur" />
                   <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9" result="flt_tag" />
                   <feComposite in="SourceGraphic" in2="flt_tag" operator="atop"/>
                 </filter>
@@ -163,7 +163,7 @@
           </p>
           <!-- /wp:paragraph -->
         </div>
-        <!-- /wp:group -->        
+        <!-- /wp:group -->
 
         <!-- wp:group -->
         <div class="wp-block-group swiper-slide swiper-slide-services relative z-[2] group p-[25px] desktop:max-w-[354px] max-w-[310px] h-[450px] rounded-[20px] transition ease-out duration-300 cursor-pointer mr-[8px]">
@@ -178,7 +178,7 @@
             <svg class="flt_svg" xmlns="http://www.w3.org/2000/svg">
               <defs>
                 <filter id="flt_tag">
-                  <feGaussianBlur in="SourceGraphic" stdDeviation="8" result="blur" />    
+                  <feGaussianBlur in="SourceGraphic" stdDeviation="8" result="blur" />
                   <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9" result="flt_tag" />
                   <feComposite in="SourceGraphic" in2="flt_tag" operator="atop"/>
                 </filter>
@@ -219,7 +219,7 @@
       <!-- /wp:group -->
 
       <!-- wp:group -->
-      <div class="wp-block-group group swiper-button-prev w-[100px] absolute desktop:top-[30px] top-[35px] desktop:left-[800px] left-[190px]">
+      <div data-swiper-services="prev" class="wp-block-group group swiper-button-prev w-[100px] absolute desktop:top-[30px] top-[35px] desktop:left-[800px] left-[190px]">
         <!-- wp:paragraph -->
         <svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 56 56" fill="none" class="rotate-180 group fill-transparent group-hover:fill-white">
           <rect x="1.5" y="1.5" width="53" height="53" rx="26.5" stroke="#D5D5D5" stroke-width="3" class="group-hover:stroke-white transition-stroke ease-out duration-500"/>
@@ -230,7 +230,7 @@
       </div>
       <!-- /wp:group -->
       <!-- wp:group -->
-      <div class="wp-block-group group swiper-button-next w-[100px] absolute desktop:top-[30px] top-[35px] desktop:left-[880px] left-[260px]">
+      <div data-swiper-services="next" class="wp-block-group group swiper-button-next w-[100px] absolute desktop:top-[30px] top-[35px] desktop:left-[880px] left-[260px]">
         <!-- wp:paragraph -->
         <svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 56 56" fill="none" class="group fill-transparent group-hover:fill-white">
           <rect x="1.5" y="1.5" width="53" height="53" rx="26.5" stroke="#D5D5D5" stroke-width="3" class="group-hover:stroke-white transition-stroke ease-out duration-500"/>
