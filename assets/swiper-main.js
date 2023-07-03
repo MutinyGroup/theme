@@ -27,16 +27,16 @@ document.addEventListener("DOMContentLoaded", function(event) {
     pagination: {
       el: '[data-swiper-opinions="pagination"]',
       type: 'fraction',
-        formatFractionCurrent: function (number) {
-          return ('0' + number).slice(-2);
-        },
-        formatFractionTotal: function (number) {
-          return ('0' + number).slice(-2);
-        },
-        renderFraction: function (currentClass, totalClass) {
-          return '<span class=" mr-[10px]' + currentClass + '"></span>' +
-                 ' / ' +
-                 '<span class="ml-[10px] text-white text-[20px]' + totalClass + '"></span>';
+      formatFractionCurrent: function (number) {
+        return ('0' + number).slice(-2);
+      },
+      formatFractionTotal: function (number) {
+        return ('0' + number).slice(-2);
+      },
+      renderFraction: function (currentClass, totalClass) {
+        return '<span class="' + currentClass + '"></span>' +
+                ' - ' +
+                '<span class="' + totalClass + '"></span>';
       }
     },
     navigation: {
