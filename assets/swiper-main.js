@@ -23,18 +23,20 @@ document.addEventListener("DOMContentLoaded", function(event) {
     cssMode: true,
     pagination: {
       el: '[data-swiper-opinions="pagination"]',
-      type: "custom",
-      renderCustom: function (swiper, current, total) {
-        return ('0' + current).slice(-2) + ' of ' + ('0' + total).slice(-2);
-      }
+      type: "fraction",
+      renderBullet: function (index, className) {
+        let pageNumber = index + 1;
+        if (pageNumber < 10) {
+            pageNumber = '0' + pageNumber;
+        }
+        return '<span class="' + className + '">' + pageNumber + '</span>';
+    }
     },
+    
     navigation: {
       nextEl: '[data-swiper-opinions="next"]',
       prevEl: '[data-swiper-opinions="prev"]',
     },
-    renderCustom: function (swiper, current, total) {
-      return current + ' of ' + total;
-    }
   });
 
   new Swiper('[data-swiper-blog="init"]', {
