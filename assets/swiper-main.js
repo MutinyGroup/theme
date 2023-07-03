@@ -46,6 +46,8 @@ document.addEventListener("DOMContentLoaded", function(event) {
   });
 
   new Swiper('[data-swiper-blog="init"]', {
+    direction: "horizontal",
+    slidesPerView: 'auto',
     cssMode: true,
     clickable: true,
     grabCursor: true,
