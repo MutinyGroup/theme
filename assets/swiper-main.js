@@ -33,7 +33,10 @@ document.addEventListener("DOMContentLoaded", function(event) {
             pageNumber = '0' + pageNumber;
         }
         return '<span class="' + className + ' test ">' + pageNumber + '</span>';
-    }
+      },
+      formatFractionTotal: function (number) {
+        return ('0' + number).slice(-2);
+    },
     },
     
     navigation: {
