@@ -14,8 +14,8 @@ document.addEventListener("DOMContentLoaded", function(event) {
     slidesPerView: 'auto',
     cssMode: true,
     navigation: {
-      nextEl: '[data-swiper-services="next"]',
-      prevEl: '[data-swiper-services="prev"]',
+      nextEl: '[data-swiper-test="next"]',
+      prevEl: '[data-swiper-test="prev"]',
     },
   });
 
