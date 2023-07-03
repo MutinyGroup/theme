@@ -21,15 +21,18 @@ document.addEventListener("DOMContentLoaded", function(event) {
 
   new Swiper('[data-swiper-opinions="init"]', {
     cssMode: true,
+    clickable: true,
+    grabCursor: true,
+    rewind: true,
     pagination: {
       el: '[data-swiper-opinions="pagination"]',
-      type: "fraction",
+      type: "bullets",
       renderBullet: function (index, className) {
         let pageNumber = index + 1;
         if (pageNumber < 10) {
             pageNumber = '0' + pageNumber;
         }
-        return '<span class="' + className + '">' + pageNumber + '</span>';
+        return '<span class="' + className + ' test ">' + pageNumber + '</span>';
     }
     },
     
