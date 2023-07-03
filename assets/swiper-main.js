@@ -1,9 +1,8 @@
 document.addEventListener("DOMContentLoaded", function(event) {
   new Swiper('[data-swiper-services="init"]', {
     direction: "horizontal",
-    loop: false,
-    slidesPerView: 3,
-    spaceBetween: 50,
+    slidesPerView: 'auto',
+    cssMode: true,
     navigation: {
       nextEl: '[data-swiper-services="next"]',
       prevEl: '[data-swiper-services="prev"]',
@@ -11,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
   });
 
   new Swiper('[data-swiper-opinions="init"]', {
-    spaceBetween: 30,
+    cssMode: true,
     pagination: {
       el: '[data-swiper-opinions="pagination"]',
       type: "fraction",
@@ -23,7 +22,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
   });
 
   new Swiper('[data-swiper-blog="init"]', {
-    spaceBetween: 30,
+    cssMode: true,
     pagination: {
       el: '[data-swiper-blog="pagination"]',
       type: "fraction",
