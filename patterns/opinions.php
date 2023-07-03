@@ -28,7 +28,7 @@
     <!-- /wp:group -->
     
     <!-- wp:group -->
-    <div class="wp-block-group swiper-section-wrapper relative desktop:flex after:content-[''] after:w-[400px] after:h-full after:bg-red-500 after:opacity-[50%] after:absolute after:right-0 after:top-0">
+    <div class="wp-block-group swiper-section-wrapper relative desktop:flex after:content-[''] after:w-[400px] after:h-full after:bg-black after:opacity-[60%] after:z-[1] after:absolute after:right-0 after:top-0">
 
       <!-- wp:group -->
       <div class="wp-block-group swiper-nav-wrapper desktop:block hidden relative basis-[50%] z-0">
