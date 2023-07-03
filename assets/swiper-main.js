@@ -47,9 +47,6 @@ document.addEventListener("DOMContentLoaded", function(event) {
 
   new Swiper('[data-swiper-blog="init"]', {
     cssMode: true,
-    clickable: true,
-    grabCursor: true,
-    rewind: true,
     navigation: {
       nextEl: '[data-swiper-blog="next"]',
       prevEl: '[data-swiper-blog="prev"]',
