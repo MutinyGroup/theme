@@ -23,7 +23,6 @@ document.addEventListener("DOMContentLoaded", function(event) {
     cssMode: true,
     clickable: true,
     grabCursor: true,
-    rewind: true,
     pagination: {
       el: '[data-swiper-opinions="pagination"]',
       type: 'fraction',
@@ -51,7 +50,6 @@ document.addEventListener("DOMContentLoaded", function(event) {
     cssMode: true,
     clickable: true,
     grabCursor: true,
-    rewind: true,
     navigation: {
       nextEl: '[data-swiper-blog="next"]',
       prevEl: '[data-swiper-blog="prev"]',
