@@ -43,7 +43,7 @@
     </div>
     <!-- /wp:group -->
     <!-- wp:group -->
-    <div data-swiper-blog="init" class="wp-block-group swiper swiperBlog">
+    <div data-swiper-blog="init" class="wp-block-group swiper swiperBlog pt-[60px]">
       <!-- wp:group -->
       <div class="wp-block-group swiper-wrapper">
         <!-- wp:group -->
