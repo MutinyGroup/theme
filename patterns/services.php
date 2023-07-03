@@ -170,8 +170,8 @@
           <!-- wp:group -->
           <div class="wp-block-group img-clip-path-wrapper w-full h-full rounded-tr-[20px] rounded-br-[20px] overflow-hidden absolute left-0 top-0 z-[-1]">
             <!-- wp:image -->
-            <figure class="wp-block-image img-clip-path-services">
-              <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/swiper-bg1.png" alt="services-backgroun-image">
+            <figure class="wp-block-image img-clip-path-services2">
+              <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/swiper-bg3.png" alt="services-backgroun-image">
             </figure>
             <!-- /wp:image -->
             <!-- wp:paragraph -->
