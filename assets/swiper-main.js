@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
         renderFraction: function (currentClass, totalClass) {
             return '<span class="test ' + currentClass + '"></span>' +
                    ' / ' +
-                   '<span class="test ' + totalClass + '"></span>';
+                   '<span class="text-white text-[20px] ' + totalClass + '"></span>';
         }
     },
     
