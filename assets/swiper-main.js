@@ -26,17 +26,18 @@ document.addEventListener("DOMContentLoaded", function(event) {
     rewind: true,
     pagination: {
       el: '[data-swiper-opinions="pagination"]',
-      type: "bullets",
-      renderBullet: function (index, className) {
-        let pageNumber = index + 1;
-        if (pageNumber < 10) {
-            pageNumber = '0' + pageNumber;
+      type: 'fraction',
+        formatFractionCurrent: function (number) {
+            return ('0' + number).slice(-2);
+        },
+        formatFractionTotal: function (number) {
+            return ('0' + number).slice(-2);
+        },
+        renderFraction: function (currentClass, totalClass) {
+            return '<span class="test ' + currentClass + '"></span>' +
+                   ' - ' +
+                   '<span class="test ' + totalClass + '"></span>';
         }
-        return '<span class="' + className + ' test ">' + pageNumber + '</span>';
-      },
-      formatFractionTotal: function (number) {
-        return ('0' + number).slice(-2);
-    },
     },
     
     navigation: {
