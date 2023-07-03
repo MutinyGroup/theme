@@ -246,6 +246,23 @@
     <!-- /wp:group -->
 
     <!-- wp:group -->
+    <div data-swiper-test="init" class="swiper w-full h-[450px]">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">Slide 1</div>
+        <div class="swiper-slide">Slide 2</div>
+        <div class="swiper-slide">Slide 3</div>
+        <div class="swiper-slide">Slide 4</div>
+        <div class="swiper-slide">Slide 5</div>
+        <div class="swiper-slide">Slide 6</div>
+        <div class="swiper-slide">Slide 7</div>
+      </div>
+      <div class="swiper-pagination"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+    </div>
+    <!-- /wp:group -->
+
+    <!-- wp:group -->
     <div class="wp-block-group button-wrapper mt-[50px] flex items-center justify-center gap-[64px] cursor-pointer">
       <!-- wp:group -->
       <div class="wp-block-group gray-border hidden desktop:inline-block w-full h-[2px] bg-[#808080] opacity-[15%]"></div>
