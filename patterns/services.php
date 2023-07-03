@@ -257,8 +257,8 @@
         <div class="swiper-slide">Slide 7</div>
       </div>
       <div class="swiper-pagination"></div>
-      <div class="swiper-button-prev">-></div>
-      <div class="swiper-button-next"><-</div>
+      <div data-swiper-test="prev" class="swiper-button-prev">-></div>
+      <div data-swiper-test="next" class="swiper-button-next"><-</div>
     </div>
     <!-- /wp:group -->
 
