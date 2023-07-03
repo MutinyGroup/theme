@@ -135,7 +135,7 @@
             <div class="wp-block-group overflow-hidden desktop:h-[435px] rounded-[20px]">
               <!-- wp:image -->
               <figure class="wp-block-image post-img scale-[1.12] group-hover:scale-[1.06] transition ease-out duration-[700ms]">
-                <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/blog-post-img/blog-post-img3.png" alt="blog-post-img">
+                <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/blog-post-img/blog-post-img3.jpg" alt="blog-post-img">
               </figure>
               <!-- /wp:image -->
             </div>
