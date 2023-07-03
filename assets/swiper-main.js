@@ -1,4 +1,4 @@
-const swiper = new Swiper('[data-swiper-services]', {
+new Swiper('[data-swiper-services]', {
   direction: "horizontal",
   loop: false,
   slidesPerView: 3,
@@ -9,7 +9,7 @@ const swiper = new Swiper('[data-swiper-services]', {
   },
 });
 
-const swiper2 = new Swiper('[data-swiper-opinions]', {
+new Swiper('[data-swiper-opinions]', {
   spaceBetween: 30,
   pagination: {
     el: "[data-swiper-opinions] [data-swiper-pagination]",
@@ -21,7 +21,7 @@ const swiper2 = new Swiper('[data-swiper-opinions]', {
   },
 });
 
-const swiper3 = new Swiper("[data-swiper-blog]", {
+new Swiper("[data-swiper-blog]", {
   spaceBetween: 30,
   pagination: {
     el: "[data-swiper-blog] [data-swiper-pagination]",
