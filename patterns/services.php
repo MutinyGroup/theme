@@ -319,7 +319,7 @@
       <!-- /wp:group -->
 
       <!-- wp:group -->
-      <div data-swiper-services="prev" class="wp-block-group group swiper-button-prev w-[100px]">
+      <div data-swiper-services="prev" class="wp-block-group group swiper-button-prev w-[100px] absolute desktop:top-[30px] top-[35px] desktop:left-[800px] left-[190px]">
         <!-- wp:paragraph -->
         <svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 56 56" fill="none" class="rotate-180 group fill-transparent group-hover:fill-white">
           <rect x="1.5" y="1.5" width="53" height="53" rx="26.5" stroke="#D5D5D5" stroke-width="3" class="group-hover:stroke-white transition-stroke ease-out duration-500"/>
@@ -330,7 +330,7 @@
       </div>
       <!-- /wp:group -->
       <!-- wp:group -->
-      <div data-swiper-services="next" class="wp-block-group group swiper-button-next w-[100px]">
+      <div data-swiper-services="next" class="wp-block-group group swiper-button-next w-[100px] absolute desktop:top-[30px] top-[35px] desktop:left-[880px] left-[260px]">
         <!-- wp:paragraph -->
         <svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 56 56" fill="none" class="group fill-transparent group-hover:fill-white">
           <rect x="1.5" y="1.5" width="53" height="53" rx="26.5" stroke="#D5D5D5" stroke-width="3" class="group-hover:stroke-white transition-stroke ease-out duration-500"/>
@@ -342,23 +342,6 @@
       <!-- /wp:group -->
 
 
-    </div>
-    <!-- /wp:group -->
-
-    <!-- wp:group -->
-    <div data-swiper-test="init" class="swiper w-full h-[450px]">
-      <div class="swiper-wrapper">
-        <div class="swiper-slide">Slide 1</div>
-        <div class="swiper-slide">Slide 2</div>
-        <div class="swiper-slide">Slide 3</div>
-        <div class="swiper-slide">Slide 4</div>
-        <div class="swiper-slide">Slide 5</div>
-        <div class="swiper-slide">Slide 6</div>
-        <div class="swiper-slide">Slide 7</div>
-      </div>
-      <div class="swiper-pagination"></div>
-      <div data-swiper-test="prev" class="swiper-button-prev">-></div>
-      <div data-swiper-test="next" class="swiper-button-next"><-</div>
     </div>
     <!-- /wp:group -->
 
