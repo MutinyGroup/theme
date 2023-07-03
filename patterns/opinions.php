@@ -64,9 +64,9 @@
       <!-- /wp:group -->
 
       <!-- wp:group -->
-      <div data-swiper-opinions="init" class="wp-block-group swiper swiperOpinions overflow-x-scroll">
+      <div data-swiper-opinions="init" class="wp-block-group swiper swiperOpinions">
         <!-- wp:group -->
-        <div class="wp-block-group swiper-wrapper overflow-x-scroll">
+        <div class="wp-block-group swiper-wrapper">
           <!-- wp:group -->
           <div class="wp-block-group swiper-slide relative z-[2] group desktop:max-w-[444px] max-w-[280px] desktop:h-[430px] max-h-[530px] cursor-pointer mr-[20px]">
             <!-- wp:group -->

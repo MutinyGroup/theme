@@ -24,11 +24,17 @@ document.addEventListener("DOMContentLoaded", function(event) {
     pagination: {
       el: '[data-swiper-opinions="pagination"]',
       type: "fraction",
+      renderCustom: function (swiper, current, total) {
+        return ('0' + current).slice(-2) + ' of ' + ('0' + total).slice(-2);
+      }
     },
     navigation: {
       nextEl: '[data-swiper-opinions="next"]',
       prevEl: '[data-swiper-opinions="prev"]',
     },
+    renderCustom: function (swiper, current, total) {
+      return current + ' of ' + total;
+    }
   });
 
   new Swiper('[data-swiper-blog="init"]', {
