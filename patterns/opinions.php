@@ -33,7 +33,7 @@
       <!-- wp:group -->
       <div class="wp-block-group swiper-nav-wrapper desktop:block hidden relative basis-[50%] z-0">
         <!-- wp:group -->
-        <div data-swiper-opinions="prev" class="wp-block-group group swiper-button-prev w-[52px] h-[52px] absolute desktop:top-[60px] top-[0px] desktop:left-[170px] left-[130px]">
+        <div data-swiper-opinions="prev" class="wp-block-group group swiper-button-prev w-[56px] h-[56px] absolute desktop:top-[60px] top-[0px] desktop:left-[170px] left-[130px]">
           <!-- wp:paragraph -->
           <svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 56 56" fill="none" class="rotate-180 group fill-transparent group-hover:fill-white">
             <rect x="1.5" y="1.5" width="53" height="53" rx="26.5" stroke="#D5D5D5" stroke-width="3" class="group-hover:stroke-white transition-stroke ease-out duration-500"/>
@@ -45,7 +45,7 @@
         <!-- /wp:group -->
 
         <!-- wp:group -->
-        <div data-swiper-opinions="next" class="wp-block-group group swiper-button-next w-[52px] h-[52px] absolute desktop:top-[60px] top-[0px] desktop:left-[240px] left-[200px]">
+        <div data-swiper-opinions="next" class="wp-block-group group swiper-button-next w-[56px] h-[56px] absolute desktop:top-[60px] top-[0px] desktop:left-[240px] left-[200px]">
           <!-- wp:paragraph -->
           <svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 56 56" fill="none" class="group fill-transparent group-hover:fill-white">
             <rect x="1.5" y="1.5" width="53" height="53" rx="26.5" stroke="#D5D5D5" stroke-width="3" class="group-hover:stroke-white transition-stroke ease-out duration-500"/>
@@ -57,7 +57,7 @@
         <!-- /wp:group -->
 
         <!-- wp:group -->
-        <div data-swiper-opinions="pagination" class="wp-block-group swiper-pagination text-primaryYellow text-[50px] absolute desktop:left-[190px] left-[100px] desktop:top-[110px] top-[-70px]">
+        <div data-swiper-opinions="pagination" class="wp-block-group swiper-pagination text-primaryYellow text-[50px] absolute desktop:left-[10px] left-[100px] desktop:top-[110px] top-[-70px]">
         </div>
         <!-- /wp:group -->
       </div>
