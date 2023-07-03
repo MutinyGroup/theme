@@ -319,7 +319,7 @@
       <!-- /wp:group -->
 
       <!-- wp:group -->
-      <div data-swiper-services="prev" class="wp-block-group group swiper-button-prev w-[56px] absolute desktop:top-[30px] top-[35px] desktop:left-[800px] left-[190px]">
+      <div data-swiper-services="prev" class="wp-block-group group swiper-button-prev w-[56px] h-[56px] absolute desktop:top-[30px] top-[35px] desktop:left-[800px] left-[190px]">
         <!-- wp:paragraph -->
         <svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 56 56" fill="none" class="rotate-180 group fill-transparent group-hover:fill-white">
           <rect x="1.5" y="1.5" width="53" height="53" rx="26.5" stroke="#D5D5D5" stroke-width="3" class="group-hover:stroke-white transition-stroke ease-out duration-500"/>
@@ -330,7 +330,7 @@
       </div>
       <!-- /wp:group -->
       <!-- wp:group -->
-      <div data-swiper-services="next" class="wp-block-group group swiper-button-next w-[56px] absolute desktop:top-[30px] top-[35px] desktop:left-[860px] left-[260px]">
+      <div data-swiper-services="next" class="wp-block-group group swiper-button-next w-[56px] h-[56px] absolute desktop:top-[30px] top-[35px] desktop:left-[860px] left-[260px]">
         <!-- wp:paragraph -->
         <svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 56 56" fill="none" class="group fill-transparent group-hover:fill-white">
           <rect x="1.5" y="1.5" width="53" height="53" rx="26.5" stroke="#D5D5D5" stroke-width="3" class="group-hover:stroke-white transition-stroke ease-out duration-500"/>
