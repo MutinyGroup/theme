@@ -109,7 +109,7 @@
           </div>
           <!-- /wp:group -->
           <!-- wp:paragraph -->
-          <p class="hover-text w-[250px] mt-[270px] translate-y-[70px] opacity-[0%] group-hover:opacity-[100%] group-hover:translate-y-[0px] transition-all ease-out duration-500 text-[15px] font-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet in aspernatur alias ipsa, fuga ut!
+          <p class="hover-text w-[250px] mt-[270px] translate-y-[70px] opacity-[0%] group-hover:opacity-[100%] group-hover:translate-y-[10px] transition-all ease-out duration-500 text-[15px] font-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet in aspernatur alias ipsa, fuga ut!
           </p>
           <!-- /wp:paragraph -->
         </div>
@@ -159,7 +159,7 @@
           </div>
           <!-- /wp:group -->
           <!-- wp:paragraph -->
-          <p class="hover-text w-[250px] mt-[270px] translate-y-[70px] opacity-[0%] group-hover:opacity-[100%] group-hover:translate-y-[0px] transition-all ease-out duration-500 text-[15px] font-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet in aspernatur alias ipsa, fuga ut!
+          <p class="hover-text w-[250px] mt-[270px] translate-y-[70px] opacity-[0%] group-hover:opacity-[100%] group-hover:translate-y-[10px] transition-all ease-out duration-500 text-[15px] font-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet in aspernatur alias ipsa, fuga ut!
           </p>
           <!-- /wp:paragraph -->
         </div>
@@ -209,7 +209,7 @@
           </div>
           <!-- /wp:group -->
           <!-- wp:paragraph -->
-          <p class="hover-text w-[250px] mt-[270px] translate-y-[70px] opacity-[0%] group-hover:opacity-[100%] group-hover:translate-y-[0px] transition-all ease-out duration-500 text-[15px] font-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet in aspernatur alias ipsa, fuga ut!
+          <p class="hover-text w-[250px] mt-[270px] translate-y-[70px] opacity-[0%] group-hover:opacity-[100%] group-hover:translate-y-[10px] transition-all ease-out duration-500 text-[15px] font-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet in aspernatur alias ipsa, fuga ut!
           </p>
           <!-- /wp:paragraph -->
         </div>
@@ -259,7 +259,7 @@
           </div>
           <!-- /wp:group -->
           <!-- wp:paragraph -->
-          <p class="hover-text w-[250px] mt-[270px] translate-y-[70px] opacity-[0%] group-hover:opacity-[100%] group-hover:translate-y-[0px] transition-all ease-out duration-500 text-[15px] font-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet in aspernatur alias ipsa, fuga ut!
+          <p class="hover-text w-[250px] mt-[270px] translate-y-[70px] opacity-[0%] group-hover:opacity-[100%] group-hover:translate-y-[10px] transition-all ease-out duration-500 text-[15px] font-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet in aspernatur alias ipsa, fuga ut!
           </p>
           <!-- /wp:paragraph -->
         </div>
@@ -310,7 +310,7 @@
           </div>
           <!-- /wp:group -->
           <!-- wp:paragraph -->
-          <p class="hover-text w-[250px] mt-[270px] translate-y-[70px] opacity-[0%] group-hover:opacity-[100%] group-hover:translate-y-[0px] transition-all ease-out duration-500 text-[15px] font-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet in aspernatur alias ipsa, fuga ut!
+          <p class="hover-text w-[250px] mt-[270px] translate-y-[70px] opacity-[0%] group-hover:opacity-[100%] group-hover:translate-y-[10px] transition-all ease-out duration-500 text-[15px] font-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet in aspernatur alias ipsa, fuga ut!
           </p>
           <!-- /wp:paragraph -->
         </div>
