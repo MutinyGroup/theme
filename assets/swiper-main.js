@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
     cssMode: true,
     pagination: {
       el: '[data-swiper-opinions="pagination"]',
-      type: "fraction",
+      type: "custom",
       renderCustom: function (swiper, current, total) {
         return ('0' + current).slice(-2) + ' of ' + ('0' + total).slice(-2);
       }
