@@ -34,9 +34,9 @@ document.addEventListener("DOMContentLoaded", function(event) {
         return ('0' + number).slice(-2);
       },
       renderFraction: function (currentClass, totalClass) {
-        return '<span class="' + currentClass + '"></span>' +
-                ' - ' +
-                '<span class="' + totalClass + '"></span>';
+        return '<span class="mr-[10px] ' + currentClass + '"></span>' +
+                ' / ' +
+                '<span class="ml-[10px] text-white text-[20px] ' + totalClass + '"></span>';
       }
     },
     navigation: {
