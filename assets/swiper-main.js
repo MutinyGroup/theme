@@ -13,9 +13,9 @@ document.addEventListener("DOMContentLoaded", function(event) {
     direction: "horizontal",
     slidesPerView: 'auto',
     cssMode: true,
-    navigation: {
-      nextEl: '[data-swiper-test="next"]',
-      prevEl: '[data-swiper-test="prev"]',
+    autoplay: {
+      delay: 2000,
+      disableOnInteraction: false,
     },
   });
 
