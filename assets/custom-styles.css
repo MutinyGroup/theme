@@ -106,7 +106,7 @@ body{
 }
 .swiper-button-next::after,
 .swiper-button-prev::after {
-  /* display: none; */
+  display: none;
 }
 .swiper-slide-services::before {
   opacity: 0;
