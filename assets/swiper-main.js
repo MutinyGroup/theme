@@ -26,8 +26,8 @@ document.addEventListener("DOMContentLoaded", function(event) {
     rewind: true,
     pagination: {
       el: '[data-swiper-opinions="pagination"]',
-      type: "fraction",
-      renderFraction: function (index, className) {
+      type: "bullets",
+      renderBullet: function (index, className) {
         let pageNumber = index + 1;
         if (pageNumber < 10) {
             pageNumber = '0' + pageNumber;
