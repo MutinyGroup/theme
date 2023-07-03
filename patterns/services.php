@@ -170,8 +170,8 @@
           <!-- wp:group -->
           <div class="wp-block-group img-clip-path-wrapper w-full h-full rounded-tr-[20px] rounded-br-[20px] overflow-hidden absolute left-0 top-0 z-[-1]">
             <!-- wp:image -->
-            <figure class="wp-block-image img-clip-path-services2">
-              <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/swiper-bg3.png" alt="services-backgroun-image">
+            <figure class="wp-block-image img-clip-path-services">
+              <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/swiper-bg1.png" alt="services-backgroun-image">
             </figure>
             <!-- /wp:image -->
             <!-- wp:paragraph -->
@@ -190,7 +190,8 @@
           <!-- wp:group -->
           <div class="wp-block-group slide-title absolute desktop:bottom-[25px] bottom-[75px] left-[25px]">
             <!-- wp:paragraph -->
-            <p class="mr-[20px] text-[25px] font-semibold mb-[15px] underline-offset-[7px] group-hover:underline group-hover:decoration-primaryYellow group-hover:translate-y-[-80px] transition ease-out duration-500">Scenografia</p>
+            <p class="mr-[20px] text-[25px] font-semibold mb-[15px] underline-offset-[7px] group-hover:underline group-hover:decoration-primaryYellow group-hover:translate-y-[-80px] transition ease-out duration-500">Marketing i PR
+            </p>
             <!-- /wp:paragraph -->
             <!-- wp:buttons -->
             <div class="wp-block-buttons btn-swiper-more group text-[14px] uppercase transition ease-out duration-300">
