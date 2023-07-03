@@ -58,9 +58,6 @@
 
         <!-- wp:group -->
         <div data-swiper-opinions="pagination" class="wp-block-group swiper-pagination text-primaryYellow text-[50px] absolute desktop:left-[190px] left-[100px] desktop:top-[110px] top-[-70px]">
-          <!-- wp:paragraph -->
-          <p class="text-[20px] font-normal text-white"><span class="text-primaryYellow text-[50px] font-medium">01 &nbsp;/&nbsp; </span>06</p>
-          <!-- /wp:paragraph -->
         </div>
         <!-- /wp:group -->
       </div>
