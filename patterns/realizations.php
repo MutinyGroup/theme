@@ -81,12 +81,12 @@
         <!-- wp:group -->
         <div class="wp-block-group tile-title absolute bottom-[50px] desktop:left-[50px] left-[20px]">
           <!-- wp:paragraph -->
-          <p class="desktop:text-[35px] text-[30px] desktop:mb-[20px] mb-[10px] leading-[42px] font-semibold group-hover:border-b-[2px] group-hover:border-primaryYellow group-hover:translate-y-[-80px] transition ease-in-out duration-[400ms] cursor-pointer">
+          <p class="desktop:text-[35px] text-[30px] desktop:mb-[20px] mb-[10px] leading-[42px] font-semibold group-hover:border-b-[2px] group-hover:border-primaryYellow desktop:group-hover:translate-y-[-80px] group-hover:translate-y-[-50px] transition ease-in-out duration-[400ms] cursor-pointer">
             Galeria Metropolia
           </p>
           <!-- /wp:paragraph -->
           <!-- wp:list -->
-          <ul class="wp-block-list categories-wrapper mb-[20px] group-hover:translate-y-[-80px] transition ease-in-out duration-[400ms]">
+          <ul class="wp-block-list categories-wrapper mb-[20px] desktop:group-hover:translate-y-[-50px] group-hover:translate-y-[-50px] transition ease-in-out duration-[400ms]">
             <!-- wp:list-item -->
             <li class="cat1 uppercase p-[5px_10px] inline-block text-[12px] text-black font-semibold bg-[#D5D5D5] rounded-full">Marketing i PR</li>
             <!-- /wp:list-item -->
@@ -123,7 +123,7 @@
       <!-- wp:group -->
       <div class="wp-block-group col2 img-clip-path-rounded h-[480px] desktop:basis-1/2">
         <!-- wp:group -->
-        <div class="wp-block-group col2-realizacje img-clip-path-realizations relative group desktop:basis-1/2 desktop:h-[700px] h-[480px] transition ease-in-out duration-[400ms] desktop:absolute desktop:top-[80px] desktop:left-[8px]">
+        <div class="wp-block-group col2-realizacje img-clip-path-realizations relative group desktop:basis-1/2 desktop:h-[700px] h-[480px] transition ease-in-out duration-[400ms] desktop:absolute desktop:top-[50px] top-[80px] desktop:left-[8px]">
           <!-- wp:group -->
           <div class="wp-block-group img-clip-path-wrapper w-full h-full rounded-tr-[20px] rounded-br-[20px] overflow-hidden absolute left-0 top-0 z-[-1]">
             <!-- wp:image -->
@@ -147,12 +147,12 @@
           <!-- wp:group -->
           <div class="wp-block-group tile-title absolute bottom-[50px] desktop:left-[50px] left-[20px]">
             <!-- wp:paragraph -->
-            <p class="inline-block desktop:text-[35px] text-[30px] desktop:mb-[20px] mb-[10px] leading-[42px] font-semibold group-hover:border-b-[2px] group-hover:border-primaryYellow group-hover:translate-y-[-80px] transition ease-in-out duration-[400ms] cursor-pointer">
+            <p class="inline-block desktop:text-[35px] text-[30px] desktop:mb-[20px] mb-[10px] leading-[42px] font-semibold group-hover:border-b-[2px] group-hover:border-primaryYellow desktop:group-hover:translate-y-[-50px] group-hover:translate-y-[-80px] transition ease-in-out duration-[400ms] cursor-pointer">
               PB Górski
             </p>
             <!-- /wp:paragraph -->
             <!-- wp:list -->
-            <ul class="wp-block-list categories-wrapper mb-[20px] group-hover:translate-y-[-80px] transition ease-in-out duration-[400ms]">
+            <ul class="wp-block-list categories-wrapper mb-[20px] desktop:group-hover:translate-y-[-50px] group-hover:translate-y-[-80px] transition ease-in-out duration-[400ms]">
               <!-- wp:list-item -->
               <li class="cat1 uppercase p-[5px_10px] inline-block text-[12px] text-black font-semibold bg-[#D5D5D5] rounded-full">Marketing i PR</li>
               <!-- /wp:list-item -->
