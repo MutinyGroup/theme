@@ -50,8 +50,8 @@ document.addEventListener("DOMContentLoaded", function(event) {
     clickable: true,
     grabCursor: true,
     navigation: {
-      nextEl: "#next",
-      prevEl: "#prev",
+      nextEl: "#blog-next",
+      prevEl: "#blogprev",
     },
   });
 });
