@@ -14,6 +14,8 @@
     <p class="uppercase mb-[82px] text-[40px] font-medium text-center">Zaufali nam</p>
     <!-- /wp:paragraph -->
 
+    <!-- wp:group -->
+    
     <div id="logos" class="swiper desktop:hidden">
       <div class="swiper-wrapper">
       <!-- wp:core/image -->
@@ -58,6 +60,7 @@
       <!-- /wp:core/image -->
       </div>
     </div>
+    <!-- /wp:group -->
 
     <!-- wp:group -->
     <div class="wp-block-group companies-wrapper hidden desktop:flex desktop:gap-[110px] gap-[40px] flex-wrap items-center justify-between">
