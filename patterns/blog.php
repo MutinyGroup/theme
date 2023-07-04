@@ -213,7 +213,7 @@
       <div class="wp-block-group desktop:mt-[-120px] w-full overflow-hidden">
 
         <!-- wp:group -->
-        <div id="services" class="wp-block-group swiper swiperServices relative desktop:pt-[180px] absolute top-0 desktop:left-[150px] left-[20px]">
+        <div id="blog" class="wp-block-group swiper swiperBlog relative desktop:pt-[180px] absolute top-0 desktop:left-[150px] left-[20px]">
           <!-- wp:group -->
           <div class="wp-block-group swiper-wrapper">
 
@@ -345,7 +345,7 @@
           <!-- /wp:group -->
 
           <!-- wp:group -->
-          <div id="services-prev" class="wp-block-group group swiper-button-prev desktop:inline-block hidden w-[56px] h-[56px] absolute desktop:top-[90px] top-[35px] desktop:left-[800px] left-[190px]">
+          <div id="blog-prev" class="wp-block-group group swiper-button-prev desktop:inline-block hidden w-[56px] h-[56px] absolute desktop:top-[90px] top-[35px] desktop:left-[800px] left-[190px]">
             <!-- wp:paragraph -->
             <svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 56 56" fill="none" class="rotate-180 group fill-transparent group-hover:fill-white">
               <rect x="1.5" y="1.5" width="53" height="53" rx="26.5" stroke="#D5D5D5" stroke-width="3" class="group-hover:stroke-white transition-stroke ease-out duration-500"/>
@@ -356,7 +356,7 @@
           </div>
           <!-- /wp:group -->
           <!-- wp:group -->
-          <div id="services-next" class="wp-block-group group swiper-button-next desktop:inline-block hidden w-[56px] h-[56px] absolute desktop:top-[90px] top-[35px] desktop:left-[870px] left-[260px]">
+          <div id="blog-next" class="wp-block-group group swiper-button-next desktop:inline-block hidden w-[56px] h-[56px] absolute desktop:top-[90px] top-[35px] desktop:left-[870px] left-[260px]">
             <!-- wp:paragraph -->
             <svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 56 56" fill="none" class="group fill-transparent group-hover:fill-white">
               <rect x="1.5" y="1.5" width="53" height="53" rx="26.5" stroke="#D5D5D5" stroke-width="3" class="group-hover:stroke-white transition-stroke ease-out duration-500"/>
