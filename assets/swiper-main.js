@@ -4,6 +4,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
     slidesPerView: 'auto',
     clickable: true,
     grabCursor: true,
+    allowTouchMove: true,
     cssMode: true,
     navigation: {
       nextEl: '[data-swiper-services="next"]',
