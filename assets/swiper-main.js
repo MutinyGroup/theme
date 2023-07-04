@@ -2,6 +2,8 @@ document.addEventListener("DOMContentLoaded", function(event) {
   new Swiper('[data-swiper-services="init"]', {
     direction: "horizontal",
     slidesPerView: 'auto',
+    clickable: true,
+    grabCursor: true,
     cssMode: true,
     navigation: {
       nextEl: '[data-swiper-services="next"]',
