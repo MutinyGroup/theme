@@ -4,7 +4,6 @@ document.addEventListener("DOMContentLoaded", function(event) {
     slidesPerView: 'auto',
     clickable: true,
     grabCursor: true,
-    allowTouchMove: true,
     navigation: {
       nextEl: '[data-swiper-services="next"]',
       prevEl: '[data-swiper-services="prev"]',
@@ -15,7 +14,6 @@ document.addEventListener("DOMContentLoaded", function(event) {
     direction: "horizontal",
     slidesPerView: 2,
     spaceBetween: 30,
-    cssMode: true,
     autoplay: {
       delay: 2000,
       disableOnInteraction: false,
@@ -23,7 +21,6 @@ document.addEventListener("DOMContentLoaded", function(event) {
   });
 
   new Swiper('[data-swiper-opinions="init"]', {
-    cssMode: true,
     clickable: true,
     grabCursor: true,
     pagination: {
@@ -50,7 +47,6 @@ document.addEventListener("DOMContentLoaded", function(event) {
   new Swiper('[data-swiper-blog="init"]', {
     direction: "horizontal",
     slidesPerView: 'auto',
-    cssMode: true,
     clickable: true,
     grabCursor: true,
     navigation: {
