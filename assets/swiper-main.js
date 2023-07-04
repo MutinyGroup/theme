@@ -11,8 +11,8 @@ document.addEventListener("DOMContentLoaded", function(event) {
 
   new Swiper('[data-swiper-test="init"]', {
     direction: "horizontal",
-    slidesPerView: 'auto',
-    spaceBetween: 15,
+    slidesPerView: 2,
+    spaceBetween: 30,
     cssMode: true,
     autoplay: {
       delay: 2000,
