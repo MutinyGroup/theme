@@ -9,9 +9,9 @@
 <!-- wp:group -->
 <div class="wp-block-group blog desktop:pt-[100px] pt-0 desktop:mb-[150px] mb-[60px]">
   <!-- wp:group -->
-  <div class="wp-block-group container relative mx-auto desktop:px-0 px-[20px]">
+  <div class="wp-block-group">
     <!-- wp:group -->
-    <div class="wp-block-group title-wrapper relative desktop:mb-[90px] mb-[40px] flex gap-[20px]">
+    <div class="wp-block-group container relative mx-auto desktop:px-0 px-[20px] title-wrapper relative desktop:mb-[90px] mb-[40px] flex gap-[20px]">
       <!-- wp:group -->
       <div class="wp-block-group bg-flash scale-[0.8]"></div>
       <!-- /wp:group -->
@@ -45,7 +45,7 @@
     <!-- wp:group -->
     <div class="desktop:mt-[-120px] w-full overflow-hidden">
     <!-- wp:group -->
-      <div data-swiper-blog="init" class="wp-block-group swiper swiperBlog mt-[-170px] pt-[160px] desktop:pt-[180px] absolute top-0 desktop:left-[150px] left-[20px]">
+      <div data-swiper-blog="init" class="wp-block-group swiper swiperBlog mt-[-170px] pt-[160px] desktop:pt-[180px] absolute top-[200px] desktop:left-[150px] left-[20px]">
         <!-- wp:group -->
         <div class="wp-block-group swiper-wrapper">
           <!-- wp:group -->
