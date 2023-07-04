@@ -60,7 +60,7 @@
     <!-- /wp:paragraph -->
     
     <!-- wp:group -->
-    <div class="mt-[-120px] w-full overflow-hidden">
+    <div class="desktop:mt-[-120px] w-full overflow-hidden">
 
       <!-- wp:group -->
       <div data-swiper-services="init" class="wp-block-group swiper swiperServices relative desktop:pt-[180px] absolute top-0 desktop:left-[150px] left-[20px]">
