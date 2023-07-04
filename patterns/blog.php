@@ -42,6 +42,7 @@
       <!-- /wp:group -->
     </div>
     <!-- /wp:group -->
+
     <!-- wp:group -->
     <div data-swiper-blog="init" class="wp-block-group block swiper swiperBlog mt-[-170px] pt-[160px]">
       <!-- wp:group -->
@@ -172,7 +173,7 @@
       <!-- /wp:group -->
 
       <!-- wp:group -->
-      <div data-swiper-blog="prev" class="wp-block-group group swiper-button-prev z-[1] w-[56px] h-[56px] desktop:block hidden w-[100px] z-0 absolute desktop:top-[25px] top-[180px] desktop:left-[800px]">
+      <div  class="wp-block-group group swiper-button-prev z-[1] w-[56px] h-[56px] desktop:block hidden w-[100px] z-0 absolute desktop:top-[25px] top-[180px] desktop:left-[800px]" data-swiper-blog="prev">
         <!-- wp:paragraph -->
         <svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 56 56" fill="none" class="group rotate-180 fill-transparent group-hover:fill-white">
             <rect x="1.5" y="1.5" width="53" height="53" rx="26.5" stroke="#D5D5D5" stroke-width="3" class="group-hover:stroke-white transition-stroke ease-out duration-500"/>
