@@ -43,9 +43,9 @@
     </div>
     <!-- /wp:group -->
     <!-- wp:group -->
-    <div class="desktop:mt-[-120px] w-full overflow-hidden">
+    <div class="w-full overflow-hidden">
     <!-- wp:group -->
-      <div data-swiper-blog="init" class="wp-block-group swiper swiperBlog mt-[-170px] pt-[160px] desktop:pt-[180px]">
+      <div data-swiper-blog="init" class="wp-block-group swiper swiperBlog mt-[-170px] pt-[160px]">
         <!-- wp:group -->
         <div class="wp-block-group swiper-wrapper">
           <!-- wp:group -->
