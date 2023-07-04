@@ -58,8 +58,9 @@
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi est similique, sint <span class="text-primaryYellow">illum architecto</span> fugit quae beatae
     </p>
     <!-- /wp:paragraph -->
-
-    <div class="w-screen overflow-hidden">
+    
+    <!-- wp:group -->
+    <div class="w-full overflow-hidden">
 
       <!-- wp:group -->
       <div data-swiper-services="init" class="wp-block-group swiper swiperServices relative desktop:pt-[80px] absolute top-0 desktop:left-[150px] left-[20px]">
@@ -347,6 +348,7 @@
       </div>
       <!-- /wp:group -->
     </div>
+    <!-- /wp:group -->
 
     <!-- wp:group -->
     <div class="wp-block-group button-wrapper container mx-auto mt-[50px] flex items-center justify-center gap-[64px] cursor-pointer">
