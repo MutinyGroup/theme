@@ -207,7 +207,7 @@
 
 
     <!-- wp:group -->
-    <div class="relative">
+    <div class="wp-block-group relative">
       
       <!-- wp:group -->
       <div class="wp-block-group desktop:mt-[-120px] w-full overflow-hidden">
