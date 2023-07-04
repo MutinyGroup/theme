@@ -9,9 +9,9 @@
 <!-- wp:group -->
 <div class="wp-block-group blog desktop:pt-[100px] pt-0 desktop:mb-[150px] mb-[60px]">
   <!-- wp:group -->
-  <div class="wp-block-group relative">
+  <div class="wp-block-group container relative mx-auto desktop:px-0 px-[20px]">
     <!-- wp:group -->
-    <div class="wp-block-group container relative mx-auto desktop:px-0 px-[20px] title-wrapper relative desktop:mb-[90px] mb-[40px] flex gap-[20px]">
+    <div class="wp-block-group  title-wrapper relative desktop:mb-[90px] mb-[40px] flex gap-[20px]">
       <!-- wp:group -->
       <div class="wp-block-group bg-flash scale-[0.8]"></div>
       <!-- /wp:group -->
