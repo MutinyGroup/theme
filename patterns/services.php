@@ -321,7 +321,6 @@
 
           <!-- wp:group -->
           <div class="wp-block-group swiper-slide swiper-slide-services relative z-[2] group p-[25px] desktop:max-w-[354px] max-w-[310px] h-[450px] rounded-[20px] transition ease-out duration-300 cursor-pointer mr-[8px]">
-            <!-- empty for displaying last slide -->
           </div>
           <!-- /wp:group -->
 
