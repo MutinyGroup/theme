@@ -7,7 +7,7 @@
  */
 ?>
 <!-- wp:group -->
-<div class="wp-block-group uslugi overflow-x-hidden overflow-y-visible desktop:mb-[150px] mb-[80px]">
+<div class="wp-block-group uslugi overflow-y-hidden overflow-x-visible desktop:mb-[150px] mb-[80px]">
   <!-- wp:group -->
   <div class="wp-block-group relative">
     <!-- wp:group -->
