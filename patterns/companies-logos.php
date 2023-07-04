@@ -101,7 +101,8 @@
         <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/logo companies/logo-gorski.png" alt="logo-gorski">
       </figure>
       <!-- /wp:core/image -->
-      </div>
+    </div>
+    <!-- /wp:group -->
     </div>
     <!-- /wp:group -->
   </div>
