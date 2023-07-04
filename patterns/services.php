@@ -60,7 +60,7 @@
     <!-- /wp:paragraph -->
 
     <!-- wp:group -->
-    <div data-swiper-services="init" class="wp-block-group swiper swiperServices relative pt-[80px] absolute top-0 left-[150px] desktop:left-[20px]">
+    <div data-swiper-services="init" class="wp-block-group swiper swiperServices relative pt-[80px] absolute top-0 desktop:left-[150px] left-[20px]">
       <!-- wp:group -->
       <div class="wp-block-group swiper-wrapper">
 
