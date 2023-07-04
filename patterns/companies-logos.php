@@ -14,7 +14,7 @@
     <p class="uppercase mb-[82px] text-[40px] font-medium text-center">Zaufali nam</p>
     <!-- /wp:paragraph -->
 
-    <div data-swiper-test="init" class="swiper desktop:hidden">
+    <div id="logos" class="swiper desktop:hidden">
       <div class="swiper-wrapper">
       <!-- wp:core/image -->
       <figure class="swiper-slide wp-block-image desktop:w-[165px] w-[125px] h-auto">

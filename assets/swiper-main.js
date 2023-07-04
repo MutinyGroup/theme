@@ -1,16 +1,77 @@
+// cant add data-attribute to wp:tags
+// document.addEventListener("DOMContentLoaded", function(event) {
+//   new Swiper('[data-swiper-services="init"]', {
+//     direction: "horizontal",
+//     slidesPerView: 'auto',
+//     clickable: true,
+//     grabCursor: true,
+//     navigation: {
+//       nextEl: '[data-swiper-services="next"]',
+//       prevEl: '[data-swiper-services="prev"]',
+//     },
+//   });
+
+//   new Swiper('[data-swiper-test="init"]', {
+//     direction: "horizontal",
+//     slidesPerView: 2,
+//     spaceBetween: 30,
+//     autoplay: {
+//       delay: 2000,
+//       disableOnInteraction: false,
+//     },
+//   });
+
+//   new Swiper('[data-swiper-opinions="init"]', {
+//     clickable: true,
+//     grabCursor: true,
+//     pagination: {
+//       el: '[data-swiper-opinions="pagination"]',
+//       type: 'fraction',
+//       formatFractionCurrent: function (number) {
+//         return ('0' + number).slice(-2);
+//       },
+//       formatFractionTotal: function (number) {
+//         return ('0' + number).slice(-2);
+//       },
+//       renderFraction: function (currentClass, totalClass) {
+//         return '<span class="mr-[10px] ' + currentClass + '"></span>' +
+//                 ' / ' +
+//                 '<span class="ml-[10px] text-white text-[20px] ' + totalClass + '"></span>';
+//       }
+//     },
+//     navigation: {
+//       nextEl: '[data-swiper-opinions="next"]',
+//       prevEl: '[data-swiper-opinions="prev"]',
+//     },
+//   });
+
+//   new Swiper('[data-swiper-blog="init"]', {
+//     direction: "horizontal",
+//     slidesPerView: 'auto',
+//     clickable: true,
+//     grabCursor: true,
+//     navigation: {
+//       nextEl: '[data-swiper-blog="next"]',
+//       prevEl: '[data-swiper-blog="prev"]',
+//     },
+//   });
+// });
+
+
+
 document.addEventListener("DOMContentLoaded", function(event) {
-  new Swiper('[data-swiper-services="init"]', {
+  new Swiper('services', {
     direction: "horizontal",
     slidesPerView: 'auto',
     clickable: true,
     grabCursor: true,
     navigation: {
-      nextEl: '[data-swiper-services="next"]',
-      prevEl: '[data-swiper-services="prev"]',
+      nextEl: '#services-next',
+      prevEl: '#services-prev',
     },
   });
 
-  new Swiper('[data-swiper-test="init"]', {
+  new Swiper('#logos', {
     direction: "horizontal",
     slidesPerView: 2,
     spaceBetween: 30,
@@ -20,11 +81,11 @@ document.addEventListener("DOMContentLoaded", function(event) {
     },
   });
 
-  new Swiper('[data-swiper-opinions="init"]', {
+  new Swiper('#opinions', {
     clickable: true,
     grabCursor: true,
     pagination: {
-      el: '[data-swiper-opinions="pagination"]',
+      el: '#opinions-pagination',
       type: 'fraction',
       formatFractionCurrent: function (number) {
         return ('0' + number).slice(-2);
@@ -39,19 +100,19 @@ document.addEventListener("DOMContentLoaded", function(event) {
       }
     },
     navigation: {
-      nextEl: '[data-swiper-opinions="next"]',
-      prevEl: '[data-swiper-opinions="prev"]',
+      nextEl: '#opinions-next',
+      prevEl: '#opinions-prev',
     },
   });
 
-  new Swiper('[data-swiper-blog="init"]', {
+  new Swiper('#blog', {
     direction: "horizontal",
     slidesPerView: 'auto',
     clickable: true,
     grabCursor: true,
     navigation: {
-      nextEl: '[data-swiper-blog="next"] #next',
-      prevEl: '[data-swiper-blog="prev"] #prev',
+      nextEl: '#blog-next',
+      prevEl: '#blog-prev',
     },
   });
 });
