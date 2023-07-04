@@ -218,7 +218,7 @@
           <div class="wp-block-group swiper-wrapper">
 
             <!-- wp:group -->
-            <div class="wp-block-group swiper-slide desktop:mr-[80px] mr-[20px] relative group desktop:min-w-[444px] w-[280px] desktop:h-[675px] h-[520px]">
+            <div class="wp-block-group swiper-slide desktop:mr-[40px] mr-[20px] relative group desktop:min-w-[444px] w-[280px] desktop:h-[675px] h-[520px]">
               <!-- wp:group -->
               <div class="wp-block-group img-clip-path-rounded mb-[20px]">
                 <!-- wp:group -->
@@ -260,7 +260,7 @@
             <!-- /wp:group -->
 
             <!-- wp:group -->
-            <div class="wp-block-group swiper-slide desktop:mr-[80px] mr-[20px] relative group desktop:min-w-[444px] w-[280px] desktop:h-[675px] h-[520px]">
+            <div class="wp-block-group swiper-slide desktop:mr-[40px] mr-[20px] relative group desktop:min-w-[444px] w-[280px] desktop:h-[675px] h-[520px]">
               <!-- wp:group -->
               <div class="wp-block-group img-wrapper mb-[20px]">
                 <!-- wp:group -->
@@ -299,7 +299,7 @@
             <!-- /wp:group -->
 
             <!-- wp:group -->
-            <div class="wp-block-group swiper-slide desktop:mr-[80px] mr-[40px] relative group desktop:min-w-[444px] w-[280px] desktop:h-[675px] h-[520px]">
+            <div class="wp-block-group swiper-slide desktop:mr-[40px] mr-[40px] relative group desktop:min-w-[444px] w-[280px] desktop:h-[675px] h-[520px]">
               <!-- wp:group -->
               <div class="wp-block-group img-wrapper mb-[20px]">
                 <!-- wp:group -->
@@ -383,7 +383,7 @@
       <div class="wp-block-group gray-border w-full h-[2px] bg-[#808080] opacity-[25%]"></div>
       <!-- /wp:group -->
       <!-- wp:buttons -->
-      <div class="wp-block-buttons btn-more w-[390px] ml-[0px] p-[15px_30px] uppercase border-[2px] border-white rounded-full hover:bg-white hover:text-black transition ease-out duration-300">
+      <div class="wp-block-buttons btn-more text-center w-[390px] ml-[0px] p-[15px_30px] uppercase border-[2px] border-white rounded-full hover:bg-white hover:text-black transition ease-out duration-300">
         <!-- wp:paragraph -->
         <a href="#" class="uppercase w-[220px] text-[14px] font-bold">Zobacz wszystkie newsy</a>
         <!-- /wp:paragraph -->
