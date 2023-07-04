@@ -66,7 +66,6 @@
       <div data-swiper-services="init" class="wp-block-group swiper swiperServices relative desktop:pt-[180px] absolute top-0 desktop:left-[150px] left-[20px]">
         <!-- wp:group -->
         <div class="wp-block-group swiper-wrapper">
-
           <!-- wp:group -->
           <div class="wp-block-group swiper-slide swiper-slide-services relative z-[2] group p-[25px] desktop:max-w-[354px] max-w-[310px] h-[450px] rounded-[20px] transition ease-out duration-300 cursor-pointer mr-[8px]">
             <!-- wp:group -->
