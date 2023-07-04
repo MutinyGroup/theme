@@ -90,7 +90,7 @@
             <!-- wp:list-item -->
             <li class="cat1 uppercase p-[5px_10px] inline-block text-[12px] text-black font-semibold bg-[#D5D5D5] rounded-full">Marketing i PR</li>
             <!-- /wp:list-item -->
-            <!-- wp:list-item -->
+            <!-- wp:list-item -->col1
             <li class="cat2 uppercase p-[5px_10px] inline-block text-[12px] text-black font-semibold bg-[#D5D5D5] rounded-full">Foto/video</li>
             <!-- /wp:list-item -->
             <!-- wp:list-item -->
@@ -115,7 +115,7 @@
         </div>
         <!-- /wp:group -->
         <!-- wp:paragraph -->
-        <p class="on-hover-desc pr-[40px] font-light leading-[22px] absolute bottom-[90px] left-[50px] translate-y-[70px] opacity-[0%] group-hover:opacity-[100%] group-hover:translate-y-[8px] transition-all ease-in-out duration-[400ms]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+        <p class="on-hover-desc pr-[40px] font-light leading-[22px] absolute bottom-[90px] desktop:left-[50px] left-[20px] translate-y-[70px] opacity-[0%] group-hover:opacity-[100%] group-hover:translate-y-[8px] transition-all ease-in-out duration-[400ms]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
         <!-- /wp:paragraph -->
       </div>
       <!-- /wp:group -->
@@ -178,7 +178,7 @@
           </div>
           <!-- /wp:group -->
           <!-- wp:paragraph -->
-          <p class="on-hover-desc pr-[40px] font-light leading-[22px] absolute bottom-[90px] left-[50px] translate-y-[70px] opacity-[0%] group-hover:opacity-[100%] group-hover:translate-y-[8px] transition-all ease-in-out duration-[400ms]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+          <p class="on-hover-desc pr-[40px] font-light leading-[22px] absolute bottom-[90px] desktop:left-[50px] left-[20px] translate-y-[70px] opacity-[0%] group-hover:opacity-[100%] group-hover:translate-y-[8px] transition-all ease-in-out duration-[400ms]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
           <!-- /wp:paragraph -->
         </div>
         <!-- /wp:group -->
