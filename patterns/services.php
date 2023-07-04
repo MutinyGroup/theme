@@ -9,7 +9,7 @@
 <!-- wp:group -->
 <div class="wp-block-group uslugi desktop:mb-[150px] mb-[80px]"></div>
   <!-- wp:group -->
-  <div class="wp-block-group relative">
+  <div class="wp-block-group desktop:mb-[150px] mb-[80px] relative">
     <!-- wp:group -->
     <div class="wp-block-group title-wrapper relative container mx-auto desktop:px-0 px-[20px] desktop:mb-[80px] mb-[50px] flex gap-[20px]">
       <!-- wp:group -->
