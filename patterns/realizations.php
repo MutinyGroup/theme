@@ -81,16 +81,16 @@
         <!-- wp:group -->
         <div class="wp-block-group tile-title absolute bottom-[50px] desktop:left-[50px] left-[20px]">
           <!-- wp:paragraph -->
-          <p class="desktop:text-[35px] text-[30px] desktop:mb-[20px] mb-[10px] leading-[42px] font-semibold group-hover:border-b-[2px] group-hover:border-primaryYellow desktop:group-hover:translate-y-[-50px] group-hover:translate-y-[-80px] transition ease-in-out duration-[400ms] cursor-pointer">
+          <p class="desktop:text-[35px] text-[30px] desktop:mb-[20px] mb-[10px] leading-[42px] font-semibold group-hover:border-b-[2px] group-hover:border-primaryYellow desktop:group-hover:translate-y-[-50px] group-hover:translate-y-[-70px] transition ease-in-out duration-[400ms] cursor-pointer">
             Galeria Metropolia
           </p>
           <!-- /wp:paragraph -->
           <!-- wp:list -->
-          <ul class="wp-block-list categories-wrapper mb-[20px] desktop:group-hover:translate-y-[-50px] group-hover:translate-y-[-80px] transition ease-in-out duration-[400ms]">
+          <ul class="wp-block-list categories-wrapper mb-[20px] desktop:group-hover:translate-y-[-50px] group-hover:translate-y-[-70px] transition ease-in-out duration-[400ms]">
             <!-- wp:list-item -->
             <li class="cat1 uppercase p-[5px_10px] inline-block text-[12px] text-black font-semibold bg-[#D5D5D5] rounded-full">Marketing i PR</li>
             <!-- /wp:list-item -->
-            <!-- wp:list-item -->col1
+            <!-- wp:list-item -->
             <li class="cat2 uppercase p-[5px_10px] inline-block text-[12px] text-black font-semibold bg-[#D5D5D5] rounded-full">Foto/video</li>
             <!-- /wp:list-item -->
             <!-- wp:list-item -->
@@ -147,12 +147,12 @@
           <!-- wp:group -->
           <div class="wp-block-group tile-title absolute bottom-[50px] desktop:left-[50px] left-[20px]">
             <!-- wp:paragraph -->
-            <p class="inline-block desktop:text-[35px] text-[30px] desktop:mb-[20px] mb-[10px] leading-[42px] font-semibold group-hover:border-b-[2px] group-hover:border-primaryYellow desktop:group-hover:translate-y-[-50px] group-hover:translate-y-[-80px] transition ease-in-out duration-[400ms] cursor-pointer">
+            <p class="inline-block desktop:text-[35px] text-[30px] desktop:mb-[20px] mb-[10px] leading-[42px] font-semibold group-hover:border-b-[2px] group-hover:border-primaryYellow desktop:group-hover:translate-y-[-50px] group-hover:translate-y-[-70px] transition ease-in-out duration-[400ms] cursor-pointer">
               PB Górski
             </p>
             <!-- /wp:paragraph -->
             <!-- wp:list -->
-            <ul class="wp-block-list categories-wrapper mb-[20px] desktop:group-hover:translate-y-[-50px] group-hover:translate-y-[-80px] transition ease-in-out duration-[400ms]">
+            <ul class="wp-block-list categories-wrapper mb-[20px] desktop:group-hover:translate-y-[-50px] group-hover:translate-y-[-70px] transition ease-in-out duration-[400ms]">
               <!-- wp:list-item -->
               <li class="cat1 uppercase p-[5px_10px] inline-block text-[12px] text-black font-semibold bg-[#D5D5D5] rounded-full">Marketing i PR</li>
               <!-- /wp:list-item -->
