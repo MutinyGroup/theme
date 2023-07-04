@@ -372,35 +372,20 @@
         <!-- /wp:group -->
       </div>
       <!-- /wp:group -->
-
-      <!-- wp:group -->
-      <div class="wp-block-group button-wrapper container mx-auto mt-[50px] flex items-center justify-center gap-[64px] cursor-pointer">
-        <!-- wp:group -->
-        <div class="wp-block-group gray-border hidden desktop:inline-block w-full h-[2px] bg-[#808080] opacity-[15%]"></div>
-        <!-- /wp:group -->
-        <!-- wp:buttons -->
-        <div class="wp-block-buttons text-center px-[20px] btn-more ml-[0px] p-[15px_30px] uppercase border-[2px] border-white rounded-full hover:bg-white hover:text-black transition ease-out duration-300">
-          <!-- wp:paragraph -->
-          <a href="#" class="uppercase text-[14px] w-[160px] font-bold">Dowiedz się więcej</a>
-          <!-- /wp:paragraph -->
-        </div>
-        <!-- /wp:buttons -->
-      </div>
-      <!-- /wp:group -->
     </div>
     <!-- /wp:group -->
 
 
 
     <!-- wp:group -->
-    <div class="wp-block-group button-wrapper flex items-center justify-center desktop:gap-[80px] gap-[20px] cursor-pointer">
+    <div class="wp-block-group button-wrapper container mx-auto flex items-center justify-center desktop:gap-[80px] gap-[20px] cursor-pointer">
       <!-- wp:group -->
       <div class="wp-block-group gray-border w-full h-[2px] bg-[#808080] opacity-[25%]"></div>
       <!-- /wp:group -->
       <!-- wp:buttons -->
       <div class="wp-block-buttons btn-more w-[390px] ml-[0px] p-[15px_30px] uppercase border-[2px] border-white rounded-full hover:bg-white hover:text-black transition ease-out duration-300">
         <!-- wp:paragraph -->
-        <a href="#" class="uppercase w-[220px] text-[14px] font-bold">Zobacz wszystkie realizacje</a>
+        <a href="#" class="uppercase w-[220px] text-[14px] font-bold">Zobacz wszystkie newsy</a>
         <!-- /wp:paragraph -->
       </div>
       <!-- /wp:buttons -->
