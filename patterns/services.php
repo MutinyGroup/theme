@@ -107,6 +107,7 @@
                 </a>
                 <!-- /wp:paragraph -->
               </div>
+              <!-- /wp:group -->
             </div>
             <!-- /wp:group -->
             <!-- wp:paragraph -->
