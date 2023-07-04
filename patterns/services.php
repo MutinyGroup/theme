@@ -7,7 +7,7 @@
  */
 ?>
 <!-- wp:group -->
-<div class="wp-block-group uslugi desktop:mb-[150px] mb-[80px]">
+<div class="wp-block-group uslugi overflow-x-hidden desktop:mb-[150px] mb-[80px]">
   <!-- wp:group -->
   <div class="wp-block-group relative">
     <!-- wp:group -->
@@ -60,9 +60,9 @@
     <!-- /wp:paragraph -->
 
     <!-- wp:group -->
-    <div data-swiper-services="init" class="wp-block-group swiper swiperServices  relative pt-[80px]">
+    <div data-swiper-services="init" class="wp-block-group swiper swiperServices relative pt-[80px] absolute top-0 left-[150px]">
       <!-- wp:group -->
-      <div class="wp-block-group swiper-wrapper overflow-y-scroll">
+      <div class="wp-block-group swiper-wrapper">
 
         <!-- wp:group -->
         <div class="wp-block-group swiper-slide swiper-slide-services relative z-[2] group p-[25px] desktop:max-w-[354px] max-w-[310px] h-[450px] rounded-[20px] transition ease-out duration-300 cursor-pointer mr-[8px]">
