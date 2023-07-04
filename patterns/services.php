@@ -44,7 +44,7 @@
     </div>
     <!-- /wp:group -->
     <!-- wp:group -->
-    <div class="wp-block-group circle-title desktop:w-[120px] desktop:h-[120px] w-[110px] h-[110px] mx-0 text-center leading-[50px] flex items-center justify-center flex-col rounded-full border border-[4px] border-[#D5D5D5] absolute desktop:top-[150px] top-[130px] desktop:left-[180px] left-[90px] translate-x-[-50%]">
+    <div class="wp-block-group circle-title desktop:w-[120px] desktop:h-[120px] w-[110px] h-[110px] mx-0 text-center leading-[50px] flex items-center justify-center flex-col rounded-full border border-[4px] border-[#D5D5D5] absolute desktop:top-[150px] top-[130px] desktop:left-[180px] left-[80px] translate-x-[-50%]">
       <!-- wp:paragraph -->
       <p class="self-center leading-[0px] desktop:text-[14px] text-[13px]">Marketing na</p>
       <!-- /wp:paragraph -->
@@ -54,13 +54,13 @@
     </div>
     <!-- /wp:group -->
     <!-- wp:paragraph -->
-    <p class="desktop:leading-[30px] leading-[26px] text-[20px] font-light min-w-[150px] max-w-[400px] desktop:ml-[360px] ml-[150px] desktop:mb-[0px] mb-[40px]">
+    <p class="desktop:leading-[30px] leading-[26px] desktop:text-[20px] text-[15px] font-light min-w-[150px] max-w-[400px] desktop:ml-[360px] ml-[150px] desktop:mb-[0px] mb-[40px]">
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi est similique, sint <span class="text-primaryYellow">illum architecto</span> fugit quae beatae
     </p>
     <!-- /wp:paragraph -->
 
     <!-- wp:group -->
-    <div data-swiper-services="init" class="wp-block-group swiper swiperServices relative pt-[80px] absolute top-0 left-[150px]">
+    <div data-swiper-services="init" class="wp-block-group swiper swiperServices relative pt-[80px] absolute top-0 left-[150px] desktop:left-[20px]">
       <!-- wp:group -->
       <div class="wp-block-group swiper-wrapper">
 
@@ -319,7 +319,7 @@
       <!-- /wp:group -->
 
       <!-- wp:group -->
-      <div data-swiper-services="prev" class="wp-block-group group swiper-button-prev w-[56px] h-[56px] absolute desktop:top-[30px] top-[35px] desktop:left-[800px] left-[190px]">
+      <div data-swiper-services="prev" class="wp-block-group group swiper-button-prev desktop:inline-block hidden w-[56px] h-[56px] absolute desktop:top-[30px] top-[35px] desktop:left-[800px] left-[190px]">
         <!-- wp:paragraph -->
         <svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 56 56" fill="none" class="rotate-180 group fill-transparent group-hover:fill-white">
           <rect x="1.5" y="1.5" width="53" height="53" rx="26.5" stroke="#D5D5D5" stroke-width="3" class="group-hover:stroke-white transition-stroke ease-out duration-500"/>
@@ -330,7 +330,7 @@
       </div>
       <!-- /wp:group -->
       <!-- wp:group -->
-      <div data-swiper-services="next" class="wp-block-group group swiper-button-next w-[56px] h-[56px] absolute desktop:top-[30px] top-[35px] desktop:left-[870px] left-[260px]">
+      <div data-swiper-services="next" class="wp-block-group group swiper-button-next desktop:inline-block hidden w-[56px] h-[56px] absolute desktop:top-[30px] top-[35px] desktop:left-[870px] left-[260px]">
         <!-- wp:paragraph -->
         <svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 56 56" fill="none" class="group fill-transparent group-hover:fill-white">
           <rect x="1.5" y="1.5" width="53" height="53" rx="26.5" stroke="#D5D5D5" stroke-width="3" class="group-hover:stroke-white transition-stroke ease-out duration-500"/>
