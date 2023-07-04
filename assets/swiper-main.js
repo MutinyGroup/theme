@@ -60,7 +60,7 @@
 
 
 document.addEventListener("DOMContentLoaded", function(event) {
-  new Swiper('services', {
+  new Swiper('#services', {
     direction: "horizontal",
     slidesPerView: 'auto',
     clickable: true,
