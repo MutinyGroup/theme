@@ -44,14 +44,14 @@ document.addEventListener("DOMContentLoaded", function(event) {
     },
   });
 
-  new Swiper('#blog', {
-    direction: "horizontal", 
+  new Swiper('[data-swiper-blog="init"]', {
+    direction: "horizontal",
     slidesPerView: 'auto',
     clickable: true,
     grabCursor: true,
     navigation: {
-      nextEl: "#blog-next",
-      prevEl: "#blogprev",
+      nextEl: '[data-swiper-blog="next"] #next',
+      prevEl: '[data-swiper-blog="prev"] #prev',
     },
   });
 });
