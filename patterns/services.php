@@ -7,8 +7,11 @@
  */
 ?>
 <!-- wp:group -->
-<div class="wp-block-group uslugi overflow-x-hidden overflow-y-visible desktop:mb-[150px] mb-[80px]">
-
+<div class="wp-block-group uslugi desktop:mb-[150px] mb-[80px]"></div>
+  <!-- wp:group -->
+  <div class="wp-block-group relative">
+    <!-- wp:group -->
+    <div class="wp-block-group title-wrapper relative container mx-auto desktop:px-0 px-[20px] desktop:mb-[80px] mb-[50px] flex gap-[20px]">
       <!-- wp:group -->
       <div class="wp-block-group bg-flash desktop:top-[-80px] top-[-80px] left-[-20px]">
         <!-- wp:paragraph -->
@@ -16,12 +19,6 @@
         <!-- /wp:paragraph -->
       </div>
       <!-- /wp:group -->
-
-  <!-- wp:group -->
-  <div class="wp-block-group relative">
-    <!-- wp:group -->
-    <div class="wp-block-group title-wrapper relative container mx-auto desktop:px-0 px-[20px] desktop:mb-[80px] mb-[50px] flex gap-[20px]">
-
       <!-- wp:group -->
       <div class="wp-block-group bg-shape w-[440px] h-[394px] z-[-1] opacity-[0.20] absolute top-[0px] right-[10px] bg-[url('https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/services-bg-shape.png')] bg-center bg-no-repeat bg-contain">
         <!-- wp:paragraph -->
