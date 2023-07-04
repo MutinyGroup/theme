@@ -123,7 +123,7 @@
       <!-- wp:group -->
       <div class="wp-block-group col2 img-clip-path-rounded h-[480px] desktop:basis-1/2">
         <!-- wp:group -->
-        <div class="wp-block-group col2-realizacje img-clip-path-realizations relative group desktop:basis-1/2 desktop:h-[700px] h-[480px] transition ease-in-out duration-[400ms] desktop:absolute desktop:top-[50px] top-[80px] desktop:left-[8px]">
+        <div class="wp-block-group col2-realizacje img-clip-path-realizations relative group desktop:basis-1/2 desktop:h-[700px] h-[480px] transition ease-in-out duration-[400ms] desktop:absolute block desktop:top-[80px]  desktop:left-[8px]">
           <!-- wp:group -->
           <div class="wp-block-group img-clip-path-wrapper w-full h-full rounded-tr-[20px] rounded-br-[20px] overflow-hidden absolute left-0 top-0 z-[-1]">
             <!-- wp:image -->
