@@ -299,7 +299,7 @@
             <!-- /wp:group -->
 
             <!-- wp:group -->
-            <div class="wp-block-group swiper-slide desktop:mr-[80px] mr-[20px] relative group desktop:min-w-[444px] w-[280px] desktop:h-[675px] h-[520px]">
+            <div class="wp-block-group swiper-slide desktop:mr-[80px] mr-[40px] relative group desktop:min-w-[444px] w-[280px] desktop:h-[675px] h-[520px]">
               <!-- wp:group -->
               <div class="wp-block-group img-wrapper mb-[20px]">
                 <!-- wp:group -->
