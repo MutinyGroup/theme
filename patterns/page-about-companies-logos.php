@@ -1,7 +1,7 @@
 <?php
 /**
- * Title: companies-logos
- * Slug: companies-logos
+ * Title: page-about-companies-logos
+ * Slug: page-about-companies-logos
  * Categories: text, banner
  * Viewport Width: 1280
  */
