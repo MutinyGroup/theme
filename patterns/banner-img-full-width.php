@@ -38,7 +38,7 @@
         <div class="wp-block-group uslugi-title">
           <!-- wp:paragraph -->
           <p
-            class="uppercase desktop:text-[60px] text-[24px] font-normal desktop:leading-[55px] leading-[32px]"
+            class="uppercase desktop:text-[60px] text-[24px] font-normal desktop:leading-[60px] leading-[32px]"
           >
             Nie boimy sie <br />
             przekraczać
