@@ -19,7 +19,7 @@
       </svg>
       <!-- /wp:paragraph -->
       <!-- wp:paragraph -->
-      <p class="section-title desktop:basis-auto desktop:w-[145px] basis-[80%] uppercase text-primaryYellow ">Poznajmy się</p>
+      <p class="section-title desktop:basis-auto desktop:w-[145px] desktop:basis-[80%] basis-[30%] uppercase text-primaryYellow ">Poznajmy się</p>
       <!-- /wp:paragraph -->
       <!-- wp:group -->
       <div class="wp-block-group uslugi-title">
@@ -35,9 +35,9 @@
     <!-- /wp:group -->
     
     <!-- wp:group -->
-    <div class="wp-block-group text-cols-wrapper flex basis mb-[100px]">
+    <div class="wp-block-group text-cols-wrapper flex desktop:gap-[0px] gap-[20px] basis mb-[100px]">
       <!-- wp:group -->
-      <div class="wp-block-group col1 pl-[155px] basis-[40%]">
+      <div class="wp-block-group col1 desktop:pl-[155px] basis-[40%]">
         <!-- wp:paragraph -->
         <p class="max-w-[173px] text-[16px] leading-[21px]">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -77,7 +77,7 @@
     
     <!-- wp:list -->
     <ul
-      class="wp-block-list targets-list mb-[133px] text-left flex flex-wrap desktop:justify-between"
+      class="wp-block-list targets-list mb-[133px] desktop:text-left text-center flex flex-wrap gap-y-[20px] desktop:gap-y-auto desktop:justify-between justify-center"
     >
       <!-- wp:list-item -->
       <li class="max-w-[264px]">
