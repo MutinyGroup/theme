@@ -81,7 +81,6 @@
     >
       <!-- wp:list-item -->
       <li class="max-w-[264px]">
-        <!-- wp:list-item -->
         <!-- wp:paragraph -->
         <p class="target-num text-[60px] font-semibold">01</p>
         <!-- /wp:paragraph -->
@@ -117,17 +116,16 @@
       </li>
       <!-- /wp:list-item -->
       <!-- wp:list-item -->
-      <!-- wp:paregraph -->
       <li class="max-w-[264px]">
-        <!-- wp:pargraph -->
+        <!-- wp:paragraph -->
         <p class="target-num text-[60px] font-semibold">03</p>
-        <!-- /wp:pargraph -->
-        <!-- wp:pargraph -->
+        <!-- /wp:paragraph -->
+        <!-- wp:paragraph -->
         <p class="target-title mb-[15px] text-[20px] font-semibold">
           Przekraczamy granice
         </p>
-        <!-- /wp:pargraph -->
-        <!-- wp:pargraph -->
+        <!-- /wp:paragraph -->
+        <!-- wp:paragraph -->
         <p class="target-paragraph font-light leading-[21px]">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor
