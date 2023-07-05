@@ -28,8 +28,7 @@
     <!-- /wp:group -->
     
     <!-- wp:group -->
-    <div class="wp-block-group swiper-section-wrapper relative desktop:flex desktop:after:content-[''] desktop:after:w-[440px] after:h-full after:bg-black after:opacity-[60%] desktop:after:z-[1] after:absolute after:right-0 after:top-0">
-
+    <div class="wp-block-group swiper-section-wrapper relative desktop:flex">
       <!-- wp:group -->
       <div class="wp-block-group swiper-nav-wrapper desktop:block hidden relative basis-[50%] z-0">
         <!-- wp:group -->
@@ -104,7 +103,7 @@
           </div>
           <!-- /wp:group -->
           <!-- wp:group -->
-          <div class="wp-block-group swiper-slide relative z-[2] group desktop:max-w-[444px] max-w-[280px] desktop:h-[430px] max-h-[530px] cursor-pointer mr-[20px]">
+          <div class="wp-block-group swiper-slide relative z-[2] group desktop:max-w-[444px] max-w-[280px] desktop:h-[430px] max-h-[530px] cursor-pointer mr-[20px] opacity-[50%]">
             <!-- wp:group -->
             <div class="wp-block-group quote-sign desktop:mb-[35px] mb-[20px] desktop:mt-0 mt-[40px]">
               <!-- wp:paragraph -->
