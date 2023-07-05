@@ -15,18 +15,12 @@
   >
     <!-- wp:group -->
     <div
-      class="wp-block-group title-wrapper relative desktop:mb-[58px] mb-[40px]"
+      class="wp-block-group title-wrapper relative desktop:mb-[58px] mb-[40px] pt-[90px]"
     >
-      <!-- wp:group -->
-      <div class="wp-block-group bg-flash top-[70px] z-[-1]"></div>
-      <!-- /wp:group -->
       <!-- wp:group -->
       <div
         class="wp-block-group title-wrapper relative container mx-auto flex desktop:gap-[20px] gap-[0px]"
       >
-        <!-- wp:group -->
-        <div class="wp-block-group bg-flash hidden"></div>
-        <!-- /wp:group -->
         <!-- wp:paragraph -->
         <p
           class="section-title desktop:basis-auto basis-[20%] uppercase text-primaryYellow"
