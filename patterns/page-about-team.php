@@ -33,6 +33,24 @@
       <!-- /wp:group -->
     </div>
     <!-- /wp:group -->
+    
+    <!-- wp:group -->
+    <div class="cols flex">
+      <!-- wp:group -->
+      <div class="col1 pl-[105px] w-[45%]">
+        <p class="text-[16px] leading-[21px] w-[263px]">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+          enim ad minim veniam, quis nostrud exercitation ullamco laboris
+          nisi ut aliquip ex ea commodo consequat.
+        </p>
+      </div>
+      <div class="col2 w-[55%]">
+        <div class="gallery-cols relative flex gap-[8px]">
+
+        </div>
+      </div>
+    </div>
   </div>
   <!-- /wp:group -->
 </div>
