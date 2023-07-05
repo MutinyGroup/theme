@@ -68,8 +68,12 @@
       <!-- /wp:group -->
     </div>
     <!-- /wp:group -->
-
-    <hr class="mb-[50px]" />
+    
+    
+    <!-- wp:group -->
+    <div class="w-full h-[2px] bg-[#D5D5D5]mb-[50px]">
+    </div>
+    <!-- /wp:group -->
     
     <!-- wp:list -->
     <ul
