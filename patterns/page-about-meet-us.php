@@ -41,7 +41,7 @@
         <!-- /wp:paragraph -->
       </div>
       <!-- /wp:group -->
-      <div class=" wp-block-groupcol2 basis-[60%]">
+      <div class=" wp-block-group col2 basis-[60%]">
         <!-- wp:paragraph -->
         <p class="text-[20px] leading-[30px] mb-[50px]">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
