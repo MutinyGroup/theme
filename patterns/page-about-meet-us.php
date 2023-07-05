@@ -69,6 +69,88 @@
     </div>
     <!-- /wp:group -->
 
+    <hr class="mb-[50px]" />
+    
+    <!-- wp:list -->
+    <ul
+      class="wp-block-list targets-list mb-[133px] text-left flex flex-wrap desktop:justify-between"
+    >
+      <!-- wp:list-item -->
+      <li class="max-w-[264px]">
+        <!-- wp:list-item -->
+        <!-- wp:paragraph -->
+        <p class="target-num text-[60px] font-semibold">01</p>
+        <!-- /wp:paragraph -->
+        <!-- wp:paragraph -->
+        <p class="target-title mb-[15px] text-[20px] font-semibold">
+          Mamy plan
+        </p>
+        <!-- /wp:paragraph -->
+        <!-- wp:paragraph -->
+        <p class="target-paragraph font-light leading-[21px]">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor
+        </p>
+        <!-- /wp:paragraph -->
+      </li>
+      <!-- /wp:list-item -->
+      <!-- wp:list-item -->
+      <li class="max-w-[264px]">
+        <!-- wp:paragraph -->
+        <p class="target-num text-[60px] font-semibold">02</p>
+        <!-- /wp:paragraph -->
+        <!-- wp:paragraph -->
+        <p class="target-title mb-[15px] text-[20px] font-semibold">
+          Realizujemy cele
+        </p>
+        <!-- /wp:paragraph -->
+        <!-- wp:paragraph -->
+        <p class="target-paragraph font-light leading-[21px]">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor
+        </p>
+        <!-- /wp:paragraph -->
+      </li>
+      <!-- /wp:list-item -->
+      <!-- wp:list-item -->
+      <!-- wp:paregraph -->
+      <li class="max-w-[264px]">
+        <!-- wp:pargraph -->
+        <p class="target-num text-[60px] font-semibold">03</p>
+        <!-- /wp:pargraph -->
+        <!-- wp:pargraph -->
+        <p class="target-title mb-[15px] text-[20px] font-semibold">
+          Przekraczamy granice
+        </p>
+        <!-- /wp:pargraph -->
+        <!-- wp:pargraph -->
+        <p class="target-paragraph font-light leading-[21px]">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor
+        </p>
+        <!-- /wp:pargraph -->
+      </li>
+      <!-- /wp:list-item -->
+      <!-- wp:list-item -->
+      <li class="max-w-[264px]">
+        <!-- wp:paragraph -->
+        <p class="target-num text-[60px] font-semibold">04</p>
+        <!-- /wp:paragraph -->
+        <!-- wp:paragraph -->
+        <p class="target-title mb-[15px] text-[20px] font-semibold">
+          Zapewniamy zyski
+        </p>
+        <!-- /wp:paragraph -->
+        <!-- wp:paragraph -->
+        <p class="target-paragraph font-light leading-[21px]">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor
+        </p>
+        <!-- /wp:paragraph -->
+      </li>
+      <!-- /wp:list-item -->
+    </ul>
+    <!-- /wp:list -->
   </div>
   <!-- /wp:group -->
 </div>
