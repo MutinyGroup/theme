@@ -3,14 +3,14 @@
 body{
   font-family: 'Urbanist', sans-serif;
 }
-.home{
-  background-color: #101010;
-	color: white;
-}
 /* page about */
 .page-id-99{
   background-color: #F2F2F2;
   color: black;
+}
+.home{
+  background-color: #101010;
+	color: white;
 }
 .bg-flash {
   position: absolute;
@@ -213,4 +213,11 @@ body{
 .img-clip-path-cta{
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 25% 100%, 0 68%);
   clip-path: polygon(0 0, 100% 0, 100% 100%, 25% 100%, 0 68%);
+}
+
+/* meet us */
+
+.img-clip-path-meet-us{
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 92%, 62% 92%, 53% 100%, 0 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 92%, 62% 92%, 53% 100%, 0 100%);
 }

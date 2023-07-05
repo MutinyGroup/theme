@@ -157,7 +157,7 @@
     <!-- wp:grup -->
     <div class="wp-block-group gallery relative mb-[300px] flex">
       <!-- wp:image -->
-      <figure class="wp-block-image w-[60%]">
+      <figure class="wp-block-image w-[60%] overflow-hidden rounded-tl-[20px] rounded-bl-[20px]">
         <img  
         src="	https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-about/about-gallery2.jpg"
         alt="image"
@@ -166,14 +166,30 @@
       <!--  -->
       <!-- /wp:image -->
 
-      <!-- wp:image -->
-      <figure class="wp-block-image w-[60v%] absolute top-[100px] right-0">
-        <img
-        src=".	https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-about/about-gallery1.jpg"
-        alt="image"
-        />
-      </figure>
-      <!-- wp:image -->
+      <!-- wp:group -->
+      <div class="wp-block-group img-clip-path-rounded mb-[20px] w-[60v%] absolute top-[100px] right-0">
+        <!-- wp:group -->
+        <div class="wp-block-group img-clip-path-meet-us overflow-hidden rounded-tr-[20px]">
+          <!-- wp:image -->
+          <figure class="wp-block-image ">
+            <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-about/about-gallery1.jpg" alt="image">
+          </figure>
+          <!-- /wp:image -->
+        </div>
+        <!-- /wp:group -->
+        <!-- wp:paragraph -->
+        <svg class="flt_svg" xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            <filter id="flt_tag">
+              <feGaussianBlur in="SourceGraphic" stdDeviation="8" result="blur" />    
+              <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9" result="flt_tag" />
+              <feComposite in="SourceGraphic" in2="flt_tag" operator="atop"/>
+            </filter>
+          </defs>
+        </svg>
+        <!-- /wp:paragraph -->
+      </div>
+      <!-- /wp:group -->
     </div>
     <!-- /wp:grup -->
 

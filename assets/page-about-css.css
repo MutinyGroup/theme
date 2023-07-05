@@ -1,0 +1,16 @@
+/* page about */
+.page-id-99{
+  background-color: #F2F2F2;
+  color: black;
+}
+/* clip path */
+.flt_svg {
+  visibility: hidden; 
+  position: absolute;
+  width: 0px;
+  height: 0px;
+}
+.img-clip-path-rounded{
+  filter: url('#flt_tag');
+}
+.
