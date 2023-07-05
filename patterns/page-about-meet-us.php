@@ -28,7 +28,6 @@
       <!-- /wp:group -->
     </div>
     <!-- /wp:group -->
-    <!-- /wp:group -->
     
     <!-- wp:group -->
     <div class="wp-block-group cols-wrapper flex basis mb-[100px]">
@@ -64,7 +63,6 @@
     </div>
     <!-- /wp:group -->
 
-    <hr class="mb-[50px]" />
   </div>
   <!-- /wp:group -->
 </div>
