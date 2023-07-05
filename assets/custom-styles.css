@@ -218,6 +218,6 @@ body{
 /* meet us */
 
 .img-clip-path-meet-us{
-  -webkit-clip-path: polygon(0 0, 100% 0, 100% 92%, 68% 92%, 60% 100%, 0 100%);
-  clip-path: polygon(0 0, 100% 0, 100% 92%, 68% 92%, 60% 100%, 0 100%);
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 94%, 68% 94%, 60% 100%, 0 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 94%, 68% 94%, 60% 100%, 0 100%);
 }
