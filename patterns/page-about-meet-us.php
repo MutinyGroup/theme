@@ -15,7 +15,7 @@
     <div class="wp-block-group title-wrapper relative container mx-auto desktop:mb-[120px] mb-[60px] flex desktop:gap-[20px] gap-[0px]">
       <!-- wp:paragraph -->
       <p class="section-title desktop:basis-auto desktop:w-[145px] basis-[80%] uppercase text-primaryYellow ">Poznajmy się</p>
-      <!-- /wp:group -->
+      <!-- /wp:paragraph -->
       <!-- wp:group -->
       <div class="wp-block-group uslugi-title">
         <!-- wp:paragraph -->
