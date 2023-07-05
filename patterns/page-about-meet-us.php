@@ -71,7 +71,7 @@
     
     
     <!-- wp:group -->
-    <div class="w-full h-[2px] bg-[#D5D5D5]mb-[50px]">
+    <div class="wp-block-group separator w-full h-[2px] bg-[#D5D5D5] mb-[50px]">
     </div>
     <!-- /wp:group -->
     
