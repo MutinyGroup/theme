@@ -21,17 +21,17 @@
       </figure>
       <!-- /wp:image -->
       <!-- wp:paragraph -->
-      <p class="section-title text-[20px] text-primaryYellow">Wymagaj więcej</p>
+      <p class="section-title text-[20px] text-primaryYellow">Szukasz wsparcia w marketingu?</p>
       <!-- /wp:paragraph -->
       <!-- wp:group -->
       <div class="wp-block-group uslugi-title font-normal desktop:text-[65px] text-[32px] desktop:leading-[75px] leading-[36px]">
         <!-- wp:paragraph -->
         <p class="uppercase">
-          Porozmawiajmy <br> o potrzebach
+        Poznaj ofertę <br>
         </p>
         <!-- /wp:paragraph -->
         <!-- wp:paragraph -->
-        <p class="relative uppercase italic before:content-[''] before:inline-block before:mr-[-5px] before:bottom-0 before:left-0 desktop:before:w-[120px] before:w-[30px] before:h-[2px] before:bg-white"> Twojej marki.</p>
+        <p class="relative uppercase italic before:content-[''] before:inline-block before:mr-[-5px] before:bottom-0 before:left-0 desktop:before:w-[120px] before:w-[30px] before:h-[2px] before:bg-white">Mutiny.</p>
         <!-- /wp:paragraph -->
       </div>
       <!-- /wp:group -->
@@ -40,10 +40,10 @@
     <!-- wp:buttons -->
     <div class="wp-block-buttons desktop:w-[175px] w-[140px] desktop:h-[175px] h-[140px] desktop:ml-[120px] mx-auto text-center rounded-full border border-[4px] border-[#D5D5D5] hover:border-none hover:bg-primaryYellow hover:text-white transition ease-out duration-300 flex flex-col justify-center items-center gap-y-0 cursor-pointer">
       <!-- wp:paragraph -->
-      <p>Skontaktuj się</p>
+      <p>Poznaj</p>
       <!-- /wp:paragraph -->
       <!-- wp:paragraph -->
-      <p class="uppercase text-[25px] font-extrabold">TERAZ</p>
+      <p class="uppercase text-[25px] font-extrabold">OFERTĘ</p>
       <!-- /wp:paragraph -->
     </div>
     <!-- /wp:buttons -->
