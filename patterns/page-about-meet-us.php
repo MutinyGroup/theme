@@ -1,7 +1,7 @@
 <?php
 /**
- * Title: about-meet-us
- * Slug: about-meet-us
+ * Title: page-about-meet-us
+ * Slug: page-about-meet-us
  * Categories: text, banner
  * Viewport Width: 1280
  */
@@ -41,6 +41,7 @@
         <!-- /wp:paragraph -->
       </div>
       <!-- /wp:group -->
+      <!-- wp:group -->
       <div class=" wp-block-group col2 basis-[60%]">
         <!-- wp:paragraph -->
         <p class="text-[20px] leading-[30px] mb-[50px]">
