@@ -159,7 +159,7 @@
       <!-- wp:image -->
       <figure class="wp-block-image w-[60%]">
         <img  
-        src="./assets/img/about-gallery2.jpg"
+        src="	https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-about/about-gallery2.jpg"
         alt="image"
         />
       </figure>
@@ -168,7 +168,7 @@
       <!-- wp:image -->
       <figure class="wp-block-image w-[60v%] absolute top-[100px] right-0">
         <img
-        src="./assets/img/about-gallery1.jpg"
+        src=".	https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-about/about-gallery1.jpg"
         alt="image"
         />
       </figure>

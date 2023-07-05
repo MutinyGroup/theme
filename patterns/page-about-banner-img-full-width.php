@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: banner
- * Slug: banner-img-full-width
+ * Slug: page-about-banner-img-full-width
  * Categories: text, banner
  * Viewport Width: 1280
  */
@@ -61,7 +61,7 @@
     <!-- wp:image -->
     <figure class="wp-block-image object-cover h-full">
       <img
-        src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/about-banner-bg.jpg"
+        src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-about/about-banner-bg.jpg"
         alt="bg-image"
       />
     </figure>
