@@ -153,6 +153,30 @@
       <!-- /wp:list-item -->
     </ul>
     <!-- /wp:list -->
+
+    <!-- wp:grup -->
+    <div class="wp-block-group gallery relative mb-[300px] flex">
+      <!-- wp:image -->
+      <figure class="wp-block-image w-[60%]">
+        <img  
+        src="./assets/img/about-gallery2.jpg"
+        alt="image"
+        />
+      </figure>
+      <!-- /wp:image -->
+
+      <!-- wp:image -->
+      <figure class="wp-block-image w-[60v%] absolute top-[100px] right-0">
+        <img
+        src="./assets/img/about-gallery1.jpg"
+        alt="image"
+        />
+      </figure>
+      <!-- wp:image -->
+    </div>
+    <!-- /wp:grup -->
+
+
   </div>
   <!-- /wp:group -->
 </div>
