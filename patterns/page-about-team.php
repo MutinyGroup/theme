@@ -45,7 +45,7 @@
           enim ad minim veniam, quis nostrud exercitation ullamco laboris
           nisi ut aliquip ex ea commodo consequat.
         </p>
-        <!-- wp:paragraph -->
+        <!-- /wp:paragraph -->
       </div>
       <!-- /wp:group -->
 
