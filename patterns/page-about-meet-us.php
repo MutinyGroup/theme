@@ -35,7 +35,7 @@
     <!-- /wp:group -->
     
     <!-- wp:group -->
-    <div class="wp-block-group cols-wrapper flex basis mb-[100px]">
+    <div class="wp-block-group text-cols-wrapper flex basis mb-[100px]">
       <!-- wp:group -->
       <div class="wp-block-group col1 pl-[155px] basis-[40%]">
         <!-- wp:paragraph -->
@@ -206,10 +206,10 @@
       Naszą misją jest lorem ipsum dolor sit amet, consectetur adipiscing
       elit, sed do eiusmod tempor incididunt ut labore et dolore magna
       aliqua.
-    </p>
-    <!-- /wp:paragraph -->
-  </div>
-  <!-- /wp:group -->
+      </p>
+      <!-- /wp:paragraph -->
+    </div>
+    <!-- /wp:group -->
   </div>
   <!-- /wp:group -->
 </div>
