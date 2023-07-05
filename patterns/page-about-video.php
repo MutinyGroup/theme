@@ -10,7 +10,7 @@
 <!-- wp:group -->
 <div class="wp-block-group video relative container mx-auto overscroll-x-hidden">
   <!-- wp:group -->
-  <div class="wp-block-group img-clip-path-rounded mb-[20px] w-[60%] absolute top-[100px] right-0">
+  <div class="wp-block-group img-clip-path-rounded">
     <!-- wp:group -->
     <div class="wp-block-group img-clip-path-video overflow-hidden rounded-tr-[22px]">
       <!-- wp:image -->
