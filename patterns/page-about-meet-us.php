@@ -167,7 +167,7 @@
       <!-- /wp:image -->
 
       <!-- wp:group -->
-      <div class="wp-block-group img-clip-path-rounded mb-[20px] w-[60v%] absolute top-[100px] right-0">
+      <div class="wp-block-group img-clip-path-rounded mb-[20px] w-[60%] absolute top-[100px] right-0">
         <!-- wp:group -->
         <div class="wp-block-group img-clip-path-meet-us overflow-hidden rounded-tr-[20px]">
           <!-- wp:image -->
