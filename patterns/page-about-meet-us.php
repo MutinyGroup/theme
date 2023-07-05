@@ -8,7 +8,6 @@
 ?>
 
 <!-- wp:group -->
-<!-- wp:group -->
 <div class="wp-block-group meet-us desktop:mb-[150px] mb-[200px]">
   <!-- wp:group -->
   <div class="wp-block-group relative desktop:px-0 px-[20px]">
