@@ -18,7 +18,7 @@
         class="wp-block-iamge bg-shape w-[470px] absolute top-[0px] right-[-200px]"
       >
         <img
-          src="./assets/img/page-about-bg-shape.png"
+          src="	https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-about-bg-shape.png"
           alt="bg-shape"
         />
       </figure>
