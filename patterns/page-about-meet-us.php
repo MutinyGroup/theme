@@ -19,7 +19,7 @@
       </svg>
       <!-- /wp:paragraph -->
       <!-- wp:paragraph -->
-      <p class="section-title desktop:basis-auto desktop:w-[145px] desktop:basis-[80%] basis-[30%] uppercase text-primaryYellow ">Poznajmy się</p>
+      <p class="section-title desktop:basis-auto desktop:w-[145px] desktop:basis-[80%] gap-[20px] desktop:gap-auto  uppercase text-primaryYellow ">Poznajmy się</p>
       <!-- /wp:paragraph -->
       <!-- wp:group -->
       <div class="wp-block-group uslugi-title">
@@ -201,7 +201,7 @@
       <!-- /wp:paragraph --> 
       <!-- wp:paragraph -->
       <p
-      class="mb-[150px] desktop:ml-[100px] desktop:text-[35px] text-[22px] font-medium desktop:leading-[42px] leading-[22px] desktop:w-[897px]"
+      class="desktop:mb-[150px] mb-[50px] desktop:ml-[100px] desktop:text-[35px] text-[22px] font-medium desktop:leading-[42px] leading-[32px] desktop:w-[897px]"
       >
       Naszą misją jest lorem ipsum dolor sit amet, consectetur adipiscing
       elit, sed do eiusmod tempor incididunt ut labore et dolore magna
