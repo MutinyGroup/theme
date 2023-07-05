@@ -41,9 +41,9 @@
             class="uppercase desktop:text-[60px] text-[24px] font-medium desktop:leading-[55px] leading-[32px]"
           >
             Nie boimy sie <br />
-            przekraczać <br />
+            przekraczać <br class="desktop:inline hidden"/>
             <span
-              class="relative desktop:text-[50px] text-[24px] uppercase italic before:content-[''] before:inline-block before:mr-[6px] before:bottom-0 before:left-0 desktop:before:w-[90px] before:w-[30px] desktop:before:h-[3px] before:h-[3px] before:bg-black"
+              class="relative desktop:text-[60px] text-[24px] uppercase italic before:content-[''] before:inline-block before:mr-[6px] before:bottom-0 before:left-0 desktop:before:w-[90px] before:w-[30px] desktop:before:h-[3px] before:h-[3px] before:bg-black"
               >granic.</span
             >
           </p>
