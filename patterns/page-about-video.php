@@ -8,8 +8,14 @@
 ?>
 
 <!-- wp:group -->
-<div class="wp-block-group video container mx-auto desktop:mb-[150px] mb-[200px]">
-  <!-- wp:core/video -->
-  <figure class="wp-block-video"><video controls src="https://www.youtube.com/watch?v=P8CnBbLEwW0"></video><figcaption class="wp-element-caption">My video</figcaption></figure>
-  <!-- /wp:core/video -->
+<div class="wp-block-group video relative container mx-auto overscroll-x-hidden">
+  <!-- wp:image -->
+  <figure class="wp-block-image player">
+    <img
+    src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-about/about-video.jpg"
+    alt="video-player"
+    />
+  </figure>
+  <!-- /wp:image -->
 </div>
+<!-- /wp:group -->
