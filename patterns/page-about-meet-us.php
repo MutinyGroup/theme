@@ -13,24 +13,12 @@
   <div class="wp-block-group container mx-auto relative desktop:px-0 px-[20px]">
     <!-- wp:group -->
     <div class="wp-block-group title-wrapper relative container mx-auto desktop:mb-[120px] mb-[60px] flex desktop:gap-[20px] gap-[0px]">
-      <!-- wp:image -->
-      <figure
-        class="wp-block-image bg-shape w-[470px] z-[-1] opacity-[20%] absolute top-[0px] right-[-200px]"
-      >
-        <img
-          src="	https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-about-bg-shape.png"
-          alt="bg-shape"
-        />
-      </figure>
-      <!-- /wp:image -->
-
-
-      <svg xmlns="http://www.w3.org/2000/svg" width="470" height="396" viewBox="0 0 470 396" fill="none">
-        <g style="mix-blend-mode:color-dodge" opacity="0.6">
+      <!-- wp:paragraph -->
+      <svg class="absolute top-0 right-[-200px]" xmlns="http://www.w3.org/2000/svg" width="470" height="396" viewBox="0 0 470 396" fill="none">
         <path d="M468.243 393.924L1 236.702V1.9702L468.243 159.192V393.924Z" stroke="#FFFFFF" stroke-width="2"/>
-        </g>
       </svg>
-
+      <!-- /wp:paragraph -->
+      
       <!-- wp:paragraph -->
       <p class="section-title desktop:basis-auto desktop:w-[145px] basis-[80%] uppercase text-primaryYellow ">Poznajmy się</p>
       <!-- /wp:paragraph -->
