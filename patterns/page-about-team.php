@@ -53,6 +53,7 @@
       <div class="wp-block-group col2 w-[55%]">
         <!-- wp:group -->
         <div class="wp-block-group gallery-cols relative flex gap-[8px]">
+          
         </div>
         <!-- /wp:group -->
       </div>
