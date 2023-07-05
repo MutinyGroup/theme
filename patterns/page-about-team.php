@@ -1,7 +1,7 @@
 <?php
 /**
- * Title: page-about-meet-us
- * Slug: page-about-meet-us
+ * Title: page-about-team
+ * Slug: page-about-team
  * Categories: text, banner
  * Viewport Width: 1280
  */
