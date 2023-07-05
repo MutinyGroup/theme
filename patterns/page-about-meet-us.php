@@ -201,17 +201,13 @@
       <!-- /wp:paragraph -->
       <!-- wp:paragraph -->
       <p
-      class="mb-[150px] text-[35px] font-semibold leading-[42px] w-[897px]"
+      class="mb-[150px] ml-[100px] text-[35px] font-medium leading-[42px] w-[897px]"
       >
       Naszą misją jest lorem ipsum dolor sit amet, consectetur adipiscing
       elit, sed do eiusmod tempor incididunt ut labore et dolore magna
       aliqua.
     </p>
     <!-- /wp:paragraph -->
-  </div>
-  <!-- /wp:group -->
-
-
   </div>
   <!-- /wp:group -->
 </div>
