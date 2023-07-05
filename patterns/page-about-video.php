@@ -8,7 +8,7 @@
 ?>
 
 <!-- wp:group -->
-<div class="wp-block-group video relative container mx-auto overscroll-x-hidden">
+<div class="wp-block-group video relative container mx-auto overscroll-x-hidden mb-[150px]">
   <!-- wp:group -->
   <div class="wp-block-group img-clip-path-rounded">
     <!-- wp:group -->
