@@ -8,7 +8,7 @@
 ?>
 
 <!-- wp:group -->
-<div class="wp-block-group meet-us overflow-hidden">
+<div class="wp-block-group meet-us overflow-hidden mb-[80px] desktop:mb-[150px]">
   <!-- wp:group -->
   <div class="wp-block-group container mx-auto relative desktop:px-0 px-[20px]">
     <!-- wp:group -->
