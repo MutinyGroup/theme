@@ -37,7 +37,7 @@
         <div class="wp-block-group img-clip-path-rounded w-full h-full rounded-tr-[20px] overflow-hidden">
           <!-- wp:image -->
           <figure class="wp-block-image img-clip-path-about-us h-full">
-            <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/o-nas-img.png" alt="background-image">
+            <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/front-page/o-nas-img.png" alt="background-image">
           </figure>
           <!-- /wp:image -->
           <!-- wp:paragraph -->
@@ -70,7 +70,7 @@
             <!-- wp:group -->
             <div class="wp-block-group counter-index-wrapper inline relative">
             <!-- wp:group -->
-              <div class="wp-block-group circle-counter-index z-[-1] opacity-[15%] w-[80px] h-[80px] scale-[1] bg-[url('https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/about-us-circle-index.png')] bg-center bg-no-repaet bg-contain absolute top-[-85px] right-[-40px]"></div>
+              <div class="wp-block-group circle-counter-index z-[-1] opacity-[15%] w-[80px] h-[80px] scale-[1] bg-[url('https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/front-page/about-us-circle-index.png')] bg-center bg-no-repaet bg-contain absolute top-[-85px] right-[-40px]"></div>
               <!-- /wp:group -->
               <!-- wp:paragraph -->
               <p class="target-num inline-block desktop:text-[85px] text-[80px] font-semibold">01</p>
@@ -93,10 +93,10 @@
             <!-- wp:group -->
             <div class="wp-block-group counter-index-wrapper inline relative">
               <!-- wp:group -->
-              <div class="wp-block-group circle-counter-index z-[-1] opacity-[15%] w-[80px] h-[80px] scale-[1] bg-[url('https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/about-us-circle-index.png')] bg-center bg-no-repaet bg-contain absolute top-[-85px] right-[-40px]"></div>
+              <div class="wp-block-group circle-counter-index z-[-1] opacity-[15%] w-[80px] h-[80px] scale-[1] bg-[url('https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/front-page/about-us-circle-index.png')] bg-center bg-no-repaet bg-contain absolute top-[-85px] right-[-40px]"></div>
               <!-- /wp:group -->
               <!-- wp:group -->
-              <div class="wp-block-group circle-counter-index z-[-1] opacity-[15%] w-[80px] h-[80px] scale-[0.75] bg-[url('https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/about-us-circle-index.png')] bg-center bg-no-repaet bg-contain absolute top-[-85px] right-[-40px]"></div>
+              <div class="wp-block-group circle-counter-index z-[-1] opacity-[15%] w-[80px] h-[80px] scale-[0.75] bg-[url('https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/front-page/about-us-circle-index.png')] bg-center bg-no-repaet bg-contain absolute top-[-85px] right-[-40px]"></div>
               <!-- /wp:group -->
               <!-- wp:paragraph -->
               <p class="target-num inline-block desktop:text-[85px] text-[80px] font-semibold">02</p>
@@ -118,13 +118,13 @@
             <!-- wp:group -->
             <div class="wp-block-group counter-index-wrapper inline relative">
               <!-- wp:group -->
-              <div class="wp-block-group circle-counter-index z-[-1] opacity-[15%] w-[80px] h-[80px] scale-[1] bg-[url('https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/about-us-circle-index.png')] bg-center bg-no-repaet bg-contain absolute top-[-85px] right-[-40px]"></div>
+              <div class="wp-block-group circle-counter-index z-[-1] opacity-[15%] w-[80px] h-[80px] scale-[1] bg-[url('https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/front-page/about-us-circle-index.png')] bg-center bg-no-repaet bg-contain absolute top-[-85px] right-[-40px]"></div>
               <!-- /wp:group -->
               <!-- wp:group -->
-              <div class="wp-block-group circle-counter-index z-[-1] opacity-[15%] w-[80px] h-[80px] scale-[0.75] bg-[url('https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/about-us-circle-index.png')] bg-center bg-no-repaet bg-contain absolute top-[-85px] right-[-40px]"></div>
+              <div class="wp-block-group circle-counter-index z-[-1] opacity-[15%] w-[80px] h-[80px] scale-[0.75] bg-[url('https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/front-page/about-us-circle-index.png')] bg-center bg-no-repaet bg-contain absolute top-[-85px] right-[-40px]"></div>
               <!-- /wp:group -->
               <!-- wp:group -->
-              <div class="wp-block-group circle-counter-index z-[-1] opacity-[15%] w-[80px] h-[80px] scale-[0.50] bg-[url('https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/about-us-circle-index.png')] bg-center bg-no-repaet bg-contain absolute top-[-85px] right-[-40px]"></div>
+              <div class="wp-block-group circle-counter-index z-[-1] opacity-[15%] w-[80px] h-[80px] scale-[0.50] bg-[url('https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/front-page/about-us-circle-index.png')] bg-center bg-no-repaet bg-contain absolute top-[-85px] right-[-40px]"></div>
               <!-- /wp:group -->
               <!-- wp:paragraph -->
               <p class="target-num inline-block desktop:text-[85px] text-[80px] font-semibold">03</p>
@@ -147,16 +147,16 @@
             <!-- wp:group -->
             <div class="wp-block-group counter-index-wrapper inline relative">
               <!-- wp:group -->
-              <div class="wp-block-group circle-counter-index z-[-1] opacity-[15%] w-[80px] h-[80px] scale-[1] bg-[url('https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/about-us-circle-index.png')] bg-center bg-no-repaet bg-contain absolute top-[-85px] right-[-40px]"></div>
+              <div class="wp-block-group circle-counter-index z-[-1] opacity-[15%] w-[80px] h-[80px] scale-[1] bg-[url('https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/front-page/about-us-circle-index.png')] bg-center bg-no-repaet bg-contain absolute top-[-85px] right-[-40px]"></div>
               <!-- /wp:group -->
               <!-- wp:group -->
-              <div class="wp-block-group circle-counter-index z-[-1] opacity-[15%] w-[80px] h-[80px] scale-[0.75] bg-[url('https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/about-us-circle-index.png')] bg-center bg-no-repaet bg-contain absolute top-[-85px] right-[-40px]"></div>
+              <div class="wp-block-group circle-counter-index z-[-1] opacity-[15%] w-[80px] h-[80px] scale-[0.75] bg-[url('https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/front-page/about-us-circle-index.png')] bg-center bg-no-repaet bg-contain absolute top-[-85px] right-[-40px]"></div>
               <!-- /wp:group -->
               <!-- wp:group -->
-              <div class="wp-block-group circle-counter-index z-[-1] opacity-[15%] w-[80px] h-[80px] scale-[0.50] bg-[url('https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/about-us-circle-index.png')] bg-center bg-no-repaet bg-contain absolute top-[-85px] right-[-40px]"></div>
+              <div class="wp-block-group circle-counter-index z-[-1] opacity-[15%] w-[80px] h-[80px] scale-[0.50] bg-[url('https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/front-page/about-us-circle-index.png')] bg-center bg-no-repaet bg-contain absolute top-[-85px] right-[-40px]"></div>
               <!-- /wp:group -->
               <!-- wp:group -->
-              <div class="wp-block-group circle-counter-index z-[-1] opacity-[15%] w-[80px] h-[80px] scale-[0.25] bg-[url('https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/about-us-circle-index.png')] bg-center bg-no-repaet bg-contain absolute top-[-85px] right-[-40px]"></div>
+              <div class="wp-block-group circle-counter-index z-[-1] opacity-[15%] w-[80px] h-[80px] scale-[0.25] bg-[url('https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/front-page/about-us-circle-index.png')] bg-center bg-no-repaet bg-contain absolute top-[-85px] right-[-40px]"></div>
               <!-- /wp:group -->
               <!-- wp:paragraph -->
               <p class="target-num inline-block desktop:text-[85px] text-[80px] font-semibold">04</p>
