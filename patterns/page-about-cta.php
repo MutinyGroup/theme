@@ -16,8 +16,8 @@
       <div class="wp-block-group bg-flash top-[80px] z-[-1]"></div>
       <!-- /wp:group -->
       <!-- wp:paragraph -->
-      <svg xmlns="http://www.w3.org/2000/svg" width="877" height="714" viewBox="0 0 877 714" fill="none">
-        <path d="M-91 2.02805L553.6 283.595L554 283.77L554.4 283.595L751.232 197.617L876 191.674V352.568L554 493.221L69.9003 281.762L68.5 281.15V282.678V711.805L-91 642.134V2.02805Z" stroke="white" stroke-width="2" class="absolute top-[0px] left-[0px]"/>
+      <svg xmlns="http://www.w3.org/2000/svg" width="877" height="714" viewBox="0 0 877 714" fill="none" class="absolute top-[0px] left-[0px]">
+        <path d="M-91 2.02805L553.6 283.595L554 283.77L554.4 283.595L751.232 197.617L876 191.674V352.568L554 493.221L69.9003 281.762L68.5 281.15V282.678V711.805L-91 642.134V2.02805Z" stroke="white" stroke-width="2" />
       </svg>
       <!-- /wp:paragraph -->
       <!-- wp:image -->
