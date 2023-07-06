@@ -75,7 +75,8 @@
     
     <!-- wp:group -->
     <div class="wp-block-group gallery-cols relative flex gap-[8px] pb-[100px]">
-      <div class="col1 w-[50%]">
+      <!-- wp:group -->
+      <div class="wp-block-group col1 w-[50%]">
         <!-- wp:group -->
         <div
           class="wp-block-group group relative gallery-tile img-clip-path-services z-[2] group p-[25px] h-[600px] overflow-hidden rounded-[20px] transition ease-out duration-300 cursor-pointer mr-[8px] mb-[10px]"
@@ -490,8 +491,10 @@
         </div>
         <!-- /wp:group -->
       </div>
-
-      <div class="col2 w-[50%] absolute top-[100px] right-0">
+      <!-- /wp:group -->
+      
+      <!-- wp:group -->
+      <div class="wp-block-group col2 w-[50%] absolute top-[100px] right-0">
         <!-- wp:group -->
         <div
           class="wp-block-group group relative gallery-tile z-[2] group p-[25px] h-[600px] rounded-[20px] transition ease-out overflow-hidden duration-300 cursor-pointer mr-[8px] mb-[10px]"
@@ -907,7 +910,10 @@
         </div>
         <!-- /wp:group -->
       </div>
+      <!-- /wp:group -->
     </div>
+    <!-- /wp:group -->
   </div>
+  <!-- /wp:group -->
 </div>
 <!-- /wp:group -->
