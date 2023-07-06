@@ -197,9 +197,9 @@
           </div>
           <!-- /wp:group -->
         </div>
-        <!-- wp:/group -->
+        <!-- /wp:group -->
       </li>
-      <!-- wp:/list-item -->
+      <!-- /wp:list-item -->
 
     </ul>
     <!-- /wp:list -->
