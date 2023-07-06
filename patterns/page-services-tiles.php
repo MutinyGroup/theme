@@ -124,7 +124,7 @@
             >
               <!-- wp:paragraph -->
               <p
-                class="mr-[20px] text-[35px] font-semibold mb-[15px] underline-offset-[7px] group-hover:underline group-hover:decoration-primaryYellow"
+                class="mr-[20px] text-[35px] font-semibold mb-[15px] underline-offset-[9px] group-hover:underline group-hover:decoration-primaryYellow"
               >
                 Marketing i PR
               </p>
@@ -262,7 +262,7 @@
             >
               <!-- wp:paragraph -->
               <p
-                class="mr-[20px] text-[35px] font-semibold mb-[15px] underline-offset-[7px] group-hover:underline group-hover:decoration-primaryYellow"
+                class="mr-[20px] text-[35px] font-semibold mb-[15px] underline-offset-[9px] group-hover:underline group-hover:decoration-primaryYellow"
               >
                 Marketing i PR
               </p>
@@ -403,7 +403,7 @@
             >
               <!-- wp:paragraph -->
               <p
-                class="mr-[20px] text-[35px] font-semibold mb-[15px] underline-offset-[7px] group-hover:underline group-hover:decoration-primaryYellow"
+                class="mr-[20px] text-[35px] font-semibold mb-[15px] underline-offset-[9px] group-hover:underline group-hover:decoration-primaryYellow"
               >
                 Marketing i PR
               </p>
@@ -541,7 +541,7 @@
             >
               <!-- wp:paragraph -->
               <p
-                class="mr-[20px] text-[35px] font-semibold mb-[15px] underline-offset-[7px] group-hover:underline group-hover:decoration-primaryYellow"
+                class="mr-[20px] text-[35px] font-semibold mb-[15px] underline-offset-[9px] group-hover:underline group-hover:decoration-primaryYellow"
               >
                 Marketing i PR
               </p>
