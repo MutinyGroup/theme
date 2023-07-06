@@ -108,10 +108,15 @@
     </div>
     <!-- /wp:group -->
 
-    <!-- wp:group -->
-    <div class="sport-logos overflow-hidden w-full">
+
+
+  </div>
+  <!-- /wp:group -->
+
       <!-- wp:group -->
-      <div class="h-[140px] p-[58px_100px] bg-white flex justify-between">
+      <div class="sport-logos relative overflow-hidden w-full h-[140px]">
+      <!-- wp:group -->
+      <div class="h-[140px] px-[50px] bg-white flex justify-between items-center absolute bottom-0 desktop:left-[50px] left-[20px] is-layout-flow">
         <!-- wp:paragraph -->
         <p class="text-[22px] font-medium">Dumnie wspieramy lokalny sport</p>
         <!-- /wp:paragraph -->
@@ -138,9 +143,6 @@
       <!-- /wp:group -->
     </div>
     <!-- /wp:group -->
-
-  </div>
-  <!-- /wp:group -->
 
   </div>
   <!-- /wp:group -->
