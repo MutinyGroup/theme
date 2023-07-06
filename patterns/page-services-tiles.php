@@ -84,7 +84,7 @@
                 class="wp-block-image img-clip-path-services group-hover:grayscale transition ease-in-out duration-[400ms]"
               >
                 <img
-                  src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/front-page/blog-post-img/blog-post-img2.png"
+                  src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-services/services-tile-img1.png"
                   alt="services-backgroun-image"
                 />
               </figure>
@@ -222,7 +222,7 @@
                 class="wp-block-image img-clip-path-services group-hover:grayscale transition ease-in-out duration-[400ms]"
               >
                 <img
-                  src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/front-page/blog-post-img/blog-post-img2.png"
+                  src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-services/services-tile-img2.png"
                   alt="services-backgroun-image"
                 />
               </figure>
@@ -363,7 +363,7 @@
                 class="wp-block-image img-clip-path-services group-hover:grayscale transition ease-in-out duration-[400ms]"
               >
                 <img
-                  src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/front-page/blog-post-img/blog-post-img2.png"
+                  src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-services/services-tile-img3.png"
                   alt="services-backgroun-image"
                 />
               </figure>
@@ -501,7 +501,7 @@
                 class="wp-block-image img-clip-path-services group-hover:grayscale transition ease-in-out duration-[400ms]"
               >
                 <img
-                  src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/front-page/blog-post-img/blog-post-img2.png"
+                  src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-services/services-tile-img4.png"
                   alt="services-backgroun-image"
                 />
               </figure>
