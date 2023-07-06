@@ -275,7 +275,7 @@
             <!-- /wp:paragraph -->
             <!-- wp:list -->
             <ul
-              class="w[-block-list hover-text opacity-[0%] group-hover:opacity-[100%] text-[15px] leading-[32px] font-semibold uppercase transition ease-out duration-500"
+              class="wp-block-list hover-text opacity-[0%] group-hover:opacity-[100%] text-[15px] leading-[32px] font-semibold uppercase transition ease-out duration-500"
             >
               <!-- wp:list-item -->
               <li
@@ -412,7 +412,7 @@
             <!-- /wp:paragraph -->
             <!-- wp:list -->
             <ul
-              class="w[-block-list hover-text opacity-[0%] group-hover:opacity-[100%] text-[15px] leading-[32px] font-semibold uppercase transition ease-out duration-500"
+              class="wp-block-list hover-text opacity-[0%] group-hover:opacity-[100%] text-[15px] leading-[32px] font-semibold uppercase transition ease-out duration-500"
             >
               <!-- wp:list-item -->
               <li
@@ -555,7 +555,7 @@
             <!-- /wp:paragraph -->
             <!-- wp:list -->
             <ul
-              class="w[-block-list hover-text opacity-[0%] group-hover:opacity-[100%] text-[15px] leading-[32px] font-semibold uppercase transition ease-out duration-500"
+              class="wp-block-list hover-text opacity-[0%] group-hover:opacity-[100%] text-[15px] leading-[32px] font-semibold uppercase transition ease-out duration-500"
             >
               <!-- wp:list-item -->
               <li
@@ -693,7 +693,7 @@
             <!-- /wp:paragraph -->
             <!-- wp:list -->
             <ul
-              class="w[-block-list hover-text opacity-[0%] group-hover:opacity-[100%] text-[15px] leading-[32px] font-semibold uppercase transition ease-out duration-500"
+              class="wp-block-list hover-text opacity-[0%] group-hover:opacity-[100%] text-[15px] leading-[32px] font-semibold uppercase transition ease-out duration-500"
             >
               <!-- wp:list-item -->
               <li
@@ -771,7 +771,7 @@
           <!-- /wp:buttons -->
         </div>
         <!-- /wp:group -->
-        <!-- /wp:group -->
+        <!-- wp:group -->
         <div
           class="wp-block-group group relative img-clip-path-realizations gallery-tile z-[2] group p-[25px] h-[600px] rounded-[20px] transition ease-out overflow-hidden duration-300 cursor-pointer mr-[8px] mb-[10px]"
         >
@@ -831,7 +831,7 @@
             <!-- /wp:paragraph -->
             <!-- wp:list -->
             <ul
-              class="w[-block-list hover-text opacity-[0%] group-hover:opacity-[100%] text-[15px] leading-[32px] font-semibold uppercase transition ease-out duration-500"
+              class="wp-block-list hover-text opacity-[0%] group-hover:opacity-[100%] text-[15px] leading-[32px] font-semibold uppercase transition ease-out duration-500"
             >
               <!-- wp:list-item -->
               <li
