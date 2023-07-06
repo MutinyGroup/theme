@@ -262,6 +262,7 @@
             <!-- /wp:paragraph -->
           </div>
           <!-- /wp:group -->
+
           <!-- wp:group -->
           <div
             class="wp-block-group slide-title absolute desktop:bottom-[-40px] bottom-[75px] left-[25px] group-hover:translate-y-[-120px] transition ease-out duration-[400ms]"
@@ -353,6 +354,7 @@
           <!-- /wp:buttons -->
         </div>
         <!-- /wp:group -->
+        <!-- wp:group -->
         <div
           class="wp-block-group group relative gallery-tile z-[2] group p-[25px] h-[600px] rounded-[20px] transition ease-out overflow-hidden duration-300 cursor-pointer mr-[8px] mb-[10px]"
         >
