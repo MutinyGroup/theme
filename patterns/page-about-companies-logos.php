@@ -116,7 +116,7 @@
       <!-- wp:group -->
       <div class="sport-logos relative overflow-hidden mt-[100px] w-full h-[120px]">
       <!-- wp:group -->
-      <div class="h-[140px] px-[50px] bg-white flex justify-between items-center absolute bottom-0 desktop:left-[11%] left-[20px] is-layout-flow">
+      <div class="h-[120px] px-[50px] bg-white flex justify-between items-center absolute bottom-0 desktop:left-[11%] left-[20px] is-layout-flow">
         <!-- wp:paragraph -->
         <p class="text-[22px] font-medium">Dumnie wspieramy lokalny sport</p>
         <!-- /wp:paragraph -->
