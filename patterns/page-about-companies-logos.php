@@ -124,17 +124,17 @@
         <div class="logos-wrapper flex items-center gap-[100px]">
           <!-- wp:image -->
           <figure class="wp-block-image">
-            <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-about/logos-companies/logo-leniwce.png" alt="leniwce-logo">
+            <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-about/logos-companies/logo-leniwce.png" alt="leniwce-logo" class="h-[80px]">
           </figure class="wp-block-image">
           <!-- /wp:image -->
           <!-- wp:image -->
           <figure class="wp-block-image">
-            <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-about/logos-companies/logo-sport.png" alt="company-logo">
+            <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-about/logos-companies/logo-sport.png" alt="company-logo" class="h-[80px]">
           </figure>
           <!-- /wp:image -->
           <!-- wp:image -->
           <figure class="wp-block-image">
-            <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-about/logos-companies/logo-leniwce.png" alt="leniwce-logo">
+            <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-about/logos-companies/logo-leniwce.png" alt="leniwce-logo" class="h-[80px]">
           </figure>
           <!-- /wp:image -->
         </div>
