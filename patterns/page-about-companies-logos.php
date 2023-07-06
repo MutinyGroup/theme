@@ -109,6 +109,36 @@
     <!-- /wp:group -->
     </div>
     <!-- /wp:group -->
+    <!-- wp:group -->
+    <div class="overflow-hidden w-full">
+      <!-- wp:group -->
+      <div class="sport-logos h-[140px] p-[58px_100px] bg-white">
+        <!-- wp:paragraph -->
+        <p>Dumnie wspieramy lokalny sport</p>
+        <!-- /wp:paragraph -->
+        <!-- wp:group -->
+        <div class="logos-wrapper flex">
+          <!-- wp:image -->
+          <figure class="wp-block-image">
+            <img src="https://mutiny.webo.design/wp-content/themes/mutin…ets/img/page-about/logos-companies/logo-leniwce.png" alt="leniwce-logo">
+          </figure class="wp-block-image">
+          <!-- /wp:image -->
+          <!-- wp:image -->
+          <figure class="wp-block-image">
+            <img src="https://mutiny.webo.design/wp-content/themes/mutin…ets/img/page-about/logos-companies/logo-sport.png" alt="leniwce-logo">
+          </figure>
+          <!-- /wp:image -->
+          <!-- wp:image -->
+          <figure class="wp-block-image">
+            <img src="https://mutiny.webo.design/wp-content/themes/mutin…ets/img/page-about/logos-companies/logo-leniwce.png" alt="leniwce-logo">
+          </figure>
+          <!-- /wp:image -->
+        </div>
+        <!-- /wp:group -->
+      </div>
+      <!-- /wp:group -->
+    </div>
+    <!-- /wp:group -->
   </div>
   <!-- /wp:group -->
 </div>
