@@ -73,11 +73,11 @@
         <div class="col1 w-[50%]">
           <!-- wp:group -->
           <div
-            class="wp-block-group group relative gallery-tile img-clip-path-services z-[2] group p-[25px] h-[600px] rounded-[20px] transition ease-out duration-300 cursor-pointer mr-[8px] mb-[10px]"
+            class="wp-block-group group relative gallery-tile img-clip-path-services z-[2] group p-[25px] h-[600px] overflow-hidden rounded-[20px] transition ease-out duration-300 cursor-pointer mr-[8px] mb-[10px]"
           >
             <!-- wp:group -->
             <div
-              class="wp-block-group img-clip-path-wrapper w-full h-full overflow-hidden rounded-tr-[20px] rounded-br-[20px] overflow-hidden absolute left-0 top-0 z-[-1]"
+              class="wp-block-group img-clip-path-wrapper w-full h-full rounded-tr-[20px] rounded-br-[20px] overflow-hidden absolute left-0 top-0 z-[-1]"
             >
               <!-- wp:image -->
               <figure
@@ -211,11 +211,11 @@
           <!-- /wp:group -->
           <!-- wp:group -->
           <div
-            class="wp-block-group group relative gallery-tile z-[2] group p-[25px] h-[600px] rounded-[20px] transition ease-out duration-300 cursor-pointer mr-[8px]"
+            class="wp-block-group group relative gallery-tile z-[2] group p-[25px] h-[600px] rounded-[20px] transition ease-out overflow-hidden duration-300 cursor-pointer mr-[8px]"
           >
             <!-- wp:group -->
             <div
-              class="wp-block-group img-clip-path-wrapper w-full h-full overflow-hidden-[20px] rounded-br-[20px] overflow-hidden absolute left-0 top-0 z-[-1]"
+              class="wp-block-group img-clip-path-wrapper w-full h-full-[20px] rounded-br-[20px] overflow-hidden absolute left-0 top-0 z-[-1]"
             >
               <!-- wp:image -->
               <figure
@@ -352,11 +352,11 @@
         <div class="col2 w-[50%] absolute top-[100px] right-0">
           <!-- wp:group -->
           <div
-            class="wp-block-group group relative gallery-tile z-[2] group p-[25px] h-[600px] rounded-[20px] transition ease-out duration-300 cursor-pointer mr-[8px] mb-[10px]"
+            class="wp-block-group group relative gallery-tile z-[2] group p-[25px] h-[600px] rounded-[20px] transition ease-out duration overflow-hidden-300 cursor-pointer mr-[8px] mb-[10px]"
           >
             <!-- wp:group -->
             <div
-              class="wp-block-group img-clip-path-wrapper w-full h-full overflow-hidden-[20px] rounded-br-[20px] overflow-hidden absolute left-0 top-0 z-[-1]"
+              class="wp-block-group img-clip-path-wrapper w-full h-full-[20px] rounded-br-[20px] overflow-hidden absolute left-0 top-0 z-[-1]"
             >
               <!-- wp:image -->
               <figure
@@ -490,11 +490,11 @@
           <!-- /wp:group -->
           <!-- wp:group -->
           <div
-            class="wp-block-group group relative gallery-tile z-[2] group p-[25px] h-[600px] rounded-[20px] transition ease-out duration-300 cursor-pointer mr-[8px]"
+            class="wp-block-group group relative gallery-tile z-[2] group p-[25px] h-[600px] rounded-[20px] transition ease-out overflow-hidden duration-300 cursor-pointer mr-[8px]"
           >
             <!-- wp:group -->
             <div
-              class="wp-block-group img-clip-path-wrapper w-full h-full overflow-hidden-[20px] rounded-br-[20px] overflow-hidden absolute left-0 top-0 z-[-1]"
+              class="wp-block-group img-clip-path-wrapper w-full h-full-[20px] rounded-br-[20px] overflow-hidden absolute left-0 top-0 z-[-1]"
             >
               <!-- wp:image -->
               <figure
