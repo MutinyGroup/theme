@@ -114,7 +114,7 @@
   <!-- /wp:group -->
 
       <!-- wp:group -->
-      <div class="sport-logos relative overflow-hidden mt-[100px] w-full h-[140px]">
+      <div class="sport-logos relative overflow-hidden mt-[100px] w-full h-[120px]">
       <!-- wp:group -->
       <div class="h-[140px] px-[50px] bg-white flex justify-between items-center absolute bottom-0 desktop:left-[11%] left-[20px] is-layout-flow">
         <!-- wp:paragraph -->
