@@ -152,8 +152,8 @@ body{
 }
 
 .img-clip-path-services{
-  -webkit-clip-path: polygon(16% 0, 100% 0, 100% 100%, 0 100%, 0 16%);
-  clip-path: polygon(16% 0, 100% 0, 100% 100%, 0 100%, 0 16%);
+  -webkit-clip-path: polygon(19% 0, 100% 0, 100% 100%, 0 100%, 0 17%);
+  clip-path: polygon(19% 0, 100% 0, 100% 100%, 0 100%, 0 17%);
 }
 .img-clip-path-services2{
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 83%, 82% 100%, 0 100%);
