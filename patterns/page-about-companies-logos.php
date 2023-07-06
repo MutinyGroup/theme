@@ -125,7 +125,7 @@
           <!-- wp:image -->
           <figure class="wp-block-image">
             <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-about/logos-companies/logo-leniwce.png" alt="leniwce-logo" class="max-h-[80px]">
-          </figure class="wp-block-image">
+          </figure>
           <!-- /wp:image -->
           <!-- wp:image -->
           <figure class="wp-block-image">
