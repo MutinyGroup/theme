@@ -1,3 +1,9 @@
+<?php
+/*
+Template Name: header-bright
+*/
+?>
+
 <!-- wp:group -->
 <div class="wp-block-group nav-desktop w-fill bg-[#f2f2f2] text-black z-[2] h-[90px] desktop:flex hidden justify-center align-center">
 <!-- wp:list -->
