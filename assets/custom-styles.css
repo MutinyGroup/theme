@@ -234,3 +234,9 @@ body{
   clip-path: polygon(0 0, 100% 0, 100% 100%, 28% 100%, 24% 92%, 0 92%);
 }
 
+/* page about sport logos */
+
+.logos-sport-wrapper figure img{
+  max-height: 80px;
+}
+
