@@ -91,6 +91,7 @@
             </svg>
             <!-- /wp:paragraph -->
           </div>
+          <!-- /wp:group -->
           <!-- wp:group -->
           <div class="wp-block-group col2 w-[50%]">
             <!-- wp:group -->
@@ -194,6 +195,7 @@
             </div>
             <!-- /wp:group -->
           </div>
+          <!-- /wp:group -->
         </div>
         <!-- wp:/group -->
       </li>
