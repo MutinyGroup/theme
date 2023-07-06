@@ -113,7 +113,7 @@
       <!-- wp:group -->
       <div class="h-[140px] p-[58px_100px] bg-white flex justify-between">
         <!-- wp:paragraph -->
-        <p class="text-[25px] font-medium">Dumnie wspieramy lokalny sport</p>
+        <p class="text-[22px] font-medium">Dumnie wspieramy lokalny sport</p>
         <!-- /wp:paragraph -->
         <!-- wp:group -->
         <div class="logos-wrapper flex gap-[100px]">
