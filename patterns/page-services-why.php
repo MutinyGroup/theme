@@ -8,7 +8,7 @@
 ?>
 
 <!-- wp:group -->
-<div class="wp-block-group page-about-services mt-[150px] overflow-hidden">
+<div class="wp-block-group why mt-[150px]">
   <!-- wp:group -->
   <div
     class="wp-block-group container mx-auto relative desktop:px-0 px-[20px]"
@@ -60,7 +60,7 @@
     <!-- /wp:group -->
 
     <!-- wp:list -->
-    <ul class="wp-block-list targets-wrapper">
+    <ul class="wp-block-list why-list-wrapper">
       <!-- wp:list-item -->
       <li>
         <!-- wp:group -->
