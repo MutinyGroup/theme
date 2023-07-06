@@ -765,7 +765,7 @@
           <!-- /wp:group -->
           <!-- /wp:group -->
           <div
-            class="wp-block-group group relative gallery-tile z-[2] group p-[25px] h-[600px] rounded-[20px] transition ease-out overflow-hidden duration-300 cursor-pointer mr-[8px] mb-[10px]"
+            class="wp-block-group group relative img-clip-path-realizations gallery-tile z-[2] group p-[25px] h-[600px] rounded-[20px] transition ease-out overflow-hidden duration-300 cursor-pointer mr-[8px] mb-[10px]"
           >
             <!-- wp:group -->
             <div
@@ -773,7 +773,7 @@
             >
               <!-- wp:image -->
               <figure
-                class="wp-block-image img-clip-path-blog group-hover:grayscale transition ease-in-out duration-[400ms]"
+                class="wp-block-image group-hover:grayscale transition ease-in-out duration-[400ms]"
               >
                 <img
                   src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-services/services-tile-img6.jpg"
