@@ -8,7 +8,7 @@
 ?>
 
 <!-- wp:group -->
-<div class="wp-block-group about-banner desktop:h-[940px] h-screen mb-[150px]">
+<div class="wp-block-group about-banner desktop:h-[770px] h-screen mb-[150px]">
   <!-- wp:group -->
   <div
     class="wp-block-group container relative mx-auto desktop:px-0 px-[20px]"
