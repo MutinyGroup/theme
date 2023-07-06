@@ -15,6 +15,11 @@
       <!-- wp:group -->
       <div class="wp-block-group bg-flash top-[80px] z-[-1]"></div>
       <!-- /wp:group -->
+      <!-- wp:paragraph -->
+      <svg xmlns="http://www.w3.org/2000/svg" width="877" height="714" viewBox="0 0 877 714" fill="none">
+        <path d="M-91 2.02805L553.6 283.595L554 283.77L554.4 283.595L751.232 197.617L876 191.674V352.568L554 493.221L69.9003 281.762L68.5 281.15V282.678V711.805L-91 642.134V2.02805Z" stroke="white" stroke-width="2" class="absolute top-[0px] left-[0px]"/>
+      </svg>
+      <!-- /wp:paragraph -->
       <!-- wp:image -->
       <figure class="wp-block-image bg-shape w-[1290px] z-[-1] opacity-[0.15] absolute top-[-150px] left-[-140px]">
         <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/cta-bg-shape.png" alt="background-shape">
@@ -24,7 +29,7 @@
       <p class="section-title text-[20px] text-primaryYellow">Szukasz wsparcia w marketingu?</p>
       <!-- /wp:paragraph -->
       <!-- wp:group -->
-      <div class="wp-block-group uslugi-title font-normal desktop:text-[65px] text-[32px] desktop:leading-[75px] leading-[36px]">
+      <div class="wp-block-group uslugi-title font-normal desktop:text-[65px] text-[32px] desktop:leading-[55px] leading-[36px]">
         <!-- wp:paragraph -->
         <p class="uppercase">
         Poznaj ofertę <br>
