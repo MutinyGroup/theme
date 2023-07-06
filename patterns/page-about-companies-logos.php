@@ -116,24 +116,24 @@
       <!-- wp:group -->
       <div class="sport-logos relative overflow-hidden w-full h-[140px]">
       <!-- wp:group -->
-      <div class="h-[140px] px-[50px] bg-white flex justify-between items-center absolute bottom-0 desktop:left-[50px] left-[20px] is-layout-flow">
+      <div class="h-[140px] px-[50px] bg-white flex justify-between items-center absolute bottom-0 desktop:left-[11%] left-[20px] is-layout-flow">
         <!-- wp:paragraph -->
         <p class="text-[22px] font-medium">Dumnie wspieramy lokalny sport</p>
         <!-- /wp:paragraph -->
         <!-- wp:group -->
         <div class="logos-wrapper flex gap-[100px]">
           <!-- wp:image -->
-          <figure class="wp-block-image">
+          <figure class="wp-block-image [&>img]:h-[80px]">
             <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-about/logos-companies/logo-leniwce.png" alt="leniwce-logo">
           </figure class="wp-block-image">
           <!-- /wp:image -->
           <!-- wp:image -->
-          <figure class="wp-block-image">
+          <figure class="wp-block-image [&>img]:h-[80px]">
             <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-about/logos-companies/logo-sport.png" alt="company-logo">
           </figure>
           <!-- /wp:image -->
           <!-- wp:image -->
-          <figure class="wp-block-image">
+          <figure class="wp-block-image [&>img]:h-[80px]">
             <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-about/logos-companies/logo-leniwce.png" alt="leniwce-logo">
           </figure>
           <!-- /wp:image -->
