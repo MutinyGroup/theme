@@ -62,7 +62,7 @@
         <div class="wp-block-group img-clip-path-wrapper w-full h-full rounded-tr-[20px] rounded-br-[20px] overflow-hidden absolute left-0 top-0 z-[-1]">
           <!-- wp:image -->
           <figure class="wp-block-image group-hover:grayscale transition ease-in-out duration-[400ms]">
-            <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/realizacje-bg1.png" alt="realizations-backgroun-image">
+            <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/front-page/realizacje-bg1.png" alt="realizations-backgroun-image">
           </figure>
           <!-- /wp:image -->
           <!-- wp:paragraph -->
@@ -128,7 +128,7 @@
           <div class="wp-block-group img-clip-path-wrapper w-full h-full rounded-tr-[20px] rounded-br-[20px] overflow-hidden absolute left-0 top-0 z-[-1]">
             <!-- wp:image -->
             <figure class="wp-block-image group-hover:grayscale transition ease-in-out duration-[400ms]">
-              <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/realizacje-bg2.png" alt="realizations-backgroun-image">
+              <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/front-page/realizacje-bg2.png" alt="realizations-backgroun-image">
             </figure>
             <!-- /wp:image -->
             <!-- wp:paragraph -->

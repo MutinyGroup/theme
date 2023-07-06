@@ -51,7 +51,7 @@
       <!-- wp:image -->
       <figure class="wp-block-image">
         <img
-          src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/banner-bg.png"
+          src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/front-page/banner-bg.png"
           alt="background image"
         />
       </figure>

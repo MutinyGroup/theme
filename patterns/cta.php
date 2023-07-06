@@ -17,7 +17,7 @@
       <!-- /wp:group -->
       <!-- wp:image -->
       <figure class="wp-block-image bg-shape w-[1290px] z-[-1] opacity-[0.15] absolute top-[-150px] left-[-140px]">
-        <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/cta-bg-shape.png" alt="background-shape">
+        <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/front-page/cta-bg-shape.png" alt="background-shape">
       </figure>
       <!-- /wp:image -->
       <!-- wp:paragraph -->
@@ -54,7 +54,7 @@
   <div class="wp-block-group img-clip-path-wrapper w-[58%] h-full rounded-tl-[20px] overflow-hidden absolute right-0 desktop:top-0 top-[30px] z-[-1]">
     <!-- wp:image -->
     <figure class="wp-block-image img-clip-path-cta">
-      <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/cta-bg.png" alt="cta-backgroun-image">
+      <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/front-page/cta-bg.png" alt="cta-backgroun-image">
     </figure>
     <!-- /wp:image -->
     <!-- wp:paragraph -->

@@ -20,7 +20,7 @@
       </div>
       <!-- /wp:group -->
       <!-- wp:group -->
-      <div class="wp-block-group bg-shape w-[440px] h-[394px] z-[-1] opacity-[0.20] absolute top-[0px] right-[10px] bg-[url('https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/services-bg-shape.png')] bg-center bg-no-repeat bg-contain">
+      <div class="wp-block-group bg-shape w-[440px] h-[394px] z-[-1] opacity-[0.20] absolute top-[0px] right-[10px] bg-[url('https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/front-page/services-bg-shape.png')] bg-center bg-no-repeat bg-contain">
         <!-- wp:paragraph -->
         <p class="hidden">background line shape</p>
         <!-- /wp:paragraph -->
@@ -72,7 +72,7 @@
             <div class="wp-block-group img-clip-path-wrapper w-full h-full rounded-tr-[20px] rounded-br-[20px] overflow-hidden absolute left-0 top-0 z-[-1]">
               <!-- wp:image -->
               <figure class="wp-block-image img-clip-path-services">
-                <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/swiper-bg1.png" alt="services-backgroun-image">
+                <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/front-page/swiper-bg1.png" alt="services-backgroun-image">
               </figure>
               <!-- /wp:image -->
               <!-- wp:paragraph -->
@@ -123,7 +123,7 @@
             <div class="wp-block-group img-clip-path-wrapper w-full h-full rounded-tr-[20px] rounded-br-[20px] overflow-hidden absolute left-0 top-0 z-[-1]">
               <!-- wp:image -->
               <figure class="wp-block-image">
-                <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/swiper-bg2.png" alt="services-backgroun-image">
+                <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/front-page/swiper-bg2.png" alt="services-backgroun-image">
               </figure>
               <!-- /wp:image -->
               <!-- wp:paragraph -->
@@ -173,7 +173,7 @@
             <div class="wp-block-group img-clip-path-wrapper w-full h-full rounded-tr-[20px] rounded-br-[20px] overflow-hidden absolute left-0 top-0 z-[-1]">
               <!-- wp:image -->
               <figure class="wp-block-image">
-                <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/swiper-bg2.png" alt="services-backgroun-image">
+                <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/front-page/swiper-bg2.png" alt="services-backgroun-image">
               </figure>
               <!-- /wp:image -->
               <!-- wp:paragraph -->
@@ -223,7 +223,7 @@
             <div class="wp-block-group img-clip-path-wrapper w-full h-full rounded-tr-[20px] rounded-br-[20px] overflow-hidden absolute left-0 top-0 z-[-1]">
               <!-- wp:image -->
               <figure class="wp-block-image">
-                <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/swiper-bg2.png" alt="services-backgroun-image">
+                <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/front-page/swiper-bg2.png" alt="services-backgroun-image">
               </figure>
               <!-- /wp:image -->
               <!-- wp:paragraph -->
@@ -273,7 +273,7 @@
             <div class="wp-block-group img-clip-path-wrapper w-full h-full rounded-tr-[20px] rounded-br-[20px] overflow-hidden absolute left-0 top-0 z-[-1]">
               <!-- wp:image -->
               <figure class="wp-block-image img-clip-path-services2">
-                <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/swiper-bg3.png" alt="services-backgroun-image">
+                <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/front-page/swiper-bg3.png" alt="services-backgroun-image">
               </figure>
               <!-- /wp:image -->
               <!-- wp:paragraph -->
@@ -374,6 +374,6 @@
 
 <!-- wp:image -->
 <figure class="wp-block-image img-separator desktop:mb-[150px] mb-[80px] desktop:h-[600px] h-[180px]">
-  <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/section-separator.jpg" alt="image-page-separator">
+  <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/front-page/section-separator.jpg" alt="image-page-separator">
 </figure>
 <!-- /wp:image -->

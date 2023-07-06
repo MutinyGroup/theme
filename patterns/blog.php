@@ -17,12 +17,12 @@
       <!-- /wp:group -->
       <!-- wp:image -->
       <figure class="wp-block-image bg-shape desktop:w-[234px] w-[125px] z-[-1] opacity-[0.2] absolute desktop:top-[-130px] top-[-60px] desktop:left-[-60px] left-[-10px] mb-[20px] desktop:max-w-[444px] max-h-[450px]">
-        <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/blog-bg-shape.png" alt="background-shape">
+        <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/front-page/blog-bg-shape.png" alt="background-shape">
       </figure>
       <!-- /wp:image -->
       <!-- wp:image -->
       <figure class="wp-block-image bg-shape hidden desktop:block desktop:w-[470px] w-[180px] z-[-1] opacity-[0.2] absolute top-[-280px] right-[100px] mb-[20px] desktop:max-w-[444px] max-h-[450px]">
-        <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/blog-bg-shape2.png" alt="background-shape">
+        <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/front-page/blog-bg-shape2.png" alt="background-shape">
       </figure>
       <!-- /wp:image -->
       <!-- wp:paragraph -->
@@ -57,7 +57,7 @@
               <div class="wp-block-group img-clip-path-blog overflow-hidden rounded-[20px]">
                 <!-- wp:image -->
                 <figure class="wp-block-image post-img scale-[1.12] group-hover:scale-[1.06] transition ease-out duration-[700ms]">
-                  <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/blog-post-img/blog-post-img1.png" alt="blog-post-img">
+                  <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/front-page/blog-post-img/blog-post-img1.png" alt="blog-post-img">
                 </figure>
                 <!-- /wp:image -->
               </div>
@@ -99,7 +99,7 @@
               <div class="wp-block-group overflow-hidden desktop:h-[420px] rounded-[20px]">
                 <!-- wp:image -->
                 <figure class="wp-block-image post-img scale-[1.12] group-hover:scale-[1.06] transition ease-out duration-[700ms]">
-                  <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/blog-post-img/blog-post-img2.png" alt="blog-post-img">
+                  <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/front-page/blog-post-img/blog-post-img2.png" alt="blog-post-img">
                 </figure>
                 <!-- /wp:image -->
               </div>
@@ -138,7 +138,7 @@
               <div class="wp-block-group overflow-hidden desktop:h-[420px] rounded-[20px]">
                 <!-- wp:image -->
                 <figure class="wp-block-image post-img scale-[1.12] group-hover:scale-[1.06] transition ease-out duration-[700ms]">
-                  <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/blog-post-img/blog-post-img3.jpg" alt="blog-post-img">
+                  <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/front-page/blog-post-img/blog-post-img3.jpg" alt="blog-post-img">
                 </figure>
                 <!-- /wp:image -->
               </div>
@@ -225,7 +225,7 @@
                 <div class="wp-block-group img-clip-path-blog overflow-hidden rounded-[20px]">
                   <!-- wp:image -->
                   <figure class="wp-block-image post-img scale-[1.12] group-hover:scale-[1.06] transition ease-out duration-[700ms]">
-                    <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/blog-post-img/blog-post-img1.png" alt="blog-post-img">
+                    <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/front-page/blog-post-img/blog-post-img1.png" alt="blog-post-img">
                   </figure>
                   <!-- /wp:image -->
                 </div>
@@ -267,7 +267,7 @@
                 <div class="wp-block-group overflow-hidden desktop:h-[420px] rounded-[20px]">
                   <!-- wp:image -->
                   <figure class="wp-block-image post-img scale-[1.12] group-hover:scale-[1.06] transition ease-out duration-[700ms]">
-                    <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/blog-post-img/blog-post-img2.png" alt="blog-post-img">
+                    <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/front-page/blog-post-img/blog-post-img2.png" alt="blog-post-img">
                   </figure>
                   <!-- /wp:image -->
                 </div>
@@ -306,7 +306,7 @@
                 <div class="wp-block-group overflow-hidden desktop:h-[420px] rounded-[20px]">
                   <!-- wp:image -->
                   <figure class="wp-block-image post-img scale-[1.12] group-hover:scale-[1.06] transition ease-out duration-[700ms]">
-                    <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/blog-post-img/blog-post-img3.jpg" alt="blog-post-img">
+                    <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/front-page/blog-post-img/blog-post-img3.jpg" alt="blog-post-img">
                   </figure>
                   <!-- /wp:image -->
                 </div>
