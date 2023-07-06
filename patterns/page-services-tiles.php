@@ -77,7 +77,7 @@
           >
             <!-- wp:group -->
             <div
-              class="wp-block-group img-clip-path-wrapper w-full h-full rounded-tr-[20px] rounded-br-[20px] overflow-hidden absolute left-0 top-0 z-[-1]"
+              class="wp-block-group img-clip-path-wrapper w-full h-full overflow-hidden rounded-tr-[20px] rounded-br-[20px] overflow-hidden absolute left-0 top-0 z-[-1]"
             >
               <!-- wp:image -->
               <figure
@@ -215,7 +215,7 @@
           >
             <!-- wp:group -->
             <div
-              class="wp-block-group img-clip-path-wrapper w-full h-full rounded-tr-[20px] rounded-br-[20px] overflow-hidden absolute left-0 top-0 z-[-1]"
+              class="wp-block-group img-clip-path-wrapper w-full h-full overflow-hidden-[20px] rounded-br-[20px] overflow-hidden absolute left-0 top-0 z-[-1]"
             >
               <!-- wp:image -->
               <figure
@@ -356,7 +356,7 @@
           >
             <!-- wp:group -->
             <div
-              class="wp-block-group img-clip-path-wrapper w-full h-full rounded-tr-[20px] rounded-br-[20px] overflow-hidden absolute left-0 top-0 z-[-1]"
+              class="wp-block-group img-clip-path-wrapper w-full h-full overflow-hidden-[20px] rounded-br-[20px] overflow-hidden absolute left-0 top-0 z-[-1]"
             >
               <!-- wp:image -->
               <figure
@@ -494,7 +494,7 @@
           >
             <!-- wp:group -->
             <div
-              class="wp-block-group img-clip-path-wrapper w-full h-full rounded-tr-[20px] rounded-br-[20px] overflow-hidden absolute left-0 top-0 z-[-1]"
+              class="wp-block-group img-clip-path-wrapper w-full h-full overflow-hidden-[20px] rounded-br-[20px] overflow-hidden absolute left-0 top-0 z-[-1]"
             >
               <!-- wp:image -->
               <figure
