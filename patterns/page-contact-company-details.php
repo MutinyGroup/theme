@@ -46,7 +46,31 @@
         <li><span class="font-medium">KRS:</span> 0000898283</li>
       </ul>
     </div>
-    <div class="col3 details text-[14px] font-light leading-[19px] max-w-[444px]">
+    <div class="col3 relative details text-[14px] font-light leading-[19px] max-w-[444px]">
+
+      <!-- wp:group -->
+      <div class="wp-block-group img-clip-path-wrapper w-[444px] overflow-hidden absolute top-[0px] right-[0px] z-[-1]">
+        <!-- wp:image -->
+        <figure>
+          <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-contact/page-contact-company-details.jpg" alt="image">
+        </figure>
+        <!-- /wp:image -->
+        <!-- wp:paragraph -->
+        <svg class="flt_svg" xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            <filter id="flt_tag">
+              <feGaussianBlur in="SourceGraphic" stdDeviation="8" result="blur" />    
+              <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9" result="flt_tag" />
+              <feComposite in="SourceGraphic" in2="flt_tag" operator="atop"/>
+            </filter>
+          </defs>
+        </svg>
+        <!-- /wp:paragraph -->
+      </div>
+      <!-- /wp:group -->
+
+
+
       <p>Spółka Mutiny Group sp. z o.o. z siedzibą w Gdańsku przy ul. Jaśkowa Dolina 11A/1A, kod pocztowy: 80-252 jest wpisana do rejestru przedsiębiorców, prowadzonego przez Sąd Rejonowy Gdańsk - Wydział Gospodarczy Krajowego Rejestru Sądowego pod nr KRS 0000898283, NIP: 9571133012, REGON: 388790205. Kapitał zakładowy: 5.000 PLN (opłacony w całości).</p>
     </div>
   </div>
