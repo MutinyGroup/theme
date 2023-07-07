@@ -35,7 +35,7 @@
         class="wp-block-group section-title grid desktop:basis-auto desktop:w-[145px] desktop:basis-[80%] uppercase text-primaryYellow"
         >
           <!-- wp:paragraph -->
-          <p class="justify-self-end pt-[3px] pr-[15px]">Realizacje</p>
+          <p class="justify-self-end pt-[3px] pr-[15px]">Aktualności</p>
           <!-- /wp:paragraph -->
         </div>  
         <!-- /wp:group -->
@@ -45,12 +45,12 @@
         <p
           class=""
         >
-          Projekty z którch <br />
-          jesteśmy
+        Sprawdź co  <br />
+        u nas
           <span
             class="relative italic before:content-[''] before:inline-block desktop:before:mr-[8px] before:mr-[4px] before:bottom-0 before:left-0 desktop:before:w-[90px] before:w-[30px] desktop:before:h-[3px] before:h-[3px] before:bg-black"
           >
-            dumni.</span
+            słychać.</span
           >
         </p>
         <!-- /wp:paragraph -->
@@ -63,7 +63,7 @@
     <div class="wp-block-group paragrapth-wrapper ml-[230px]">
       <!-- wp:paragraph -->
       <p class="text text-[20px] leading-[30px] max-w-[445px]">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
       </p>
       <!-- /wp:paragraph -->
     </div>
