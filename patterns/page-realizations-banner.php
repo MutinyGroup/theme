@@ -38,15 +38,15 @@
       </p>
       <!-- /wp:paragraph -->
       <!-- wp:group -->
-      <div class="wp-block-group uslugi-title">
+      <div class="wp-block-group uslugi-title uppercase font-medium desktop:text-[60px] text-[24px] desktop:leading-[55px] leading-[30px]">
         <!-- wp:paragraph -->
         <p
-          class="uppercase desktop:text-[60px] text-[24px] desktop:leading-[55px] leading-[30px]"
+          class=""
         >
           Projekty z którch <br />
           jesteśmy
           <span
-            class="relative desktop:text-[60px] text-[24px] uppercase italic before:content-[''] before:inline-block desktop:before:mr-[16px] before:mr-[4px] before:bottom-0 before:left-0 desktop:before:w-[90px] before:w-[30px] desktop:before:h-[3px] before:h-[3px] before:bg-black"
+            class="relative italic before:content-[''] before:inline-block desktop:before:mr-[16px] before:mr-[4px] before:bottom-0 before:left-0 desktop:before:w-[90px] before:w-[30px] desktop:before:h-[3px] before:h-[3px] before:bg-black"
           >
             dumni</span
           >
