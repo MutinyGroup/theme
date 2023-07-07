@@ -5,15 +5,16 @@ body{
 }
 /* bright subpages */
 .page-id-99,
-.page-id-101
-.page-id-110{
-  background-color: #F2F2F2;
-  color: black;
-}
+.page-id-101,
+.page-id-110,
 .page-id-112{
   background-color: #F2F2F2;
   color: black;
 }
+/* .page-id-112{
+  background-color: #F2F2F2;
+  color: black;
+} */
 .home{
   background-color: #101010;
 	color: white;
