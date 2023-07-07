@@ -83,7 +83,7 @@
             class="wp-block-image group-hover:grayscale transition ease-in-out duration-[400ms]"
           >
             <img
-              src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-services/services-tile-img6.jpg"
+              src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-contact/co-founder-img.jpg"
               alt="services-backgroun-image"
             />
           </figure>
