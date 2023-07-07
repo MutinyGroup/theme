@@ -14,7 +14,7 @@
     <!-- wp:group -->
     <div class="wp-block-group paragraph-wrapper relative w-full mb-[150px] pt-[100px]">
       <!-- wp:paragraph -->
-      <svg class="shape w-[1400px] z-[-1] absolute top-[-120px] left-[30px]" xmlns="http://www.w3.org/2000/svg" width="1051" height="810" viewBox="0 0 1051 810" fill="none">
+      <svg class="shape opacity-[60%] w-[1400px] z-[-1] absolute top-[-120px] left-[30px]" xmlns="http://www.w3.org/2000/svg" width="1051" height="810" viewBox="0 0 1051 810" fill="none">
         <path d="M1 1.45249L938.266 329.35L938.596 329.465L938.927 329.35L1406.89 165.634V409.787L938.596 573.618L234.979 327.462L233.649 326.996V328.406V807.61L1 726.219V1.45249Z" stroke="#FFFFFF" stroke-width="2"/>
       </svg>
       <!-- /wp:paragraph --> 
