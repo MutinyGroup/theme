@@ -8,7 +8,7 @@
 ?>
 
 <!-- wp:group -->
-<div class="wp-block-group page-contact-info mb-[150px]">
+<div class="wp-block-group relative page-contact-info mb-[150px]">
   <!-- wp:group -->
   <div
   class="wp-block-group container mx-auto relative desktop:px-0 px-[20px]"
@@ -46,7 +46,7 @@
         <li><span class="font-medium">KRS:</span> 0000898283</li>
       </ul>
     </div>
-    <div class="col3 relative details text-[14px] font-light leading-[19px] max-w-[444px]">
+    <div class="col3 details text-[14px] font-light leading-[19px] max-w-[444px]">
 
       <!-- wp:group -->
       <div class="wp-block-group img-clip-path-wrapper w-[444px] overflow-hidden absolute top-[-290px] right-[-210px] z-[-1]">
