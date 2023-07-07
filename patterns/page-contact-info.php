@@ -19,7 +19,7 @@
     >
       <!-- wp:paragraph -->
       <svg
-        class="z-[-1] absolute top-0 right-[-200px]"
+        class="z-[-1] absolute top-[130px] right-[-110px]"
         xmlns="http://www.w3.org/2000/svg"
         width="470"
         height="396"
