@@ -8,14 +8,14 @@
 ?>
 
 <!-- wp:group -->
-<div class="wp-block-group page-realizations-banner mt-[150px] overflow-hidden">
+<div class="wp-block-group page-realizations-banner overflow-hidden">
   <!-- wp:group -->
   <div
     class="wp-block-group container mx-auto relative desktop:px-0 px-[20px]"
   >
     <!-- wp:group -->
     <div
-      class="wp-block-group title-wrapper relative container mx-auto desktop:mb-[120px] mb-[60px] flex"
+      class="wp-block-group title-wrapper relative container mx-auto pt-[90px] desktop:mb-[120px] mb-[60px] flex"
     >
       <!-- wp:paragraph -->
       <p
