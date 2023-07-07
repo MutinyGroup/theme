@@ -1,7 +1,7 @@
 <?php
 /**
- * Title: bright-cta
- * Slug: bright-cta
+ * Title: bright-cta1
+ * Slug: bright-cta1
  * Categories: text, banner
  * Viewport Width: 1280
  */
