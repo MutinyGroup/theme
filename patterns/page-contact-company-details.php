@@ -35,7 +35,7 @@
   >
   <div class="cols-wrapper flex justify-between">
     <div class="col1 relative address text-[20px] leading-[29px]">
-      <svg class="shape absolute top-[-110px] left-[-60px] z-[-1]" xmlns="http://www.w3.org/2000/svg" width="236" height="317" viewBox="0 0 236 317" fill="none">
+      <svg class="shape opacity-[60%] absolute top-[-110px] left-[-60px] z-[-1]" xmlns="http://www.w3.org/2000/svg" width="236" height="317" viewBox="0 0 236 317" fill="none">
         <path d="M1.62088 314.924L234.242 236.649V1.91746L1.62088 80.1919V314.924Z" stroke="white" stroke-width="2"/>
       </svg>
       <svg class="flash absolute top-[-300px] left-[-210px] z-[-1]" xmlns="http://www.w3.org/2000/svg" width="688" height="801" viewBox="0 0 688 801" fill="none">
