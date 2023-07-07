@@ -76,7 +76,7 @@
       <div class="wp-block-group col1 w-[30%]">
         <!-- wp:group -->
         <div
-          class="wp-block-group img-clip-path-wrapper w-full h-full-[20px] rounded-br-[20px] overflow-hidden absolute left-0 top-0 z-[-1]"
+          class="wp-block-group img-clip-path-wrapper w-full h-full-[20px] rounded-br-[20px] overflow-hidden"
         >
           <!-- wp:image -->
           <figure
@@ -122,23 +122,23 @@
       <!-- wp:group -->
       <div class="wp-block-group col2 text-wrapper">
         <!-- wp:group -->
-        <div class="wp-block-group name-wrapper">
+        <div class="wp-block-group mb-[60px] name-wrapper leading-[28px]">
           <!-- wp:paragraph -->
           <p class="text-[35px] font-semibold">Karol Anusiewicz</p>
           <!-- /wp:paragraph -->
           <!-- wp:paragraph -->
-          <p class="text-[20px]">Co-founder & Project Manager</p>
+          <p class="text-[20px] font-light">Co-founder & Project Manager</p>
           <!-- /wp:paragraph -->
         </div>
         <!-- /wp:group -->
 
         <!-- wp:group -->
-        <div class="wp-block-group mail-phone-wrapper desktop:mb-[150px] mb-[40px] flex flex-col gap-y-[18px] desktop:leading-[32px] leading-[24px]">
+        <div class="wp-block-group mail-phone-wrapper flex flex-col desktop:leading-[30px] leading-[24px]">
           <!-- wp:paragraph -->
-          <p class="w-fit desktop:text-[25px] text-[18px] inline font-semibold border-b-[1px] border-white hover:border-primaryYellow hover:text-primaryYellow transition-stroke ease-out duration-300 cursor-pointer">kontakt@mutiny.pl</p>
+          <p class="w-fit desktop:text-[25px] text-[18px] inline underline font-semibold border-b-[1px] border-white hover:border-primaryYellow hover:text-primaryYellow transition ease-out duration-300 cursor-pointer">kontakt@mutiny.pl</p>
           <!-- /wp:paragraph -->
           <!-- wp:paragraph -->
-          <p class="w-fit desktop:text-[20px] text-[15px] inline font-semibold border-b-[1px] border-white hover:border-primaryYellow hover:text-primaryYellow transition-stroke ease-out duration-300 cursor-pointer">+48 795 123 584</p>
+          <p class="w-fit desktop:text-[20px] text-[15px] inline underline font-semibold border-b-[1px] border-white hover:border-primaryYellow hover:text-primaryYellow transition ease-out duration-300 cursor-pointer">+48 795 123 584</p>
           <!-- /wp:paragraph -->
         </div>
         <!-- /wp:group -->
