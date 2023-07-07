@@ -19,7 +19,7 @@
     >
       <!-- wp:buttons -->
       <div
-        class="wp-block-buttons desktop:w-[175px] w-[140px] desktop:h-[175px] h-[140px] mx-0 text-center rounded-full border desktop:border-[4px] border-[3px] border-[#AAAAAA] absolute desktop:top-[0px] top-[300px] desktop:left-[880px] left-[50%] translate-x-[-50%] hover:border-none hover:bg-primaryYellow hover:text-white transition ease-out duration-300 flex flex-col justify-center items-center gap-y-0 cursor-pointer"
+        class="wp-block-buttons desktop:w-[175px] w-[140px] desktop:h-[175px] h-[140px] mx-0 text-center rounded-full border desktop:border-[4px] border-[3px] border-[#AAAAAA] absolute desktop:top-[130px] top-[0px] right-[30px] hover:border-none hover:bg-primaryYellow hover:text-white transition ease-out duration-300 flex flex-col justify-center items-center gap-y-0 cursor-pointer"
       >
         <!-- wp:paragraph -->
         <p>Zobacz</p>
@@ -29,7 +29,7 @@
         <!-- /wp:paragraph -->
       </div>
       <!-- /wp:buttons -->
-      
+
       <!-- wp:paragraph -->
       <p
         class="section-title desktop:w-[145px] desktop:basis-[10%] uppercase text-primaryYellow"
