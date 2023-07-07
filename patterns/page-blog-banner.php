@@ -8,7 +8,7 @@
 ?>
 
 <!-- wp:group -->
-<div class="wp-block-group page-realizations-banner overflow-hidden">
+<div class="wp-block-group page-realizations-banner mb-[150px] overflow-hidden">
   <!-- wp:group -->
   <div
     class="wp-block-group container mx-auto relative desktop:px-0 px-[20px]"
