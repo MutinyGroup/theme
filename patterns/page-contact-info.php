@@ -134,7 +134,7 @@
         <!-- /wp:group -->
 
         <!-- wp:group -->
-        <div class="wp-block-group mail-phone-wrapper flex flex-col desktop:leading-[38px] leading-[24px]">
+        <div class="wp-block-group mail-phone-wrapper flex flex-col gap-y-[14px] desktop:leading-[38px] leading-[24px]">
           <!-- wp:paragraph -->
           <p class="w-fit desktop:text-[25px] text-[18px] leading-[24px] inline font-medium border-b-[1px] border-black hover:border-primaryYellow hover:text-primaryYellow transition ease-out duration-300 cursor-pointer">kontakt@mutiny.pl</p>
           <!-- /wp:paragraph -->
