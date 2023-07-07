@@ -19,7 +19,7 @@
     >
       <!-- wp:paragraph -->
       <p
-        class="section-title desktop:basis-auto desktop:w-[145px] desktop:basis-[10%] uppercase text-primaryYellow"
+        class="section-title desktop:w-[145px] desktop:basis-[10%] uppercase text-primaryYellow"
       >
         Realizacje
       </p>
@@ -45,7 +45,7 @@
     <!-- /wp:group -->
     
     <!-- wp:group -->
-    <div class="wp-block-group paragrapth-wrapper ml-[100px]">
+    <div class="wp-block-group paragrapth-wrapper ml-[180px]">
       <!-- wp:paragraph -->
       <p class="text text-[20px] leading-[30px] max-w-[625px]">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
