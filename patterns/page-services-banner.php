@@ -27,7 +27,7 @@
         class="wp-block-group section-title grid desktop:basis-auto desktop:w-[145px] desktop:basis-[80%] uppercase text-primaryYellow"
         >
           <!-- wp:paragraph -->
-          <p class="justify-self-end">Realizacje</p>
+          <p class="justify-self-end pr-[15px]">Realizacje</p>
           <!-- /wp:paragraph -->
         </div>  
         <!-- /wp:group -->
