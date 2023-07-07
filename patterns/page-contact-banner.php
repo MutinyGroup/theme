@@ -60,7 +60,7 @@
     <!-- wp:image -->
     <figure class="wp-block-image object-cover h-full">
       <img
-        src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-services/page-contact-banner.jpg"
+        src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-contact/page-contact-banner.jpg"
         alt="bg-image"
       />
     </figure>
