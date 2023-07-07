@@ -14,11 +14,11 @@
     class="wp-block-group container mx-auto relative desktop:px-0 px-[20px]"
   >    
     <!-- wp:group -->
-    <div class="wp-block-group gallery-cols relative flex gap-[8px] pb-[150px]">
+    <div class="wp-block-group gallery-cols relative flex justify-between pb-[150px]">
       <!-- wp:group -->
       <div class="wp-block-group col1 w-[50%]">
         <!-- wp:group -->
-        <div class="wp-block-group swiper-slide desktop:mr-[80px] mr-[20px] relative group desktop:min-w-[500px] w-[280px] desktop:h-[675px] h-[520px]">
+        <div class="wp-block-group swiper-slide relative group desktop:min-w-[500px] w-[280px] desktop:h-[675px] h-[520px]">
           <!-- wp:group -->
           <div class="wp-block-group img-clip-path-rounded mb-[20px]">
             <!-- wp:group -->
@@ -64,7 +64,7 @@
       <!-- wp:group -->
       <div class="wp-block-group col2 w-[50%] absolute top-[100px] right-0">
         <!-- wp:group -->
-        <div class="wp-block-group swiper-slide desktop:mr-[80px] mr-[20px] relative group desktop:min-w-[500px] w-[280px] desktop:h-[675px] h-[520px]">
+        <div class="wp-block-group swiper-slide relative group desktop:min-w-[500px] w-[280px] desktop:h-[675px] h-[520px]">
           <!-- wp:group -->
           <div class="wp-block-group img-clip-path-rounded mb-[20px]">
             <!-- wp:group -->
