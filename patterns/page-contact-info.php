@@ -1,7 +1,7 @@
 <?php
 /**
- * Title:page-contact-info
- * Slug:page-contact-info
+ * Title: page-contact-info
+ * Slug: page-contact-info
  * Categories: text, banner
  * Viewport Width: 1280
  */
