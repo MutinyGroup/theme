@@ -8,7 +8,7 @@
 ?>
 
 <!-- wp:group -->
-<div class="wp-block-group meet-us overflow-hidden mb-[80px] desktop:mb-[150px]">
+<div class="wp-block-group meet-us mb-[80px] desktop:mb-[150px]">
   <!-- wp:group -->
   <div class="wp-block-group container mx-auto relative desktop:px-0 px-[20px]">
     <!-- wp:group -->
@@ -32,8 +32,8 @@
       </svg>
       <!-- /wp:paragraph -->
       <!-- wp:paragraph -->
-      <svg class="shape z-[-1] absolute top-0 right-[-200px]" xmlns="http://www.w3.org/2000/svg" width="470" height="396" viewBox="0 0 470 396" fill="none">
-        <path d="M468.243 393.924L1 236.702V1.9702L468.243 159.192V393.924Z" stroke="#FFFFFF" stroke-width="2"/>
+      <svg class="shape z-[-1] absolute top-0 right-[0px]" xmlns="http://www.w3.org/2000/svg" width="470" height="395" viewBox="0 0 470 395" fill="none">
+        <path d="M0.999573 393.345L468.242 236.123V1.39158L0.999573 158.613V393.345Z" stroke="white" stroke-width="2"/>
       </svg>
       <!-- /wp:paragraph -->
       <!-- wp:paragraph -->
