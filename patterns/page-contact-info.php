@@ -73,10 +73,10 @@
     <!-- wp:group -->
     <div class="wp-block-group contact-info-cols-wrapper flex gap-[80px]">
       <!-- wp:group -->
-      <div class="wp-block-group col1 w-[30%]">
+      <div class="wp-block-group col1 w-[30%] img-clip-path-rounded">
         <!-- wp:group -->
         <div
-          class="wp-block-group img-clip-path-wrapper w-full h-full-[20px] rounded-br-[20px] overflow-hidden"
+          class="wp-block-group img-clip-path-wrapper img-clip-path-realizations w-full h-full-[20px] rounded-br-[20px] overflow-hidden"
         >
           <!-- wp:image -->
           <figure
