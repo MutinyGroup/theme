@@ -15,18 +15,19 @@
   >
   <div class="cols-wrapper flex justify-between">
     <div class="col1 address text-[20px] leading-[30px]">
-      <p class="font-medium">Mutiny Group sp. z o.o. ul. Jaśkowa Dolina 11A/1A,</p>
+      <p class="font-medium">Mutiny Group sp. z o.o.</p>
+      <p class="font-light">ul. Jaśkowa Dolina 11A/1A,</p>
       <p class="font-light">80-252 Gdańsk | Polska</p>
       <p class="font-light">kontakt@mutiny.pl</p>
     </div>
-    <div class="col2 numbers text-[20px] leading-[21px]">
+    <div class="col2 numbers text-[20px] font-light leading-[24px]">
       <ul>
         <li><span class="font-medium">NIP:</span> 9571133012</li>
         <li><span class="font-medium">REGON:</span> 388790205</li>
         <li><span class="font-medium">KRS:</span> 0000898283</li>
       </ul>
     </div>
-    <div class="col3 details text-[14px] leading-[19px]">
+    <div class="col3 details text-[14px] font-light leading-[19px] max-w-[444px]">
       <p>Spółka Mutiny Group sp. z o.o. z siedzibą w Gdańsku przy ul. Jaśkowa Dolina 11A/1A, kod pocztowy: 80-252 jest wpisana do rejestru przedsiębiorców, prowadzonego przez Sąd Rejonowy Gdańsk - Wydział Gospodarczy Krajowego Rejestru Sądowego pod nr KRS 0000898283, NIP: 9571133012, REGON: 388790205. Kapitał zakładowy: 5.000 PLN (opłacony w całości).</p>
     </div>
   </div>
