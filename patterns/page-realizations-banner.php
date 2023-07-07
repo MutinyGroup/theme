@@ -32,7 +32,7 @@
 
       <!-- wp:paragraph -->
       <p
-        class="section-title desktop:w-[145px] desktop:basis-[10%] uppercase text-primaryYellow"
+        class="section-title desktop:w-[10%] uppercase text-primaryYellow"
       >
         Realizacje
       </p>

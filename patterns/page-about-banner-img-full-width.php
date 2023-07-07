@@ -23,7 +23,7 @@
       >
         <!-- wp:paragraph -->
         <p
-          class="section-title desktop:basis-auto basis-[20%] uppercase text-primaryYellow"
+          class="section-title desktop:w-[10%] uppercase text-primaryYellow"
         >
           O nas
         </p>
