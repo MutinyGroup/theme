@@ -3,18 +3,11 @@
 body{
   font-family: 'Urbanist', sans-serif;
 }
-/* page about */
-.page-id-99{
-  background-color: #F2F2F2;
-  color: black;
-}
-/* page services */
-.page-id-101{
-  background-color: #F2F2F2;
-  color: black;
-}
-/* page realizations */
-.page-id-110{
+/* bright subpages */
+.page-id-99,
+.page-id-101
+.page-id-110,
+.page-id-112{
   background-color: #F2F2F2;
   color: black;
 }
