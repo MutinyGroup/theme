@@ -17,10 +17,8 @@
     <div
       class="wp-block-group title-wrapper relative container mx-auto desktop:mb-[100px] mb-[60px] flex"
     >
-
-      
       <!-- wp:paragraph -->
-      <svg class="flash absolute top-[0px] left-[0px] z-[-1]" xmlns="http://www.w3.org/2000/svg" width="688" height="801" viewBox="0 0 688 801" fill="none">
+      <svg class="flash absolute top-[-330px] left-[-140px] z-[-1]" xmlns="http://www.w3.org/2000/svg" width="688" height="801" viewBox="0 0 688 801" fill="none">
         <g filter="url(#filter0_f_1787_1988)">
         <circle cx="287.132" cy="400.132" r="150" transform="rotate(-45 287.132 400.132)" fill="url(#paint0_linear_1787_1988)" fill-opacity="0.5"/>
         </g>
