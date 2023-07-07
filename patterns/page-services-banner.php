@@ -21,13 +21,18 @@
       <div
         class="wp-block-group title-wrapper relative container mx-auto flex"
       >
-        <!-- wp:paragraph -->
-        <p
-          class="section-title desktop:w-[10%] uppercase text-primaryYellow"
+
+        <!-- wp:group -->
+        <div
+        class="wp-block-group section-title grid desktop:basis-auto desktop:w-[145px] desktop:basis-[80%] uppercase text-primaryYellow"
         >
-          Usługi
-        </p>
-        <!-- /wp:paragraph -->
+          <!-- wp:paragraph -->
+          <p class="justify-self-end">Realizacje</p>
+          <!-- /wp:paragraph -->
+        </div>  
+        <!-- /wp:group -->
+
+
         <!-- wp:group -->
         <div class="wp-block-group uslugi-title uppercase font-medium desktop:text-[60px] text-[24px] desktop:leading-[60px] leading-[30px]">
           <!-- wp:paragraph -->
