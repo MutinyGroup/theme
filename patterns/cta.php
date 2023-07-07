@@ -9,7 +9,7 @@
 <!-- wp:group -->
 <div class="wp-block-group relative cta desktop:mb-[150px] overflow-hidden">
   <!-- wp:group -->
-  <div class="wp-block-group container mx-auto desktop:px-0 px-[20px] desktop:mt-0 mt-[120px] wide:h-[1180px] desktop:h-[790px] h-[480px]">
+  <div class="wp-block-group container group mx-auto desktop:px-0 px-[20px] desktop:mt-0 mt-[120px] wide:h-[1180px] desktop:h-[790px] h-[480px]">
     <!-- wp:group -->
     <div class="wp-block-group title-wrapper relative desktop:pt-[110px] pt-[0px] desktop:mb-[80px] mb-[60px]">
       <!-- wp:group -->
@@ -38,7 +38,7 @@
     </div>
     <!-- /wp:group -->
     <!-- wp:buttons -->
-    <div class="wp-block-buttons desktop:w-[175px] w-[140px] desktop:h-[175px] h-[140px] desktop:ml-[120px] mx-auto text-center rounded-full border border-[4px] border-[#D5D5D5] hover:border-none hover:bg-primaryYellow hover:text-white transition ease-out duration-300 flex flex-col justify-center items-center gap-y-0 cursor-pointer">
+    <div class="wp-block-buttons desktop:w-[175px] w-[140px] desktop:h-[175px] h-[140px] desktop:ml-[120px] mx-auto text-center rounded-full border border-[4px] border-[#D5D5D5] group-hover:border-none group-hover:bg-primaryYellow group-hover:text-white transition ease-out duration-300 flex flex-col justify-center items-center gap-y-0 cursor-pointer">
       <!-- wp:paragraph -->
       <p>Skontaktuj się</p>
       <!-- /wp:paragraph -->
