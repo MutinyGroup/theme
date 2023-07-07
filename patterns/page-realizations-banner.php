@@ -18,6 +18,22 @@
       class="wp-block-group title-wrapper relative container mx-auto pt-[90px] desktop:mb-[120px] mb-[60px] flex"
     >
       <!-- wp:paragraph -->
+      <svg
+        class="z-[-1] absolute top-0 right-[-200px]"
+        xmlns="http://www.w3.org/2000/svg"
+        width="470"
+        height="396"
+        viewBox="0 0 470 396"
+        fill="none"
+      >
+        <path
+          d="M468.243 393.924L1 236.702V1.9702L468.243 159.192V393.924Z"
+          stroke="#FFFFFF"
+          stroke-width="2"
+        />
+      </svg>
+      <!-- /wp:paragraph -->
+      <!-- wp:paragraph -->
       <p
         class="section-title desktop:w-[145px] desktop:basis-[10%] uppercase text-primaryYellow"
       >
