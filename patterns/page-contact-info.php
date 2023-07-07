@@ -118,6 +118,7 @@
         </div>
         <!-- /wp:group -->
       </div>
+      <!-- /wp:group -->
       
       <!-- wp:group -->
       <div class="wp-block-group col2 self-center text-wrapper">
