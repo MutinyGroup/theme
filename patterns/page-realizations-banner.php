@@ -19,7 +19,7 @@
     >
       <!-- wp:paragraph -->
       <p
-        class="section-title desktop:basis-auto desktop:w-[145px] desktop:basis-[80%] uppercase text-primaryYellow"
+        class="section-title desktop:basis-auto desktop:w-[145px] desktop:basis-[10%] uppercase text-primaryYellow"
       >
         Realizacje
       </p>
