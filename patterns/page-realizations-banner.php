@@ -61,7 +61,7 @@
     <!-- /wp:group -->
     
     <!-- wp:group -->
-    <div class="wp-block-group paragrapth-wrapper mb-[100px] flex justify-end">
+    <div class="wp-block-group paragrapth-wrapper ml-[100px] mb-[100px] flex justify-end">
       <!-- wp:paragraph -->
       <p class="text text-[20px] leading-[30px] max-w-[625px]">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
