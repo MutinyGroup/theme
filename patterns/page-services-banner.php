@@ -19,7 +19,7 @@
     >
       <!-- wp:group -->
       <div
-        class="wp-block-group title-wrapper relative container mx-auto flex desktop:gap-[20px] gap-[0px]"
+        class="wp-block-group title-wrapper relative container mx-auto flex"
       >
         <!-- wp:paragraph -->
         <p
