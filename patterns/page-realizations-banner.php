@@ -17,22 +17,19 @@
     <div
       class="wp-block-group title-wrapper relative container mx-auto pt-[90px] desktop:mb-[80px] mb-[60px] flex"
     >
-      <!-- wp:paragraph -->
-      <svg
-        class="z-[-1] absolute top-0 right-[-200px]"
-        xmlns="http://www.w3.org/2000/svg"
-        width="470"
-        height="396"
-        viewBox="0 0 470 396"
-        fill="none"
+      <!-- wp:buttons -->
+      <div
+        class="wp-block-buttons desktop:w-[175px] w-[140px] desktop:h-[175px] h-[140px] mx-0 text-center rounded-full border desktop:border-[4px] border-[3px] border-[#AAAAAA] absolute desktop:top-[0px] top-[300px] desktop:left-[880px] left-[50%] translate-x-[-50%] hover:border-none hover:bg-primaryYellow hover:text-white transition ease-out duration-300 flex flex-col justify-center items-center gap-y-0 cursor-pointer"
       >
-        <path
-          d="M468.243 393.924L1 236.702V1.9702L468.243 159.192V393.924Z"
-          stroke="#FFFFFF"
-          stroke-width="2"
-        />
-      </svg>
-      <!-- /wp:paragraph -->
+        <!-- wp:paragraph -->
+        <p>Zobacz</p>
+        <!-- /wp:paragraph -->
+        <!-- wp:paragraph -->
+        <p class="uppercase text-[25px] font-extrabold">WIĘCEJ</p>
+        <!-- /wp:paragraph -->
+      </div>
+      <!-- /wp:buttons -->
+      
       <!-- wp:paragraph -->
       <p
         class="section-title desktop:w-[145px] desktop:basis-[10%] uppercase text-primaryYellow"
