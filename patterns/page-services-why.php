@@ -209,7 +209,7 @@
           <div class="wp-block-group col1 relative w-[50%]">
             <!-- wp:paragraph -->
             <p class="text-[50px] text-primaryYellow">
-              01 /
+              02 /
               <span class="text-[20px] text-black font-medium">03</span>
             </p>
             <!-- /wp:paragraph -->
@@ -349,7 +349,7 @@
           <div class="wp-block-group col1 relative w-[50%]">
             <!-- wp:paragraph -->
             <p class="text-[50px] text-primaryYellow">
-              01 /
+              03 /
               <span class="text-[20px] text-black font-medium">03</span>
             </p>
             <!-- /wp:paragraph -->
