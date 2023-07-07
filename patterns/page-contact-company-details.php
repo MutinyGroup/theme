@@ -14,13 +14,13 @@
   class="wp-block-group container mx-auto relative desktop:px-0 px-[20px]"
   >
   <div class="cols-wrapper flex justify-between">
-    <div class="col1 address text-[20px] leading-[30px]">
-      <p class="font-medium">Mutiny Group sp. z o.o.</p>
+    <div class="col1 address text-[20px] leading-[29px]">
+      <p class="font-semibold">Mutiny Group sp. z o.o.</p>
       <p class="font-light">ul. Jaśkowa Dolina 11A/1A,</p>
       <p class="font-light">80-252 Gdańsk | Polska</p>
       <p class="font-light">kontakt@mutiny.pl</p>
     </div>
-    <div class="col2 numbers text-[20px] font-light leading-[24px]">
+    <div class="col2 numbers font-light leading-[21px]">
       <ul>
         <li><span class="font-medium">NIP:</span> 9571133012</li>
         <li><span class="font-medium">REGON:</span> 388790205</li>
