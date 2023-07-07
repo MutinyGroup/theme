@@ -14,7 +14,7 @@
     class="wp-block-group container mx-auto relative desktop:px-0 px-[20px]"
   >    
     <!-- wp:group -->
-    <div class="wp-block-group gallery-cols relative flex gap-[8px] pb-[100px]">
+    <div class="wp-block-group gallery-cols relative flex gap-[8px] pb-[150px]">
       <!-- wp:group -->
       <div class="wp-block-group col1 w-[50%]">
         <!-- wp:group -->
