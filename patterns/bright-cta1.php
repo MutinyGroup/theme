@@ -39,7 +39,7 @@
     </div>
     <!-- /wp:group -->
     <!-- wp:buttons -->
-    <div class="wp-block-buttons desktop:w-[175px] w-[140px] desktop:h-[175px] h-[140px] desktop:ml-[120px] mx-auto text-center rounded-full border border-[4px] border-[#D5D5D5] hover:border-none hover:bg-primaryYellow hover:text-white transition ease-out duration-300 flex flex-col justify-center items-center gap-y-0 cursor-pointer">
+    <div class="wp-block-buttons desktop:w-[175px] w-[140px] desktop:h-[175px] h-[140px] desktop:ml-[120px] mx-auto text-center rounded-full border border-[4px] border-[#AAA] hover:border-none hover:bg-primaryYellow hover:text-white transition ease-out duration-300 flex flex-col justify-center items-center gap-y-0 cursor-pointer">
       <!-- wp:paragraph -->
       <p>Poznaj</p>
       <!-- /wp:paragraph -->
