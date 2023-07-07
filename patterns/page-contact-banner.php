@@ -27,7 +27,7 @@
         class="wp-block-group section-title grid desktop:basis-auto desktop:w-[145px] desktop:basis-[80%] uppercase text-primaryYellow"
         >
           <!-- wp:paragraph -->
-          <p class="justify-self-end pt-[3px] pr-[15px]">Usługi</p>
+          <p class="justify-self-end pt-[3px] pr-[15px]">Działamy?</p>
           <!-- /wp:paragraph -->
         </div>  
         <!-- /wp:group -->
@@ -39,11 +39,11 @@
           <p
             class="uppercase"
           >
-            Jak możemy <br />
-            Ci
+            Skontaktuj się<br />
+            z
             <span
               class="relative desktop:inline-block block desktop:text-[60px] text-[24px] uppercase italic before:content-[''] before:inline-block desktop:before:mr-[8px] before:mr-[4px] before:bottom-0 before:left-0 desktop:before:w-[90px] before:w-[30px] desktop:before:h-[3px] before:h-[3px] before:bg-black"
-              >pomóc?</span
+              >nami.</span
             >
           </p>
           <!-- /wp:paragraph -->
@@ -60,7 +60,7 @@
     <!-- wp:image -->
     <figure class="wp-block-image object-cover h-full">
       <img
-        src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-services/services-banner-bg.jpg"
+        src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-services/page-contact-banner-bg.jpg"
         alt="bg-image"
       />
     </figure>
@@ -70,10 +70,10 @@
       class="wp-block-buttons desktop:w-[175px] w-[140px] desktop:h-[175px] h-[140px] mx-0 text-center rounded-full border desktop:border-[4px] border-[3px] border-[#AAAAAA] absolute desktop:top-[-130px] top-[300px] desktop:left-[1080px] left-[50%] translate-x-[-50%] hover:border-none hover:bg-primaryYellow hover:text-white transition ease-out duration-300 flex flex-col justify-center items-center gap-y-0 cursor-pointer"
     >
       <!-- wp:paragraph -->
-      <p>Zobacz</p>
+      <p>Skontaktuj się</p>
       <!-- /wp:paragraph -->
       <!-- wp:paragraph -->
-      <p class="uppercase text-[25px] font-extrabold">WIĘCEJ</p>
+      <p class="uppercase text-[25px] font-extrabold">z nami</p>
       <!-- /wp:paragraph -->
     </div>
     <!-- /wp:buttons -->
