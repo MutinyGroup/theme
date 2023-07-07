@@ -49,9 +49,9 @@
     <div class="col3 relative details text-[14px] font-light leading-[19px] max-w-[444px]">
 
       <!-- wp:group -->
-      <div class="wp-block-group img-clip-path-wrapper w-[444px] overflow-hidden absolute top-[0px] right-[0px] z-[-1]">
+      <div class="wp-block-group img-clip-path-wrapper w-[444px] overflow-hidden absolute top-[-290px] right-[-210px] z-[-1]">
         <!-- wp:image -->
-        <figure>
+        <figure class="wp-block-image img-clip-path-cta">
           <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-contact/page-contact-company-details.jpg" alt="image">
         </figure>
         <!-- /wp:image -->
