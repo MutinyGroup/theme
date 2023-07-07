@@ -15,7 +15,7 @@
   >
     <!-- wp:group -->
     <div
-      class="wp-block-group title-wrapper relative container mx-auto pt-[90px] desktop:mb-[120px] mb-[60px] flex"
+      class="wp-block-group title-wrapper relative container mx-auto pt-[90px] desktop:mb-[80px] mb-[60px] flex"
     >
       <!-- wp:paragraph -->
       <svg
