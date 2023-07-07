@@ -15,11 +15,12 @@
       <!-- wp:group -->
       <div class="wp-block-group bg-flash top-[80px] z-[-1]"></div>
       <!-- /wp:group -->
-      <!-- wp:image -->
-      <figure class="wp-block-image bg-shape w-[1290px] z-[-1] opacity-[0.15] absolute top-[-150px] left-[-140px]">
-        <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/front-page/cta-bg-shape.png" alt="background-shape">
-      </figure>
-      <!-- /wp:image -->
+      <!-- wp:paragraph -->
+      <svg xmlns="http://www.w3.org/2000/svg" width="1201" height="917" viewBox="0 0 1201 917" fill="none" class="absolute top-[-190px] left-[-260px] z-[-1]">
+        <path d="M-91 2.02805L553.6 283.595L554 283.77L554.4 283.595L751.232 197.617L876 191.674V352.568L554 493.221L69.9003 281.762L68.5 281.15V282.678V711.805L-91 642.134V2.02805Z" stroke="white" stroke-width="2"></path>
+        <path d="M1040.07 494.916L1040.67 494.654V494L1040.67 262.321L1200 192.695L1200 634.346L1039.27 704.584L555.667 915.909L234 775.346V566.028L555.266 706.416L555.667 706.591L556.067 706.416L1040.07 494.916Z" stroke="white" stroke-width="2"></path>
+      </svg>
+      <!-- /wp:paragraph -->
       <!-- wp:paragraph -->
       <p class="section-title text-[20px] text-primaryYellow">Wymagaj więcej</p>
       <!-- /wp:paragraph -->
@@ -31,7 +32,7 @@
         </p>
         <!-- /wp:paragraph -->
         <!-- wp:paragraph -->
-        <p class="relative uppercase italic before:content-[''] before:inline-block before:mr-[-5px] before:bottom-0 before:left-0 desktop:before:w-[120px] before:w-[30px] before:h-[2px] before:bg-white"> Mutiny </p>
+        <p class="relative uppercase italic before:content-[''] before:inline-block before:mr-[-5px] before:bottom-0 before:left-0 desktop:before:w-[120px] before:w-[30px] before:h-[2px] before:bg-black"> Mutiny </p>
         <!-- /wp:paragraph -->
       </div>
       <!-- /wp:group -->
