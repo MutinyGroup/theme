@@ -22,18 +22,18 @@
       >
         <!-- wp:paragraph -->
         <a href="#">Wszystkie realizacje</a>
-        <!-- wp:paragraph -->
+        <!-- /wp:paragraph -->
       </li>
-      <!-- wp:list-item -->
+      <!-- /wp:list-item -->
       <!-- wp:list-item -->
       <li
         class="w-fit h-[40px] px-[10px] bg-[#F2F2F2] border border-[#AAA] border-[2px] rounded-full uppercase text-[14px] font-semibold leading-[20px] flex justify-center items-center hover:bg-primaryYellow hover:border-primaryYellow transition ease-out duration-300 cursor-pointer"
       >
         <!-- wp:paragraph -->
         <a href="#">Marketing i PR</a>
-        <!-- wp:paragraph -->
+        <!-- /wp:paragraph -->
       </li>
-      <!-- wp:list-item -->
+      <!-- /wp:list-item -->
       <!-- wp:list-item -->
       <li
         class="w-fit h-[40px] px-[10px] bg-[#F2F2F2] border border-[#AAA] border-[2px] rounded-full uppercase text-[14px] font-semibold leading-[20px] flex justify-center items-center hover:bg-primaryYellow hover:border-primaryYellow transition ease-out duration-300 cursor-pointer"
@@ -42,9 +42,9 @@
         <a href="#">EVENTY</a>
         <!-- wp:paragraph -->
       </li>
-      <!-- wp:list-item -->
+      <!-- /wp:list-item -->
     </ul>
-    <!-- wp:list -->
+    <!-- /wp:list -->
 
     <!-- wp:list -->
     <ul class="wp-block-list events-list mb-[150px] flex gap-[10px]">
@@ -66,8 +66,9 @@
           <!-- /wp:image -->
         </div>
         <!-- /wp:group -->
-
-        <div class="content-wrapper w-[60%]">
+        
+        <!-- wp:group -->
+        <div class="wp-block-group content-wrapper w-[60%]">
           <!-- wp:image -->
           <figure
             class="wp-block-image event-logo-color mb-[25px] w-[60px]"
@@ -89,20 +90,20 @@
             >
               <!-- wp:paragraph -->
               <a href="#">eventy</a>
-              <!-- wp:paragraph -->
+              <!-- /wp:paragraph -->
             </li>
-            <!-- wp:list-item -->
+            <!-- /wp:list-item -->
             <!-- wp:list-item -->
             <li
               class="w-fit p-[0px_8px] flex justify-center items-center bg-[#F2F2F2] leading-[20px] border border-[#D5D5D5] border-[2px] rounded-full uppercase text-[13px] font-semibold hover:bg-primaryYellow hover:border-primaryYellow transition ease-out duration-300 cursor-pointer"
             >
               <!-- wp:paragraph -->
               <a href="#">scenografia</a>
-              <!-- wp:paragraph -->
+              <!-- /wp:paragraph -->
             </li>
-            <!-- wp:list-item -->
+            <!-- /wp:list-item -->
           </ul>
-          <!-- wp:list -->
+          <!-- /wp:list -->
 
           <!-- wp:title -->
           <h2 class="mb-[50px] text-[35px] font-semibold leading-[42px]">
