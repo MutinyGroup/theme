@@ -120,11 +120,11 @@
       </div>
       
       <!-- wp:group -->
-      <div class="wp-block-group col2 text-wrapper">
+      <div class="wp-block-group col2 self-center text-wrapper">
         <!-- wp:group -->
-        <div class="wp-block-group mb-[60px] name-wrapper leading-[28px]">
+        <div class="wp-block-group mb-[30px] name-wrapper leading-[28px]">
           <!-- wp:paragraph -->
-          <p class="text-[35px] font-semibold">Karol Anusiewicz</p>
+          <p class="text-[35px] font-medium">Karol Anusiewicz</p>
           <!-- /wp:paragraph -->
           <!-- wp:paragraph -->
           <p class="text-[20px] font-light">Co-founder & Project Manager</p>
@@ -133,12 +133,12 @@
         <!-- /wp:group -->
 
         <!-- wp:group -->
-        <div class="wp-block-group mail-phone-wrapper flex flex-col desktop:leading-[30px] leading-[24px]">
+        <div class="wp-block-group mail-phone-wrapper flex flex-col desktop:leading-[38px] leading-[24px]">
           <!-- wp:paragraph -->
-          <p class="w-fit desktop:text-[25px] text-[18px] inline underline font-semibold border-b-[1px] border-white hover:border-primaryYellow hover:text-primaryYellow transition ease-out duration-300 cursor-pointer">kontakt@mutiny.pl</p>
+          <p class="w-fit desktop:text-[25px] text-[18px] inline font-medium border-b-[1px] border-black hover:border-primaryYellow hover:text-primaryYellow transition ease-out duration-300 cursor-pointer">kontakt@mutiny.pl</p>
           <!-- /wp:paragraph -->
           <!-- wp:paragraph -->
-          <p class="w-fit desktop:text-[20px] text-[15px] inline underline font-semibold border-b-[1px] border-white hover:border-primaryYellow hover:text-primaryYellow transition ease-out duration-300 cursor-pointer">+48 795 123 584</p>
+          <p class="w-fit desktop:text-[20px] text-[15px] inline font-medium border-b-[1px] border-black hover:border-primaryYellow hover:text-primaryYellow transition ease-out duration-300 cursor-pointer">+48 795 123 584</p>
           <!-- /wp:paragraph -->
         </div>
         <!-- /wp:group -->
