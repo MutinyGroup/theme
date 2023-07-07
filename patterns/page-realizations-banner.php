@@ -37,7 +37,7 @@
       <p
         class="section-title desktop:basis-auto desktop:w-[145px] desktop:basis-[80%] uppercase text-primaryYellow"
       >
-        Marketing robimy kompleksowo
+        Realizacje
       </p>
       <!-- /wp:paragraph -->
       <!-- wp:group -->
