@@ -40,7 +40,7 @@
       >
         <!-- wp:paragraph -->
         <a href="#">EVENTY</a>
-        <!-- wp:paragraph -->
+        <!-- /wp:paragraph -->
       </li>
       <!-- /wp:list-item -->
     </ul>
@@ -156,7 +156,6 @@
       <!-- /wp:list-item -->
     </ul>
     <!-- /wp:list -->
-
   </div>
   <!-- /wp:group -->
 </div>
