@@ -60,7 +60,7 @@
     <!-- /wp:group -->
     
     <!-- wp:group -->
-    <div class="wp-block-group paragrapth-wrapper ml-[180px]">
+    <div class="wp-block-group paragrapth-wrapper ml-[230px]">
       <!-- wp:paragraph -->
       <p class="text text-[20px] leading-[30px] max-w-[445px]">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.
