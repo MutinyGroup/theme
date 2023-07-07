@@ -174,7 +174,7 @@
         <!-- wp:paragraph -->
         <a
           href="#"
-          class="uppercase text-[14px] desktop:w-[220px] w-auto max-w-[220px] font-bold"
+          class="uppercase text-[14px] font-bold"
           >Pokaż więcej</a
         >
         <!-- /wp:paragraph -->
