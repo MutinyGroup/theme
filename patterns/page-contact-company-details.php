@@ -74,6 +74,7 @@
         <!-- /wp:paragraph -->
       </div>
       <!-- /wp:group -->
+      <!-- wp:group -->
       <div class="wp-block-group col2 numbers font-light leading-[21px]">
         <!-- wp:list -->
         <ul class="wp-block-list">
@@ -90,7 +91,6 @@
         <!-- /wp:list -->
       </div>
       <!-- /wp:group -->
-      
       <!-- wp:group -->
       <div class="wp-block-group col3 details text-[14px] font-light leading-[19px] max-w-[444px]">
         <!-- wp:paragraph -->
