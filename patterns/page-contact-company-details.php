@@ -80,8 +80,20 @@
         <ul class="wp-block-list">
           <!-- wp:list-item -->
           <li>
-            <span class="font-medium">NIP:</span>
+            <span class="font-medium">NIP: </span>
             9571133012
+          </li>
+          <!-- /wp:list-item -->
+          <!-- wp:list-item -->
+          <li>
+            <span class="font-medium">REGON: </span>
+            388790205
+          </li>
+          <!-- /wp:list-item -->
+          <!-- wp:list-item -->
+          <li>
+            <span class="font-medium">KRS: </span>
+            0000898283
           </li>
           <!-- /wp:list-item -->
         </ul>
