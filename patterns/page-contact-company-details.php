@@ -34,9 +34,9 @@
   class="wp-block-group container mx-auto relative desktop:px-0 px-[20px]"
   >
     <!-- wp:group -->
-    <div class="cols-wrapper flex justify-between">
+    <div class="wp-block-group cols-wrapper flex justify-between">
       <!-- wp:group -->
-      <div class="col1 relative address text-[20px] leading-[29px]">
+      <div class="wp-block-group col1 relative address text-[20px] leading-[29px]">
         <!-- wp:paragraph -->
         <svg class="shape opacity-[60%] absolute top-[-110px] left-[-60px] z-[-1]" xmlns="http://www.w3.org/2000/svg" width="236" height="317" viewBox="0 0 236 317" fill="none">
           <path d="M1.62088 314.924L234.242 236.649V1.91746L1.62088 80.1919V314.924Z" stroke="white" stroke-width="2"/>
@@ -74,9 +74,9 @@
         <!-- /wp:paragraph -->
       </div>
       <!-- /wp:group -->
-      <div class="col2 numbers font-light leading-[21px]">
+      <div class="wp-block-group col2 numbers font-light leading-[21px]">
         <!-- wp:list -->
-        <ul>
+        <ul class="wp-block-list">
           <!-- wp:list-item -->
           <li><span class="font-medium">NIP:</span> 9571133012</li>
           <!-- /wp:list-item -->
@@ -92,7 +92,7 @@
       <!-- /wp:group -->
       
       <!-- wp:group -->
-      <div class="col3 details text-[14px] font-light leading-[19px] max-w-[444px]">
+      <div class="wp-block-group col3 details text-[14px] font-light leading-[19px] max-w-[444px]">
         <!-- wp:paragraph -->
         <p>Spółka Mutiny Group sp. z o.o. z siedzibą w Gdańsku przy ul. Jaśkowa Dolina 11A/1A, kod pocztowy: 80-252 jest wpisana do rejestru przedsiębiorców, prowadzonego przez Sąd Rejonowy Gdańsk - Wydział Gospodarczy Krajowego Rejestru Sądowego pod nr KRS 0000898283, NIP: 9571133012, REGON: 388790205. Kapitał zakładowy: 5.000 PLN (opłacony w całości).</p>
         <!-- /wp:paragraph -->
