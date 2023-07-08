@@ -71,7 +71,26 @@
       <div class="wp-block-group col2 w-[55%]">
         <!-- wp:group -->
         <div class="wp-block-group gallery-cols relative flex gap-[8px]">
-          
+        <div class="inner-col1 w-[49%]">
+          <img
+            src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-about/about-team1.jpg"
+            alt="team"
+          />
+          <img
+            src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-about/about-team2.jpg"
+            alt="team"
+          />
+        </div>
+        <div class="inner-col2 w-[49%] absolute top-[100px] right-0">
+          <img
+            src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-about/about-team3.jpg"
+            alt="team"
+          />
+          <img
+            src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-about/about-team4.jpg"
+            alt="team"
+          />
+        </div>
         </div>
         <!-- /wp:group -->
       </div>
