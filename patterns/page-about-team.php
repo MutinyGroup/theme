@@ -83,7 +83,7 @@
                 />
               </figure>
               <!-- /wp:image -->
-              <!-- /wp:group -->
+              <!-- wp:group -->
               <div
                 class="wp-block-group text-content text-white absolute bottom-[30px] left-[30px] leading-[30px]"
               >
@@ -107,7 +107,7 @@
                 />
               </figure>
               <!-- /wp:image -->
-              <!-- /wp:group -->
+              <!-- wp:group -->
               <div
                 class="wp-block-group text-content text-white absolute bottom-[30px] left-[30px] leading-[30px]"
               >
@@ -135,7 +135,7 @@
                 />
               </figure>
               <!-- /wp:image -->
-              <!-- /wp:group -->
+              <!-- wp:group -->
               <div
                 class="wp-block-group text-content text-white absolute bottom-[30px] left-[30px] leading-[30px]"
               >
@@ -159,7 +159,7 @@
                 />
               </figure>
               <!-- /wp:image -->
-              <!-- /wp:group -->
+              <!-- wp:group -->
               <div
                 class="wp-block-group text-content text-white absolute bottom-[30px] left-[30px] leading-[30px]"
               >
