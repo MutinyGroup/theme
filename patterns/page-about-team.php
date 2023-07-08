@@ -74,7 +74,7 @@
           <!-- wp:group -->
           <div class="inner-col1 w-[49%]">
             <!-- wp:image -->
-            <figure>
+            <figure class="wp-block-image">
               <img
                 src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-about/about-team1.jpg"
                 alt="team"
@@ -82,7 +82,7 @@
             </figure>
             <!-- /wp:image -->
             <!-- wp:image -->
-            <figure>
+            <figure class="wp-block-image">
               <img
                 src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-about/about-team1.jpg"
                 alt="team"
@@ -94,7 +94,7 @@
           <!-- wp:group -->
           <div class="wp-block-group inner-col2 w-[49%] absolute top-[100px] right-0">
             <!-- wp:image -->
-            <figure>
+            <figure class="wp-block-image">
               <img
                 src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-about/about-team1.jpg"
                 alt="team"
@@ -102,7 +102,7 @@
             </figure>
             <!-- /wp:image -->
             <!-- wp:image -->
-            <figure>
+            <figure class="wp-block-image">
               <img
                 src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-about/about-team1.jpg"
                 alt="team"
