@@ -80,9 +80,7 @@
         <ul class="wp-block-list">
           <!-- wp:list-item -->
           <li>
-            <!-- wp:paragraph -->
             <span class="font-medium">NIP:</span>
-            <!-- /wp:paragraph -->
             9571133012
           </li>
           <!-- /wp:list-item -->
