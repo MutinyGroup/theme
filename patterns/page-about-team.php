@@ -72,7 +72,7 @@
         <!-- wp:group -->
         <div class="wp-block-group gallery-cols relative flex gap-[8px]">
           <!-- wp:group -->
-          <div class="inner-col1 w-[49%]">
+          <div class="wp-block-group inner-col1 w-[49%]">
             <!-- wp:image -->
             <figure class="wp-block-image mb-[8px]">
               <img
