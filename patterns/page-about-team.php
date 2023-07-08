@@ -84,7 +84,7 @@
             <!-- wp:image -->
             <figure class="wp-block-image mb-[8px]">
               <img
-                src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-about/about-team1.jpg"
+                src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-about/about-team2.jpg"
                 alt="team"
               />
             </figure>
@@ -96,7 +96,7 @@
             <!-- wp:image -->
             <figure class="wp-block-image mb-[8px]">
               <img
-                src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-about/about-team1.jpg"
+                src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-about/about-team3.jpg"
                 alt="team"
               />
             </figure>
@@ -104,7 +104,7 @@
             <!-- wp:image -->
             <figure class="wp-block-image mb-[8px]">
               <img
-                src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-about/about-team1.jpg"
+                src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-about/about-team4.jpg"
                 alt="team"
               />
             </figure>
