@@ -55,7 +55,23 @@
     <!-- wp:group -->
     <div class="wp-block-group cols flex">
       <!-- wp:group -->
-      <div class="wp-block-group col1 pl-[105px] w-[45%]">
+      <div class="wp-block-group col1 relative pl-[105px] w-[45%]">
+        <!-- wp:paragraph -->
+        <svg
+        class="shape opacity-[60%] absolute top-[270px] left-[30px]"
+        xmlns="http://www.w3.org/2000/svg"
+        width="235"
+        height="317"
+        viewBox="0 0 235 317"
+        fill="none"
+        >
+        <path
+        d="M233.621 314.924L1 236.649V1.91746L233.621 80.1919V314.924Z"
+        stroke="white"
+        stroke-width="2"
+          />
+        </svg>
+        <!-- /wp:paragraph -->
         <!-- wp:paragraph -->
         <p class="wp-block-group text-[16px] leading-[21px] w-[263px]">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
