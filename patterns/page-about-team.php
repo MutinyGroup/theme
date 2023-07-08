@@ -73,42 +73,111 @@
         <div class="wp-block-group gallery-cols relative flex gap-[8px]">
           <!-- wp:group -->
           <div class="wp-block-group inner-col1 w-[49%]">
-            <!-- wp:image -->
-            <figure class="wp-block-image mb-[8px]">
-              <img
-                src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-about/about-team1.jpg"
-                alt="team"
-              />
-            </figure>
-            <!-- /wp:image -->
-            <!-- wp:image -->
-            <figure class="wp-block-image mb-[8px]">
-              <img
-                src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-about/about-team2.jpg"
-                alt="team"
-              />
-            </figure>
-            <!-- /wp:image -->
+            
+                <!-- wp:group -->
+                <div class="wp-block-group tile-wrapper relative mb-[12px]">
+                  <!-- wp:image -->
+                  <figure class="wp-block-image">
+                    <img
+                      src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-about/about-team1.jpg"
+                      alt="team"
+                    />
+                  </figure>
+                  <!-- /wp:image -->
+                  <!-- /wp:group -->
+                  <div
+                    class="wp-block-group text-content text-white absolute bottom-[30px] left-[30px] leading-[30px]"
+                  >
+                    <!-- wp:paragraph -->
+                    <p class="name text-[25px] font-medium">Olga Anusiewicz</p>
+                    <!-- /wp:paragraph -->
+                    <!-- wp:paragraph -->
+                    <p class="text-[16px] font-light">Founder & CEO</p>
+                    <!-- /wp:paragraph -->
+                  </div>
+                  <!-- /wp:group -->
+                </div>
+                <!-- /wp:group -->
+
+
+                  <!-- wp:group -->
+                  <div class="wp-block-group tile-wrapper relative mb-[12px]">
+                  <!-- wp:image -->
+                  <figure class="wp-block-image">
+                    <img
+                      src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-about/about-team1.jpg"
+                      alt="team"
+                    />
+                  </figure>
+                  <!-- /wp:image -->
+                  <!-- /wp:group -->
+                  <div
+                    class="wp-block-group text-content text-white absolute bottom-[30px] left-[30px] leading-[30px]"
+                  >
+                    <!-- wp:paragraph -->
+                    <p class="name text-[25px] font-medium">Olga Anusiewicz</p>
+                    <!-- /wp:paragraph -->
+                    <!-- wp:paragraph -->
+                    <p class="text-[16px] font-light">Founder & CEO</p>
+                    <!-- /wp:paragraph -->
+                  </div>
+                  <!-- /wp:group -->
+                </div>
+                <!-- /wp:group -->
           </div>
           <!-- /wp:group -->
           <!-- wp:group -->
           <div class="wp-block-group inner-col2 w-[49%] absolute top-[100px] right-0">
-            <!-- wp:image -->
-            <figure class="wp-block-image mb-[8px]">
-              <img
-                src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-about/about-team3.jpg"
-                alt="team"
-              />
-            </figure>
-            <!-- /wp:image -->
-            <!-- wp:image -->
-            <figure class="wp-block-image mb-[8px]">
-              <img
-                src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-about/about-team4.jpg"
-                alt="team"
-              />
-            </figure>
-            <!-- /wp:image -->
+                <!-- wp:group -->
+                <div class="wp-block-group tile-wrapper relative mb-[12px]">
+                  <!-- wp:image -->
+                  <figure class="wp-block-image">
+                    <img
+                      src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-about/about-team1.jpg"
+                      alt="team"
+                    />
+                  </figure>
+                  <!-- /wp:image -->
+                  <!-- /wp:group -->
+                  <div
+                    class="wp-block-group text-content text-white absolute bottom-[30px] left-[30px] leading-[30px]"
+                  >
+                    <!-- wp:paragraph -->
+                    <p class="name text-[25px] font-medium">Olga Anusiewicz</p>
+                    <!-- /wp:paragraph -->
+                    <!-- wp:paragraph -->
+                    <p class="text-[16px] font-light">Founder & CEO</p>
+                    <!-- /wp:paragraph -->
+                  </div>
+                  <!-- /wp:group -->
+                </div>
+                <!-- /wp:group -->
+
+
+                <!-- wp:group -->
+                <div class="wp-block-group tile-wrapper relative mb-[12px]">
+                  <!-- wp:image -->
+                  <figure class="wp-block-image">
+                    <img
+                      src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-about/about-team1.jpg"
+                      alt="team"
+                    />
+                  </figure>
+                  <!-- /wp:image -->
+                  <!-- /wp:group -->
+                  <div
+                    class="wp-block-group text-content text-white absolute bottom-[30px] left-[30px] leading-[30px]"
+                  >
+                    <!-- wp:paragraph -->
+                    <p class="name text-[25px] font-medium">Olga Anusiewicz</p>
+                    <!-- /wp:paragraph -->
+                    <!-- wp:paragraph -->
+                    <p class="text-[16px] font-light">Founder & CEO</p>
+                    <!-- /wp:paragraph -->
+                  </div>
+                  <!-- /wp:group -->
+                </div>
+                <!-- /wp:group -->
           </div>
           <!-- /wp:group -->
         </div>
