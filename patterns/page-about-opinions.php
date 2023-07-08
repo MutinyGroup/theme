@@ -103,7 +103,7 @@
           </div>
           <!-- /wp:group -->
           <!-- wp:group -->
-          <div class="wp-block-group swiper-slide relative z-[2] group desktop:max-w-[444px] max-w-[280px] desktop:h-[430px] max-h-[530px] cursor-pointer mr-[20px] opacity-[50%]">
+          <div class="wp-block-group swiper-slide relative z-[2] group desktop:max-w-[444px] max-w-[280px] desktop:h-[430px] max-h-[530px] cursor-pointer mr-[20px] opacity-[10%]">
             <!-- wp:group -->
             <div class="wp-block-group quote-sign desktop:mb-[35px] mb-[20px] desktop:mt-0 mt-[40px]">
               <!-- wp:paragraph -->

@@ -82,6 +82,8 @@ document.addEventListener("DOMContentLoaded", function(event) {
   });
 
   new Swiper('#opinions', {
+    direction: "horizontal",
+    slidesPerView: 'auto',
     clickable: true,
     grabCursor: true,
     pagination: {
