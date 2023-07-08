@@ -269,7 +269,11 @@ body{
   clip-path: polygon(0 0, 100% 0, 100% 100%, 24% 100%, 21% 89%, 0 89%);
 }
 
+.swiperOpinions .swiper-wrapper .swiper-slide-prev,
+.swiperOpinions .swiper-wrapper .swiper-slide-next{
+  opacity: 0%;
+}
 
 .swiperOpinions .swiper-wrapper .swiper-slide-active{
-  background-color: red;
+  opacity: 100%;
 }
