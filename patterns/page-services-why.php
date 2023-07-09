@@ -36,22 +36,6 @@
       </svg>
       <!-- /wp:paragraph -->
       <!-- wp:paragraph -->
-      <svg
-        class="shape z-[-1] scale-[0.6] desktop:scale-[1] absolute top-0 desktop:right-[-200px] left-0"
-        xmlns="http://www.w3.org/2000/svg"
-        width="470"
-        height="396"
-        viewBox="0 0 470 396"
-        fill="none"
-      >
-        <path
-          d="M468.243 393.924L1 236.702V1.9702L468.243 159.192V393.924Z"
-          stroke="#FFFFFF"
-          stroke-width="2"
-        />
-      </svg>
-      <!-- /wp:paragraph -->
-      <!-- wp:paragraph -->
       <p
         class="section-title desktop:basis-auto desktop:w-[145px] basis-[20%] uppercase text-primaryYellow"
       >
