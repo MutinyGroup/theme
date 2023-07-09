@@ -53,7 +53,7 @@
     <!-- /wp:group -->
     
     <!-- wp:group -->
-    <div class="wp-block-group cols flex">
+    <div class="wp-block-group cols desktop:flex">
       <!-- wp:group -->
       <div class="wp-block-group col1 relative desktop:pl-[105px] w-[45%]">
         <!-- wp:paragraph -->
