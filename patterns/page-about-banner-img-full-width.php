@@ -40,7 +40,7 @@
             przekraczać
             <span
               class="relative desktop:inline-block block desktop:text-[60px] text-[24px] uppercase italic before:content-[''] before:inline-block desktop:before:mr-[8px] before:mr-[4px] before:bottom-0 before:left-0 desktop:before:w-[90px] before:w-[30px] desktop:before:h-[3px] before:h-[3px] before:bg-black"
-              >granic<span class="text-[150px]">.</span></span
+              >granic<span class="desktop:text-[150px] text-[70px] leading-[12px] desktop:leading-auto">.</span></span
             >
           </p>
           <!-- /wp:paragraph -->
