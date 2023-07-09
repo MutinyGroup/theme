@@ -54,7 +54,7 @@
   <!-- /wp:group -->
   <!-- wp:group -->
   <div class="wp-block-group about-banner-img relative h-[360px] desktop:ml-[80px]">
-    <!-- wp:image {"className": "test"}-->
+    <!-- wp:image {"className": "test"} -->
     <figure class="wp-block-image h-full">
       <img
         src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-about/about-banner-bg.jpg"
