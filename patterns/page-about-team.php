@@ -101,10 +101,10 @@
               <!-- /wp:image -->
               <!-- wp:group -->
               <div
-                class="wp-block-group text-content text-white absolute bottom-[30px] left-[30px] leading-[30px]"
+                class="wp-block-group text-content text-white absolute desktop:bottom-[30px] bottom-[10px] desktop:left-[30px] left-[10px] leading-[30px]"
               >
                 <!-- wp:paragraph -->
-                <p class="name text-[25px] font-medium">Olga Anusiewicz</p>
+                <p class="name desktop:text-[25px] text-[20px] font-medium">Olga Anusiewicz</p>
                 <!-- /wp:paragraph -->
                 <!-- wp:paragraph -->
                 <p class="text-[16px] font-light">Founder & CEO</p>
@@ -125,7 +125,7 @@
               <!-- /wp:image -->
               <!-- wp:group -->
               <div
-                class="wp-block-group text-content text-white absolute bottom-[30px] left-[30px] leading-[30px]"
+                class="wp-block-group text-content text-white absolute desktop:bottom-[30px] bottom-[10px] desktop:left-[30px] left-[10px] leading-[30px]"
               >
                 <!-- wp:paragraph -->
                 <p class="name text-[25px] font-medium">Olga Anusiewicz</p>
@@ -153,7 +153,7 @@
               <!-- /wp:image -->
               <!-- wp:group -->
               <div
-                class="wp-block-group text-content text-white absolute bottom-[30px] left-[30px] leading-[30px]"
+                class="wp-block-group text-content text-white absolute desktop:bottom-[30px] bottom-[10px] desktop:left-[30px] left-[10px] leading-[30px]"
               >
                 <!-- wp:paragraph -->
                 <p class="name text-[25px] font-medium">Olga Anusiewicz</p>
@@ -177,7 +177,7 @@
               <!-- /wp:image -->
               <!-- wp:group -->
               <div
-                class="wp-block-group text-content text-white absolute bottom-[30px] left-[30px] leading-[30px]"
+                class="wp-block-group text-content text-white absolute desktop:bottom-[30px] bottom-[10px] desktop:left-[30px] left-[10px] leading-[30px]"
               >
                 <!-- wp:paragraph -->
                 <p class="name text-[25px] font-medium">Olga Anusiewicz</p>
