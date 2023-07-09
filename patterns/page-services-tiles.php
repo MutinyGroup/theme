@@ -37,7 +37,7 @@
       <!-- /wp:paragraph -->
       <!-- wp:paragraph -->
       <svg
-        class="shape z-[-1] absolute top-0 right-[-200px]"
+        class="shape scale-[0.6] desktop:scale-[1] z-[-1] absolute top-0 desktop:right-[-200px] left-[-40px]"
         xmlns="http://www.w3.org/2000/svg"
         width="470"
         height="396"
@@ -144,7 +144,7 @@
           <!-- /wp:group -->
           <!-- wp:group -->
           <div
-            class="wp-block-group slide-title absolute desktop:bottom-[-40px] bottom-[75px] left-[25px] group-hover:translate-y-[-120px] transition ease-out duration-[400ms]"
+            class="wp-block-group slide-title absolute desktop:bottom-[0px] bottom-[75px] desktop:left-[25px] left-[20px] group-hover:translate-y-[-120px] transition ease-out duration-[400ms]"
           >
             <!-- wp:paragraph -->
             <p
