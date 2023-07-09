@@ -55,7 +55,7 @@
     <!-- wp:group -->
     <div class="wp-block-group cols desktop:flex">
       <!-- wp:group -->
-      <div class="wp-block-group col1 relative desktop:pl-[105px] w-[45%]">
+      <div class="wp-block-group col1 relative desktop:pl-[105px] mb-[50px] desktop:w-[45%]">
         <!-- wp:paragraph -->
         <svg
           class="shape opacity-[60%] absolute top-[270px] left-[30px]"
@@ -84,7 +84,7 @@
       <!-- /wp:group -->
 
       <!-- wp:group -->
-      <div class="wp-block-group col2 w-[55%]">
+      <div class="wp-block-group col2 desktop:w-[55%]">
         <!-- wp:group -->
         <div class="wp-block-group gallery-cols relative flex gap-[8px]">
           <!-- wp:group -->
