@@ -10,7 +10,7 @@
 <!-- wp:group -->
 <div class="wp-block-group meet-us overflow-hidden mb-[80px] desktop:mb-[150px]">
 <!-- wp:group -->
-  <div class="wp-block-group video relative container mx-auto overflow-x-hidden mb-[150px]">
+  <div class="wp-block-group video relative container mx-auto desktop:px-0 px-[20px] overflow-x-hidden mb-[150px]">
     <!-- wp:group -->
     <div class="wp-block-group paragraph-wrapper relative w-full mb-[150px] pt-[100px]">
       <!-- wp:paragraph -->
@@ -33,7 +33,7 @@
     <div class="wp-block-group group cursor-pointer img-clip-path-rounded">
       <!-- wp:buttons -->
       <div
-        class="wp-block-buttons z-[1] desktop:w-[175px] w-[140px] desktop:h-[175px] h-[140px] mx-0 text-white text-center uppercase rounded-full border desktop:border-[4px] border-[3px] border-[#D5D5D5] translate-y-[-50%] absolute desktop:top-[50%] top-[300px] desktop:left-[50%] left-[50%] translate-x-[-50%] group-hover:border-none group-hover:bg-primaryYellow group-hover:text-white transition ease-out duration-300 flex flex-col justify-center items-center gap-y-0 cursor-pointer"
+        class="wp-block-buttons z-[1] desktop:w-[175px] w-[80px] desktop:h-[175px] h-[80px] mx-0 text-white text-center uppercase rounded-full border desktop:border-[4px] border-[3px] border-[#D5D5D5] translate-y-[-50%] absolute desktop:top-[50%] top-[300px] desktop:left-[50%] left-[50%] translate-x-[-50%] group-hover:border-none group-hover:bg-primaryYellow group-hover:text-white transition ease-out duration-300 flex flex-col justify-center items-center gap-y-0 cursor-pointer"
       >
         <!-- wp:paragraph -->
         <p class="text-[35px] font-extrabold">play</p>
