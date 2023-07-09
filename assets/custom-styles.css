@@ -242,9 +242,6 @@ body{
 .logos-sport-wrapper figure img{
   max-height: 80px;
 }
-.page-about-img{
-  height: 100%!important;
-}
 
 /* page services gallery tiles */
 .gallery-tile::before {
