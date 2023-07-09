@@ -239,18 +239,18 @@
         <!-- /wp:group -->
         <!-- wp:group -->
         <div
-          class="wp-block-group group relative gallery-tile z-[2] group p-[25px] h-[600px] rounded-[20px] transition ease-out overflow-hidden duration-300 cursor-pointer mr-[8px] mb-[10px]"
+          class="wp-block-group group relative gallery-tile img-clip-path-services z-[2] group desktop:p-[25px] desktop:h-[600px] h-[200px] overflow-hidden rounded-[20px] transition ease-out duration-300 cursor-pointer mr-[8px] mb-[10px]"
         >
           <!-- wp:group -->
           <div
-            class="wp-block-group img-clip-path-wrapper w-full h-full-[20px] rounded-br-[20px] overflow-hidden absolute left-0 top-0 z-[-1]"
+            class="wp-block-group img-clip-path-wrapper w-full h-full rounded-tr-[20px] rounded-br-[20px] overflow-hidden absolute left-0 top-0 z-[-1]"
           >
             <!-- wp:image -->
             <figure
-              class="wp-block-image group-hover:grayscale transition ease-in-out duration-[400ms]"
+              class="wp-block-image img-clip-path-services group-hover:grayscale transition ease-in-out duration-[400ms]"
             >
               <img
-                src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-services/services-tile-img2.jpg"
+                src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-services/services-tile-img1.jpg"
                 alt="services-backgroun-image"
               />
             </figure>
@@ -284,21 +284,20 @@
             <!-- /wp:paragraph -->
           </div>
           <!-- /wp:group -->
-
           <!-- wp:group -->
           <div
-            class="wp-block-group slide-title absolute desktop:bottom-[-40px] bottom-[75px] left-[25px] group-hover:translate-y-[-120px] transition ease-out duration-[400ms]"
+            class="wp-block-group slide-title absolute desktop:bottom-[0px] bottom-[55px] desktop:left-[25px] left-[20px] group-hover:translate-y-[-120px] transition ease-out duration-[400ms]"
           >
             <!-- wp:paragraph -->
             <p
-              class="mr-[20px] text-[35px] font-semibold mb-[15px] underline-offset-[9px] group-hover:underline group-hover:decoration-primaryYellow"
+              class="mr-[20px] desktop:text-[35px] text-[18px] font-semibold mb-[15px] underline-offset-[9px] group-hover:underline group-hover:decoration-primaryYellow"
             >
               Marketing i PR
             </p>
             <!-- /wp:paragraph -->
             <!-- wp:list -->
             <ul
-              class="wp-block-list hover-text opacity-[0%] group-hover:opacity-[100%] text-[15px] leading-[32px] font-semibold uppercase transition ease-out duration-500"
+              class="wp-block-list hover-text hidden desktop:block opacity-[0%] group-hover:opacity-[100%] text-[15px] leading-[32px] font-semibold uppercase transition ease-out duration-500"
             >
               <!-- wp:list-item -->
               <li
@@ -334,14 +333,18 @@
           <!-- /wp:group -->
           <!-- wp:buttons -->
           <div
-            class="wp-block-buttons btn-swiper-more group text-[14px] font-semibold uppercase absolute desktop:bottom-[40px] bottom-[75px] left-[25px] transition ease-out duration-300"
+            class="wp-block-buttons btn-swiper-more group pr-[20px] desktop:pr-0 text-[14px] font-semibold uppercase absolute desktop:bottom-[40px] desktop:bottom-[75px] bottom-[20px] desktop:left-[25px] left-[20px] transition ease-out duration-300"
           >
             <!-- wp:paragraph -->
             <a
-              href="#"
-              class="inline-block"
+            href="#"
+            class="inline-block flex desktop:block"
             >
-              Dowiedz się więcej
+              <!-- wp:paragraph -->
+              <p class="inline">
+                Dowiedz się więcej
+              </p>
+              <!-- /wp:paragraph -->
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="36"
@@ -378,18 +381,18 @@
         <!-- /wp:group -->
         <!-- wp:group -->
         <div
-          class="wp-block-group group relative gallery-tile z-[2] group p-[25px] h-[600px] rounded-[20px] transition ease-out overflow-hidden duration-300 cursor-pointer mr-[8px] mb-[10px]"
+          class="wp-block-group group relative gallery-tile img-clip-path-services z-[2] group desktop:p-[25px] desktop:h-[600px] h-[200px] overflow-hidden rounded-[20px] transition ease-out duration-300 cursor-pointer mr-[8px] mb-[10px]"
         >
           <!-- wp:group -->
           <div
-            class="wp-block-group img-clip-path-wrapper w-full h-full-[20px] rounded-br-[20px] overflow-hidden absolute left-0 top-0 z-[-1]"
+            class="wp-block-group img-clip-path-wrapper w-full h-full rounded-tr-[20px] rounded-br-[20px] overflow-hidden absolute left-0 top-0 z-[-1]"
           >
             <!-- wp:image -->
             <figure
-              class="wp-block-image group-hover:grayscale transition ease-in-out duration-[400ms]"
+              class="wp-block-image img-clip-path-services group-hover:grayscale transition ease-in-out duration-[400ms]"
             >
               <img
-                src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-services/services-tile-img5.jpg"
+                src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-services/services-tile-img1.jpg"
                 alt="services-backgroun-image"
               />
             </figure>
@@ -425,18 +428,18 @@
           <!-- /wp:group -->
           <!-- wp:group -->
           <div
-            class="wp-block-group slide-title absolute desktop:bottom-[-40px] bottom-[75px] left-[25px] group-hover:translate-y-[-120px] transition ease-out duration-[400ms]"
+            class="wp-block-group slide-title absolute desktop:bottom-[0px] bottom-[55px] desktop:left-[25px] left-[20px] group-hover:translate-y-[-120px] transition ease-out duration-[400ms]"
           >
             <!-- wp:paragraph -->
             <p
-              class="mr-[20px] text-[35px] font-semibold mb-[15px] underline-offset-[9px] group-hover:underline group-hover:decoration-primaryYellow"
+              class="mr-[20px] desktop:text-[35px] text-[18px] font-semibold mb-[15px] underline-offset-[9px] group-hover:underline group-hover:decoration-primaryYellow"
             >
               Marketing i PR
             </p>
             <!-- /wp:paragraph -->
             <!-- wp:list -->
             <ul
-              class="wp-block-list hover-text opacity-[0%] group-hover:opacity-[100%] text-[15px] leading-[32px] font-semibold uppercase transition ease-out duration-500"
+              class="wp-block-list hover-text hidden desktop:block opacity-[0%] group-hover:opacity-[100%] text-[15px] leading-[32px] font-semibold uppercase transition ease-out duration-500"
             >
               <!-- wp:list-item -->
               <li
@@ -472,14 +475,18 @@
           <!-- /wp:group -->
           <!-- wp:buttons -->
           <div
-            class="wp-block-buttons btn-swiper-more group text-[14px] font-semibold uppercase absolute desktop:bottom-[40px] bottom-[75px] left-[25px] transition ease-out duration-300"
+            class="wp-block-buttons btn-swiper-more group pr-[20px] desktop:pr-0 text-[14px] font-semibold uppercase absolute desktop:bottom-[40px] desktop:bottom-[75px] bottom-[20px] desktop:left-[25px] left-[20px] transition ease-out duration-300"
           >
             <!-- wp:paragraph -->
             <a
-              href="#"
-              class="inline-block"
+            href="#"
+            class="inline-block flex desktop:block"
             >
-              Dowiedz się więcej
+              <!-- wp:paragraph -->
+              <p class="inline">
+                Dowiedz się więcej
+              </p>
+              <!-- /wp:paragraph -->
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="36"
@@ -521,18 +528,18 @@
       <div class="wp-block-group col2 w-[50%] absolute top-[100px] right-0">
         <!-- wp:group -->
         <div
-          class="wp-block-group group relative gallery-tile z-[2] group p-[25px] h-[600px] rounded-[20px] transition ease-out overflow-hidden duration-300 cursor-pointer mr-[8px] mb-[10px]"
+          class="wp-block-group group relative gallery-tile img-clip-path-services z-[2] group desktop:p-[25px] desktop:h-[600px] h-[200px] overflow-hidden rounded-[20px] transition ease-out duration-300 cursor-pointer mr-[8px] mb-[10px]"
         >
           <!-- wp:group -->
           <div
-            class="wp-block-group img-clip-path-wrapper w-full h-full-[20px] rounded-br-[20px] overflow-hidden absolute left-0 top-0 z-[-1]"
+            class="wp-block-group img-clip-path-wrapper w-full h-full rounded-tr-[20px] rounded-br-[20px] overflow-hidden absolute left-0 top-0 z-[-1]"
           >
             <!-- wp:image -->
             <figure
-              class="wp-block-image group-hover:grayscale transition ease-in-out duration-[400ms]"
+              class="wp-block-image img-clip-path-services group-hover:grayscale transition ease-in-out duration-[400ms]"
             >
               <img
-                src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-services/services-tile-img3.jpg"
+                src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-services/services-tile-img1.jpg"
                 alt="services-backgroun-image"
               />
             </figure>
@@ -568,18 +575,18 @@
           <!-- /wp:group -->
           <!-- wp:group -->
           <div
-            class="wp-block-group slide-title absolute desktop:bottom-[-40px] bottom-[75px] left-[25px] group-hover:translate-y-[-120px] transition ease-out duration-[400ms]"
+            class="wp-block-group slide-title absolute desktop:bottom-[0px] bottom-[55px] desktop:left-[25px] left-[20px] group-hover:translate-y-[-120px] transition ease-out duration-[400ms]"
           >
             <!-- wp:paragraph -->
             <p
-              class="mr-[20px] text-[35px] font-semibold mb-[15px] underline-offset-[9px] group-hover:underline group-hover:decoration-primaryYellow"
+              class="mr-[20px] desktop:text-[35px] text-[18px] font-semibold mb-[15px] underline-offset-[9px] group-hover:underline group-hover:decoration-primaryYellow"
             >
               Marketing i PR
             </p>
             <!-- /wp:paragraph -->
             <!-- wp:list -->
             <ul
-              class="wp-block-list hover-text opacity-[0%] group-hover:opacity-[100%] text-[15px] leading-[32px] font-semibold uppercase transition ease-out duration-500"
+              class="wp-block-list hover-text hidden desktop:block opacity-[0%] group-hover:opacity-[100%] text-[15px] leading-[32px] font-semibold uppercase transition ease-out duration-500"
             >
               <!-- wp:list-item -->
               <li
@@ -615,14 +622,18 @@
           <!-- /wp:group -->
           <!-- wp:buttons -->
           <div
-            class="wp-block-buttons btn-swiper-more group text-[14px] font-semibold uppercase absolute desktop:bottom-[40px] bottom-[75px] left-[25px] transition ease-out duration-300"
+            class="wp-block-buttons btn-swiper-more group pr-[20px] desktop:pr-0 text-[14px] font-semibold uppercase absolute desktop:bottom-[40px] desktop:bottom-[75px] bottom-[20px] desktop:left-[25px] left-[20px] transition ease-out duration-300"
           >
             <!-- wp:paragraph -->
             <a
-              href="#"
-              class="inline-block"
+            href="#"
+            class="inline-block flex desktop:block"
             >
-              Dowiedz się więcej
+              <!-- wp:paragraph -->
+              <p class="inline">
+                Dowiedz się więcej
+              </p>
+              <!-- /wp:paragraph -->
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="36"
@@ -659,18 +670,18 @@
         <!-- /wp:group -->
         <!-- wp:group -->
         <div
-          class="wp-block-group group relative gallery-tile z-[2] group p-[25px] h-[600px] rounded-[20px] transition ease-out overflow-hidden duration-300 cursor-pointer mr-[8px] mb-[10px]"
+          class="wp-block-group group relative gallery-tile img-clip-path-services z-[2] group desktop:p-[25px] desktop:h-[600px] h-[200px] overflow-hidden rounded-[20px] transition ease-out duration-300 cursor-pointer mr-[8px] mb-[10px]"
         >
           <!-- wp:group -->
           <div
-            class="wp-block-group img-clip-path-wrapper w-full h-full-[20px] rounded-br-[20px] overflow-hidden absolute left-0 top-0 z-[-1]"
+            class="wp-block-group img-clip-path-wrapper w-full h-full rounded-tr-[20px] rounded-br-[20px] overflow-hidden absolute left-0 top-0 z-[-1]"
           >
             <!-- wp:image -->
             <figure
-              class="wp-block-image group-hover:grayscale transition ease-in-out duration-[400ms]"
+              class="wp-block-image img-clip-path-services group-hover:grayscale transition ease-in-out duration-[400ms]"
             >
               <img
-                src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-services/services-tile-img4.jpg"
+                src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-services/services-tile-img1.jpg"
                 alt="services-backgroun-image"
               />
             </figure>
@@ -706,18 +717,18 @@
           <!-- /wp:group -->
           <!-- wp:group -->
           <div
-            class="wp-block-group slide-title absolute desktop:bottom-[-40px] bottom-[75px] left-[25px] group-hover:translate-y-[-120px] transition ease-out duration-[400ms]"
+            class="wp-block-group slide-title absolute desktop:bottom-[0px] bottom-[55px] desktop:left-[25px] left-[20px] group-hover:translate-y-[-120px] transition ease-out duration-[400ms]"
           >
             <!-- wp:paragraph -->
             <p
-              class="mr-[20px] text-[35px] font-semibold mb-[15px] underline-offset-[9px] group-hover:underline group-hover:decoration-primaryYellow"
+              class="mr-[20px] desktop:text-[35px] text-[18px] font-semibold mb-[15px] underline-offset-[9px] group-hover:underline group-hover:decoration-primaryYellow"
             >
               Marketing i PR
             </p>
             <!-- /wp:paragraph -->
             <!-- wp:list -->
             <ul
-              class="wp-block-list hover-text opacity-[0%] group-hover:opacity-[100%] text-[15px] leading-[32px] font-semibold uppercase transition ease-out duration-500"
+              class="wp-block-list hover-text hidden desktop:block opacity-[0%] group-hover:opacity-[100%] text-[15px] leading-[32px] font-semibold uppercase transition ease-out duration-500"
             >
               <!-- wp:list-item -->
               <li
@@ -753,14 +764,18 @@
           <!-- /wp:group -->
           <!-- wp:buttons -->
           <div
-            class="wp-block-buttons btn-swiper-more group text-[14px] font-semibold uppercase absolute desktop:bottom-[40px] bottom-[75px] left-[25px] transition ease-out duration-300"
+            class="wp-block-buttons btn-swiper-more group pr-[20px] desktop:pr-0 text-[14px] font-semibold uppercase absolute desktop:bottom-[40px] desktop:bottom-[75px] bottom-[20px] desktop:left-[25px] left-[20px] transition ease-out duration-300"
           >
             <!-- wp:paragraph -->
             <a
-              href="#"
-              class="inline-block"
+            href="#"
+            class="inline-block flex desktop:block"
             >
-              Dowiedz się więcej
+              <!-- wp:paragraph -->
+              <p class="inline">
+                Dowiedz się więcej
+              </p>
+              <!-- /wp:paragraph -->
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="36"
@@ -797,18 +812,18 @@
         <!-- /wp:group -->
         <!-- wp:group -->
         <div
-          class="wp-block-group group relative img-clip-path-realizations gallery-tile z-[2] group p-[25px] h-[600px] rounded-[20px] transition ease-out overflow-hidden duration-300 cursor-pointer mr-[8px] mb-[10px]"
+          class="wp-block-group group relative gallery-tile img-clip-path-services z-[2] group desktop:p-[25px] desktop:h-[600px] h-[200px] overflow-hidden rounded-[20px] transition ease-out duration-300 cursor-pointer mr-[8px] mb-[10px]"
         >
           <!-- wp:group -->
           <div
-            class="wp-block-group img-clip-path-wrapper w-full h-full-[20px] rounded-br-[20px] overflow-hidden absolute left-0 top-0 z-[-1]"
+            class="wp-block-group img-clip-path-wrapper w-full h-full rounded-tr-[20px] rounded-br-[20px] overflow-hidden absolute left-0 top-0 z-[-1]"
           >
             <!-- wp:image -->
             <figure
-              class="wp-block-image group-hover:grayscale transition ease-in-out duration-[400ms]"
+              class="wp-block-image img-clip-path-services group-hover:grayscale transition ease-in-out duration-[400ms]"
             >
               <img
-                src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-services/services-tile-img6.jpg"
+                src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-services/services-tile-img1.jpg"
                 alt="services-backgroun-image"
               />
             </figure>
@@ -844,18 +859,18 @@
           <!-- /wp:group -->
           <!-- wp:group -->
           <div
-            class="wp-block-group slide-title absolute desktop:bottom-[-40px] bottom-[75px] left-[25px] group-hover:translate-y-[-120px] transition ease-out duration-[400ms]"
+            class="wp-block-group slide-title absolute desktop:bottom-[0px] bottom-[55px] desktop:left-[25px] left-[20px] group-hover:translate-y-[-120px] transition ease-out duration-[400ms]"
           >
             <!-- wp:paragraph -->
             <p
-              class="mr-[20px] text-[35px] font-semibold mb-[15px] underline-offset-[9px] group-hover:underline group-hover:decoration-primaryYellow"
+              class="mr-[20px] desktop:text-[35px] text-[18px] font-semibold mb-[15px] underline-offset-[9px] group-hover:underline group-hover:decoration-primaryYellow"
             >
               Marketing i PR
             </p>
             <!-- /wp:paragraph -->
             <!-- wp:list -->
             <ul
-              class="wp-block-list hover-text opacity-[0%] group-hover:opacity-[100%] text-[15px] leading-[32px] font-semibold uppercase transition ease-out duration-500"
+              class="wp-block-list hover-text hidden desktop:block opacity-[0%] group-hover:opacity-[100%] text-[15px] leading-[32px] font-semibold uppercase transition ease-out duration-500"
             >
               <!-- wp:list-item -->
               <li
@@ -891,14 +906,18 @@
           <!-- /wp:group -->
           <!-- wp:buttons -->
           <div
-            class="wp-block-buttons btn-swiper-more group text-[14px] font-semibold uppercase absolute desktop:bottom-[40px] bottom-[75px] left-[25px] transition ease-out duration-300"
+            class="wp-block-buttons btn-swiper-more group pr-[20px] desktop:pr-0 text-[14px] font-semibold uppercase absolute desktop:bottom-[40px] desktop:bottom-[75px] bottom-[20px] desktop:left-[25px] left-[20px] transition ease-out duration-300"
           >
             <!-- wp:paragraph -->
             <a
-              href="#"
-              class="inline-block"
+            href="#"
+            class="inline-block flex desktop:block"
             >
-              Dowiedz się więcej
+              <!-- wp:paragraph -->
+              <p class="inline">
+                Dowiedz się więcej
+              </p>
+              <!-- /wp:paragraph -->
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="36"
