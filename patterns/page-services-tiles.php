@@ -191,14 +191,13 @@
           <!-- /wp:group -->
           <!-- wp:buttons -->
           <div
-            class="wp-block-buttons btn-swiper-more group text-[14px] font-semibold uppercase absolute desktop:bottom-[40px] desktop:bottom-[75px] bottom-[20px] desktop:left-[25px] left-[20px] transition ease-out duration-300"
+            class="wp-block-buttons btn-swiper-more group pr-[20px] desktop:pr-0 text-[14px] font-semibold uppercase absolute desktop:bottom-[40px] desktop:bottom-[75px] bottom-[20px] desktop:left-[25px] left-[20px] transition ease-out duration-300"
           >
             <!-- wp:paragraph -->
             <a
             href="#"
-            class="inline-block"
+            class="inline-block flex desktop:block"
             >
-            
               <!-- wp:paragraph -->
               <p class="inline">
                 Dowiedz się więcej
