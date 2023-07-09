@@ -31,7 +31,7 @@
         </div>  
         <!-- /wp:group -->
         <!-- wp:group -->
-        <div class="wp-block-group uslugi-title uppercase font-medium desktop:text-[60px] text-[24px] desktop:leading-[60px] leading-[30px]">
+        <div class="wp-block-group uslugi-title uppercase font-medium desktop:text-[60px] text-[30px] desktop:leading-[60px] leading-[30px]">
           <!-- wp:paragraph -->
           <p
             class=""
