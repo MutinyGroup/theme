@@ -14,7 +14,7 @@
     <!-- wp:group -->
     <div class="wp-block-group title-wrapper relative container mx-auto desktop:mb-[120px] mb-[60px] flex">
       <!-- wp:paragraph -->
-      <svg class="flash absolute top-[-330px] left-[-140px] z-[-1]" xmlns="http://www.w3.org/2000/svg" width="688" height="801" viewBox="0 0 688 801" fill="none">
+      <svg class="flash desktop:scale-1 scale-[0.4] absolute desktop:top-[-330px] top-[-360px] desktop:left-[-140px] right-[-100px] z-[-1]" xmlns="http://www.w3.org/2000/svg" width="688" height="801" viewBox="0 0 688 801" fill="none">
         <g filter="url(#filter0_f_1787_1988)">
         <circle cx="287.132" cy="400.132" r="150" transform="rotate(-45 287.132 400.132)" fill="url(#paint0_linear_1787_1988)" fill-opacity="0.5"/>
         </g>
@@ -58,18 +58,18 @@
       <div class="wp-block-group col1 relative pl-[105px] w-[45%]">
         <!-- wp:paragraph -->
         <svg
-        class="shape opacity-[60%] absolute top-[270px] left-[30px]"
-        xmlns="http://www.w3.org/2000/svg"
-        width="235"
-        height="317"
-        viewBox="0 0 235 317"
-        fill="none"
+          class="shape opacity-[60%] absolute top-[270px] left-[30px]"
+          xmlns="http://www.w3.org/2000/svg"
+          width="235"
+          height="317"
+          viewBox="0 0 235 317"
+          fill="none"
         >
-        <path
-        d="M233.621 314.924L1 236.649V1.91746L233.621 80.1919V314.924Z"
-        stroke="white"
-        stroke-width="2"
-          />
+          <path
+          d="M233.621 314.924L1 236.649V1.91746L233.621 80.1919V314.924Z"
+          stroke="white"
+          stroke-width="2"
+            />
         </svg>
         <!-- /wp:paragraph -->
         <!-- wp:paragraph -->
