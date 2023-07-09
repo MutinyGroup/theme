@@ -144,7 +144,7 @@
           <!-- /wp:group -->
           <!-- wp:group -->
           <div
-            class="wp-block-group slide-title absolute desktop:bottom-[75px] bottom-[-50px] left-[25px] group-hover:translate-y-[-120px] transition ease-out duration-[400ms]"
+            class="wp-block-group slide-title absolute desktop:bottom-[-40px] bottom-[75px] left-[25px] group-hover:translate-y-[-120px] transition ease-out duration-[400ms]"
           >
             <!-- wp:paragraph -->
             <p
