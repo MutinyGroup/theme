@@ -44,7 +44,7 @@
         <!-- wp:paragraph -->
         <p class="uppercase desktop:text-[50px] text-[24px] desktop:leading-[55px] leading-[30px]">
           Kampanie realizujemy <br>
-          <span class="relative desktop:text-[50px] text-[24px] uppercase italic before:content-[''] before:inline-block desktop:before:mr-[16px] before:mr-[4px] before:bottom-0 before:left-0 desktop:before:w-[90px] before:w-[30px] desktop:before:h-[3px] before:h-[3px] before:bg-black">kompleksowo</span>
+          <span class="relative desktop:text-[50px] text-[24px] uppercase italic before:content-[''] before:inline-block desktop:before:mr-[16px] before:mr-[4px] before:bottom-0 before:left-0 desktop:before:w-[90px] before:w-[30px] desktop:before:h-[3px] before:h-[2px] before:bg-black">kompleksowo</span>
         </p>
         <!-- /wp:paragraph -->
       </div>
