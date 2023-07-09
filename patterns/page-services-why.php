@@ -82,7 +82,7 @@
       <!-- wp:list-item -->
       <li>
         <!-- wp:group -->
-        <div class="wp-block-group cols-wrapper flex">
+        <div class="wp-block-group cols-wrapper desktop:flex">
           <!-- wp:group -->
           <div class="wp-block-group col1 relative w-[50%]">
             <!-- wp:paragraph -->
@@ -222,7 +222,7 @@
       <!-- wp:list-item -->
       <li>
         <!-- wp:group -->
-        <div class="wp-block-group cols-wrapper flex">
+        <div class="wp-block-group cols-wrapper desktop:flex">
           <!-- wp:group -->
           <div class="wp-block-group col1 relative w-[50%]">
             <!-- wp:paragraph -->
@@ -362,7 +362,7 @@
       <!-- wp:list-item -->
       <li>
         <!-- wp:group -->
-        <div class="wp-block-group cols-wrapper flex">
+        <div class="wp-block-group cols-wrapper desktop:flex">
           <!-- wp:group -->
           <div class="wp-block-group col1 relative w-[50%]">
             <!-- wp:paragraph -->
