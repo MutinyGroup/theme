@@ -8,7 +8,7 @@
 ?>
 
 <!-- wp:group -->
-<div class="wp-block-group meet-us overflow-hidden mb-[80px] desktop:mb-[150px]">
+<div class="wp-block-group hidden desktop:block meet-us overflow-hidden mb-[80px] desktop:mb-[150px]">
 <!-- wp:group -->
   <div class="wp-block-group video relative container mx-auto desktop:px-0 px-[20px] overflow-x-hidden mb-[150px]">
     <!-- wp:group -->
