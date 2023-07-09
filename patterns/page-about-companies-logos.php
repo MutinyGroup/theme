@@ -118,7 +118,7 @@
       <p class="desktop:text-[22px] text-[18px] leading-[22px] font-medium">Dumnie wspieramy lokalny sport</p>
       <!-- /wp:paragraph -->
       <!-- wp:group -->
-      <div class="wp-block-group logos-sport-wrapper flex items-center gap-[100px]">
+      <div class="wp-block-group logos-sport-wrapper flex items-center desktop:gap-[100px]">
         <!-- wp:image -->
         <figure class="wp-block-image">
           <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-about/logos-companies/logo-leniwce.png" alt="leniwce-logo">
