@@ -97,7 +97,7 @@
       <div class="wp-block-group col1 w-[50%]">
         <!-- wp:group -->
         <div
-          class="wp-block-group group relative gallery-tile img-clip-path-services z-[2] group p-[25px] h-[600px] overflow-hidden rounded-[20px] transition ease-out duration-300 cursor-pointer mr-[8px] mb-[10px]"
+          class="wp-block-group group relative gallery-tile img-clip-path-services z-[2] group desktop:p-[25px] desktop:h-[600px] h-[200px] overflow-hidden rounded-[20px] transition ease-out duration-300 cursor-pointer mr-[8px] mb-[10px]"
         >
           <!-- wp:group -->
           <div
@@ -144,7 +144,7 @@
           <!-- /wp:group -->
           <!-- wp:group -->
           <div
-            class="wp-block-group slide-title absolute desktop:bottom-[-40px] bottom-[75px] left-[25px] group-hover:translate-y-[-120px] transition ease-out duration-[400ms]"
+            class="wp-block-group slide-title absolute desktop:bottom-[-40px] desktop:bottom-[75px] bottom-[-50px] left-[25px] group-hover:translate-y-[-120px] transition ease-out duration-[400ms]"
           >
             <!-- wp:paragraph -->
             <p
@@ -191,14 +191,19 @@
           <!-- /wp:group -->
           <!-- wp:buttons -->
           <div
-            class="wp-block-buttons btn-swiper-more group text-[14px] font-semibold uppercase absolute desktop:bottom-[40px] bottom-[75px] left-[25px] transition ease-out duration-300"
+            class="wp-block-buttons btn-swiper-more group text-[14px] font-semibold uppercase absolute desktop:bottom-[40px] desktop:bottom-[75px] bottom-[20px] desktop:left-[25px] left-[20px] transition ease-out duration-300"
           >
             <!-- wp:paragraph -->
             <a
-              href="#"
-              class="inline-block"
+            href="#"
+            class="inline-block"
             >
-              Dowiedz się więcej
+            
+              <!-- wp:paragraph -->
+              <p>
+                Dowiedz się więcej
+              </p>
+              <!-- /wp:paragraph -->
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="36"
