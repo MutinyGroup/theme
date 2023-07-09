@@ -68,7 +68,7 @@
         <!-- wp:group -->
         <div class="wp-block-group cols-wrapper desktop:flex">
           <!-- wp:group -->
-          <div class="wp-block-group col1 relative w-[50%]">
+          <div class="wp-block-group col1 relative desktop:w-[50%]">
             <!-- wp:paragraph -->
             <p class="text-[50px] text-primaryYellow">
               01 /
@@ -208,7 +208,7 @@
         <!-- wp:group -->
         <div class="wp-block-group cols-wrapper desktop:flex">
           <!-- wp:group -->
-          <div class="wp-block-group col1 relative w-[50%]">
+          <div class="wp-block-group col1 relative desktop:w-[50%]">
             <!-- wp:paragraph -->
             <p class="text-[50px] text-primaryYellow">
               02 /
@@ -348,7 +348,7 @@
         <!-- wp:group -->
         <div class="wp-block-group cols-wrapper desktop:flex">
           <!-- wp:group -->
-          <div class="wp-block-group col1 relative w-[50%]">
+          <div class="wp-block-group col1 relative desktop:w-[50%]">
             <!-- wp:paragraph -->
             <p class="text-[50px] text-primaryYellow">
               03 /
