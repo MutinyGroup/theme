@@ -53,18 +53,19 @@
   </div>
   <!-- /wp:group -->
   <!-- wp:group -->
-  <div class="wp-block-group about-banner-img relative h-[400px] desktop:ml-[80px]">
-    <!-- wp:image -->
-    <figure class="wp-block-image w-[100%] h-[100%] object-cover object-right">
+  <div class="wp-block-group about-banner-img relative h-[360px] desktop:ml-[80px]">
+    <!-- wp:image {"className": "test"}-->
+    <figure class="wp-block-image h-full">
       <img
         src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-about/about-banner-bg.jpg"
         alt="bg-image"
+        class="w-[100%] h-[100%] object-cover object-right"
       />
     </figure>
     <!-- /wp:image -->
     <!-- wp:buttons -->
     <div
-      class="wp-block-buttons desktop:w-[175px] w-[140px] desktop:h-[175px] h-[140px] mx-0 text-center rounded-full border desktop:border-[4px] border-[3px] border-[#AAAAAA] absolute desktop:top-[-130px] top-[410px] desktop:left-[1080px] left-[50%] translate-x-[-50%] hover:border-none hover:bg-primaryYellow hover:text-white transition ease-out duration-300 flex flex-col justify-center items-center gap-y-0 cursor-pointer"
+      class="wp-block-buttons desktop:w-[175px] w-[140px] desktop:h-[175px] h-[140px] mx-0 text-center rounded-full border desktop:border-[4px] border-[3px] border-[#AAAAAA] absolute desktop:top-[-130px] top-[330px] desktop:left-[1080px] left-[50%] translate-x-[-50%] hover:border-none hover:bg-primaryYellow hover:text-white transition ease-out duration-300 flex flex-col justify-center items-center gap-y-0 cursor-pointer"
     >
       <!-- wp:paragraph -->
       <p>Zobacz</p>
