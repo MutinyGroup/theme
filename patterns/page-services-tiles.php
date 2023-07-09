@@ -144,18 +144,18 @@
           <!-- /wp:group -->
           <!-- wp:group -->
           <div
-            class="wp-block-group slide-title absolute desktop:bottom-[-40px] desktop:bottom-[75px] bottom-[55px] desktop:left-[25px] left-[20px] group-hover:translate-y-[-120px] transition ease-out duration-[400ms]"
+            class="wp-block-group slide-title absolute desktop:bottom-[-40px] bottom-[75px] left-[25px] group-hover:translate-y-[-120px] transition ease-out duration-[400ms]"
           >
             <!-- wp:paragraph -->
             <p
-              class="mr-[20px] desktop:text-[35px] text-[18px] font-semibold desktop:mb-[15px] underline-offset-[9px] group-hover:underline group-hover:decoration-primaryYellow"
+              class="mr-[20px] desktop:text-[35px] text-[18px] font-semibold mb-[15px] underline-offset-[9px] group-hover:underline group-hover:decoration-primaryYellow"
             >
               Marketing i PR
             </p>
             <!-- /wp:paragraph -->
             <!-- wp:list -->
             <ul
-              class="wp-block-list hover-text hidden desktop:block opacity-[0%] group-hover:opacity-[100%] text-[15px] leading-[32px] font-semibold uppercase transition ease-out duration-500"
+              class="wp-block-list hover-text opacity-[0%] group-hover:opacity-[100%] text-[15px] leading-[32px] font-semibold uppercase transition ease-out duration-500"
             >
               <!-- wp:list-item -->
               <li
