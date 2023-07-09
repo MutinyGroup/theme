@@ -57,7 +57,7 @@
     <!-- wp:group -->
     <div class="overflow-hidden w-full h-full">
       <!-- wp:image -->
-      <figure class="wp-block-image h-full w-[980px] desktop:w-auto">
+      <figure class="wp-block-image h-full w-[950px] desktop:w-auto">
         <img
           src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-about/about-banner-bg.jpg"
           alt="bg-image"
@@ -68,7 +68,7 @@
     <!-- /wp:group -->
     <!-- wp:buttons -->
     <div
-      class="wp-block-buttons desktop:w-[175px] w-[140px] desktop:h-[175px] h-[140px] mx-0 text-center rounded-full border desktop:border-[4px] border-[3px] border-[#AAAAAA] absolute desktop:top-[-130px] top-[330px] desktop:left-[1080px] left-[50%] translate-x-[-50%] hover:border-none hover:bg-primaryYellow hover:text-white transition ease-out duration-300 flex flex-col justify-center items-center gap-y-0 cursor-pointer"
+      class="wp-block-buttons desktop:w-[175px] w-[140px] desktop:h-[175px] h-[140px] mx-0 text-center rounded-full border desktop:border-[4px] border-[3px] border-[#AAAAAA] absolute desktop:top-[-130px] top-[310px] desktop:left-[1080px] left-[50%] translate-x-[-50%] hover:border-none hover:bg-primaryYellow hover:text-white transition ease-out duration-300 flex flex-col justify-center items-center gap-y-0 cursor-pointer"
     >
       <!-- wp:paragraph -->
       <p>Zobacz</p>
