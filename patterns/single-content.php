@@ -58,7 +58,7 @@
     <!-- /wp:group -->
     
     <!-- wp:paragraph -->
-    <a href="https://mutiny.webo.design/blog/" class="group mt-[60px] mb-[40px] w-fit font-semibold flex items-center gap-[10px]">
+    <a href="https://mutiny.webo.design/blog/" class="group mt-[60px] mb-[40px] w-fit font-semibold flex items-center gap-[8px]">
       <!-- wp:group -->
       <div class="wp-block-group group w-[56px] h-[56px]">
         <!-- wp:paragraph -->
@@ -71,7 +71,7 @@
       </div>
       <!-- /wp:group -->
       <!-- wp:paragraph -->
-      <p class="uppercase">WRÓĆ DO LISTY</p>
+      <p class="uppercase text-[14px]">WRÓĆ DO LISTY</p>
       <!-- /wp:paragraph -->
     </a>
     <!-- /wp:paragraph -->
@@ -179,7 +179,7 @@
     <!-- wp:group -->
     <div class="border-wrapper pt-[20px] border-opacity-[40%] border-[#D5D5D5] border-t-[2px]">
       <!-- wp:paragraph -->
-      <a href="https://mutiny.webo.design/blog/" class="group w-fit font-semibold flex items-center gap-[10px]">
+      <a href="https://mutiny.webo.design/blog/" class="group w-fit font-semibold flex items-center gap-[8px]">
         <!-- wp:group -->
         <div class="wp-block-group group w-[56px] h-[56px]">
         <!-- wp:paragraph -->
@@ -192,7 +192,7 @@
         </div>
         <!-- /wp:group -->
         <!-- wp:paragraph -->
-        <p class="uppercase">WRÓĆ DO LISTY</p>
+        <p class="uppercase text-[14px]">WRÓĆ DO LISTY</p>
         <!-- /wp:paragraph -->
       </a>
       <!-- /wp:paragraph -->
