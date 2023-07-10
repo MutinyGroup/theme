@@ -134,7 +134,7 @@
                 $counter++;
                 if ($tab[$i] == 0){ ?>
                   <!-- wp:list-item -->
-                  <li class="wp-block-group bigger swiper-slide relative group desktop:min-w-[500px] w-[280px] desktop:h-[675px] h-[520px] <?php if (!($counter % 2)) echo 'translate-y-[100px]'; else echo ''; ?>">
+                  <li class="wp-block-group bigger swiper-slide relative group desktop:min-w-[520px] w-[280px] desktop:h-[675px] h-[520px] <?php if (!($counter % 2)) echo 'translate-y-[120px]'; else echo ''; ?>">
                     <!-- wp:group -->
                     <div class="wp-block-group img-clip-path-rounded mb-[20px]">
                       <!-- wp:group -->
@@ -175,7 +175,7 @@
                 $i++; 
                 }else{ ?>
                   <!-- wp:list-item -->
-                  <li class="wp-block-group smaller swiper-slide relative group desktop:min-w-[400px] w-[280px] desktop:h-[675px] h-[520px] <?php if (!($counter % 2)) echo 'translate-y-[100px]'; else echo ''; ?>">
+                  <li class="wp-block-group smaller swiper-slide relative group desktop:min-w-[440px] w-[280px] desktop:h-[675px] h-[520px] <?php if (!($counter % 2)) echo 'translate-y-[120px]'; else echo ''; ?>">
                     <!-- wp:group -->
                     <div class="wp-block-group img-clip-path-rounded mb-[20px]">
                       <!-- wp:group -->
