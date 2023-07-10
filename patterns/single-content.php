@@ -16,7 +16,6 @@
     <?php
       while ( have_posts() ) :
         the_post(); 
-        $avatarUrl = get_avatar_url(get_the_author_id());
     ?>
     <!-- wp:group -->
     <div class="wp-block-group content">
