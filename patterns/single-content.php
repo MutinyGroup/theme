@@ -19,7 +19,10 @@
       while ( have_posts() ) {
         the_post(); 
         print_r(get_post_thumbnail_id()); 
-        the_time('j F Y'); 
+        the_time('j F Y'); ?>
+        <p><?php echo "Hello"; ?></p>
+        <?php
+        
         //
         // Post Content here
         //
