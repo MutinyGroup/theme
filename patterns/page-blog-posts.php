@@ -219,7 +219,7 @@
                 };
                 ?>
                   <!-- wp:list-item -->
-                  <li class="wp-block-group swiper-slide relative group desktop:min-w-[500px] w-[280px] desktop:h-[675px] h-[520px] <?php if (!($counter % 2)) echo 'translate-y-[100px]'; else echo ''; ?>">
+                  <li class="wp-block-group hidden swiper-slide relative group desktop:min-w-[500px] w-[280px] desktop:h-[675px] h-[520px] <?php if (!($counter % 2)) echo 'translate-y-[100px]'; else echo ''; ?>">
                     <!-- wp:group -->
                     <div class="wp-block-group img-clip-path-rounded mb-[20px]">
                       <!-- wp:group -->
