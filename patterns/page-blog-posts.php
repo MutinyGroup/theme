@@ -118,7 +118,9 @@
         <ul class="wp-block-list flex gap-[80px] flex-wrap">
           <?php
             $args = array(
-                'post_type' => 'post'
+                'post_type' => 'post',
+                'posts_per_page' => 4,
+                'order' => 'ASC'
             );
             $post_query = new WP_Query($args);
             $counter = 0;
@@ -131,7 +133,7 @@
                 echo $counter;
                 ?>
                   <!-- wp:list-item -->
-                  <li class="wp-block-group swiper-slide relative group desktop:min-w-[500px] w-[280px] desktop:h-[675px] h-[520px] <?php if ($counter % 0) return 'translate-y-[-100px]'; ?>">
+                  <li class="wp-block-group swiper-slide relative group desktop:min-w-[500px] w-[280px] desktop:h-[675px] h-[520px] <?php if ($counter % 2) return 'translate-y-[-100px]'; ?>">
                     <!-- wp:group -->
                     <div class="wp-block-group img-clip-path-rounded mb-[20px]">
                       <!-- wp:group -->
