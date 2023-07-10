@@ -125,14 +125,14 @@
             $post_query = new WP_Query($args);
             $counter = 0;
             $tab=[0,1,1,0,0,1];
-            $i;
+            $i=0;
 
             if($post_query->have_posts() ) {
               while($post_query->have_posts() ) {
                 $post_query->the_post();
                 $postImageUrl = wp_get_attachment_image_src(get_post_thumbnail_id(),'portrait');
                 $counter++;
-                if ($tab[$i] === 0){ ?>
+                if ($tab[$i] == 0){ ?>
                   <!-- wp:list-item -->
                   <li class="wp-block-group bigger swiper-slide relative group desktop:min-w-[530px] w-[280px] desktop:h-[675px] h-[520px] <?php if (!($counter % 2)) echo 'translate-y-[100px]'; else echo ''; ?>">
                     <!-- wp:group -->
