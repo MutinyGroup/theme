@@ -129,7 +129,7 @@
                 $postImageUrl = wp_get_attachment_image_src(get_post_thumbnail_id(),'portrait');
                 ?>
                 <!-- wp:list-item -->
-                <li class="w-[535px]">
+                <li class="w-[450px]">
                   <!-- wp:image -->
                   <figure class="wp-block-image ">
                     <img src="<?php echo $postImageUrl[0]; ?>" alt="post-image">
