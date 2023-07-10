@@ -7,7 +7,7 @@
  */
 ?>
 <!-- wp:group -->
-<div class="wp-block-group relative cta desktop:mb-[150px] overflow-hidden desktop:overflow-auto">
+<div class="wp-block-group relative cta desktop:mb-[150px] overflow-hidden desktop:overflow-visible">
   <!-- wp:group -->
   <div class="wp-block-group container group mx-auto desktop:px-0 px-[20px] desktop:mt-0 mt-[120px] wide:h-[1180px] desktop:h-[790px] h-[480px]">
     <!-- wp:group -->
