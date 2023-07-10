@@ -114,35 +114,42 @@
     <div class="wp-block-group new gallery-cols relative flex justify-between pb-[150px]">
       <!-- wp:group -->
       <div class="wp-block-group">
-        <?php
-          $args = array(
-              'post_type' => 'post'
-          );
+        <!-- wp:list -->
+        <ul class="wp-block-list">
+          <?php
+            $args = array(
+                'post_type' => 'post'
+            );
 
-          $post_query = new WP_Query($args);
+            $post_query = new WP_Query($args);
 
-          if($post_query->have_posts() ) {
-            while($post_query->have_posts() ) {
-              $post_query->the_post();
-              $postImageUrl = wp_get_attachment_image_src(get_post_thumbnail_id(),'portrait');
-              ?>
-              <!-- wp:image -->
-              <figure class="wp-block-image">
-                <img src="<?php echo $postImageUrl[0]; ?>" alt="post-image">
-              </figure>
-              <!-- /wp:image -->
+            if($post_query->have_posts() ) {
+              while($post_query->have_posts() ) {
+                $post_query->the_post();
+                $postImageUrl = wp_get_attachment_image_src(get_post_thumbnail_id(),'portrait');
+                ?>
+                <!-- wp:list-item -->
+                <li class="w-[250px]">
+                  <!-- wp:image -->
+                  <figure class="wp-block-image ">
+                    <img src="<?php echo $postImageUrl[0]; ?>" alt="post-image">
+                  </figure>
+                  <!-- /wp:image -->
 
-              <!-- wp:paragraph -->
-              <p><?php the_time('m/d/Y') ?></p>
-              <!-- /wp:paragraph -->
+                  <!-- wp:paragraph -->
+                  <p><?php the_time('m/d/Y') ?></p>
+                  <!-- /wp:paragraph -->
 
-              <!-- wp:paragraph -->
-              <p><?php the_title(); ?></p>
-              <!-- /wp:paragraph -->
-              <?php
+                  <!-- wp:paragraph -->
+                  <p><?php the_title(); ?></p>
+                  <!-- /wp:paragraph -->
+                </li>
+                <!-- /wp:list-item -->
+                <?php
+              }
             }
-          }
-        ?>
+          ?>
+        </ul>
       </div>
       <!-- /wp:group -->
     </div>
