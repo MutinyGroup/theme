@@ -14,7 +14,7 @@
     class="wp-block-group container mx-auto relative desktop:px-0 px-[20px]"
   >    
     <!-- wp:group -->
-    <div class="wp-block-group gallery-cols relative flex justify-between pb-[150px]">
+    <div class="wp-block-group old hidden gallery-cols relative flex justify-between pb-[150px]">
       <!-- wp:group -->
       <div class="wp-block-group col1 w-[50%]">
         <!-- wp:group -->
@@ -108,6 +108,42 @@
       <!-- /wp:group -->
     </div>
     <!-- /wp:group -->
+
+
+    <!-- wp:group -->
+    <div class="wp-block-group new gallery-cols relative flex justify-between pb-[150px]">
+      <!-- wp:group -->
+      <div class="wp-block-group">
+        <!-- wp:paragraph -->
+        <p>php loop test</p>
+        <!-- /wp:paragraph -->
+        <?php
+          $args = array(
+              'post_type' => 'post'
+          );
+
+          $post_query = new WP_Query($args);
+
+          if($post_query->have_posts() ) {
+            while($post_query->have_posts() ) {
+              $post_query->the_post();
+              ?>
+              <!-- wp:paragraph -->
+              <p><?php the_title(); ?></p>
+              <!-- /wp:paragraph -->
+              <!-- wp:paragraph -->
+              <p><?php the_time('m/d/Y') ?></p>
+              <!-- /wp:paragraph -->
+              <?php
+            }
+          }
+        ?>
+      </div>
+      <!-- /wp:group -->
+    </div>
+    <!-- /wp:group -->
+
+
   </div>
   <!-- /wp:group -->
 </div>
