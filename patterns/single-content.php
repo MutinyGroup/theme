@@ -32,7 +32,7 @@
             ?>
             <!-- wp:paragraph -->
             <p><?php the_title(); ?></p>
-            <!-- wp:paragraph -->
+            <!-- /wp:paragraph -->
             <?php
           }
         }
