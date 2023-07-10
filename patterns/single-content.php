@@ -92,9 +92,9 @@
         </div>
         <!-- /wp:group -->
         <!-- wp:group -->
-        <div class="wp-block-group author-wrapper flex gap-[10px]">
+        <div class="wp-block-group author-wrapper flex items-center gap-[10px]">
           <!-- wp:group -->
-          <div class="wp-block-group wp-block-post-author__avatar img author-avatar">
+          <div class="wp-block-group wp-block-post-author__avatar img author-avatar h-[60px]">
             <!-- wp:post-author-avatar /-->
             
             <!-- wp:avatar {"userId":5, "size":60,"isLink":true,"style":{"spacing":{"margin":{"bottom":"40px"}},"border":{"radius":"10px","width":"3px"},"color":{"duotone":["#000000","#ffe2c7"]}},"borderColor":"vivid-red"} /-->
