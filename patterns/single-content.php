@@ -18,20 +18,21 @@
   <!-- wp:loop -->
   <div class="wp-loop">
     <!-- wp:loop -->
-    <?php 
-      if ( have_posts() ) {
-        while ( have_posts() ) {
-          the_post(); 
-          print_r(get_post_thumbnail_id()); 
-          the_time('j F Y'); ?>
-          <p><?php echo "Hello"; ?></p>
-          <?php
-          
-          //
-          // Post Content here
-          //
-        } // end while
-      } // end if
+    <?php
+      $args = array(
+          'post_type' => 'post'
+      );
+
+      $post_query = new WP_Query($args);
+
+      if($post_query->have_posts() ) {
+          while($post_query->have_posts() ) {
+              $post_query->the_post();
+              ?>
+              <h2><?php the_title(); ?></h2>
+              <?php
+              }
+          }
     ?>
   </div>
 
