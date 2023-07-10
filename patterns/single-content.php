@@ -115,7 +115,7 @@
       <!-- wp:group -->
       <div class="wp-block-group share-wrapper w-[30%] h-[80px] flex gap-[20px]">
         <!-- wp:paragraph -->
-        <p class="uppercase font-semibold">UDOSTĘPNIJ <br> ARTYKUŁ</p>
+        <p class="uppercase text-right font-semibold">UDOSTĘPNIJ <br> ARTYKUŁ</p>
         <!-- /wp:paragraph -->
         <!-- wp:list -->
         <ul class="wp-block-list flex gap-[20px]">
