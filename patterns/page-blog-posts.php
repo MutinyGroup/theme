@@ -127,7 +127,7 @@
               while($post_query->have_posts() ) {
                 $post_query->the_post();
                 $postImageUrl = wp_get_attachment_image_src(get_post_thumbnail_id(),'portrait');
-                $counter = 0;
+                $counter ;
                 echo $counter;
                 ?>
                   <!-- wp:list-item -->
