@@ -306,6 +306,7 @@ body{
   margin-left: 30px;
   list-style-type: none;
   text-decoration: none;
+  margin-bottom: 30px;
  }
  .entry-content ul li::before{
   content: "";
