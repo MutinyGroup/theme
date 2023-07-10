@@ -13,6 +13,7 @@
   <div
     class="wp-block-group container mx-auto relative desktop:px-0 px-[20px]"
   >    
+  <?php print_r(get_post_thumbnail_id()); ?>
   <div class="above-img-banner flex">
     <div class="post-title w-[70%] text-[50px] leading-[55px] font-medium">
       <!-- wp:post-title /-->
@@ -29,7 +30,7 @@
     </div>
   </div>
 
-  <?php the_post_thumbnail(); ?>
+ 
 
 
 
