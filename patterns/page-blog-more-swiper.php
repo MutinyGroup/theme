@@ -336,8 +336,6 @@
               <!-- /wp:paragraph -->
             </div>
             <!-- /wp:group -->
-
-
           </div>
           <!-- /wp:group -->
 
@@ -345,7 +343,7 @@
           <div id="blog-prev" class="wp-block-group group swiper-button-prev desktop:inline-block hidden w-[56px] h-[56px] absolute desktop:top-[90px] top-[35px] desktop:left-[800px] left-[190px]">
             <!-- wp:paragraph -->
             <svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 56 56" fill="none" class="rotate-180 group fill-transparent group-hover:fill-primaryYellow">
-              <rect x="1.5" y="1.5" width="53" height="53" rx="26.5" stroke="#AAA" stroke-width="3" class="group-hover:stroke-white transition-stroke ease-out duration-500"/>
+              <rect x="1.5" y="1.5" width="53" height="53" rx="26.5" stroke="#AAA" stroke-width="3" class="group-hover:stroke-primaryYellow transition-stroke ease-out duration-500"/>
               <path d="M28 35L35 28.0189L28.0379 21" stroke="black" stroke-width="1.5" class="group-hover:stroke-black transition-stroke ease-out duration-500"/>
               <path d="M20 28L31 28" stroke="black" stroke-width="1.5"/>
             </svg>
@@ -355,37 +353,18 @@
           <!-- wp:group -->
           <div id="blog-next" class="wp-block-group group swiper-button-next desktop:inline-block hidden w-[56px] h-[56px] absolute desktop:top-[90px] top-[35px] desktop:left-[870px] left-[260px]">
             <!-- wp:paragraph -->
-            <svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 56 56" fill="none" class="group fill-transparent group-hover:fill-white">
-              <rect x="1.5" y="1.5" width="53" height="53" rx="26.5" stroke="#D5D5D5" stroke-width="3" class="group-hover:stroke-white transition-stroke ease-out duration-500"/>
-              <path d="M28 35L35 28.0189L28.0379 21" stroke="white" stroke-width="1.5" class="group-hover:stroke-black transition-stroke ease-out duration-500"/>
-              <path d="M20 28L31 28" stroke="white" stroke-width="1.5" class="group-hover:stroke-black transition-stroke ease-out duration-500"/>
+            <svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 56 56" fill="none" class="group fill-transparent group-hover:fill-primaryYellow">
+              <rect x="1.5" y="1.5" width="53" height="53" rx="26.5" stroke="#AAA" stroke-width="3" class="group-hover:stroke-primaryYellow transition-stroke ease-out duration-500"/>
+              <path d="M28 35L35 28.0189L28.0379 21" stroke="black" stroke-width="1.5" class="group-hover:stroke-black transition-stroke ease-out duration-500"/>
+              <path d="M20 28L31 28" stroke="black" stroke-width="1.5" class="group-hover:stroke-black transition-stroke ease-out duration-500"/>
             </svg>
             <!-- /wp:paragraph -->
           </div>
           <!-- /wp:group -->
-
-
         </div>
         <!-- /wp:group -->
       </div>
       <!-- /wp:group -->
-    </div>
-    <!-- /wp:group -->
-
-
-
-    <!-- wp:group -->
-    <div class="wp-block-group button-wrapper container mx-auto flex items-center justify-center desktop:gap-[80px] gap-[20px] cursor-pointer">
-      <!-- wp:group -->
-      <div class="wp-block-group gray-border w-full h-[2px] bg-[#808080] opacity-[25%]"></div>
-      <!-- /wp:group -->
-      <!-- wp:buttons -->
-      <div class="wp-block-buttons btn-more text-center w-[390px] ml-[0px] p-[15px_30px] uppercase border-[2px] border-white rounded-full hover:bg-white hover:text-black transition ease-out duration-300">
-        <!-- wp:paragraph -->
-        <a href="#" class="uppercase w-[220px] text-[14px] font-bold">Zobacz wszystkie newsy</a>
-        <!-- /wp:paragraph -->
-      </div>
-      <!-- /wp:buttons -->
     </div>
     <!-- /wp:group -->
   </div>
