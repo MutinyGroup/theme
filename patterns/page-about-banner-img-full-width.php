@@ -55,7 +55,7 @@
   <!-- wp:group -->
   <div class="wp-block-group about-banner-img relative h-[360px] desktop:ml-[80px]">
     <!-- wp:group -->
-    <div class="overflow-hidden w-full h-full">
+    <div class="wp-block-group overflow-hidden w-full h-full">
       <!-- wp:image -->
       <figure class="wp-block-image h-full w-[920px] desktop:w-auto">
         <img
