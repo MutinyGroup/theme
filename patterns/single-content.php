@@ -139,9 +139,9 @@
       <!-- /wp:group -->
       
       <!-- wp:group -->
-      <div class="wp-block-group share-wrapper w-[30%] h-[80px] pt-[20px] flex gap-[20px]">
+      <div class="wp-block-group share-wrapper w-[30%] h-[80px] pt-[20px]">
         <!-- wp:group -->
-        <div class="wp-group-block share-border border-[#D5D5D5] border-t-[2px]">
+        <div class="wp-group-block share-border border-[#D5D5D5] border-t-[2px] flex gap-[20px]">
           <!-- wp:paragraph -->
           <p class="uppercase text-right font-semibold leading-[19px]">UDOSTĘPNIJ <br> ARTYKUŁ</p>
           <!-- /wp:paragraph -->
