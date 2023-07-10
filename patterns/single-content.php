@@ -8,7 +8,7 @@
 ?>
 
 <!-- wp:group -->
-<div class="wp-block-group single-page-post mb-[150px]">
+<div class="wp-block-group single-page-post mb-[150px] overflow-hidden">
   <!-- wp:group -->
   <div
     class="wp-block-group container mx-auto relative desktop:px-0 px-[20px]"
@@ -125,7 +125,7 @@
     <!-- /wp:group -->
     
     <!-- wp:group -->
-    <div class="wp-block-group featured-image mb-[100px]">
+    <div class="wp-block-group featured-image mb-[100px] w-[1380px]">
       <!-- wp:post-featured-image /-->
     </div>
     <!-- /wp:group -->
