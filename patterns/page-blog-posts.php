@@ -115,11 +115,11 @@
       <!-- wp:group -->
       <div class="wp-block-group">
         <!-- wp:list -->
-        <ul class="wp-block-list flex gap-[60px]">
+        <ul class="wp-block-list flex flex-wrap justify-between gap-[60px]">
           <?php
             $args = array(
                 'post_type' => 'post',
-                'posts_per_page' => 4,
+                'posts_per_page' => 6,
                 'order' => 'ASC'
             );
             $post_query = new WP_Query($args);
