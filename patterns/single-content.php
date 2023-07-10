@@ -177,7 +177,7 @@
     <!-- /wp:group -->
 
     <!-- wp:group -->
-    <div class="border-wrapper pt-[20px] border-opacity-[40%] border-[#D5D5D5] border-t-[2px]">
+    <div class="wp-block-group border-wrapper pt-[20px] border-opacity-[40%] border-[#D5D5D5] border-t-[2px]">
       <!-- wp:paragraph -->
       <a href="https://mutiny.webo.design/blog/" class="group w-fit font-semibold flex items-center gap-[8px]">
         <!-- wp:group -->
