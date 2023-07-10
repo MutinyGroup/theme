@@ -51,14 +51,18 @@
         <!-- wp:post-date /-->
       </div>
       <!-- wp:group -->
-      <div class="wp-block-group author-name">
-        <!-- wp:post-author-name /-->
-      </div>
-      <!-- /wp:group -->
-      <!-- wp:group -->
-      <div class="wp-block-group wp-block-post-author__avatar img author-avatar">
-        <!-- wp:post-author-avatar /-->
-        <!-- wp:avatar {"userId":5, "size":60,"isLink":true,"align":"right","style":{"spacing":{"margin":{"bottom":"40px"}},"border":{"radius":"0px","width":"3px"},"color":{"duotone":["#000000","#ffe2c7"]}},"borderColor":"vivid-red"} /-->
+      <div class="author-wrapper flex gap-[10px]">
+        <!-- wp:group -->
+        <div class="wp-block-group author-name">
+          <!-- wp:post-author-name /-->
+        </div>
+        <!-- /wp:group -->
+        <!-- wp:group -->
+        <div class="wp-block-group wp-block-post-author__avatar img author-avatar">
+          <!-- wp:post-author-avatar /-->
+          <!-- wp:avatar {"userId":5, "size":60,"isLink":true,"align":"right","style":{"spacing":{"margin":{"bottom":"40px"}},"border":{"radius":"0px","width":"3px"},"color":{"duotone":["#000000","#ffe2c7"]}},"borderColor":"vivid-red"} /-->
+        </div>
+        <!-- /wp:group -->
       </div>
       <!-- /wp:group -->
     </div>
