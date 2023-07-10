@@ -115,7 +115,7 @@
       <!-- wp:group -->
       <div class="wp-block-group">
         <!-- wp:list -->
-        <ul class="wp-block-list">
+        <ul class="wp-block-list flex gap-[80px] flex-wrap">
           <?php
             $args = array(
                 'post_type' => 'post'
