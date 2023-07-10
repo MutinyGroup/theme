@@ -129,19 +129,46 @@
                 $postImageUrl = wp_get_attachment_image_src(get_post_thumbnail_id(),'portrait');
                 ?>
                 <!-- wp:list-item -->
-                <li class="w-[450px]">
+                <li class="wp-block-group swiper-slide relative group desktop:min-w-[500px] w-[280px] desktop:h-[675px] h-[520px]">
                   <!-- wp:image -->
                   <figure class="wp-block-image ">
                     <img src="<?php echo $postImageUrl[0]; ?>" alt="post-image">
                   </figure>
                   <!-- /wp:image -->
 
+                  <!-- wp:group -->
+                  <div class="wp-block-group img-clip-path-rounded mb-[20px]">
+                    <!-- wp:group -->
+                    <div class="wp-block-group img-clip-path-blog overflow-hidden rounded-[20px]">
+                      <!-- wp:image -->
+                      <figure class="wp-block-image post-img scale-[1.12] group-hover:scale-[1.06] transition ease-out duration-[700ms]">
+                        <img src="<?php echo $postImageUrl[0]; ?>" alt="post-image">
+                      </figure>
+                      <!-- /wp:image -->
+                    </div>
+                    <!-- /wp:group -->
+                    <!-- wp:paragraph -->
+                    <svg class="flt_svg" xmlns="http://www.w3.org/2000/svg">
+                      <defs>
+                        <filter id="flt_tag">
+                          <feGaussianBlur in="SourceGraphic" stdDeviation="8" result="blur" />    
+                          <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9" result="flt_tag" />
+                          <feComposite in="SourceGraphic" in2="flt_tag" operator="atop"/>
+                        </filter>
+                      </defs>
+                    </svg>
+                    <!-- /wp:paragraph -->
+                  </div>
+                  <!-- /wp:group -->
+
                   <!-- wp:paragraph -->
-                  <p><?php the_time('m/d/Y'); ?></p>
+                  <p class="slide-date font-light flex items-center before:content-[''] before:w-[20px] before:h-[1px] before:bg-primaryYellow before:inline-block before:mr-[10px] mb-[20px]"><?php the_time('d / m / Y'); ?></p>
                   <!-- /wp:paragraph -->
 
                   <!-- wp:paragraph -->
-                  <p><?php the_title(); ?></p>
+                  <p class="subtitle inline text-[23px] font-medium leading-[30px] border-b-[1px] border-transparent group-hover:border-primaryYellow group-hover:text-primaryYellow transition ease-out duration-[800ms]">
+                    <?php the_title(); ?>
+                  </p>
                   <!-- /wp:paragraph -->
                 </li>
                 <!-- /wp:list-item -->
