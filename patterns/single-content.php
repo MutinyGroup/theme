@@ -51,6 +51,7 @@
       <?php  while ( have_posts() ) : the_post(); ?>
         <!-- wp:paragraph -->
         <p><?php the_title(); ?></p>
+        <?php echo 'test'; ?>
         <!-- /wp:paragraph -->
       <?php endwhile; ?>
     </div>
