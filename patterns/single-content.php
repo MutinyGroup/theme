@@ -29,8 +29,8 @@
           //
         } // end while
       } // end if
-      ?>
-    </div>
+    ?>
+  </div>
 
   <div class="above-img-banner mb-[50px] flex">
     <div class="post-title w-[70%] text-[50px] leading-[55px] font-normal">
@@ -51,15 +51,30 @@
     </div>
   </div>
 
- 
-
-
-
   <div class="featured-image">
     <!-- wp:post-featured-image /-->
   </div>
 
-    <!-- wp:post-content /-->
+  <div class="above-img-banner mb-[50px] flex">
+    <div class="post-content w-[70%] text-[50px] leading-[55px] font-normal">
+      <!-- wp:post-content /-->
+    </div>
+
+
+    <div class="share-wrapper w-[30%]">
+      share
+    </div>
+  </div>
+
+
+
+ 
+
+
+
+
+
+    
   </div>
   <!-- /wp:group -->
 </div>
