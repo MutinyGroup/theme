@@ -150,6 +150,7 @@
             }
           ?>
         </ul>
+        <!-- /wp:list -->
       </div>
       <!-- /wp:group -->
     </div>
