@@ -19,7 +19,6 @@
       <!-- wp:paragraph -->
       <p>php loop test</p>
       <!-- /wp:paragraph -->
-      <!-- wp:group -->
       <?php
         $args = array(
             'post_type' => 'post'
