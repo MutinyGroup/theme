@@ -61,7 +61,7 @@
         <!-- /wp:group -->
 
         <!-- wp:group -->
-        <div class="wp-block-group author-name">
+        <div class="wp-block-group author-name font-semibold">
           <!-- wp:post-author-name /-->
         </div>
         <!-- /wp:group -->
