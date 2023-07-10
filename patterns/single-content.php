@@ -121,9 +121,9 @@
         <ul class="wp-block-list flex gap-[20px]">
           <!-- wp:list-item -->
           <li class="cursor-pointer group w-[56px] h-[56px]">
-            <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60" fill="none" class="group">
-              <path d="M34.0088 31.125L34.5087 27.8674H31.383V25.7535C31.383 24.8623 31.8196 23.9936 33.2195 23.9936H34.6406V21.2201C34.6406 21.2201 33.351 21 32.1181 21C29.5439 21 27.8614 22.5602 27.8614 25.3847V27.8674H25V31.125H27.8614V39H31.383V31.125H34.0088Z" fill="black" class="group-hover:fill-primaryYellow transition-stroke ease-out duration-500"/>
-              <rect x="1" y="1" width="58" height="58" rx="29" stroke="#F2F2F2" stroke-width="2" class="group-hover:stroke-primaryYellow transition-stroke ease-out duration-500"/>
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none" class="group">
+              <path d="M24.0088 21.125L24.5087 17.8674H21.383V15.7535C21.383 14.8623 21.8196 13.9936 23.2195 13.9936H24.6406V11.2201C24.6406 11.2201 23.351 11 22.1181 11C19.5439 11 17.8614 12.5602 17.8614 15.3847V17.8674H15V21.125H17.8614V29H21.383V21.125H24.0088Z" fill="black" class="group-hover:fill-primaryYellow transition-stroke ease-out duration-500"/>
+              <rect x="1" y="1" width="38" height="38" rx="19" stroke="#D5D5D5" stroke-width="2" class="group-hover:stroke-primaryYellow transition-stroke ease-out duration-500"/>
             </svg>
           </li>
           <!-- /wp:list-item -->
