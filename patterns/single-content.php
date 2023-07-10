@@ -19,8 +19,7 @@
         $avatarUrl = get_avatar_url(get_the_author_id());
     ?>
     <!-- wp:group -->
-    <div class="content">
-      <!-- wp:post-content /-->
+    <div class="wp-block-group content">
       <?php the_content(); ?>
     </div>
     <!-- /wp:group -->
