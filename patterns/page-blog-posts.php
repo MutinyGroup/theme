@@ -130,12 +130,6 @@
                 ?>
                   <!-- wp:list-item -->
                   <li class="wp-block-group swiper-slide relative group desktop:min-w-[500px] w-[280px] desktop:h-[675px] h-[520px]">
-                    <!-- wp:image -->
-                    <figure class="wp-block-image ">
-                      <img src="<?php echo $postImageUrl[0]; ?>" alt="post-image">
-                    </figure>
-                    <!-- /wp:image -->
-
                     <!-- wp:group -->
                     <div class="wp-block-group img-clip-path-rounded mb-[20px]">
                       <!-- wp:group -->
