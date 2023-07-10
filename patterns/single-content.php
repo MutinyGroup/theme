@@ -14,12 +14,12 @@
     class="wp-block-group container mx-auto relative desktop:px-0 px-[20px]"
   >    
 
-    <!-- wp:loop -->
-    <div class="wp-loop">
+    <!-- wp:group -->
+    <div class="wp-group">
       <!-- wp:paragraph -->
       <p>php loop test</p>
       <!-- /wp:paragraph -->
-      <!-- wp:loop -->
+      <!-- wp:group -->
       <?php
         $args = array(
             'post_type' => 'post'
@@ -37,7 +37,7 @@
         }
       ?>
     </div>
-    <!-- /wp:loop -->
+    <!-- /wp:group -->
 
 
 
