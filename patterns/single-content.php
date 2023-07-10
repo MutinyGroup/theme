@@ -32,7 +32,6 @@
             ?>
             <!-- wp:paragraph -->
             <p><?php the_title(); ?></p>
-            <p>test</p>
             <!-- /wp:paragraph -->
             <!-- wp:paragraph -->
             <p><?php the_time('m/d/Y') ?></p>
@@ -90,7 +89,7 @@
       <div class="wp-block-group post-author-wrapper w-[30%]">
         <!-- wp:group -->
         <div class="wp-block-group post-date mb-[20px] flex items-center before:content-[''] before:inline-block desktop:before:mr-[10px] before:mb-[5px] desktop:before:w-[20px] desktop:before:h-[2px] before:bg-primaryYellow">
-          <!-- wp:post-date /-->
+          <!-- wp:post-date {"format":"d/m/Y"} /-->
         </div>
         <!-- /wp:group -->
         <!-- wp:group -->
