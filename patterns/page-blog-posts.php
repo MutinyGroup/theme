@@ -127,6 +127,8 @@
               while($post_query->have_posts() ) {
                 $post_query->the_post();
                 $postImageUrl = wp_get_attachment_image_src(get_post_thumbnail_id(),'portrait');
+                $counter = 0;
+                echo $counter;
                 ?>
                   <!-- wp:list-item -->
                   <li class="wp-block-group swiper-slide relative group desktop:min-w-[500px] w-[280px] desktop:h-[675px] h-[520px]">
@@ -167,6 +169,7 @@
                   </li>
                   <!-- /wp:list-item -->
                 <?php
+                $counter++;
               }
             }
           ?>
