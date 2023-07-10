@@ -13,6 +13,30 @@
   <div
     class="wp-block-group container mx-auto relative desktop:px-0 px-[20px]"
   >    
+  <div class="above-img-banner flex">
+    <div class="post-title w-[70%] text-[50px] leading-[55px] font-medium">
+      <!-- wp:post-title /-->
+    </div>
+
+
+    <div class="post-author-wrapper w-[30%]">
+      <div class="post-date">
+        <!-- wp:post-date /-->
+      </div>
+      <div class="author-name">
+        <!-- wp:post-author-name /-->
+      </div>
+    </div>
+  </div>
+
+  <?php the_post_thumbnail(); ?>
+
+
+
+  <div class="featured-image">
+    <!-- wp:post-featured-image /-->
+  </div>
+
     <!-- wp:post-content /-->
   </div>
   <!-- /wp:group -->
