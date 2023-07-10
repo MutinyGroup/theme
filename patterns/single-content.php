@@ -39,7 +39,20 @@
     </div>
     <!-- /wp:loop -->
 
-
+    <!-- wp:paragraph -->
+    <a href="https://mutiny.webo.design/blog/" class="wp-block-link mb-[40px] font-semibold flex items-center gap-[10px]">
+      <!-- wp:paragraph -->
+      <svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 56 56" fill="none"          class="rotate-180 scale-[0.6] cursor-pointer group fill-transparent group-hover:fill-[#FEC400]">
+        <rect x="1.5" y="1.5" width="53" height="53" rx="26.5" stroke="#AAAAAA" stroke-width="3" class="group-hover:fill-[#FEC400] group-hover:stroke-primaryYellow transition-stroke ease-out duration-500"/>
+        <path d="M28 35L35 28.0189L28.0379 21" stroke="black" stroke-width="1.5" class="group-hover:stroke-black transition-stroke ease-out duration-500"/>
+        <path d="M20 28L31 28" stroke="black" stroke-width="1.5" class="group-hover:stroke-black transition-stroke ease-out duration-500"/>
+      </svg>
+      <!-- /wp:paragraph -->
+      <!-- wp:paragraph -->
+      <p>WRÓĆ DO LISTY</p>
+      <!-- /wp:paragraph -->
+    </a>
+     <!-- /wp:paragraph -->
 
     <!-- wp:group -->
     <div class="wp-block-group above-img-banner mb-[50px] flex gap-[50px]">
