@@ -26,51 +26,67 @@
       $post_query = new WP_Query($args);
 
       if($post_query->have_posts() ) {
-          while($post_query->have_posts() ) {
-              $post_query->the_post();
-              ?>
-              <h2><?php the_title(); ?></h2>
-              <?php
-              }
-          }
+        while($post_query->have_posts() ) {
+          $post_query->the_post();
+          ?>
+          <h2><?php the_title(); ?></h2>
+          <?php
+        }
+      }
     ?>
   </div>
 
-  <div class="above-img-banner mb-[50px] flex gap-[50px]">
-    <div class="post-title w-[70%] text-[50px] leading-[55px] font-normal">
+  <!-- wp:group -->
+  <div class="wp-block-group above-img-banner mb-[50px] flex gap-[50px]">
+    <!-- wp:group -->
+    <div class="wp-block-group post-title w-[70%] text-[50px] leading-[55px] font-normal">
       <!-- wp:post-title /-->
     </div>
-
-
-    <div class="post-author-wrapper w-[30%]">
-      <div class="post-date before:content-[''] before:inline-block desktop:before:mr-[5px] before:mb-[5px] desktop:before:w-[20px] desktop:before:h-[2px] before:bg-primaryYellow">
+    <!-- /wp:group -->
+    
+    <!-- wp:group -->
+    <div class="wp-block-group post-author-wrapper w-[30%]">
+      <!-- wp:group -->
+      <div class="wp-block-group post-date before:content-[''] before:inline-block desktop:before:mr-[5px] before:mb-[5px] desktop:before:w-[20px] desktop:before:h-[2px] before:bg-primaryYellow">
         <!-- wp:post-date /-->
       </div>
-      <div class="author-name">
+      <!-- wp:group -->
+      <div class="wp-block-group author-name">
         <!-- wp:post-author-name /-->
       </div>
-      <div class=".wp-block-post-author__avatar img author-avatar">
+      <!-- /wp:group -->
+      <!-- wp:group -->
+      <div class="wp-block-group wp-block-post-author__avatar img author-avatar">
         <!-- wp:post-author-avatar /-->
-        <!-- wp:avatar {"userId":5, "size":85,"isLink":true,"align":"right","style":{"spacing":{"margin":{"bottom":"40px"}},"border":{"radius":"47px","width":"3px"},"color":{"duotone":["#000000","#ffe2c7"]}},"borderColor":"vivid-red"} /-->
-
+        <!-- wp:avatar {"userId":5, "size":60,"isLink":true,"align":"right","style":{"spacing":{"margin":{"bottom":"40px"}},"border":{"radius":"0px","width":"3px"},"color":{"duotone":["#000000","#ffe2c7"]}},"borderColor":"vivid-red"} /-->
       </div>
+      <!-- /wp:group -->
     </div>
+    <!-- /wp:group -->
   </div>
-
-  <div class="featured-image mb-[100px]">
+  <!-- /wp:group -->
+  
+  <!-- wp:group -->
+  <div class="wp-block-group featured-image mb-[100px]">
     <!-- wp:post-featured-image /-->
   </div>
-
-  <div class="above-img-banner mb-[50px] flex gap-[50px]">
-    <div class="post-content w-[70%]">
+  <!-- /wp:group -->
+  
+  <!-- wp:group -->
+  <div class="wp-block-group above-img-banner mb-[50px] flex gap-[50px]">
+    <!-- wp:group -->
+    <div class="wp-block-group post-content w-[70%]">
       <!-- wp:post-content /-->
     </div>
-
-
-    <div class="share-wrapper w-[30%]">
+    <!-- /wp:group -->
+    
+    <!-- wp:group -->
+    <div class="wp-block-group share-wrapper w-[30%]">
       share
     </div>
+    <!-- /wp:group -->
   </div>
+  <!-- /wp:group -->
 
 
 
