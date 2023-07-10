@@ -56,7 +56,7 @@
   </div>
 
   <div class="above-img-banner mb-[50px] flex">
-    <div class="post-content w-[70%] text-[50px] leading-[55px] font-normal">
+    <div class="post-content w-[70%]">
       <!-- wp:post-content /-->
     </div>
 
