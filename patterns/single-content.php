@@ -67,6 +67,7 @@
           <!-- wp:post-date /-->
         </div>
         <!-- /wp:group -->
+        <!-- wp:group -->
         <div class="wp-block-group author-wrapper flex gap-[10px]">
           <!-- wp:group -->
           <div class="wp-block-group wp-block-post-author__avatar img author-avatar">
@@ -85,6 +86,7 @@
         <!-- /wp:group -->
       </div>
       <!-- /wp:group -->
+
     </div>
     <!-- /wp:group -->
     
