@@ -171,9 +171,10 @@
                     <!-- /wp:paragraph -->
                   </li>
                   <!-- /wp:list-item -->                  
-                <?php  
-                };
-                else{?>
+                <?php 
+                echo $tab[$i];
+                $i++; 
+                }else{ ?>
                   <!-- wp:list-item -->
                   <li class="wp-block-group smaller swiper-slide relative group desktop:min-w-[400px] w-[280px] desktop:h-[675px] h-[520px] <?php if (!($counter % 2)) echo 'translate-y-[100px]'; else echo ''; ?>">
                     <!-- wp:group -->
@@ -213,6 +214,8 @@
                   </li>
                   <!-- /wp:list-item -->                  
                 <?php
+                echo $tab[$i];
+                $i++; 
                 };
                 ?>
                   <!-- wp:list-item -->
