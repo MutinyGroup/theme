@@ -1,7 +1,7 @@
 <?php
 /**
- * Title: page-blog-more-swiper
- * Slug: page-blog-more-swiper
+ * Title: page-post-more-swiper
+ * Slug: page-post-more-swiper
  * Categories: text, banner
  * Viewport Width: 1280
  */
