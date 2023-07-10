@@ -292,15 +292,27 @@ body{
   line-height: 42px;
   margin-bottom: 50px;
 }
-
 .entry-content h4{
   font-size: 25px;
   font-weight: 600;
   line-height: 30px;
   margin-bottom: 30px;
 }
-
 .entry-content p{
  margin-left: 30px;
  margin-bottom: 20px;
 }
+.entry-content ul{
+  list-style-type: none;
+  text-decoration: none;
+ }
+ .entry-content li::before{
+  content: "";
+  display: inline;
+  margin-right: 10px;
+  margin-bottom: 5px;
+  width: 20px;
+  height: 2px;
+  background-color: #FEC400;
+
+ }
