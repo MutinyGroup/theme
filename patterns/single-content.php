@@ -15,7 +15,7 @@
   >    
 
     <!-- wp:group -->
-    <div class="wp-group">
+    <div class="wp-block-group">
       <!-- wp:paragraph -->
       <p>php loop test</p>
       <!-- /wp:paragraph -->
