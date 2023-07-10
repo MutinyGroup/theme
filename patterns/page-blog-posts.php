@@ -137,7 +137,7 @@
                   <!-- /wp:image -->
 
                   <!-- wp:paragraph -->
-                  <p><?php the_time('m/d/Y') ?></p>
+                  <p><?php the_time('m/d/Y'); ?></p>
                   <!-- /wp:paragraph -->
 
                   <!-- wp:paragraph -->
