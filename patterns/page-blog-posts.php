@@ -131,11 +131,13 @@
                 <img src="<?php echo $postImageUrl; ?>" alt="post-image">
               </figure>
               <!-- /wp:image -->
-              <!-- wp:paragraph -->
-              <p><?php the_title(); ?></p>
-              <!-- /wp:paragraph -->
+
               <!-- wp:paragraph -->
               <p><?php the_time('m/d/Y') ?></p>
+              <!-- /wp:paragraph -->
+              
+              <!-- wp:paragraph -->
+              <p><?php the_title(); ?></p>
               <!-- /wp:paragraph -->
               <?php
             }
