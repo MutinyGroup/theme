@@ -48,19 +48,13 @@
       <!-- wp:paragraph -->
       <p>php loop test2</p>
       <!-- /wp:paragraph -->
-      <?php
-        if ( have_posts() ) :
-            while ( have_posts() ) : the_post(); ?>
-            <!-- wp:paragraph -->
-            <p><?php the_title(); ?></p>
-            <!-- /wp:paragraph -->
-            <!-- wp:paragraph -->
-            <p><?php the_time('m/d/Y') ?></p>
-            <!-- /wp:paragraph -->
-        <?php
-            endwhile;
-        endif;
-      ?>
+      <?php  while ( have_posts() ) : the_post(); ?>
+        <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+            <?php the_title( '<h1>','</h1>' );  ?>
+            <div class="post-thumbnail"><?php the_post_thumbnail(array(250, 250)); ?> </div>
+            <div class="entry-content"><?php the_content(); ?></div>
+        </article>
+      <?php endwhile; ?>
     </div>
     <!-- /wp:group -->
     
