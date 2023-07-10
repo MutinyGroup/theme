@@ -114,9 +114,6 @@
     <div class="wp-block-group new gallery-cols relative flex justify-between pb-[150px]">
       <!-- wp:group -->
       <div class="wp-block-group">
-        <!-- wp:paragraph -->
-        <p>php loop test</p>
-        <!-- /wp:paragraph -->
         <?php
           $args = array(
               'post_type' => 'post'
@@ -127,12 +124,13 @@
           if($post_query->have_posts() ) {
             while($post_query->have_posts() ) {
               $post_query->the_post();
+              $postImageUrl = wp_get_attachment_image_src(get_post_thumbnail_id(),'portrait');
               ?>
-              <!-- wp:group -->
-              <div class="wp-block-group featured-image mb-[30px] w-[250px]">
-                <!-- wp:post-featured-image /-->
-              </div>
-              <!-- /wp:group -->
+              <!-- wp:image -->
+              <figure class="wp-block-image">
+                <img src="<?php echo $postImageUrl; ?>" alt="post-image">
+              </figure>
+              <!-- /wp:image -->
               <!-- wp:paragraph -->
               <p><?php the_title(); ?></p>
               <!-- /wp:paragraph -->
