@@ -14,21 +14,23 @@
     class="wp-block-group container mx-auto relative desktop:px-0 px-[20px]"
   >    
 
-  <?php 
-    if ( have_posts() ) {
-      while ( have_posts() ) {
-        the_post(); 
-        print_r(get_post_thumbnail_id()); 
-        the_time('j F Y'); ?>
-        <p><?php echo "Hello"; ?></p>
-        <?php
-        
-        //
-        // Post Content here
-        //
-      } // end while
-    } // end if
-    ?>
+  <div class="wp-loop">
+    <?php 
+      if ( have_posts() ) {
+        while ( have_posts() ) {
+          the_post(); 
+          print_r(get_post_thumbnail_id()); 
+          the_time('j F Y'); ?>
+          <p><?php echo "Hello"; ?></p>
+          <?php
+          
+          //
+          // Post Content here
+          //
+        } // end while
+      } // end if
+      ?>
+    </div>
 
   <div class="above-img-banner mb-[50px] flex">
     <div class="post-title w-[70%] text-[50px] leading-[55px] font-normal">
