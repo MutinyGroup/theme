@@ -32,6 +32,7 @@
             ?>
             <!-- wp:paragraph -->
             <p><?php the_title(); ?></p>
+            <p>test</p>
             <!-- /wp:paragraph -->
             <!-- wp:paragraph -->
             <p><?php the_time('m/d/Y') ?></p>
