@@ -115,7 +115,7 @@
       <!-- wp:group -->
       <div class="wp-block-group">
         <!-- wp:list -->
-        <ul class="wp-block-list flex gap-[80px] flex-wrap">
+        <ul class="wp-block-list flex gap-[60px]">
           <?php
             $args = array(
                 'post_type' => 'post',
@@ -134,7 +134,7 @@
                 $counter++;
                 if ($tab[$i] == 0){ ?>
                   <!-- wp:list-item -->
-                  <li class="wp-block-group bigger swiper-slide relative group desktop:min-w-[530px] w-[280px] desktop:h-[675px] h-[520px] <?php if (!($counter % 2)) echo 'translate-y-[100px]'; else echo ''; ?>">
+                  <li class="wp-block-group bigger swiper-slide relative group desktop:min-w-[500px] w-[280px] desktop:h-[675px] h-[520px] <?php if (!($counter % 2)) echo 'translate-y-[100px]'; else echo ''; ?>">
                     <!-- wp:group -->
                     <div class="wp-block-group img-clip-path-rounded mb-[20px]">
                       <!-- wp:group -->
