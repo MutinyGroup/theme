@@ -13,21 +13,7 @@
   <div
     class="wp-block-group container mx-auto relative desktop:px-0 px-[20px]"
   >    
-    <?php
-      while ( have_posts() ) :
-        the_post(); 
-    ?>
-    <!-- wp:group -->
-    <div class="wp-block-group content">
-      
-      <?php the_author(); ?>
-      <?php the_title(); ?>
-    </div>
-    <!-- /wp:group -->
-      
-    <?php
-      endwhile;
-    ?>
+    <!-- wp:post-content /-->
   </div>
   <!-- /wp:group -->
 </div>
