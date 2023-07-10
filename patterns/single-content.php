@@ -103,7 +103,7 @@
           <!-- /wp:group -->
 
           <!-- wp:group -->
-          <div class="author-name-wrapper leading-[20px]">
+          <div class="wp-block-group author-name-wrapper leading-[20px]">
             <!-- wp:group -->
             <div class="wp-block-group author-name font-semibold">
               <!-- wp:post-author-name /-->
