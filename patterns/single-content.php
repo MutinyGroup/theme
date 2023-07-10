@@ -20,7 +20,8 @@
     <!-- wp:group -->
     <div class="wp-block-group content">
       
-      <?php the_content(); ?>
+      <?php the_author(); ?>
+      <?php the_title(); ?>
     </div>
     <!-- /wp:group -->
       
