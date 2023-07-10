@@ -14,7 +14,10 @@
     class="wp-block-group container mx-auto relative desktop:px-0 px-[20px]"
   >    
 
+  
+  <!-- wp:loop -->
   <div class="wp-loop">
+    <!-- wp:loop -->
     <?php 
       if ( have_posts() ) {
         while ( have_posts() ) {
@@ -32,7 +35,7 @@
     ?>
   </div>
 
-  <div class="above-img-banner mb-[50px] flex">
+  <div class="above-img-banner mb-[50px] flex gap-[50px]">
     <div class="post-title w-[70%] text-[50px] leading-[55px] font-normal">
       <!-- wp:post-title /-->
     </div>
@@ -55,7 +58,7 @@
     <!-- wp:post-featured-image /-->
   </div>
 
-  <div class="above-img-banner mb-[50px] flex">
+  <div class="above-img-banner mb-[50px] flex gap-[50px]">
     <div class="post-content w-[70%]">
       <!-- wp:post-content /-->
     </div>
