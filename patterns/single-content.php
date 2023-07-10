@@ -95,7 +95,7 @@
       <!-- /wp:group -->
       
       <!-- wp:group -->
-      <div class="wp-block-group share-wrapper w-[30%] flex items-center gap-[20px]">
+      <div class="wp-block-group share-wrapper w-[30%] h-[80px] flex gap-[20px]">
         <!-- wp:paragraph -->
         <p class="uppercase font-semibold">UDOSTĘPNIJ <br> ARTYKUŁ</p>
         <!-- /wp:paragraph -->
