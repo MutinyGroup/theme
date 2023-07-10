@@ -48,7 +48,9 @@
         <path d="M20 28L31 28" stroke="black" stroke-width="1.5" class="group-hover:stroke-black transition-stroke ease-out duration-500"/>
       </svg>
       <!-- /wp:paragraph -->
-      WRÓĆ DO LISTY
+      <!-- wp:paragraph -->
+      <p>WRÓĆ DO LISTY</p>
+      <!-- /wp:paragraph -->
     </a>
      <!-- /wp:paragraph -->
 
