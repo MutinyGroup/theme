@@ -41,7 +41,7 @@
     <!-- /wp:group -->
     
     <!-- wp:paragraph -->
-    <a href="https://mutiny.webo.design/blog/" class="my-[60px] font-semibold flex gap-[10px]">
+    <a href="https://mutiny.webo.design/blog/" class="my-[60px] font-semibold flex items-center gap-[10px]">
       <!-- wp:group -->
       <div class="wp-block-group group w-[56px] h-[56px]">
         <!-- wp:paragraph -->
