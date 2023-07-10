@@ -103,8 +103,17 @@
           <!-- /wp:group -->
 
           <!-- wp:group -->
-          <div class="wp-block-group author-name font-semibold">
-            <!-- wp:post-author-name /-->
+          <div class="author-name-wrapper">
+            <!-- wp:paragraph -->
+            <p class="wp-block-group author-name font-semibold">
+              <!-- wp:post-author-name /-->
+            </p>
+            <!-- /wp:paragraph -->
+            <!-- wp:paragraph -->
+            <p class="wp-block-group author-bio text-[14px] font-light">
+              <!-- wp:post-author-biography /-->
+            </p>
+            <!-- /wp:paragraph -->
           </div>
           <!-- /wp:group -->
         </div>
