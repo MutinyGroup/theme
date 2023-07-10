@@ -51,7 +51,7 @@
     </div>
   </div>
 
-  <div class="featured-image">
+  <div class="featured-image mb-[100px]">
     <!-- wp:post-featured-image /-->
   </div>
 
