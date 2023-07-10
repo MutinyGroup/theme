@@ -40,6 +40,9 @@
       <div class="author-name">
         <!-- wp:post-author-name /-->
       </div>
+      <div class=".wp-block-post-author__avatar img author-avatar">
+        <!-- wp:post-author-avatar /-->
+      </div>
     </div>
   </div>
 
