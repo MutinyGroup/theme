@@ -292,6 +292,12 @@ body{
   line-height: 42px;
 }
 
+.entry-content h4{
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 30px;
+}
+
 .entry-content p{
  margin-left: 30px;
 }
