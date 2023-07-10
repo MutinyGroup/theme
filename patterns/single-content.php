@@ -14,7 +14,30 @@
     class="wp-block-group container mx-auto relative desktop:px-0 px-[20px]"
   >    
 
+    <!-- wp:loop -->
+    <div class="wp-loop">
+      <!-- wp:paragraph -->
+      <p>php loop test</p>
+      <!-- /wp:paragraph -->
+      <!-- wp:loop -->
+      <?php
+        $args = array(
+            'post_type' => 'post'
+        );
 
+        $post_query = new WP_Query($args);
+
+        if($post_query->have_posts() ) {
+          while($post_query->have_posts() ) {
+            $post_query->the_post();
+            ?>
+            <h2><?php the_title(); ?></h2>
+            <?php
+          }
+        }
+      ?>
+    </div>
+    <!-- /wp:loop -->
 
     <!-- wp:link -->
     <a href="https://mutiny.webo.design/blog/" class="wp-block-link mb-[60px] font-semibold flex items-center gap-[10px]">
@@ -90,18 +113,22 @@
         <ul class="wp-block-list flex gap-[20px]">
           <!-- wp:list-item -->
           <li class="cursor-pointer">
+            <!-- wp:paragraph -->
             <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none" class="group scale-[0.55]">
               <path d="M34.0088 31.125L34.5087 27.8674H31.383V25.7535C31.383 24.8623 31.8196 23.9936 33.2195 23.9936H34.6406V21.2201C34.6406 21.2201 33.351 21 32.1181 21C29.5439 21 27.8614 22.5602 27.8614 25.3847V27.8674H25V31.125H27.8614V39H31.383V31.125H34.0088Z" fill="black" class="group-hover:fill-primaryYellow transition-stroke ease-out duration-500"/>
               <rect x="1" y="1" width="58" height="58" rx="29" stroke="#D5D5D5" stroke-width="2" class="group-hover:stroke-primaryYellow transition-stroke ease-out duration-500"/>
             </svg>
+            <!-- /wp:paragraph -->
           </li>
           <!-- /wp:list-item -->
           <!-- wp:list-item -->
           <li class="cursor-pointer">
+            <!-- wp:paragraph -->
             <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none" class="group scale-[0.55]">
               <path d="M21.3484 39H24.8323V26.5125H21.3484V39ZM23.0903 21C21.929 21 21 21.9 21 23.025C21 24.15 21.929 25.05 23.0903 25.05C24.2516 25.05 25.1806 24.15 25.1806 23.025C25.1806 21.9 24.2516 21 23.0903 21ZM30.7548 28.425V26.5125H27.271V39H30.7548V32.5875C30.7548 28.9875 35.5161 28.7625 35.5161 32.5875V39H39V31.35C39 25.275 32.3806 25.5 30.7548 28.425Z" fill="black" class="group-hover:fill-primaryYellow transition-stroke ease-out duration-500"/>
               <rect x="1" y="1" width="58" height="58" rx="29" stroke="#D5D5D5" stroke-width="2" class="group-hover:stroke-primaryYellow transition-stroke ease-out duration-500"/>
             </svg>
+            <!-- /wp:paragraph -->
           </li>
           <!-- /wp:list-item -->
         </ul>
