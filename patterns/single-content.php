@@ -42,6 +42,27 @@
       ?>
     </div>
     <!-- /wp:group -->
+
+    <!-- wp:group -->
+    <div class="wp-block-group">
+      <!-- wp:paragraph -->
+      <p>php loop test2</p>
+      <!-- /wp:paragraph -->
+      <?php
+        if ( have_posts() ) :
+            while ( have_posts() ) : the_post(); ?>
+            <!-- wp:paragraph -->
+            <p><?php the_title(); ?></p>
+            <!-- /wp:paragraph -->
+            <!-- wp:paragraph -->
+            <p><?php the_time('m/d/Y') ?></p>
+            <!-- /wp:paragraph -->
+        <?php
+            endwhile;
+        endif;
+      ?>
+    </div>
+    <!-- /wp:group -->
     
     <!-- wp:paragraph -->
     <a href="https://mutiny.webo.design/blog/" class="my-[60px] font-semibold flex items-center gap-[10px]">
