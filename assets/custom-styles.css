@@ -308,7 +308,7 @@ body{
  }
  .entry-content ul li::before{
   content: "";
-  display: inline;
+  display: inline-block;
   margin-right: 10px;
   margin-bottom: 5px;
   width: 20px;
