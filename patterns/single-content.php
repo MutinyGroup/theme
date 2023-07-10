@@ -56,7 +56,7 @@
         <div class="wp-block-group wp-block-post-author__avatar img author-avatar">
           <!-- wp:post-author-avatar /-->
           
-          <!-- wp:avatar {"userId":5, "size":60,"isLink":true,"align":"right","style":{"spacing":{"margin":{"bottom":"40px"}},"border":{"radius":"10px","width":"3px"},"color":{"duotone":["#000000","#ffe2c7"]}},"borderColor":"vivid-red"} /-->
+          <!-- wp:avatar {"userId":5, "size":60,"isLink":true,"align":"left","style":{"spacing":{"margin":{"bottom":"40px"}},"border":{"radius":"10px","width":"3px"},"color":{"duotone":["#000000","#ffe2c7"]}},"borderColor":"vivid-red"} /-->
         </div>
         <!-- /wp:group -->
 
