@@ -49,11 +49,9 @@
       <p>php loop test2</p>
       <!-- /wp:paragraph -->
       <?php  while ( have_posts() ) : the_post(); ?>
-        <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-            <?php the_title( '<h1>','</h1>' );  ?>
-            <div class="post-thumbnail"><?php the_post_thumbnail(array(250, 250)); ?> </div>
-            <div class="entry-content"><?php the_content(); ?></div>
-        </article>
+        <!-- wp:paragraph -->
+        <p><?php the_title(); ?></p>
+        <!-- /wp:paragraph -->
       <?php endwhile; ?>
     </div>
     <!-- /wp:group -->
