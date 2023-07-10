@@ -163,9 +163,9 @@
                   <!-- /wp:paragraph -->
 
                   <!-- wp:paragraph -->
-                  <a href="<?php the_permalink(); ?>" class="subtitle inline text-[23px] font-medium leading-[30px] border-b-[1px] border-transparent group-hover:border-primaryYellow group-hover:text-primaryYellow transition ease-out duration-[800ms]">
+                  <p class="subtitle inline text-[23px] font-medium leading-[30px] border-b-[1px] border-transparent group-hover:border-primaryYellow group-hover:text-primaryYellow transition ease-out duration-[800ms]">
                     <?php the_title(); ?>
-                  </a>
+                  </p>
                   <!-- /wp:paragraph -->
                 </li>
                 <!-- /wp:list-item -->                  
@@ -204,9 +204,9 @@
                   <!-- /wp:paragraph -->
 
                   <!-- wp:paragraph -->
-                  <a href="<?php the_permalink(); ?>" class="subtitle inline text-[23px] font-medium leading-[30px] border-b-[1px] border-transparent group-hover:border-primaryYellow group-hover:text-primaryYellow transition ease-out duration-[800ms]">
+                  <p class="subtitle inline text-[23px] font-medium leading-[30px] border-b-[1px] border-transparent group-hover:border-primaryYellow group-hover:text-primaryYellow transition ease-out duration-[800ms]">
                     <?php the_title(); ?>
-                  </a>
+                  </p>
                   <!-- /wp:paragraph -->
                 </li>
                 <!-- /wp:list-item -->                  
