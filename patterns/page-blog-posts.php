@@ -128,6 +128,11 @@
             while($post_query->have_posts() ) {
               $post_query->the_post();
               ?>
+              <!-- wp:group -->
+              <div class="wp-block-group featured-image mb-[30px] w-[250px]">
+                <!-- wp:post-featured-image /-->
+              </div>
+              <!-- /wp:group -->
               <!-- wp:paragraph -->
               <p><?php the_title(); ?></p>
               <!-- /wp:paragraph -->
