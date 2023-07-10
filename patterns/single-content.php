@@ -63,7 +63,7 @@
       <div class="wp-block-group post-date mb-[20px] flex items-center before:content-[''] before:inline-block desktop:before:mr-[10px] before:mb-[5px] desktop:before:w-[20px] desktop:before:h-[2px] before:bg-primaryYellow">
         <!-- wp:post-date /-->
       </div>
-      <!-- wp:group -->
+      <!-- /wp:group -->
       <div class="wp-block-group author-wrapper flex gap-[10px]">
         <!-- wp:group -->
         <div class="wp-block-group wp-block-post-author__avatar img author-avatar">
