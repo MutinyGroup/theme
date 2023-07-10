@@ -172,7 +172,6 @@
                   </li>
                   <!-- /wp:list-item -->                  
                 <?php 
-                echo $tab[$i];
                 $i++; 
                 }else{ ?>
                   <!-- wp:list-item -->
@@ -214,7 +213,6 @@
                   </li>
                   <!-- /wp:list-item -->                  
                 <?php
-                echo $tab[$i];
                 $i++; 
                 };
                 ?>
