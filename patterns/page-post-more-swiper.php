@@ -51,8 +51,163 @@
         <div id="blog" class="wp-block-group swiper swiperBlog relative desktop:pt-[180px] absolute top-0 desktop:left-[150px] left-[20px]">
           <!-- wp:group -->
           <div class="wp-block-group swiper-wrapper">
+            <?php
+              $args = array(
+                  'post_type' => 'post',
+                  'posts_per_page' => 4,
+                  'order' => 'ASC'
+              );
+              $post_query = new WP_Query($args);
+              $counter = 0;
+
+              if($post_query->have_posts() ) {
+                while($post_query->have_posts() ) {
+                  $post_query->the_post();
+                  $postImageUrl = wp_get_attachment_image_src(get_post_thumbnail_id(),'portrait');
+                  $counter++;
+                  if ($counter == 1){ ?>
+                    <!-- wp:group -->
+                    <div class="wp-block-group swiper-slide desktop:mr-[80px] mr-[20px] relative group desktop:min-w-[444px] w-[280px] desktop:h-[675px] h-[520px]">
+                      <!-- wp:paragraph -->
+                      <a href="<?php the_permalink(); ?>">                      
+                        <!-- wp:group -->
+                        <div class="wp-block-group img-clip-path-rounded mb-[20px]">
+                          <!-- wp:group -->
+                          <div class="wp-block-group img-clip-path-blog overflow-hidden rounded-[20px]">
+                            <!-- wp:image -->
+                            <figure class="wp-block-image post-img scale-[1.12] group-hover:scale-[1.06] transition ease-out duration-[700ms]">
+                              <img src="<?php echo $postImageUrl[0]; ?>" alt="post-image">
+                            </figure>
+                            <!-- /wp:image -->
+                          </div>
+                          <!-- /wp:group -->
+                          <!-- wp:paragraph -->
+                          <svg class="flt_svg" xmlns="http://www.w3.org/2000/svg">
+                            <defs>
+                              <filter id="flt_tag">
+                                <feGaussianBlur in="SourceGraphic" stdDeviation="8" result="blur" />    
+                                <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9" result="flt_tag" />
+                                <feComposite in="SourceGraphic" in2="flt_tag" operator="atop"/>
+                              </filter>
+                            </defs>
+                          </svg>
+                          <!-- /wp:paragraph -->
+                        </div>
+                        <!-- /wp:group -->
+
+
+
+
+                        <!-- wp:paragraph -->
+                        <p class="slide-date font-light flex items-center before:content-[''] before:w-[20px] before:h-[1px] before:bg-primaryYellow before:inline-block before:mr-[10px] mb-[20px]"><?php the_time('d / m / Y'); ?></p>
+                        <!-- /wp:paragraph -->
+
+                        <!-- wp:paragraph -->
+                        <p class="subtitle inline text-[23px] font-medium leading-[30px] border-b-[1px] border-transparent group-hover:border-primaryYellow group-hover:text-primaryYellow transition ease-out duration-[800ms]">
+                          <?php the_title(); ?>
+                        </p>
+                        <!-- /wp:paragraph -->
+                      </a>
+                      <!-- /wp:paragraph -->
+                    </div>
+                    <!-- /wp:group -->                
+                  <?php 
+                  }else{ ?>
+                    <!-- wp:list-item -->
+                    <li class="wp-block-group hidden smaller swiper-slide relative group desktop:min-w-[440px] w-[280px] desktop:h-[675px] h-[520px] <?php if (!($counter % 2)) echo 'translate-y-[120px]'; else echo ''; ?>">
+                      <!-- wp:paragraph -->
+                      <a href="<?php the_permalink(); ?>">
+                        <!-- wp:group -->
+                        <div class="wp-block-group img-clip-path-rounded mb-[20px]">
+                          <!-- wp:group -->
+                          <div class="wp-block-group img-clip-path-blog overflow-hidden rounded-[20px]">
+                            <!-- wp:image -->
+                            <figure class="wp-block-image post-img scale-[1.12] group-hover:scale-[1.06] transition ease-out duration-[700ms]">
+                              <img src="<?php echo $postImageUrl[0]; ?>" alt="post-image">
+                            </figure>
+                            <!-- /wp:image -->
+                          </div>
+                          <!-- /wp:group -->
+                          <!-- wp:paragraph -->
+                          <svg class="flt_svg" xmlns="http://www.w3.org/2000/svg">
+                            <defs>
+                              <filter id="flt_tag">
+                                <feGaussianBlur in="SourceGraphic" stdDeviation="8" result="blur" />    
+                                <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9" result="flt_tag" />
+                                <feComposite in="SourceGraphic" in2="flt_tag" operator="atop"/>
+                              </filter>
+                            </defs>
+                          </svg>
+                          <!-- /wp:paragraph -->
+                        </div>
+                        <!-- /wp:group -->
+
+                        <!-- wp:paragraph -->
+                        <p class="slide-date font-light flex items-center before:content-[''] before:w-[20px] before:h-[1px] before:bg-primaryYellow before:inline-block before:mr-[10px] mb-[20px]"><?php the_time('d / m / Y'); ?></p>
+                        <!-- /wp:paragraph -->
+
+                        <!-- wp:paragraph -->
+                        <p class="subtitle inline text-[23px] font-medium leading-[30px] border-b-[1px] border-transparent group-hover:border-primaryYellow group-hover:text-primaryYellow transition ease-out duration-[800ms]">
+                          <?php the_title(); ?>
+                        </p>
+                        <!-- /wp:paragraph -->
+                      </a>
+                      <!-- /wp:paragraph -->
+                    </li>
+                    <!-- /wp:list-item -->
+                    
+                    <!-- wp:group -->
+                    <div class="wp-block-group swiper-slide desktop:mr-[80px] mr-[20px] relative group desktop:min-w-[444px] w-[280px] desktop:h-[675px] h-[520px]">
+                      <!-- wp:paragraph -->
+                      <a href="<?php the_permalink(); ?>">                        
+                        <!-- wp:group -->
+                        <div class="wp-block-group img-wrapper mb-[20px]">
+                          <!-- wp:group -->
+                          <div class="wp-block-group overflow-hidden desktop:h-[420px] rounded-[20px]">
+                            <!-- wp:image -->
+                            <figure class="wp-block-image post-img scale-[1.12] group-hover:scale-[1.06] transition ease-out duration-[700ms]">
+                            <img src="<?php echo $postImageUrl[0]; ?>" alt="post-image">
+                            </figure>
+                            <!-- /wp:image -->
+                          </div>
+                          <!-- /wp:group -->
+                          <!-- wp:paragraph -->
+                          <svg class="flt_svg" xmlns="http://www.w3.org/2000/svg">
+                            <defs>
+                              <filter id="flt_tag">
+                                <feGaussianBlur in="SourceGraphic" stdDeviation="8" result="blur" />    
+                                <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9" result="flt_tag" />
+                                <feComposite in="SourceGraphic" in2="flt_tag" operator="atop"/>
+                              </filter>
+                            </defs>
+                          </svg>
+                          <!-- /wp:paragraph -->
+                        </div>
+                        <!-- /wp:group -->
+
+                        <!-- wp:paragraph -->
+                        <p class="slide-date font-light flex items-center before:content-[''] before:w-[20px] before:h-[1px] before:bg-primaryYellow before:inline-block before:mr-[10px] mb-[20px]"><?php the_time('d / m / Y'); ?></p>
+                        <!-- /wp:paragraph -->
+
+                        <!-- wp:paragraph -->
+                        <p class="subtitle inline text-[23px] font-medium leading-[30px] border-b-[1px] border-transparent group-hover:border-primaryYellow group-hover:text-primaryYellow transition ease-out duration-[800ms]">
+                          <?php the_title(); ?>
+                        </p>
+                        <!-- /wp:paragraph -->
+                      </a>
+                      <!-- /wp:paragraph -->
+                    </div>
+                    <!-- /wp:group -->                      
+                  <?php
+                  };
+                };
+              };
+            ?>
+
+
+
             <!-- wp:group -->
-            <div class="wp-block-group swiper-slide desktop:mr-[80px] mr-[20px] relative group desktop:min-w-[444px] w-[280px] desktop:h-[675px] h-[520px]">
+            <div class="wp-block-group hidden swiper-slide desktop:mr-[80px] mr-[20px] relative group desktop:min-w-[444px] w-[280px] desktop:h-[675px] h-[520px]">
               <!-- wp:group -->
               <div class="wp-block-group img-clip-path-rounded mb-[20px]">
                 <!-- wp:group -->
@@ -94,7 +249,7 @@
             <!-- /wp:group -->
 
             <!-- wp:group -->
-            <div class="wp-block-group swiper-slide desktop:mr-[80px] mr-[20px] relative group desktop:min-w-[444px] w-[280px] desktop:h-[675px] h-[520px]">
+            <div class="wp-block-group hidden swiper-slide desktop:mr-[80px] mr-[20px] relative group desktop:min-w-[444px] w-[280px] desktop:h-[675px] h-[520px]">
               <!-- wp:group -->
               <div class="wp-block-group img-wrapper mb-[20px]">
                 <!-- wp:group -->
@@ -133,7 +288,7 @@
             <!-- /wp:group -->
 
             <!-- wp:group -->
-            <div class="wp-block-group swiper-slide desktop:mr-[80px] mr-[20px] relative group desktop:min-w-[444px] w-[280px] desktop:h-[675px] h-[520px]">
+            <div class="wp-block-group hidden swiper-slide desktop:mr-[80px] mr-[20px] relative group desktop:min-w-[444px] w-[280px] desktop:h-[675px] h-[520px]">
               <!-- wp:group -->
               <div class="wp-block-group img-wrapper mb-[20px]">
                 <!-- wp:group -->
