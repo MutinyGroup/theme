@@ -78,7 +78,7 @@
 
 
     <!-- wp:group -->
-    <div class="wp-block-group above-img-banner mb-[50px] flex gap-[50px]">
+    <div class="wp-block-group above-img-banner mb-[50px] desktop:flex gap-[50px]">
       <!-- wp:group -->
       <div class="wp-block-group post-title w-[70%] text-[50px] leading-[55px] font-normal">
         <!-- wp:post-title /-->
@@ -88,7 +88,7 @@
       <!-- wp:group -->
       <div class="wp-block-group post-author-wrapper w-[30%]">
         <!-- wp:group -->
-        <div class="wp-block-group post-date mb-[20px] flex items-center before:content-[''] before:inline-block desktop:before:mr-[10px] before:mb-[5px] desktop:before:w-[20px] desktop:before:h-[2px] before:bg-primaryYellow">
+        <div class="wp-block-group post-date mb-[10px] flex items-center before:content-[''] before:inline-block desktop:before:mr-[10px] before:mb-[5px] desktop:before:w-[20px] desktop:before:h-[2px] before:bg-primaryYellow">
           <!-- wp:post-date {"format":"d / m / Y"} /-->
         </div>
         <!-- /wp:group -->
