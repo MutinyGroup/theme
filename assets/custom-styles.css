@@ -332,6 +332,7 @@ body{
  @media only screen and (max-width: 480px) {
   .wp-block-pullquote{
     padding: 20px;
+    background-color: red;
    }
    .wp-block-pullquote blockquote p{
     margin: 0;
