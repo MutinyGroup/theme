@@ -9,26 +9,27 @@
 
 <!-- wp:group -->
 <div class="wp-block-group relative page-contact-info mb-[150px]">
-        <!-- wp:group -->
-        <div class="wp-block-group img-clip-path-wrapper w-[444px] overflow-hidden absolute bottom-[150px] right-[0px] z-[-1]">
-        <!-- wp:image -->
-        <figure class="wp-block-image img-clip-path-cta">
-          <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-contact/page-contact-company-details.jpg" alt="image">
-        </figure>
-        <!-- /wp:image -->
-        <!-- wp:paragraph -->
-        <svg class="flt_svg" xmlns="http://www.w3.org/2000/svg">
-          <defs>
-            <filter id="flt_tag">
-              <feGaussianBlur in="SourceGraphic" stdDeviation="8" result="blur" />    
-              <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9" result="flt_tag" />
-              <feComposite in="SourceGraphic" in2="flt_tag" operator="atop"/>
-            </filter>
-          </defs>
-        </svg>
-        <!-- /wp:paragraph -->
-      </div>
-      <!-- /wp:group -->
+  <!-- wp:group -->
+  <div class="wp-block-group img-clip-path-wrapper w-[444px] overflow-hidden absolute bottom-[-150px] right-[0px] z-[-1]">
+    <!-- wp:image -->
+    <figure class="wp-block-image img-clip-path-cta">
+      <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-contact/page-contact-company-details.jpg" alt="image">
+    </figure>
+    <!-- /wp:image -->
+    <!-- wp:paragraph -->
+    <svg class="flt_svg" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <filter id="flt_tag">
+          <feGaussianBlur in="SourceGraphic" stdDeviation="8" result="blur" />    
+          <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9" result="flt_tag" />
+          <feComposite in="SourceGraphic" in2="flt_tag" operator="atop"/>
+        </filter>
+      </defs>
+    </svg>
+    <!-- /wp:paragraph -->
+  </div>
+  <!-- /wp:group -->
+  
   <!-- wp:group -->
   <div
   class="wp-block-group container mx-auto relative desktop:px-0 px-[20px]"
