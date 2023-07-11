@@ -65,7 +65,7 @@
     <!-- /wp:group -->
     
     <!-- wp:group -->
-    <div class="wp-block-group contact-info-cols-wrapper flex gap-[80px]">
+    <div class="wp-block-group contact-info-cols-wrapper flex desktop:gap-[80px] gap-[20px]">
       <!-- wp:group -->
       <div class="wp-block-group col1 w-[30%] img-clip-path-rounded">
         <!-- wp:group -->
@@ -119,10 +119,10 @@
         <!-- wp:group -->
         <div class="wp-block-group mb-[30px] name-wrapper leading-[28px]">
           <!-- wp:paragraph -->
-          <p class="text-[35px] font-medium">Karol Anusiewicz</p>
+          <p class="desktop:text-[35px] text-[24px] font-medium">Karol Anusiewicz</p>
           <!-- /wp:paragraph -->
           <!-- wp:paragraph -->
-          <p class="text-[20px] font-light">Co-founder & Project Manager</p>
+          <p class="desktop:text-[20px] text-[15px] font-light">Co-founder & Project Manager</p>
           <!-- /wp:paragraph -->
         </div>
         <!-- /wp:group -->
