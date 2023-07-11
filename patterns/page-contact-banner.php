@@ -39,11 +39,11 @@
           <p
             class="uppercase"
           >
-            Skontaktuj się<br />
+            Skontaktuj się <br />
             z
             <span
-              class="relative desktop:inline-block block desktop:text-[60px] text-[24px] uppercase italic before:content-[''] before:inline-block desktop:before:mr-[8px] before:mr-[4px] before:bottom-0 before:left-0 desktop:before:w-[90px] before:w-[30px] desktop:before:h-[3px] before:h-[3px] before:bg-black"
-              >nami.</span
+              class="relative inline desktop:text-[60px] text-[24px] uppercase italic before:content-[''] before:inline-block desktop:before:mr-[8px] before:mr-[4px] before:bottom-0 before:left-0 desktop:before:w-[90px] before:w-[30px] desktop:before:h-[3px] before:h-[2px] before:bg-black"
+              >nami</span
             >
           </p>
           <!-- /wp:paragraph -->
