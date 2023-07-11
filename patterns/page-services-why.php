@@ -109,7 +109,7 @@
                     class="wp-block-image group-hover:grayscale transition ease-in-out duration-[400ms]"
                   >
                     <img
-                      src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-services/why-img2.jpg"
+                      src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-services/why-img3.jpg"
                       alt="services-background-image"
                     />
                   </figure>
