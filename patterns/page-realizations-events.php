@@ -168,7 +168,7 @@
 
       <!-- wp:buttons -->
       <div
-        class="wp-block-buttons btn-more w-[330px] ml-[0px] p-[15px_30px] uppercase border-[2px] border-[#D5D5D5] rounded-full hover:border-primaryYellow hover:text-black transition ease-out duration-300"
+        class="wp-block-buttons btn-more desktop:w-[330px] w-fit ml-[0px] p-[15px_30px] uppercase border-[2px] border-[#D5D5D5] rounded-full hover:border-primaryYellow hover:text-black transition ease-out duration-300"
       >
         <!-- wp:paragraph -->
         <a
