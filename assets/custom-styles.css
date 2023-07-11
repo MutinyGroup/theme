@@ -227,8 +227,8 @@ body{
 /* meet us */
 
 .img-clip-path-meet-us{
-  -webkit-clip-path: polygon(0 0, 100% 0, 100% 94%, 68% 94%, 60% 100%, 0 100%);
-  clip-path: polygon(0 0, 100% 0, 100% 94%, 68% 94%, 60% 100%, 0 100%);
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 93%, 68% 93%, 60% 100%, 0 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 93%, 68% 93%, 60% 100%, 0 100%);
 }
 
 /* meet us */
