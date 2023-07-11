@@ -186,7 +186,7 @@
       <!-- wp:group -->
       <div class="wp-block-group img-clip-path-rounded mb-[20px] w-[60%] absolute top-[100px] right-[10px]">
         <!-- wp:group -->
-        <div class="wp-block-group img-clip-path-meet-us overflow-hidden ">
+        <div class="wp-block-group img-clip-path-blog overflow-hidden ">
           <!-- wp:image -->
           <figure class="wp-block-image ">
             <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-about/about-gallery1.jpg" alt="image">
