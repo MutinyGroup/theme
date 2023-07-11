@@ -13,7 +13,6 @@
   <div
     class="wp-block-group container mx-auto relative desktop:px-0 px-[20px]"
   >
-
     <!-- wp:list -->
     <ul class="wp-block-list categories-all mb-[108px] flex flex-wrap gap-[10px]">
       <!-- wp:list-item -->
@@ -49,10 +48,10 @@
     <!-- wp:list -->
     <ul class="wp-block-list events-list mb-[150px] flex gap-[10px]">
       <!-- wp:list-item -->
-      <li class="event-tile group flex gap-[75px]">
+      <li class="event-tile group desktop:flex gap-[75px]">
         <!-- wp:group -->
         <div
-          class="wp-block-group event-image-wrapper w-[40%] max-h-[400px] overflow-hidden w-full rounded-[20px]"
+          class="wp-block-group event-image-wrapper desktop:mb-0 mb-[20px] w-[40%] max-h-[400px] overflow-hidden w-full rounded-[20px]"
         >
           <!-- wp:image -->
           <figure
@@ -68,7 +67,7 @@
         <!-- /wp:group -->
         
         <!-- wp:group -->
-        <div class="wp-block-group content-wrapper w-[60%]">
+        <div class="wp-block-group content-wrapper desktop:w-[60%]">
           <!-- wp:image -->
           <figure
             class="wp-block-image event-logo-color mb-[25px] w-[60px]"
