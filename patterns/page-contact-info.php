@@ -27,7 +27,7 @@
         class="wp-block-group section-title grid desktop:basis-auto desktop:w-[145px] desktop:basis-[80%] uppercase text-primaryYellow"
         >
           <!-- wp:paragraph -->
-          <p class="justify-self-end pt-[3px] pr-[15px]">Marketing robimy kompleksowo</p>
+          <p class="desktop:justify-self-end pt-[3px] pr-[15px]">Marketing robimy kompleksowo</p>
           <!-- /wp:paragraph -->
         </div>  
         <!-- /wp:group -->
