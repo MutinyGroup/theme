@@ -333,7 +333,7 @@ body{
   .wp-block-pullquote{
     padding: 20px;
    }
-   .wp-block-pullquote p{
+   .wp-block-pullquote blockquote p{
     margin: 0;
    }
 }
