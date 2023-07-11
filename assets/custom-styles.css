@@ -329,6 +329,14 @@ body{
   font-weight: 300;
   text-align: left;
  }
+ @media only screen and (max-width: 480px) {
+  .wp-block-pullquote{
+    padding: 20px;
+   }
+   .wp-block-pullquote p{
+    margin: 0;
+   }
+}
  .post-img img{
    min-height: 525px;
    object-fit: cover;
