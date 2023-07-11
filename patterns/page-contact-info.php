@@ -15,65 +15,40 @@
   >
     <!-- wp:group -->
     <div
-      class="wp-block-group title-wrapper relative container mx-auto desktop:mb-[100px] mb-[60px] flex"
+      class="wp-block-group title-wrapper relative desktop:mb-[58px] mb-[40px] pt-[90px]"
     >
-      <!-- wp:paragraph -->
-      <svg class="flash absolute top-[-330px] left-[-140px] z-[-1]" xmlns="http://www.w3.org/2000/svg" width="688" height="801" viewBox="0 0 688 801" fill="none">
-        <g filter="url(#filter0_f_1787_1988)">
-        <circle cx="287.132" cy="400.132" r="150" transform="rotate(-45 287.132 400.132)" fill="url(#paint0_linear_1787_1988)" fill-opacity="0.5"/>
-        </g>
-        <defs>
-        <filter id="filter0_f_1787_1988" x="-112.868" y="0.131836" width="800" height="800" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-        <feFlood flood-opacity="0" result="BackgroundImageFix"/>
-        <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
-        <feGaussianBlur stdDeviation="125" result="effect1_foregroundBlur_1787_1988"/>
-        </filter>
-        <linearGradient id="paint0_linear_1787_1988" x1="287.132" y1="250.132" x2="287.132" y2="550.132" gradientUnits="userSpaceOnUse">
-        <stop stop-color="#FEC400" stop-opacity="0.6"/>
-        <stop offset="1" stop-color="#FEC400" stop-opacity="0"/>
-        </linearGradient>
-        </defs>
-      </svg>
-      <!-- /wp:paragraph -->
-      
-      <!-- wp:paragraph -->
-      <svg
-        class="shape opacity-[60%] desktop:scale-[1] scale-[0.6] z-[-1] absolute desktop:top-[130px] top-[-30px] desktop:right-[-110px] right-auto desktop:left-auto left-[-70px]"
-        xmlns="http://www.w3.org/2000/svg"
-        width="470"
-        height="396"
-        viewBox="0 0 470 396"
-        fill="none"
-      >
-        <path
-          d="M468.243 393.924L1 236.702V1.9702L468.243 159.192V393.924Z"
-          stroke="#FFFFFF"
-          stroke-width="2"
-        />
-      </svg>
-      <!-- /wp:paragraph -->
-      <!-- wp:paragraph -->
-      <p
-        class="section-title desktop:basis-[15%] uppercase text-primaryYellow"
-      >
-        Marketing robimy kompleksowo
-      </p>
-      <!-- /wp:paragraph -->
       <!-- wp:group -->
-      <div class="wp-block-group uslugi-title">
-        <!-- wp:paragraph -->
-        <p
-          class="uppercase desktop:text-[50px] text-[24px] desktop:leading-[55px] leading-[30px]"
+      <div
+        class="wp-block-group title-wrapper relative container mx-auto desktop:flex"
+      >
+
+        <!-- wp:group -->
+        <div
+        class="wp-block-group section-title grid desktop:basis-auto desktop:w-[145px] desktop:basis-[80%] uppercase text-primaryYellow"
         >
-          Porozmawiajmy o <br />
-          Twoim
-          <span
-            class="relative desktop:text-[50px] text-[24px] uppercase italic before:content-[''] before:inline-block desktop:before:mr-[8px] before:mr-[4px] before:bottom-0 before:left-0 desktop:before:w-[90px] before:w-[30px] desktop:before:h-[3px] before:h-[3px] before:bg-black"
+          <!-- wp:paragraph -->
+          <p class="justify-self-end pt-[3px] pr-[15px]">Marketing robimy kompleksowo</p>
+          <!-- /wp:paragraph -->
+        </div>  
+        <!-- /wp:group -->
+
+
+        <!-- wp:group -->
+        <div class="wp-block-group uslugi-title uppercase font-medium desktop:text-[60px] text-[24px] desktop:leading-[60px] leading-[30px]">
+          <!-- wp:paragraph -->
+          <p
+            class="uppercase"
           >
-            Biznesie</span
-          >
-        </p>
-        <!-- /wp:paragraph -->
+            Porozmawiajmy o <br />
+            Twoim
+            <span
+              class="relative inline desktop:text-[60px] text-[24px] uppercase italic before:content-[''] before:inline-block desktop:before:mr-[8px] before:mr-[4px] before:bottom-0 before:left-0 desktop:before:w-[90px] before:w-[30px] desktop:before:h-[3px] before:h-[2px] before:bg-black"
+              >biznesie</span
+            >
+          </p>
+          <!-- /wp:paragraph -->
+        </div>
+        <!-- /wp:group -->
       </div>
       <!-- /wp:group -->
     </div>
