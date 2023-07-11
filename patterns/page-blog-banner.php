@@ -60,7 +60,7 @@
     <!-- /wp:buttons -->
     
     <!-- wp:group -->
-    <div class="wp-block-group paragrapth-wrapper desktop:ml-[230px] mt-[300px]">
+    <div class="wp-block-group paragrapth-wrapper desktop:ml-[230px] mt-[300px] desktop:mt-0">
       <!-- wp:paragraph -->
       <p class="text text-[20px] leading-[30px] max-w-[445px]">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
