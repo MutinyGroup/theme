@@ -329,3 +329,7 @@ body{
   font-weight: 300;
   text-align: left;
  }
+ .post-img img{
+   min-height: 525px;
+   object-fit: cover;
+ }

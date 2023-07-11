@@ -183,7 +183,7 @@
                     <!-- wp:group -->
                     <div class="wp-block-group img-clip-path-rounded mb-[20px]">
                       <!-- wp:group -->
-                      <div class="wp-block-group img-clip-path-blog overflow-hidden rounded-[20px]">
+                      <div class="wp-block-group img-clip-path-blog h-[525px] overflow-hidden rounded-[20px]">
                         <!-- wp:image -->
                         <figure class="wp-block-image post-img scale-[1.12] group-hover:scale-[1.06] transition ease-out duration-[700ms]">
                           <img src="<?php echo $postImageUrl[0]; ?>" alt="post-image">
