@@ -59,9 +59,9 @@
       </div>
       <!-- /wp:buttons -->
     <!-- wp:group -->
-    <div class="wp-block-group paragrapth-wrapper ml-[230px]">
+    <div class="wp-block-group paragrapth-wrapper desktop:ml-[230px] mt-[50px] desktop:mt-[0px] desktop:mt-0 pb-[260px] desktop:pb-0">
       <!-- wp:paragraph -->
-      <p class="text text-[20px] leading-[30px] max-w-[445px]">
+      <p class="text text-[20px] leading-[30px] desktop:max-w-[445px]">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.
       </p>
       <!-- /wp:paragraph -->
