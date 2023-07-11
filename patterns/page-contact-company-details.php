@@ -35,7 +35,7 @@
   class="wp-block-group container mx-auto relative desktop:px-0 px-[20px]"
   >
     <!-- wp:group -->
-    <div class="wp-block-group cols-wrapper flex justify-between">
+    <div class="wp-block-group cols-wrapper flex desktop:flex-row flex-col gap-y-[25px] justify-between">
       <!-- wp:group -->
       <div class="wp-block-group col1 relative address text-[20px] leading-[29px]">
         <!-- wp:paragraph -->
