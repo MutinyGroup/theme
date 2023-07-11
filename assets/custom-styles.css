@@ -52,7 +52,7 @@ body{
   height: 0px;
 }
 .img-clip-path-rounded{
-  filter: url('#flt_tag');
+  -webkit-filter: url('#flt_tag');
 }
 
 /* header */
