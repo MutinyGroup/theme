@@ -239,7 +239,7 @@
         <!-- /wp:group -->
         <!-- wp:group -->
         <div
-          class="wp-block-group group relative gallery-tile img-clip-path-services z-[2] group desktop:p-[25px] desktop:h-[600px] h-[200px] overflow-hidden rounded-[20px] transition ease-out duration-300 cursor-pointer mr-[8px] mb-[10px]"
+          class="wp-block-group group relative gallery-tile img-clip-path-services z-[1] group desktop:p-[25px] desktop:h-[600px] h-[200px] overflow-hidden rounded-[20px] transition ease-out duration-300 cursor-pointer mr-[8px] mb-[10px]"
         >
           <!-- wp:group -->
           <div
@@ -381,7 +381,7 @@
         <!-- /wp:group -->
         <!-- wp:group -->
         <div
-          class="wp-block-group group relative gallery-tile img-clip-path-services z-[2] group desktop:p-[25px] desktop:h-[600px] h-[200px] overflow-hidden rounded-[20px] transition ease-out duration-300 cursor-pointer mr-[8px] mb-[10px]"
+          class="wp-block-group group relative gallery-tile img-clip-path-services z-[1] group desktop:p-[25px] desktop:h-[600px] h-[200px] overflow-hidden rounded-[20px] transition ease-out duration-300 cursor-pointer mr-[8px] mb-[10px]"
         >
           <!-- wp:group -->
           <div
@@ -528,7 +528,7 @@
       <div class="wp-block-group col2 w-[50%] absolute top-[100px] right-0">
         <!-- wp:group -->
         <div
-          class="wp-block-group group relative gallery-tile img-clip-path-services z-[2] group desktop:p-[25px] desktop:h-[600px] h-[200px] overflow-hidden rounded-[20px] transition ease-out duration-300 cursor-pointer mr-[8px] mb-[10px]"
+          class="wp-block-group group relative gallery-tile img-clip-path-services z-[1] group desktop:p-[25px] desktop:h-[600px] h-[200px] overflow-hidden rounded-[20px] transition ease-out duration-300 cursor-pointer mr-[8px] mb-[10px]"
         >
           <!-- wp:group -->
           <div
@@ -670,7 +670,7 @@
         <!-- /wp:group -->
         <!-- wp:group -->
         <div
-          class="wp-block-group group relative gallery-tile img-clip-path-services z-[2] group desktop:p-[25px] desktop:h-[600px] h-[200px] overflow-hidden rounded-[20px] transition ease-out duration-300 cursor-pointer mr-[8px] mb-[10px]"
+          class="wp-block-group group relative gallery-tile img-clip-path-services z-[1] group desktop:p-[25px] desktop:h-[600px] h-[200px] overflow-hidden rounded-[20px] transition ease-out duration-300 cursor-pointer mr-[8px] mb-[10px]"
         >
           <!-- wp:group -->
           <div
@@ -812,7 +812,7 @@
         <!-- /wp:group -->
         <!-- wp:group -->
         <div
-          class="wp-block-group group relative gallery-tile img-clip-path-services z-[2] group desktop:p-[25px] desktop:h-[600px] h-[200px] overflow-hidden rounded-[20px] transition ease-out duration-300 cursor-pointer mr-[8px] mb-[10px]"
+          class="wp-block-group group relative gallery-tile img-clip-path-services z-[1] group desktop:p-[25px] desktop:h-[600px] h-[200px] overflow-hidden rounded-[20px] transition ease-out duration-300 cursor-pointer mr-[8px] mb-[10px]"
         >
           <!-- wp:group -->
           <div
