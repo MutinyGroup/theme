@@ -329,6 +329,9 @@ body{
   font-weight: 300;
   text-align: left;
  }
+ .wp-block-pullquote blockquote p{
+  margin: 0;
+ }
  @media only screen and (min-width: 480px) {
   .wp-block-pullquote{
     padding: 50px
