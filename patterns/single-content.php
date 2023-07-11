@@ -15,7 +15,7 @@
   >    
 
     <!-- wp:group -->
-    <div class="wp-block-group">
+    <div class="hidden loop-test wp-block-group">
       <!-- wp:paragraph -->
       <p>php loop test</p>
       <!-- /wp:paragraph -->
@@ -44,7 +44,7 @@
     <!-- /wp:group -->
 
     <!-- wp:group -->
-    <div class="wp-block-group">
+    <div class="hidden loop-test wp-block-group">
       <!-- wp:paragraph -->
       <p>php loop test2</p>
       <!-- /wp:paragraph -->
