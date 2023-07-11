@@ -8,7 +8,7 @@
 ?>
 
 <!-- wp:group -->
-<div class="wp-block-group relative page-contact-info mb-[150px]">
+<div class="wp-block-group relative page-contact-info mb-[300px]">
   <!-- wp:group -->
   <div class="wp-block-group img-clip-path-wrapper w-[444px] overflow-hidden absolute bottom-[-150px] right-[0px] z-[-1]">
     <!-- wp:image -->
@@ -29,7 +29,7 @@
     <!-- /wp:paragraph -->
   </div>
   <!-- /wp:group -->
-  
+
   <!-- wp:group -->
   <div
   class="wp-block-group container mx-auto relative desktop:px-0 px-[20px]"
