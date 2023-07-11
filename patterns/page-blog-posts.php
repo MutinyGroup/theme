@@ -20,7 +20,7 @@
         <!-- wp:group -->
         <div class="wp-block-group swiper-slide relative group desktop:min-w-[500px] w-[280px] desktop:h-[675px] h-[520px]">
           <!-- wp:group -->
-          <div class="wp-block-group img-clip-path-rounded mb-[20px]">
+          <div class="wp-block-group not_img-clip-path-rounded mb-[20px]">
             <!-- wp:group -->
             <div class="wp-block-group img-clip-path-blog overflow-hidden rounded-[20px]">
               <!-- wp:image -->
@@ -66,7 +66,7 @@
         <!-- wp:group -->
         <div class="wp-block-group swiper-slide relative group desktop:min-w-[500px] w-[280px] desktop:h-[675px] h-[520px]">
           <!-- wp:group -->
-          <div class="wp-block-group img-clip-path-rounded mb-[20px]">
+          <div class="wp-block-group not_img-clip-path-rounded mb-[20px]">
             <!-- wp:group -->
             <div class="wp-block-group img-clip-path-blog overflow-hidden rounded-[20px]">
               <!-- wp:image -->
@@ -136,7 +136,7 @@
                   <!-- wp:paragraph -->
                   <a href="<?php the_permalink(); ?>">
                     <!-- wp:group -->
-                    <div class="wp-block-group img-clip-path-rounded mb-[20px]">
+                    <div class="wp-block-group not_img-clip-path-rounded mb-[20px]">
                       <!-- wp:group -->
                       <div class="wp-block-group img-clip-path-blog h-[320px] desktop:h-auto overflow-hidden rounded-[20px]">
                         <!-- wp:image -->
@@ -181,7 +181,7 @@
                   <!-- wp:paragraph -->
                   <a href="<?php the_permalink(); ?>">
                     <!-- wp:group -->
-                    <div class="wp-block-group img-clip-path-rounded mb-[20px]">
+                    <div class="wp-block-group not_img-clip-path-rounded mb-[20px]">
                       <!-- wp:group -->
                       <div class="wp-block-group img-clip-path-blog h-[320px] desktop:h-auto overflow-hidden rounded-[20px]">
                         <!-- wp:image -->
