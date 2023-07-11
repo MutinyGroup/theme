@@ -83,7 +83,7 @@
               height="317"
               viewBox="0 0 236 317"
               fill="none"
-              class="absolute top-[190px] left-[30px] opacity-[60%]"
+              class="z-[-1] absolute top-[190px] left-[30px] opacity-[60%]"
             >
               <path
                 d="M234.242 314.924L1.62109 236.649V1.91746L234.242 80.1919V314.924Z"
@@ -223,7 +223,7 @@
               height="317"
               viewBox="0 0 236 317"
               fill="none"
-              class="absolute top-[190px] left-[30px] opacity-[60%]"
+              class="z-[-1] absolute top-[190px] left-[30px] opacity-[60%]"
             >
               <path
                 d="M234.242 314.924L1.62109 236.649V1.91746L234.242 80.1919V314.924Z"
@@ -363,7 +363,7 @@
               height="317"
               viewBox="0 0 236 317"
               fill="none"
-              class="absolute top-[190px] left-[30px] opacity-[60%]"
+              class="z-[-1] absolute top-[190px] left-[30px] opacity-[60%]"
             >
               <path
                 d="M234.242 314.924L1.62109 236.649V1.91746L234.242 80.1919V314.924Z"
