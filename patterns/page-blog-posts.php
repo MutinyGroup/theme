@@ -132,13 +132,13 @@
               $counter++;
               if ($tab[$i] == 0){ ?>
                 <!-- wp:list-item -->
-                <li class="wp-block-group bigger swiper-slide relative group desktop:min-w-[520px] w-[280px] desktop:h-[675px] h-[520px] <?php if (!($counter % 2)) echo 'translate-y-[120px]'; else echo ''; ?>">
+                <li class="wp-block-group bigger swiper-slide relative group desktop:w-[520px] w-fit desktop:w-auto desktop:h-[675px] h-[320px] <?php if (!($counter % 2)) echo 'translate-y-[120px]'; else echo ''; ?>">
                   <!-- wp:paragraph -->
                   <a href="<?php the_permalink(); ?>">
                     <!-- wp:group -->
                     <div class="wp-block-group img-clip-path-rounded mb-[20px]">
                       <!-- wp:group -->
-                      <div class="wp-block-group img-clip-path-blog overflow-hidden rounded-[20px]">
+                      <div class="wp-block-group img-clip-path-blog h-[320px] desktop:h-auto overflow-hidden rounded-[20px]">
                         <!-- wp:image -->
                         <figure class="wp-block-image post-img scale-[1.12] group-hover:scale-[1.06] transition ease-out duration-[700ms]">
                           <img src="<?php echo $postImageUrl[0]; ?>" alt="post-image">
