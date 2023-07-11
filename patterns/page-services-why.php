@@ -99,7 +99,7 @@
             <!-- wp:group -->
             <div class="wp-block-group mb-[95px]">
               <!-- wp:group -->
-              <div class="wp-block-group scale-[0.8] img-clip-path-rounded h-[250px] w-[800px]">
+              <div class="wp-block-group img-clip-path-rounded h-[250px] w-[800px]">
                 <!-- wp:group -->
                 <div
                   class="wp-block-group img-clip-path-wrapper img-clip-path-why mb-[50px] w-full h-full rounded-[20px] overflow-hidden"
