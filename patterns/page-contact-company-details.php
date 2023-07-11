@@ -39,8 +39,8 @@
       <!-- wp:group -->
       <div class="wp-block-group col1 relative address text-[20px] leading-[29px]">
         <!-- wp:paragraph -->
-        <svg class="shape opacity-[60%] absolute top-[-110px] left-[-60px] z-[-1]" xmlns="http://www.w3.org/2000/svg" width="236" height="317" viewBox="0 0 236 317" fill="none">
-          <path d="M1.62088 314.924L234.242 236.649V1.91746L1.62088 80.1919V314.924Z" stroke="white" stroke-width="2"/>
+        <svg class="shape opacity-[60%] scale-[0.6] desktop:scale-[1] z-[-1] absolute desktop:top-0 top-[-50px] desktop:right-[0px] right-[-60px]" xmlns="http://www.w3.org/2000/svg" width="470" height="396" viewBox="0 0 470 396" fill="none">
+          <path d="M468.243 393.924L1 236.702V1.9702L468.243 159.192V393.924Z" stroke="#FFFFFF" stroke-width="2"/>
         </svg>
         <!-- /wp:paragraph -->
         <!-- wp:paragraph -->
