@@ -38,7 +38,7 @@
       
       <!-- wp:paragraph -->
       <svg
-        class="shape opacity-[60%] z-[-1] absolute top-[130px] right-[-110px]"
+        class="shape opacity-[60%] desktop:scale-[1] scale-[0.6] z-[-1] absolute top-[130px] desktop:right-[-110px] right-auto desktop:left-auto left-[20px]"
         xmlns="http://www.w3.org/2000/svg"
         width="470"
         height="396"
