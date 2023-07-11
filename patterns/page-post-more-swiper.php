@@ -12,31 +12,18 @@
   <div class="wp-block-group relative ">
     <!-- wp:group -->
     <div class="wp-block-group title-wrapper relative container mx-auto desktop:px-0 px-[20px] desktop:mb-[90px] mb-[40px] flex gap-[20px]">
-      <!-- wp:group -->
-      <div class="wp-block-group bg-flash scale-[0.8]"></div>
-      <!-- /wp:group -->
-      <!-- wp:image -->
-      <figure class="wp-block-image bg-shape desktop:w-[234px] w-[125px] z-[-1] opacity-[0.2] absolute desktop:top-[-130px] top-[-60px] desktop:left-[-60px] left-[-10px] mb-[20px] desktop:max-w-[444px] max-h-[450px]">
-        <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/front-page/blog-bg-shape.png" alt="background-shape">
-      </figure>
-      <!-- /wp:image -->
-      <!-- wp:image -->
-      <figure class="wp-block-image bg-shape hidden desktop:block desktop:w-[470px] w-[180px] z-[-1] opacity-[0.2] absolute top-[-280px] right-[100px] mb-[20px] desktop:max-w-[444px] max-h-[450px]">
-        <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/front-page/blog-bg-shape2.png" alt="background-shape">
-      </figure>
-      <!-- /wp:image -->
       <!-- wp:paragraph -->
-      <p class="section-title uppercase text-primaryYellow">Blog</p>
+      <p class="section-title uppercase text-primaryYellow">Aktualności</p>
       <!-- /wp:paragraph -->
       <!-- wp:group -->
       <div class="wp-block-group uslugi-title desktop:leading-[55px] leading-[30px]">
         <!-- wp:paragraph -->
         <p class="uppercase desktop:text-[50px] text-[26px]">
-          Aktualności i wydarzenia
+        Zobacz więcej
         </p>
         <!-- /wp:paragraph -->
         <!-- wp:paragraph -->
-        <p class="relative desktop:text-[50px] text-[26px] uppercase italic before:content-[''] before:inline-block desktop:before:mr-[18px] before:mr-[5px] before:bottom-0 before:left-0 desktop:before:w-[120px] before:w-[30px]  desktop:before:h-[3px] before:h-[3px] before:bg-black">z Mutiny Group</p>
+        <p class="relative desktop:text-[50px] text-[26px] uppercase italic before:content-[''] before:inline-block desktop:before:mr-[18px] before:mr-[5px] before:bottom-0 before:left-0 desktop:before:w-[120px] before:w-[30px]  desktop:before:h-[3px] before:h-[3px] before:bg-black">Aktualności</p>
         <!-- /wp:paragraph -->
       </div>
       <!-- /wp:group -->
