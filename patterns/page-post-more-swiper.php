@@ -60,7 +60,7 @@
                         <!-- wp:group -->
                         <div class="wp-block-group img-clip-path-rounded mb-[20px]">
                           <!-- wp:group -->
-                          <div class="wp-block-group img-clip-path-blog h-[320px] desktop:h-auto overflow-hidden rounded-[20px]">
+                          <div class="wp-block-group img-clip-path-blog h-[320px] desktop:h-[460px] overflow-hidden rounded-[20px]">
                             <!-- wp:image -->
                             <figure class="wp-block-image post-img scale-[1.12] group-hover:scale-[1.06] transition ease-out duration-[700ms]">
                               <img src="<?php echo $postImageUrl[0]; ?>" alt="post-image">
@@ -82,9 +82,6 @@
                         </div>
                         <!-- /wp:group -->
 
-
-
-
                         <!-- wp:paragraph -->
                         <p class="slide-date font-light flex items-center before:content-[''] before:w-[20px] before:h-[1px] before:bg-primaryYellow before:inline-block before:mr-[10px] mb-[20px]"><?php the_time('d / m / Y'); ?></p>
                         <!-- /wp:paragraph -->
@@ -101,13 +98,13 @@
                   <?php 
                   }else{ ?>                    
                     <!-- wp:group -->
-                    <div class="wp-block-group swiper-slide desktop:mr-[80px] mr-[20px] relative group desktop:min-w-[444px] w-[280px] desktop:h-[675px] h-[520px]">
+                    <div class="wp-block-group swiper-slide desktop:mr-[80px] mr-[20px] relative group desktop:w-[444px] w-[280px] desktop:h-[675px] h-[380px]">
                       <!-- wp:paragraph -->
                       <a href="<?php the_permalink(); ?>">                        
                         <!-- wp:group -->
                         <div class="wp-block-group img-wrapper mb-[20px]">
                           <!-- wp:group -->
-                          <div class="wp-block-group overflow-hidden desktop:h-[420px] rounded-[20px]">
+                          <div class="wp-block-group overflow-hidden h-[320px] desktop:h-[460px] rounded-[20px]">
                             <!-- wp:image -->
                             <figure class="wp-block-image post-img scale-[1.12] group-hover:scale-[1.06] transition ease-out duration-[700ms]">
                               <img src="<?php echo $postImageUrl[0]; ?>" alt="post-image">
