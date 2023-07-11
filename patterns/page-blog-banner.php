@@ -17,28 +17,15 @@
     <div
       class="wp-block-group title-wrapper relative container mx-auto pt-[90px] desktop:mb-[80px] mb-[60px] flex"
     >
-      <!-- wp:buttons -->
+      <!-- wp:group -->
       <div
-        class="wp-block-buttons desktop:w-[175px] w-[140px] desktop:h-[175px] h-[140px] mx-0 text-center rounded-full border desktop:border-[4px] border-[3px] border-[#AAAAAA] absolute desktop:top-[130px] top-[0px] right-[30px] hover:border-none hover:bg-primaryYellow hover:text-white transition ease-out duration-300 flex flex-col justify-center items-center gap-y-0 cursor-pointer"
+      class="wp-block-group section-title grid desktop:basis-auto desktop:w-[145px] desktop:basis-[80%] uppercase text-primaryYellow"
       >
         <!-- wp:paragraph -->
-        <p>Zobacz</p>
+        <p class="justify-self-end pt-[3px] pr-[15px]">Aktualności</p>
         <!-- /wp:paragraph -->
-        <!-- wp:paragraph -->
-        <p class="uppercase text-[25px] font-extrabold">WIĘCEJ</p>
-        <!-- /wp:paragraph -->
-      </div>
-      <!-- /wp:buttons -->
-
-        <!-- wp:group -->
-        <div
-        class="wp-block-group section-title grid desktop:basis-auto desktop:w-[145px] desktop:basis-[80%] uppercase text-primaryYellow"
-        >
-          <!-- wp:paragraph -->
-          <p class="justify-self-end pt-[3px] pr-[15px]">Aktualności</p>
-          <!-- /wp:paragraph -->
-        </div>  
-        <!-- /wp:group -->
+      </div>  
+      <!-- /wp:group -->
       <!-- wp:group -->
       <div class="wp-block-group uslugi-title uppercase font-medium desktop:text-[60px] text-[24px] desktop:leading-[60px] leading-[30px]">
         <!-- wp:paragraph -->
@@ -58,9 +45,22 @@
       <!-- /wp:group -->
     </div>
     <!-- /wp:group -->
+
+    <!-- wp:buttons -->
+    <div
+      class="wp-block-buttons desktop:w-[175px] w-[140px] desktop:h-[175px] h-[140px] mx-0 text-center rounded-full border desktop:border-[4px] border-[3px] border-[#AAAAAA] absolute desktop:top-[130px] top-[0px] right-[30px] hover:border-none hover:bg-primaryYellow hover:text-white transition ease-out duration-300 flex flex-col justify-center items-center gap-y-0 cursor-pointer"
+    >
+      <!-- wp:paragraph -->
+      <p>Zobacz</p>
+      <!-- /wp:paragraph -->
+      <!-- wp:paragraph -->
+      <p class="uppercase text-[25px] font-extrabold">WIĘCEJ</p>
+      <!-- /wp:paragraph -->
+    </div>
+    <!-- /wp:buttons -->
     
     <!-- wp:group -->
-    <div class="wp-block-group paragrapth-wrapper ml-[230px]">
+    <div class="wp-block-group paragrapth-wrapper desktop:ml-[230px] mt-[300px]">
       <!-- wp:paragraph -->
       <p class="text text-[20px] leading-[30px] max-w-[445px]">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
