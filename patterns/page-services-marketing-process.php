@@ -13,7 +13,9 @@
   <div
     class="wp-block-group container mx-auto relative desktop:px-0 px-[20px]"
   >
-    process
+    <!-- wp:paragraph -->
+    <p>process</p>
+    <!-- /wp:paragraph -->
   </div>
   <!-- /wp:group -->
 </div>
