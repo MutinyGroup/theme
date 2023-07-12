@@ -348,13 +348,13 @@ body{
 
  /* page services-marketing */
  .in-active{
-  max-height: 0px;
+  max-height: 250px;
   opacity: 0%;
   padding-top: 5px;
   padding-bottom: 5px;
 }
  .active{
-  max-height: fit-content;
+  max-height: 0px;
   opacity: 100%;
   padding-top: 20px;
   padding-bottom: 20px;
