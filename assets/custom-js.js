@@ -22,15 +22,16 @@ window.addEventListener("load", function () {
   // page services-marketing
   const clickBar = document.querySelectorAll("#click-bar");
   const stepParagraph = document.querySelectorAll("#step-paragraph");
+  const iconArrow = document.querySelectorAll("#icon-arrow");
 
   clickBar.forEach(function(item,index) {
     item.addEventListener("click", () => {
       if (!stepParagraph[index].classList.contains('active')) { 
-        console.log('test');
         stepParagraph[index].classList.replace('in-active','active')
+        iconArrow[index].classList.replace('rotate-90', 'rotate-[-90deg]')
       } else if (stepParagraph[index].classList.contains('active')) {
-        console.log('test2');
         stepParagraph[index].classList.replace('active', 'in-active')
+        iconArrow[index].classList.replace('rotate-[-90deg]','rotate-90')
       }
     });
   })
