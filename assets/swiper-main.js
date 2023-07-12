@@ -123,9 +123,5 @@ document.addEventListener("DOMContentLoaded", function(event) {
     slidesPerView: 'auto',
     clickable: true,
     grabCursor: true,
-    navigation: {
-      nextEl: '#marketing-next',
-      prevEl: '#marketing-prev',
-    },
   }); 
 });
