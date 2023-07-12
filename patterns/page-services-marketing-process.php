@@ -43,11 +43,17 @@
       <!-- wp:list -->
       <ul class="wp-block-list">
         <!-- wp:list-item -->
-        <li class="group bg-white h-[56px] flex justify-between px-[20px]">
-          <div class="text-wrapper flex gap-[10px]">
+        <li class="group bg-white h-[56px] flex justify-between px-[20px] cursor-pointer">
+          <!-- wp:group -->
+          <div class="wp-block-group text-wrapper flex gap-[10px]">
+            <!-- wp:paragraph -->
             <p class="group-hover:text-primaryYellow transition ease-out duration-500">KROK 1</p>
+            <!-- /wp:paragraph -->
+            <!-- wp:paragraph -->
             <p>Lorem ipsum dolor sit amet</p>
+            <!-- /wp:paragraph -->
           </div>
+          <!-- /wp:group -->
 
           <!-- wp:paragraph -->
           <svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 56 56" fill="none" class="rotate-90 fill-transparent">
