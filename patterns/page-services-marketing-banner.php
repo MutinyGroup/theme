@@ -1,14 +1,14 @@
 <?php
 /**
- * Title: page-contact-banner
- * Slug: page-contact-banner
+ * Title: page-services-marketing-banner
+ * Slug: page-services-marketing-banner
  * Categories: text, banner
  * Viewport Width: 1280
  */
 ?>
 
 <!-- wp:group -->
-<div class="wp-block-group contact-banner desktop:h-[770px] h-screen desktop:mb-[150px]">
+<div class="wp-block-group page-marketing-banner desktop:h-[770px] h-screen desktop:mb-[150px]">
   <!-- wp:group -->
   <div
     class="wp-block-group container relative mx-auto desktop:px-0 px-[20px]"

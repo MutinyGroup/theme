@@ -1,14 +1,14 @@
 <?php
 /**
- * Title: page-contact-details
- * Slug: page-contact-details
+ * Title: page-services-marketing-details
+ * Slug: page-services-marketing-details
  * Categories: text, banner
  * Viewport Width: 1280
  */
 ?>
 
 <!-- wp:group -->
-<div class="wp-block-group relative page-contact-info desktop::mb-[300px] mb-[100px]">
+<div class="wp-block-group relative page-marketing-info desktop::mb-[300px] mb-[100px]">
   <!-- wp:group -->
   <div class="wp-block-group desktop:block hidden img-clip-path-wrapper w-[444px] overflow-hidden absolute bottom-[-150px] right-[0px] z-[-1]">
     <!-- wp:image -->
