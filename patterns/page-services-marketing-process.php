@@ -18,14 +18,30 @@
   <div class="wp-block-group cols-wrapper flex gap-[75px]">
     <!-- wp:group -->
     <div class=" wp-block-group col1 w-[50%]">
-      <!-- wp:image -->
-      <figure class="wp-block-image object-cover h-full">
-        <img
-          src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-marketing/process-img.jpg"
-          alt="bg-image"
-        />
-      </figure>
-      <!-- /wp:image -->
+      <!-- wp:group -->
+      <div class="wp-block-group img-clip-path-rounded mb-[20px]">
+        <!-- wp:group -->
+        <div class="wp-block-group img-clip-path-blog overflow-hidden rounded-[20px]">
+          <!-- wp:image -->
+          <figure class="wp-block-image post-img scale-[1.12] group-hover:scale-[1.06] transition ease-out duration-[700ms]">
+            <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-marketing/marketing-img.png" alt="blog-post-img">
+          </figure>
+          <!-- /wp:image -->
+        </div>
+        <!-- /wp:group -->
+        <!-- wp:paragraph -->
+        <svg class="flt_svg" xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            <filter id="flt_tag">
+              <feGaussianBlur in="SourceGraphic" stdDeviation="8" result="blur" />    
+              <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9" result="flt_tag" />
+              <feComposite in="SourceGraphic" in2="flt_tag" operator="atop"/>
+            </filter>
+          </defs>
+        </svg>
+        <!-- /wp:paragraph -->
+      </div>
+      <!-- /wp:group -->
     </div>
     <!-- /wp:group -->
     <!-- wp:group -->
