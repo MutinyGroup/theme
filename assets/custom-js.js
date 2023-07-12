@@ -20,8 +20,8 @@ window.addEventListener("load", function () {
   });
 
   // page services-marketing
-  const clickBar = document.querySelector("[data-click-bar]");
-  const stepParagraph = document.querySelector("[data-step-paragraph]");
+  const clickBar = document.querySelector("#click-bar");
+  const stepParagraph = document.querySelector("#step-paragraph");
 
   clickBar.addEventListener("click", () => {
     if (!stepParagraph.classList.contains('.active')) { 

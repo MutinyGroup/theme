@@ -61,7 +61,7 @@
         <!-- wp:list-item -->
         <li class="list-content-wrapper transition ease-out duration-[700ms]">
           <!-- wp:group -->
-          <div data-click-bar class="wp-block-group click-bar group bg-white h-[56px] flex justify-between items-center px-[20px] cursor-pointer">
+          <div id="click-bar" class="wp-block-group click-bar group bg-white h-[56px] flex justify-between items-center px-[20px] cursor-pointer">
             <!-- wp:group -->
             <div class="wp-block-group text-wrapper flex gap-[20px]">
               <!-- wp:paragraph -->
@@ -84,7 +84,7 @@
           <!-- /wp:group -->
           
           <!-- wp:group -->
-          <div data-step-paragraph class="wp-block-group paragraph-wrapper leading-[21px] p-[20px] bg-[#F2F2F2] transition-height ease-out duration-[700ms]">
+          <div id="step-paragraph" class="wp-block-group paragraph-wrapper leading-[21px] p-[20px] bg-[#F2F2F2] transition-height ease-out duration-[700ms]">
             <!-- wp:paragraph -->
             <p class="text-[16px] mb-[10px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
             <!-- /wp:paragraph -->
