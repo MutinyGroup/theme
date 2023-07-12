@@ -103,10 +103,10 @@
             <!-- wp:group -->
             <div class="wp-block-group text-wrapper flex gap-[20px]">
               <!-- wp:paragraph -->
-              <p class="group-hover:text-primaryYellow uppercase text-[20px] font-medium transition ease-out duration-500">KROK 1</p>
+              <p class="group-hover:text-primaryYellow uppercase text-[20px] font-medium transition ease-out duration-500">KROK 2</p>
               <!-- /wp:paragraph -->
               <!-- wp:paragraph -->
-              <p class="font-medium self-center">Lorem ipsum dolor sit amet</p>
+              <p class="font-medium self-center">Consectetur adipiscing elit</p>
               <!-- /wp:paragraph -->
             </div>
             <!-- /wp:group -->
@@ -124,10 +124,10 @@
           <!-- wp:group -->
           <div id="step-paragraph" class="wp-block-group paragraph-wrapper overflow-hidden leading-[21px] px-[20px] bg-[#F2F2F2] transition-height ease-out duration-[500ms] in-active">
             <!-- wp:paragraph -->
-            <p class="text-[16px] mb-[10px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+            <p class="pt-[15px] text-[16px] mb-[10px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
             <!-- /wp:paragraph -->
             <!-- wp:paragraph -->
-            <p class="font-semibold">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
+            <p class="pb-[15px] font-semibold">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
             <!-- /wp:paragraph -->
           </div>
           <!-- /wp:group -->
