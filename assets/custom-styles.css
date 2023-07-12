@@ -350,9 +350,12 @@ body{
  .in-active{
   height: 0px;
   opacity: 0%;
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
  .active{
-   height: 250px;
+   height: fit-content;
    opacity: 100%;
-   transition: all 0.5s ease-out;
+   padding-top: 20px;
+   padding-bottom: 20px;
  }

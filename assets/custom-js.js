@@ -1,9 +1,7 @@
-// navbar mobile handling
-
 window.addEventListener("load", function () {
+  // navbar mobile handling
   const btnOpenMenu = document.querySelector(".btn-open-menu");
   const mainNavMenu = document.querySelector(".mobile-nav-menu");
-  const navMobile = document.querySelector(".nav-mobile");
 
   btnOpenMenu.addEventListener("click", () => {
     if (mainNavMenu.classList.contains("opacity-[0]")) {
@@ -20,4 +18,17 @@ window.addEventListener("load", function () {
       btnOpenMenu.classList.remove("active");
     }
   });
+
+  // page services-marketing
+  const clickBar = document.querySelector("[data-click-bar]");
+
+  clickBar.addEventListener("click", () => {
+    if (true) { 
+      console.log('clicked');
+    } else if (false) {
+    }
+  });
 });
+
+
+

@@ -61,7 +61,7 @@
         <!-- wp:list-item -->
         <li class="list-content-wrapper transition ease-out duration-[700ms]">
           <!-- wp:group -->
-          <div class="wp-block-group click-bar group bg-white h-[56px] flex justify-between items-center px-[20px] cursor-pointer">
+          <div data-click-bar class="wp-block-group click-bar group bg-white h-[56px] flex justify-between items-center px-[20px] cursor-pointer">
             <!-- wp:group -->
             <div class="wp-block-group text-wrapper flex gap-[20px]">
               <!-- wp:paragraph -->
