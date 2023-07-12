@@ -352,7 +352,7 @@ body{
   position: relative;
 }
  .active{
-  max-height: 250px;
+  max-height: 280px;
   opacity: 100%;
   padding-top: 5px;
   padding-bottom: 5px;
