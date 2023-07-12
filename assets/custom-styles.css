@@ -353,7 +353,7 @@ body{
   padding-top: 5px;
   padding-bottom: 5px;
   z-index: -1;
-  display: hidden;
+  position: relative;
 }
  .active{
   max-height: 250px;
@@ -361,5 +361,5 @@ body{
   padding-top: 20px;
   padding-bottom: 20px;
   z-index: 0;
-  display: block;
+  position: relative;
  }
