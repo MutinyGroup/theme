@@ -59,7 +59,7 @@
       <!-- wp:list -->
       <ul class="wp-block-list">
         <!-- wp:list-item -->
-        <li class="list-content-wrapper transition ease-out duration-[700ms]">
+        <li class="list-content-wrapper transition ease-out duration-[500ms]">
           <!-- wp:group -->
           <div id="click-bar" class="wp-block-group click-bar group bg-white h-[56px] flex justify-between items-center px-[20px] cursor-pointer">
             <!-- wp:group -->
@@ -84,7 +84,7 @@
           <!-- /wp:group -->
           
           <!-- wp:group -->
-          <div id="step-paragraph" class="wp-block-group paragraph-wrapper leading-[21px] px-[20px] bg-[#F2F2F2] transition-height ease-out duration-[700ms] in-active">
+          <div id="step-paragraph" class="wp-block-group paragraph-wrapper overflow-hidden leading-[21px] px-[20px] bg-[#F2F2F2] transition-height ease-out duration-[500ms] in-active">
             <!-- wp:paragraph -->
             <p class="text-[16px] mb-[10px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
             <!-- /wp:paragraph -->
@@ -96,9 +96,8 @@
         </li>
         <!-- /wp:list-item -->
 
-        
         <!-- wp:list-item -->
-        <li class="list-content-wrapper transition ease-out duration-[700ms]">
+        <li class="list-content-wrapper transition ease-out duration-[500ms]">
           <!-- wp:group -->
           <div id="click-bar" class="wp-block-group click-bar group bg-white h-[56px] flex justify-between items-center px-[20px] cursor-pointer">
             <!-- wp:group -->
@@ -123,7 +122,7 @@
           <!-- /wp:group -->
           
           <!-- wp:group -->
-          <div id="step-paragraph" class="wp-block-group paragraph-wrapper leading-[21px] px-[20px] bg-[#F2F2F2] transition-height ease-out duration-[700ms] in-active">
+          <div id="step-paragraph" class="wp-block-group paragraph-wrapper overflow-hidden leading-[21px] px-[20px] bg-[#F2F2F2] transition-height ease-out duration-[500ms] in-active">
             <!-- wp:paragraph -->
             <p class="text-[16px] mb-[10px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
             <!-- /wp:paragraph -->
