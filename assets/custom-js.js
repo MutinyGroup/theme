@@ -30,7 +30,7 @@ window.addEventListener("load", function () {
         stepParagraph[index].classList.add('active')
       } else if (stepParagraph[index].classList.contains('active')) {
         console.log('test2');
-        stepParagraph.classList.remove('active')
+        stepParagraph[index].classList.remove('active')
       }
     });
   })
