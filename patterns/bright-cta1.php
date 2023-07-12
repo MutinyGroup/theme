@@ -12,9 +12,24 @@
   <div class="wp-block-group container group mx-auto desktop:px-0 px-[20px] desktop:mt-0 mt-[120px] wide:h-[1180px] desktop:h-[790px] h-[480px]">
     <!-- wp:group -->
     <div class="wp-block-group title-wrapper relative desktop:pt-[110px] pt-[0px] desktop:mb-[80px] mb-[60px]">
-      <!-- wp:group -->
-      <div class="wp-block-group bg-flash top-[80px] z-[-1]"></div>
-      <!-- /wp:group -->
+      <!-- wp:paragraph -->
+      <svg class="flash desktop:scale-[1] scale-[0.4] absolute desktop:top-[-330px] top-[-360px] desktop:left-[-140px] right-[-100px] z-[-1]" xmlns="http://www.w3.org/2000/svg" width="688" height="801" viewBox="0 0 688 801" fill="none">
+        <g filter="url(#filter0_f_1787_1988)">
+        <circle cx="287.132" cy="400.132" r="150" transform="rotate(-45 287.132 400.132)" fill="url(#paint0_linear_1787_1988)" fill-opacity="0.5"/>
+        </g>
+        <defs>
+        <filter id="filter0_f_1787_1988" x="-112.868" y="0.131836" width="800" height="800" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+        <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+        <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+        <feGaussianBlur stdDeviation="125" result="effect1_foregroundBlur_1787_1988"/>
+        </filter>
+        <linearGradient id="paint0_linear_1787_1988" x1="287.132" y1="250.132" x2="287.132" y2="550.132" gradientUnits="userSpaceOnUse">
+        <stop stop-color="#FEC400" stop-opacity="0.6"/>
+        <stop offset="1" stop-color="#FEC400" stop-opacity="0"/>
+        </linearGradient>
+        </defs>
+      </svg>
+      <!-- /wp:paragraph -->
       <!-- wp:paragraph -->
       <svg xmlns="http://www.w3.org/2000/svg" width="1201" height="917" viewBox="0 0 1201 917" fill="none" class="opacity-[60%] absolute top-[-190px] left-[-260px] z-[-1]">
         <path d="M-91 2.02805L553.6 283.595L554 283.77L554.4 283.595L751.232 197.617L876 191.674V352.568L554 493.221L69.9003 281.762L68.5 281.15V282.678V711.805L-91 642.134V2.02805Z" stroke="white" stroke-width="2"></path>
