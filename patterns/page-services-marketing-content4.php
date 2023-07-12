@@ -145,7 +145,7 @@
           <!-- /wp:group -->
 
           <!-- wp:group -->
-          <div id="marketing2-next" class="wp-block-group group swiper-button-next w-[56px] h-[56px] absolute top-[50%] desktop:right-[0px] translate-y-[50%]">
+          <div id="marketing2-next" class="wp-block-group group swiper-button-next w-[56px] h-[56px] absolute top-[50%] desktop:right-[100px] translate-y-[50%]">
             <!-- wp:paragraph -->
             <svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 56 56" fill="none" class="group fill-primaryYellow">
               <rect x="1.5" y="1.5" width="53" height="53" rx="26.5" stroke="#FEC400" stroke-width="3" class="group-hover:stroke-primaryYellow transition-stroke ease-out duration-500"/>
