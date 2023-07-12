@@ -164,7 +164,7 @@
               <!-- wp:group -->
               <div id="click-bar" class="wp-block-group click-bar group bg-white h-[56px] flex justify-between items-center px-[20px] cursor-pointer">
                 <!-- wp:group -->
-                <div class="wp-block-group text-wrapper flex gap-[20px]">
+                <div class="wp-block-group text-wrapper flex gap-[10px] desktop:gap-[20px]">
                   <!-- wp:paragraph -->
                   <p class="group-hover:text-primaryYellow uppercase text-[20px] desktop:text-[16px] font-medium transition ease-out duration-500">KROK 1</p>
                   <!-- /wp:paragraph -->
@@ -202,12 +202,12 @@
               <!-- wp:group -->
               <div id="click-bar" class="wp-block-group click-bar group bg-white h-[56px] flex justify-between items-center px-[20px] cursor-pointer">
                 <!-- wp:group -->
-                <div class="wp-block-group text-wrapper flex gap-[20px]">
+                <div class="wp-block-group text-wrapper flex gap-[10px] desktop:gap-[20px]">
                   <!-- wp:paragraph -->
-                  <p class="group-hover:text-primaryYellow uppercase text-[20px] font-medium transition ease-out duration-500">KROK 2</p>
+                  <p class="group-hover:text-primaryYellow uppercase text-[20px] desktop:text-[16px] font-medium transition ease-out duration-500">KROK 1</p>
                   <!-- /wp:paragraph -->
                   <!-- wp:paragraph -->
-                  <p class="font-medium self-center">Lorem ipsum dolor sit amet</p>
+                  <p class="font-medium text-[14px] desktop:text-[16px] self-center">Lorem ipsum dolor sit amet</p>
                   <!-- /wp:paragraph -->
                 </div>
                 <!-- /wp:group -->
