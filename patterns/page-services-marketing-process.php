@@ -24,7 +24,7 @@
         <div class="wp-block-group img-clip-path-blog overflow-hidden rounded-[20px]">
           <!-- wp:image -->
           <figure class="wp-block-image post-img scale-[1.12] group-hover:scale-[1.06] transition ease-out duration-[700ms]">
-            <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-marketing/marketing-img.jpg" alt="blog-post-img">
+            <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-marketing/process-img.jpg" alt="blog-post-img">
           </figure>
           <!-- /wp:image -->
         </div>
@@ -78,6 +78,11 @@
             <path d="M20 28L31 28" stroke="black" stroke-width="1.5" class="group-hover:stroke-black transition-stroke ease-out duration-500"/>
           </svg>
           <!-- /wp:paragraph -->
+
+          <div class="paragraph-wrapper leading-[21px] py-[20px] bg-[#F2F2F2]">
+            <p class="text-[16px] mb-[10px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+            <p class="font-medium">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
+          </div>
           
         </li>
         <!-- /wp:list-item -->
