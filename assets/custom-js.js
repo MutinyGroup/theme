@@ -20,18 +20,21 @@ window.addEventListener("load", function () {
   });
 
   // page services-marketing
-  const clickBar = document.querySelector("#click-bar");
+  const clickBar = document.querySelectorAll("#click-bar");
   const stepParagraph = document.querySelector("#step-paragraph");
 
-  clickBar.addEventListener("click", () => {
-    if (!stepParagraph.classList.contains('active')) { 
-      console.log('test');
-      stepParagraph.classList.add('active')
-    } else if (stepParagraph.classList.contains('active')) {
-      console.log('test2');
-      stepParagraph.classList.remove('active')
-    }
-  });
+  clickBar.forEach(item =>(){
+    item.addEventListener("click", () => {
+      if (!stepParagraph.classList.contains('active')) { 
+        console.log('test');
+        stepParagraph.classList.add('active')
+      } else if (stepParagraph.classList.contains('active')) {
+        console.log('test2');
+        stepParagraph.classList.remove('active')
+      }
+    });
+  })
+
 });
 
 
