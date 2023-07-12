@@ -131,7 +131,31 @@
       <div class="wp-block-group desktop:mt-[-120px] w-full">
 
         <!-- wp:group -->
-        <div id="marketing" class="wp-block-group swiper swiperMarketing relative desktop:pt-[60px] absolute top-0 desktop:left-[150px] left-[20px]">
+        <div id="marketing2" class="wp-block-group swiper swiperMarketing2 relative desktop:pt-[60px] absolute top-0 desktop:left-[150px] left-[20px]">
+          <!-- wp:group -->
+          <div id="marketing2-prev" class="wp-block-group group swiper-button-prev w-[56px] h-[56px] absolute desktop:top-[60px] top-[0px] desktop:left-[170px] left-[130px]">
+            <!-- wp:paragraph -->
+            <svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 56 56" fill="none" class="rotate-180 group fill-transparent group-hover:fill-[#FEC400]">
+              <rect x="1.5" y="1.5" width="53" height="53" rx="26.5" stroke="#AAAAAA" stroke-width="3" class="group-hover:stroke-primaryYellow transition-stroke ease-out duration-500"/>
+              <path d="M28 35L35 28.0189L28.0379 21" stroke="black" stroke-width="1.5" class="group-hover:stroke-black transition-stroke ease-out duration-500"/>
+              <path d="M20 28L31 28" stroke="black" stroke-width="1.5" class="group-hover:stroke-black transition-stroke ease-out duration-500"/>
+            </svg>
+            <!-- /wp:paragraph -->
+          </div>
+          <!-- /wp:group -->
+
+          <!-- wp:group -->
+          <div id="marketing2-next" class="wp-block-group group swiper-button-next w-[56px] h-[56px] absolute desktop:top-[60px] top-[0px] desktop:left-[240px] left-[200px]">
+            <!-- wp:paragraph -->
+            <svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 56 56" fill="none" class="group fill-transparent group-hover:fill-primaryYellow">
+              <rect x="1.5" y="1.5" width="53" height="53" rx="26.5" stroke="#AAAAAA" stroke-width="3" class="group-hover:stroke-primaryYellow transition-stroke ease-out duration-500"/>
+              <path d="M28 35L35 28.0189L28.0379 21" stroke="black" stroke-width="1.5" class="group-hover:stroke-black transition-stroke ease-out duration-500"/>
+              <path d="M20 28L31 28" stroke="black" stroke-width="1.5" class="group-hover:stroke-black transition-stroke ease-out duration-500"/>
+            </svg>
+            <!-- /wp:paragraph -->
+          </div>
+          <!-- /wp:group -->
+
           <!-- wp:group -->
           <div class="wp-block-group swiper-wrapper">
             <!-- wp:group -->
@@ -155,7 +179,7 @@
               <!-- /wp:group -->
             </div>
             <!-- /wp:group -->
-            
+
             <!-- wp:group -->
             <div class="wp-block-group swiper-slide swiper-slide-marketing relative p-[25px] desktop:max-w-[716px] max-w-[310px] h-[450px] mr-[8px] flex gap-[43px]">
               <!-- wp:group -->

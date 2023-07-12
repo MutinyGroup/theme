@@ -124,4 +124,15 @@ document.addEventListener("DOMContentLoaded", function(event) {
     clickable: true,
     grabCursor: true,
   }); 
+
+  new Swiper('#marketing2', {
+    direction: "horizontal",
+    slidesPerView: 'auto',
+    clickable: true,
+    grabCursor: true,
+    navigation: {
+      nextEl: '#marketing2-next',
+      prevEl: '#marketing2-prev',
+    },
+  }); 
 });
