@@ -78,10 +78,21 @@
   <!-- wp:group -->
   <div class="wp-block-group paragraph-wrapper relative w-full desktop:mb-[150px] mb-[50px] pt-[100px]">
     <!-- wp:paragraph -->
-    <svg class="shape w-[1400px] z-[-1] absolute top-[0px] left-[30px]" xmlns="http://www.w3.org/2000/svg" width="1051" height="810" viewBox="0 0 1051 810" fill="none">
-      <path d="M1 1.45249L938.266 329.35L938.596 329.465L938.927 329.35L1406.89 165.634V409.787L938.596 573.618L234.979 327.462L233.649 326.996V328.406V807.61L1 726.219V1.45249Z" stroke="#FFFFFF" stroke-width="2"/>
+    <svg
+      class="shape scale-[0.6] desktop:scale-[1] z-[-1] absolute top-0 desktop:right-[-100px] right-auto left-[-40px] desktop:left-auto"
+      xmlns="http://www.w3.org/2000/svg"
+      width="470"
+      height="396"
+      viewBox="0 0 470 396"
+      fill="none"
+    >
+      <path
+        d="M468.243 393.924L1 236.702V1.9702L468.243 159.192V393.924Z"
+        stroke="#FFFFFF"
+        stroke-width="2"
+      />
     </svg>
-    <!-- /wp:paragraph --> 
+    <!-- /wp:paragraph -->
     <!-- wp:paragraph -->
     <p
     class="desktop:mb-[150px] desktop:ml-[100px] desktop:text-[35px] text-[22px] font-medium desktop:leading-[42px] leading-[32px] desktop:w-[897px]"
