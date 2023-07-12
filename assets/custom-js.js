@@ -23,10 +23,10 @@ window.addEventListener("load", function () {
   });
 
   // page services-marketing
-  const clickBar = document.querySelectorAll("#click-bar");
-  const clickBar1 = document.querySelector("#click-bar");
-  const stepParagraph = document.querySelectorAll("#step-paragraph");
-  const iconArrow = document.querySelectorAll("#icon-arrow");
+  const clickBar = document.querySelectorAll(".click-bar");
+  const clickBar1 = document.querySelector(".click-bar");
+  const stepParagraph = document.querySelectorAll("step-paragraph");
+  const iconArrow = document.querySelectorAll(".icon-arrow");
 
   clickBar.forEach(function(item,index) {
     item.addEventListener("click", () => {
