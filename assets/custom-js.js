@@ -25,8 +25,10 @@ window.addEventListener("load", function () {
 
   clickBar.addEventListener("click", () => {
     if (!stepParagraph.classList.contains('.active')) { 
+      console.log('test');
       stepParagraph.classList.add('.active')
     } else if (stepParagraph.classList.contains('.active')) {
+      console.log('test2');
       stepParagraph.classList.remove('.active')
     }
   });
