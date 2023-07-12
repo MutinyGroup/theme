@@ -16,6 +16,8 @@ window.addEventListener("load", function () {
       mainNavMenu.classList.replace('z-[3]', 'z-[-2]');
       mainNavMenu.classList.add('translate-x-[100%]');
       btnOpenMenu.classList.remove("active");
+      iconArrow[0].classList.add('rotate-[-90deg]');
+
     }
   });
 
