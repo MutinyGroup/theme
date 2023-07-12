@@ -21,11 +21,13 @@ window.addEventListener("load", function () {
 
   // page services-marketing
   const clickBar = document.querySelector("[data-click-bar]");
+  const stepParagraph = document.querySelector("[data-step-paragraph]");
 
   clickBar.addEventListener("click", () => {
-    if (true) { 
-      console.log('clicked');
-    } else if (false) {
+    if (!stepParagraph.classList.contains('.active')) { 
+      stepParagraph.classList.add('.active')
+    } else if (stepParagraph.classList.contains('.active')) {
+      stepParagraph.classList.remove('.active')
     }
   });
 });
