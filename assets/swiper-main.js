@@ -117,4 +117,15 @@ document.addEventListener("DOMContentLoaded", function(event) {
       prevEl: '#blog-prev',
     },
   });
+
+  new Swiper('#marketing', {
+    direction: "horizontal",
+    slidesPerView: 'auto',
+    clickable: true,
+    grabCursor: true,
+    navigation: {
+      nextEl: '#marketing-next',
+      prevEl: '#marketing-prev',
+    },
+  }); 
 });
