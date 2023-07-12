@@ -20,7 +20,7 @@ window.addEventListener("load", function () {
   });
 
   // page services-marketing
-  const clickBar = document.querySelectorAll("#click-bar");
+  const clickBar = document.querySelectorAll(".click-bar");
   const stepParagraph = document.querySelectorAll("#step-paragraph");
   const iconArrow = document.querySelectorAll("#icon-arrow");
 
