@@ -137,25 +137,14 @@
           <!-- wp:group -->
           <div class="wp-block-group swiper-wrapper">
             <!-- wp:group -->
-            <div class="wp-block-group swiper-slide swiper-slide-marketing relative z-[2] group p-[25px] desktop:max-w-[354px] max-w-[310px] h-[450px] rounded-[20px] transition ease-out duration-300 cursor-pointer mr-[8px]">
+            <div class="wp-block-group swiper-slide swiper-slide-marketing relative p-[25px] desktop:max-w-[354px] max-w-[310px] h-[450px] mr-[8px]">
               <!-- wp:group -->
-              <div class="wp-block-group img-clip-path-wrapper w-full h-full rounded-tr-[20px] rounded-br-[20px] overflow-hidden absolute left-0 top-0 z-[-1]">
+              <div class="wp-block-group w-full h-full rounded-[20px] overflow-hidden absolute left-0 top-0 z-[-1]">
                 <!-- wp:image -->
                 <figure class="wp-block-image img-clip-path-marketing">
                   <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-marketing/swiper/swiper1.jpg" alt="marketing-backgroun-image">
                 </figure>
                 <!-- /wp:image -->
-                <!-- wp:paragraph -->
-                <svg class="flt_svg" xmlns="http://www.w3.org/2000/svg">
-                  <defs>
-                    <filter id="flt_tag">
-                      <feGaussianBlur in="SourceGraphic" stdDeviation="8" result="blur" />
-                      <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9" result="flt_tag" />
-                      <feComposite in="SourceGraphic" in2="flt_tag" operator="atop"/>
-                    </filter>
-                  </defs>
-                </svg>
-                <!-- /wp:paragraph -->
               </div>
               <!-- /wp:group -->
             </div>
