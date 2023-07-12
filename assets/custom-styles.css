@@ -348,10 +348,10 @@ body{
 
  /* page services-marketing */
  .in-active{
-  height: 0px;
+  min-height: 0px;
   opacity: 0%;
 }
  .active{
-   height: 400px;
+   min-height: 400px;
    opacity: 100%;
  }
