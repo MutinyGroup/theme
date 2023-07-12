@@ -160,7 +160,7 @@
           <!-- wp:list -->
           <ul class="wp-block-list">
             <!-- wp:list-item -->
-            <li class="list-content-wrapper transition ease-out duration-[500ms]">
+            <li id="click-bar" class="list-content-wrapper transition ease-out duration-[500ms]">
               <!-- wp:group -->
               <div class="wp-block-group click-bar group bg-white h-[56px] flex justify-between items-center px-[20px] cursor-pointer">
                 <!-- wp:group -->
