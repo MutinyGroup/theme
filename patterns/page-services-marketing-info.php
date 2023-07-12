@@ -27,7 +27,7 @@
         class="wp-block-group section-title grid desktop:basis-auto desktop:w-[145px] desktop:basis-[80%] uppercase text-primaryYellow"
         >
           <!-- wp:paragraph -->
-          <p class="desktop:justify-self-end pt-[3px] pr-[15px]">Marketing robimy kompleksowo</p>
+          <p class="desktop:justify-self-end pt-[3px] pr-[15px]">01</p>
           <!-- /wp:paragraph -->
         </div>  
         <!-- /wp:group -->
@@ -39,11 +39,11 @@
           <p
             class="uppercase"
           >
-            Porozmawiajmy o <br />
+            Opracowanie strategii <br />
             Twoim
             <span
               class="relative inline desktop:text-[60px] text-[24px] uppercase italic before:content-[''] before:inline-block desktop:before:mr-[8px] before:mr-[4px] before:bottom-0 before:left-0 desktop:before:w-[90px] before:w-[30px] desktop:before:h-[3px] before:h-[2px] before:bg-black"
-              >biznesie</span
+              >Marketingowych</span
             >
           </p>
           <!-- /wp:paragraph -->
@@ -55,12 +55,37 @@
     <!-- /wp:group -->
     
     <!-- wp:group -->
-    <div class="wp-block-group paragrapth-wrapper mb-[100px] flex justify-end">
-      <!-- wp:paragraph -->
-      <p class="text text-[20px] leading-[30px] max-w-[625px]">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-      </p>
-      <!-- /wp:paragraph -->
+    <div class="wp-block-group text-cols-wrapper flex desktop:gap-[0px] gap-[20px] basis desktop:mb-[100px] mb-[50px]">
+      <!-- wp:group -->
+      <div class="wp-block-group col1 desktop:pl-[155px] basis-[40%]">
+        <!-- wp:paragraph -->
+        <p class="max-w-[173px] text-[16px] leading-[21px]">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor.
+        </p>
+        <!-- /wp:paragraph -->
+      </div>
+      <!-- /wp:group -->
+      <!-- wp:group -->
+      <div class=" wp-block-group col2 basis-[60%]">
+        <!-- wp:paragraph -->
+        <p class="desktop:text-[20px] text-[18px] desktop:leading-[30px] leading-[26px] mb-[50px]">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+          enim ad minim veniam, quis nostrud exercitation ullamco laboris
+          nisi ut aliquip ex ea commodo consequat.
+        </p>
+        <!-- /wp:paragraph -->
+        <!-- wp:paragraph -->
+        <p class="hidden desktop:block text-[16px] leading-[21px]">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+          enim ad minim veniam, quis nostrud exercitation ullamco laboris
+          nisi ut aliquip ex ea commodo consequat.
+        </p>
+        <!-- /wp:paragraph -->
+      </div>
+      <!-- /wp:group -->
     </div>
     <!-- /wp:group -->
     

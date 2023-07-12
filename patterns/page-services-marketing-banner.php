@@ -27,7 +27,7 @@
         class="wp-block-group section-title grid desktop:basis-auto desktop:w-[145px] desktop:basis-[80%] uppercase text-primaryYellow"
         >
           <!-- wp:paragraph -->
-          <p class="justify-self-end pt-[3px] pr-[15px]">Działamy?</p>
+          <p class="justify-self-end pt-[3px] pr-[15px]">Usługi</p>
           <!-- /wp:paragraph -->
         </div>  
         <!-- /wp:group -->
@@ -39,12 +39,7 @@
           <p
             class="uppercase"
           >
-            Skontaktuj się <br />
-            z
-            <span
-              class="relative inline desktop:text-[60px] text-[24px] uppercase italic before:content-[''] before:inline-block desktop:before:mr-[8px] before:mr-[4px] before:bottom-0 before:left-0 desktop:before:w-[90px] before:w-[30px] desktop:before:h-[3px] before:h-[2px] before:bg-black"
-              >nami</span
-            >
+            Marketing i PR
           </p>
           <!-- /wp:paragraph -->
         </div>
@@ -60,7 +55,7 @@
     <!-- wp:image -->
     <figure class="wp-block-image object-cover h-full">
       <img
-        src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-contact/page-contact-banner.jpg"
+        src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-marketing/marketing-banner.jpg"
         alt="bg-image"
       />
     </figure>
