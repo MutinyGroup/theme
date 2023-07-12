@@ -159,9 +159,9 @@
           <!-- wp:group -->
           <div class="wp-block-group swiper-wrapper">
             <!-- wp:group -->
-            <div class="wp-block-group swiper-slide swiper-slide-marketing relative p-[25px] desktop:max-w-[716px] max-w-[310px] h-[450px] mr-[8px] flex gap-[43px]">
+            <div class="wp-block-group swiper-slide swiper-slide-marketing relative p-[25px] desktop:max-w-[716px] max-w-[310px] desktop:h-[450px] h-fit mr-[8px] desktop:flex gap-[43px]">
               <!-- wp:group -->
-              <div class="wp-block-group w-[50%] h-full rounded-[20px] overflow-hidden">
+              <div class="wp-block-group desktop:w-[50%] h-full rounded-[20px] overflow-hidden">
                 <!-- wp:image -->
                 <figure class="wp-block-image img-clip-path-marketing">
                   <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-marketing/swiper/swiper2-1.jpg" alt="marketing-backgroun-image">
@@ -171,10 +171,10 @@
               <!-- /wp:group -->
 
               <!-- wp:group -->
-              <div class="text-wrapper w-[50%] pr-[40px] items-center">
+              <div class="text-wrapper desktop:w-[50%] pr-[40px] items-center">
                 <p class="index mb-[30px] text-[60px] font-medium text-primaryYellow">01</p>
                 <p class="mb-[30px] text-[20px] font-medium">Lorem ipsum dolor sit amet</p>
-                <p class="leading-[21px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <p class="leading-[21px] hidden desktop:block">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
               </div>
               <!-- /wp:group -->
             </div>
