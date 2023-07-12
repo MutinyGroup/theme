@@ -80,7 +80,7 @@
           <!-- /wp:paragraph -->
           
         </li>
-        <!-- wp:list-item -->
+        <!-- /wp:list-item -->
       </ul>
       <!-- /wp:list -->
 
