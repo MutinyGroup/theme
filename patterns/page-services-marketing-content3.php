@@ -116,117 +116,43 @@
       >
 
       <!-- wp:group -->
-      <div class="wp-block-group col2">
+      <div class="wp-block-group gallery desktop:mb-[240px] mb-[150px] relative mb-[100px] flex">
+        <!-- wp:image -->
+        <figure class="wp-block-image w-[60%] overflow-hidden rounded-tl-[22px] rounded-bl-[22px]">
+          <img  
+          src="	https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-marketing/gallery.jpg"
+          alt="image"
+          />
+        </figure>
+        <!-- /wp:image -->
+
         <!-- wp:group -->
-        <div class="wp-block-group gallery-cols relative flex gap-[8px]">
+        <div class="wp-block-group mb-[20px] w-[60%] absolute top-[100px] right-[10px]">
           <!-- wp:group -->
-          <div class="wp-block-group inner-col1 w-[49%]">
-            <!-- wp:group -->
-            <div class="wp-block-group tile-wrapper relative mb-[12px] rounded-[20px] overflow-hidden">
-              <!-- wp:image -->
-              <figure class="wp-block-image">
-                <img
-                  src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-marketing/gallery1.jpg"
-                  alt="team"
-                />
-              </figure>
-              <!-- /wp:image -->
-              <!-- wp:group -->
-              <div
-                class="wp-block-group text-content text-white absolute desktop:bottom-[30px] bottom-[10px] desktop:left-[30px] left-[10px] leading-[30px]"
-              >
-                <!-- wp:paragraph -->
-                <p class="name desktop:text-[25px] text-[20px] font-medium">Olga Anusiewicz</p>
-                <!-- /wp:paragraph -->
-                <!-- wp:paragraph -->
-                <p class="text-[16px] font-light">Founder & CEO</p>
-                <!-- /wp:paragraph -->
-              </div>
-              <!-- /wp:group -->
-            </div>
-            <!-- /wp:group -->
-            <!-- wp:group -->
-            <div class="wp-block-group tile-wrapper relative mb-[12px] rounded-[20px] overflow-hidden">
-              <!-- wp:image -->
-              <figure class="wp-block-image">
-                <img
-                  src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-about/about-team1.jpg"
-                  alt="team"
-                />
-              </figure>
-              <!-- /wp:image -->
-              <!-- wp:group -->
-              <div
-                class="wp-block-group text-content text-white absolute desktop:bottom-[30px] bottom-[10px] desktop:left-[30px] left-[10px] leading-[30px]"
-              >
-                <!-- wp:paragraph -->
-                <p class="name text-[25px] font-medium">Olga Anusiewicz</p>
-                <!-- /wp:paragraph -->
-                <!-- wp:paragraph -->
-                <p class="text-[16px] font-light">Founder & CEO</p>
-                <!-- /wp:paragraph -->
-              </div>
-              <!-- /wp:group -->
-            </div>
-            <!-- /wp:group -->
+          <div class="wp-block-group img-clip-path-meet-us rounded-tr-[20px] overflow-hidden ">
+            <!-- wp:image -->
+            <figure class="wp-block-image ">
+              <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-marketing/gallery2.jpg" alt="image">
+            </figure>
+            <!-- /wp:image -->
+            <!-- wp:paragraph -->
+            <svg class="flt_svg" xmlns="http://www.w3.org/2000/svg">
+              <defs>
+                <filter id="flt_tag">
+                  <feGaussianBlur in="SourceGraphic" stdDeviation="8" result="blur" />    
+                  <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9" result="flt_tag" />
+                  <feComposite in="SourceGraphic" in2="flt_tag" operator="atop"/>
+                </filter>
+              </defs>
+            </svg>
+            <!-- /wp:paragraph -->
           </div>
           <!-- /wp:group -->
-          <!-- wp:group -->
-          <div class="wp-block-group inner-col2 w-[49%] absolute top-[100px] right-0">
-            <!-- wp:group -->
-            <div class="wp-block-group tile-wrapper relative mb-[12px] rounded-[20px] overflow-hidden">
-              <!-- wp:image -->
-              <figure class="wp-block-image">
-                <img
-                  src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-marketing/gallery1.jpg"
-                  alt="team"
-                />
-              </figure>
-              <!-- /wp:image -->
-              <!-- wp:group -->
-              <div
-                class="wp-block-group text-content text-white absolute desktop:bottom-[30px] bottom-[10px] desktop:left-[30px] left-[10px] leading-[30px]"
-              >
-                <!-- wp:paragraph -->
-                <p class="name text-[25px] font-medium">Olga Anusiewicz</p>
-                <!-- /wp:paragraph -->
-                <!-- wp:paragraph -->
-                <p class="text-[16px] font-light">Founder & CEO</p>
-                <!-- /wp:paragraph -->
-              </div>
-              <!-- /wp:group -->
-            </div>
-            <!-- /wp:group -->
-            <!-- wp:group -->
-            <div class="wp-block-group tile-wrapper relative mb-[12px] rounded-[20px] overflow-hidden">
-              <!-- wp:image -->
-              <figure class="wp-block-image">
-                <img
-                  src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-about/about-team1.jpg"
-                  alt="team"
-                />
-              </figure>
-              <!-- /wp:image -->
-              <!-- wp:group -->
-              <div
-                class="wp-block-group text-content text-white absolute desktop:bottom-[30px] bottom-[10px] desktop:left-[30px] left-[10px] leading-[30px]"
-              >
-                <!-- wp:paragraph -->
-                <p class="name text-[25px] font-medium">Olga Anusiewicz</p>
-                <!-- /wp:paragraph -->
-                <!-- wp:paragraph -->
-                <p class="text-[16px] font-light">Founder & CEO</p>
-                <!-- /wp:paragraph -->
-              </div>
-              <!-- /wp:group -->
-            </div>
-            <!-- /wp:group -->
-          </div>
-          <!-- /wp:group -->
+
         </div>
         <!-- /wp:group -->
       </div>
-      <!-- /wp:group -->
+      <!-- /wp:grup -->
 
       </div>
       <!-- /wp:group -->
