@@ -135,66 +135,27 @@
           <!-- wp:group -->
           <div class="wp-block-group swiper-wrapper">
             <!-- wp:group -->
-            <div class="wp-block-group swiper-slide swiper-slide-marketing relative p-[25px] desktop:max-w-[354px] max-w-[310px] h-[450px] mr-[8px]">
+            <div class="wp-block-group swiper-slide swiper-slide-marketing relative p-[25px] desktop:max-w-[354px] max-w-[310px] h-[450px] mr-[8px] flex gap-[43px]">
               <!-- wp:group -->
               <div class="wp-block-group w-full h-full rounded-[20px] overflow-hidden absolute left-0 top-0 z-[-1]">
                 <!-- wp:image -->
                 <figure class="wp-block-image img-clip-path-marketing">
-                  <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-marketing/swiper/swiper1.jpg" alt="marketing-backgroun-image">
+                  <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-marketing/swiper/swiper2-1.jpg" alt="marketing-backgroun-image">
                 </figure>
                 <!-- /wp:image -->
               </div>
               <!-- /wp:group -->
-            </div>
-            <!-- /wp:group -->
-            <div class="wp-block-group swiper-slide swiper-slide-marketing relative p-[25px] desktop:max-w-[354px] max-w-[310px] h-[450px] mr-[8px]">
+
               <!-- wp:group -->
-              <div class="wp-block-group w-full h-full rounded-[20px] overflow-hidden absolute left-0 top-0 z-[-1]">
-                <!-- wp:image -->
-                <figure class="wp-block-image img-clip-path-marketing">
-                  <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-marketing/swiper/swiper2.jpg" alt="marketing-backgroun-image">
-                </figure>
-                <!-- /wp:image -->
+              <div class="text-wrapper items-center">
+                <p class="index mb-[30px] text-[60px] font-medium text-primaryYellow">01</p>
+                <p class="mb-[30px] text-[20px] font-medium"></p>
+                <p class="leading-[21px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
               </div>
               <!-- /wp:group -->
             </div>
             <!-- /wp:group -->
-            <div class="wp-block-group swiper-slide swiper-slide-marketing relative p-[25px] desktop:max-w-[354px] max-w-[310px] h-[450px] mr-[8px]">
-              <!-- wp:group -->
-              <div class="wp-block-group w-full h-full rounded-[20px] overflow-hidden absolute left-0 top-0 z-[-1]">
-                <!-- wp:image -->
-                <figure class="wp-block-image img-clip-path-marketing">
-                  <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-marketing/swiper/swiper3.jpg" alt="marketing-backgroun-image">
-                </figure>
-                <!-- /wp:image -->
-              </div>
-              <!-- /wp:group -->
-            </div>
-            <!-- /wp:group -->
-            <div class="wp-block-group swiper-slide swiper-slide-marketing relative p-[25px] desktop:max-w-[354px] max-w-[310px] h-[450px] mr-[8px]">
-              <!-- wp:group -->
-              <div class="wp-block-group w-full h-full rounded-[20px] overflow-hidden absolute left-0 top-0 z-[-1]">
-                <!-- wp:image -->
-                <figure class="wp-block-image img-clip-path-marketing">
-                  <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-marketing/swiper/swiper4.jpg" alt="marketing-backgroun-image">
-                </figure>
-                <!-- /wp:image -->
-              </div>
-              <!-- /wp:group -->
-            </div>
-            <!-- /wp:group -->
-            <div class="wp-block-group swiper-slide swiper-slide-marketing relative p-[25px] desktop:max-w-[354px] max-w-[310px] h-[450px] mr-[8px]">
-              <!-- wp:group -->
-              <div class="wp-block-group w-full h-full rounded-[20px] overflow-hidden absolute left-0 top-0 z-[-1]">
-                <!-- wp:image -->
-                <figure class="wp-block-image img-clip-path-marketing">
-                  <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-marketing/swiper/swiper1.jpg" alt="marketing-backgroun-image">
-                </figure>
-                <!-- /wp:image -->
-              </div>
-              <!-- /wp:group -->
-            </div>
-            <!-- /wp:group -->
+
 
 
           </div>
