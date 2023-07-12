@@ -25,7 +25,7 @@ window.addEventListener("load", function () {
   const iconArrow = document.querySelectorAll("#icon-arrow");
 
   clickBar.forEach(function(item,index) {
-    item.addEventListener("click", () => {
+    item.addEventListener("touchstart click", () => {
       if (!stepParagraph[index].classList.contains('active')) { 
         stepParagraph[index].classList.replace('in-active','active')
         iconArrow[index].classList.replace('rotate-90', 'rotate-[-90deg]')
