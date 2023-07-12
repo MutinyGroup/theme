@@ -19,7 +19,7 @@
     >
       <!-- wp:group -->
       <div
-        class="wp-block-group title-wrapper relative container mx-auto desktop:flex"
+        class="wp-block-group title-wrapper relative desktop:flex"
       >
         <!-- wp:paragraph -->
         <svg class="flash desktop:scale-[1] scale-[0.4] absolute desktop:top-[-330px] top-[-360px] desktop:left-[-140px] right-[-100px] z-[-1]" xmlns="http://www.w3.org/2000/svg" width="688" height="801" viewBox="0 0 688 801" fill="none">
@@ -45,7 +45,7 @@
         class="wp-block-group section-title grid desktop:basis-auto desktop:w-[145px] desktop:basis-[80%] uppercase text-primaryYellow"
         >
           <!-- wp:paragraph -->
-          <p class="desktop:justify-self-end pt-[3px] pr-[15px]">03</p>
+          <p class="desktop:justify-self-end pt-[3px] pr-[15px] text-[20px]">03</p>
           <!-- /wp:paragraph -->
         </div>  
         <!-- /wp:group -->
@@ -112,7 +112,7 @@
     <div class="wp-block-group page-marketing-content my-[150px]">
       <!-- wp:group -->
       <div
-        class="wp-block-group container mx-auto relative desktop:px-0 px-[20px]"
+        class="wp-block-group"
       >
 
       <!-- wp:group -->

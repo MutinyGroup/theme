@@ -45,7 +45,7 @@
         class="wp-block-group section-title grid desktop:basis-auto desktop:w-[145px] desktop:basis-[80%] uppercase text-primaryYellow"
         >
           <!-- wp:paragraph -->
-          <p class="desktop:justify-self-end pt-[3px] pr-[15px]">04</p>
+          <p class="desktop:justify-self-end pt-[3px] pr-[15px] text-[20px]">04</p>
           <!-- /wp:paragraph -->
         </div>  
         <!-- /wp:group -->
@@ -124,7 +124,7 @@
     <div class="wp-block-group page-marketing-content my-[150px]">
       <!-- wp:group -->
       <div
-        class="wp-block-group container mx-auto relative desktop:px-0 px-[20px]"
+        class="wp-block-group"
       >
 
       <!-- wp:group -->
