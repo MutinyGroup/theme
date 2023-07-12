@@ -61,7 +61,7 @@
         <!-- wp:list-item -->
         <li class="group bg-white h-[56px] flex justify-between items-center px-[20px] cursor-pointer">
           <!-- wp:group -->
-          <div class="wp-block-group text-wrapper flex gap-[10px]">
+          <div class="wp-block-group text-wrapper flex gap-[20px]">
             <!-- wp:paragraph -->
             <p class="group-hover:text-primaryYellow uppercase text-[20px] font-medium transition ease-out duration-500">KROK 1</p>
             <!-- /wp:paragraph -->
