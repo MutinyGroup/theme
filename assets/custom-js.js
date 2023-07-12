@@ -28,11 +28,11 @@ window.addEventListener("load", function () {
     item.addEventListener("click", () => {
       if (!stepParagraph[index].classList.contains('active')) { 
         stepParagraph[index].classList.replace('in-active','active');
-        iconArrow[index].classList.replace('rotate-90', 'rotate-[-90deg]');
+        // iconArrow[index].classList.replace('rotate-90', 'rotate-[-90deg]');
         iconArrow[index].classList.add('rotate-[-90deg]');
       } else if (stepParagraph[index].classList.contains('active')) {
-        stepParagraph[index].classList.replace('active', 'in-active');
-        iconArrow[index].classList.replace('rotate-[-90deg]','rotate-90');
+        // stepParagraph[index].classList.replace('active', 'in-active');
+        // iconArrow[index].classList.replace('rotate-[-90deg]','rotate-90');
       }
     });
   })
