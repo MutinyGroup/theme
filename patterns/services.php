@@ -66,10 +66,11 @@
       <div id="services" class="wp-block-group swiper swiperServices relative desktop:pt-[180px] absolute top-0 desktop:left-[150px] left-[20px]">
         <!-- wp:group -->
         <div class="wp-block-group swiper-wrapper">
+        <!-- wp:paragraph -->
+        <a href="https://mutiny.webo.design/services-marketing/" class="swiper-slide swiper-slide-services relative z-[2] group p-[25px] desktop:max-w-[354px] max-w-[310px] h-[450px] rounded-[20px] transition ease-out duration-300 cursor-pointer mr-[8px]">
           <!-- wp:group -->
-          <div class="wp-block-group swiper-slide swiper-slide-services relative z-[2] group p-[25px] desktop:max-w-[354px] max-w-[310px] h-[450px] rounded-[20px] transition ease-out duration-300 cursor-pointer mr-[8px]">
-            <!-- wp:paragraph -->
-            <a href="https://mutiny.webo.design/services-marketing/">
+          <div class="wp-block-group ">
+
               <!-- wp:group -->
               <div class="wp-block-group img-clip-path-wrapper w-full h-full rounded-tr-[20px] rounded-br-[20px] overflow-hidden absolute left-0 top-0 z-[-1]">
                 <!-- wp:image -->
@@ -116,10 +117,10 @@
               <p class="hover-text w-[250px] mt-[270px] translate-y-[70px] opacity-[0%] group-hover:opacity-[100%] desktop:group-hover:translate-y-[10px] group-hover:translate-y-[-35px] transition-all ease-out duration-500 text-[15px] font-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet in aspernatur alias ipsa, fuga ut!
               </p>
               <!-- /wp:paragraph -->
-            </a>
-            <!-- /wp:paragraph -->
-          </div>
-          <!-- /wp:group -->
+            </div>
+            <!-- /wp:group -->
+          </a>
+          <!-- /wp:paragraph -->
 
           <!-- wp:group -->
           <div class="wp-block-group swiper-slide swiper-slide-services relative z-[2] group p-[25px] desktop:max-w-[354px] max-w-[310px] h-[450px] rounded-[20px] transition ease-out duration-300 cursor-pointer mr-[8px]">
