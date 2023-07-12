@@ -1,7 +1,7 @@
 <?php
 /**
- * Title: page-services-marketing-process
- * Slug: page-services-marketing-process
+ * Title: page-services-marketing-content4
+ * Slug: page-services-marketing-content4
  * Categories: text, banner
  * Viewport Width: 1280
  */
