@@ -109,7 +109,7 @@
 
 
     <!-- wp:group -->
-    <div class="wp-block-group page-marketing-content my-[150px]">
+    <div class="wp-block-group page-marketing-content">
       <!-- wp:group -->
       <div
         class="wp-block-group"
