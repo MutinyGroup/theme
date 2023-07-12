@@ -24,20 +24,20 @@ window.addEventListener("load", function () {
 
   // page services-marketing
   const clickBar = document.querySelectorAll(".click-bar");
-  const clickBar1 = document.querySelector(".click-bar");
+  // const clickBar1 = document.querySelector(".click-bar");
   const stepParagraph = document.querySelectorAll("step-paragraph");
   const iconArrow = document.querySelectorAll(".icon-arrow");
 
   clickBar.forEach(function(item,index) {
     item.addEventListener("click", () => {
       if (!stepParagraph[index].classList.contains('active')) { 
-        clickBar1.classList.add('bg-red-500');
-        // stepParagraph[index].classList.replace('in-active','active');
-        // iconArrow[index].classList.replace('rotate-90', 'rotate-[-90deg]');
+        // clickBar1.classList.add('bg-red-500');
+        stepParagraph[index].classList.replace('in-active','active');
+        iconArrow[index].classList.replace('rotate-90', 'rotate-[-90deg]');
         iconArrow[index].classList.add('rotate-[-90deg]');
       } else if (stepParagraph[index].classList.contains('active')) {
-        // stepParagraph[index].classList.replace('active', 'in-active');
-        // iconArrow[index].classList.replace('rotate-[-90deg]','rotate-90');
+        stepParagraph[index].classList.replace('active', 'in-active');
+        iconArrow[index].classList.replace('rotate-[-90deg]','rotate-90');
       }
     });
   })
