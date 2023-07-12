@@ -84,7 +84,7 @@
           <!-- /wp:group -->
           
           <!-- wp:group -->
-          <div class="wp-block-group paragraph-wrapper leading-[21px] p-[20px] bg-[#F2F2F2] transition-height ease-out duration-[700ms]">
+          <div data-step-paragraph class="wp-block-group paragraph-wrapper leading-[21px] p-[20px] bg-[#F2F2F2] transition-height ease-out duration-[700ms]">
             <!-- wp:paragraph -->
             <p class="text-[16px] mb-[10px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
             <!-- /wp:paragraph -->
