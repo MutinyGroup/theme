@@ -166,7 +166,7 @@
                 <!-- wp:group -->
                 <div class="wp-block-group text-wrapper flex gap-[10px] desktop:gap-[20px]">
                   <!-- wp:paragraph -->
-                  <p class="group-hover:text-primaryYellow uppercase text-[20px] desktop:text-[16px] font-medium transition ease-out duration-500">KROK 1</p>
+                  <p class="group-hover:text-primaryYellow uppercase text-[16px] desktop:text-[20px] font-medium transition ease-out duration-500">KROK 1</p>
                   <!-- /wp:paragraph -->
                   <!-- wp:paragraph -->
                   <p class="font-medium text-[14px] desktop:text-[16px] self-center">Lorem ipsum dolor sit amet</p>
@@ -204,7 +204,7 @@
                 <!-- wp:group -->
                 <div class="wp-block-group text-wrapper flex gap-[10px] desktop:gap-[20px]">
                   <!-- wp:paragraph -->
-                  <p class="group-hover:text-primaryYellow uppercase text-[20px] desktop:text-[16px] font-medium transition ease-out duration-500">KROK 1</p>
+                  <p class="group-hover:text-primaryYellow uppercase text-[16px] desktop:text-[20px] font-medium transition ease-out duration-500">KROK 1</p>
                   <!-- /wp:paragraph -->
                   <!-- wp:paragraph -->
                   <p class="font-medium text-[14px] desktop:text-[16px] self-center">Lorem ipsum dolor sit amet</p>
@@ -234,6 +234,7 @@
               <!-- /wp:group -->
             </li>
             <!-- /wp:list-item -->
+
             <!-- wp:list-item -->
             <li class="list-content-wrapper transition ease-out duration-[500ms]">
               <!-- wp:group -->
