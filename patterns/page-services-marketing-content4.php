@@ -172,7 +172,7 @@
 
               <!-- wp:group -->
               <div class="text-wrapper desktop:w-[50%] desktop:pr-[40px] items-center">
-                <p class="index mb-[30px] desktop:mb-0 text-[60px] font-medium text-primaryYellow">01</p>
+                <p class="index mb-[30px] desktop:mb-0 text-[60px] font-medium text-primaryYellow leading-[65px]">01</p>
                 <p class="mb-[30px] text-[20px] font-medium">Lorem ipsum dolor sit amet</p>
                 <p class="leading-[21px] hidden desktop:block">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
               </div>
