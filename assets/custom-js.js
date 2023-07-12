@@ -21,14 +21,14 @@ window.addEventListener("load", function () {
 
   // page services-marketing
   const clickBar = document.querySelectorAll("#click-bar");
-  const stepParagraph = document.querySelector("#step-paragraph");
+  const stepParagraph = document.querySelectorAll("#step-paragraph");
 
-  clickBar.forEach(function(item) {
+  clickBar.forEach(function(item,index) {
     item.addEventListener("click", () => {
-      if (!stepParagraph.classList.contains('active')) { 
+      if (!stepParagraph[index].classList.contains('active')) { 
         console.log('test');
-        stepParagraph.classList.add('active')
-      } else if (stepParagraph.classList.contains('active')) {
+        stepParagraph[index].classList.add('active')
+      } else if (stepParagraph[index].classList.contains('active')) {
         console.log('test2');
         stepParagraph.classList.remove('active')
       }
