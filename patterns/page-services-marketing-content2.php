@@ -95,7 +95,7 @@
         </p>
         <!-- /wp:paragraph -->
         <!-- wp:paragraph -->
-        <p class="hidden desktop:block text-[16px] leading-[21px]">
+        <p class="hidden desktop:block mb-[50px] text-[16px] leading-[21px]">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
           enim ad minim veniam, quis nostrud exercitation ullamco laboris
