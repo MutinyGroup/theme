@@ -17,6 +17,7 @@ window.addEventListener("load", function () {
       mainNavMenu.classList.add('translate-x-[100%]');
       btnOpenMenu.classList.remove("active");
       iconArrow[0].classList.add('rotate-[-90deg]');
+      clickBar[0].classList.add('bg-red-500');
 
     }
   });
