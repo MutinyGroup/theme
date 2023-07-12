@@ -112,7 +112,7 @@
     <div class="wp-block-group page-marketing-content my-[150px]">
       <!-- wp:group -->
       <div
-        class="wp-block-group container mx-auto relative desktop:px-0 px-[20px]"
+        class="wp-block-group"
       >
 
       <!-- wp:group -->
