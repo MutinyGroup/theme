@@ -23,7 +23,7 @@ window.addEventListener("load", function () {
   const clickBar = document.querySelectorAll("#click-bar");
   const stepParagraph = document.querySelector("#step-paragraph");
 
-  clickBar.forEach(item =>(){
+  clickBar.forEach(item => function(item) {
     item.addEventListener("click", () => {
       if (!stepParagraph.classList.contains('active')) { 
         console.log('test');
