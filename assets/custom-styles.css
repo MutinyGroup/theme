@@ -352,6 +352,6 @@ body{
   opacity: 0%;
 }
  .active{
-   height: fit-content;
+   height: 400px;
    opacity: 100%;
  }
