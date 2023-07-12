@@ -40,6 +40,28 @@
       <p class="text-[16px] mb-[50px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
       <!-- /wp:paragraph -->
 
+      <!-- wp:list -->
+      <ul class="wp-block-list">
+        <!-- wp:list-item -->
+        <li class="group bg-white h-[56px] flex justify-between px-[20px]">
+          <div class="text-wrapper flex gap-[10px]">
+            <p class="group-hover:text-primaryYellow transition ease-out duration-500">KROK 1</p>
+            <p>Lorem ipsum dolor sit amet</p>
+          </div>
+
+          <!-- wp:paragraph -->
+          <svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 56 56" fill="none" class="rotate-90 fill-transparent">
+            <rect x="1.5" y="1.5" width="53" height="53" rx="26.5" stroke="#AAAAAA" stroke-width="3" class="group-hover:stroke-primaryYellow transition-stroke ease-out duration-500"/>
+            <path d="M28 35L35 28.0189L28.0379 21" stroke="black" stroke-width="1.5" class="group-hover:stroke-black transition-stroke ease-out duration-500"/>
+            <path d="M20 28L31 28" stroke="black" stroke-width="1.5" class="group-hover:stroke-black transition-stroke ease-out duration-500"/>
+          </svg>
+          <!-- /wp:paragraph -->
+          
+        </li>
+        <!-- wp:list-item -->
+      </ul>
+      <!-- /wp:list -->
+
     </div>
     <!-- /wp:group -->
   </div>
