@@ -27,10 +27,10 @@ window.addEventListener("load", function () {
     item.addEventListener("click", () => {
       if (!stepParagraph[index].classList.contains('active')) { 
         console.log('test');
-        stepParagraph[index].classList.add('active')
+        stepParagraph[index].classList.replace('in-active','active')
       } else if (stepParagraph[index].classList.contains('active')) {
         console.log('test2');
-        stepParagraph[index].classList.remove('active')
+        stepParagraph[index].classList.replace('active', 'in-active')
       }
     });
   })
