@@ -79,7 +79,7 @@
   <div class="wp-block-group paragraph-wrapper container mx-auto desktop:px-0 px-[20px] relative w-full desktop:mb-[150px] mb-[50px] pt-[100px]">
     <!-- wp:paragraph -->
     <svg
-      class="shape scale-[0.6] desktop:scale-[1] z-[-1] absolute top-0 desktop:right-[-100px] right-auto left-[-40px] desktop:left-auto"
+      class="shape scale-[0.6] desktop:scale-[1] z-[-1] absolute top-0 desktop:right-[0px] right-auto left-[-40px] desktop:left-auto"
       xmlns="http://www.w3.org/2000/svg"
       width="470"
       height="396"
@@ -95,7 +95,7 @@
     <!-- /wp:paragraph -->
     <!-- wp:paragraph -->
     <p
-    class="desktop:text-[35px] text-[22px] font-medium desktop:leading-[42px] leading-[32px] desktop:w-[897px]"
+    class="ml-[145px] desktop:text-[35px] text-[22px] font-medium desktop:leading-[42px] leading-[32px] desktop:w-[897px]"
     >
       Jesteśmy ekspertami od komunikacji i marketingu. Pracujemy dla topowych firm, stawiających przed nami duże wyzwania.
     </p>
