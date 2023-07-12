@@ -116,9 +116,9 @@
       >
 
       <!-- wp:group -->
-      <div class="wp-block-group gallery desktop:mb-[240px] mb-[150px] relative mb-[100px] flex">
+      <div class="wp-block-group gallery desktop:mb-[240px] mb-[150px] relative mb-[100px] flex gap-[8px]">
         <!-- wp:image -->
-        <figure class="wp-block-image w-[60%] overflow-hidden rounded-tl-[22px] rounded-bl-[22px]">
+        <figure class="wp-block-image w-[50%] overflow-hidden rounded-tl-[22px] rounded-bl-[22px]">
           <img  
           src="	https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-marketing/gallery1.jpg"
           alt="image"
@@ -127,11 +127,11 @@
         <!-- /wp:image -->
 
         <!-- wp:group -->
-        <div class="wp-block-group mb-[20px] w-[60%] absolute top-[100px] right-[10px]">
+        <div class="wp-block-group mb-[20px] w-[50%] absolute top-[60px] right-[0px]">
           <!-- wp:group -->
           <div class="wp-block-group img-clip-path-meet-us rounded-tr-[20px] overflow-hidden ">
             <!-- wp:image -->
-            <figure class="wp-block-image ">
+            <figure class="wp-block-image [&>img]:w-full">
               <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-marketing/gallery2.jpg" alt="image">
             </figure>
             <!-- /wp:image -->
