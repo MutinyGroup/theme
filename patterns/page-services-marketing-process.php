@@ -162,7 +162,7 @@
             <!-- wp:list-item -->
             <li class="list-content-wrapper transition ease-out duration-[500ms]">
               <!-- wp:group -->
-              <div id="click-bar" class="wp-block-group click-bar group bg-white h-[56px] flex justify-between items-center px-[20px] cursor-pointer">
+              <div class="wp-block-group click-bar group bg-white h-[56px] flex justify-between items-center px-[20px] cursor-pointer">
                 <!-- wp:group -->
                 <div class="wp-block-group text-wrapper flex gap-[10px] desktop:gap-[20px]">
                   <!-- wp:paragraph -->
@@ -198,9 +198,9 @@
             <!-- /wp:list-item -->
 
             <!-- wp:list-item -->
-            <li class="list-content-wrapper transition ease-out duration-[500ms]">
+            <li id="click-bar" class="list-content-wrapper transition ease-out duration-[500ms]">
               <!-- wp:group -->
-              <div id="click-bar" class="wp-block-group click-bar group bg-white h-[56px] flex justify-between items-center px-[20px] cursor-pointer">
+              <div class="wp-block-group click-bar group bg-white h-[56px] flex justify-between items-center px-[20px] cursor-pointer">
                 <!-- wp:group -->
                 <div class="wp-block-group text-wrapper flex gap-[10px] desktop:gap-[20px]">
                   <!-- wp:paragraph -->
