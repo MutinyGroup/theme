@@ -178,8 +178,9 @@
                 <!-- wp:paragraph -->
                 <p class="mb-[30px] text-[20px] font-medium">Lorem ipsum dolor sit amet</p>
                 <!-- /wp:paragraph -->
-                <p class="leading-[21px] hidden desktop:block">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                 <!-- wp:paragraph -->
+                <p class="leading-[21px] hidden desktop:block">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <!-- /wp:paragraph -->
               </div>
               <!-- /wp:group -->
             </div>
