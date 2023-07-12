@@ -354,4 +354,5 @@ body{
  .active{
    min-height: 400px;
    opacity: 100%;
+   transition: all 0.5s ease-out;
  }
