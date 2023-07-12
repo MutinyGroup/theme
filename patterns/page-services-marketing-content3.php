@@ -15,7 +15,7 @@
   >
     <!-- wp:group -->
     <div
-      class="wp-block-group title-wrapper relative desktop:mb-[58px] mb-[40px] pt-[90px]"
+      class="wp-block-group title-wrapper relative desktop:mb-[58px] mb-[40px] desktop:pt-[90px] pt-[20px]"
     >
       <!-- wp:group -->
       <div
