@@ -107,7 +107,6 @@
     </div>
     <!-- /wp:group -->
 
-    <!-- --------------------------------------------- -->
 
     <!-- wp:group -->
     <div class="wp-block-group page-marketing-content my-[150px]">
@@ -117,9 +116,9 @@
       >
 
       <!-- wp:group -->
-      <div class="wp-block-group cols-wrapper flex gap-[75px]">
+      <div class="wp-block-group cols-wrapper desktop:flex gap-[75px]">
         <!-- wp:group -->
-        <div class=" wp-block-group col1 w-[50%]">
+        <div class=" wp-block-group col1 desktop:w-[50%]">
           <!-- wp:group -->
           <div class="wp-block-group img-clip-path-rounded mb-[20px]">
             <!-- wp:group -->
@@ -147,7 +146,7 @@
         </div>
         <!-- /wp:group -->
         <!-- wp:group -->
-        <div class="wp-block-group col2 w-[50%]">
+        <div class="wp-block-group col2 desktop:w-[50%]">
           <!-- wp:paragraph -->
           <p class="text-[35px] font-semibold mb-[50px]">Jak wygląda proces realizacji</p>
           <!-- /wp:paragraph -->
