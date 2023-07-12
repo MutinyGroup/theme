@@ -43,7 +43,7 @@
       <!-- wp:list -->
       <ul class="wp-block-list">
         <!-- wp:list-item -->
-        <li class="group bg-white h-[56px] flex justify-between px-[20px] cursor-pointer">
+        <li class="group bg-white h-[56px] flex justify-between items-center px-[20px] cursor-pointer">
           <!-- wp:group -->
           <div class="wp-block-group text-wrapper flex gap-[10px]">
             <!-- wp:paragraph -->
