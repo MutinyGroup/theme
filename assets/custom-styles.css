@@ -345,3 +345,13 @@ body{
    min-height: 525px;
    object-fit: cover;
  }
+
+ /* page services-marketing */
+ .in-active{
+  height: 0pxx;
+  opacity: 0%;
+}
+ .active{
+   height: fit-content;
+   opacity: 100%;
+ }
