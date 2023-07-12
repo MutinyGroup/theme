@@ -147,6 +147,7 @@
               <!-- /wp:group -->
             </div>
             <!-- /wp:group -->
+            <!-- wp:group -->
             <div class="wp-block-group swiper-slide swiper-slide-marketing relative p-[25px] desktop:max-w-[354px] max-w-[310px] h-[450px] mr-[8px]">
               <!-- wp:group -->
               <div class="wp-block-group w-full h-full rounded-[20px] overflow-hidden absolute left-0 top-0 z-[-1]">
@@ -159,6 +160,7 @@
               <!-- /wp:group -->
             </div>
             <!-- /wp:group -->
+            <!-- wp:group -->
             <div class="wp-block-group swiper-slide swiper-slide-marketing relative p-[25px] desktop:max-w-[354px] max-w-[310px] h-[450px] mr-[8px]">
               <!-- wp:group -->
               <div class="wp-block-group w-full h-full rounded-[20px] overflow-hidden absolute left-0 top-0 z-[-1]">
@@ -171,6 +173,7 @@
               <!-- /wp:group -->
             </div>
             <!-- /wp:group -->
+            <!-- wp:group -->
             <div class="wp-block-group swiper-slide swiper-slide-marketing relative p-[25px] desktop:max-w-[354px] max-w-[310px] h-[450px] mr-[8px]">
               <!-- wp:group -->
               <div class="wp-block-group w-full h-full rounded-[20px] overflow-hidden absolute left-0 top-0 z-[-1]">
@@ -183,6 +186,7 @@
               <!-- /wp:group -->
             </div>
             <!-- /wp:group -->
+            <!-- wp:group -->
             <div class="wp-block-group swiper-slide swiper-slide-marketing relative p-[25px] desktop:max-w-[354px] max-w-[310px] h-[450px] mr-[8px]">
               <!-- wp:group -->
               <div class="wp-block-group w-full h-full rounded-[20px] overflow-hidden absolute left-0 top-0 z-[-1]">
@@ -195,8 +199,6 @@
               <!-- /wp:group -->
             </div>
             <!-- /wp:group -->
-
-
           </div>
           <!-- /wp:group -->
         </div>
