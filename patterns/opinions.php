@@ -31,7 +31,7 @@
     <div class="wp-block-group swiper-section-wrapper relative desktop:flex">
 
       <!-- wp:group -->
-      <div class="wp-block-group swiper-nav-wrapper desktop:block hidden relative basis-[50%] z-0">
+      <div class="wp-block-group swiper-nav-wrapper desktop:block hidden relative basis-[40%] z-0">
         <!-- wp:group -->
         <div id="opinions-prev" class="wp-block-group group swiper-button-prev w-[56px] h-[56px] absolute desktop:top-[60px] top-[0px] desktop:left-[170px] left-[130px]">
           <!-- wp:paragraph -->
@@ -64,7 +64,7 @@
       <!-- /wp:group -->
 
       <!-- wp:group -->
-      <div id="opinions" class="wp-block-group swiper swiperOpinions">
+      <div id="opinions" class="wp-block-group swiper swiperOpinions basis-[60%]">
         <!-- wp:group -->
         <div class="wp-block-group swiper-wrapper">
           <!-- wp:group -->
