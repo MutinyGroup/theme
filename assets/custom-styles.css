@@ -2,6 +2,7 @@
 
 body{
   font-family: 'Urbanist', sans-serif;
+  scroll-behavior: smooth;
 }
 /* bright subpages */
 .page-id-99,
