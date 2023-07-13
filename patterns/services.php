@@ -74,7 +74,7 @@
     </div>
     <!-- /wp:group -->
     <!-- wp:group -->
-    <div class="wp-block-group circle-title desktop:w-[120px] desktop:h-[120px] w-[110px] h-[110px] mx-0 text-center leading-[50px] flex items-center justify-center flex-col rounded-full border border-[4px] border-[#D5D5D5] absolute desktop:top-[150px] top-[80px] desktop:left-[180px] left-[80px] translate-x-[-50%]">
+    <div class="wp-block-group circle-title desktop:w-[120px] desktop:h-[120px] w-[110px] h-[110px] mx-0 text-center leading-[50px] flex items-center justify-center flex-col rounded-full border border-[4px] border-[#D5D5D5] absolute desktop:top-[150px] top-[110px] desktop:left-[180px] left-[80px] translate-x-[-50%]">
       <!-- wp:paragraph -->
       <p class="self-center leading-[0px] desktop:text-[14px] text-[13px]">Marketing na</p>
       <!-- /wp:paragraph -->
