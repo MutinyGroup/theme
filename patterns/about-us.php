@@ -8,7 +8,7 @@
 ?>
 
 <!-- wp:group -->
-<div class="wp-block-group o-nas desktop:mb-[150px] mb-[200px]">
+<div id="about" class="wp-block-group o-nas desktop:mb-[150px] mb-[200px]">
   <!-- wp:group -->
   <div class="wp-block-group relative desktop:px-0 px-[20px]">
     <!-- wp:group -->
