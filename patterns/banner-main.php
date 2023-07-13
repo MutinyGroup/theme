@@ -41,9 +41,18 @@
       </figure>
       <!-- /wp:image -->
       <!-- wp:group -->
-      <div class="wp-block-group bg-shape w-[1220px] h-[750px] z-[-1] opacity-[0.25] absolute top-[130px] left-[-320px] bg-[url('https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/front-page/banner-bg-shape.png')] bg-center bg-no-repeat bg-cover">
+      <div class="wp-block-group hidden old bg-shape w-[1220px] h-[750px] z-[-1] opacity-[0.25] absolute top-[130px] left-[-320px] bg-[url('https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/front-page/banner-bg-shape.png')] bg-center bg-no-repeat bg-cover">
       </div>
       <!-- /wp:group -->
+
+      <!-- wp:image -->
+      <figure class="wp-block-image bg-shape w-[1220px] h-[750px] z-[-1] opacity-[0.25] absolute top-[130px] left-[-320px]">
+        <img
+          src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/front-page/banner-bg-shape.png"
+          alt="background image"
+        />
+      </figure>
+      <!-- /wp:image -->
 
       <!-- wp:paragraph -->
       <p class="company-title font-normal text-[16px] leading-[125%]">Mutiny Group</p>
