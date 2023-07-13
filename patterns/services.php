@@ -19,6 +19,36 @@
         <!-- /wp:paragraph -->
       </div>
       <!-- /wp:group -->
+
+      <!-- wp:paragraph -->
+      <svg class="flash block desktop:hidden2 desktop:scale-[1] scale-[0.5] absolute desktop:top-[-260px] top-[-350px] desktop:left-[-140px] right-[-90px] z-[-1]" xmlns="http://www.w3.org/2000/svg" width="688" height="801" viewBox="0 0 688 801" fill="none">
+        <g filter="url(#filter0_f_1787_1988)">
+        <circle cx="287.132" cy="400.132" r="150" transform="rotate(-45 287.132 400.132)" fill="url(#paint0_linear_1787_1988)" fill-opacity="0.5"/>
+        </g>
+        <defs>
+        <filter id="filter0_f_1787_1988" x="-112.868" y="0.131836" width="800" height="800" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+        <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+        <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+        <feGaussianBlur stdDeviation="125" result="effect1_foregroundBlur_1787_1988"/>
+        </filter>
+        <linearGradient id="paint0_linear_1787_1988" x1="287.132" y1="250.132" x2="287.132" y2="550.132" gradientUnits="userSpaceOnUse">
+        <stop stop-color="#FEC400" stop-opacity="0.6"/>
+        <stop offset="1" stop-color="#FEC400" stop-opacity="0"/>
+        </linearGradient>
+        </defs>
+      </svg>
+      <!-- /wp:paragraph -->
+
+      <!-- wp:image -->
+      <figure class="wp-block-image hidden2 desktop:block absolute desktop:left-[-140px] desktop:scale-[1] desktop:top-[-170px] flash hidden left-[-110px] scale-[0.8] top-[-140px] z-[-1]">
+        <img
+          src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/bg-yellow-flash.png"
+          alt="background image"
+        />
+      </figure>
+      <!-- /wp:image -->
+
+
       <!-- wp:group -->
       <div class="wp-block-group bg-shape w-[440px] h-[394px] z-[-1] opacity-[0.20] absolute top-[0px] right-[10px] bg-[url('https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/front-page/services-bg-shape.png')] bg-center bg-no-repeat bg-contain">
         <!-- wp:paragraph -->
