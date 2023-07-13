@@ -88,7 +88,7 @@
     <!-- /wp:group -->
 
     <!-- wp:paragraph -->
-    <a href="#about" class="wp-block-buttons desktop:w-[175px] w-[140px] desktop:h-[175px] h-[140px] mx-0 text-center rounded-full border desktop:border-[4px] border-[3px] border-[#D5D5D5] absolute top-[530px] desktop:top-[550px] wide:top-[720px] desktop:left-[56%] left-[50%] translate-x-[-50%] hover:border-none hover:bg-primaryYellow hover:text-white transition ease-out duration-300 flex flex-col justify-center items-center gap-y-0 cursor-pointer is-layout-flex">
+    <a href="#about" class="wp-block-buttons desktop:w-[175px] w-[140px] desktop:h-[175px] h-[140px] mx-0 text-center rounded-full border desktop:border-[4px] border-[3px] border-[#D5D5D5] absolute top-[520px] desktop:top-[550px] wide:top-[720px] desktop:left-[56%] left-[50%] translate-x-[-50%] hover:border-none hover:bg-primaryYellow hover:text-white transition ease-out duration-300 flex flex-col justify-center items-center gap-y-0 cursor-pointer is-layout-flex">
       <!-- wp:paragraph -->
       <p>Zobacz</p>
       <!-- /wp:paragraph -->
