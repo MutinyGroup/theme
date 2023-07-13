@@ -51,7 +51,7 @@
         <div class="wp-block-group swiper-wrapper">
 
           <!-- wp:group -->
-          <div class="wp-block-list flex flex-wrap justify-between gap-x-[60px] gap-y-[180px]">
+          <div class="wp-block-group flex flex-wrap justify-between gap-x-[60px] gap-y-[180px]">
             <?php
               $args = array(
                   'post_type' => 'post',
