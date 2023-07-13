@@ -18,7 +18,7 @@
       </div>
       <!-- /wp:group -->
       <!-- wp:paragraph -->
-      <svg class="flash desktop:scale-[1] scale-[0.5] absolute desktop:top-[-330px] top-[-360px] desktop:left-[-140px] right-[-140px] z-[-1]" xmlns="http://www.w3.org/2000/svg" width="688" height="801" viewBox="0 0 688 801" fill="none">
+      <svg class="flash hidden desktop:scale-[1] scale-[0.5] absolute desktop:top-[-330px] top-[-360px] desktop:left-[-140px] right-[-140px] z-[-1]" xmlns="http://www.w3.org/2000/svg" width="688" height="801" viewBox="0 0 688 801" fill="none">
         <g filter="url(#filter0_f_1787_1988)">
         <circle cx="287.132" cy="400.132" r="150" transform="rotate(-45 287.132 400.132)" fill="url(#paint0_linear_1787_1988)" fill-opacity="0.5"/>
         </g>
@@ -35,6 +35,16 @@
         </defs>
       </svg>
       <!-- /wp:paragraph -->
+
+      <!-- wp:image -->
+      <figure class="wp-block-image flash  desktop:scale-[1] scale-[0.5] absolute desktop:top-[-330px] top-[-360px] desktop:left-[-140px] right-[-140px] z-[-1]">
+        <img
+          src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/front-page/banner-bg.png"
+          alt="background image"
+        />
+      </figure>
+      <!-- /wp:image -->
+
       <!-- wp:group -->
       <div class="wp-block-group w-[300px] h-[300px] desktop:hidden block z-[-1] bg-flash-png absolute top-[-40px] left-[-20px] bg-[url('https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/bg-flash.png')] bg-center bg-no-repeat bg-cover scale-[2]">
       </div>
