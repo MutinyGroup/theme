@@ -40,7 +40,7 @@
       <!-- /wp:paragraph -->
 
       <!-- wp:image -->
-      <figure class="wp-block-image hidden2 desktop:block absolute desktop:left-[-140px] desktop:scale-[1] desktop:top-[-170px] flash hidden left-[-110px] scale-[0.8] top-[-140px] z-[-1]">
+      <figure class="wp-block-image flash desktop:scale-[1] scale-[0.5] absolute desktop:top-[-260px] top-[-280px] desktop:left-[-140px] left-[-200px] z-[-1]">
         <img
           src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/bg-yellow-flash.png"
           alt="background image"
