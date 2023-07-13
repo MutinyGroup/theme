@@ -8,7 +8,7 @@
 ?>
 
 <!-- wp:group {"templateLock":"contentOnly"} -->
-<div class="wp-block-group banner relative desktop:mb-[150px] mb-[65px] desktop:pt-[150px] pt-[120px] overflow-hidden">
+<div class="wp-block-group banner relative mb-0 desktop:pt-[150px] pt-[120px] overflow-hidden">
   <!-- wp:group -->
   <div class="wp-block-group container mx-auto desktop:px-0 px-[20px] wide:h-[1180px] desktop:h-[790px] h-[700px]">
     <!-- wp:group -->
