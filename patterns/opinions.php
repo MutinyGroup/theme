@@ -64,7 +64,7 @@
       <!-- /wp:group -->
 
       <!-- wp:group -->
-      <div id="opinions" class="wp-block-group swiper swiperOpinions desktop:max-w-[500px]">
+      <div id="opinions-dark" class="wp-block-group swiper swiperOpinions desktop:max-w-[500px]">
         <!-- wp:group -->
         <div class="wp-block-group swiper-wrapper">
           <!-- wp:group -->

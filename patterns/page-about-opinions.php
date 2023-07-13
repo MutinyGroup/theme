@@ -63,7 +63,7 @@
       <!-- /wp:group -->
 
       <!-- wp:group -->
-      <div id="opinions" class="wp-block-group swiper swiperOpinions">
+      <div id="opinions-bright" class="wp-block-group swiper swiperOpinions">
         <!-- wp:group -->
         <div class="wp-block-group swiper-wrapper">
           <!-- wp:group -->
