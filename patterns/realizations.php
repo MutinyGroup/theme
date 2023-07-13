@@ -9,7 +9,7 @@
 <!-- wp:group -->
 <div class="wp-block-group realizacje relative desktop:mb-[150px] desktop:pt-[220px] pt-[200px] desktop:mb-[200px] mb-[60px] overflow-hidden">
   <!-- wp:image -->
-  <figure class="wp-block-image bg-shape w-[1440px] h-[815px] z-[-1] opacity-[0.16] absolute top-[130px] desktop:left-[80px] left-[-250px]">
+  <figure class="wp-block-image bg-shape w-[1440px] h-[815px] z-[-1] opacity-[0.16] absolute top-[130px] desktop:left-[250px] left-[-80px]">
     <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/front-page/realizations-bg-shape.png" alt="realizations-backgroun-image">
   </figure>
   <!-- /wp:image -->
