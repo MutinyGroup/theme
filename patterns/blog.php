@@ -11,12 +11,12 @@
   <!-- wp:group -->
   <div class="wp-block-group relative ">
     <!-- wp:group -->
-    <div class="wp-block-group title-wrapper relative container mx-auto desktop:px-0 px-[20px] desktop:mb-[90px] mb-[40px] flex gap-[20px]">
+    <div class="wp-block-group title-wrapper relative container mx-auto desktop:px-0 px-[20px] desktop:mb-[0px] mb-[40px] flex gap-[20px]">
       <!-- wp:group -->
       <div class="wp-block-group bg-flash scale-[0.8]"></div>
       <!-- /wp:group -->
       <!-- wp:image -->
-      <figure class="wp-block-image bg-shape desktop:w-[234px] w-[125px] z-[-1] opacity-[0.2] absolute desktop:top-[-130px] top-[-60px] desktop:left-[-60px] left-[-10px] mb-[20px] desktop:max-w-[444px] max-h-[450px]">
+      <figure class="wp-block-image bg-shape desktop:w-[234px] w-[125px] z-[-1] opacity-[0.3] absolute desktop:top-[-130px] top-[-60px] desktop:left-[-10px] left-[-10px] mb-[20px] desktop:max-w-[444px] max-h-[450px]">
         <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/front-page/blog-bg-shape.png" alt="background-shape">
       </figure>
       <!-- /wp:image -->
@@ -26,7 +26,7 @@
       </figure>
       <!-- /wp:image -->
       <!-- wp:paragraph -->
-      <p class="section-title uppercase text-primaryYellow">Blog</p>
+      <p class="section-title uppercase text-primaryYellow">Aktualności</p>
       <!-- /wp:paragraph -->
       <!-- wp:group -->
       <div class="wp-block-group uslugi-title desktop:leading-[55px] leading-[30px]">
@@ -46,7 +46,7 @@
     <!-- wp:group -->
     <div class="wp-block-group old hidden desktop:mt-[-120px] w-full overflow-hidden">
       <!-- wp:group {"attributes":"[data-swiper-blog="init"]"} -->
-      <div id="blog" class="wp-block-group block swiper swiperBlog mt-[-170px] pt-[160px] absolute top-0 left-[100px]">
+      <div id="blog" class="wp-block-group block swiper swiperBlog mt-[-170px] pt-[160px] absolute top-[-50px] left-[100px]">
         <!-- wp:group -->
         <div class="wp-block-group swiper-wrapper">
           <!-- wp:group -->
