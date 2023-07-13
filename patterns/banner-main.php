@@ -39,7 +39,7 @@
       <!-- wp:image -->
       <figure class="wp-block-image flash  desktop:scale-[1] scale-[0.5] absolute desktop:top-[-330px] top-[-360px] desktop:left-[-140px] right-[-140px] z-[-1]">
         <img
-          src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/front-page/banner-bg.png"
+          src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/bg-yellow-flash.png"
           alt="background image"
         />
       </figure>
