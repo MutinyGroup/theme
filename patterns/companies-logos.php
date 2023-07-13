@@ -64,7 +64,7 @@
     <!-- /wp:group -->
 
     <!-- wp:group -->
-    <div class="wp-block-group companies-wrapper hidden desktop:flex desktop:gap-x-[110px] desktop:gap-y-[40px] gap-[40px] flex-wrap items-center justify-between">
+    <div class="wp-block-group companies-wrapper hidden desktop:flex gap-x-[110px] gap-y-[40px] gap-[40px] flex-wrap items-center justify-between">
       <!-- wp:core/image -->
       <figure class="swiper-slide wp-block-image desktop:w-[165px] w-[125px] h-auto self-center">
         <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/front-page/logo companies/logo-serenada.png" alt="logo-serenada">
