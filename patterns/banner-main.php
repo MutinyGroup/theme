@@ -50,7 +50,7 @@
       </div>
       <!-- /wp:group -->
       <!-- wp:group -->
-      <div class="wp-block-group bg-shape w-[1220px] h-[750px] z-[-1] opacity-[0.25] absolute top-[130px] left-[-320px] bg-[url('https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/banner-bg-shape.png')] bg-center bg-no-repeat bg-cover">
+      <div class="wp-block-group bg-shape w-[1220px] h-[750px] z-[-1] opacity-[0.25] absolute top-[130px] left-[-320px] bg-[url('https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/front-page/banner-bg-shape.png')] bg-center bg-no-repeat bg-cover">
       </div>
       <!-- /wp:group -->
 
