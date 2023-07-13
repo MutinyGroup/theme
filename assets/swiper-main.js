@@ -127,7 +127,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
 
   new Swiper('#marketing2', {
     direction: "horizontal",
-    slidesPerView: 'auto',
+    slidesPerView: 1,
     clickable: true,
     grabCursor: true,
     navigation: {
