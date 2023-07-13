@@ -98,7 +98,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
       renderFraction: function (currentClass, totalClass) {
         return '<span class="mr-[10px] ' + currentClass + '"></span>' +
                 ' / ' +
-                '<span class="ml-[10px] text-black text-[20px] ' + totalClass + '"></span>';
+                '<span class="ml-[10px] text-white text-[20px] ' + totalClass + '"></span>';
       }
     },
     navigation: {
