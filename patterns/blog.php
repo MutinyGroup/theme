@@ -7,7 +7,7 @@
  */
 ?>
 <!-- wp:group -->
-<div class="wp-block-group blog desktop:pt-[100px] pt-0 desktop:mb-[150px] mb-[60px]">
+<div class="wp-block-group blog desktop:pt-[100px] pt-0 mb-0">
   <!-- wp:group -->
   <div class="wp-block-group relative ">
     <!-- wp:group -->
