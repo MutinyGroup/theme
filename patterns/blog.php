@@ -150,9 +150,9 @@
                       <!-- /wp:paragraph -->
 
                       <!-- wp:paragraph -->
-                      <p class="subtitle inline text-[23px] font-medium leading-[30px] border-b-[1px] border-transparent group-hover:border-primaryYellow group-hover:text-primaryYellow transition ease-out duration-[800ms]">
+                      <a href="<?php the_permalink(); ?>" class="subtitle inline text-[23px] font-medium leading-[30px] border-b-[1px] border-transparent group-hover:border-primaryYellow group-hover:text-primaryYellow transition ease-out duration-[800ms]">
                         <?php the_title(); ?>
-                      </p>
+                      </a>
                       <!-- /wp:paragraph -->
                     </div>
                     <!-- /wp:group -->                    
