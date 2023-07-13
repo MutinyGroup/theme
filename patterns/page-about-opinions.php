@@ -29,27 +29,28 @@
     
     <!-- wp:group -->
     <div class="wp-block-group swiper-section-wrapper relative desktop:flex">
+
       <!-- wp:group -->
-      <div class="wp-block-group swiper-nav-wrapper desktop:block hidden relative basis-[50%] z-0">
+      <div class="wp-block-group swiper-nav-wrapper desktop:block hidden relative w-[40%] z-2">
         <!-- wp:group -->
-        <div id="opinions-prev" class="wp-block-group group swiper-button-prev w-[56px] h-[56px] absolute desktop:top-[60px] top-[0px] desktop:left-[170px] left-[130px]">
+        <div id="opinions-prev" class="wp-block-group group swiper-button-prev w-[56px] h-[56px] absolute desktop:top-[60px] top-[0px] desktop:left-[200px] left-[130px]">
           <!-- wp:paragraph -->
-          <svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 56 56" fill="none" class="rotate-180 group fill-transparent group-hover:fill-[#FEC400]">
-            <rect x="1.5" y="1.5" width="53" height="53" rx="26.5" stroke="#AAAAAA" stroke-width="3" class="group-hover:stroke-primaryYellow transition-stroke ease-out duration-500"/>
-            <path d="M28 35L35 28.0189L28.0379 21" stroke="black" stroke-width="1.5" class="group-hover:stroke-black transition-stroke ease-out duration-500"/>
-            <path d="M20 28L31 28" stroke="black" stroke-width="1.5" class="group-hover:stroke-black transition-stroke ease-out duration-500"/>
+          <svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 56 56" fill="none" class="rotate-180 group fill-transparent group-hover:fill-white">
+            <rect x="1.5" y="1.5" width="53" height="53" rx="26.5" stroke="#D5D5D5" stroke-width="3" class="group-hover:stroke-white transition-stroke ease-out duration-500"/>
+            <path d="M28 35L35 28.0189L28.0379 21" stroke="white" stroke-width="1.5" class="group-hover:stroke-black transition-stroke ease-out duration-500"/>
+            <path d="M20 28L31 28" stroke="white" stroke-width="1.5" class="group-hover:stroke-black transition-stroke ease-out duration-500"/>
           </svg>
           <!-- /wp:paragraph -->
         </div>
         <!-- /wp:group -->
 
         <!-- wp:group -->
-        <div id="opinions-next" class="wp-block-group group swiper-button-next w-[56px] h-[56px] absolute desktop:top-[60px] top-[0px] desktop:left-[240px] left-[200px]">
+        <div id="opinions-next" class="wp-block-group group swiper-button-next w-[56px] h-[56px] absolute desktop:top-[60px] top-[0px] desktop:left-[270px] left-[200px]">
           <!-- wp:paragraph -->
-          <svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 56 56" fill="none" class="group fill-transparent group-hover:fill-primaryYellow">
-            <rect x="1.5" y="1.5" width="53" height="53" rx="26.5" stroke="#AAAAAA" stroke-width="3" class="group-hover:stroke-primaryYellow transition-stroke ease-out duration-500"/>
-            <path d="M28 35L35 28.0189L28.0379 21" stroke="black" stroke-width="1.5" class="group-hover:stroke-black transition-stroke ease-out duration-500"/>
-            <path d="M20 28L31 28" stroke="black" stroke-width="1.5" class="group-hover:stroke-black transition-stroke ease-out duration-500"/>
+          <svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 56 56" fill="none" class="group fill-transparent group-hover:fill-white">
+            <rect x="1.5" y="1.5" width="53" height="53" rx="26.5" stroke="#D5D5D5" stroke-width="3" class="group-hover:stroke-white transition-stroke ease-out duration-500"/>
+            <path d="M28 35L35 28.0189L28.0379 21" stroke="white" stroke-width="1.5" class="group-hover:stroke-black transition-stroke ease-out duration-500"/>
+            <path d="M20 28L31 28" stroke="white" stroke-width="1.5" class="group-hover:stroke-black transition-stroke ease-out duration-500"/>
         </svg>
           <!-- /wp:paragraph -->
         </div>
@@ -63,7 +64,7 @@
       <!-- /wp:group -->
 
       <!-- wp:group -->
-      <div id="opinions-bright" class="wp-block-group swiper swiperOpinions">
+      <div id="opinions-dark" class="wp-block-group swiper swiperOpinions desktop:max-w-[464px] ml-0 overflow-visible">
         <!-- wp:group -->
         <div class="wp-block-group swiper-wrapper">
           <!-- wp:group -->
