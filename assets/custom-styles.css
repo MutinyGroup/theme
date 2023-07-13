@@ -270,6 +270,7 @@ body{
 /* swiper opinions */
 .swiperOpinions .swiper-wrapper .swiper-slide{
   transition: opacity 0.3s ease-out;
+  opacity: 0%
 }
 
 .swiperOpinions .swiper-wrapper .swiper-slide-prev,
