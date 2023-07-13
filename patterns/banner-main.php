@@ -37,18 +37,13 @@
       <!-- /wp:paragraph -->
 
       <!-- wp:image -->
-      <figure class="wp-block-image flash  desktop:scale-[1] scale-[0.5] absolute desktop:top-[-330px] top-[-360px] desktop:left-[-140px] right-[-140px] z-[-1]">
+      <figure class="wp-block-image absolute desktop:left-[-140px] desktop:scale-[1] desktop:top-[-170px] flash hidden left-[-110px] scale-[0.8] top-[-140px] z-[-1]">
         <img
           src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/bg-yellow-flash.png"
           alt="background image"
         />
       </figure>
       <!-- /wp:image -->
-
-      <!-- wp:group -->
-      <div class="wp-block-group w-[300px] h-[300px] desktop:hidden block z-[-1] bg-flash-png absolute top-[-40px] left-[-20px] bg-[url('https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/bg-flash.png')] bg-center bg-no-repeat bg-cover scale-[2]">
-      </div>
-      <!-- /wp:group -->
       <!-- wp:group -->
       <div class="wp-block-group bg-shape w-[1220px] h-[750px] z-[-1] opacity-[0.25] absolute top-[130px] left-[-320px] bg-[url('https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/front-page/banner-bg-shape.png')] bg-center bg-no-repeat bg-cover">
       </div>
