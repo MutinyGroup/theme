@@ -369,6 +369,6 @@ body{
    width: 100%;
  }
 
-#movie_player > div.ytp-cued-thumbnail-overlay > div{
+.wp-block-video{
   background-image: url('https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-about/about-video.jpg')!important;
 }
