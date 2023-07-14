@@ -69,6 +69,12 @@
     <!-- wp:core/video -->
     <figure class="wp-block-video"><video controls src="https://www.youtube.com/watch?v=HaJAtHhVzC0&pp=ygUFbXVzaWM%3D"></video><figcaption class="wp-element-caption">My video</figcaption></figure>
     <!-- /wp:core/video -->
+
+    <iframe width="420" height="315"
+    src="https://www.youtube.com/watch?v=HaJAtHhVzC0&pp=ygUFbXVzaWM%3D">
+    </iframe>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/HaJAtHhVzC0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
   </div>
   <!-- /wp:group -->
 </div>
