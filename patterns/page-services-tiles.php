@@ -53,7 +53,7 @@
       <!-- /wp:paragraph -->
       <!-- wp:paragraph -->
       <p
-        class="section-title desktop:basis-auto desktop:w-[145px] uppercase text-primaryYellow"
+        class="section-title desktop:basis-auto desktop:w-[145px] uppercase text-primaryYellow text-right pr-[20px]"
       >
         Marketing robimy kompleksowo
       </p>
