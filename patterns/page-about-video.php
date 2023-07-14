@@ -71,7 +71,7 @@
     <figure class="wp-block-video">
       <video controls src="https://www.youtube.com/embed/HaJAtHhVzC0"></video>
       <figcaption class="wp-element-caption">My video</figcaption>
-      <iframe class="w-full h-[560px] video-player bg-[url('https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-about/about-video.jpg')]" width="560" height="315" src="https://www.youtube.com/embed/HaJAtHhVzC0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      <iframe class="w-full h-[560px] video-player" width="560" height="315" src="https://www.youtube.com/embed/HaJAtHhVzC0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </figure>
     <!-- /wp:video -->
 
