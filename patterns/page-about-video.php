@@ -65,6 +65,10 @@
       <!-- /wp:paragraph -->
     </div>
     <!-- /wp:group -->
+
+    <!-- wp:core/video -->
+    <figure class="wp-block-video"><video controls src="https://www.youtube.com/watch?v=HaJAtHhVzC0&pp=ygUFbXVzaWM%3D"></video><figcaption class="wp-element-caption">My video</figcaption></figure>
+    <!-- /wp:core/video -->
   </div>
   <!-- /wp:group -->
 </div>
