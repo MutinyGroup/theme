@@ -370,5 +370,5 @@ body{
  }
 
 .ytp-cued-thumbnail-overlay-image{
-  background-image: url(./img/page-about/about-video.jpg);
+  background-image: url(./img/page-about/about-video.jpg)!important;
 }
