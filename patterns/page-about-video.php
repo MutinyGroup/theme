@@ -67,7 +67,10 @@
     <!-- /wp:group -->
 
     <!-- wp:core/video {"src":"https://www.youtube.com/embed/HaJAtHhVzC0"} -->
-    <figure class="wp-block-video"><video controls src="https://www.youtube.com/embed/HaJAtHhVzC0"></video><figcaption class="wp-element-caption">My video</figcaption></figure>
+    <figure class="wp-block-video">
+      <video src="https://www.youtube.com/embed/HaJAtHhVzC0"></video>
+      <figcaption class="wp-element-caption">My video</figcaption>
+    </figure>
     <!-- /wp:core/video -->
 
     <!-- wp:core/video -->
