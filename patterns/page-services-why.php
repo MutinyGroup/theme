@@ -39,7 +39,7 @@
       <p
         class="section-title desktop:basis-auto desktop:w-[145px] basis-[20%] uppercase text-primaryYellow"
       >
-        Nasze podejście
+        Nasze <br> podejście
       </p>
       <!-- /wp:paragraph -->
       <!-- wp:group -->
