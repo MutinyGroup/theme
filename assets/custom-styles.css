@@ -368,3 +368,7 @@ body{
  .marketing-gallery img{
    width: 100%;
  }
+
+ #movie_player > div.ytp-cued-thumbnail-overlay > div{
+   background-image: url(./img/page-about/about-video.jpg);
+ }
