@@ -366,5 +366,9 @@ body{
  }
 
  .marketing-gallery img{
-   width: 100%;
+  width: 100%;
+ }
+
+ #movie_player > div.ytp-cued-thumbnail-overlay{
+  background-image: url(https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-about/about-video.jpg);
  }
