@@ -67,8 +67,9 @@
     <!-- /wp:group -->
 
 
-    <!-- wp:video {"src":"https://www.youtube.com/embed/HaJAtHhVzC0"} -->
+    <!-- wp:video -->
     <figure class="wp-block-video">
+      <video controls src="https://www.youtube.com/embed/HaJAtHhVzC0"></video>
       <figcaption class="wp-element-caption">My video</figcaption>
       <iframe class="w-full h-[560px]" width="560" height="315" src="https://www.youtube.com/embed/HaJAtHhVzC0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </figure>
