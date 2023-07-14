@@ -73,6 +73,26 @@
     </figure>
     <!-- /wp:core/video -->
 
+    <!-- wp:core/video  -->
+    <figure class="wp-block-video">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/HaJAtHhVzC0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      <figcaption class="wp-element-caption">My video</figcaption>
+    </figure>
+    <!-- /wp:core/video -->
+
+    <!-- wp:core/video {"src":"https://www.youtube.com/embed/HaJAtHhVzC0"} -->
+    <!-- /wp:core/video -->
+
+    <!-- wp:core/video {"src":"https://www.youtube.com/watch?v=BqU9LUaZa18"} -->
+    <!-- /wp:core/video -->
+
+    <!-- wp:core/video {"src":"https://www.youtube.com/embed/HaJAtHhVzC0"} /-->
+
+    <!-- wp:core/video {"src":"https://www.youtube.com/watch?v=BqU9LUaZa18"} /-->
+
+    
+
+
     <!-- wp:core/video -->
     <iframe width="560" height="315" src="https://www.youtube.com/embed/HaJAtHhVzC0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     <!-- /wp:core/video -->
