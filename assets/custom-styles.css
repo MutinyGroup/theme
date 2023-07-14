@@ -369,6 +369,6 @@ body{
    width: 100%;
  }
 
- #movie_player > div.ytp-cued-thumbnail-overlay > div{
-   background-image: url(./img/page-about/about-video.jpg);
- }
+.ytp-cued-thumbnail-overlay-image{
+  background-image: url(./img/page-about/about-video.jpg);
+}
