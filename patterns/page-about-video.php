@@ -91,12 +91,9 @@
     <figcaption class="wp-element-caption">podpis2 watch</figcaption></figure>
     <!-- /wp:embed -->
 
-    <!-- wp:embed {"url":"https://www.youtube.com/embed/QZXc39hT8t4","type":"video"} -->
+    <!-- wp:embed {"url":"https://www.youtube.com/embed/QZXc39hT8t4","type":"video","providerNameSlug":"youtube"} -->
     <figure class="wp-block-embed is-type-video">
         <div class="wp-block-embed__wrapper">
-        <iframe width="420" height="315"
-        src="https://www.youtube.com/embed/QZXc39hT8t4">
-        </iframe>
         https://www.youtube.com/embed/QZXc39hT8t4
         </div>
         <figcaption class="wp-element-caption">Embedded content from an example URL</figcaption>
