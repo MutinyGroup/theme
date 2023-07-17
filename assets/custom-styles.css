@@ -389,3 +389,6 @@ body{
 .contact-from-wp-panel{
   padding: 10px 20px!important;
 }
+.wp-block-navigation__container{
+  gap: 50px;
+}
