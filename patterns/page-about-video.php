@@ -78,8 +78,9 @@
     
 
     <!-- wp:core/video -->
-<figure class="wp-block-video"><video controls src="https://www.youtube.com/embed/EdtvX7uiZqU"></video><figcaption class="wp-element-caption">My video</figcaption></figure>
-<!-- /wp:core/video -->
+    <figure class="wp-block-video"><video controls src="https://www.youtube.com/watch?v=8J_3FzsT6Tw
+    "></video><figcaption class="wp-element-caption">My video</figcaption></figure>
+    <!-- /wp:core/video -->
 
 
   </div>
