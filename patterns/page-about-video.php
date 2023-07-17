@@ -94,7 +94,7 @@
     <!-- wp:embed {"url":"https://www.youtube.com/embed/QZXc39hT8t4","type":"video","providerNameSlug":"youtube"} -->
     <figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube">
         <div class="wp-block-embed__wrapper">
-        https://www.youtube.com/embed/QZXc39hT8t4
+        https://www.youtube.com/watch?v=QZXc39hT8t4
         </div>
         <figcaption class="wp-element-caption">Embedded content from an example URL</figcaption>
     </figure>
