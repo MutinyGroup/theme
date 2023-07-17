@@ -382,6 +382,12 @@ body{
 .wp-block-navigation-item{
   font-size: 16px!important;
   font-weight: 600;
+  border-bottom: 2px transparent solid; 
+ }
+ .wp-block-navigation-item:hover{
+  border-bottom: 2px #FEC400 solid;
+  color: #AAA;
+  transition: all 0.3s ease-out; 
  }
 .current-menu-item{
   color: #FEC400;
