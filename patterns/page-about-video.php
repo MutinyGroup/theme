@@ -92,7 +92,7 @@
     <!-- /wp:embed -->
 
     <!-- wp:embed {"url":"https://www.youtube.com/embed/QZXc39hT8t4","type":"video"} -->
-    <figure class="wp-block-embed">
+    <figure class="wp-block-embed is-type-video">
         <div class="wp-block-embed__wrapper">
         </div>
         <figcaption class="wp-element-caption">Embedded content from an example URL</figcaption>
