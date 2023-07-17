@@ -379,8 +379,8 @@ body{
 .wp-block-navigation__responsive-close{
   max-width: 670px;
 }
- .wp-block-navigation-item{
-  font-size: 15px;
+.wp-block-navigation-item{
+  font-size: 16px!important;
   font-weight: 600;
  }
 .current-menu-item{
