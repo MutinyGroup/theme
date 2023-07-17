@@ -67,26 +67,7 @@
     <!-- /wp:group -->
 
 
-    <!-- wp:video -->
-    <figure class="wp-block-video">
-      <video controls src="https://www.youtube.com/watch?v=8J_3FzsT6Tw"></video>
-      <figcaption class="wp-element-caption">My video1</figcaption>
-      <iframe class="w-full h-[560px] video-player" width="560" height="315" src="https://www.youtube.com/embed/HaJAtHhVzC0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-    </figure>
-    <!-- /wp:video -->
 
-    
-
-    <!-- wp:core/video -->
-    <figure class="wp-block-video">
-      <video controls src="https://www.youtube.com/watch?v=8J_3FzsT6Tw"></video>
-      <figcaption class="wp-element-caption">My video2</figcaption>
-    </figure>
-    <!-- /wp:core/video -->
-
-    <!-- wp:video -->
-    <iframe class="wp-block-video w-full h-[560px] video-player" width="560" height="315" src="https://www.youtube.com/embed/HaJAtHhVzC0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-    <!-- /wp:video -->
 
 
   </div>
