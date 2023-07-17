@@ -91,6 +91,15 @@
     <figcaption class="wp-element-caption">podpis2 watch</figcaption></figure>
     <!-- /wp:embed -->
 
+    <!-- wp:embed {"url":"https://example.com/"} -->
+    <figure class="wp-block-embed">
+        <div class="wp-block-embed__wrapper">
+            https://example.com/
+        </div>
+        <figcaption class="wp-element-caption">Embedded content from an example URL</figcaption>
+    </figure>
+    <!-- /wp:embed -->    
+
   </div>
   <!-- /wp:group -->
 </div>
