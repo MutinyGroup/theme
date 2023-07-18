@@ -14,7 +14,7 @@
     <!-- wp:group -->
     <div class="wp-block-group banner-title relative desktop:mb-[89px] mb-[45px] desktop:pt-[50px] pt-0 uppercase fullhd:text-[85px] desktop:text-[85px] text-[32px] font-normal desktop:w-[940px] wide:leading-[85px] desktop:leading-[80px] leading-[35px]">
       <!-- wp:paragraph -->
-      <svg class="flash desktop:scale-[1] scale-[0.5] absolute desktop:top-[-260px] top-[-350px] desktop:left-[-140px] right-[-90px] z-[-1]" xmlns="http://www.w3.org/2000/svg" width="688" height="801" viewBox="0 0 688 801" fill="none">
+      <svg class="flash desktop:scale-[1] scale-[0.5] absolute desktop:top-[-260px] top-[-300px] desktop:left-[-140px] right-[-90px] z-[-1]" xmlns="http://www.w3.org/2000/svg" width="688" height="801" viewBox="0 0 688 801" fill="none">
         <g filter="url(#filter0_f_1787_1988)">
         <circle cx="287.132" cy="400.132" r="150" transform="rotate(-45 287.132 400.132)" fill="url(#paint0_linear_1787_1988)" fill-opacity="0.5"/>
         </g>
@@ -33,7 +33,7 @@
       <!-- /wp:paragraph -->
 
       <!-- wp:image -->
-      <figure class="wp-block-image flash desktop:scale-[1] scale-[0.5] absolute desktop:top-[-260px] top-[-280px] desktop:left-[-140px] left-[-200px] z-[-1]">
+      <figure class="wp-block-image flash desktop:scale-[1] scale-[0.5] absolute desktop:top-[-260px] top-[-180px] desktop:left-[-140px] left-[-200px] z-[-1]">
         <img
           src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/bg-yellow-flash.png"
           alt="background image"
@@ -55,15 +55,15 @@
       <!-- /wp:image -->
 
       <!-- wp:paragraph -->
-      <p class="company-title hidden font-normal text-[16px] leading-[125%]">Mutiny Group</p>
+      <p class="company-title font-normal text-[16px] leading-[125%]">Mutiny Group</p>
       <!-- /wp:paragraph -->
 
       <!-- wp:paragraph -->
-      <p class="font-medium hidden">Wchodzimy <br> na rynek z mocnym</p>
+      <p class="font-medium">Wchodzimy <br> na rynek z mocnym</p>
       <!-- /wp:paragraph -->
 
       <!-- wp:paragraph {"templateLock":"contentOnly", "classname":"wp-class2"} -->
-      <p class="hidden relative italic font-medium before:content-[''] before:inline-block desktop:before:mr-[70px] before:mr-[5px] before:bottom-0 before:left-0 desktop:before:w-[280px] before:w-[30px] desktop:before:h-[6px] before:h-[2px] before:bg-white">UDERZENIEM.</p>
+      <p class="relative italic font-medium before:content-[''] before:inline-block desktop:before:mr-[70px] before:mr-[5px] before:bottom-0 before:left-0 desktop:before:w-[280px] before:w-[30px] desktop:before:h-[6px] before:h-[2px] before:bg-white">UDERZENIEM.</p>
       <!-- /wp:paragraph -->
     </div>
     <!-- /wp:group -->
