@@ -398,3 +398,9 @@ body{
 .wp-block-navigation__container{
   gap: 50px;
 }
+
+/* video player */
+
+.ytp-cued-thumbnail-overlay-image{
+  background-image: url("https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-about/about-banner-bg.jpg")!important;
+}
