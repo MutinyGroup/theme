@@ -279,7 +279,7 @@ body{
 
 .swiperOpinions .swiper-wrapper .swiper-slide-prev,
 .swiperOpinions .swiper-wrapper .swiper-slide-next{
-  opacity: 0%;
+  opacity: 20%;
 }
 .swiperOpinions .swiper-wrapper .swiper-slide-active{
   opacity: 100%;
