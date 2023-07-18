@@ -64,9 +64,9 @@
         </p>
         <!-- /wp:paragraph -->
         <!-- wp:list -->
-        <ul class="wp-block-list targets-list desktop:mb-[70px] mb-[40px] text-left flex flex-wrap desktop:justify-start justify-center gap-x-[30px] gap-y-[50px]">
+        <ul class="wp-block-list targets-list desktop:mb-[70px] mb-[40px] text-left desktop:flex flex-wrap desktop:justify-start justify-center gap-x-[30px] gap-y-[50px]">
           <!-- wp:list-item -->
-          <li class="relative desktop:max-w-[264px] max-w-[140px]">
+          <li class="relative desktop:max-w-[264px] max-w-full flex desktop:list-item">
             <!-- wp:group -->
             <div class="wp-block-group counter-index-wrapper inline relative">
             <!-- wp:group -->
@@ -89,7 +89,7 @@
           </li>
           <!-- /wp:list-item -->
           <!-- wp:list-item -->
-          <li class="relative desktop:max-w-[264px] max-w-[140px]">
+          <li class="relative desktop:max-w-[264px] max-w-full flex desktop:list-item">
             <!-- wp:group -->
             <div class="wp-block-group counter-index-wrapper inline relative">
               <!-- wp:group -->
@@ -114,7 +114,7 @@
           </li>
           <!-- /wp:list-item -->
           <!-- wp:list-item -->
-          <li class="relative desktop:max-w-[264px] max-w-[140px]">
+          <li class="relative desktop:max-w-[264px] max-w-full flex desktop:list-item">
             <!-- wp:group -->
             <div class="wp-block-group counter-index-wrapper inline relative">
               <!-- wp:group -->
@@ -143,7 +143,7 @@
           </li>
           <!-- /wp:list-item -->
           <!-- wp:list-item -->
-          <li class="relative desktop:max-w-[264px] max-w-[140px]">
+          <li class="relative desktop:max-w-[264px] max-w-full flex desktop:list-item">
             <!-- wp:group -->
             <div class="wp-block-group counter-index-wrapper inline relative">
               <!-- wp:group -->
