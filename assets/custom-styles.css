@@ -114,6 +114,12 @@ body{
   width: 354px !important;
   height: 450px !important;
 }
+@media only screen and (min-width: 1600px) {
+  .swiper-slide-services {
+    width: 420px !important;
+    height: 530px !important;
+  }
+}
 .swiper-button-next::after,
 .swiper-button-prev::after {
   display: none;
