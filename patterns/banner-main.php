@@ -55,15 +55,15 @@
       <!-- /wp:image -->
 
       <!-- wp:paragraph -->
-      <p class="company-title font-normal text-[16px] leading-[125%]">Mutiny Group</p>
+      <p class="company-title hidden font-normal text-[16px] leading-[125%]">Mutiny Group</p>
       <!-- /wp:paragraph -->
 
       <!-- wp:paragraph -->
-      <p class="font-medium">Wchodzimy <br> na rynek z mocnym</p>
+      <p class="font-medium hidden">Wchodzimy <br> na rynek z mocnym</p>
       <!-- /wp:paragraph -->
 
       <!-- wp:paragraph {"templateLock":"contentOnly", "classname":"wp-class2"} -->
-      <p class="relative italic font-medium before:content-[''] before:inline-block desktop:before:mr-[70px] before:mr-[5px] before:bottom-0 before:left-0 desktop:before:w-[280px] before:w-[30px] desktop:before:h-[6px] before:h-[2px] before:bg-white">UDERZENIEM.</p>
+      <p class="hidden relative italic font-medium before:content-[''] before:inline-block desktop:before:mr-[70px] before:mr-[5px] before:bottom-0 before:left-0 desktop:before:w-[280px] before:w-[30px] desktop:before:h-[6px] before:h-[2px] before:bg-white">UDERZENIEM.</p>
       <!-- /wp:paragraph -->
     </div>
     <!-- /wp:group -->
