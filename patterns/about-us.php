@@ -66,26 +66,32 @@
         <!-- wp:list -->
         <ul class="wp-block-list targets-list desktop:mb-[70px] mb-[40px] text-left desktop:flex flex-wrap desktop:justify-start justify-center gap-x-[30px] gap-y-[50px]">
           <!-- wp:list-item -->
-          <li class="relative desktop:max-w-[264px] max-w-full flex desktop:list-item">
+          <li class="relative desktop:max-w-[264px] max-w-full flex desktop:list-item gap-[10px]">
             <!-- wp:group -->
             <div class="wp-block-group counter-index-wrapper inline relative">
             <!-- wp:group -->
-              <div class="wp-block-group circle-counter-index z-[-1] opacity-[15%] w-[80px] h-[80px] scale-[1] bg-[url('https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/front-page/about-us-circle-index.png')] bg-center bg-no-repaet bg-contain absolute top-[-85px] right-[-40px]"></div>
+              <div class="wp-block-group circle-counter-index z-[-1] opacity-[15%] w-[80px] h-[80px] scale-[1] bg-[url('https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/front-page/about-us-circle-index.png')] bg-center bg-no-repaet bg-contain absolute top-[-85px] right-[-40px]">
+              </div>
               <!-- /wp:group -->
+
               <!-- wp:paragraph -->
               <p class="target-num inline-block desktop:text-[85px] text-[80px] font-semibold">01</p>
               <!-- /wp:paragraph -->
             </div>
             <!-- /wp:group -->
 
-            <!-- wp:paragraph -->
-            <p class="target-title mb-[15px] text-[25px] font-semibold leading-[30px]">Mamy plan</p>
-            <!-- /wp:paragraph -->
-            <!-- wp:paragraph -->
-            <p class="target-paragraph font-light leading-[22px]">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-            </p>
-            <!-- /wp:paragraph -->
+            <!-- wp:group -->
+            <div class="text-wrapper">
+              <!-- wp:paragraph -->
+              <p class="target-title mb-[15px] text-[25px] font-semibold leading-[30px]">Mamy plan</p>
+              <!-- /wp:paragraph -->
+              <!-- wp:paragraph -->
+              <p class="target-paragraph font-light leading-[22px]">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+              </p>
+              <!-- /wp:paragraph -->
+            </div>
+            <!-- /wp:group -->
           </li>
           <!-- /wp:list-item -->
           <!-- wp:list-item -->
