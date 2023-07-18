@@ -92,7 +92,7 @@
                   $counter++;
                   if ($counter == 1){ ?>
                     <!-- wp:group -->
-                    <div class="wp-block-group swiper-slide desktop:mr-[80px] mr-[20px] relative group desktop:w-[444px] w-[300px] desktop:h-[675px] h-[500px]">
+                    <div class="wp-block-group swiper-slide desktop:mr-[80px] mr-[20px] relative group desktop:w-[535px] w-[300px] desktop:h-[675px] h-[500px]">
                       <!-- wp:paragraph -->
                       <a href="<?php the_permalink(); ?>">                      
                         <!-- wp:group -->
