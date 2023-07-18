@@ -13,10 +13,7 @@
     <!-- wp:group -->
     <div class="wp-block-group title-wrapper relative container mx-auto desktop:px-0 px-[20px] desktop:mb-[80px] mb-[50px] flex gap-[20px]">
       <!-- wp:group -->
-      <div class="wp-block-group bg-flash desktop:top-[-80px] top-[-80px] left-[-20px]">
-        <!-- wp:paragraph -->
-        <p class="hidden">background yellow flash</p>
-        <!-- /wp:paragraph -->
+      <div class="wp-block-group hidden bg-flash desktop:top-[-80px] top-[-80px] left-[-20px]">
       </div>
       <!-- /wp:group -->
 
