@@ -157,6 +157,12 @@ body{
   filter: grayscale(100%);
   transition: all 0.3s ease-out;
 }
+@media only screen and (min-width: 1600px) {
+  .swiper-slide-services::before,
+  .swiper-slide-services:after {
+    height: 520px;
+  }
+}
 .swiper-slide-services:hover:before,
 .swiper-slide-services:hover:after{
   opacity: 1;
