@@ -66,7 +66,7 @@
         <!-- wp:list -->
         <ul class="wp-block-list targets-list desktop:mb-[70px] mb-[40px] text-left desktop:flex flex-wrap desktop:justify-start justify-center gap-x-[30px] gap-y-[50px]">
           <!-- wp:list-item -->
-          <li class="relative desktop:max-w-[264px] max-w-full flex desktop:list-item gap-[10px]">
+          <li class="relative mb-[20px] desktop:mb-0 desktop:max-w-[264px] max-w-full flex desktop:list-item gap-[10px]">
             <!-- wp:group -->
             <div class="wp-block-group counter-index-wrapper inline relative">
             <!-- wp:group -->
