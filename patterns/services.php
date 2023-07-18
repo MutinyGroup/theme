@@ -403,7 +403,7 @@
 <!-- /wp:group -->
 
 <!-- wp:image -->
-<figure class="wp-block-image img-separator desktop:mb-[150px] mb-[80px] desktop:h-[600px] h-[180px]">
+<figure class="wp-block-image img-separator desktop:mb-[150px] mb-[80px] desktop:ml-[80px] desktop:h-[600px] h-[180px]">
   <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/front-page/section-separator.jpg" alt="image-page-separator">
 </figure>
 <!-- /wp:image -->
