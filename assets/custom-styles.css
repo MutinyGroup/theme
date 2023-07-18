@@ -277,7 +277,9 @@ body{
   opacity: 0%
 }
 
-.swiperOpinions .swiper-wrapper .swiper-slide-prev,
+.swiperOpinions .swiper-wrapper .swiper-slide-prev{
+  opacity: 0;
+}
 .swiperOpinions .swiper-wrapper .swiper-slide-next{
   opacity: 20%;
 }
