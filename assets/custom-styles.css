@@ -160,7 +160,7 @@ body{
 @media only screen and (min-width: 1600px) {
   .swiper-slide-services::before,
   .swiper-slide-services:after {
-    height: 520px;
+    height: 530px;
   }
 }
 .swiper-slide-services:hover:before,
