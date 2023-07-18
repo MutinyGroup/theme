@@ -12,6 +12,10 @@
   <div class="wp-block-group container group mx-auto desktop:px-0 px-[20px] desktop:mt-0 mt-[120px] wide:h-[1180px] desktop:h-[790px] h-[480px]">
     <!-- wp:group -->
     <div class="wp-block-group title-wrapper relative desktop:pt-[110px] pt-[0px] desktop:mb-[80px] mb-[60px]">
+      <!-- wp:group -->
+      <div class="wp-block-group hidden bg-flash desktop:top-[-80px] top-[-80px] left-[-20px]">
+      </div>
+      <!-- /wp:group -->
       <!-- wp:paragraph -->
       <svg class="flash desktop:scale-[1] scale-[0.4] absolute desktop:top-[-330px] top-[-360px] desktop:left-[-140px] right-[-100px] z-[-1]" xmlns="http://www.w3.org/2000/svg" width="688" height="801" viewBox="0 0 688 801" fill="none">
         <g filter="url(#filter0_f_1787_1988)">
