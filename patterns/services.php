@@ -145,12 +145,12 @@
           <!-- /wp:group -->
 
           <!-- wp:group -->
-          <div class="wp-block-group swiper-slide swiper-slide-services relative z-[2] group p-[25px] desktop:max-w-[354px] max-w-[310px] h-[450px] rounded-[20px] transition ease-out duration-300 cursor-pointer mr-[8px]">
+          <div class="wp-block-group swiper-slide swiper-slide-services relative z-[2] group p-[25px] wide:max-w-[420px] desktop:max-w-[354px] max-w-[310px] h-[450px] rounded-[20px] transition ease-out duration-300 cursor-pointer mr-[8px] cursor-default">
             <!-- wp:group -->
             <div class="wp-block-group img-clip-path-wrapper w-full h-full rounded-tr-[20px] rounded-br-[20px] overflow-hidden absolute left-0 top-0 z-[-1]">
               <!-- wp:image -->
-              <figure class="wp-block-image">
-                <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/front-page/swiper-bg2.png" alt="services-backgroun-image">
+              <figure class="wp-block-image img-clip-path-services">
+                <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/front-page/swiper-bg1.png" alt="services-backgroun-image">
               </figure>
               <!-- /wp:image -->
               <!-- wp:paragraph -->
@@ -169,12 +169,13 @@
             <!-- wp:group -->
             <div class="wp-block-group slide-title absolute desktop:bottom-[25px] bottom-[75px] left-[25px]">
               <!-- wp:paragraph -->
-              <p class="mr-[20px] text-[25px] font-semibold mb-[15px] underline-offset-[7px] group-hover:underline group-hover:decoration-primaryYellow group-hover:translate-y-[-80px] transition ease-out duration-500">Eventy</p>
+              <p class="mr-[20px] text-[25px] font-semibold mb-[15px] underline-offset-[7px] group-hover:underline group-hover:decoration-primaryYellow group-hover:translate-y-[-80px] transition ease-out duration-500">Marketing i PR
+              </p>
               <!-- /wp:paragraph -->
               <!-- wp:buttons -->
               <div class="wp-block-buttons btn-swiper-more group text-[14px] uppercase transition ease-out duration-300">
                 <!-- wp:paragraph -->
-                <a href="#" class="inline-block">
+                <a href="https://mutiny.webo.design/services-marketing/" class="inline-block z-[1]">
                   Dowiedz się więcej
                   <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" fill="none " class="inline-block ml-[10px] ">
                     <rect x="1" y="1" width="34" height="34" rx="18" stroke="#D5D5D5" stroke-width="2" fill="transparent" class="transition ease-out duration-300 group-hover:fill-[#FEC400] group-hover:stroke-[#FEC400]"/>
@@ -188,19 +189,19 @@
             </div>
             <!-- /wp:group -->
             <!-- wp:paragraph -->
-            <p class="hover-text w-[250px] mt-[270px] translate-y-[70px] opacity-[0%] group-hover:opacity-[100%] desktop:group-hover:translate-y-[10px] group-hover:translate-y-[-35px] transition-all ease-out duration-500 text-[15px] font-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet in aspernatur alias ipsa, fuga ut!
+            <p class="hover-text w-[250px] mt-[270px] wide:mt-[350px] translate-y-[70px] opacity-[0%] group-hover:opacity-[100%] desktop:group-hover:translate-y-[10px] group-hover:translate-y-[-35px] transition-all ease-out duration-500 text-[15px] font-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet in aspernatur alias ipsa, fuga ut!
             </p>
             <!-- /wp:paragraph -->
           </div>
           <!-- /wp:group -->
 
           <!-- wp:group -->
-          <div class="wp-block-group swiper-slide swiper-slide-services relative z-[2] group p-[25px] desktop:max-w-[354px] max-w-[310px] h-[450px] rounded-[20px] transition ease-out duration-300 cursor-pointer mr-[8px]">
+          <div class="wp-block-group swiper-slide swiper-slide-services relative z-[2] group p-[25px] wide:max-w-[420px] desktop:max-w-[354px] max-w-[310px] h-[450px] rounded-[20px] transition ease-out duration-300 cursor-pointer mr-[8px] cursor-default">
             <!-- wp:group -->
             <div class="wp-block-group img-clip-path-wrapper w-full h-full rounded-tr-[20px] rounded-br-[20px] overflow-hidden absolute left-0 top-0 z-[-1]">
               <!-- wp:image -->
-              <figure class="wp-block-image">
-                <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/front-page/swiper-bg2.png" alt="services-backgroun-image">
+              <figure class="wp-block-image img-clip-path-services">
+                <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/front-page/swiper-bg1.png" alt="services-backgroun-image">
               </figure>
               <!-- /wp:image -->
               <!-- wp:paragraph -->
@@ -219,12 +220,13 @@
             <!-- wp:group -->
             <div class="wp-block-group slide-title absolute desktop:bottom-[25px] bottom-[75px] left-[25px]">
               <!-- wp:paragraph -->
-              <p class="mr-[20px] text-[25px] font-semibold mb-[15px] underline-offset-[7px] group-hover:underline group-hover:decoration-primaryYellow group-hover:translate-y-[-80px] transition ease-out duration-500">Eventy</p>
+              <p class="mr-[20px] text-[25px] font-semibold mb-[15px] underline-offset-[7px] group-hover:underline group-hover:decoration-primaryYellow group-hover:translate-y-[-80px] transition ease-out duration-500">Marketing i PR
+              </p>
               <!-- /wp:paragraph -->
               <!-- wp:buttons -->
               <div class="wp-block-buttons btn-swiper-more group text-[14px] uppercase transition ease-out duration-300">
                 <!-- wp:paragraph -->
-                <a href="#" class="inline-block">
+                <a href="https://mutiny.webo.design/services-marketing/" class="inline-block z-[1]">
                   Dowiedz się więcej
                   <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" fill="none " class="inline-block ml-[10px] ">
                     <rect x="1" y="1" width="34" height="34" rx="18" stroke="#D5D5D5" stroke-width="2" fill="transparent" class="transition ease-out duration-300 group-hover:fill-[#FEC400] group-hover:stroke-[#FEC400]"/>
@@ -238,61 +240,11 @@
             </div>
             <!-- /wp:group -->
             <!-- wp:paragraph -->
-            <p class="hover-text w-[250px] mt-[270px] translate-y-[70px] opacity-[0%] group-hover:opacity-[100%] desktop:group-hover:translate-y-[10px] group-hover:translate-y-[-35px] transition-all ease-out duration-500 text-[15px] font-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet in aspernatur alias ipsa, fuga ut!
+            <p class="hover-text w-[250px] mt-[270px] wide:mt-[350px] translate-y-[70px] opacity-[0%] group-hover:opacity-[100%] desktop:group-hover:translate-y-[10px] group-hover:translate-y-[-35px] transition-all ease-out duration-500 text-[15px] font-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet in aspernatur alias ipsa, fuga ut!
             </p>
             <!-- /wp:paragraph -->
           </div>
-          <!-- /wp:group -->
-
-          <!-- wp:group -->
-          <div class="wp-block-group swiper-slide swiper-slide-services relative z-[2] group p-[25px] desktop:max-w-[354px] max-w-[310px] h-[450px] rounded-[20px] transition ease-out duration-300 cursor-pointer mr-[8px]">
-            <!-- wp:group -->
-            <div class="wp-block-group img-clip-path-wrapper w-full h-full rounded-tr-[20px] rounded-br-[20px] overflow-hidden absolute left-0 top-0 z-[-1]">
-              <!-- wp:image -->
-              <figure class="wp-block-image">
-                <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/front-page/swiper-bg2.png" alt="services-backgroun-image">
-              </figure>
-              <!-- /wp:image -->
-              <!-- wp:paragraph -->
-              <svg class="flt_svg" xmlns="http://www.w3.org/2000/svg">
-                <defs>
-                  <filter id="flt_tag">
-                    <feGaussianBlur in="SourceGraphic" stdDeviation="8" result="blur" />
-                    <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9" result="flt_tag" />
-                    <feComposite in="SourceGraphic" in2="flt_tag" operator="atop"/>
-                  </filter>
-                </defs>
-              </svg>
-              <!-- /wp:paragraph -->
-            </div>
-            <!-- /wp:group -->
-            <!-- wp:group -->
-            <div class="wp-block-group slide-title absolute desktop:bottom-[25px] bottom-[75px] left-[25px]">
-              <!-- wp:paragraph -->
-              <p class="mr-[20px] text-[25px] font-semibold mb-[15px] underline-offset-[7px] group-hover:underline group-hover:decoration-primaryYellow group-hover:translate-y-[-80px] transition ease-out duration-500">Eventy</p>
-              <!-- /wp:paragraph -->
-              <!-- wp:buttons -->
-              <div class="wp-block-buttons btn-swiper-more group text-[14px] uppercase transition ease-out duration-300">
-                <!-- wp:paragraph -->
-                <a href="#" class="inline-block">
-                  Dowiedz się więcej
-                  <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" fill="none " class="inline-block ml-[10px] ">
-                    <rect x="1" y="1" width="34" height="34" rx="18" stroke="#D5D5D5" stroke-width="2" fill="transparent" class="transition ease-out duration-300 group-hover:fill-[#FEC400] group-hover:stroke-[#FEC400]"/>
-                    <path d="M19 22L23 18.0108L19.0217 14" stroke="white"/>
-                    <path d="M12 18L20 18" stroke="white" />
-                  </svg>
-                </a>
-                <!-- /wp:paragraph -->
-              </div>
-              <!-- /wp:buttons -->
-            </div>
-            <!-- /wp:group -->
-            <!-- wp:paragraph -->
-            <p class="hover-text w-[250px] mt-[270px] translate-y-[70px] opacity-[0%] group-hover:opacity-[100%] desktop:group-hover:translate-y-[10px] group-hover:translate-y-[-35px] transition-all ease-out duration-500 text-[15px] font-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet in aspernatur alias ipsa, fuga ut!
-            </p>
-            <!-- /wp:paragraph -->
-          </div>
-          <!-- /wp:group -->
+          <!-- /wp:group -->          
 
           <!-- wp:group -->
           <div class="wp-block-group swiper-slide swiper-slide-services relative z-[2] group p-[25px] desktop:max-w-[354px] max-w-[310px] h-[450px] rounded-[20px] transition ease-out duration-300 cursor-pointer mr-[8px]">
@@ -344,10 +296,6 @@
             <!-- /wp:paragraph -->
           </div>
           <!-- /wp:group -->
-
-
-
-
         </div>
         <!-- /wp:group -->
 
