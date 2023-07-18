@@ -17,7 +17,7 @@
       </div>
       <!-- /wp:group -->
       <!-- wp:paragraph -->
-      <svg class="flash desktop:scale-[1] scale-[0.4] absolute desktop:top-[-330px] top-[-360px] desktop:left-[-140px] right-[-100px] z-[-1]" xmlns="http://www.w3.org/2000/svg" width="688" height="801" viewBox="0 0 688 801" fill="none">
+      <svg class="flash desktop:scale-[1] scale-[0.5] absolute desktop:top-[-260px] top-[-350px] desktop:left-[-140px] right-[-90px] z-[-1]" xmlns="http://www.w3.org/2000/svg" width="688" height="801" viewBox="0 0 688 801" fill="none">
         <g filter="url(#filter0_f_1787_1988)">
         <circle cx="287.132" cy="400.132" r="150" transform="rotate(-45 287.132 400.132)" fill="url(#paint0_linear_1787_1988)" fill-opacity="0.5"/>
         </g>
@@ -34,9 +34,13 @@
         </defs>
       </svg>
       <!-- /wp:paragraph -->
+
       <!-- wp:image -->
-      <figure class="wp-block-image bg-shape w-[1290px] z-[-1] opacity-[0.15] absolute top-[-150px] left-[-140px]">
-        <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/front-page/cta-bg-shape.png" alt="background-shape">
+      <figure class="wp-block-image flash desktop:scale-[1] scale-[0.5] absolute desktop:top-[-260px] top-[-220px] desktop:left-[-140px] left-[-200px] z-[-1]">
+        <img
+          src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/bg-yellow-flash.png"
+          alt="background image"
+        />
       </figure>
       <!-- /wp:image -->
       <!-- wp:paragraph -->
