@@ -11,14 +11,14 @@
 
 <!-- wp:query {"query":{"perPage":6,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"exclude"} } -->
 <div class="wp-block-query jace-blog-layout ml-[80px]">
-  <!-- wp:post-template {"className":"test","max-w-[600px]} -->
+  <!-- wp:post-template {"className":"test max-w-[600px]"} -->
     <!-- wp:group -->
     <div class="wp-block-group test2 mb-[40px]">
       <!-- wp:post-featured-image {"isLink":true} /-->
       <!-- wp:group -->
       <div class="wp-block-group test3">
       <!-- wp:post-terms {"term":"category"} /-->
-      
+      <!-- wp:post-date /-->
       <!-- wp:post-title {"isLink":true,"fontSize":"medium"} /-->
       </div>
       <!-- /wp:group -->
