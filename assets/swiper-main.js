@@ -74,14 +74,12 @@ document.addEventListener("DOMContentLoaded", function(event) {
   new Swiper('#logos', {
     direction: "horizontal",
     slidesPerView: 2,
-    spaceBetween: 20,
     centeredSlides: true,
     slidesPerGroup: 2,
-    
-    autoplay: {
-      delay: 2000,
-      disableOnInteraction: false,
-    },
+    // autoplay: {
+    //   delay: 2000,
+    //   disableOnInteraction: false,
+    // },
   });
 
   new Swiper('#opinions-dark', {
