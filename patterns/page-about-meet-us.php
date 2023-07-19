@@ -101,11 +101,6 @@
       <li class="relative mb-[20px] desktop:mb-0 desktop:max-w-[264px] max-w-full flex items-center desktop:list-item gap-[20px]">
         <!-- wp:group -->
         <div class="wp-block-group counter-index-wrapper min-w-[95px] inline relative">
-          <!-- wp:group -->
-          <div class="wp-block-group circle-counter-index z-[-1] opacity-[15%] w-[80px] h-[80px] scale-[1] bg-[url('https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/front-page/about-us-circle-index.png')] bg-center bg-no-repaet bg-contain absolute desktop:top-[-85px] top-[-15px] desktop:right-[-40px] right-[-10px]">
-          </div>
-          <!-- /wp:group -->
-
           <!-- wp:paragraph -->
           <p class="target-num text-[60px] font-semibold">01</p>
           <!-- /wp:paragraph -->
@@ -130,11 +125,6 @@
       <li class="relative mb-[20px] desktop:mb-0 desktop:max-w-[264px] max-w-full flex items-center desktop:list-item gap-[20px]">
         <!-- wp:group -->
         <div class="wp-block-group counter-index-wrapper min-w-[95px] inline relative">
-          <!-- wp:group -->
-          <div class="wp-block-group circle-counter-index z-[-1] opacity-[15%] w-[80px] h-[80px] scale-[1] bg-[url('https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/front-page/about-us-circle-index.png')] bg-center bg-no-repaet bg-contain absolute desktop:top-[-85px] top-[-15px] desktop:right-[-40px] right-[-10px]">
-          </div>
-          <!-- /wp:group -->
-
           <!-- wp:paragraph -->
           <p class="target-num text-[60px] font-semibold">01</p>
           <!-- /wp:paragraph -->
@@ -159,11 +149,6 @@
       <li class="relative mb-[20px] desktop:mb-0 desktop:max-w-[264px] max-w-full flex items-center desktop:list-item gap-[20px]">
         <!-- wp:group -->
         <div class="wp-block-group counter-index-wrapper min-w-[95px] inline relative">
-          <!-- wp:group -->
-          <div class="wp-block-group circle-counter-index z-[-1] opacity-[15%] w-[80px] h-[80px] scale-[1] bg-[url('https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/front-page/about-us-circle-index.png')] bg-center bg-no-repaet bg-contain absolute desktop:top-[-85px] top-[-15px] desktop:right-[-40px] right-[-10px]">
-          </div>
-          <!-- /wp:group -->
-
           <!-- wp:paragraph -->
           <p class="target-num text-[60px] font-semibold">01</p>
           <!-- /wp:paragraph -->
