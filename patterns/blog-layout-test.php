@@ -11,7 +11,7 @@
 
 <!-- wp:query {"query":{"perPage":6,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"exclude"} } -->
 <div class="wp-block-query alignwide jace-blog-layout">
-  <!-- wp:post-template {"align":"wide"} -->
+  <!-- wp:post-template -->
     <!-- wp:group -->
     <div class="wp-block-group has-background" style="background-color:#f2f2f203;border-radius:4px">
       <!-- wp:post-featured-image {"isLink":true"} /-->
