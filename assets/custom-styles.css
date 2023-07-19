@@ -258,7 +258,9 @@ body{
 }
 
 #logos .swiper-wrapper figure img,
-.companies-wrapper-desktop figure img{
+.companies-wrapper-bright figure img,
+.companies-wrapper-dark figure img,
+{
   margin-left: auto;
   margin-right: auto;
 }
