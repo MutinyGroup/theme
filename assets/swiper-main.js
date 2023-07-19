@@ -75,7 +75,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
     direction: "horizontal",
     slidesPerView: 2,
     slidesPerGroup: 2,
-    spaceBetween: 20,
+    stretch: 20,
     autoplay: {
       delay: 2000,
       disableOnInteraction: false,
