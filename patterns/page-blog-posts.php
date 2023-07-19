@@ -16,7 +16,7 @@
     <!-- wp:group -->
     <div class="wp-block-group new gallery-cols relative flex justify-between pb-[150px]">
       <!-- wp:list -->
-      <ul class="wp-block-list flex flex-wrap justify-between gap-x-[60px] gap-y-[180px]">
+      <ul class="wp-block-list flex flex-wrap justify-between wide:justify-center gap-x-[60px] wide:gap-x-[140px] gap-y-[180px]">
         <?php
           $args = array(
               'post_type' => 'post',
