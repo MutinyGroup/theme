@@ -73,7 +73,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
 
   new Swiper('#logos', {
     direction: "horizontal",
-    slidesPerView: 'auto',
+    slidesPerView: 2,
     spaceBetween: 20,
     slidesPerGroup: 2,
     
