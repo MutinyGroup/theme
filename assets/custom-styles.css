@@ -257,6 +257,12 @@ body{
   max-height: 80px;
 }
 
+#logos .swiper-wrapper figure img{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
 /* page services gallery tiles */
 .gallery-tile::before {
   opacity: 1;
