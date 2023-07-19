@@ -10,7 +10,7 @@
 
 
 <!-- wp:query {"query":{"perPage":6,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"exclude"} } -->
-<div class="wp-block-query alignwide jace-blog-layout">
+<div class="wp-block-query">
   <!-- wp:post-template -->
     <!-- wp:group -->
     <div class="wp-block-group has-background">
