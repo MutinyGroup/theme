@@ -81,7 +81,7 @@
             <!-- /wp:group -->
 
             <!-- wp:group -->
-            <div class="text-wrapper">
+            <div class="wp-block-group text-wrapper">
               <!-- wp:paragraph -->
               <p class="target-title mb-[15px] text-[25px] font-semibold leading-[30px]">Mamy plan</p>
               <!-- /wp:paragraph -->
@@ -94,6 +94,7 @@
             <!-- /wp:group -->
           </li>
           <!-- /wp:list-item -->
+
           <!-- wp:list-item -->
           <li class="relative mb-[20px] desktop:mb-0 desktop:max-w-[264px] max-w-full flex desktop:list-item gap-[20px]">
             <!-- wp:group -->
@@ -110,7 +111,7 @@
             <!-- /wp:group -->
 
             <!-- wp:group -->
-            <div class="text-wrapper">
+            <div class="wp-block-group text-wrapper">
               <!-- wp:paragraph -->
               <p class="target-title mb-[15px] text-[25px] font-semibold leading-[30px]">Mamy plan</p>
               <!-- /wp:paragraph -->
@@ -123,6 +124,7 @@
             <!-- /wp:group -->
           </li>
           <!-- /wp:list-item -->
+          
           <!-- wp:list-item -->
           <li class="relative mb-[20px] desktop:mb-0 desktop:max-w-[264px] max-w-full flex desktop:list-item gap-[20px]">
             <!-- wp:group -->
@@ -139,7 +141,7 @@
             <!-- /wp:group -->
 
             <!-- wp:group -->
-            <div class="text-wrapper">
+            <div class="wp-block-group text-wrapper">
               <!-- wp:paragraph -->
               <p class="target-title mb-[15px] text-[25px] font-semibold leading-[30px]">Mamy plan</p>
               <!-- /wp:paragraph -->
@@ -152,6 +154,7 @@
             <!-- /wp:group -->
           </li>
           <!-- /wp:list-item -->
+          
           <!-- wp:list-item -->
           <li class="relative mb-[20px] desktop:mb-0 desktop:max-w-[264px] max-w-full flex desktop:list-item gap-[20px]">
             <!-- wp:group -->
@@ -168,7 +171,7 @@
             <!-- /wp:group -->
 
             <!-- wp:group -->
-            <div class="text-wrapper">
+            <div class="wp-block-group text-wrapper">
               <!-- wp:paragraph -->
               <p class="target-title mb-[15px] text-[25px] font-semibold leading-[30px]">Mamy plan</p>
               <!-- /wp:paragraph -->
@@ -180,7 +183,9 @@
             </div>
             <!-- /wp:group -->
           </li>
-          <!-- /wp:list-item -->                             
+          <!-- /wp:list-item -->          
+
+                                   
         </ul>
         <!-- /wp:list -->
 
