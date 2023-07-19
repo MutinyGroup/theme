@@ -18,9 +18,7 @@
       <!-- wp:group -->
       <div class="wp-block-group test3">
       <!-- wp:post-terms {"term":"category"} /-->
-      <!-- wp:post-date -->
-      <div class="wp-block-date date-test"></div>
-      <!-- /wp:post-date -->
+      <!-- wp:post-date /-->
       <!-- wp:post-title {"isLink":true,"fontSize":"medium"} /-->
       </div>
       <!-- /wp:group -->
