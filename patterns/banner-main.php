@@ -69,13 +69,13 @@
     <!-- /wp:group -->
 
     <!-- wp:paragraph -->
-    <p class="banner-paragraph desktop:ml-[95px] desktop:ml-[45px] ml-[20px] desktop:pt-0 pt-[70px] desktop:w-[264px] max-w-[300px] desktop:text-[18px] text-[18px] font-light leading-[22px]">
+    <p class="banner-paragraph desktop:ml-[95px] desktop:ml-[45px] ml-[20px] desktop:pt-0 pt-[90px] desktop:w-[264px] max-w-[300px] desktop:text-[18px] text-[18px] font-light leading-[22px]">
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore <span class="text-primaryYellow">magna aliqua.</span>
     </p>
     <!-- /wp:paragraph -->
 
     <!-- wp:group -->
-    <div class="wp-block-group banner-bg w-[44%] h-full absolute right-0 top-[150px] z-[-1]">
+    <div class="wp-block-group banner-bg desktop:w-[44%] w-[65%] h-full absolute right-0 desktop:top-[150px] top-[80px] z-[-1]">
       <!-- wp:image -->
       <figure class="wp-block-image">
         <img
