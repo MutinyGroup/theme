@@ -21,7 +21,7 @@
       </svg>
       <!-- /wp:paragraph -->
       <!-- wp:paragraph -->
-      <svg class="wp-block-image z-[-1] absolute bottom-[0px] right-[0px]" xmlns="http://www.w3.org/2000/svg" width="1020" height="610" viewBox="0 0 1020 610" fill="none">
+      <svg class="wp-block-image z-[-1] absolute bottom-[370px] right-[0px]" xmlns="http://www.w3.org/2000/svg" width="1020" height="610" viewBox="0 0 1020 610" fill="none">
         <path d="M1 1.96689L938.264 332.267L938.596 332.384L938.929 332.267L1406.89 167.352V413.308L938.596 578.341L234.981 330.381L233.649 329.911V331.324V608.587L1 526.6V1.96689Z" stroke="white" stroke-width="2"/>
       </svg>
       <!-- /wp:paragraph -->
