@@ -12,7 +12,7 @@
   <!-- wp:group -->
   <div class="wp-block-group container mx-auto desktop:px-0 px-[20px] wide:h-[1180px] desktop:h-[790px] h-[700px]">
     <!-- wp:group -->
-    <div class="wp-block-group banner-title relative desktop:mb-[89px] mb-[45px] desktop:pt-[50px] pt-0 uppercase fullhd:text-[85px] desktop:text-[85px] text-[32px] font-normal desktop:w-[940px] wide:leading-[85px] desktop:leading-[80px] leading-[35px]">
+    <div class="wp-block-group banner-title relative desktop:mb-[89px] mb-[45px] desktop:pt-[50px] pt-0 uppercase fullhd:text-[85px] desktop:text-[85px] text-[38px] font-normal desktop:w-[940px] wide:leading-[85px] desktop:leading-[80px] leading-[35px]">
       <!-- wp:paragraph -->
       <svg class="flash desktop:scale-[1] scale-[0.5] absolute desktop:top-[-260px] top-[-350px] desktop:left-[-140px] right-[-90px] z-[-1]" xmlns="http://www.w3.org/2000/svg" width="688" height="801" viewBox="0 0 688 801" fill="none">
         <g filter="url(#filter0_f_1787_1988)">
