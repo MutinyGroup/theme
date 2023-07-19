@@ -13,10 +13,10 @@
 <div class="wp-block-query jace-blog-layout ml-[80px]">
   <!-- wp:post-template {"className":"test"} -->
     <!-- wp:group -->
-    <div class="wp-block-group">
+    <div class="wp-block-group test2">
       <!-- wp:post-featured-image {"isLink":true} /-->
       <!-- wp:group -->
-      <div class="wp-block-group">
+      <div class="wp-block-group test2">
       <!-- wp:post-terms {"term":"category"} /-->
       <!-- wp:post-title {"isLink":true,"fontSize":"medium"} /-->
       </div>
