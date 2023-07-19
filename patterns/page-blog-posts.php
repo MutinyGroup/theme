@@ -16,10 +16,8 @@
     <!-- wp:group -->
     <div class="wp-block-group new gallery-cols relative flex justify-between pb-[150px]">
       <!-- wp:paragraph -->
-      <svg xmlns="http://www.w3.org/2000/svg" width="470" height="396" viewBox="0 0 470 396" fill="none">
-        <g style="mix-blend-mode:color-dodge" opacity="0.6">
+      <svg class="wp-block-image z-[-1] absolute top-[0px] right-[0px]" xmlns="http://www.w3.org/2000/svg" width="470" height="396" viewBox="0 0 470 396" fill="none">
         <path d="M468.243 393.924L1 236.702V1.9702L468.243 159.192V393.924Z" stroke="white" stroke-width="2"/>
-        </g>
       </svg>
       <!-- /wp:paragraph -->
       <!-- wp:list -->
