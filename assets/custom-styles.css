@@ -257,7 +257,8 @@ body{
   max-height: 80px;
 }
 
-#logos .swiper-wrapper figure img{
+#logos .swiper-wrapper figure img,
+.companies-wrapper-desktop figure img{
   margin-left: auto;
   margin-right: auto;
 }
