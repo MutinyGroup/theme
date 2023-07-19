@@ -8,9 +8,9 @@
 ?>
 
 <!-- wp:group {"templateLock":"contentOnly"} -->
-<div class="wp-block-group banner relative mb-0 desktop:pt-[150px] pt-[120px] overflow-hidden">
+<div class="wp-block-group banner relative mb-0 desktop:pt-[150px] pt-[120px] h-screen desktop:h-auto overflow-hidden">
   <!-- wp:group -->
-  <div class="wp-block-group container mx-auto desktop:px-0 px-[20px] wide:h-[1180px] desktop:h-[790px] h-[700px]">
+  <div class="wp-block-group container mx-auto desktop:px-0 px-[20px] wide:h-[1180px] desktop:h-[790px] h-full">
     <!-- wp:group -->
     <div class="wp-block-group banner-title relative desktop:mb-[89px] mb-[45px] desktop:pt-[50px] pt-0 uppercase fullhd:text-[85px] desktop:text-[85px] text-[38px] font-normal desktop:w-[940px] wide:leading-[85px] desktop:leading-[80px] leading-[38px]">
       <!-- wp:paragraph -->
@@ -68,14 +68,8 @@
     </div>
     <!-- /wp:group -->
 
-    <!-- wp:paragraph -->
-    <p class="banner-paragraph desktop:ml-[95px] desktop:ml-[45px] ml-[20px] desktop:pt-0 pt-[90px] desktop:w-[264px] max-w-[300px] desktop:text-[18px] text-[18px] font-light leading-[22px]">
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore <span class="text-primaryYellow">magna aliqua.</span>
-    </p>
-    <!-- /wp:paragraph -->
-
     <!-- wp:group -->
-    <div class="wp-block-group banner-bg desktop:w-[44%] w-[65%] h-full absolute right-0 desktop:top-[150px] top-[80px] z-[-1]">
+    <div class="wp-block-group banner-bg desktop:w-[44%] w-[65%] absolute right-0 desktop:top-[150px] top-[80px] z-[-1]">
       <!-- wp:image -->
       <figure class="wp-block-image">
         <img
@@ -85,7 +79,13 @@
       </figure>
       <!-- /wp:image -->
     </div>
-    <!-- /wp:group -->
+    <!-- /wp:group -->    
+
+    <!-- wp:paragraph -->
+    <p class="banner-paragraph desktop:ml-[95px] desktop:ml-[45px] ml-[20px] desktop:pt-0 pt-[90px] desktop:w-[264px] max-w-[300px] desktop:text-[18px] text-[18px] font-light leading-[22px]">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore <span class="text-primaryYellow">magna aliqua.</span>
+    </p>
+    <!-- /wp:paragraph -->
 
     <!-- wp:paragraph -->
     <a href="#about" class="wp-block-buttons desktop:w-[175px] w-[140px] desktop:h-[175px] h-[140px] mx-0 text-center rounded-full border desktop:border-[4px] border-[3px] border-[#D5D5D5] absolute top-[520px] desktop:top-[550px] wide:top-[720px] desktop:left-[56%] left-[50%] translate-x-[-50%] hover:border-none hover:bg-primaryYellow hover:text-white transition ease-out duration-300 flex flex-col justify-center items-center gap-y-0 cursor-pointer is-layout-flex">
