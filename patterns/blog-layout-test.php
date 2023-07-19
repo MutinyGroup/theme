@@ -14,7 +14,7 @@
   <!-- wp:post-template {"className":"test max-w-[600px]"} -->
     <!-- wp:group -->
     <div class="wp-block-group test2 mb-[40px]">
-      <!-- wp:post-featured-image {"isLink":true, "width":"200px","height":"149px"} /-->
+      <!-- wp:post-featured-image {"isLink":true} /-->
       <!-- wp:group -->
       <div class="wp-block-group test3">
       <!-- wp:post-terms {"term":"category"} /-->
