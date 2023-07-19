@@ -68,8 +68,8 @@
           <!-- wp:list-item -->
           <li class="relative mb-[20px] desktop:mb-0 desktop:max-w-[264px] max-w-full flex desktop:list-item gap-[20px]">
             <!-- wp:group -->
-            <div class="wp-block-group counter-index-wrapper inline relative">
-            <!-- wp:group -->
+            <div class="wp-block-group counter-index-wrapper min-w-[95px] inline relative">
+              <!-- wp:group -->
               <div class="wp-block-group circle-counter-index z-[-1] opacity-[15%] w-[80px] h-[80px] scale-[1] bg-[url('https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/front-page/about-us-circle-index.png')] bg-center bg-no-repaet bg-contain absolute top-[-85px] right-[-40px]">
               </div>
               <!-- /wp:group -->
@@ -98,7 +98,7 @@
           <!-- wp:list-item -->
           <li class="relative mb-[20px] desktop:mb-0 desktop:max-w-[264px] max-w-full flex desktop:list-item gap-[20px]">
             <!-- wp:group -->
-            <div class="wp-block-group counter-index-wrapper inline relative">
+            <div class="wp-block-group counter-index-wrapper min-w-[95px] inline relative">
             <!-- wp:group -->
               <div class="wp-block-group circle-counter-index z-[-1] opacity-[15%] w-[80px] h-[80px] scale-[1] bg-[url('https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/front-page/about-us-circle-index.png')] bg-center bg-no-repaet bg-contain absolute top-[-85px] right-[-40px]">
               </div>
@@ -128,7 +128,7 @@
           <!-- wp:list-item -->
           <li class="relative mb-[20px] desktop:mb-0 desktop:max-w-[264px] max-w-full flex desktop:list-item gap-[20px]">
             <!-- wp:group -->
-            <div class="wp-block-group counter-index-wrapper inline relative">
+            <div class="wp-block-group counter-index-wrapper min-w-[95px] inline relative">
             <!-- wp:group -->
               <div class="wp-block-group circle-counter-index z-[-1] opacity-[15%] w-[80px] h-[80px] scale-[1] bg-[url('https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/front-page/about-us-circle-index.png')] bg-center bg-no-repaet bg-contain absolute top-[-85px] right-[-40px]">
               </div>
@@ -158,7 +158,7 @@
           <!-- wp:list-item -->
           <li class="relative mb-[20px] desktop:mb-0 desktop:max-w-[264px] max-w-full flex desktop:list-item gap-[20px]">
             <!-- wp:group -->
-            <div class="wp-block-group counter-index-wrapper inline relative">
+            <div class="wp-block-group counter-index-wrapper min-w-[95px] inline relative">
             <!-- wp:group -->
               <div class="wp-block-group circle-counter-index z-[-1] opacity-[15%] w-[80px] h-[80px] scale-[1] bg-[url('https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/front-page/about-us-circle-index.png')] bg-center bg-no-repaet bg-contain absolute top-[-85px] right-[-40px]">
               </div>
