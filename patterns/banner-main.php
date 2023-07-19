@@ -82,13 +82,13 @@
     <!-- /wp:group -->    
 
     <!-- wp:paragraph -->
-    <p class="banner-paragraph desktop:ml-[95px] desktop:ml-[45px] ml-[20px] desktop:pt-0 pt-[90px] desktop:w-[264px] max-w-[300px] desktop:text-[18px] text-[18px] font-light leading-[22px]">
+    <p class="banner-paragraph desktop:ml-[95px] desktop:ml-[45px] ml-[20px] desktop:w-[264px] max-w-[300px] desktop:text-[18px] text-[18px] font-light leading-[22px]">
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore <span class="text-primaryYellow">magna aliqua.</span>
     </p>
     <!-- /wp:paragraph -->
 
     <!-- wp:paragraph -->
-    <a href="#about" class="wp-block-buttons desktop:w-[175px] w-[140px] desktop:h-[175px] h-[140px] mx-0 text-center rounded-full border desktop:border-[4px] border-[3px] border-[#D5D5D5] absolute top-[520px] desktop:top-[550px] wide:top-[720px] desktop:left-[56%] left-[50%] translate-x-[-50%] hover:border-none hover:bg-primaryYellow hover:text-white transition ease-out duration-300 flex flex-col justify-center items-center gap-y-0 cursor-pointer is-layout-flex">
+    <a href="#about" class="wp-block-buttons desktop:w-[175px] w-[140px] desktop:h-[175px] h-[140px] mx-0 text-center rounded-full border desktop:border-[4px] border-[3px] border-[#D5D5D5] absolute bottom-[20px] desktop:bottom-auto desktop:top-[550px] wide:top-[720px] desktop:left-[56%] left-[50%] translate-x-[-50%] hover:border-none hover:bg-primaryYellow hover:text-white transition ease-out duration-300 flex flex-col justify-center items-center gap-y-0 cursor-pointer is-layout-flex">
       <!-- wp:paragraph -->
       <p>Zobacz</p>
       <!-- /wp:paragraph -->
