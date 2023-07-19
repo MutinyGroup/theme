@@ -222,9 +222,9 @@
       <div class="wp-block-group gray-border w-full h-[2px] bg-[#808080] opacity-[25%]"></div>
       <!-- /wp:group -->
       <!-- wp:buttons -->
-      <div class="wp-block-buttons btn-more text-center w-[390px] ml-[0px] p-[15px_30px] uppercase border-[2px] border-white rounded-full hover:bg-white hover:text-black transition ease-out duration-300">
+      <div class="wp-block-buttons btn-more text-center ml-[0px] p-[15px_30px] uppercase border-[2px] border-white rounded-full hover:bg-white hover:text-black transition ease-out duration-300">
         <!-- wp:paragraph -->
-        <a href="https://mutiny.webo.design/blog/" class="uppercase w-[220px] text-[14px] font-bold">Zobacz wszystkie newsy</a>
+        <a href="https://mutiny.webo.design/blog/" class="uppercase desktop:w-[220px] w-auto max-w-[220px] text-[14px] font-bold">Zobacz wszystkie newsy</a>
         <!-- /wp:paragraph -->
       </div>
       <!-- /wp:buttons -->
