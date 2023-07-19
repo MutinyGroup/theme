@@ -7,7 +7,7 @@
  */
 ?>
 <!-- wp:group -->
-<div class="wp-block-group zaufali-nam mb-0">
+<div class="wp-block-group zaufali-nam mb-0 wide:pt-[100px]">
   <!-- wp:group -->
   <div class="wp-block-group container mx-auto desktop:px-0 px-[20px]">
     <!-- wp:paragraph -->
