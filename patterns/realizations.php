@@ -82,7 +82,7 @@
     <!-- wp:group -->
     <div class="wp-block-group cols-wrapper relative desktop:h-[800px] desktop:flex desktop:flex-row">
       <!-- wp:group -->
-      <div class="wp-block-group col1-realizacje desktop:h-[700px] h-[480px] relative group basis-1/2 transition ease-in-out duration-[400ms]">
+      <div class="wp-block-group col1-realizacje mb-[30px] desktop:h-[700px] h-[480px] relative group basis-1/2 transition ease-in-out duration-[400ms]">
         <!-- wp:group -->
         <div class="wp-block-group img-clip-path-wrapper w-full h-full rounded-tr-[20px] rounded-br-[20px] overflow-hidden absolute left-0 top-0 z-[-1]">
           <!-- wp:image -->
@@ -209,10 +209,6 @@
         <!-- /wp:group -->
       </div>
       <!-- /wp:group -->
-
-
-
-
     </div>
     <!-- /wp:group -->
     
