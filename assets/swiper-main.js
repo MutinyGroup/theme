@@ -75,10 +75,10 @@ document.addEventListener("DOMContentLoaded", function(event) {
     direction: "horizontal",
     slidesPerView: 2,
     slidesPerGroup: 2,
-    // autoplay: {
-    //   delay: 2000,
-    //   disableOnInteraction: false,
-    // },
+    autoplay: {
+      delay: 2000,
+      disableOnInteraction: false,
+    },
   });
 
   new Swiper('#opinions-dark', {
