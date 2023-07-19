@@ -13,7 +13,7 @@
 <div class="wp-block-query alignwide jace-blog-layout">
   <!-- wp:post-template -->
     <!-- wp:group -->
-    <div class="wp-block-group has-background" style="background-color:#f2f2f203;border-radius:4px">
+    <div class="wp-block-group has-background">
       <!-- wp:post-featured-image {"isLink":true"} /-->
       <!-- wp:group -->
       <div class="wp-block-group post-meta">
