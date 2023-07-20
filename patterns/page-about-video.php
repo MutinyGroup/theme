@@ -21,15 +21,6 @@
         <path d="M1 1.45249L938.266 329.35L938.596 329.465L938.927 329.35L1406.89 165.634V409.787L938.596 573.618L234.979 327.462L233.649 326.996V328.406V807.61L1 726.219V1.45249Z" stroke="#FFFFFF" stroke-width="2"/>
       </svg>
       <!-- /wp:paragraph --> 
-      <!-- wp:paragraph -->
-      <p
-      class="desktop:ml-[100px] desktop:text-[35px] text-[22px] font-medium desktop:leading-[42px] leading-[32px]"
-      >
-        Naszą misją jest lorem ipsum dolor sit amet, consectetur adipiscing
-        elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-        aliqua.
-      </p>
-      <!-- /wp:paragraph -->
     </div>
     <!-- /wp:group -->
     <!-- wp:group -->
