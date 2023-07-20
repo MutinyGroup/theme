@@ -420,3 +420,9 @@ body{
 .wp-block-navigation__container{
   gap: 50px;
 }
+
+/* video player */
+
+.wp-block-embed__wrapper{
+  height: 520px;
+}
