@@ -38,7 +38,7 @@ window.addEventListener("load", function () {
   })
 
   // video background image
-  const videoWrapper = document.querySelector('#videoWrapper');
+  const videoWrapper = document.querySelector('.js-videoWrapper');
 
   videoWrapper.addEventListener('click', () =>{
     videoWrapper.classList.replace('after:z-[1]', 'after:z-[-1]');
