@@ -8,7 +8,7 @@
 ?>
 
 <!-- wp:group -->
-<div class="wp-block-group hidden desktop:block meet-us overflow-hidden">
+<div class="wp-block-group hidden desktop:block video overflow-hidden">
   <!-- wp:paragraph -->
   <p>test</p>
   <!-- /wp:paragraph -->
