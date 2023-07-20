@@ -43,6 +43,7 @@ window.addEventListener("load", function () {
 
   videoBtn.addEventListener('click', () =>{
     videoWrapper.classList.add('after:opacity-0');
+    videoBtn.classList.add('opacity-0');
     setTimeout(() => {
       videoWrapper.classList.replace('after:z-[1]', 'after:z-[-1]');
       videoWrapper.classList.remove('img-clip-path-video');
