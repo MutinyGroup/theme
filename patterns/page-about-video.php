@@ -20,7 +20,7 @@
       <!-- /wp:paragraph --> 
       <!-- wp:paragraph -->
       <p
-      class="desktop:mb-[150px] desktop:ml-[100px] desktop:text-[35px] text-[22px] font-medium desktop:leading-[42px] leading-[32px] desktop:w-[897px]"
+      class="desktop:ml-[100px] desktop:text-[35px] text-[22px] font-medium desktop:leading-[42px] leading-[32px]"
       >
         Naszą misją jest lorem ipsum dolor sit amet, consectetur adipiscing
         elit, sed do eiusmod tempor incididunt ut labore et dolore magna
