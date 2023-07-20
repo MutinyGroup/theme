@@ -42,7 +42,8 @@ window.addEventListener("load", function () {
   const videoWrapper = document.querySelector('#wp-block-embed__wrapper');
 
   videoWrapper.addEventListener('click', () =>{
-    videoWrapper.classList.replace('z-[1]', 'z-[0]');
+    videoWrapper.classList.replace('before:z-[1]', 'before:z-[0]');
+    console.log('test');
   });
 
 });
