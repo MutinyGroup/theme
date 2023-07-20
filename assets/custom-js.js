@@ -39,9 +39,11 @@ window.addEventListener("load", function () {
 
   // video background image
   const videoWrapper = document.querySelector('.js-videoWrapper');
+  const videoBtn = document.querySelector('.js-videoBtn');
 
-  videoWrapper.addEventListener('click', () =>{
+  videoBtn.addEventListener('click', () =>{
     videoWrapper.classList.replace('after:z-[1]', 'after:z-[-1]');
+    videoBtn.classList.add('hidden');
     console.log('test');
   });
 
