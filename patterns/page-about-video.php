@@ -9,6 +9,9 @@
 
 <!-- wp:group -->
 <div class="wp-block-group hidden desktop:block meet-us overflow-hidden">
+  <!-- wp:paragraph -->
+  <p>test</p>
+  <!-- /wp:paragraph -->
 <!-- wp:group -->
   <div class="wp-block-group video relative container mx-auto desktop:px-0 px-[20px] mb-[150px]">
     <!-- wp:group -->
