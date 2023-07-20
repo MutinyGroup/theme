@@ -43,7 +43,7 @@ window.addEventListener("load", function () {
 
   videoBtn.addEventListener('click', () =>{
     videoWrapper.classList.replace('after:z-[1]', 'after:z-[-1]');
-    videoBtn.classList.add('hidden');
+    videoBtn.classList.add('z-[-1]');
     console.log('test');
   });
 
