@@ -39,7 +39,7 @@ window.addEventListener("load", function () {
   })
 
   // video background image
-  const videoWrapper = document.querySelector('#wp-block-embed__wrapper');
+  const videoWrapper = document.querySelector('#videoWrapper');
 
   videoWrapper.addEventListener('click', () =>{
     videoWrapper.classList.replace('before:z-[1]', 'before:z-[0]');
