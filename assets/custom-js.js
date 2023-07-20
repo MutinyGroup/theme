@@ -42,16 +42,10 @@ window.addEventListener("load", function () {
   const videoBtn = document.querySelector('.js-videoBtn');
 
   videoBtn.addEventListener('click', () =>{
-    videoWrapper.classList.add('after:opacity-0');
-
-  });
-
-  if(videoWrapper.classList.contains('after:opacity-0')){
     videoWrapper.classList.replace('after:z-[1]', 'after:z-[-1]');
     videoWrapper.classList.remove('img-clip-path-video');
     videoBtn.classList.replace('z-[1]', 'z-[-1]');
-  };
-
+  });
 });
 
 
