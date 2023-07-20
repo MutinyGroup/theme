@@ -21,7 +21,6 @@ window.addEventListener("load", function () {
 
   // page services-marketing
   const clickBar = document.querySelectorAll(".click-bar");
-  // const clickBar1 = document.querySelector(".click-bar");
   const stepParagraph = document.querySelectorAll(".step-paragraph");
   const iconArrow = document.querySelectorAll(".icon-arrow");
 
@@ -42,7 +41,7 @@ window.addEventListener("load", function () {
   const videoWrapper = document.querySelector('#videoWrapper');
 
   videoWrapper.addEventListener('click', () =>{
-    videoWrapper.classList.replace('before:z-[1]', 'before:z-[0]');
+    videoWrapper.classList.replace('after:z-[1]', 'after:z-[0]');
     console.log('test');
   });
 
