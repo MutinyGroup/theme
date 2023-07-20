@@ -196,7 +196,7 @@
     </ul>
     <!-- /wp:list -->
 
-    <!-- wp:group {"displayLayout":{"type":"flex","columns":2}} -->
+    <!-- wp:group {"displayLayout":{"type":"flex","columns":2}, "width":"200px"} -->
     <div class="wp-block-group gallery desktop:mb-[240px] mb-[150px] relative mb-[100px] flex">
       <!-- wp:image -->
       <figure class="wp-block-image w-[60%] overflow-hidden rounded-tl-[22px] rounded-bl-[22px]">
