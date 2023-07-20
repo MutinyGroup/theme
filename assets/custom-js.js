@@ -41,7 +41,7 @@ window.addEventListener("load", function () {
   const videoWrapper = document.querySelector('#videoWrapper');
 
   videoWrapper.addEventListener('click', () =>{
-    videoWrapper.classList.replace('after:z-[1]', 'after:z-[0]');
+    videoWrapper.classList.replace('after:z-[1]', 'after:z-[-1]');
     console.log('test');
   });
 
