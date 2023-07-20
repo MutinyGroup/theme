@@ -43,8 +43,8 @@ window.addEventListener("load", function () {
 
   videoBtn.addEventListener('click', () =>{
     videoWrapper.classList.replace('after:z-[1]', 'after:z-[-1]');
+    videoWrapper.classList.remove('img-clip-path-video');
     videoBtn.classList.replace('z-[1]', 'z-[-1]');
-    console.log('test');
   });
 
 });
