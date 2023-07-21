@@ -148,7 +148,7 @@
                     <?php }; ?>
                   </ul>
                   <!-- /wp-list -->
-                  
+
                   <!-- wp:list -->
                   <ul class="wp-block-list categories-all-1 mb-[108px] flex flex-wrap gap-[10px]">
                     <?php
@@ -176,7 +176,14 @@
                       };
                     ?>
                   </ul>
-                  <!-- /wp:list -->                  
+                  <!-- /wp:list -->     
+                  
+                  <?php
+                    $terms = get_the_terms( $post->ID , 'board' );
+                    foreach ( $terms as $term ) {
+                    echo $term->name;
+                    }
+                  ?>
 
                   <!-- wp:title -->
                   <h2 class="mb-[50px] text-[35px] font-semibold leading-[42px]">
