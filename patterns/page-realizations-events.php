@@ -17,7 +17,7 @@
     <ul class="wp-block-list categories-all mb-[108px] flex flex-wrap gap-[10px]">
       <?php
         $args = array(
-                    'taxonomy' => 'dining-category',
+                    'taxonomy' => 'realizacje-category',
                     'orderby' => 'name',
                     'order'   => 'ASC'
                 );
@@ -42,7 +42,19 @@
       ?>
     </ul>
     <!-- /wp:list -->
-    
+
+    <ul class="inline text-[14px] text-neutral-500">
+      <?php 
+        $categories = get_the_category();
+        foreach ($categories as $category) {
+        $category_link = get_category_link($category->term_id);
+        ?>
+        <li class="inline">
+          <a href="<?php echo esc_url($category_link); ?>" class="text-white bg-[#00b3a7] p-[4px_8px] rounded-full hover:bg-[#008077] transition ease-out duration-200"><?php echo $category->name; ?></a>
+        </li>
+      <?php }; ?>
+    </ul>
+
     <!-- wp:list -->
     <ul class="wp-block-list events-list mb-[150px]">
       <?php
