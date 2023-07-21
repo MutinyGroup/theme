@@ -40,7 +40,7 @@
           <div class="wp-block-group swiper-wrapper">
             <?php
               $args = array(
-                  'post_type' => 'post',
+                  'post_type' => 'realizacje',
                   'posts_per_page' => 4,
                   'order' => 'DESC'
               );
