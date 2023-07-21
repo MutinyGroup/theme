@@ -344,7 +344,7 @@ function custom_post_types(){
       'all_items' => 'Wszystkie realizacjes',
       'singular_name' => 'realizacja'
     ),
-    'menu_icon' => 'dashicons-calendar-alt',
+    'menu_icon' => 'dashicons-admin-page',
     'show_in_rest' => true,
     'has_archive' => true,
     'rewrite' => array('slug' => 'realizacje'),
