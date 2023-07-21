@@ -21,39 +21,26 @@
                     'orderby' => 'name',
                     'order'   => 'ASC'
                 );
-
         $cats = get_categories($args);
 
         foreach($cats as $cat) {
       ?>
-            <!-- wp:list-item -->
-            <li
-              class="w-fit h-[40px] px-[10px] bg-[#F2F2F2] border border-[#AAA] border-[2px] rounded-full uppercase text-[14px] font-semibold leading-[20px] flex justify-center items-center hover:bg-primaryYellow hover:border-primaryYellow transition ease-out duration-300 cursor-pointer"
-            >
-              <!-- wp:paragraph -->
-              <a href="<?php echo get_category_link( $cat->term_id ) ?>">
-                <?php echo $cat->name; ?>
-              </a>
-              <!-- /wp:paragraph -->
-            </li>
-            <!-- /wp:list-item -->            
+        <!-- wp:list-item -->
+        <li
+          class="w-fit h-[40px] px-[10px] bg-[#F2F2F2] border border-[#AAA] border-[2px] rounded-full uppercase text-[14px] font-semibold leading-[20px] flex justify-center items-center hover:bg-primaryYellow hover:border-primaryYellow transition ease-out duration-300 cursor-pointer"
+        >
+          <!-- wp:paragraph -->
+          <a href="<?php echo get_category_link( $cat->term_id ) ?>">
+            <?php echo $cat->name; ?>
+          </a>
+          <!-- /wp:paragraph -->
+        </li>
+        <!-- /wp:list-item -->            
       <?php
-        }
+        };
       ?>
     </ul>
     <!-- /wp:list -->
-
-    <ul class="wp-block-list hidden categories-all-2 mb-[108px] flex flex-wrap gap-[10px]">
-      <?php 
-        $categories = get_the_category();
-        foreach ($categories as $category) {
-        $category_link = get_category_link($category->term_id);
-        ?>
-        <li class="w-fit h-[40px] px-[10px] bg-[#F2F2F2] border border-[#AAA] border-[2px] rounded-full uppercase text-[14px] font-semibold leading-[20px] flex justify-center items-center hover:bg-primaryYellow hover:border-primaryYellow transition ease-out duration-300 cursor-pointer">
-          <a href="<?php echo esc_url($category_link); ?>" class=""><?php echo $category->name; ?></a>
-        </li>
-      <?php }; ?>
-    </ul>
 
     <!-- wp:list -->
     <ul class="wp-block-list events-list mb-[150px]">
@@ -161,6 +148,35 @@
                     <?php }; ?>
                   </ul>
                   <!-- /wp-list -->
+                  
+                  <!-- wp:list -->
+                  <ul class="wp-block-list categories-all-1 mb-[108px] flex flex-wrap gap-[10px]">
+                    <?php
+                      $args = array(
+                                  'taxonomy' => 'category',
+                                  'orderby' => 'name',
+                                  'order'   => 'ASC'
+                              );
+                      $cats = get_categories($args);
+
+                      foreach($cats as $cat) {
+                    ?>
+                      <!-- wp:list-item -->
+                      <li
+                        class="w-fit h-[40px] px-[10px] bg-[#F2F2F2] border border-[#AAA] border-[2px] rounded-full uppercase text-[14px] font-semibold leading-[20px] flex justify-center items-center hover:bg-primaryYellow hover:border-primaryYellow transition ease-out duration-300 cursor-pointer"
+                      >
+                        <!-- wp:paragraph -->
+                        <a href="<?php echo get_category_link( $cat->term_id ) ?>">
+                          <?php echo $cat->name; ?>
+                        </a>
+                        <!-- /wp:paragraph -->
+                      </li>
+                      <!-- /wp:list-item -->            
+                    <?php
+                      };
+                    ?>
+                  </ul>
+                  <!-- /wp:list -->                  
 
                   <!-- wp:title -->
                   <h2 class="mb-[50px] text-[35px] font-semibold leading-[42px]">
