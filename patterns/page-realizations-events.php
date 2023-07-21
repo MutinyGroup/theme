@@ -179,7 +179,7 @@
                   <!-- /wp:list -->     
                   
                   <?php
-                    $terms = get_the_terms( $post->ID , 'board' );
+                    $terms = get_the_terms( $post_query->ID , 'board' );
                     foreach ( $terms as $term ) {
                     echo $term->name;
                     }
