@@ -14,7 +14,7 @@
     class="wp-block-group container mx-auto relative desktop:px-0 px-[20px]"
   >
     <!-- wp:list -->
-    <ul class="wp-block-list categories-all mb-[108px] flex flex-wrap gap-[10px]">
+    <ul class="wp-block-list hidden old categories-all mb-[108px] flex flex-wrap gap-[10px]">
       <!-- wp:list-item -->
       <li
         class="w-fit h-[40px] px-[10px] bg-[#F2F2F2] border border-[#AAA] border-[2px] rounded-full uppercase text-[14px] font-semibold leading-[20px] flex justify-center items-center hover:bg-primaryYellow hover:border-primaryYellow transition ease-out duration-300 cursor-pointer"
@@ -46,7 +46,35 @@
     <!-- /wp:list -->
 
     <!-- wp:list -->
-    <ul class="wp-block-list events-list mb-[150px] flex gap-[10px]">
+    <ul class="wp-block-list categories-all mb-[108px] flex flex-wrap gap-[10px]">
+      <?php
+        $args = array(
+                    'taxonomy' => 'dining-category',
+                    'orderby' => 'name',
+                    'order'   => 'ASC'
+                );
+
+        $cats = get_categories($args);
+
+        foreach($cats as $cat) {
+      ?>
+            <!-- wp:list-item -->
+            <li
+              class="w-fit h-[40px] px-[10px] bg-[#F2F2F2] border border-[#AAA] border-[2px] rounded-full uppercase text-[14px] font-semibold leading-[20px] flex justify-center items-center hover:bg-primaryYellow hover:border-primaryYellow transition ease-out duration-300 cursor-pointer"
+            >
+              <!-- wp:paragraph -->
+              <a href="<?php echo get_category_link( $cat->term_id ) ?>">
+                <?php echo $cat->name; ?>
+              </a>
+              <!-- /wp:paragraph -->
+            </li>
+            <!-- /wp:list-item -->            
+      <?php
+        }
+      ?>
+
+    <!-- wp:list -->
+    <ul class="wp-block-list hidden old events-list mb-[150px] flex gap-[10px]">
       <!-- wp:list-item -->
       <li class="event-tile group desktop:flex gap-[75px]">
         <!-- wp:group -->
