@@ -166,6 +166,8 @@
                       $terms = get_the_terms();
                       print_r($terms);
 
+                      print_r(wp_get_post_categories());
+
                       foreach($cats as $cat) {
                     ?>
                       <!-- wp:list-item -->
