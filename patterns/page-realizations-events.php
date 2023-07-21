@@ -107,23 +107,23 @@
                     class="wp-block-list categories-under-logo mb-[20px] flex gap-[10px]"
                   >
 
-                  <?php
-                    $args = array(
-                                'taxonomy' => 'dining-category',
-                                'orderby' => 'name',
-                                'order'   => 'ASC'
-                            );
+                    <?php
+                      $args = array(
+                                  'taxonomy' => 'dining-category',
+                                  'orderby' => 'name',
+                                  'order'   => 'ASC'
+                              );
 
-                    $cats = get_categories($args);
+                      $cats = get_categories($args);
 
-                    foreach($cats as $cat) {
-                  ?>
-                        <a href="<?php echo get_category_link( $cat->term_id ) ?>">
-                            <?php echo $cat->name; ?>
-                        </a>
-                  <?php
-                    }
-                  ?>
+                      foreach($cats as $cat) {
+                    ?>
+                          <a href="<?php echo get_category_link( $cat->term_id ) ?>">
+                              <?php echo $cat->name; ?>
+                          </a>
+                    <?php
+                      }
+                    ?>
 
                     <!-- wp:list-item -->
                     <li
