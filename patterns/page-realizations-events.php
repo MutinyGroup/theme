@@ -14,10 +14,10 @@
     class="wp-block-group container mx-auto relative desktop:px-0 px-[20px]"
   >
     <!-- wp:list -->
-    <ul class="wp-block-list categories-all mb-[108px] flex flex-wrap gap-[10px]">
+    <ul class="wp-block-list categories-all-1 mb-[108px] flex flex-wrap gap-[10px]">
       <?php
         $args = array(
-                    'taxonomy' => 'realizacje-category',
+                    'taxonomy' => 'category',
                     'orderby' => 'name',
                     'order'   => 'ASC'
                 );
@@ -43,14 +43,14 @@
     </ul>
     <!-- /wp:list -->
 
-    <ul class="inline text-[14px] text-neutral-500">
+    <ul class="wp-block-list categories-all-2 mb-[108px] flex flex-wrap gap-[10px]">
       <?php 
         $categories = get_the_category();
         foreach ($categories as $category) {
         $category_link = get_category_link($category->term_id);
         ?>
-        <li class="inline">
-          <a href="<?php echo esc_url($category_link); ?>" class="text-white bg-[#00b3a7] p-[4px_8px] rounded-full hover:bg-[#008077] transition ease-out duration-200"><?php echo $category->name; ?></a>
+        <li class="w-fit h-[40px] px-[10px] bg-[#F2F2F2] border border-[#AAA] border-[2px] rounded-full uppercase text-[14px] font-semibold leading-[20px] flex justify-center items-center hover:bg-primaryYellow hover:border-primaryYellow transition ease-out duration-300 cursor-pointer">
+          <a href="<?php echo esc_url($category_link); ?>" class=""><?php echo $category->name; ?></a>
         </li>
       <?php }; ?>
     </ul>
