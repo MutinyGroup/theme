@@ -291,7 +291,7 @@
     <!-- /wp:list -->
 
     <!-- wp:list -->
-    <ul class="wp-block-list events-list mb-[150px] flex gap-[10px]">
+    <ul class="wp-block-list events-list mb-[150px]">
       <?php
         $args = array(
             'post_type' => 'realizacje',
@@ -306,7 +306,7 @@
             $counter++;
             if (true){ ?>
               <!-- wp:list-item -->
-              <li class="event-tile group desktop:flex gap-[75px]">
+              <li class="event-tile group desktop:flex gap-[75px] mb-[50px]">
                 <!-- wp:group -->
                 <div
                   class="wp-block-group event-image-wrapper desktop:mb-0 mb-[20px] w-[40%] max-h-[400px] overflow-hidden w-full rounded-[20px]"
