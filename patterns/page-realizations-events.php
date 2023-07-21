@@ -89,50 +89,6 @@
                   </figure>
                   <!-- /wp:image -->
 
-                  <!-- wp:list -->
-                  <ul
-                    class="wp-block-list hidden categories-under-logo mb-[20px] flex gap-[10px]"
-                  >
-
-                    <?php
-                      $args = array(
-                                  'taxonomy' => 'dining-category',
-                                  'orderby' => 'name',
-                                  'order'   => 'ASC'
-                              );
-
-                      $cats = get_categories($args);
-
-                      foreach($cats as $cat) {
-                    ?>
-                          <a href="<?php echo get_category_link( $cat->term_id ) ?>">
-                              <?php echo $cat->name; ?>
-                          </a>
-                    <?php
-                      }
-                    ?>
-
-                    <!-- wp:list-item -->
-                    <li
-                      class="w-fit p-[0px_8px] flex justify-center items-center bg-[#F2F2F2] leading-[20px] border border-[#D5D5D5] border-[2px] rounded-full uppercase text-[13px] font-semibold hover:bg-primaryYellow hover:border-primaryYellow transition ease-out duration-300 cursor-pointer"
-                    >
-                      <!-- wp:paragraph -->
-                      <a href="#">eventy</a>
-                      <!-- /wp:paragraph -->
-                    </li>
-                    <!-- /wp:list-item -->
-                    <!-- wp:list-item -->
-                    <li
-                      class="w-fit p-[0px_8px] flex justify-center items-center bg-[#F2F2F2] leading-[20px] border border-[#D5D5D5] border-[2px] rounded-full uppercase text-[13px] font-semibold hover:bg-primaryYellow hover:border-primaryYellow transition ease-out duration-300 cursor-pointer"
-                    >
-                      <!-- wp:paragraph -->
-                      <a href="#">scenografia</a>
-                      <!-- /wp:paragraph -->
-                    </li>
-                    <!-- /wp:list-item -->
-                  </ul>
-                  <!-- /wp:list -->
-
                   <!-- wp-list -->
                   <ul class="wp-block-list test categories-under-logo mb-[20px] flex gap-[10px]">
                     <?php 
@@ -146,41 +102,6 @@
                     <?php }; ?>
                   </ul>
                   <!-- /wp-list -->
-
-                  <!-- wp:list -->
-                  <ul class="wp-block-list hidden categories-all-1 mb-[108px] flex flex-wrap gap-[10px]">
-                    <?php
-                      $args = array(
-                                  'taxonomy' => 'category',
-                                  'orderby' => 'name',
-                                  'order'   => 'ASC'
-                              );
-                      $cats = get_categories($args);
-                      $postCat = wp_get_post_categories();
-                      print_r($postCat);
-
-                      foreach($cats as $cat) {
-                    ?>
-                      <!-- wp:list-item -->
-                      <li
-                        class="w-fit h-[40px] px-[10px] bg-[#F2F2F2] border border-[#AAA] border-[2px] rounded-full uppercase text-[14px] font-semibold leading-[20px] flex justify-center items-center hover:bg-primaryYellow hover:border-primaryYellow transition ease-out duration-300 cursor-pointer"
-                      >
-                        <!-- wp:paragraph -->
-                        <a href="<?php echo get_category_link( $cat->term_id ) ?>">
-                          <?php echo $cat->name; ?>
-                        </a>
-                        <!-- /wp:paragraph -->
-                      </li>
-                      <!-- /wp:list-item -->            
-                    <?php
-                      };
-                    ?>
-                  </ul>
-                  <!-- /wp:list --> 
-
-                  
-
-                  
 
                   <!-- wp:title -->
                   <h2 class="mb-[50px] text-[35px] font-semibold leading-[42px]">
