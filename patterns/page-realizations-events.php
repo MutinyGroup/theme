@@ -182,7 +182,7 @@
                     class="wp-block-image event-image grayscale scale-[1] group-hover:scale-[1.04] group-hover:grayscale-0 transition ease-out duration-[500ms]"
                   >
                     <img
-                      src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-realizations/realizations-event-img1.jpg"
+                      src="<?php echo $postImageUrl[0]; ?>"
                       alt=""
                     />
                   </figure>
