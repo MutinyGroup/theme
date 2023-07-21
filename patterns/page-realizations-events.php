@@ -43,7 +43,7 @@
     </ul>
     <!-- /wp:list -->
 
-    <ul class="wp-block-list categories-all-2 mb-[108px] flex flex-wrap gap-[10px]">
+    <ul class="wp-block-list hidden categories-all-2 mb-[108px] flex flex-wrap gap-[10px]">
       <?php 
         $categories = get_the_category();
         foreach ($categories as $category) {
