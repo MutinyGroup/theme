@@ -330,3 +330,25 @@ if ( function_exists( 'register_block_pattern' ) ) {
 
 
 // tk test
+
+
+
+
+function custom_post_types(){
+  register_post_type('realizacje', array(
+    'public' => true,
+    'labels' => array(
+      'name' => 'Realizacje',
+      'add_new_item' => 'Dodaj realizacje',
+      'edit_item' => 'Edytuj realizacje',
+      'all_items' => 'Wszystkie realizacjes',
+      'singular_name' => 'realizacja'
+    ),
+    'menu_icon' => 'dashicons-calendar-alt',
+    'show_in_rest' => true,
+    'has_archive' => true,
+    'rewrite' => array('slug' => 'realizacje'),
+    'supports' => array('title', 'editor', 'excerpt')
+  ));
+};
+add_action('init', 'custom_post_types');
