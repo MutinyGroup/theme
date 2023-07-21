@@ -159,6 +159,10 @@
                               );
                       $cats = get_categories($args);
 
+                      $cats2 = get_categories();
+
+                      print_r($cats2);
+
                       foreach($cats as $cat) {
                     ?>
                       <!-- wp:list-item -->
@@ -176,14 +180,9 @@
                       };
                     ?>
                   </ul>
-                  <!-- /wp:list -->     
+                  <!-- /wp:list --> 
+                      
                   
-                  <?php
-                    $terms = get_the_terms( $post_query->ID , 'board' );
-                    foreach ( $terms as $term ) {
-                    echo $term->name;
-                    }
-                  ?>
 
                   <!-- wp:title -->
                   <h2 class="mb-[50px] text-[35px] font-semibold leading-[42px]">
