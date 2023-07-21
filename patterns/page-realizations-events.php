@@ -137,10 +137,8 @@
                   <ul class="wp-block-list categories-under-logo mb-[20px] flex gap-[10px]">
                     <?php 
                       $categoriesArray = get_the_category();
-                      print_r($categoriesArray);
                       foreach ($categoriesArray as $category) {
                       $category_link = get_category_link($category->term_id);
-                      print_r($categoriesArray);
                       ?>
                       <li class="w-fit p-[0px_8px] flex justify-center items-center bg-[#F2F2F2] leading-[20px] border border-[#D5D5D5] border-[2px] rounded-full uppercase text-[13px] font-semibold hover:bg-primaryYellow hover:border-primaryYellow transition ease-out duration-300 cursor-pointer">
                         <a href="<?php echo esc_url($category_link); ?>"><?php echo $category->name; ?></a>
@@ -158,15 +156,8 @@
                                   'order'   => 'ASC'
                               );
                       $cats = get_categories($args);
-
-                      $cats2 = get_categories();
-
-                      print_r($cats2);
-
-                      $terms = get_the_terms();
-                      print_r($terms);
-
-                      print_r(wp_get_post_categories());
+                      $postCat = wp_get_post_categories();
+                      print_r($postCat);
 
                       foreach($cats as $cat) {
                     ?>
