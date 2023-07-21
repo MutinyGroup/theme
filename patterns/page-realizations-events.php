@@ -104,7 +104,7 @@
 
                   <!-- wp:list -->
                   <ul
-                    class="wp-block-list categories-under-logo mb-[20px] flex gap-[10px]"
+                    class="wp-block-list hidden categories-under-logo mb-[20px] flex gap-[10px]"
                   >
 
                     <?php
@@ -145,6 +145,20 @@
                     <!-- /wp:list-item -->
                   </ul>
                   <!-- /wp:list -->
+
+                  <!-- wp-list -->
+                  <ul class="wp-block-list categories-under-logo mb-[20px] flex gap-[10px]">
+                    <?php 
+                      $categoriesArray = get_the_category();
+                      foreach ($categoriesArray as $category) {
+                      $category_link = get_category_link($category->term_id);
+                      ?>
+                      <li class="w-fit p-[0px_8px] flex justify-center items-center bg-[#F2F2F2] leading-[20px] border border-[#D5D5D5] border-[2px] rounded-full uppercase text-[13px] font-semibold hover:bg-primaryYellow hover:border-primaryYellow transition ease-out duration-300 cursor-pointer">
+                        <a href="<?php echo esc_url($category_link); ?>"><?php echo $category->name; ?></a>
+                      </li>
+                    <?php }; ?>
+                  </ul>
+                  <!-- /wp-list -->
 
                   <!-- wp:title -->
                   <h2 class="mb-[50px] text-[35px] font-semibold leading-[42px]">
