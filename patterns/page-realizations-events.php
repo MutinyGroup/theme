@@ -163,6 +163,9 @@
 
                       print_r($cats2);
 
+                      $terms = get_the_terms();
+                      print_r($terms);
+
                       foreach($cats as $cat) {
                     ?>
                       <!-- wp:list-item -->
@@ -181,7 +184,9 @@
                     ?>
                   </ul>
                   <!-- /wp:list --> 
-                      
+
+                  
+
                   
 
                   <!-- wp:title -->
