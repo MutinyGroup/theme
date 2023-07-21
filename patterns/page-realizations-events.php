@@ -107,49 +107,52 @@
 
                   <!-- wp:title -->
                   <h2 class="mb-[50px] text-[35px] font-semibold leading-[42px]">
-                    <?php the_title(); ?>
+                    <a href="<?php the_permalink(); ?>">
+                      <?php the_title(); ?>
+                    </a>
                   </h2>
                   <!-- /wp:title -->
-                  <!-- wp:group -->
+                  <!-- wp:buttons -->
                   <div
-                    id="opinions-next"
-                    class="wp-block-group w-[56px] h-[56px]"
+                    class="wp-block-buttons w-[56px] h-[56px]"
                   >
-                    <!-- wp:paragraph -->
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="56"
-                      height="56"
-                      viewBox="0 0 56 56"
-                      fill="none"
-                      class="group fill-transparent group-hover:fill-primaryYellow"
-                    >
-                      <rect
-                        x="1.5"
-                        y="1.5"
-                        width="53"
-                        height="53"
-                        rx="26.5"
-                        stroke="#AAAAAA"
-                        stroke-width="3"
-                        class="group-hover:stroke-primaryYellow transition-stroke ease-out duration-500"
-                      />
-                      <path
-                        d="M28 35L35 28.0189L28.0379 21"
-                        stroke="black"
-                        stroke-width="1.5"
-                        class="group-hover:stroke-black transition-stroke ease-out duration-500"
-                      />
-                      <path
-                        d="M20 28L31 28"
-                        stroke="black"
-                        stroke-width="1.5"
-                        class="group-hover:stroke-black transition-stroke ease-out duration-500"
-                      />
-                    </svg>
-                    <!-- /wp:paragraph -->
+                    <a href="<?php the_permalink(); ?>">
+                      <!-- wp:paragraph -->
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="56"
+                        height="56"
+                        viewBox="0 0 56 56"
+                        fill="none"
+                        class="group fill-transparent group-hover:fill-primaryYellow"
+                      >
+                        <rect
+                          x="1.5"
+                          y="1.5"
+                          width="53"
+                          height="53"
+                          rx="26.5"
+                          stroke="#AAAAAA"
+                          stroke-width="3"
+                          class="group-hover:stroke-primaryYellow transition-stroke ease-out duration-500"
+                        />
+                        <path
+                          d="M28 35L35 28.0189L28.0379 21"
+                          stroke="black"
+                          stroke-width="1.5"
+                          class="group-hover:stroke-black transition-stroke ease-out duration-500"
+                        />
+                        <path
+                          d="M20 28L31 28"
+                          stroke="black"
+                          stroke-width="1.5"
+                          class="group-hover:stroke-black transition-stroke ease-out duration-500"
+                        />
+                      </svg>
+                      <!-- /wp:paragraph -->
+                    </a>
                   </div>
-                  <!-- /wp:group -->
+                  <!-- /wp:buttons -->
                 </div>
                 <!-- /wp:group -->
               </li>
