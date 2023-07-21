@@ -40,7 +40,9 @@
       <?php
         }
       ?>
-
+    </ul>
+    <!-- /wp:list -->
+    
     <!-- wp:list -->
     <ul class="wp-block-list events-list mb-[150px]">
       <?php
