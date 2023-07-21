@@ -348,7 +348,7 @@ function custom_post_types(){
     'show_in_rest' => true,
     'has_archive' => true,
     'rewrite' => array('slug' => 'realizacje'),
-    'supports' => array('title', 'editor', 'excerpt'),
+    'supports' => array('title', 'editor', 'excerpt','thumbnail'),
 		'taxonomies'  => array( 'category' )
   ));
 };
