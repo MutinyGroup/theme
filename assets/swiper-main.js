@@ -90,6 +90,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
       },
       1024: {
         noSwiping: true,
+        noSwipingClass: 'swiper-no-swiping',
         slidesPerView: 'auto'
         // slidesPerGroup: 2,
       },

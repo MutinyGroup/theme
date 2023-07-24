@@ -15,7 +15,7 @@
     <!-- /wp:paragraph -->
 
     <!-- wp:group -->
-    <div id="logos" class="wp-block-group swiper mobile noSwipingClass desktop:hisdden">
+    <div id="logos" class="wp-block-group swiper mobile swiper-no-swiping desktop:hisdden">
       <!-- wp:group -->
       <div class="wp-block-group swiper-wrapper">
         <!-- wp:core/image -->
