@@ -65,10 +65,10 @@
       class="wp-block-buttons desktop:w-[175px] w-[140px] desktop:h-[175px] h-[140px] mx-0 text-center rounded-full border desktop:border-[4px] border-[3px] border-[#AAAAAA] absolute desktop:top-[-130px] top-[350px] desktop:left-[1080px] left-[50%] translate-x-[-50%] hover:border-none hover:bg-primaryYellow hover:text-white transition ease-out duration-300 flex flex-col justify-center items-center gap-y-0 cursor-pointer"
     >
       <!-- wp:paragraph -->
-      <p>Skontaktuj się</p>
+      <p>Zobacz</p>
       <!-- /wp:paragraph -->
       <!-- wp:paragraph -->
-      <p class="uppercase text-[25px] font-extrabold">z nami</p>
+      <p class="uppercase text-[25px] font-extrabold">więcej</p>
       <!-- /wp:paragraph -->
     </div>
     <!-- /wp:buttons -->
@@ -95,7 +95,7 @@
     <!-- /wp:paragraph -->
     <!-- wp:paragraph -->
     <p
-    class="desktop:ml-[145px] desktop:text-[35px] text-[22px] font-medium desktop:leading-[42px] leading-[32px] desktop:w-[897px]"
+    class="container mx-auto desktop:px-0 px-[20px] desktop:ml-[145px] desktop:text-[35px] text-[22px] font-medium desktop:leading-[42px] leading-[32px] desktop:w-[897px]"
     >
       Jesteśmy ekspertami od komunikacji i marketingu. Pracujemy dla topowych firm, stawiających przed nami duże wyzwania.
     </p>
