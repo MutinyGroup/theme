@@ -354,7 +354,7 @@ function custom_post_types(){
   register_post_type('uslugi', array(
     'public' => true,
     'labels' => array(
-      'name' => 'usługi',
+      'name' => 'Usługi',
       'add_new_item' => 'Dodaj usługę',
       'edit_item' => 'Edytuj usługę',
       'all_items' => 'Wszystkie usługi',
@@ -363,7 +363,7 @@ function custom_post_types(){
     'menu_icon' => 'dashicons-flag',
     'show_in_rest' => true,
     'has_archive' => true,
-    'rewrite' => array('slug' => 'usługi'),
+    'rewrite' => array('slug' => 'uslugi'),
     'supports' => array('title', 'editor', 'excerpt','thumbnail'),
 		'taxonomies'  => array( 'category' )
   ));
