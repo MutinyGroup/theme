@@ -542,7 +542,7 @@
               $counter++;
               if (true){ ?>
                 <!-- wp:list-item -->
-                <li class="wp-block-group bigger swiper-slide relative group desktop:w-[520px] w-fit desktop:h-[675px] h-[320px] <?php if (!($counter % 2)) echo 'desktop:translate-y-[120px]'; else echo ''; ?>">
+                <li class="wp-block-group bigger swiper-slide relative group desktop:w-[520px] w-fit desktop:h-[675px] h-[320px] <?php if (!($counter % 2)) echo ''; else echo 'desktop:translate-y-[120px]'; ?>">
                   <!-- wp:paragraph -->
                   <a href="<?php the_permalink(); ?>">
                     <!-- wp:group -->
