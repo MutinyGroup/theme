@@ -17,7 +17,7 @@
     <!-- wp:group -->
     <div id="logos" class="wp-block-group swiper mobile swiper-no-swiping desktop:hisdden">
       <!-- wp:group -->
-      <div class="wp-block-group swiper-wrapper">
+      <div class="wp-block-group swiper-wrapper gap-x-[110px] gap-y-[40px] flex-wrap items-center justify-center">
         <!-- wp:core/image -->
         <figure class="swiper-slide swiper-no-swiping wp-block-image h-auto self-center">
           <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-about/logos-companies/logo-serenada.png" alt="logo-serenada">
