@@ -27,7 +27,7 @@
         class="wp-block-group section-title grid desktop:basis-auto desktop:w-[145px] desktop:basis-[80%] uppercase text-primaryYellow"
         >
           <!-- wp:paragraph -->
-          <p class="justify-self-end pt-[3px] pr-[15px]">Usługi</p>
+          <p class="m-0 justify-self-end pt-[3px] pr-[15px]">Usługi</p>
           <!-- /wp:paragraph -->
         </div>  
         <!-- /wp:group -->
@@ -37,7 +37,7 @@
         <div class="wp-block-group uslugi-title uppercase font-medium desktop:text-[60px] text-[24px] desktop:leading-[60px] leading-[30px]">
           <!-- wp:paragraph -->
           <p
-            class="uppercase"
+            class="m-0 uppercase"
           >
             Marketing i PR
           </p>
