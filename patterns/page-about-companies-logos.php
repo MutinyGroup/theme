@@ -15,7 +15,7 @@
     <!-- /wp:paragraph -->
 
     <!-- wp:group -->
-    <div id="logos" class="wp-block-group swiper mobile desktop:hidden">
+    <div id="logos" class="wp-block-group swiper mobile desktop:hisdden">
       <!-- wp:group -->
       <div class="wp-block-group swiper-wrapper">
         <!-- wp:core/image -->
