@@ -645,7 +645,7 @@
                     >
                       <!-- wp:paragraph -->
                       <a
-                      href="#"
+                      href="<?php the_permalink(); ?>"
                       class="inline-block flex desktop:block"
                       >
                         <!-- wp:paragraph -->
