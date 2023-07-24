@@ -20,7 +20,7 @@
     <!-- /wp:group -->
     
     <!-- wp:group -->
-    <div class="wp-block-group post-content container mx-auto desktop:px-0 px-[20px]">
+    <div class="wp-block-group post-content">
       <!-- wp:post-content /-->
     </div>
     <!-- /wp:group -->
