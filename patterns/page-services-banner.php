@@ -7,7 +7,7 @@
  */
 ?>
 
-<!-- wp:group -->
+<!-- wp:group {"anchor":"Banner"} -->
 <div class="wp-block-group services-banner mb-[150px]">
   <!-- wp:group -->
   <div
