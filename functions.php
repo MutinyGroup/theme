@@ -351,19 +351,19 @@ function custom_post_types(){
     'supports' => array('title', 'editor', 'excerpt','thumbnail'),
 		'taxonomies'  => array( 'category' )
   ));
-  register_post_type('services', array(
+  register_post_type('uslugi', array(
     'public' => true,
     'labels' => array(
-      'name' => 'services',
-      'add_new_item' => 'Dodaj services',
-      'edit_item' => 'Edytuj services',
-      'all_items' => 'Wszystkie services',
-      'singular_name' => 'services'
+      'name' => 'uslugi',
+      'add_new_item' => 'Dodaj uslugi',
+      'edit_item' => 'Edytuj uslugi',
+      'all_items' => 'Wszystkie uslugi',
+      'singular_name' => 'uslugi'
     ),
     'menu_icon' => 'dashicons-flag',
     'show_in_rest' => true,
     'has_archive' => true,
-    'rewrite' => array('slug' => 'services'),
+    'rewrite' => array('slug' => 'uslugi'),
     'supports' => array('title', 'editor', 'excerpt','thumbnail'),
 		'taxonomies'  => array( 'category' )
   ));
