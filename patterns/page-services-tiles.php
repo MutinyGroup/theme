@@ -7,7 +7,7 @@
  */
 ?>
 
-<!-- wp:group {"anchor":true} -->
+<!-- wp:group {"templateLock":"all","lock":{"move":true,"remove":true},"anchor":true} -->
 <div id="Kafelki" class="wp-block-group page-about-services mt-[150px]">
   <!-- wp:group -->
   <div
