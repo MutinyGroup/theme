@@ -7,7 +7,12 @@
  */
 ?>
 
-<!-- wp:group {"tagName":"BannerAbout"} -->
+<!-- wp:group {  "ariaLabel": {
+    "type": "string",
+    "source": "attribute",
+    "attribute": "aria-label",
+    "selector": "*"
+  },} -->
 <div class="wp-block-group page-realizations-banner mb-[150px] overflow-hidden">
   <!-- wp:group -->
   <div
