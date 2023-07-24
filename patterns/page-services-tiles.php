@@ -526,7 +526,7 @@
 
 
       <!-- wp:list -->
-      <ul class="wp-block-list col1 w-[100%] flex flex-wrap justify-between wide:justify-center gap-x-[60px] wide:gap-x-[120px] gap-y-[150px]">
+      <ul class="wp-block-list w-[100%] flex flex-wrap justify-between wide:justify-center gap-x-[60px] wide:gap-x-[120px] gap-y-[150px]">
         <?php
           $args = array(
               'post_type' => 'uslugi',
@@ -584,149 +584,151 @@
                 </li>
                 <!-- /wp:list-item -->    
                 
-                
-                <!-- wp:group -->
-                <div
-                  class="wp-block-group group relative gallery-tile img-clip-path-services z-[1] group desktop:p-[25px] desktop:h-[600px] h-[200px] overflow-hidden rounded-[20px] transition ease-out duration-300 cursor-pointer mr-[8px] mb-[30px]"
-                >
+                <li class="wp-block-group hidden bigger swiper-slide relative group desktop:w-[520px] w-fit desktop:h-[675px] h-[320px] <?php if (!($counter % 2)) echo ''; else echo 'desktop:translate-y-[120px]'; ?>">                
                   <!-- wp:group -->
                   <div
-                    class="wp-block-group img-clip-path-wrapper w-full h-full rounded-tr-[20px] rounded-br-[20px] overflow-hidden absolute left-0 top-0 z-[-1]"
+                    class="wp-block-group group relative gallery-tile img-clip-path-services z-[1] group desktop:p-[25px] desktop:h-[600px] h-[200px] overflow-hidden rounded-[20px] transition ease-out duration-300 cursor-pointer mr-[8px] mb-[30px]"
                   >
-                    <!-- wp:image -->
-                    <figure
-                      class="wp-block-image img-clip-path-services group-hover:grayscale transition ease-in-out duration-[400ms]"
+                    <!-- wp:group -->
+                    <div
+                      class="wp-block-group img-clip-path-wrapper w-full h-full rounded-tr-[20px] rounded-br-[20px] overflow-hidden absolute left-0 top-0 z-[-1]"
                     >
-                      <img
-                        src="<?php echo $postImageUrl[0]; ?>"
-                        alt="services-backgroun-image"
-                      />
-                    </figure>
-                    <!-- /wp:image -->
-                    <!-- wp:paragraph -->
-                    <svg
-                      class="flt_svg"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <defs>
-                        <filter id="flt_tag">
-                          <feGaussianBlur
-                            in="SourceGraphic"
-                            stdDeviation="8"
-                            result="blur"
-                          />
-                          <feColorMatrix
-                            in="blur"
-                            mode="matrix"
-                            values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9"
-                            result="flt_tag"
-                          />
-                          <feComposite
-                            in="SourceGraphic"
-                            in2="flt_tag"
-                            operator="atop"
-                          />
-                        </filter>
-                      </defs>
-                    </svg>
-                    <!-- /wp:paragraph -->
-                  </div>
-                  <!-- /wp:group -->
-                  <!-- wp:group -->
-                  <div
-                    class="wp-block-group slide-title absolute desktop:bottom-[0px] bottom-[55px] desktop:left-[25px] left-[20px] group-hover:translate-y-[-120px] transition ease-out duration-[400ms]"
-                  >
-                    <!-- wp:paragraph -->
-                    <p
-                      class="mr-[20px] desktop:text-[35px] text-[18px] font-semibold mb-[15px] underline-offset-[9px] group-hover:underline group-hover:decoration-primaryYellow"
-                    >
-                      <?php the_title(); ?>
-                    </p>
-                    <!-- /wp:paragraph -->
-                    <!-- wp:list -->
-                    <ul
-                      class="wp-block-list hover-text hidden desktop:block opacity-[0%] group-hover:opacity-[100%] text-[15px] leading-[32px] font-semibold uppercase transition ease-out duration-500"
-                    >
-                      <!-- wp:list-item -->
-                      <li
-                        class="text-[15px] relative before:content-[''] before:inline-block desktop:before:mr-[5px] before:mb-[5px] desktop:before:w-[20px] desktop:before:h-[2px] before:bg-primaryYellow"
+                      <!-- wp:image -->
+                      <figure
+                        class="wp-block-image img-clip-path-services group-hover:grayscale transition ease-in-out duration-[400ms]"
                       >
-                        Opracowanie strategii marketingowych
-                      </li>
-                      <!-- /wp:list-item -->
-                      <!-- wp:list-item -->
-                      <li
-                        class="text-[15px] relative before:content-[''] before:inline-block desktop:before:mr-[5px] before:mb-[5px] desktop:before:w-[20px] desktop:before:h-[2px] before:bg-primaryYellow"
+                        <img
+                          src="<?php echo $postImageUrl[0]; ?>"
+                          alt="services-backgroun-image"
+                        />
+                      </figure>
+                      <!-- /wp:image -->
+                      <!-- wp:paragraph -->
+                      <svg
+                        class="flt_svg"
+                        xmlns="http://www.w3.org/2000/svg"
                       >
-                        Content marketing
-                      </li>
-                      <!-- /wp:list-item -->
-                      <!-- wp:list-item -->
-                      <li
-                        class="text-[15px] relative before:content-[''] before:inline-block desktop:before:mr-[5px] before:mb-[5px] desktop:before:w-[20px] desktop:before:h-[2px] before:bg-primaryYellow"
-                      >
-                        Kreowanie tożsamości marki
-                      </li>
-                      <!-- /wp:list-item -->
-                      <!-- wp:list-item -->
-                      <li
-                        class="text-[15px] relative before:content-[''] before:inline-block desktop:before:mr-[5px] before:mb-[5px] desktop:before:w-[20px] desktop:before:h-[2px] before:bg-primaryYellow"
-                      >
-                        Dobór kanałów i narzędzi komunikacji
-                      </li>
-                      <!-- /wp:list-item -->
-                    </ul>
-                    <!-- /wp:list -->
-                  </div>
-                  <!-- /wp:group -->
-                  <!-- wp:buttons -->
-                  <div
-                    class="wp-block-buttons btn-swiper-more group pr-[20px] desktop:pr-0 text-[14px] font-semibold uppercase absolute desktop:bottom-[40px] desktop:bottom-[75px] bottom-[20px] desktop:left-[25px] left-[20px] transition ease-out duration-300"
-                  >
-                    <!-- wp:paragraph -->
-                    <a
-                    href="#"
-                    class="inline-block flex desktop:block"
+                        <defs>
+                          <filter id="flt_tag">
+                            <feGaussianBlur
+                              in="SourceGraphic"
+                              stdDeviation="8"
+                              result="blur"
+                            />
+                            <feColorMatrix
+                              in="blur"
+                              mode="matrix"
+                              values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9"
+                              result="flt_tag"
+                            />
+                            <feComposite
+                              in="SourceGraphic"
+                              in2="flt_tag"
+                              operator="atop"
+                            />
+                          </filter>
+                        </defs>
+                      </svg>
+                      <!-- /wp:paragraph -->
+                    </div>
+                    <!-- /wp:group -->
+                    <!-- wp:group -->
+                    <div
+                      class="wp-block-group slide-title absolute desktop:bottom-[0px] bottom-[55px] desktop:left-[25px] left-[20px] group-hover:translate-y-[-120px] transition ease-out duration-[400ms]"
                     >
                       <!-- wp:paragraph -->
-                      <p class="inline">
-                        Dowiedz się więcej
+                      <p
+                        class="mr-[20px] desktop:text-[35px] text-[18px] font-semibold mb-[15px] underline-offset-[9px] group-hover:underline group-hover:decoration-primaryYellow"
+                      >
+                        <?php the_title(); ?>
                       </p>
                       <!-- /wp:paragraph -->
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="36"
-                        height="36"
-                        viewBox="0 0 36 36"
-                        fill="none "
-                        class="inline-block ml-[10px]"
+                      <!-- wp:list -->
+                      <ul
+                        class="wp-block-list hover-text hidden desktop:block opacity-[0%] group-hover:opacity-[100%] text-[15px] leading-[32px] font-semibold uppercase transition ease-out duration-500"
                       >
-                        <rect
-                          x="1"
-                          y="1"
-                          width="34"
-                          height="34"
-                          rx="18"
-                          stroke="#AAAAAA"
-                          stroke-width="2"
-                          fill="transparent"
-                          class="transition ease-out duration-300 group-hover:fill-[#FEC400] group-hover:stroke-[#FEC400]"
-                        />
-                        <path
-                          d="M19 22L23 18.0108L19.0217 14"
-                          stroke="black"
-                        />
-                        <path
-                          d="M12 18L20 18"
-                          stroke="black"
-                        />
-                      </svg>
-                    </a>
-                    <!-- /wp:paragraph -->
+                        <!-- wp:list-item -->
+                        <li
+                          class="text-[15px] relative before:content-[''] before:inline-block desktop:before:mr-[5px] before:mb-[5px] desktop:before:w-[20px] desktop:before:h-[2px] before:bg-primaryYellow"
+                        >
+                          Opracowanie strategii marketingowych
+                        </li>
+                        <!-- /wp:list-item -->
+                        <!-- wp:list-item -->
+                        <li
+                          class="text-[15px] relative before:content-[''] before:inline-block desktop:before:mr-[5px] before:mb-[5px] desktop:before:w-[20px] desktop:before:h-[2px] before:bg-primaryYellow"
+                        >
+                          Content marketing
+                        </li>
+                        <!-- /wp:list-item -->
+                        <!-- wp:list-item -->
+                        <li
+                          class="text-[15px] relative before:content-[''] before:inline-block desktop:before:mr-[5px] before:mb-[5px] desktop:before:w-[20px] desktop:before:h-[2px] before:bg-primaryYellow"
+                        >
+                          Kreowanie tożsamości marki
+                        </li>
+                        <!-- /wp:list-item -->
+                        <!-- wp:list-item -->
+                        <li
+                          class="text-[15px] relative before:content-[''] before:inline-block desktop:before:mr-[5px] before:mb-[5px] desktop:before:w-[20px] desktop:before:h-[2px] before:bg-primaryYellow"
+                        >
+                          Dobór kanałów i narzędzi komunikacji
+                        </li>
+                        <!-- /wp:list-item -->
+                      </ul>
+                      <!-- /wp:list -->
+                    </div>
+                    <!-- /wp:group -->
+                    <!-- wp:buttons -->
+                    <div
+                      class="wp-block-buttons btn-swiper-more group pr-[20px] desktop:pr-0 text-[14px] font-semibold uppercase absolute desktop:bottom-[40px] desktop:bottom-[75px] bottom-[20px] desktop:left-[25px] left-[20px] transition ease-out duration-300"
+                    >
+                      <!-- wp:paragraph -->
+                      <a
+                      href="#"
+                      class="inline-block flex desktop:block"
+                      >
+                        <!-- wp:paragraph -->
+                        <p class="inline">
+                          Dowiedz się więcej
+                        </p>
+                        <!-- /wp:paragraph -->
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="36"
+                          height="36"
+                          viewBox="0 0 36 36"
+                          fill="none "
+                          class="inline-block ml-[10px]"
+                        >
+                          <rect
+                            x="1"
+                            y="1"
+                            width="34"
+                            height="34"
+                            rx="18"
+                            stroke="#AAAAAA"
+                            stroke-width="2"
+                            fill="transparent"
+                            class="transition ease-out duration-300 group-hover:fill-[#FEC400] group-hover:stroke-[#FEC400]"
+                          />
+                          <path
+                            d="M19 22L23 18.0108L19.0217 14"
+                            stroke="black"
+                          />
+                          <path
+                            d="M12 18L20 18"
+                            stroke="black"
+                          />
+                        </svg>
+                      </a>
+                      <!-- /wp:paragraph -->
+                    </div>
+                    <!-- /wp:buttons -->
                   </div>
-                  <!-- /wp:buttons -->
-                </div>
-                <!-- /wp:group -->                
+                  <!-- /wp:group -->    
+                </li>
+                <!-- /wp:list-item -->                                
               <?php 
               }
             };
