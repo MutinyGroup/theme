@@ -7,12 +7,7 @@
  */
 ?>
 
-<!-- wp:group {  "ariaLabel": {
-    "type": "string",
-    "source": "attribute",
-    "attribute": "aria-label",
-    "selector": "*"
-  },} -->
+<!-- wp:group  -->
 <div class="wp-block-group page-realizations-banner mb-[150px] overflow-hidden">
   <!-- wp:group -->
   <div
