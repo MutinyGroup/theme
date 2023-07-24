@@ -19,17 +19,17 @@
       <!-- wp:group -->
       <div class="wp-block-group swiper-wrapper">
         <!-- wp:core/image -->
-        <figure class="swiper-slide wp-block-image h-auto self-center">
+        <figure class="swiper-slide swiper-no-swiping wp-block-image h-auto self-center">
           <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-about/logos-companies/logo-serenada.png" alt="logo-serenada">
         </figure>
         <!-- /wp:core/image -->
         <!-- wp:core/image -->
-        <figure class="swiper-slide wp-block-image h-auto self-center">
+        <figure class="swiper-slide swiper-no-swiping wp-block-image h-auto self-center">
           <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-about/logos-companies/logo-westfield.png" alt="logo-westfield">
         </figure>
         <!-- /wp:core/image -->
         <!-- wp:core/image -->
-        <figure class="swiper-slide wp-block-image h-auto self-center">
+        <figure class="swiper-slide swiper-no-swiping wp-block-image h-auto self-center">
           <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-about/logos-companies/logo-metropolia.png" alt="logo-metropolia">
         </figure>
         <!-- /wp:core/image -->
