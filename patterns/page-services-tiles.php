@@ -545,8 +545,7 @@
                 <!-- wp:list-item -->
                 <li class="wp-block-group swiper-slide relative group desktop:w-[535px] w-fit desktop:h-[600px] h-[320px] <?php if (($counter % 2)) echo ''; else echo 'desktop:translate-y-[50px]'; ?>">                
                   <!-- wp:group -->
-                  <a
-                    href="<?php the_permalink(); ?>"
+                  <div
                     class="wp-block-group group relative gallery-tile img-clip-path-services z-[1] group desktop:p-[25px] desktop:h-[600px] h-[200px] overflow-hidden rounded-[20px] transition ease-out duration-300 cursor-pointer mr-[8px] mb-[30px]"
                   >
                     <!-- wp:group -->
@@ -685,7 +684,7 @@
                       <!-- /wp:paragraph -->
                     </div>
                     <!-- /wp:buttons -->
-                  </a>
+                  </div>
                   <!-- /wp:group -->    
                 </li>
                 <!-- /wp:list-item -->                                
