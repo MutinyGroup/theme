@@ -57,7 +57,7 @@
   </div>
   <!-- /wp:group -->
   <!-- wp:group -->
-  <div class="wp-block-group about-banner-img relative desktop:ml-[80px]">
+  <div class="wp-block-group about-banner-img23 relative desktop:ml-[80px]">
     <!-- wp:image -->
     <figure class="wp-block-image object-cover h-full">
       <img
