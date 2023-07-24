@@ -8,7 +8,7 @@
 ?>
 
 <!-- wp:group {"templateLock":"all","lock":{"move":true,"remove":true} -->
-<div class="wp-block-group services-banner mb-[150px]">
+<div id="Banner-Services" class="wp-block-group services-banner mb-[150px]">
   <!-- wp:group -->
   <div
     class="wp-block-group container relative mx-auto desktop:px-0 px-[20px]"
@@ -56,7 +56,7 @@
   </div>
   <!-- /wp:group -->
   <!-- wp:group -->
-  <div class="wp-block-group about-banner-img2 relative desktop:ml-[80px]">
+  <div class="wp-block-group about-banner-img relative desktop:ml-[80px]">
     <!-- wp:image -->
     <figure class="wp-block-image object-cover h-full">
       <img
