@@ -32,18 +32,6 @@
             <!-- /wp:paragraph -->
           </div>  
           <!-- /wp:group -->
-          
-          <!-- wp:group -->
-          <div class="wp-block-group uslugi-title uppercase font-medium desktop:text-[60px] text-[24px] desktop:leading-[60px] leading-[30px]">
-            <!-- wp:paragraph -->
-            <p
-              class="uppercase"
-            >
-              <!-- wp:post-title /-->
-            </p>
-            <!-- /wp:paragraph -->
-          </div>
-          <!-- /wp:group -->
         </div>
         <!-- /wp:group -->
       </div>
