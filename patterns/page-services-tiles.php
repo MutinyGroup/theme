@@ -526,7 +526,7 @@
 
 
       <!-- wp:list -->
-      <ul class="wp-block-list w-[100%] flex flex-wrap justify-between wide:justify-center gap-x-[8px] wide:gap-x-[8px] gap-y-[30px]">
+      <ul class="wp-block-list w-[100%] flex flex-wrap justify-center gap-x-[8px] gap-y-[30px]">
         <?php
           $args = array(
               'post_type' => 'uslugi',
@@ -542,7 +542,7 @@
               $counter++;
               if (true){ ?>                
                 <!-- wp:list-item -->
-                <li class="wp-block-group swiper-slide relative group desktop:w-[520px] w-fit desktop:h-[675px] h-[320px] <?php if (($counter % 2)) echo 'desktop:translate-y-[50px]'; else echo ''; ?>">                
+                <li class="wp-block-group swiper-slide relative group desktop:w-[520px] w-fit desktop:h-[675px] h-[320px] <?php if (($counter % 2)) echo ''; else echo 'desktop:translate-y-[50px]'; ?>">                
                   <!-- wp:group -->
                   <div
                     class="wp-block-group group relative gallery-tile img-clip-path-services z-[1] group desktop:p-[25px] desktop:h-[600px] h-[200px] overflow-hidden rounded-[20px] transition ease-out duration-300 cursor-pointer mr-[8px] mb-[30px]"
