@@ -529,7 +529,7 @@
       <ul class="wp-block-list col1 w-[100%] flex flex-wrap justify-between wide:justify-center gap-x-[60px] wide:gap-x-[120px] gap-y-[150px]">
         <?php
           $args = array(
-              'post_type' => 'services',
+              'post_type' => 'uslugi',
               'posts_per_page' => 6,
               'order' => 'ASC'
           );
