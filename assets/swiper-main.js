@@ -85,7 +85,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
         spaceBetween: 40,
       },
       1024: {
-        noSwiping: true,
+        noSwiping: false,
         noSwipingClass: 'swiper-no-swiping',
         grid: {
           fill: 'row',
