@@ -94,10 +94,10 @@
     </svg>
     <!-- /wp:paragraph -->
     <!-- wp:group -->
-    <div class="wp-block-group paragraph-wrapper container mx-auto desktop:px-0 px-[20px]">
+    <div class="wp-block-group paragraph-wrapper desktop:px-0 px-[20px] desktop:ml-[145px]">
       <!-- wp:paragraph -->
       <p
-      class="desktop:ml-[145px] desktop:text-[35px] text-[22px] font-medium desktop:leading-[42px] leading-[32px] desktop:w-[897px]"
+      class="desktop:text-[35px] text-[22px] font-medium desktop:leading-[42px] leading-[32px] desktop:w-[897px]"
       >
         Jesteśmy ekspertami od komunikacji i marketingu. Pracujemy dla topowych firm, stawiających przed nami duże wyzwania.
       </p>
