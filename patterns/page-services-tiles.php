@@ -92,7 +92,7 @@
     <!-- /wp:group -->
     
     <!-- wp:group -->
-    <div class="wp-block-group gallery-cols relative flex gap-[8px] pb-[100px]">
+    <div class="wp-block-group new gallery-cols relative flex justify-between pb-[150px]">
       <!-- wp:group -->
       <div class="wp-block-group hidden col1 w-[50%]">
         <!-- wp:group -->
@@ -526,7 +526,7 @@
 
 
       <!-- wp:list -->
-      <ul class="wp-block-list col1 w-[50%] flex flex-wrap justify-between wide:justify-center gap-x-[60px] wide:gap-x-[120px] gap-y-[150px]">
+      <ul class="wp-block-list col1 w-[100%] flex flex-wrap justify-between wide:justify-center gap-x-[60px] wide:gap-x-[120px] gap-y-[150px]">
         <?php
           $args = array(
               'post_type' => 'services',
@@ -592,7 +592,7 @@
       <!-- /wp:list -->      
       
       <!-- wp:group -->
-      <div class="wp-block-group col2 w-[50%] absolute top-[100px] right-0">
+      <div class="wp-block-group hidden col2 w-[50%] absolute top-[100px] right-0">
         <!-- wp:group -->
         <div
           class="wp-block-group group relative gallery-tile img-clip-path-services z-[1] group desktop:p-[25px] desktop:h-[600px] h-[200px] overflow-hidden rounded-[20px] transition ease-out duration-300 cursor-pointer mr-[8px] mb-[30px]"
