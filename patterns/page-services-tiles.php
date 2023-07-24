@@ -7,7 +7,7 @@
  */
 ?>
 
-<!-- wp:group -->
+<!-- wp:group {"anchor":true} -->
 <div id="Kafelki" class="wp-block-group page-about-services mt-[150px]">
   <!-- wp:group -->
   <div
