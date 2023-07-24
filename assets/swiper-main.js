@@ -94,7 +94,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
         grid: {
           rows: 2,
         },
-        slidesPerView: 8,
+        slidesPerView: 2,
         // slidesPerGroup: 4,
       },
     },
