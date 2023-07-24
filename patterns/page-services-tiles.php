@@ -541,8 +541,7 @@
               $postImageUrl = wp_get_attachment_image_src(get_post_thumbnail_id(),'portrait');
               $counter = 0;
               $counter++;
-              if (true){ ?>
-                <?php echo ($counter) ?>                
+              if (true){ ?>             
                 <!-- wp:list-item -->
                 <li class="wp-block-group swiper-slide relative group desktop:w-[535px] w-fit desktop:h-[600px] h-[320px] <?php if (($counter % 2)) echo 'desktop:translate-y-[50px]'; else echo ''; ?>">                
                   <!-- wp:group -->
