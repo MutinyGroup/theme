@@ -263,6 +263,9 @@ body{
   margin-left: auto;
   margin-right: auto;
 }
+.logo-img img{
+  max-height: 50px;
+}
 
 
 /* page services gallery tiles */
