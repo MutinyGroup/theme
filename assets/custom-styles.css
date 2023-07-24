@@ -14,7 +14,8 @@ body{
 .page-id-112,
 .page-id-114,
 .page-id-158,
-.single{
+.single,
+.error404{
   background-color: #F2F2F2;
   color: black;
 }
