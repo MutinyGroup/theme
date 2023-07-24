@@ -7,7 +7,7 @@
  */
 ?>
 
-<!-- wp:group -->
+<!-- wp:group {"tagName":"BannerAbout"} -->
 <div class="wp-block-group page-realizations-banner mb-[150px] overflow-hidden">
   <!-- wp:group -->
   <div
