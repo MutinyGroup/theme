@@ -20,6 +20,43 @@
         <!-- wp:post-title /-->
       </div>
       <!-- /wp:group -->
+
+      <!-- wp:group -->
+      <div
+        class="wp-block-group title-wrapper relative desktop:mb-[58px] mb-[40px] pt-[90px]"
+      >
+        <!-- wp:group -->
+        <div
+          class="wp-block-group title-wrapper relative container mx-auto flex"
+        >
+
+          <!-- wp:group -->
+          <div
+          class="wp-block-group section-title grid desktop:basis-auto desktop:w-[145px] desktop:basis-[80%] uppercase text-primaryYellow"
+          >
+            <!-- wp:paragraph -->
+            <p class="justify-self-end pt-[3px] pr-[15px]">Usługi</p>
+            <!-- /wp:paragraph -->
+          </div>  
+          <!-- /wp:group -->
+
+
+          <!-- wp:group -->
+          <div class="wp-block-group uslugi-title uppercase font-medium desktop:text-[60px] text-[24px] desktop:leading-[60px] leading-[30px]">
+            <!-- wp:paragraph -->
+            <p
+              class="uppercase"
+            >
+              <!-- wp:post-title /-->
+            </p>
+            <!-- /wp:paragraph -->
+          </div>
+          <!-- /wp:group -->
+        </div>
+        <!-- /wp:group -->
+      </div>
+      <!-- /wp:group -->
+
     </div>
     <!-- /wp:group -->
     
