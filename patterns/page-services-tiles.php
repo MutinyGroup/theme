@@ -109,7 +109,9 @@
               $post_query->the_post();
               $postImageUrl = wp_get_attachment_image_src(get_post_thumbnail_id(),'portrait');
               $counter++;
-              if (true){ ?>         
+              if (true){ ?>   
+                <?php echo ($counter); ?>      
+                <?php print_r($post_query->post_count); ?>      
                 <!-- wp:list-item -->
                 <li class="wp-block-group swiper-slide relative group desktop:w-[545px] w-fit desktop:h-[600px] h-[320px] <?php if (($counter % 2)) echo ''; else echo 'desktop:translate-y-[50px]'; ?>">                
                   <!-- wp:group -->
