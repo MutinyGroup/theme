@@ -358,7 +358,7 @@ function custom_post_types(){
       'add_new_item' => 'Dodaj usługi',
       'edit_item' => 'Edytuj usługi',
       'all_items' => 'Wszystkie usługi',
-      'singular_name' => 'uslugi'
+      'singular_name' => 'Usługi'
     ),
     'menu_icon' => 'dashicons-flag',
     'show_in_rest' => true,
