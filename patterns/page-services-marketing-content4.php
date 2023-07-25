@@ -84,7 +84,10 @@
       </div>
       <!-- /wp:group -->
       <!-- wp:group -->
-      <div class=" wp-block-group col2 basis-[60%]">
+      <div class=" wp-block-group col2 relative basis-[60%]">
+      <svg class="bg-shape absolute top-[0px] left-[0px]" xmlns="http://www.w3.org/2000/svg" width="236" height="317" viewBox="0 0 236 317" fill="none">
+        <path d="M234.242 314.923L1.62109 236.649V1.91697L234.242 80.1914V314.923Z" stroke="white" stroke-width="2"/>
+      </svg>
         <!-- wp:paragraph -->
         <p class="desktop:text-[20px] text-[18px] desktop:leading-[30px] leading-[26px] pb-[50px]">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
