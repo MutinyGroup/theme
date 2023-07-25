@@ -220,11 +220,14 @@
                     class="inline-block flex items-center desktop:block"
                     >
                       <!-- wp:paragraph -->
-                      <p class="inline">
-                        Dowiedz się więcej
-                      </p>
+                      <div class="inline">
+                        <!-- wp:paragraph -->
+                        <p>
+                          Dowiedz się więcej
+                        </p>
+                        <!-- /wp:paragraph -->
+                      </div>
                       <!-- /wp:paragraph -->
-                      <!-- wp:paragraph -->
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width="36"
@@ -253,7 +256,6 @@
                           stroke="black"
                         />
                       </svg>
-                      <!-- /wp:paragraph -->
                     </a>
                     <!-- /wp:paragraph -->
                   </div>
