@@ -163,7 +163,7 @@
                     <!-- /wp:group -->
                     <!-- wp:group -->
                     <div
-                      class="wp-block-group slide-title absolute desktop:bottom-[90px] bottom-[55px] desktop:left-[25px] left-[20px] translate-y-[160px] desktop:translate-y-[0px] group-hover:translate-y-[-20px] desktop:group-hover:translate-y-[-120px] transition ease-out duration-[400ms]"
+                      class="wp-block-group slide-title absolute desktop:bottom-[0px] bottom-[55px] desktop:left-[25px] left-[20px] translate-y-[160px] desktop:translate-y-[0px] group-hover:translate-y-[-20px] desktop:group-hover:translate-y-[-120px] transition ease-out duration-[400ms]"
                     >
                       <!-- wp:paragraph -->
                       <a href="<?php the_permalink(); ?>"
@@ -174,7 +174,7 @@
                       <!-- /wp:paragraph -->
                       <!-- wp:list -->
                       <ul
-                        class="wp-block-list group-hover:h-fit h-[0px] mt-[20px] hover-text desktop:block opacity-[0%] group-hover:opacity-[100%] text-[15px] leading-[32px] font-semibold uppercase transition ease-out duration-500"
+                        class="wp-block-list group-hover:h-fit mt-[20px] hover-text desktop:block opacity-[0%] group-hover:opacity-[100%] text-[15px] leading-[32px] font-semibold uppercase transition ease-out duration-500"
                       >
                         <!-- wp:list-item -->
                         <li
