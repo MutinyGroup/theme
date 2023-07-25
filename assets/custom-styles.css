@@ -350,6 +350,9 @@ body{
   height: 2px;
   background-color: #FEC400;
  }
+ .single-uslugi .entry-content ul li::before{
+  display: none;
+ }
  .wp-block-pullquote{
   padding: 30px;
   border: none;
