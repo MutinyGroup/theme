@@ -163,7 +163,7 @@
                     <!-- /wp:group -->
                     <!-- wp:group -->
                     <div
-                      class="wp-block-group slide-title absolute desktop:bottom-[0px] bottom-[55px] desktop:left-[25px] left-[20px] translate-y-[160px] desktop:translate-y-[0px] group-hover:translate-y-[-20px] desktop:group-hover:translate-y-[100%] transition ease-out duration-[400ms]"
+                      class="wp-block-group slide-title absolute desktop:bottom-[0px] bottom-[55px] desktop:left-[25px] left-[20px] translate-y-[160px] desktop:translate-y-[0px] group-hover:translate-y-[-20px] desktop:group-hover:translate-y-[-100%] transition ease-out duration-[400ms]"
                     >
                       <!-- wp:paragraph -->
                       <a href="<?php the_permalink(); ?>"
