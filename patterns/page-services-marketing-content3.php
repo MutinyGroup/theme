@@ -77,7 +77,7 @@
       <!-- wp:group -->
       <div class="wp-block-group col1 relative desktop:pl-[155px] basis-[40%]">
         <!-- wp:paragraph -->
-        <svg class="z-[-1] absolute top-[-50px] left-[-50px]" xmlns="http://www.w3.org/2000/svg" width="236" height="317" viewBox="0 0 236 317" fill="none">
+        <svg class="z-[-1] absolute top-[-20px] left-[-130px]" xmlns="http://www.w3.org/2000/svg" width="236" height="317" viewBox="0 0 236 317" fill="none">
           <path d="M234.242 314.923L1.62109 236.649V1.91697L234.242 80.1914V314.923Z" stroke="white" stroke-width="2"/>
         </svg>
         <!-- /wp:paragraph -->
@@ -92,7 +92,7 @@
       <!-- wp:group -->
       <div class="wp-block-group col2 relative basis-[60%]">
         <!-- wp:paragraph -->
-        <svg class="z-[-1] absolute top-[-50px] left-[-50px]" xmlns="http://www.w3.org/2000/svg" width="470" height="396" viewBox="0 0 470 396" fill="none">
+        <svg class="z-[-1] absolute top-[-250px] rigt-[20px]" xmlns="http://www.w3.org/2000/svg" width="470" height="396" viewBox="0 0 470 396" fill="none">
           <path d="M0.999573 393.923L468.242 236.702V1.96971L0.999573 159.191V393.923Z" stroke="white" stroke-width="2"/>
         </svg>
         <!-- /wp:paragraph -->
