@@ -342,7 +342,7 @@ function custom_post_types(){
       'add_new_item' => 'Dodaj realizacje',
       'edit_item' => 'Edytuj realizacje',
       'all_items' => 'Wszystkie realizacjes',
-      'singular_name' => 'realizacja'
+      'singular_name' => 'Realizacje'
     ),
     'menu_icon' => 'dashicons-flag',
     'show_in_rest' => true,
