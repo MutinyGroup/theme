@@ -8,7 +8,7 @@
 ?>
 
 <!-- wp:group {"templateLock":"all","lock":{"move":true,"remove":true},"anchor":true} -->
-<div id="Kafelki" class="wp-block-group page-about-services mt-[150px]">
+<div id="Kafelki" class="wp-block-group page-about-services desktop:mt-[150px]">
   <!-- wp:group -->
   <div
     class="wp-block-group container mx-auto relative desktop:px-0 px-[20px]"
