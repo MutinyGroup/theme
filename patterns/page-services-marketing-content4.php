@@ -107,18 +107,17 @@
         </p>
         <!-- /wp:paragraph -->
         
-      <!-- wp:paragraph -->
-      <p class="pb-[30px] text-[20px] font-medium">Co dostaniesz w ramach usługi?</p>
-      <!-- /wp:paragraph -->
-       <!-- wp:paragraph -->
-       <p class="desktop:block text-[16px] leading-[21px]">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-          enim ad minim veniam, quis nostrud exercitation ullamco laboris
-          nisi ut aliquip ex ea commodo consequat.
+        <!-- wp:paragraph -->
+        <p class="pb-[30px] text-[20px] font-medium">Co dostaniesz w ramach usługi?</p>
+        <!-- /wp:paragraph -->
+        <!-- wp:paragraph -->
+        <p class="desktop:block text-[16px] leading-[21px]">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+            enim ad minim veniam, quis nostrud exercitation ullamco laboris
+            nisi ut aliquip ex ea commodo consequat.
         </p>
         <!-- /wp:paragraph -->
-
       </div>
       <!-- /wp:group -->
     </div>
