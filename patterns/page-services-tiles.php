@@ -218,15 +218,15 @@
                     <div
                       class="wp-block-group inline-block flex items-center desktop:block"
                     >
-                      <!-- wp:paragraph -->
-                      <div class="inline">
+                      <!-- wp:group -->
+                      <div class="wp-block-group inline">
                         <!-- wp:paragraph -->
                         <a href="#">
                           Dowiedz się więcej
                         </a>
                         <!-- /wp:paragraph -->
                       </div>
-                      <!-- /wp:paragraph -->
+                      <!-- /wp:group -->
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width="36"
