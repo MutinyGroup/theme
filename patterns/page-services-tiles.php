@@ -214,7 +214,7 @@
                   <div
                     class="wp-block-buttons btn-swiper-more group z-[2] pr-[20px] desktop:pr-0 text-[14px] font-semibold uppercase absolute desktop:bottom-[40px] desktop:bottom-[75px] bottom-[20px] desktop:left-[25px] left-[20px] transition ease-out duration-300"
                   >
-                    <!-- wp:paragraph -->
+                    <!-- wp:navigation-link -->
                     <a
                     href="<?php the_permalink(); ?>"
                     class="inline-block flex items-center desktop:block"
@@ -257,7 +257,7 @@
                         />
                       </svg>
                     </a>
-                    <!-- /wp:paragraph -->
+                    <!-- /wp:navigation-link -->
                   </div>
                   <!-- /wp:buttons -->                   
                 </li>
