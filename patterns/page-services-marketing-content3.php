@@ -90,7 +90,7 @@
       </div>
       <!-- /wp:group -->
       <!-- wp:group -->
-      <div class=" wp-block-group col2 basis-[60%]">
+      <div class="wp-block-group col2 relative basis-[60%]">
         <!-- wp:paragraph -->
         <svg class="z-[-1] absolute top-[-50px] left-[-50px]" xmlns="http://www.w3.org/2000/svg" width="470" height="396" viewBox="0 0 470 396" fill="none">
           <path d="M0.999573 393.923L468.242 236.702V1.96971L0.999573 159.191V393.923Z" stroke="white" stroke-width="2"/>
