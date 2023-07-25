@@ -75,7 +75,12 @@
     <!-- wp:group -->
     <div class="wp-block-group text-cols-wrapper flex desktop:gap-[0px] gap-[20px] basis desktop:mb-[100px] mb-[50px]">
       <!-- wp:group -->
-      <div class="wp-block-group col1 desktop:pl-[155px] basis-[40%]">
+      <div class="wp-block-group col1 relative desktop:pl-[155px] basis-[40%]">
+        <!-- wp:paragraph -->
+        <svg class="z-[-1] absolute top-[-50px] left-[-50px]" xmlns="http://www.w3.org/2000/svg" width="236" height="317" viewBox="0 0 236 317" fill="none">
+          <path d="M234.242 314.923L1.62109 236.649V1.91697L234.242 80.1914V314.923Z" stroke="white" stroke-width="2"/>
+        </svg>
+        <!-- /wp:paragraph -->
         <!-- wp:paragraph -->
         <p class="max-w-[173px] text-[16px] leading-[21px]">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -86,6 +91,11 @@
       <!-- /wp:group -->
       <!-- wp:group -->
       <div class=" wp-block-group col2 basis-[60%]">
+        <!-- wp:paragraph -->
+        <svg class="z-[-1] absolute top-[-50px] left-[-50px]" xmlns="http://www.w3.org/2000/svg" width="470" height="396" viewBox="0 0 470 396" fill="none">
+          <path d="M0.999573 393.923L468.242 236.702V1.96971L0.999573 159.191V393.923Z" stroke="white" stroke-width="2"/>
+        </svg>
+        <!-- /wp:paragraph -->
         <!-- wp:paragraph -->
         <p class="desktop:text-[20px] text-[18px] desktop:leading-[30px] leading-[26px] pb-[50px]">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
