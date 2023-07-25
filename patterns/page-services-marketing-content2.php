@@ -86,7 +86,7 @@
       <!-- wp:group -->
       <div class=" wp-block-group col2 basis-[60%]">
         <!-- wp:paragraph -->
-        <p class="desktop:text-[20px] text-[18px] desktop:leading-[30px] leading-[26px] mb-[50px]">
+        <p class="desktop:text-[20px] text-[18px] desktop:leading-[30px] leading-[26px] pb-[50px]">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
           enim ad minim veniam, quis nostrud exercitation ullamco laboris
@@ -94,7 +94,7 @@
         </p>
         <!-- /wp:paragraph -->
         <!-- wp:paragraph -->
-        <p class="hidden desktop:block mb-[50px] text-[16px] leading-[21px]">
+        <p class="hidden desktop:block pb-[50px] text-[16px] leading-[21px]">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
           enim ad minim veniam, quis nostrud exercitation ullamco laboris
@@ -103,7 +103,7 @@
         <!-- /wp:paragraph -->
         
         <!-- wp:paragraph -->
-        <p class="mb-[30px] text-[20px] font-medium">Co dostaniesz w ramach usługi?</p>
+        <p class="pb-[30px] text-[20px] font-medium">Co dostaniesz w ramach usługi?</p>
         <!-- /wp:paragraph -->
         <!-- wp:paragraph -->
         <p class="desktop:block text-[16px] leading-[21px]">
