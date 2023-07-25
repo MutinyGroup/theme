@@ -167,7 +167,7 @@
                     >
                       <!-- wp:paragraph -->
                       <a href="<?php the_permalink(); ?>"
-                        class="mr-[20px] desktop:text-[35px] text-[18px] font-semibold mb-[15px] underline-offset-[9px] group-hover:underline group-hover:decoration-primaryYellow w-[470px] desktop:block absolute bottom-[140px]"
+                        class="mr-[20px] desktop:text-[35px] text-[18px] font-semibold mb-[15px] underline-offset-[9px] group-hover:underline group-hover:decoration-primaryYellow"
                       >
                         <?php the_title(); ?>
                       </a>
@@ -217,10 +217,7 @@
                       href="<?php the_permalink(); ?>"
                       class="inline-block flex desktop:block"
                       >
-                        <!-- wp:paragraph -->
-                        <p class="inline">
-                          Dowiedz się więcej
-                        </p>
+                        Dowiedz się więcej
                         <!-- /wp:paragraph -->
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
