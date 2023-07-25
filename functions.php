@@ -354,10 +354,10 @@ function custom_post_types(){
   register_post_type('uslugi', array(
     'public' => true,
     'labels' => array(
-      'name' => 'uslugi',
-      'add_new_item' => 'Dodaj uslugi',
-      'edit_item' => 'Edytuj uslugi',
-      'all_items' => 'Wszystkie uslugi',
+      'name' => 'Usługi',
+      'add_new_item' => 'Dodaj usługi',
+      'edit_item' => 'Edytuj usługi',
+      'all_items' => 'Wszystkie usługi',
       'singular_name' => 'uslugi'
     ),
     'menu_icon' => 'dashicons-flag',
