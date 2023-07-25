@@ -86,7 +86,7 @@
       <!-- wp:group -->
       <div class="wp-block-group col2 relative basis-[60%]">
         <!-- wp:paragraph -->
-        <svg class="z-[-1] absolute top-[0px] left-[0px]" xmlns="http://www.w3.org/2000/svg" width="1051" height="810" viewBox="0 0 1051 810" fill="none">
+        <svg class="z-[-1] absolute top-[-250px] left-[-250px]" xmlns="http://www.w3.org/2000/svg" width="1051" height="810" viewBox="0 0 1051 810" fill="none">
           <path d="M1 1.45224L938.266 329.349L938.596 329.465L938.927 329.349L1406.89 165.633V409.787L938.596 573.618L234.979 327.462L233.649 326.996V328.405V807.609L1 726.219V1.45224Z" stroke="white" stroke-width="2"/>
         </svg>
         <!-- /wp:paragraph -->
