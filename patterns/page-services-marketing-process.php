@@ -151,14 +151,14 @@
             <p class="text-[35px] font-semibold mb-[50px]">Jak wygląda proces realizacji</p>
             <!-- /wp:paragraph -->
             <!-- wp:paragraph -->
-            <p class="text-[16px] mb-[50px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <p class="text-[16px] mt-[50px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
             <!-- /wp:paragraph -->
             <!-- wp:paragraph -->
-            <p class="text-[16px] mb-[50px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
+            <p class="text-[16px] mt-[50px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
             <!-- /wp:paragraph -->
 
             <!-- wp:list -->
-            <ul class="wp-block-list">
+            <ul class="wp-block-list mt-[50px]">
               <!-- wp:list-item -->
               <li class="list-content-wrapper transition ease-out duration-[500ms]">
                 <!-- wp:group -->
