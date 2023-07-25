@@ -552,20 +552,18 @@
                     <div
                       class="wp-block-group img-clip-path-wrapper w-full h-full rounded-tr-[20px] rounded-br-[20px] overflow-hidden absolute left-0 top-0 z-[-1]"
                     >
-                      <!-- wp:paragraph -->
-                      <a href="<?php the_permalink(); ?>">
-                        <!-- wp:image -->
-                        <figure
-                          class="wp-block-image img-clip-path-services group-hover:grayscale transition ease-in-out duration-[400ms]"
-                        >
-                          <img
-                            src="<?php echo $postImageUrl[0]; ?>"
-                            alt="services-backgroun-image"
-                          />
-                        </figure>
-                        <!-- /wp:image -->
-                      </a>
-                      <!-- /wp:paragraph -->
+
+                      <!-- wp:image -->
+                      <figure
+                        class="wp-block-image img-clip-path-services group-hover:grayscale transition ease-in-out duration-[400ms]"
+                      >
+                        <img
+                          src="<?php echo $postImageUrl[0]; ?>"
+                          alt="services-backgroun-image"
+                        />
+                      </figure>
+                      <!-- /wp:image -->
+    
                       <!-- wp:paragraph -->
                       <svg
                         class="flt_svg"
@@ -600,11 +598,11 @@
                       class="wp-block-group slide-title absolute desktop:bottom-[0px] bottom-[55px] desktop:left-[25px] left-[20px] group-hover:translate-y-[-120px] transition ease-out duration-[400ms]"
                     >
                       <!-- wp:paragraph -->
-                      <p
+                      <a href="<?php the_permalink(); ?>"
                         class="mr-[20px] desktop:text-[35px] text-[18px] font-semibold mb-[15px] underline-offset-[9px] group-hover:underline group-hover:decoration-primaryYellow"
                       >
                         <?php the_title(); ?>
-                      </p>
+                      </a>
                       <!-- /wp:paragraph -->
                       <!-- wp:list -->
                       <ul
