@@ -167,7 +167,7 @@
                     >
                       <!-- wp:paragraph -->
                       <a href="<?php the_permalink(); ?>"
-                        class="mr-[20px] desktop:text-[35px] text-[18px] font-semibold mb-[15px] underline-offset-[9px] group-hover:underline group-hover:decoration-primaryYellow"
+                        class="mr-[20px] desktop:text-[35px] text-[18px] font-semibold mb-[15px] underline-offset-[9px] group-hover:underline group-hover:decoration-primaryYellow w-[470px] absolute bottom-[130px]"
                       >
                         <?php the_title(); ?>
                       </a>
