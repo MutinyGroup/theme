@@ -176,7 +176,7 @@
                 <p class="index mb-[0px] desktop:mb-[30px] text-[60px] font-medium text-primaryYellow leading-[65px]">01</p>
                 <!-- /wp:paragraph -->
                 <!-- wp:paragraph -->
-                <p class="mb-[30px] text-[20px] font-medium">Lorem ipsum dolor sit amet</p>
+                <p class="pb-[30px] text-[20px] font-medium">Lorem ipsum dolor sit amet</p>
                 <!-- /wp:paragraph -->
                 <!-- wp:paragraph -->
                 <p class="leading-[21px] hidden desktop:block">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
@@ -201,7 +201,7 @@
               <!-- wp:group -->
               <div class="wp-block-group text-wrapper desktop:w-[50%] desktop:pr-[40px] items-center">
                 <!-- wp:paragraph -->
-                <p class="index mb-[0px] desktop:mb-[30px] text-[60px] font-medium text-primaryYellow leading-[65px]">02</p>
+                <p class="index pb-[0px] desktop:pb-[30px] text-[60px] font-medium text-primaryYellow leading-[65px]">02</p>
                 <!-- /wp:paragraph -->
                 <!-- wp:paragraph -->
                 <p class="mb-[30px] text-[20px] font-medium">Lorem ipsum dolor sit amet</p>
