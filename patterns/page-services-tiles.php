@@ -212,13 +212,16 @@
                     <div
                       class="wp-block-buttons btn-swiper-more group pr-[20px] desktop:pr-0 text-[14px] font-semibold uppercase absolute desktop:bottom-[40px] desktop:bottom-[75px] bottom-[20px] desktop:left-[25px] left-[20px] transition ease-out duration-300"
                     >
-                      <!-- wp:navigation-link -->
+                      <!-- wp:paragraph -->
                       <a
                       href="<?php the_permalink(); ?>"
                       class="inline-block flex desktop:block"
                       >
-                        Dowiedz się więcej
-
+                        <!-- wp:paragraph -->
+                        <p class="inline">
+                          Dowiedz się więcej
+                        </p>
+                        <!-- /wp:paragraph -->
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           width="36"
@@ -248,7 +251,7 @@
                           />
                         </svg>
                       </a>
-                      <!-- /wp:navigation-link -->
+                      <!-- /wp:paragraph -->
                     </div>
                     <!-- /wp:buttons -->
                   </div>
