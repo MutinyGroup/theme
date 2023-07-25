@@ -340,6 +340,10 @@ body{
   text-decoration: none;
   margin-bottom: 30px;
  }
+ .single-uslugi .entry-content ul{
+  margin-left: 0px;
+  margin-bottom: 0px;
+ }
  .entry-content ul li::before{
   content: "";
   display: inline-block;
