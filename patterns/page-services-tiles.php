@@ -217,13 +217,14 @@
                     <!-- wp:paragraph -->
                     <a
                     href="<?php the_permalink(); ?>"
-                    class="flex"
+                    class="inline-block flex items-center desktop:block"
                     >
                       <!-- wp:paragraph -->
                       <p class="inline">
                         Dowiedz się więcej
                       </p>
                       <!-- /wp:paragraph -->
+                      <!-- wp:paragraph -->
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width="36"
@@ -252,6 +253,7 @@
                           stroke="black"
                         />
                       </svg>
+                      <!-- /wp:paragraph -->
                     </a>
                     <!-- /wp:paragraph -->
                   </div>
