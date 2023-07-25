@@ -215,7 +215,7 @@
                       <!-- wp:paragraph -->
                       <a
                       href="<?php the_permalink(); ?>"
-                      class="inline-block flex desktop:block"
+                      class="inline-block test flex desktop:block"
                       >
                         <!-- wp:paragraph -->
                         <p class="inline">
