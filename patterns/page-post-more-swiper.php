@@ -98,7 +98,7 @@
                   <?php 
                   }else{ ?>                    
                     <!-- wp:group -->
-                    <div class="wp-block-group test swiper-slide desktop:mr-[80px] mr-[20px] relative group desktop:w-[444px] w-[280px] desktop:h-[675px] h-[500px]">
+                    <div class="wp-block-group test2 swiper-slide desktop:mr-[80px] mr-[20px] relative group desktop:w-[444px] w-[280px] desktop:h-[675px] h-[500px]">
                       <!-- wp:paragraph -->
                       <a href="<?php the_permalink(); ?>">                        
                         <!-- wp:group -->
