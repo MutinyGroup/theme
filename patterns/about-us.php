@@ -119,7 +119,7 @@
               <!-- /wp:group -->
 
               <!-- wp:paragraph -->
-              <p class="target-num inline-block desktop:text-[85px] text-[80px] font-semibold">01</p>
+              <p class="target-num inline-block desktop:text-[85px] text-[80px] font-semibold">02</p>
               <!-- /wp:paragraph -->
             </div>
             <!-- /wp:group -->
