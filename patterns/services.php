@@ -138,8 +138,9 @@
                       <!-- /wp:paragraph -->
                     </div>
                     <!-- /wp:group -->
+
                     <!-- wp:group -->
-                    <div class="wp-block-group slide-title absolute desktop:bottom-[25px] bottom-[75px] left-[25px] z-[1]">
+                    <div class="wp-block-group slide-title absolute desktop:bottom-[125px] bottom-[75px] left-[25px] z-[1] group-hover:translate-y-[-80px] transition ease-out duration-500">
                       <!-- wp:paragraph -->
                       <a href="<?php the_permalink(); ?>" class="mr-[20px] text-[25px] font-semibold mb-[15px] underline-offset-[7px] group-hover:underline group-hover:decoration-primaryYellow group-hover:translate-y-[-80px] transition ease-out duration-500">
                         <?php the_title(); ?>
@@ -151,7 +152,7 @@
                     <!-- /wp:group -->
 
                     <!-- wp:buttons -->
-                    <div class="wp-block-buttons btn-swiper-more group text-[14px] uppercase transition ease-out duration-300">
+                    <div class="wp-block-buttons btn-swiper-more group text-[14px] uppercase absolute desktop:bottom-[25px] bottom-[75px] left-[25px] transition ease-out duration-300">
                       <!-- wp:paragraph -->
                       <a href="<?php the_permalink(); ?>" class="inline-block z-[1]">
                         Dowiedz się więcej
