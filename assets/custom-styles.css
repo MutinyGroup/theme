@@ -179,6 +179,10 @@ body{
 }
 
 /* realizations */
+.realizacje{
+  overflow-y: visible;
+  overflow-x: visible;
+}
 
 .col1-realizacje::before {
   opacity: 0;

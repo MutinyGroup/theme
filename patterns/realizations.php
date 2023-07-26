@@ -7,7 +7,7 @@
  */
 ?>
 <!-- wp:group -->
-<div class="wp-block-group realizacje relative desktop:mb-[150px] desktop:pt-[220px] pt-[200px] desktop:mb-[200px] mb-[60px] overflow-y-visible overflow-x-hidden">
+<div class="wp-block-group realizacje relative desktop:mb-[150px] desktop:pt-[220px] pt-[200px] desktop:mb-[200px] mb-[60px]">
   <!-- wp:paragraph -->
   <svg class="bg-shape w-[1440px] h-[815px] z-[-1] opacity-[0.16] absolute top-[130px] desktop:left-[150px] left-[-140px]" xmlns="http://www.w3.org/2000/svg" width="1051" height="816" viewBox="0 0 1051 816" fill="none">
     <g style="mix-blend-mode:color-dodge">
