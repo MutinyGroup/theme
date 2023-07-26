@@ -90,7 +90,7 @@
               'post_type' => 'realizacje',
               'posts_per_page' => 1,
               'order' => 'ASC',
-              'cat' => 'glowna'
+              'category_name' => 'glowna'
           );
           $post_query = new WP_Query($args);
 
