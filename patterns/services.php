@@ -337,7 +337,11 @@
     <!-- wp:group -->
     <div class="wp-block-group button-wrapper container mx-auto mt-[50px] flex items-center justify-center gap-[64px] cursor-pointer">
       <!-- wp:group -->
-      <div class="wp-block-group gray-border hidden desktop:inline-block w-full h-[2px] bg-[#808080] opacity-[15%]"></div>
+      <div class="wp-block-group gray-border hidden desktop:inline-block w-full h-[2px] bg-[#808080] opacity-[15%]">
+        <!-- wp:paragraph -->
+        <p class="hidden">gray separator</p>
+        <!-- /wp:paragraph -->
+      </div>
       <!-- /wp:group -->
       <!-- wp:buttons -->
       <div class="wp-block-buttons text-center px-[20px] btn-more ml-[0px] p-[15px_30px] uppercase border-[2px] border-white rounded-full hover:bg-white hover:text-black transition ease-out duration-300">
