@@ -146,8 +146,6 @@
                         <?php the_title(); ?>
                       </a>
                       <!-- /wp:paragraph -->
-
-
                     </div>
                     <!-- /wp:group -->
 
