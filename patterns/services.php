@@ -141,7 +141,7 @@
                       <!-- wp:buttons -->
                       <div class="wp-block-buttons btn-swiper-more group text-[14px] uppercase transition ease-out duration-300">
                         <!-- wp:paragraph -->
-                        <a href="https://mutiny.webo.design/services-marketing/" class="inline-block z-[1]">
+                        <a href="<?php the_permalink(); ?>" class="inline-block z-[1]">
                           Dowiedz się więcej
                           <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" fill="none " class="inline-block ml-[10px] ">
                             <rect x="1" y="1" width="34" height="34" rx="18" stroke="#D5D5D5" stroke-width="2" fill="transparent" class="transition ease-out duration-300 group-hover:fill-[#FEC400] group-hover:stroke-[#FEC400]"/>
@@ -166,7 +166,10 @@
             };
           ?>
           <!-- wp:group -->
-          <div class="wp-block-group swiper-slide desktop:mr-[80px] mr-[20px] relative group desktop:w-[535px] w-[300px] desktop:h-[675px] h-[500px]">
+          <div class="wp-block-group empty swiper-slide desktop:mr-[80px] mr-[20px] relative group desktop:w-[535px] w-[300px] desktop:h-[675px] h-[500px]">
+            <!-- wp:paragraph -->
+            <p class="hidden">empty slide</p>
+            <!-- /wp:paragraph -->
           </div>
           <!-- /wp:group -->              
         </div>
