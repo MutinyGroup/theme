@@ -88,7 +88,7 @@
         <?php
           $args = array(
               'post_type' => 'realizacje',
-              'posts_per_page' => 6,
+              'posts_per_page' => 2,
               'order' => 'ASC',
               'cat' => 'Strona Główna'
           );
