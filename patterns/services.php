@@ -114,7 +114,7 @@
                     <!-- wp:group -->
                     <div class="wp-block-group img-clip-path-wrapper img-clip-path-rounded w-full h-full rounded-tr-[20px] rounded-br-[20px] overflow-hidden absolute left-0 top-0 z-[-1]">
                       <!-- wp:group -->
-                      <div class="wp-block-group gray-overlay w-full h-full bg-[#101010] absolute top-0 left-0 opacity-[50%]">
+                      <div class="wp-block-group img-clip-path-services gray-overlay w-full h-full bg-[#101010] absolute top-0 left-0 opacity-[50%]">
                         <!-- wp:paragraph -->
                         <p class="hidden">gray overlay</p>
                         <!-- /wp:paragraph -->
@@ -139,9 +139,9 @@
                     </div>
                     <!-- /wp:group -->
                     <!-- wp:group -->
-                    <div class="wp-block-group slide-title absolute desktop:bottom-[25px] bottom-[75px] left-[25px]">
+                    <div class="wp-block-group slide-title absolute desktop:bottom-[25px] bottom-[75px] left-[25px] z-[1]">
                       <!-- wp:paragraph -->
-                      <a href="<?php the_permalink(); ?>" class="mr-[20px] text-[25px] font-semibold mb-[15px] underline-offset-[7px] group-hover:underline group-hover:decoration-primaryYellow group-hover:translate-y-[-80px] transition ease-out duration-500 z-[1]">
+                      <a href="<?php the_permalink(); ?>" class="mr-[20px] text-[25px] font-semibold mb-[15px] underline-offset-[7px] group-hover:underline group-hover:decoration-primaryYellow group-hover:translate-y-[-80px] transition ease-out duration-500">
                         <?php the_title(); ?>
                       </a>
                       <!-- /wp:paragraph -->
