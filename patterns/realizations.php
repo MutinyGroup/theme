@@ -223,7 +223,7 @@
         <a href="https://mutiny.webo.design/realizations/" class="uppercase text-[14px] desktop:w-[220px] w-auto max-w-[220px] font-bold">Zobacz wszystkie realizacje</a>
         <!-- /wp:paragraph -->
       </div>
-      <!-- /wp:buttons -->
+      <!-- /wp:group -->
     </div>
     <!-- /wp:group -->
   </div>
