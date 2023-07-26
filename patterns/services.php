@@ -112,6 +112,13 @@
                   <!-- wp:group -->
                   <div class="wp-block-group swiper-slide swiper-slide-services relative z-[2] group p-[25px] wide:max-w-[420px] desktop:max-w-[354px] max-w-[310px] h-[450px] rounded-[20px] transition ease-out duration-300 mr-[8px] cursor-default">
                     <!-- wp:group -->
+                    <div class="wp-block-group gray-overlay w-full h-full bg-[#101010] absolute top-0 left-0 opacity-[50%]">
+                      <!-- wp:paragraph -->
+                      <p class="hidden">gray overlay</p>
+                      <!-- /wp:paragraph -->
+                    </div>
+                    <!-- /wp:group -->
+                    <!-- wp:group -->
                     <div class="wp-block-group img-clip-path-wrapper w-full h-full rounded-tr-[20px] rounded-br-[20px] overflow-hidden absolute left-0 top-0 z-[-1]">
                       <!-- wp:image -->
                       <figure class="wp-block-image img-clip-path-services">
