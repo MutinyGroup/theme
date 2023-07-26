@@ -101,11 +101,69 @@
               $postImageUrl = wp_get_attachment_image_src(get_post_thumbnail_id(),'portrait');
               $counter++;
               if (true){ ?>         
-                <!-- wp:paragraph -->                           
-                <p class="z-[10]">
-                  <?php the_title(); ?>
-                </p>
-                <!-- /wp:paragraph -->                           
+                <!-- wp:list-item -->
+                <li class="wp-block-group col1-realizacje mb-[30px] desktop:h-[700px] h-[480px] relative group w-1/2 transition ease-in-out duration-[400ms]">
+                  <!-- wp:group -->
+                  <div class="wp-block-group img-clip-path-wrapper w-full h-full rounded-tr-[20px] rounded-br-[20px] overflow-hidden absolute left-0 top-0 z-[-1]">
+                    <!-- wp:image -->
+                    <figure class="wp-block-image group-hover:grayscale transition ease-in-out duration-[400ms]">
+                      <img src="<?php echo $postImageUrl[0]; ?>" alt="realizations-backgroun-image">
+                    </figure>
+                    <!-- /wp:image -->
+                    <!-- wp:paragraph -->
+                    <svg class="flt_svg" xmlns="http://www.w3.org/2000/svg">
+                      <defs>
+                        <filter id="flt_tag">
+                          <feGaussianBlur in="SourceGraphic" stdDeviation="8" result="blur" />    
+                          <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9" result="flt_tag" />
+                          <feComposite in="SourceGraphic" in2="flt_tag" operator="atop"/>
+                        </filter>
+                      </defs>
+                    </svg>
+                    <!-- /wp:paragraph -->
+                  </div>
+                  <!-- /wp:group -->
+                  <!-- wp:group -->
+                  <div class="wp-block-group tile-title absolute bottom-[50px] desktop:left-[50px] left-[20px]">
+                    <!-- wp:paragraph -->
+                    <p class="desktop:text-[35px] text-[30px] desktop:mb-[20px] mb-[10px] leading-[42px] font-semibold group-hover:border-b-[2px] group-hover:border-primaryYellow desktop:group-hover:translate-y-[-50px] group-hover:translate-y-[-70px] transition ease-in-out duration-[400ms] cursor-pointer">
+                      <?php the_permalink(); ?>
+                    </p>
+                    <!-- /wp:paragraph -->
+                    <!-- wp:list -->
+                    <ul class="wp-block-list categories-wrapper mb-[20px] desktop:group-hover:translate-y-[-50px] group-hover:translate-y-[-70px] transition ease-in-out duration-[400ms]">
+                      <!-- wp:list-item -->
+                      <li class="cat1 uppercase p-[5px_10px] inline-block text-[12px] text-black font-semibold bg-[#D5D5D5] rounded-full">Marketing i PR</li>
+                      <!-- /wp:list-item -->
+                      <!-- wp:list-item -->
+                      <li class="cat2 uppercase p-[5px_10px] inline-block text-[12px] text-black font-semibold bg-[#D5D5D5] rounded-full">Foto/video</li>
+                      <!-- /wp:list-item -->
+                      <!-- wp:list-item -->
+                      <li class="cat3 uppercase p-[5px_10px] inline-block text-[12px] text-black font-semibold bg-[#D5D5D5] rounded-full">Eventy</li>
+                      <!-- /wp:list-item -->
+                    </ul>
+                    <!-- /wp:list -->
+                    <!-- wp:buttons -->
+                    <div class="wp-block-buttons group uppercase text-[14px] font-semibold uppercase group-hover:translate-y-[25px] transition ease-in-out duration-[400ms]">
+                      <!-- wp:paragraph -->
+                      <a href="#" class="wp-block-link inline-block">
+                        Czytaj więcej
+                        <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" fill="none " class="inline-block ml-[10px] ">
+                          <rect x="1" y="1" width="34" height="34" rx="18" stroke="#D5D5D5" stroke-width="2" fill="transparent" class="transition ease-in-out duration-[400ms] group-hover:fill-[#FEC400] group-hover:stroke-[#FEC400]"/>
+                          <path d="M19 22L23 18.0108L19.0217 14" stroke="white"/>
+                          <path d="M12 18L20 18" stroke="white" />
+                        </svg>
+                      </a>
+                      <!-- /wp:paragraph -->
+                    </div>
+                    <!-- /wp:buttons -->
+                  </div>
+                  <!-- /wp:group -->
+                  <!-- wp:paragraph -->
+                  <p class="on-hover-desc pr-[40px] font-light leading-[22px] absolute bottom-[90px] desktop:left-[50px] left-[20px] translate-y-[70px] opacity-[0%] group-hover:opacity-[100%] group-hover:translate-y-[8px] transition-all ease-in-out duration-[400ms]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+                  <!-- /wp:paragraph -->
+                </li>
+                <!-- /wp:list-item -->                          
               <?php 
               }
             };
