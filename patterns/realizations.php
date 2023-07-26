@@ -88,7 +88,7 @@
         <?php
           $args = array(
               'post_type' => 'realizacje',
-              'posts_per_page' => 2,
+              'posts_per_page' => 1,
               'order' => 'ASC'
           );
           $post_query = new WP_Query($args);
