@@ -114,7 +114,7 @@
                     <!-- wp:group -->
                     <div class="wp-block-group img-clip-path-wrapper img-clip-path-rounded w-full h-full rounded-tr-[20px] rounded-br-[20px] overflow-hidden absolute left-0 top-0 z-[-1]">
                       <!-- wp:group -->
-                      <div class="wp-block-group img-clip-path-services gray-overlay w-full h-full bg-[#101010] absolute top-0 left-0 opacity-[50%]">
+                      <div class="wp-block-group img-clip-path-services gray-overlay w-full h-full bg-[#101010] absolute top-0 left-0 opacity-[50%] z-[1]">
                         <!-- wp:paragraph -->
                         <p class="hidden">gray overlay</p>
                         <!-- /wp:paragraph -->
