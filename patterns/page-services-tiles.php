@@ -227,6 +227,7 @@
                         <!-- /wp:paragraph -->
                       </div>
                       <!-- /wp:group -->
+                      <!-- wp:paragraph -->
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width="36"
@@ -255,6 +256,7 @@
                           stroke="black"
                         />
                       </svg>
+                      <!-- /wp:paragraph -->
                     </div>
                     <!-- /wp:group -->
                   </div>
