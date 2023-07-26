@@ -181,7 +181,7 @@ body{
 /* realizations */
 .realizacje{
   overflow-y: visible;
-  overflow-x: visible;
+  overflow-x: hidden;
 }
 
 .col1-realizacje::before {
