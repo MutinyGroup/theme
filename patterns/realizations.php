@@ -104,7 +104,9 @@
                 <!-- wp:list-item -->
                 <li class="wp-block-group swiper-slide img-clip-path-rounded relative group desktop:w-[545px] w-[100%] desktop:h-[600px] h-[320px] <?php if (($counter % 2)) echo ''; else echo 'desktop:translate-y-[50px]'; ?>">                
                   <!-- wp:group -->
+                  <!-- wp:paragraph -->
                   <?php the_title(); ?>
+                  <!-- /wp:paragraph -->
                 </li>
                 <!-- /wp:list-item -->                              
               <?php 
