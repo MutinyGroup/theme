@@ -79,8 +79,47 @@
       <!-- /wp:paragraph -->
     </div>
     <!-- /wp:group -->
+
+
     <!-- wp:group -->
-    <div class="wp-block-group cols-wrapper relative desktop:h-[800px] desktop:flex desktop:flex-row">
+    <div class="wp-block-group gallery-cols relative pb-[150px]">
+      <!-- wp:list -->
+      <ul class="wp-block-list w-[100%] flex flex-wrap justify-between gap-x-[8px] gap-y-[30px]">
+        <?php
+          $args = array(
+              'post_type' => 'realizacje',
+              'posts_per_page' => 6,
+              'order' => 'ASC',
+              'cat' => 'Strona Główna'
+          );
+          $post_query = new WP_Query($args);
+
+          if($post_query->have_posts() ) {
+            $counter = 0;
+            while($post_query->have_posts() ) {
+              $post_query->the_post();
+              $postImageUrl = wp_get_attachment_image_src(get_post_thumbnail_id(),'portrait');
+              $counter++;
+              if (true){ ?>         
+                <!-- wp:list-item -->
+                <li class="wp-block-group swiper-slide img-clip-path-rounded relative group desktop:w-[545px] w-[100%] desktop:h-[600px] h-[320px] <?php if (($counter % 2)) echo ''; else echo 'desktop:translate-y-[50px]'; ?>">                
+                  <!-- wp:group -->
+                  <?php the_title(); ?>
+                </li>
+                <!-- /wp:list-item -->                              
+              <?php 
+              }
+            };
+          };
+        ?>
+      </ul>
+      <!-- /wp:list -->      
+    </div>
+    <!-- /wp:group -->    
+
+
+    <!-- wp:group -->
+    <div class="wp-block-group cols-wrapper old hidden relative desktop:h-[800px] desktop:flex desktop:flex-row">
       <!-- wp:group -->
       <div class="wp-block-group col1-realizacje mb-[30px] desktop:h-[700px] h-[480px] relative group basis-1/2 transition ease-in-out duration-[400ms]">
         <!-- wp:group -->
