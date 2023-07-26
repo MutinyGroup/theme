@@ -98,7 +98,7 @@
             $args = array(
                 'post_type' => 'uslugi',
                 'posts_per_page' => 4,
-                'order' => 'DESC'
+                'order' => 'ASC'
             );
             $post_query = new WP_Query($args);
             $counter = 0;
