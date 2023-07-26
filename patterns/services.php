@@ -141,9 +141,9 @@
                     <!-- wp:group -->
                     <div class="wp-block-group slide-title absolute desktop:bottom-[25px] bottom-[75px] left-[25px]">
                       <!-- wp:paragraph -->
-                      <p class="mr-[20px] text-[25px] font-semibold mb-[15px] underline-offset-[7px] group-hover:underline group-hover:decoration-primaryYellow group-hover:translate-y-[-80px] transition ease-out duration-500">
+                      <a href="<?php the_permalink(); ?>" class="mr-[20px] text-[25px] font-semibold mb-[15px] underline-offset-[7px] group-hover:underline group-hover:decoration-primaryYellow group-hover:translate-y-[-80px] transition ease-out duration-500">
                         <?php the_title(); ?>
-                      </p>
+                      </a>
                       <!-- /wp:paragraph -->
                       <!-- wp:buttons -->
                       <div class="wp-block-buttons btn-swiper-more group text-[14px] uppercase transition ease-out duration-300">
