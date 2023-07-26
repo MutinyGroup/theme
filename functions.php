@@ -354,7 +354,7 @@ function custom_post_types(){
   register_post_type('homeRealizacje', array(
     'public' => true,
     'labels' => array(
-      'name' => 'Główna realizacje',
+      'name' => 'Strona Główna Realizacje',
       'add_new_item' => 'Dodaj realizacje',
       'edit_item' => 'Edytuj realizacje',
       'all_items' => 'Wszystkie realizacjes',
