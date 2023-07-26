@@ -93,7 +93,7 @@
       <div id="services" class="wp-block-group swiper swiperServices relative desktop:pt-[180px] absolute top-0 desktop:left-[150px] left-[20px]">
 
         <!-- wp:group -->
-        <div class="wp-block-group swiper-wrapper">
+        <div class="wp-block-group swiper-wrapper desktop:h-[480px]">
           <?php
             $args = array(
                 'post_type' => 'uslugi',
