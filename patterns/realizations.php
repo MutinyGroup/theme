@@ -88,7 +88,7 @@
         <?php
           $args = array(
               'post_type' => 'realizacje',
-              'posts_per_page' => 1,
+              'posts_per_page' => 2,
               'order' => 'ASC',
               'category_name' => 'glowna'
           );
@@ -101,15 +101,11 @@
               $postImageUrl = wp_get_attachment_image_src(get_post_thumbnail_id(),'portrait');
               $counter++;
               if (true){ ?>         
-                <!-- wp:list-item -->
-                <li class="wp-block-group swiper-slide img-clip-path-rounded relative group desktop:w-[545px] w-[100%] desktop:h-[600px] h-[320px] <?php if (($counter % 2)) echo ''; else echo 'desktop:translate-y-[50px]'; ?>">                
-                  <!-- wp:paragraph -->
-                  <p class="z-[10]">
-                    <?php the_title(); ?>
-                  </p>
-                  <!-- /wp:paragraph -->
-                </li>
-                <!-- /wp:list-item -->                              
+                <!-- wp:paragraph -->                           
+                <p class="z-[10]">
+                  <?php the_title(); ?>
+                </p>
+                <!-- /wp:paragraph -->                           
               <?php 
               }
             };
