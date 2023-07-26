@@ -125,7 +125,7 @@
           <!-- /wp:list -->
           <!-- wp:buttons -->
           <div class="wp-block-buttons group uppercase text-[14px] font-semibold uppercase group-hover:translate-y-[25px] transition ease-in-out duration-[400ms]">
-            <!-- wp:link -->
+            <!-- wp:paragraph -->
             <a href="#" class="wp-block-link inline-block">
               Czytaj więcej
               <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" fill="none " class="inline-block ml-[10px] ">
@@ -134,7 +134,7 @@
                 <path d="M12 18L20 18" stroke="white" />
               </svg>
             </a>
-            <!-- /wp:link -->
+            <!-- /wp:paragraph -->
           </div>
           <!-- /wp:buttons -->
         </div>
@@ -188,7 +188,7 @@
             <!-- /wp:list -->
             <!-- wp:buttons -->
             <div class="wp-block-buttons group uppercase text-[14px] font-semibold uppercase group-hover:translate-y-[25px] transition ease-in-out duration-[400ms]">
-              <!-- wp:link -->
+              <!-- wp:paragraph -->
               <a href="#" class="wp-block-link inline-block">
                 Czytaj więcej
                 <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" fill="none " class="inline-block ml-[10px] ">
@@ -197,7 +197,7 @@
                   <path d="M12 18L20 18" stroke="white" />
                 </svg>
               </a>
-              <!-- /wp:link -->
+              <!-- /wp:paragraph -->
             </div>
             <!-- /wp:buttons -->
           </div>
