@@ -112,7 +112,7 @@
                 </svg>
                 <!-- /wp:paragraph -->
                 <!-- wp:paragraph -->
-                <svg class="scale-[0.85] absolute top-[0px] left-[0px]" xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80" fill="none">
+                <svg class="scale-[0.75] absolute top-[0px] left-[0px]" xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80" fill="none">
                   <path d="M0.5 40C0.5 18.1848 18.1848 0.5 40 0.5C61.8152 0.5 79.5 18.1848 79.5 40C79.5 61.8152 61.8152 79.5 40 79.5C18.1848 79.5 0.5 61.8152 0.5 40Z" stroke="#808080"/>
                 </svg>
                 <!-- /wp:paragraph -->
