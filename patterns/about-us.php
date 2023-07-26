@@ -72,7 +72,7 @@
               <!-- wp:group -->
               <div class="wp-block-group circle-counter-index z-[-1] opacity-[15%] w-[80px] h-[80px] scale-[1]">
                 <!-- wp:paragraph -->
-                <svg class="absolute desktop:top-[-40px] top-[-15px] desktop:right-[-20px] right-[-10px]" xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80" fill="none">
+                <svg class="absolute desktop:top-[75px] top-[-15px] desktop:right-[-40px] right-[-10px]" xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80" fill="none">
                   <path d="M0.5 40C0.5 18.1848 18.1848 0.5 40 0.5C61.8152 0.5 79.5 18.1848 79.5 40C79.5 61.8152 61.8152 79.5 40 79.5C18.1848 79.5 0.5 61.8152 0.5 40Z" stroke="#808080"/>
                 </svg>
                 <!-- /wp:paragraph -->
