@@ -119,7 +119,7 @@
 
 
     <!-- wp:group -->
-    <div class="wp-block-group cols-wrapper old hidden relative desktop:h-[800px] desktop:flex desktop:flex-row">
+    <div class="wp-block-group cols-wrapper old relative desktop:h-[800px] desktop:flex desktop:flex-row hidden">
       <!-- wp:group -->
       <div class="wp-block-group col1-realizacje mb-[30px] desktop:h-[700px] h-[480px] relative group basis-1/2 transition ease-in-out duration-[400ms]">
         <!-- wp:group -->
