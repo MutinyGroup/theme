@@ -102,7 +102,7 @@
               $counter++;
               if (true){ ?>         
                 <!-- wp:list-item -->
-                <li class="wp-block-group col1-realizacje mb-[30px] desktop:h-[700px] h-[480px] relative group w-1/2 transition ease-in-out duration-[400ms]">
+                <li class="wp-block-group col1-realizacje mb-[30px] desktop:h-[700px] h-[480px] relative group w-1/2 transition ease-in-out duration-[400ms] img-clip-path-rounded relative group desktop:w-[545px] w-[100%] desktop:h-[600px] h-[320px] <?php if (($counter % 2)) echo ''; else echo 'desktop:translate-y-[50px]'; ?>">
                   <!-- wp:group -->
                   <div class="wp-block-group img-clip-path-wrapper w-full h-full rounded-tr-[20px] rounded-br-[20px] overflow-hidden absolute left-0 top-0 z-[-1]">
                     <!-- wp:image -->
