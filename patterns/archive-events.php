@@ -57,7 +57,7 @@
       <?php
         $args = array(
           'posts_per_page' => 12,
-          'category_name' => $currentCategory,
+          'cat' => $currentCategory,
         );
         $post_query = new WP_Query($args);
         
