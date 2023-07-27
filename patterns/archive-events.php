@@ -53,10 +53,12 @@
     <ul class="wp-block-list events-list mb-[150px]">
       <?php
         $args = array(
+          'post_type' => 'realizacje',
           'posts_per_page' => 12,
         );
         $post_query = new WP_Query($args);
-        
+        $categories = get_the_category();
+        print_r($categories);
         if($post_query->have_posts() ) {
           while($post_query->have_posts() ) {
             $post_query->the_post();
