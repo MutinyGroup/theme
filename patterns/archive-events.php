@@ -48,14 +48,14 @@
     <!-- /wp:list -->
     
     <!-- wp:paragraph -->
-    <p> test <?php echo single_term_title( 'single termCurrently browsing ' ); ?></p>
+    <p> test <?php echo single_term_title(); ?></p>
     <!-- /wp:paragraph -->
     <!-- wp:paragraph -->
-    <p> test <?php print_r(single_term_title( 'single termCurrently browsing ' )); ?></p>
+    <p> test <?php print_r(single_term_title()); ?></p>
     <!-- /wp:paragraph -->
     
     <!-- wp:paragraph -->
-    <p>test2 <?php echo single_cat_title('single cat Currently browsing '); ?></p> 
+    <p>test2 <?php echo single_cat_title(); ?></p> 
     <!-- /wp:paragraph -->
 
     <!-- wp:list -->
