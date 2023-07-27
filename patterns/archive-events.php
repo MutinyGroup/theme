@@ -52,6 +52,11 @@
     <!-- wp:list -->
     <ul class="wp-block-list events-list mb-[150px]">
       <?php
+
+        echo (single_cat_title());
+        print_r(single_cat_title());
+
+
         $args = array(
           'post_type' => 'realizacje',
           'posts_per_page' => 12,
