@@ -180,7 +180,6 @@
     </ul>
     <!-- /wp:list -->
 
-    <!-- test -->
     <?php if (have_posts()) : ?>
       <?php while (have_posts()) : the_post(); ?>
         <div class="post">
