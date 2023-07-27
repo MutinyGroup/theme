@@ -6,11 +6,53 @@
  * Viewport Width: 1280
  */
 ?>
-<!-- wp:paragraph -->
-<p>archive-events</p>
-<!-- /wp:paragraph -->
+
+<div id="container">
+
+  <div id="content" role="main">
+
+    <h1 class="entry-title">Archive</h1>
+    
+    <hr /><br />
+    
+    <h2>Archives by Category:</h2>
+
+    <ul>
+      <?php wp_list_categories( 'title_li=&show_count=1' ); ?>
+    </ul>
+    
+    <h2>Archives by Tag:</h2>
+    
+    <ul>
+    <?php
+    $tags = get_tags();
+    foreach ( (array) $tags as $tag ) {
+      echo '<li><a href="' . get_tag_link ($tag->term_id) . '" rel="tag">' . $tag->name . ' (' . $tag->count . ') </a></li>';
+    }
+    ?>
+    </ul>
+    
+    <h2>Last 30 Posts:</h2>				
+            
+    <ul>
+    <?php $archive_30 = get_posts('numberposts=30');
+    foreach($archive_30 as $post) : ?>
+      <li><a href="<?php the_permalink(); ?>"><?php the_title();?></a></li>
+    <?php endforeach; ?>
+    </ul>
+    
+    <h2>Archives by Month:</h2>
+    
+    <ul>
+      <?php wp_get_archives('type=monthly&show_post_count=1'); ?>
+    </ul>
+
+  </div>
+
+</div>
+
 <!-- wp:group -->
-<div class="wp-block-group archive-events my-[150px] overflow-hidden">
+<div class="wp-block-group archive-events hidden my-[150px] overflow-hidden">
   <!-- wp:group -->
   <div
     class="wp-block-group container mx-auto relative desktop:px-0 px-[20px]"
