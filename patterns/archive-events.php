@@ -86,7 +86,6 @@
             $postImageUrl = wp_get_attachment_image_src(get_post_thumbnail_id(),'portrait');
 
             $q = get_queried_object();
-            // category title : custom post type archive title
             $title = is_category() ? $q->name : $q->labels->name;
 
             echo 'br'
