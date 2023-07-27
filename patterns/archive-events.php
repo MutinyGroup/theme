@@ -14,10 +14,11 @@
     class="wp-block-group container mx-auto relative desktop:px-0 px-[20px]"
   >
     <!-- wp:list -->
-    <ul class="wp-block-list categories-all-1 mb-[108px] flex flex-wrap gap-[10px]">
+    <ul class="wp-block-list categories-all mb-[108px] flex flex-wrap gap-[10px]">
       <?php
         $args = array(
-                    'order'   => 'ASC'
+                    'taxonomy' => 'category',
+                    'orderby' => 'name',
                 );
         $cats = get_categories($args);
 
