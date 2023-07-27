@@ -6,7 +6,7 @@
  * Viewport Width: 1280
  */
 ?>
-<p>single-content</p>
+<p>single-post-iamge</p>
 <!-- wp:group -->
 <div class="wp-block-group featured-image-test mb-[100px] w-[1300px] hidden">
   <!-- wp:image -->
