@@ -160,8 +160,7 @@
         <a
           href="#"
           class="uppercase text-[14px] font-bold"
-          >Pokaż więcej</a
-        >
+          >Pokaż więcej</a>
         <!-- /wp:paragraph -->
       </div>
       <!-- /wp:buttons -->
