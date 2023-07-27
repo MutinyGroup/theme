@@ -63,7 +63,12 @@
           while($post_query->have_posts() ) {
             $post_query->the_post();
             $postImageUrl = wp_get_attachment_image_src(get_post_thumbnail_id(),'portrait');
-            if (true){ ?>
+            if (true){ 
+              echo 'inside loop';
+              $categories2 = get_the_category();
+              print_r($categories2);
+              ?>
+            
               <!-- wp:list-item -->
               <li class="event-tile group desktop:flex gap-[75px] mb-[50px]">
                 <!-- wp:group -->
