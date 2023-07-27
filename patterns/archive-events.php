@@ -182,19 +182,19 @@
     </ul>
     <!-- /wp:list -->
 
-    <?php if (have_posts()) : ?>
-      <?php while (have_posts()) : the_post(); ?>
-      <!-- wp:group -->
-      <div class="post">
-        <!-- wp:paragraph -->
-        <p id="post-<?php the_ID(); ?>">
-          <?php the_title(); ?>
-        </p>
-        <!-- /wp:paragraph -->
-      </div>
-      <!-- wp:group -->
-      <?php endwhile; ?>
-    <?php endif; ?>
+    <?php
+      if(have_posts() ) {
+        while(have_posts() ) {
+          the_post();
+          if (true){ ?>
+            <!-- wp:paragrpah -->
+            <p><?php the_title(); ?></p>
+            <!-- /wp:paragrpah -->
+          <?php 
+          }
+        };
+      };
+    ?>
 
 
     <!-- wp:group -->
