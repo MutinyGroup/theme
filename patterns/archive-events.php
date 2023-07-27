@@ -63,6 +63,12 @@
         $category_id = get_cat_ID('Category Name');
         echo $category_id;
 
+        echo post_type_archive_title( '', false );
+
+        $q = get_queried_object();
+        // category title : custom post type archive title
+        $title = is_category() ? $q->name : $q->labels->name;
+
         ?>
 
         <p><?php single_cat_title('Currently browsing '); ?>.</p> 
