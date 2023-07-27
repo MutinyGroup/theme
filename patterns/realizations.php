@@ -82,7 +82,7 @@
 
 
     <!-- wp:group -->
-    <div class="wp-block-group gallery-cols relative pb-[150px]">
+    <div class="wp-block-group gallery-cols relative pb-[30px]">
       <!-- wp:list -->
       <ul class="wp-block-list w-[100%] flex flex-wrap justify-between gap-x-[8px] gap-y-[30px]">
         <?php
