@@ -46,34 +46,18 @@
       ?>
     </ul>
     <!-- /wp:list -->
+    
+    <!-- wp:paragraph -->
+    <p> test <?php echo single_term_title( 'single termCurrently browsing ' ); ?></p>
+    <!-- /wp:paragraph -->
+    
+    <!-- wp:paragraph -->
+    <p>test2 <?php echo single_cat_title('single cat Currently browsing '); ?></p> 
+    <!-- /wp:paragraph -->
 
     <!-- wp:list -->
     <ul class="wp-block-list events-list mb-[150px]">
-      <?php
 
-        echo (single_cat_title());
-        print_r(single_cat_title());
-
-
-        $args = array(
-          'posts_per_page' => 12,
-        );
-        $post_query = new WP_Query($args); 
-        $category = get_category( get_query_var( 'cat' ) );
-        print_r($category);
-
-        $category_id = get_cat_ID('Category Name');
-        echo $category_id;
-
-         print_r(post_type_archive_title( '', false ));
-
-
-
-        ?>
-        <p><?php single_term_title( 'single termCurrently browsing ' ); ?>.</p>
-
-        <p><?php single_cat_title('single cat Currently browsing '); ?>.</p> 
-        <?php $current_category = single_cat_title("", false); ?>
 
 
         <?php
@@ -81,21 +65,7 @@
           while($post_query->have_posts() ) {
             $post_query->the_post();
             $postImageUrl = wp_get_attachment_image_src(get_post_thumbnail_id(),'portrait');
-
-            $q = get_queried_object();
-            print_r($q);
-
-            echo 'br';
-
-            $obj = get_queried_object();
-
-              echo '<pre>';
-              print_r( $obj );
-              echo '</pre>';
-          
-            if (true){ 
-              ?>
-            
+            if (true){ ?>
               <!-- wp:list-item -->
               <li class="event-tile group desktop:flex gap-[75px] mb-[50px]">
                 <!-- wp:group -->
