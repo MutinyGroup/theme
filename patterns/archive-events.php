@@ -64,6 +64,7 @@
             $post_query->the_post();
             $postImageUrl = wp_get_attachment_image_src(get_post_thumbnail_id(),'portrait');
             if (true){ ?>
+            <?php print_r($currentCategory) ?>
               <!-- wp:list-item -->
               <li class="event-tile group desktop:flex gap-[75px] mb-[50px]">
                 <!-- wp:group -->
