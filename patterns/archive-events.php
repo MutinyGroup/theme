@@ -63,11 +63,9 @@
         $category_id = get_cat_ID('Category Name');
         echo $category_id;
 
-        echo post_type_archive_title( '', false );
+         print_r(post_type_archive_title( '', false ));
 
-        $q = get_queried_object();
-        // category title : custom post type archive title
-        $title = is_category() ? $q->name : $q->labels->name;
+
 
         ?>
         <p><?php single_term_title( 'single termCurrently browsing ' ); ?>.</p>
@@ -81,6 +79,10 @@
           while($post_query->have_posts() ) {
             $post_query->the_post();
             $postImageUrl = wp_get_attachment_image_src(get_post_thumbnail_id(),'portrait');
+
+            $q = get_queried_object();
+            // category title : custom post type archive title
+            $title = is_category() ? $q->name : $q->labels->name;
             if (true){ 
               ?>
             
