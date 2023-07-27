@@ -47,7 +47,16 @@
     </ul>
     <!-- /wp:list -->
     
-
+                <!-- wp:paragraph -->
+                <p> test <?php echo single_term_title('',false); ?></p>
+                <!-- /wp:paragraph -->
+                <!-- wp:paragraph -->
+                <p> test <?php print_r(single_term_title('',false)); ?></p>
+                <!-- /wp:paragraph -->
+                
+                <!-- wp:paragraph -->
+                <p>test2 <?php echo single_cat_title('',false); ?></p> 
+                <!-- /wp:paragraph -->
 
     <!-- wp:list -->
     <ul class="wp-block-list events-list mb-[150px]">
@@ -62,16 +71,6 @@
             $post_query->the_post();
             $postImageUrl = wp_get_attachment_image_src(get_post_thumbnail_id(),'portrait');
             if (true){ ?>
-                <!-- wp:paragraph -->
-                <p> test <?php echo single_term_title(); ?></p>
-                <!-- /wp:paragraph -->
-                <!-- wp:paragraph -->
-                <p> test <?php print_r(single_term_title()); ?></p>
-                <!-- /wp:paragraph -->
-                
-                <!-- wp:paragraph -->
-                <p>test2 <?php echo single_cat_title(); ?></p> 
-                <!-- /wp:paragraph -->
               <!-- wp:list-item -->
               <li class="event-tile group desktop:flex gap-[75px] mb-[50px]">
                 <!-- wp:group -->
