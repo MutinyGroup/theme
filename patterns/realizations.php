@@ -111,7 +111,7 @@
                   </div>
                   <!-- /wp:group -->                 
                   <!-- wp:group -->
-                  <div class="wp-block-group img-clip-path-wrapper w-full h-full rounded-tr-[20px] rounded-br-[20px] overflow-hidden absolute left-0 top-0 z-[-1]">
+                  <div class="wp-block-group img-clip-path-wrapper <?php if($counter == 1) echo 'img-clip-path-services'; elseif($counter == $post_query->post_count) echo 'img-clip-path-blog'; ?> w-full h-full rounded-tr-[20px] rounded-br-[20px] overflow-hidden absolute left-0 top-0 z-[-1]">
                     <!-- wp:image -->
                     <figure class="wp-block-image h-full group-hover:grayscale transition ease-in-out duration-[400ms]">
                       <img src="<?php echo $postImageUrl[0]; ?>" alt="realizations-backgroun-image">
