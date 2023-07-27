@@ -56,19 +56,12 @@
           'post_type' => 'realizacje',
           'posts_per_page' => 12,
         );
-        $post_query = new WP_Query($args);    
-         print_r(is_category());
-            
+        $post_query = new WP_Query($args); ?>
+
+        <p><?php single_cat_title('Currently browsing '); ?>.</p> 
+        <?php $current_category = single_cat_title("", false); ?>
+        <?php
         if($post_query->have_posts() ) {
-          
-          $categories = get_the_category();
-          print_r($categories);
-          $cat3 = single_tag_title();
-          print_r($cat3);
-          $obj = get_queried_object();
-          print_r($obj);
-          $cat_slug = $obj->slug;
-          print_r($cat_slug);
           while($post_query->have_posts() ) {
             $post_query->the_post();
             $postImageUrl = wp_get_attachment_image_src(get_post_thumbnail_id(),'portrait');
