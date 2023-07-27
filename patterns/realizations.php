@@ -132,8 +132,36 @@
                       </a>
                     </p>
                     <!-- /wp:paragraph -->
+
                     <!-- wp:list -->
-                    <ul class="wp-block-list categories-wrapper mb-[20px] desktop:group-hover:translate-y-[-50px] group-hover:translate-y-[-70px] transition ease-in-out duration-[400ms]">
+                    <ul class="wp-block-list old categories-wrapper mb-[20px] desktop:group-hover:translate-y-[-50px] group-hover:translate-y-[-70px] transition ease-in-out duration-[400ms]">
+                      <?php 
+                        $categoriesArray = get_the_category();
+                        foreach ($categoriesArray as $category) {
+                        $category_link = get_category_link($category->term_id);
+                        ?>
+                        <?php
+                          if (($category->name) == 'glowna'){
+                            echo '';
+                          }else{ ?>
+                            <!-- wp:list-item -->
+                            <li class="uppercase p-[5px_10px] inline-block text-[12px] text-black font-semibold bg-[#D5D5D5] rounded-full">
+                              <a href="<?php echo esc_url($category_link); ?>">
+                                <?php echo $category->name ?>
+                              </a>
+                            </li>
+                            <!-- /wp:list-item -->
+                          <?php
+                          };
+                        ?>
+
+                      <?php }; ?>
+                    </ul>
+                    <!-- /wp:list -->                    
+
+
+                    <!-- wp:list -->
+                    <ul class="wp-block-list old categories-wrapper mb-[20px] desktop:group-hover:translate-y-[-50px] group-hover:translate-y-[-70px] transition ease-in-out duration-[400ms] hidden">
                       <!-- wp:list-item -->
                       <li class="cat1 uppercase p-[5px_10px] inline-block text-[12px] text-black font-semibold bg-[#D5D5D5] rounded-full">Marketing i PR</li>
                       <!-- /wp:list-item -->
@@ -145,6 +173,8 @@
                       <!-- /wp:list-item -->
                     </ul>
                     <!-- /wp:list -->
+
+
                     <!-- wp:buttons -->
                     <div class="wp-block-buttons group uppercase text-[14px] font-semibold uppercase group-hover:translate-y-[25px] transition ease-in-out duration-[400ms]">
                       <!-- wp:paragraph -->
