@@ -17,10 +17,10 @@
     <ul class="wp-block-list categories-all-1 mb-[108px] flex flex-wrap gap-[10px]">
       <?php
         $args = array(
-                    'taxonomy' => 'category',
-                    'orderby' => 'name',
-                    'order'   => 'ASC'
-                );
+          'taxonomy' => 'category',
+          'orderby' => 'name',
+          'order'   => 'ASC'
+        );
         $cats = get_categories($args);
 
         foreach($cats as $cat) {
@@ -52,9 +52,9 @@
     <ul class="wp-block-list events-list mb-[150px]">
       <?php
         $args = array(
-            'post_type' => 'realizacje',
-            'posts_per_page' => 6,
-            'order' => 'DESC'
+          'post_type' => 'realizacje',
+          'posts_per_page' => 6,
+          'order' => 'DESC'
         );
         $post_query = new WP_Query($args);
         if($post_query->have_posts() ) {
