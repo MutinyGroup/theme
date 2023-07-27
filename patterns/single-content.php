@@ -130,9 +130,16 @@
     </div>
     <!-- /wp:group -->
 
+    <!-- wp:group -->
+    <div class="wp-block-group featured-image-test mb-[100px] w-[1300px] hidden">
+      <!-- wp:image -->
+      <figure class="wp-block-image">
+        <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-blog/single-post-img.jpg" alt="single-post-image">
+      </figure>
+      <!-- /wp:image -->
+    </div>
+    <!-- /wp:group -->
 
-    <!-- wp:template-part {"slug":"page-bright/single-post-image"} /-->
-    
     <!-- wp:group -->
     <div class="wp-block-group layout-two-cols mb-[50px] desktop:flex gap-[50px]">
       <!-- wp:group -->
