@@ -57,6 +57,7 @@
           'posts_per_page' => 12,
         );
         $post_query = new WP_Query($args);    
+         print_r(is_category());
             
         if($post_query->have_posts() ) {
           
@@ -65,6 +66,7 @@
           $cat3 = single_tag_title();
           print_r($cat3);
           $obj = get_queried_object();
+          print_r($obj);
           $cat_slug = $obj->slug;
           print_r($cat_slug);
           while($post_query->have_posts() ) {
