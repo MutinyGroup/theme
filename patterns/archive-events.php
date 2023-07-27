@@ -60,10 +60,7 @@
 
     <!-- wp:list -->
     <ul class="wp-block-list events-list mb-[150px]">
-
-
-
-        <?php
+      <?php
         $args = array(
           'posts_per_page' => 10,
         );
