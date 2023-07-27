@@ -58,7 +58,7 @@
         );
         $post_query = new WP_Query($args); 
         $category = get_category( get_query_var( 'cat' ) );
-        $cat_id = $category->cat_ID;
+        $cat_id = $category->'cat_ID';
         echo $cat_id;
 
         $category_id = get_cat_ID('Category Name');
