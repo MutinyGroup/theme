@@ -189,7 +189,7 @@
           <small><?php the_time('F jS, Y') ?> <!-- by <?php the_author() ?> --></small>
         </div>
       <?php endwhile; ?>
-      <?php endif; ?>
+    <?php endif; ?>
 
 
     <!-- wp:group -->
