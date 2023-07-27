@@ -26,7 +26,7 @@
         foreach($cats as $cat) {
       ?>
         <?php
-          if (($category->name) == 'glowna'){
+          if (($cat->name) == 'glowna'){
             echo '';
           }else{ ?>
             <!-- wp:list-item -->
