@@ -50,7 +50,7 @@
     <!-- /wp:list -->
 
     <!-- wp:list -->
-    <ul class="wp-block-list hidden events-list mb-[150px]">
+    <ul class="wp-block-list events-list mb-[150px]">
       <?php
         $args = array(
           'posts_per_page' => 6,
@@ -181,21 +181,6 @@
       ?>
     </ul>
     <!-- /wp:list -->
-
-    <?php
-      if(have_posts() ) {
-        while(have_posts() ) {
-          the_post();
-          if (true){ ?>
-            <!-- wp:paragrpah -->
-            <p><?php the_title(); ?></p>
-            <!-- /wp:paragrpah -->
-          <?php 
-          }
-        };
-      };
-    ?>
-
 
     <!-- wp:group -->
     <div
