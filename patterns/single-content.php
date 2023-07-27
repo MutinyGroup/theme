@@ -131,7 +131,7 @@
     <!-- /wp:group -->
 
     <!-- wp:group -->
-    <div class="wp-block-group featured-image-test mb-[100px] w-[1300px] hidden">
+    <div class="wp-block-group post-image-test mb-[100px] w-[1300px] hidden">
       <!-- wp:image -->
       <figure class="wp-block-image">
         <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-blog/single-post-img.jpg" alt="single-post-image">
