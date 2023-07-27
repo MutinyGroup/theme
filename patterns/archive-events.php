@@ -58,7 +58,6 @@
 
 
         $args = array(
-          'post_type' => 'realizacje',
           'posts_per_page' => 12,
         );
         $post_query = new WP_Query($args); 
