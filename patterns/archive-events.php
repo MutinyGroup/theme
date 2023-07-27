@@ -59,10 +59,11 @@
             'order' => 'DESC'
         );
         $post_query = new WP_Query($args);
-        $cat_id = $post_query->get_queried_object_id();
+        
         if($post_query->have_posts() ) {
           while($post_query->have_posts() ) {
             $post_query->the_post();
+            $cat_id = $post_query->get_queried_object_id();
             $postImageUrl = wp_get_attachment_image_src(get_post_thumbnail_id(),'portrait');
             if (true){ ?>
               <!-- wp:list-item -->
