@@ -351,22 +351,6 @@ function custom_post_types(){
     'supports' => array('title', 'editor', 'excerpt','thumbnail'),
 		'taxonomies'  => array( 'category' )
   ));
-  register_post_type('homeRealizacje', array(
-    'public' => true,
-    'labels' => array(
-      'name' => 'Strona Główna Realizacje',
-      'add_new_item' => 'Dodaj realizacje',
-      'edit_item' => 'Edytuj realizacje',
-      'all_items' => 'Wszystkie realizacjes',
-      'singular_name' => 'Realizacje'
-    ),
-    'menu_icon' => 'dashicons-flag',
-    'show_in_rest' => true,
-    'has_archive' => true,
-    'rewrite' => array('slug' => 'realizacje'),
-    'supports' => array('title', 'editor', 'excerpt','thumbnail'),
-		'taxonomies'  => array( 'category' )
-  ));	
   register_post_type('uslugi', array(
     'public' => true,
     'labels' => array(
