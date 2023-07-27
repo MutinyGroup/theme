@@ -129,6 +129,9 @@
       <!-- wp:post-featured-image /-->
     </div>
     <!-- /wp:group -->
+
+
+    <!-- wp:pattern {"slug":"single-post-image"} /-->
     
     <!-- wp:group -->
     <div class="wp-block-group layout-two-cols mb-[50px] desktop:flex gap-[50px]">
