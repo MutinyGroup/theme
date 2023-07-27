@@ -70,8 +70,9 @@
         $title = is_category() ? $q->name : $q->labels->name;
 
         ?>
+        <p><?php single_term_title( 'single termCurrently browsing ' ); ?>.</p>
 
-        <p><?php single_cat_title('Currently browsing '); ?>.</p> 
+        <p><?php single_cat_title('single cat Currently browsing '); ?>.</p> 
         <?php $current_category = single_cat_title("", false); ?>
 
 
