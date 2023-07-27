@@ -180,6 +180,18 @@
     </ul>
     <!-- /wp:list -->
 
+    <!-- test -->
+    <?php if (have_posts()) : ?>
+      <?php while (have_posts()) : the_post(); ?>
+        <div class="post">
+          <h2 id="post-<?php the_ID(); ?>">
+          <a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title(); ?></a></h2>
+          <small><?php the_time('F jS, Y') ?> <!-- by <?php the_author() ?> --></small>
+        </div>
+      <?php endwhile; ?>
+      <?php endif; ?>
+
+
     <!-- wp:group -->
     <div
       class="wp-block-group button-wrapper desktop:mt-[80px] mt-[40px] flex items-center justify-center gap-[64px] cursor-pointer"
