@@ -63,6 +63,9 @@
           print_r($categories);
           $cat3 = single_tag_title();
           print_r($cat3);
+          $obj = get_queried_object();
+          $cat_slug = $obj->slug;
+          print_r($cat_slug);
           while($post_query->have_posts() ) {
             $post_query->the_post();
             $postImageUrl = wp_get_attachment_image_src(get_post_thumbnail_id(),'portrait');
