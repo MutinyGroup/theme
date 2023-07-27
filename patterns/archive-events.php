@@ -58,8 +58,6 @@
           'tax_query' => array(
               array(
                   'taxonomy' => 'category', //double check your taxonomy name in you dd 
-                  'field'    => 'id',
-                  'terms'    => $cat_id,
               ),
             ),
           );
