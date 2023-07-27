@@ -153,9 +153,9 @@
                           }else{ ?>
                             <!-- wp:list-item -->
                             <li class="uppercase p-[5px_10px] inline-block text-[12px] text-black font-semibold bg-[#D5D5D5] rounded-full">
-                              <a href="<?php echo esc_url($category_link); ?>">
+                              <p>
                                 <?php echo $category->name ?>
-                              </a>
+                              </p>
                             </li>
                             <!-- /wp:list-item -->
                           <?php
