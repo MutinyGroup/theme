@@ -58,7 +58,7 @@
     <!-- /wp:group -->
     
     <!-- wp:paragraph -->
-    <a href="https://mutiny.webo.design/realizacje/" class="group mt-[60px] mb-[40px] w-fit font-semibold flex items-center gap-[8px]">
+    <a href="https://mutiny.webo.design/realizations/" class="group mt-[60px] mb-[40px] w-fit font-semibold flex items-center gap-[8px]">
       <!-- wp:group -->
       <div class="wp-block-group group w-[56px] h-[56px]">
         <!-- wp:paragraph -->
