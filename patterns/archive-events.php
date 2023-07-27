@@ -51,10 +51,10 @@
 
     <!-- wp:list -->
     <ul class="wp-block-list events-list mb-[150px]">
+      <?php $currentCategory = single_cat_title("", false); ?>
             <?php print_r($currentCategory); ?>
             <?php echo ($currentCategory); ?>
       <?php
-        $currentCategory = single_cat_title("", false);
         $args = array(
           'posts_per_page' => 12,
           'category_name' => $currentCategory,
