@@ -59,6 +59,8 @@
         $post_query = new WP_Query($args);
         $categories = get_the_category();
         print_r($categories);
+        $cat3 = single_tag_title();
+        print_r($cat3);
         if($post_query->have_posts() ) {
           while($post_query->have_posts() ) {
             $post_query->the_post();
