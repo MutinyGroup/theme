@@ -104,7 +104,7 @@
                 <!-- wp:list-item -->
                 <li class="wp-block-group tile-realizacje mb-[30px] desktop:h-[700px] h-[480px] relative group w-1/2 transition ease-in-out duration-[400ms] img-clip-path-rounded relative group desktop:w-[545px] w-[100%] desktop:h-[600px] h-[320px] <?php if (($counter % 2)) echo ''; else echo 'desktop:translate-y-[50px]'; ?>">
                   <!-- wp:group -->
-                  <div class="wp-block-group <?php if($counter == 1) echo 'img-clip-path-services'; elseif($counter == $post_query->post_count) echo 'img-clip-path-blog'; ?> gray-overlay w-full h-full bg-[#101010] absolute top-0 left-0 opacity-[50%] z-[1]">
+                  <div class="wp-block-group <?php if($counter == 1) echo 'img-clip-path-services'; elseif($counter == $post_query->post_count) echo 'img-clip-path-blog'; ?> gray-overlay w-full h-full bg-[#101010] absolute top-0 left-0 opacity-[50%]">
                     <!-- wp:paragraph -->
                     <p class="hidden">gray overlay</p>
                     <!-- /wp:paragraph -->
