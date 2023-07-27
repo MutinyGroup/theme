@@ -125,7 +125,7 @@
     <!-- /wp:group -->
     
     <!-- wp:group -->
-    <div class="wp-block-group featured-image mb-[100px] w-[1300px]">
+    <div class="wp-block-group featured-image mb-[100px] w-[1300px] hidden">
       <!-- wp:post-featured-image /-->
     </div>
     <!-- /wp:group -->
