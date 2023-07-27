@@ -17,8 +17,6 @@
     <ul class="wp-block-list categories-all-1 mb-[108px] flex flex-wrap gap-[10px]">
       <?php
         $args = array(
-                    'taxonomy' => 'category',
-                    'orderby' => 'name',
                     'order'   => 'ASC'
                 );
         $cats = get_categories($args);
