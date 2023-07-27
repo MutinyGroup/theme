@@ -125,12 +125,6 @@
     <!-- /wp:group -->
     
     <!-- wp:group -->
-    <div class="wp-block-group hidden featured-image mb-[100px] w-[1300px]">
-      <!-- wp:post-featured-image /-->
-    </div>
-    <!-- /wp:group -->
-    
-    <!-- wp:group -->
     <div class="wp-block-group layout-two-cols mb-[50px] desktop:flex gap-[50px]">
       <!-- wp:group -->
       <div class="wp-block-group post-content desktop:w-[70%]">
