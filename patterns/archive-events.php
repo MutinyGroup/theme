@@ -48,7 +48,7 @@
     <!-- /wp:list -->
 
     <!-- wp:list -->
-    <ul class="wp-block-list events-list mb-[150px]">
+    <ul class="wp-block-list hidden events-list mb-[150px]">
       <?php
         $args = array(
           'posts_per_page' => 6,
@@ -182,11 +182,15 @@
 
     <?php if (have_posts()) : ?>
       <?php while (have_posts()) : the_post(); ?>
-        <div class="post">
-          <h2 id="post-<?php the_ID(); ?>">
-          <a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title(); ?></a></h2>
-          <small><?php the_time('F jS, Y') ?> <!-- by <?php the_author() ?> --></small>
-        </div>
+      <!-- wp:group -->
+      <div class="post">
+        <!-- wp:paragraph -->
+        <p id="post-<?php the_ID(); ?>">
+          <?php the_title(); ?>
+        </p>
+        <!-- /wp:paragraph -->
+      </div>
+      <!-- wp:group -->
       <?php endwhile; ?>
     <?php endif; ?>
 
