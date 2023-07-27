@@ -83,6 +83,15 @@
             $q = get_queried_object();
             // category title : custom post type archive title
             $title = is_category() ? $q->name : $q->labels->name;
+
+            echo 'br'
+
+            $obj = get_queried_object();
+
+              echo '<pre>';
+              print_r( $obj );
+              echo '</pre>';
+          
             if (true){ 
               ?>
             
