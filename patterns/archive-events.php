@@ -52,13 +52,15 @@
     <!-- wp:list -->
     <ul class="wp-block-list events-list mb-[150px]">
       <?php
+        $currentCategory = single_cat_title("", false);
         $args = array(
           'posts_per_page' => 12,
+          'category_name' => $currentCategory,
         );
         $post_query = new WP_Query($args);
         
-        if($post_query->is_category() ) {
-          while($post_query->is_category() ) {
+        if($post_query->have_posts() ) {
+          while($post_query->have_posts() ) {
             $post_query->the_post();
             $postImageUrl = wp_get_attachment_image_src(get_post_thumbnail_id(),'portrait');
             if (true){ ?>
