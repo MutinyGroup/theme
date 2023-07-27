@@ -86,7 +86,7 @@
             $postImageUrl = wp_get_attachment_image_src(get_post_thumbnail_id(),'portrait');
 
             $q = get_queried_object();
-            $title = is_category() ? $q->name : $q->labels->name;
+            print_r($q);
 
             echo 'br';
 
