@@ -52,10 +52,22 @@
     <!-- wp:list -->
     <ul class="wp-block-list events-list mb-[150px]">
       <?php
+        $args=array(
+          'posts_per_page' => 50,    
+          'post_type' => 'realizacje',
+          'tax_query' => array(
+              array(
+                  'taxonomy' => 'category', //double check your taxonomy name in you dd 
+                  'field'    => 'id',
+                  'terms'    => $cat_id,
+              ),
+            ),
+          );
+        $post_query = new WP_Query($args);
         
-        if(have_posts() ) {
-          while(have_posts() ) {
-            the_post();
+        if($post_query->have_posts() ) {
+          while($post_query->have_posts() ) {
+            $post_query->the_post();
             $postImageUrl = wp_get_attachment_image_src(get_post_thumbnail_id(),'portrait');
             if (true){ ?>
               <!-- wp:list-item -->
