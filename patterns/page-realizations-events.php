@@ -24,7 +24,7 @@
         $cats = get_categories($args);
 
         foreach($cats as $cat) {
-      ?>
+        ?>
         <?php
           if (($cat->name) == 'glowna'){
             echo '';
