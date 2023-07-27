@@ -52,14 +52,10 @@
     <!-- wp:list -->
     <ul class="wp-block-list events-list mb-[150px]">
       <?php
-        $args = array(
-          'posts_per_page' => 6,
-        );
-        $post_query = new WP_Query($args);
         
-        if($post_query->have_posts() ) {
-          while($post_query->have_posts() ) {
-            $post_query->the_post();
+        if(have_posts() ) {
+          while(have_posts() ) {
+            the_post();
             $postImageUrl = wp_get_attachment_image_src(get_post_thumbnail_id(),'portrait');
             if (true){ ?>
               <!-- wp:list-item -->
