@@ -61,6 +61,11 @@
 
 
         <?php
+        $args = array(
+          'posts_per_page' => 10,
+        );
+        $post_query = new WP_Query($args); 
+
         if($post_query->have_posts() ) {
           while($post_query->have_posts() ) {
             $post_query->the_post();
