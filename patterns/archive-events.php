@@ -51,6 +51,8 @@
 
     <!-- wp:list -->
     <ul class="wp-block-list events-list mb-[150px]">
+            <?php print_r($currentCategory); ?>
+            <?php echo ($currentCategory); ?>
       <?php
         $currentCategory = single_cat_title("", false);
         $args = array(
