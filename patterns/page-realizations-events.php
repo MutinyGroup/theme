@@ -96,11 +96,21 @@
                       foreach ($categoriesArray as $category) {
                       $category_link = get_category_link($category->term_id);
                       ?>
-                      <!-- wp:list-item -->
-                      <li class="w-fit p-[0px_8px] flex justify-center items-center bg-[#F2F2F2] leading-[20px] border border-[#D5D5D5] border-[2px] rounded-full uppercase text-[13px] font-semibold hover:bg-primaryYellow hover:border-primaryYellow transition ease-out duration-300 cursor-pointer">
-                        <a href="<?php echo esc_url($category_link); ?>"><?php if (($category->name) == 'glowna') return;else echo $category->name; ?></a>
-                      </li>
-                      <!-- /wp:list-item -->
+                      <?php
+                        if (($category->name) == 'glowna'){
+                          echo '';
+                        }else{ ?>
+                          <!-- wp:list-item -->
+                          <li class="w-fit p-[0px_8px] flex justify-center items-center bg-[#F2F2F2] leading-[20px] border border-[#D5D5D5] border-[2px] rounded-full uppercase text-[13px] font-semibold hover:bg-primaryYellow hover:border-primaryYellow transition ease-out duration-300 cursor-pointer">
+                            <a href="<?php echo esc_url($category_link); ?>">
+                              <?php echo $category->name ?>
+                            </a>
+                          </li>
+                          <!-- /wp:list-item -->
+                        <?php
+                        };
+                      ?>
+
                     <?php }; ?>
                   </ul>
                   <!-- /wp:list -->
