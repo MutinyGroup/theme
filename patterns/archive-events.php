@@ -56,9 +56,10 @@
           'post_type' => 'realizacje',
           'posts_per_page' => 12,
         );
-
+        $post_query = new WP_Query($args);    
+            
         if($post_query->have_posts() ) {
-          $post_query = new WP_Query($args);
+          
           $categories = get_the_category();
           print_r($categories);
           $cat3 = single_tag_title();
