@@ -51,13 +51,9 @@
 
     <!-- wp:list -->
     <ul class="wp-block-list events-list mb-[150px]">
-      <?php $currentCategory = single_cat_title("", false); ?>
-            <?php print_r($currentCategory); ?>
-            <?php echo ($currentCategory); ?>
       <?php
         $args = array(
           'posts_per_page' => 12,
-          'cat' => $currentCategory,
         );
         $post_query = new WP_Query($args);
         
@@ -66,8 +62,6 @@
             $post_query->the_post();
             $postImageUrl = wp_get_attachment_image_src(get_post_thumbnail_id(),'portrait');
             if (true){ ?>
-            <?php print_r($currentCategory); ?>
-            <?php echo ($currentCategory); ?>
               <!-- wp:list-item -->
               <li class="event-tile group desktop:flex gap-[75px] mb-[50px]">
                 <!-- wp:group -->
