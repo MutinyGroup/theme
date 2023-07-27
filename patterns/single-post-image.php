@@ -8,7 +8,7 @@
 ?>
 <p>single-content</p>
 <!-- wp:group -->
-<div class="wp-block-group featured-image mb-[100px] w-[1300px] hidden">
+<div class="wp-block-group featured-image-test mb-[100px] w-[1300px] hidden">
   <!-- wp:image -->
   <figure class="wp-block-iamge">
     <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-blog/single-post-img.jpg" alt="single-post-image">
