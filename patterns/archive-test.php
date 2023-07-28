@@ -14,6 +14,7 @@
   <ul class="wp-block-list events-list mb-[150px]">
     <?php
       $args = array(
+        'post_type' => 'realizacje',
         'posts_per_page' => 6,
         'order' => 'DESC',
         'category_name' => 'eventy',
