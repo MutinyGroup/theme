@@ -13,6 +13,7 @@
   <div
     class="wp-block-group container relative mx-auto desktop:px-0 px-[20px]"
   >
+  <p>test</p>
   <?php
    echo single_cat_title();
    echo single_term_title();
