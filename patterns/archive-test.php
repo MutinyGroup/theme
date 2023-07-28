@@ -16,7 +16,7 @@
       $args = array(
         'posts_per_page' => 6,
         'order' => 'DESC',
-        'category' => 'eventy',
+        'category_name' => 'eventy',
       );
       $post_query = new WP_Query($args);
       if($post_query->have_posts() ) {
