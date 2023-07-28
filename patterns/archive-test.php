@@ -14,7 +14,8 @@
     $category = get_the_category();
     $link = get_category_link( $category[0]->term_id );
     echo $link;
-    get_the_archive_title();
+    $title = get_the_archive_title();
+    echo $title;
   ?>
   <!-- /wp:paragraph -->
   <!-- wp:list -->
