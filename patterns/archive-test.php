@@ -11,7 +11,9 @@
 <div id="content" class="wp-block-group">
   <!-- wp:paragraph -->
   <?php
-
+    $category = get_the_category();
+    $link = get_category_link( $category[0]->term_id );
+    echo $category;
     print_r($category);
     echo '<br>';
     $title = $category[0]->slug;
@@ -32,9 +34,6 @@
         while($post_query->have_posts() ) {
           $post_query->the_post();
           $postImageUrl = wp_get_attachment_image_src(get_post_thumbnail_id(),'portrait');
-          $category = get_the_category();
-          $link = get_category_link( $category[0]->term_id );
-          echo $category;
           if (true){ ?>
             <!-- wp:list-item -->
             <li class="event-tile group desktop:flex gap-[75px] mb-[50px]">
