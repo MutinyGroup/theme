@@ -20,6 +20,17 @@
     echo $title;
     $term_name = get_term( $term_id )->name;
     echo $term_nam;
+
+    if ( is_category() ) {
+
+      $catid = get_queried_object_id();
+      echo $catid;
+  
+  } elseif ( is_single() ) {
+  
+      $cats = wp_get_post_terms( get_queried_object_id(), 'category', array( 'fields' => 'ids' ) ); // category object
+      $catid = $cats[0];
+  }
   ?>
   <!-- /wp:paragraph -->
   <!-- wp:list -->
