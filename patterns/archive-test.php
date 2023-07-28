@@ -19,7 +19,7 @@
     $title = $category[0]->slug;
     echo $title;
     $term_name = get_taxonomy();
-    echo $term_name;
+    print_r($term_name);
   ?>
   <!-- /wp:paragraph -->
   <!-- wp:list -->
