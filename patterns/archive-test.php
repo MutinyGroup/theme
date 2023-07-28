@@ -36,8 +36,6 @@
     echo $current_url;
     echo 'parse url: ' +  '<br>';
     print_r(parse_url( $current_url ));
-    echo 'parse str:' +  '<br>';
-    print_r(parse_str($current_url, $output));
     echo '<br>';
     echo 'global wp ' +  '<br>';
     print_r($wp);
