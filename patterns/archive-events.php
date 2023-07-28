@@ -53,8 +53,8 @@
         global $wp;
         $currentCategory2 = $wp->query_vars;
         echo 'global wp: ';
-        print_r($currentCategory2[0]);
-
+        print_r($currentCategory2['category_name']);
+        
         $args = array(
           'post_type' => 'realizacje',
           'posts_per_page' => 10,
