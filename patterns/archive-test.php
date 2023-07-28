@@ -26,9 +26,10 @@
     echo $desc;
     echo '<br>';
 
-    global $wp;
-    $current_url = home_url(add_query_arg(array(), $wp->request));
-    echo $current_url;
+    echo get_permalink( get_the_ID() );
+    echo '<br>';
+    echo get_category_link( get_query_var( 'cat' ) );
+    echo '<br>';
 
   ?>
   <!-- /wp:paragraph -->
