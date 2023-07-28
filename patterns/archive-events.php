@@ -51,7 +51,7 @@
     <ul class="wp-block-list events-list mb-[150px]">
       <?php
         global $wp;
-        $current_url2 = $wp->query_vars;
+        $currentCategory2 = $wp->query_vars;
         echo 'global wp: ';
         print_r($current_url2[0]);
 
@@ -59,7 +59,7 @@
         'post_type' => 'realizacje',
         'posts_per_page' => 10,
         'order' => 'DESC',
-        'category_name' => $currentCategory
+        'category_name' => $currentCategory2
         );
         $post_query = new WP_Query($args);
 
