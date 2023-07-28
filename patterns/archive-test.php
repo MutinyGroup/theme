@@ -9,45 +9,16 @@
 
 <!-- wp:group -->
 <div id="content" class="wp-block-group">
-  <!-- wp:paragraph -->
-  <?php
-    $category = get_the_category();
-    $link = get_category_link( $category[0]->term_id );
-    print_r($category);
-    echo '<br>';
-    $title = $category[0]->slug;
-    echo $title;
-    $term_name = get_taxonomies();
-    print_r($term_name);
-    echo '<br>';
-
-
-    $desc = term_description();
-    echo $desc;
-    echo '<br>';
-
-    echo get_permalink( get_the_ID() );
-    echo '<br>';
-    echo get_category_link( get_query_var( 'cat' ) );
-    echo '<br>';
-    global $wp;
-    $wp->parse_request();
-    $current_url = home_url($wp->request);
-    echo $current_url;
-    echo '<br>';
-    print_r(parse_url( $current_url ));
-    echo '<br>';
-    echo '[path]';
-    echo (parse_url( $current_url )['path']);
-    echo '<br>';
-    echo substr($current_url, 36, 10);
-    $currentCategory = substr($current_url, 36, 10);
-  ?>
-  <!-- /wp:paragraph -->
   <!-- wp:list -->
   <ul class="wp-block-list events-list mb-[150px]">
     <?php
-      $args = array(
+        global $wp;
+        $wp->parse_request();
+        $current_url = home_url($wp->request);
+        $current_url2 = $wp;
+        echo $current_url2;
+        $currentCategory = substr(parse_url($current_url )['path'], 10, 30);
+        $args = array(
         'post_type' => 'realizacje',
         'posts_per_page' => 10,
         'order' => 'DESC',
