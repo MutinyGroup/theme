@@ -30,9 +30,9 @@
     echo '<br>';
     echo get_category_link( get_query_var( 'cat' ) );
     echo '<br>';
-    // get current URL 
-    $current_url = get_permalink( get_the_ID() );
-    if( is_category() ) $current_url = get_category_link( get_query_var( 'cat' ) );
+    global $wp;
+    $wp->parse_request();
+    $current_url = home_url($wp->request);
     echo $current_url;
 
   ?>
