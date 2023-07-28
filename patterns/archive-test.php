@@ -9,7 +9,6 @@
 
 <!-- wp:group -->
 <div id="content" class="wp-block-group narrowcolumn">
-  <?php single_cat_title(); ?>
   <!-- wp:list -->
   <ul class="wp-block-list events-list mb-[150px]">
     <?php
