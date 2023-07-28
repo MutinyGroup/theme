@@ -18,6 +18,8 @@
     echo '<br>';
     $title = $category[0]->slug;
     echo $title;
+    $term_name = get_term( $term_id )->name;
+    echo $term_nam;
   ?>
   <!-- /wp:paragraph -->
   <!-- wp:list -->
