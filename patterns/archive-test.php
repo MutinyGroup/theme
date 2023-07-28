@@ -34,6 +34,8 @@
     $wp->parse_request();
     $current_url = home_url($wp->request);
     echo $current_url;
+    echo '<br>';
+    echo $wp;
 
   ?>
   <!-- /wp:paragraph -->
