@@ -40,10 +40,11 @@
     echo 'path:';
     echo '<br>';
     echo (parse_url( $current_url ))->path;
+    echo (parse_url( $current_url )['path']);
     echo '<br>';
     echo substr($current_url, 36, 10);
     echo '<br>';
-    print_r($wp);
+    print_r($wp['matched_query']->category_name);
 
   ?>
   <!-- /wp:paragraph -->
