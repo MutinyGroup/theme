@@ -20,8 +20,8 @@
         <p>
         <!-- /wp:paragraph -->
         <?php
-        echo single_cat_title();
-        echo single_term_title();
+          echo single_cat_title();
+          echo single_term_title();
 
           single_cat_title();
           single_term_title();
@@ -29,6 +29,8 @@
           print_r(single_cat_title());
           print_r(single_term_title());
         ?>
+        <!-- wp:term-description {"align":"full"} /-->
+        <!-- wp:post-terms /-->
       </div>
       <!-- /wp:group -->
     <?php endwhile; 
