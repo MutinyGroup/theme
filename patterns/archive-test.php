@@ -34,8 +34,11 @@
     $wp->parse_request();
     $current_url = home_url($wp->request);
     echo $current_url;
-    echo '<br>';
-    echo $wp;
+    echo 'get_current <br>';
+    $currentUrl = getCurrentUrl();
+    echo $currentUrl;
+    echo 'global wp <br>';
+    echo $wp
 
   ?>
   <!-- /wp:paragraph -->
