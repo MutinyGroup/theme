@@ -18,7 +18,7 @@
     echo '<br>';
     $title = $category[0]->slug;
     echo $title;
-    $term_name = get_taxonomy();
+    $term_name = get_taxonomies();
     print_r($term_name);
   ?>
   <!-- /wp:paragraph -->
