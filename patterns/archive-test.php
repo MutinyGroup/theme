@@ -34,9 +34,12 @@
     $wp->parse_request();
     $current_url = home_url($wp->request);
     echo $current_url;
-    echo 'parse url: ' +  '<br>';
+    echo '<br>';
     print_r(parse_url( $current_url ));
     echo '<br>';
+    echo substr($current_url, 36, 10);
+    echo '<br>';
+
     echo 'global wp ' +  '<br>';
     print_r($wp);
 
