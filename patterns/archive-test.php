@@ -16,7 +16,7 @@
       $args = array(
         'posts_per_page' => 6,
         'order' => 'DESC',
-        'category' => single_cat_title( '', false ),
+        'category' => 'events',
       );
       $post_query = new WP_Query($args);
       if($post_query->have_posts() ) {
