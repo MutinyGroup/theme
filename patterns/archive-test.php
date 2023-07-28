@@ -42,7 +42,9 @@
     echo '<br>';
     echo substr($current_url, 36, 10);
     echo '<br>';
-    print_r($wp->matched_query->category_name);
+    print_r($wp);
+    echo '<br>';
+    print($wp);
 
   ?>
   <!-- /wp:paragraph -->
