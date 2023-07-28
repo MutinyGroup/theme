@@ -14,6 +14,7 @@
     $category = get_the_category();
     $link = get_category_link( $category[0]->term_id );
     echo $category;
+    print_r($category);
     echo '<br>';
     $title = $category[0]->slug;
     echo $title;
@@ -26,7 +27,7 @@
         'post_type' => 'realizacje',
         'posts_per_page' => 6,
         'order' => 'DESC',
-        'category_name' => echo $title;
+        'category_name' => ''
       );
       $post_query = new WP_Query($args);
       if($post_query->have_posts() ) {
