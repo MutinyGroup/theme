@@ -15,6 +15,7 @@
     <!-- wp:list -->
     <ul class="wp-block-list categories-all-1 mb-[108px] flex flex-wrap gap-[10px]">
       <?php
+        global $wp;
         $wp->parse_request();
         $current_url = home_url($wp->request);
         $currentCategory = substr(parse_url($current_url )['path'], 10, 30);
