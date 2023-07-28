@@ -26,6 +26,9 @@
     echo $desc;
     echo '<br>';
 
+    global $wp;
+    echo home_url( $wp->request );
+
   ?>
   <!-- /wp:paragraph -->
   <!-- wp:list -->
