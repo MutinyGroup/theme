@@ -41,7 +41,7 @@
     echo (parse_url( $current_url )['path']);
     echo '<br>';
     echo substr($current_url, 36, 10);
-    $currentCategory substr($current_url, 36, 10);
+    $currentCategory = substr($current_url, 36, 10);
   ?>
   <!-- /wp:paragraph -->
   <!-- wp:list -->
