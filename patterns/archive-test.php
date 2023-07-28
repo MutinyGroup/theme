@@ -17,7 +17,7 @@
         'post_type' => 'realizacje',
         'posts_per_page' => 6,
         'order' => 'DESC',
-        'category_name' => single_cat_title( '', false ),
+        'category_name' => single_term_title(),
       );
       $post_query = new WP_Query($args);
       if($post_query->have_posts() ) {
