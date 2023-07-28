@@ -36,11 +36,19 @@
           <p
             class=""
           >
-            Archiwum <br />
+            Archiwum realizacji z kategorii<br />
             
             <span
               class="relative desktop:inline-block block uppercase italic before:content-[''] before:inline-block desktop:before:mr-[8px] before:mr-[4px] before:bottom-0 before:left-0 desktop:before:w-[90px] before:w-[30px] desktop:before:h-[3px] before:h-[2px] before:bg-black"
-              >Realizacji<span class="desktop:text-[100px] text-[70px] leading-[1px] desktop:leading-auto">.</span></span
+              >
+              <?php
+                global $wp;
+                $wp->parse_request();
+                $current_url = home_url($wp->request);
+                $currentCategory = substr(parse_url($current_url )['path'], 10, 30);
+                echo $currentCategory;
+              ?>
+              <span class="desktop:text-[100px] text-[70px] leading-[1px] desktop:leading-auto">.</span></span
             >
           </p>
           <!-- /wp:paragraph -->
