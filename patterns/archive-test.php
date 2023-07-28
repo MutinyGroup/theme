@@ -30,6 +30,10 @@
     echo '<br>';
     echo get_category_link( get_query_var( 'cat' ) );
     echo '<br>';
+    // get current URL 
+    $current_url = get_permalink( get_the_ID() );
+    if( is_category() ) $current_url = get_category_link( get_query_var( 'cat' ) );
+    echo $current_url;
 
   ?>
   <!-- /wp:paragraph -->
