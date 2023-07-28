@@ -349,7 +349,7 @@ function custom_post_types(){
     'has_archive' => true,
     'rewrite' => array('slug' => 'realizacje'),
     'supports' => array('title', 'editor', 'excerpt','thumbnail'),
-		'taxonomies'  => array( 'eventy','category' )
+		'taxonomies'  => array('category')
   ));
   register_post_type('uslugi', array(
     'public' => true,
