@@ -43,8 +43,6 @@
     echo substr($current_url, 36, 10);
     echo '<br>';
     print_r($wp);
-    echo '<br>';
-    print($wp);
 
   ?>
   <!-- /wp:paragraph -->
