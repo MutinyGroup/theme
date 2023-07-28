@@ -20,6 +20,13 @@
     echo $title;
     $term_name = get_taxonomies();
     print_r($term_name);
+    echo '<br>';
+
+
+    $desc = term_description();
+    echo $desc;
+    echo '<br>';
+
   ?>
   <!-- /wp:paragraph -->
   <!-- wp:list -->
