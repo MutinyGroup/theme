@@ -37,10 +37,6 @@
     echo '<br>';
     print_r(parse_url( $current_url ));
     echo '<br>';
-    echo '->path:';
-    echo '<br>';
-    echo (parse_url( $current_url ))->path;
-    echo '<br>';
     echo '[path]';
     echo (parse_url( $current_url )['path']);
     echo '<br>';
