@@ -55,6 +55,11 @@
         $current_url = home_url($wp->request);
         $currentCategory = substr(parse_url($current_url )['path'], 10, 30);
         echo $currentCategory;
+
+        $current_url2 = $wp->query_vars;
+        echo 'global wp: '
+        print_r($current_url2[0]);
+
         $args = array(
         'post_type' => 'realizacje',
         'posts_per_page' => 10,
