@@ -7,7 +7,7 @@
  */
 ?>
 
-<!-- wp:grour -->
+<!-- wp:group -->
 <div id="content" class="wp-block-group narrowcolumn">
 
   <?php if (have_posts()) : ?>
@@ -23,6 +23,6 @@
       <!-- /wp:group -->
     <?php endwhile; 
   ?>
-  
+
 </div>
 <!-- /wp:group -->
