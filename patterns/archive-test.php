@@ -27,7 +27,8 @@
     echo '<br>';
 
     global $wp;
-    echo home_url( $wp->request );
+    $current_url = home_url(add_query_arg(array(), $wp->request));
+    echo $current_url;
 
   ?>
   <!-- /wp:paragraph -->
