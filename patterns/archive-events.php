@@ -59,6 +59,7 @@
         $wp->parse_request();
         $current_url = home_url($wp->request);
         $currentCategory = substr(parse_url($current_url )['path'], 10, 30);
+        echo 'form url: ';
         echo $currentCategory;
 
         $args = array(
