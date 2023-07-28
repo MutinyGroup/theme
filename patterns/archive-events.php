@@ -51,15 +51,20 @@
     <ul class="wp-block-list events-list mb-[150px]">
       <?php
         global $wp;
-        $currentCategory2 = $wp->query_vars;
-        echo 'global wp: ';
-        print_r($currentCategory2[0]);
+        $wp->parse_request();
+        $current_url = home_url($wp->request);
+        $currentCategory = substr(parse_url($current_url )['path'], 10, 30);
+        echo $currentCategory;
+
+        $current_url2 = $wp->query_vars;
+        echo 'global wp: '
+        print_r($current_url2[0]);
 
         $args = array(
-          'post_type' => 'realizacje',
-          'posts_per_page' => 10,
-          'order' => 'DESC',
-          'category_name' => $currentCategory2
+        'post_type' => 'realizacje',
+        'posts_per_page' => 10,
+        'order' => 'DESC',
+        'category_name' => $currentCategory
         );
         $post_query = new WP_Query($args);
 
