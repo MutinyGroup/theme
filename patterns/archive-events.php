@@ -53,12 +53,12 @@
         global $wp;
         $currentCategory2 = $wp->query_vars;
         echo 'global wp: ';
-        echo '<br>'
+        echo '<br>';
         
         $wp->parse_request();
         $current_url = home_url($wp->request);
         $currentCategory = substr(parse_url($current_url )['path'], 10, 30);
-        echo 'form url: ';
+        echo 'from url: ';
         echo $currentCategory;
 
         $args = array(
