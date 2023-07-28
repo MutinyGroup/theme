@@ -14,7 +14,7 @@
     $category = get_the_category();
     $link = get_category_link( $category[0]->term_id );
     echo $link;
-    $title = get_term();
+    $title = $category[0]->term_id;
     echo $title;
   ?>
   <!-- /wp:paragraph -->
