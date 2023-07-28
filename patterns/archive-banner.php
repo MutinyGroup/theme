@@ -26,7 +26,7 @@
         class="wp-block-group section-title grid desktop:basis-auto desktop:w-[145px] desktop:basis-[80%] uppercase text-primaryYellow"
         >
           <!-- wp:paragraph -->
-          <p class="justify-self-end pt-[3px] pr-[15px]">Realiacje</p>
+          <p class="justify-self-end pt-[3px] pr-[15px]">Archiwum</p>
           <!-- /wp:paragraph -->
         </div>  
         <!-- /wp:group -->
@@ -36,7 +36,7 @@
           <p
             class=""
           >
-            Archiwum realizacji z kategorii<br />
+            Realizacje z kategorii<br />
             
             <span
               class="relative desktop:inline-block block uppercase italic before:content-[''] before:inline-block desktop:before:mr-[8px] before:mr-[4px] before:bottom-0 before:left-0 desktop:before:w-[90px] before:w-[30px] desktop:before:h-[3px] before:h-[2px] before:bg-black"
