@@ -19,7 +19,7 @@
     $title = $category[0]->slug;
     echo $title;
     $term_name = get_term( $term_id )->name;
-    echo $term_nam;
+    echo $term_name;
 
     if ( is_category() ) {
 
