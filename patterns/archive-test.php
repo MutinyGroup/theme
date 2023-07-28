@@ -39,8 +39,6 @@
     echo '<br>';
     echo substr($current_url, 36, 10);
     echo '<br>';
-
-    echo 'global wp ' +  '<br>';
     print_r($wp);
 
   ?>
