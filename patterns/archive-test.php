@@ -9,6 +9,11 @@
 
 <!-- wp:group -->
 <div id="content" class="wp-block-group narrowcolumn">
+  <?php
+    $category = get_the_category();
+    $link = get_category_link( $category[0]->term_id );
+    echo $link;
+  ?>
   <!-- wp:list -->
   <ul class="wp-block-list events-list mb-[150px]">
     <?php
