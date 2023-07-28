@@ -1,14 +1,14 @@
 <?php
 /**
- * Title: category
- * Slug: category
+ * Title: archive-test
+ * Slug: archive-test
  * Categories: text, banner
  * Viewport Width: 1280
  */
 ?>
 
 <!-- wp:group -->
-<div class="wp-block-group category desktop:mb-[150px]">
+<div class="wp-block-group archive-test desktop:mb-[150px]">
   <!-- wp:group -->
   <div
     class="wp-block-group container relative mx-auto desktop:px-0 px-[20px]"
