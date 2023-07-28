@@ -22,6 +22,7 @@
       </div>
       <!-- /wp:group -->
     <?php endwhile; 
+  endif;
   ?>
 
 </div>
