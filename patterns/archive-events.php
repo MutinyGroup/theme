@@ -53,13 +53,19 @@
         global $wp;
         $currentCategory2 = $wp->query_vars;
         echo 'global wp: ';
-        print_r($currentCategory2['category_name']);
+        print_r($currentCategory2);
         
+        global $wp;
+        $wp->parse_request();
+        $current_url = home_url($wp->request);
+        $currentCategory = substr(parse_url($current_url )['path'], 10, 30);
+        echo $currentCategory;
+
         $args = array(
           'post_type' => 'realizacje',
           'posts_per_page' => 10,
           'order' => 'DESC',
-          'category_name' => $currentCategory2
+          'category_name' => $currentCategory
         );
         $post_query = new WP_Query($args);
 
