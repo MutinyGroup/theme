@@ -1,13 +1,13 @@
 <?php
 /**
- * Title: archive-test
- * Slug: archive-test
+ * Title: archive-events
+ * Slug: archive-events
  * Categories: text, banner
  * Viewport Width: 1280
  */
 ?>
 <!-- wp:group -->
-<div class="wp-block-group page-realizations-events my-[150px] overflow-hidden">
+<div class="wp-block-group archive-events my-[150px] overflow-hidden">
   <!-- wp:group -->
   <div
     class="wp-block-group container mx-auto relative desktop:px-0 px-[20px]"
