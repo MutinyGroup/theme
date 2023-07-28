@@ -9,6 +9,8 @@
 
 <!-- wp:group -->
 <div id="content" class="wp-block-group narrowcolumn">
+          <!-- wp:term-description {"align":"full"} /-->
+        <!-- wp:post-terms /-->
 
   <?php if (have_posts()) : ?>
     <?php while (have_posts()) : the_post(); ?>
