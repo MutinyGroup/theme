@@ -23,7 +23,6 @@
         while($post_query->have_posts() ) {
           $post_query->the_post();
           $postImageUrl = wp_get_attachment_image_src(get_post_thumbnail_id(),'portrait');
-          $counter++;
           if (true){ ?>
             <!-- wp:list-item -->
             <li class="event-tile group desktop:flex gap-[75px] mb-[50px]">
