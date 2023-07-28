@@ -6,7 +6,6 @@
  * Viewport Width: 1280
  */
 ?>
-
 <!-- wp:group -->
 <div class="wp-block-group archive-events my-[150px] overflow-hidden">
   <!-- wp:group -->
@@ -14,12 +13,13 @@
     class="wp-block-group container mx-auto relative desktop:px-0 px-[20px]"
   >
     <!-- wp:list -->
-    <ul class="wp-block-list categories-all mb-[108px] flex flex-wrap gap-[10px]">
+    <ul class="wp-block-list categories-all-1 mb-[108px] flex flex-wrap gap-[10px]">
       <?php
         $args = array(
-                    'taxonomy' => 'category',
-                    'orderby' => 'name',
-                );
+          'taxonomy' => 'category',
+          'orderby' => 'name',
+          'order'   => 'ASC'
+        );
         $cats = get_categories($args);
 
         foreach($cats as $cat) {
@@ -33,7 +33,7 @@
               class="w-fit h-[40px] px-[10px] bg-[#F2F2F2] border border-[#AAA] border-[2px] rounded-full uppercase text-[14px] font-semibold leading-[20px] flex justify-center items-center hover:bg-primaryYellow hover:border-primaryYellow transition ease-out duration-300 cursor-pointer"
             >
               <!-- wp:paragraph -->
-              <a href="<?php echo get_category_link( $cat->term_id ) ?>">
+              <a href="<?php echo get_category_link( $cat->term_id ) ?>" class="flex items-center w-full h-full">
                 <?php echo $cat->name; ?>
               </a>
               <!-- /wp:paragraph -->
@@ -46,25 +46,23 @@
       ?>
     </ul>
     <!-- /wp:list -->
-    
-                <!-- wp:paragraph -->
-                <p> test <?php echo single_term_title('',false); ?></p>
-                <!-- /wp:paragraph -->
-                <!-- wp:paragraph -->
-                <p> test <?php print_r(single_term_title('',false)); ?></p>
-                <!-- /wp:paragraph -->
-                
-                <!-- wp:paragraph -->
-                <p>test2 <?php echo single_cat_title('',false); ?></p> 
-                <!-- /wp:paragraph -->
 
     <!-- wp:list -->
     <ul class="wp-block-list events-list mb-[150px]">
       <?php
+        global $wp;
+        $wp->parse_request();
+        $current_url = home_url($wp->request);
+        $current_url2 = $wp->query_vars;
+        print_r($current_url2);
+        $currentCategory = substr(parse_url($current_url )['path'], 10, 30);
         $args = array(
-          'posts_per_page' => 10,
+        'post_type' => 'realizacje',
+        'posts_per_page' => 10,
+        'order' => 'DESC',
+        'category_name' => $currentCategory
         );
-        $post_query = new WP_Query($args); 
+        $post_query = new WP_Query($args);
 
         if($post_query->have_posts() ) {
           while($post_query->have_posts() ) {
@@ -184,7 +182,7 @@
               </li>
               <!-- /wp:list-item -->               
             <?php 
-            }
+            };
           };
         };
       ?>
@@ -225,4 +223,4 @@
   </div>
   <!-- /wp:group -->
 </div>
-<!-- /wp:group -->
+<!-- /wp:group -->    
