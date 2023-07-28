@@ -346,7 +346,7 @@ function custom_post_types(){
     ),
     'menu_icon' => 'dashicons-flag',
     'show_in_rest' => true,
-    'has_archive' => true,
+    'has_archive' => 'realizacje',
     'rewrite' => array('slug' => 'realizacje'),
     'supports' => array('title', 'editor', 'excerpt','thumbnail'),
 		'taxonomies'  => array('category')
@@ -362,7 +362,7 @@ function custom_post_types(){
     ),
     'menu_icon' => 'dashicons-flag',
     'show_in_rest' => true,
-    'has_archive' => 'category',
+    'has_archive' => true,
     'rewrite' => array('slug' => 'uslugi'),
     'supports' => array('title', 'editor', 'excerpt','thumbnail'),
 		'taxonomies'  => array( 'category' )
