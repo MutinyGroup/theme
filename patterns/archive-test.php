@@ -16,7 +16,7 @@
       $wp->parse_request();
       $current_url = home_url($wp->request);
       $current_url2 = $wp;
-      echo $current_url2;
+      print_r($current_url2);
       $currentCategory = substr(parse_url($current_url )['path'], 10, 30);
       $args = array(
       'post_type' => 'realizacje',
@@ -25,7 +25,7 @@
       'category_name' => $currentCategory
       );
       $post_query = new WP_Query($args);
-      
+
       if($post_query->have_posts() ) {
         while($post_query->have_posts() ) {
           $post_query->the_post();
