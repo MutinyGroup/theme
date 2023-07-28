@@ -56,10 +56,10 @@
         print_r($currentCategory2[0]);
 
         $args = array(
-        'post_type' => 'realizacje',
-        'posts_per_page' => 10,
-        'order' => 'DESC',
-        'category_name' => $currentCategory2
+          'post_type' => 'realizacje',
+          'posts_per_page' => 10,
+          'order' => 'DESC',
+          'category_name' => $currentCategory2
         );
         $post_query = new WP_Query($args);
 
