@@ -369,12 +369,3 @@ function custom_post_types(){
   ));
 };
 add_action('init', 'custom_post_types');
-function create_realizacje_taxonomies() 
-{
-	register_taxonomy('realizacje-category','realizacje',array(
-		'hierarchical' => true,
-		'label' => 'Category',
-		'query_var' => true,
-		'rewrite' => array( 'slug' => 'category' ),
-	));
-}
