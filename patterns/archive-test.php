@@ -14,6 +14,9 @@
     class="wp-block-group container relative mx-auto desktop:px-0 px-[20px]"
   >
   <p>test</p>
+  <h1 class="page-title"><?php
+    printf( __( 'Category Archives: %s', 'twentyten' ), '<span>' . single_cat_title( '', false ) . '</span>' );
+?></h1>
   <?php
    echo single_cat_title();
    echo single_term_title();
