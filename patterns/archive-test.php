@@ -37,6 +37,10 @@
     echo '<br>';
     print_r(parse_url( $current_url ));
     echo '<br>';
+    echo 'path';
+    echo '<br>';
+    echo $current_url->path;
+    echo '<br>';
     echo substr($current_url, 36, 10);
     echo '<br>';
     print_r($wp);
