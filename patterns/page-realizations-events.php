@@ -23,6 +23,13 @@
         );
         $cats = get_categories($args);
 
+        $terms = wp_get_post_terms( $post->ID, 'category');
+        echo '<ul>';
+        foreach ($terms as $term) {
+            echo '<li><a href="'.get_term_link($term->slug, 'category').'">'.$term->name.'</a></li>';
+        }
+        echo '</ul>';
+
         foreach($cats as $cat) {
         ?>
         <?php
