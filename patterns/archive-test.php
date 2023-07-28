@@ -9,7 +9,7 @@
 
 <!-- wp:group -->
 <div id="content" class="wp-block-group narrowcolumn">
-
+  <?php single_term_title(); ?>
   <!-- wp:list -->
   <ul class="wp-block-list events-list mb-[150px]">
     <?php
@@ -17,7 +17,7 @@
         'post_type' => 'realizacje',
         'posts_per_page' => 6,
         'order' => 'DESC',
-        'category_name' => single_term_title(),
+        'category_name' => '',
       );
       $post_query = new WP_Query($args);
       if($post_query->have_posts() ) {
