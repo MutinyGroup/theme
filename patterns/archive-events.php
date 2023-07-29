@@ -16,16 +16,16 @@
     <ul class="wp-block-list categories-all-1 mb-[108px] flex flex-wrap gap-[10px]">
       <?php
         global $wp;
+        $wp->parse_request();
         $currentCategoryQuery = $wp->public_query_vars;
         // $currentCategory = $currentCategoryQuery['category_name'];
 
-        echo ($currentCategoryQuery[27]);
+        echo ($currentCategoryQuery);
         echo '<br>';
         print_r($wp);
         echo '<br>';
         print_r($wp->public_query_vars);
         echo '<br>';
-        print_r($wp->request);
 
         $args = array(
           'taxonomy' => 'category',
