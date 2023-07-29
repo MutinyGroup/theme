@@ -30,7 +30,7 @@
         foreach($cats as $cat) {
         ?>
         <?php
-          $catNoSpaces = str_replace(' / ', '-', strtolower($cat->name)) ;
+          $catNoSpaces = str_replace(' ', '-', strtolower($cat->name)) ;
           if (($cat->name) == 'glowna'){
             echo '';
           }else{ ?>
