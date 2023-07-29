@@ -6,7 +6,6 @@
  * Viewport Width: 1280
  */
 ?>
-<p>single-uslugi</p>
 <!-- wp:group -->
 <div class="wp-block-group single-page-post mb-[150px] overflow-hidden">
   <!-- wp:group -->
