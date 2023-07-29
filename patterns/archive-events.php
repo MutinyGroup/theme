@@ -16,10 +16,7 @@
     <ul class="wp-block-list categories-all-1 mb-[108px] flex flex-wrap gap-[10px]">
       <?php
         global $wp;
-        $wp->parse_request();
-        $current_url = home_url($wp->request);
-        $currentCategory = substr(parse_url($current_url )['path'], 10, 30);
-
+        $currentCategory = ($wp->query_vars)['category_name'];
         $args = array(
           'taxonomy' => 'category',
           'orderby' => 'name',
@@ -57,17 +54,7 @@
     <ul class="wp-block-list events-list mb-[150px]">
       <?php
         global $wp;
-        $currentCategory2 = ($wp->query_vars)['category_name'];
-        echo 'global wp: ';
-        print_r($currentCategory2);
-        echo '<br>';
-        
-        $wp->parse_request();
-        $current_url = home_url($wp->request);
-        $currentCategory = substr(parse_url($current_url )['path'], 10, 30);
-        echo 'from url: ';
-        echo $currentCategory;
-
+        $currentCategory = ($wp->query_vars)['category_name'];
         $args = array(
           'post_type' => 'realizacje',
           'posts_per_page' => 10,
