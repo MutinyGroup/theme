@@ -19,7 +19,7 @@
         $currentCategoryQuery = $wp->public_query_vars;
         // $currentCategory = $currentCategoryQuery['category_name'];
 
-        print_r($currentCategoryQuery->category_name);
+        print_r($currentCategoryQuery[28]);
         echo '<br>';
         print_r($wp);
         echo '<br>';
