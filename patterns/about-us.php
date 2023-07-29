@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: about-us
- * Slug: about-us
+ * Slug: mutiny/about-us
  * Categories: text, banner
  * Viewport Width: 1280
  */
