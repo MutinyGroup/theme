@@ -16,7 +16,8 @@
     <ul class="wp-block-list categories-all-1 mb-[108px] flex flex-wrap gap-[10px]">
       <?php
         global $wp;
-        $currentCategory = ($wp->query_vars)['category_name'];
+        $currentCategory = strval(($wp->query_vars)['category_name']);
+        echo $currentCategory;
         $args = array(
           'taxonomy' => 'category',
           'orderby' => 'name',
