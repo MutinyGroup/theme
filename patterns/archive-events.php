@@ -22,12 +22,18 @@
         print_r($currentCategoryQuery);
         echo '<br>';
         print_r($wp);
+        echo '<br>';
+        print_r($wp->public_query_vars);
 
         $args = array(
           'taxonomy' => 'category',
           'orderby' => 'name',
           'order'   => 'ASC'
         );
+
+        $wp->parse_request();
+        $current_url = home_url($wp->request);
+        $currentCategory = substr(parse_url($current_url )['path'], 10, 30);
         $cats = get_categories($args);
 
         foreach($cats as $cat) {
