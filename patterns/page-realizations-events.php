@@ -26,7 +26,8 @@
         foreach($cats as $cat) {
         ?>
         <?php
-          if (($cat->name) == 'glowna'){
+          $catNoSpaces = str_replace(' ', '-', strtolower($cat->name)) ;
+          if (($cat->name) == 'glowna' || ($catNoSpaces) == 'bez-kategorii'){
             echo '';
           }else{ ?>
             <!-- wp:list-item -->
