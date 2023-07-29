@@ -31,7 +31,7 @@
         ?>
         <?php
           $catNoSpaces = str_replace(' ', '-', strtolower($cat->name)) ;
-          if (($cat->name) == 'glowna'){
+          if (($cat->name) == 'glowna' || ($cat->name) == 'bez-kategorii'){
             echo '';
           }else{ ?>
             <!-- wp:list-item -->
