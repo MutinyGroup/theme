@@ -59,7 +59,7 @@
         global $wp;
         $currentCategory2 = $wp->query_vars;
         echo 'global wp: ';
-        print_r($currentCategory2);
+        print_r($currentCategory2[0]);
         echo '<br>';
         
         $wp->parse_request();
