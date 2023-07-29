@@ -125,9 +125,9 @@
                         }else{ ?>
                           <!-- wp:list-item -->
                           <li class="w-fit p-[0px_8px] flex justify-center items-center bg-[#F2F2F2] leading-[20px] border border-[#D5D5D5] border-[2px] rounded-full uppercase text-[13px] font-semibold hover:bg-primaryYellow hover:border-primaryYellow transition ease-out duration-300 cursor-pointer">
-                            <p>
+                            <a href="<?php echo get_category_link( $cat->term_id ) ?>">
                               <?php echo $category->name ?>
-                            </p>
+                            </a>
                           </li>
                           <!-- /wp:list-item -->
                         <?php
