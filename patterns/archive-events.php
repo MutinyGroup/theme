@@ -18,7 +18,7 @@
         global $wp;
         $wp->parse_request();
         $current_url = home_url($wp->request);
-        $currentCategory = substr(substr(parse_url($current_url )['path'], 10, 30),0,-1);
+        $currentCategory = substr(parse_url($current_url )['path'], 10, 30);
         echo $currentCategory;
 
         $args = array(
@@ -36,7 +36,7 @@
           }else{ ?>
             <!-- wp:list-item -->
             <li
-              class="w-fit h-[40px] test px-[10px] bg-[#F2F2F2] border border-[#AAA] border-[2px] rounded-full uppercase text-[14px] font-semibold leading-[20px] flex justify-center items-center hover:bg-primaryYellow hover:border-primaryYellow transition ease-out duration-300 cursor-pointer <?php if ($cat->name == substr($currentCategory,0,-1)) echo 'ok';else echo 'nok2' ?>"
+              class="w-fit h-[40px] test px-[10px] bg-[#F2F2F2] border border-[#AAA] border-[2px] rounded-full uppercase text-[14px] font-semibold leading-[20px] flex justify-center items-center hover:bg-primaryYellow hover:border-primaryYellow transition ease-out duration-300 cursor-pointer <?php if ($cat->name == $currentCategory) echo 'ok';else echo 'nok1' ?>"
             >
               <!-- wp:paragraph -->
               <a href="<?php echo get_category_link( $cat->term_id ) ?>" class="flex items-center w-full h-full">
