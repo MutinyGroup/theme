@@ -17,9 +17,9 @@
       <?php
         global $wp;
         $currentCategoryQuery = $wp->query_vars;
-        $currentCategory = $currentCategoryQuery['category_name'];
+        // $currentCategory = $currentCategoryQuery['category_name'];
 
-        echo $currentCategory;
+        echo $currentCategoryQuery;
         $args = array(
           'taxonomy' => 'category',
           'orderby' => 'name',
