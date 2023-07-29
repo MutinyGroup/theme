@@ -15,31 +15,12 @@
 			"area": "header"
 		},
 		{
-			"name": "banner",
-			"title": "banner"
-		},
-		{
-			"name": "about-us",
-			"title": "about-us"
-		},
-		{
-			"name": "services",
-			"title": "services"
-		},
-		{
-			"name": "companies-coop",
-			"title": "companies-coop"
-		},
-		{
-			"name": "realizations",
-			"title": "realizations"
-		},
-		{
 			"name": "footer",
 			"title": "Footer",
 			"area": "footer"
 		}
 	],
+	"patterns": [ "paragraph-heading", "heading-with-two-font-sizes-and-separators" ],
 	"global": {
 		"presets": {
 			"color": [
