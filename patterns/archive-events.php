@@ -125,10 +125,10 @@
                           echo '';
                         }else{ ?>
                           <!-- wp:list-item -->
-                          <li class="w-fit p-[0px_8px] flex justify-center items-center bg-[#F2F2F2] leading-[20px] border border-[#D5D5D5] border-[2px] rounded-full uppercase text-[13px] font-semibold hover:bg-primaryYellow hover:border-primaryYellow transition ease-out duration-300 cursor-pointer">
-                            <a href="<?php echo get_category_link( $cat->term_id ) ?>">
+                          <li class="w-fit p-[0px_8px] flex justify-center items-center bg-[#F2F2F2] leading-[20px] border border-[#D5D5D5] border-[2px] rounded-full uppercase text-[13px] font-semibold hover:bg-primaryYellow hover:border-primaryYellow transition ease-out duration-300">
+                            <p>
                               <?php echo $category->name ?>
-                            </a>
+                            </p>
                           </li>
                           <!-- /wp:list-item -->
                         <?php
