@@ -57,9 +57,9 @@
     <ul class="wp-block-list events-list mb-[150px]">
       <?php
         global $wp;
-        $currentCategory2 = $wp->query_vars;
+        $currentCategory2 = ($wp->query_vars)['category_name'];
         echo 'global wp: ';
-        print_r($currentCategory2['category_name']);
+        print_r($currentCategory2);
         echo '<br>';
         
         $wp->parse_request();
