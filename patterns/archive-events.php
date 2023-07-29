@@ -40,6 +40,11 @@
               <!-- wp:paragraph -->
               <a href="<?php echo get_category_link( $cat->term_id ) ?>" class="flex items-center w-full h-full">
                 <?php echo $cat->name; ?>
+                <?php echo '<br>' ?>
+                <?php echo strtolower($cat->name); ?>
+                <?php echo '<br>' ?>
+                <?php echo $currentCategory; ?>
+                
               </a>
               <!-- /wp:paragraph -->
             </li>
