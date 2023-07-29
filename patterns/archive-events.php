@@ -26,9 +26,10 @@
         print_r($wp->public_query_vars);
         echo '<br>';
         print_r($wp->query_vars);
-        print_r(get_cat_name());
-        print_r(single_cat_title());
-        print_r(get_the_archive_title());
+        $getcatname = get_cat_name();
+        $singlecatname = single_cat_title();
+        $getarchivename = get_the_archive_title();
+        print_r($getcatname, $singlecatname, $getarchivename);
 
         $args = array(
           'taxonomy' => 'category',
