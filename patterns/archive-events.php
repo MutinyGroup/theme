@@ -17,10 +17,9 @@
       <?php
         global $wp;
         $wp->parse_request();
-        $currentCategoryQuery = $wp->public_query_vars;
-        // $currentCategory = $currentCategoryQuery['category_name'];
+        $currentCategory = ($wp->query_vars)['category_name'];
 
-        echo ($currentCategoryQuery);
+        echo ($currentCategory);
         echo '<br>';
         print_r($wp);
         echo '<br>';
@@ -33,10 +32,10 @@
           'order'   => 'ASC'
         );
 
-        $wp->parse_request();
-        $current_url = home_url($wp->request);
-        $currentCategory = substr(parse_url($current_url )['path'], 10, 30);
-        $cats = get_categories($args);
+        // $wp->parse_request();
+        // $current_url = home_url($wp->request);
+        // $currentCategory = substr(parse_url($current_url )['path'], 10, 30);
+        // $cats = get_categories($args);
 
         foreach($cats as $cat) {
         ?>
