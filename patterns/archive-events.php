@@ -18,14 +18,6 @@
         global $wp;
         $wp->parse_request();
         $currentCategory = ($wp->query_vars)['category_name'];
-
-        echo ($currentCategory);
-        echo '<br>';
-        print_r($wp);
-        echo '<br>';
-        print_r($wp->public_query_vars);
-        echo '<br>';
-
         $args = array(
           'taxonomy' => 'category',
           'orderby' => 'name',
