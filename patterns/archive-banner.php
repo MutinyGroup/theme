@@ -43,10 +43,7 @@
               >
               <?php
                 global $wp;
-                $wp->parse_request();
-                $current_url = home_url($wp->request);
-                $currentCategory = substr(parse_url($current_url )['path'], 10, 30);
-                echo $currentCategory;
+                $currentCategory = ($wp->query_vars)['category_name'];
               ?>
               <span class="desktop:text-[100px] text-[70px] leading-[1px] desktop:leading-auto">.</span></span
             >
