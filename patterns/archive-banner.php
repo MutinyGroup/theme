@@ -45,6 +45,7 @@
                 global $wp;
                 $wp->parse_request();
                 $currentCategory = ($wp->query_vars)['category_name'];
+                echo $currentCategory;
               ?>
               <span class="desktop:text-[100px] text-[70px] leading-[1px] desktop:leading-auto">.</span></span
             >
