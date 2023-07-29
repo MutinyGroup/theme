@@ -22,6 +22,7 @@
         print_r($currentCategoryQuery);
         echo '<br>';
         print_r($wp);
+
         $args = array(
           'taxonomy' => 'category',
           'orderby' => 'name',
@@ -59,7 +60,6 @@
     <ul class="wp-block-list events-list mb-[150px]">
       <?php
         // global $wp;
-        $currentCategory = ($wp->query_vars)['category_name'];
         $args = array(
           'post_type' => 'realizacje',
           'posts_per_page' => 10,
