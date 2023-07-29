@@ -19,7 +19,7 @@
         $currentCategoryQuery = $wp->query_vars;
         // $currentCategory = $currentCategoryQuery['category_name'];
 
-        echo $currentCategoryQuery;
+        print_r($currentCategoryQuery);
         $args = array(
           'taxonomy' => 'category',
           'orderby' => 'name',
