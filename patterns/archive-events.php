@@ -28,7 +28,7 @@
         ?>
         <?php
           $catNoSpaces = str_replace(' ', '-', strtolower($cat->name)) ;
-          if (($cat->name) == 'glowna' || ($cat->name) == 'bez-kategorii'){
+          if (($cat->name) == 'glowna' || ($catNoSpaces) == 'bez-kategorii'){
             echo '';
           }else{ ?>
             <!-- wp:list-item -->
