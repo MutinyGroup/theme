@@ -20,7 +20,6 @@
 			"area": "footer"
 		}
 	],
-	"patterns": [ "paragraph-heading", "heading-with-two-font-sizes-and-separators" ],
 	"global": {
 		"presets": {
 			"color": [
