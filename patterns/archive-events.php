@@ -16,7 +16,9 @@
     <ul class="wp-block-list categories-all-1 mb-[108px] flex flex-wrap gap-[10px]">
       <?php
         global $wp;
-        $currentCategory = strval(($wp->query_vars)['category_name']);
+        $currentCategoryQuery = $wp->query_vars;
+        $currentCategory = $currentCategoryQuery['category_name'];
+
         echo $currentCategory;
         $args = array(
           'taxonomy' => 'category',
@@ -54,7 +56,7 @@
     <!-- wp:list -->
     <ul class="wp-block-list events-list mb-[150px]">
       <?php
-        global $wp;
+        // global $wp;
         $currentCategory = ($wp->query_vars)['category_name'];
         $args = array(
           'post_type' => 'realizacje',
