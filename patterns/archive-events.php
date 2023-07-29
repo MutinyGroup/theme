@@ -21,7 +21,7 @@
 
         print_r($currentCategoryQuery);
         echo '<br>';
-        print_r($wp);
+        print_r($wp['category_name']);
 
         $args = array(
           'taxonomy' => 'category',
