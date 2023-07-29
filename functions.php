@@ -339,9 +339,9 @@ function custom_post_types(){
     'public' => true,
     'labels' => array(
       'name' => 'Realizacje',
-      'add_new_item' => 'Dodaj realizacje',
-      'edit_item' => 'Edytuj realizacje',
-      'all_items' => 'Wszystkie realizacjes',
+      'add_new_item' => 'Dodaj Realizacje',
+      'edit_item' => 'Edytuj Realizacje',
+      'all_items' => 'Wszystkie Realizacje',
       'singular_name' => 'Realizacje'
     ),
     'menu_icon' => 'dashicons-flag',
