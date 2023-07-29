@@ -19,11 +19,13 @@
         $currentCategoryQuery = $wp->public_query_vars;
         // $currentCategory = $currentCategoryQuery['category_name'];
 
-        print_r($currentCategoryQuery[28]);
+        echo ($currentCategoryQuery[27]);
         echo '<br>';
         print_r($wp);
         echo '<br>';
         print_r($wp->public_query_vars);
+        echo '<br>';
+        print_r($wp->query_vars);
 
         $args = array(
           'taxonomy' => 'category',
