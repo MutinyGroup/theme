@@ -5,10 +5,6 @@
  * Categories: text, banner
  * Viewport Width: 1280
  */
-
-global $wp;
-print_r($wp->request);
-
 ?>
 
 <!-- wp:group -->
@@ -51,7 +47,7 @@ print_r($wp->request);
                 // $currentCategory = str_replace('-',' ',($wp->query_vars)['category_name']);
                 // echo $currentCategory;
                 global $wp;
-                $current_url = home_url($wp->request);
+                $current_url = url($wp->request);
                 $currentCategory = substr(parse_url($current_url )['path'], 10, 30);
                 echo $currentCategoryl
               ?>
