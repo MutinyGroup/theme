@@ -5,6 +5,9 @@
  * Categories: text, banner
  * Viewport Width: 1280
  */
+
+global $wp;
+echo home_url( $wp->request )
 ?>
 
 <!-- wp:group -->
