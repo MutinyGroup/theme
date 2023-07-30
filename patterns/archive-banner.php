@@ -52,7 +52,7 @@ echo home_url( $wp->request )
                 global $wp;
                 $current_url = home_url($wp->request);
                 $currentCategory = parse_url($current_url)['path'];
-                echo $currentCategoryl
+                echo $currentCategory;
               ?>
               <span class="desktop:text-[100px] text-[70px] leading-[1px] desktop:leading-auto">.</span></span
             >
