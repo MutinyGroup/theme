@@ -7,7 +7,7 @@
  */
 
 global $wp;
-$wp->parse_request();
+// $wp->parse_request();
 ?>
 
 <!-- wp:group -->
