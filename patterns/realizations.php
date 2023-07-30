@@ -87,10 +87,10 @@
       <ul class="wp-block-list w-[100%] flex flex-wrap justify-between gap-x-[8px] gap-y-[30px]">
         <?php
           $args = array(
-              'post_type' => 'realizacje',
-              'posts_per_page' => 2,
-              'order' => 'DESC',
-              'category_name' => 'glowna'
+            'post_type' => 'realizacje',
+            'posts_per_page' => 2,
+            'order' => 'DESC',
+            'category_name' => 'glowna'
           );
           $post_query = new WP_Query($args);
 
