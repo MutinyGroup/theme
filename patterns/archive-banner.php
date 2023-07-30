@@ -7,9 +7,11 @@
  */
 
 global $wp;
-print_r($wp);
+$current_url = home_url($wp->request);
+print_r(($wp->private_query_vars)[7]);
 // $wp->parse_request();
 echo '<br>';
+echo $current_url;
 ?>
 
 <!-- wp:group -->
