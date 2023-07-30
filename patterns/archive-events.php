@@ -15,7 +15,7 @@
     <!-- wp:list -->
     <ul class="wp-block-list categories-all-1 mb-[108px] flex flex-wrap gap-[10px]">
       <?php
-        // global $wp;
+        global $wp;
         // $wp->parse_request();
         // $currentCategory = ($wp->query_vars)['category_name'];
         $args = array(

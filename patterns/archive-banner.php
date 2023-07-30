@@ -7,6 +7,7 @@
  */
 
 global $wp;
+print_r($wp);
 // $wp->parse_request();
 ?>
 
