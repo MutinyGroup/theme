@@ -7,11 +7,8 @@
  */
 
 global $wp;
-$current_url = home_url($wp->request);
-print_r(($wp->private_query_vars)[7]);
-// $wp->parse_request();
-echo '<br>';
-echo $current_url;
+print_r($wp->request);
+
 ?>
 
 <!-- wp:group -->
@@ -49,8 +46,14 @@ echo $current_url;
               class="relative desktop:inline-block block uppercase italic before:content-[''] before:inline-block desktop:before:mr-[8px] before:mr-[4px] before:bottom-0 before:left-0 desktop:before:w-[90px] before:w-[30px] desktop:before:h-[3px] before:h-[2px] before:bg-black"
               >
               <?php
+                // global $wp
+                // $wp->parse_request;
                 // $currentCategory = str_replace('-',' ',($wp->query_vars)['category_name']);
                 // echo $currentCategory;
+                global $wp;
+                $current_url = home_url($wp->request);
+                $currentCategory = substr(parse_url($current_url )['path'], 10, 30);
+                echo $currentCategoryl
               ?>
               <span class="desktop:text-[100px] text-[70px] leading-[1px] desktop:leading-auto">.</span></span
             >
