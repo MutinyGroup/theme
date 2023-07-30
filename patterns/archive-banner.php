@@ -7,10 +7,9 @@
  */
 
 global $wp;
-print_r($wp);
+print_r($wp->public_query_vars);
 // $wp->parse_request();
 echo '<br>';
-$test = getGlobalWPObject();
 ?>
 
 <!-- wp:group -->
