@@ -47,8 +47,8 @@
                 // $currentCategory = str_replace('-',' ',($wp->query_vars)['category_name']);
                 // echo $currentCategory;
                 global $wp;
-                $current_url = url($wp->request);
-                $currentCategory = substr(parse_url($current_url )['path'], 10, 30);
+                $current_url = home_url($wp->request);
+                $currentCategory = parse_url($current_url)['path'];
                 echo $currentCategoryl
               ?>
               <span class="desktop:text-[100px] text-[70px] leading-[1px] desktop:leading-auto">.</span></span
