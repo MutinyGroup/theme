@@ -17,16 +17,17 @@
     <ul class="wp-block-list categories-all-1 mb-[108px] flex flex-wrap gap-[10px]">
       <?php
         $args = array(
-                    'taxonomy' => 'category',
-                    'orderby' => 'name',
-                    'order'   => 'ASC'
-                );
+          'taxonomy' => 'category',
+          'orderby' => 'name',
+          'order'   => 'ASC'
+        );
         $cats = get_categories($args);
 
         foreach($cats as $cat) {
         ?>
         <?php
-          if (($cat->name) == 'glowna'){
+          $catNoSpaces = str_replace(' ', '-', strtolower($cat->name)) ;
+          if (($cat->name) == 'glowna' || ($catNoSpaces) == 'bez-kategorii'){
             echo '';
           }else{ ?>
             <!-- wp:list-item -->
@@ -34,7 +35,7 @@
               class="w-fit h-[40px] px-[10px] bg-[#F2F2F2] border border-[#AAA] border-[2px] rounded-full uppercase text-[14px] font-semibold leading-[20px] flex justify-center items-center hover:bg-primaryYellow hover:border-primaryYellow transition ease-out duration-300 cursor-pointer"
             >
               <!-- wp:paragraph -->
-              <a href="<?php echo get_category_link( $cat->term_id ) ?>">
+              <a href="<?php echo get_category_link( $cat->term_id ) ?>" class="flex items-center w-full h-full">
                 <?php echo $cat->name; ?>
               </a>
               <!-- /wp:paragraph -->
@@ -52,9 +53,9 @@
     <ul class="wp-block-list events-list mb-[150px]">
       <?php
         $args = array(
-            'post_type' => 'realizacje',
-            'posts_per_page' => 6,
-            'order' => 'DESC'
+          'post_type' => 'realizacje',
+          'posts_per_page' => 6,
+          'order' => 'DESC'
         );
         $post_query = new WP_Query($args);
         if($post_query->have_posts() ) {
@@ -107,7 +108,7 @@
                           echo '';
                         }else{ ?>
                           <!-- wp:list-item -->
-                          <li class="w-fit p-[0px_8px] flex justify-center items-center bg-[#F2F2F2] leading-[20px] border border-[#D5D5D5] border-[2px] rounded-full uppercase text-[13px] font-semibold hover:bg-primaryYellow hover:border-primaryYellow transition ease-out duration-300 cursor-pointer">
+                          <li class="w-fit p-[0px_8px] flex justify-center items-center bg-[#F2F2F2] leading-[20px] border border-[#D5D5D5] border-[2px] rounded-full uppercase text-[13px] font-semibold">
                             <p>
                               <?php echo $category->name ?>
                             </p>
