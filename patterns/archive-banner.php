@@ -9,6 +9,8 @@
 global $wp;
 print_r($wp);
 // $wp->parse_request();
+echo '<br>';
+$test = getGlobalWPObject();
 ?>
 
 <!-- wp:group -->
