@@ -369,3 +369,9 @@ function custom_post_types(){
   ));
 };
 add_action('init', 'custom_post_types');
+
+function getGlobalWPObject(){
+	global $wp;
+	$wpParsed = $wp->parse_request();
+	return $wpParsed;
+}
