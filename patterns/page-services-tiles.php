@@ -97,9 +97,9 @@
       <ul class="wp-block-list w-[100%] flex flex-wrap justify-between gap-x-[8px] gap-y-[30px]">
         <?php
           $args = array(
-            'post_type' => 'uslugi',
-            'posts_per_page' => 6,
-            'order' => 'ASC'
+              'post_type' => 'uslugi',
+              'posts_per_page' => 6,
+              'order' => 'ASC'
           );
           $post_query = new WP_Query($args);
 

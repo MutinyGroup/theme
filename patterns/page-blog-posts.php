@@ -29,9 +29,9 @@
       <ul class="wp-block-list flex flex-wrap justify-between wide:justify-center gap-x-[60px] wide:gap-x-[120px] gap-y-[150px]">
         <?php
           $args = array(
-            'post_type' => 'post',
-            'posts_per_page' => 6,
-            'order' => 'DESC'
+              'post_type' => 'post',
+              'posts_per_page' => 6,
+              'order' => 'DESC'
           );
           $post_query = new WP_Query($args);
           $counter = 0;

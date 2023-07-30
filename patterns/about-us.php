@@ -1,14 +1,14 @@
 <?php
 /**
  * Title: about-us
- * Slug: mutiny/about-us
+ * Slug: about-us
  * Categories: text, banner
  * Viewport Width: 1280
  */
 ?>
 
 <!-- wp:group -->
-<div class="wp-block-group o-nas pt-[100px] desktop:mb-[150px] mb-[200px]">
+<div id="about" class="wp-block-group o-nas pt-[100px] desktop:mb-[150px] mb-[200px]">
   <!-- wp:group -->
   <div class="wp-block-group relative desktop:px-0 px-[20px]">
     <!-- wp:group -->
