@@ -7,7 +7,7 @@
  */
 
 global $wp;
-echo (($wp->public_query_vars)[27]);
+print_r($wp);
 // $wp->parse_request();
 echo '<br>';
 ?>
