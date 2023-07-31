@@ -63,7 +63,7 @@
                 // $currentCategory = parse_url($current_url)['path'];
                 // echo $currentCategory;
 
-                $currentCategory = substr(home_url( add_query_arg( null, null )),36, 30);
+                $currentCategory = str_replace('/','',substr(home_url( add_query_arg( null, null )),36, 30));
                 echo $currentCategory;
 
                 // $current_url5 = substr((home_url($_SERVER['REQUEST_URI'])),36, 30);
