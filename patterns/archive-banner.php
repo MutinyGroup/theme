@@ -77,7 +77,10 @@ echo home_url( $wp->request )
                 $category_detail=get_the_category('6');//$post->ID
                 foreach($category_detail as $cd){
                 echo $cd->cat_name;
-                }
+                };
+
+              	$id = get_the_ID();
+                echo $id;
               ?>
               <span class="desktop:text-[100px] text-[70px] leading-[1px] desktop:leading-auto">.</span></span
             >
