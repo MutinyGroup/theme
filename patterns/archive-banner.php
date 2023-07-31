@@ -61,8 +61,7 @@ echo home_url( $wp->request )
                 echo '<br>';
                 echo 'homeurl z get: ' . '<br>';
                 echo $current_url;
-                echo '<br>';
-                echo '-----';
+                echo '-----' . '<br>';
                 global $wp;
                 $current_url2 = home_url( add_query_arg( array(), $wp->request ) );
                 $current_slug = add_query_arg( array(), $wp->request );
@@ -70,11 +69,11 @@ echo home_url( $wp->request )
                 $obj_id = get_queried_object_id();
                 $current_url3 = get_permalink( $obj_id );
                 $obj_id2 = get_queried_object_id();
-                $current_url4 = get_term_link( $obj_id2 );
+                $current_url4 = get_term_link();
                 echo '2:' . '<br>';
-                print_r($current_url2);
+                print_r($obj_id);
                 echo '3:' . '<br>';
-                print_r($current_url3);
+                print_r($obj_id2);
                 echo '4:' . '<br>';
                 print_r($current_url4);
                 echo 'slug:' . '<br>';
