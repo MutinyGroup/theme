@@ -95,6 +95,9 @@
                 global $wp;
                 $current_url7 = add_query_arg( $wp->query_string, '', home_url( $wp->request ) );
                 echo $current_url7;
+
+                print_r(get_queried_object()):
+                echo 'fadasdasdas';
                 
                 
               ?>
