@@ -65,7 +65,7 @@ echo home_url( $wp->request )
                 echo '<br>';
                 echo ($wp->query_vars)['category_name'];
                 echo 'permalink: ' . '<br>';
-                print_r(get_permalink(115));
+                print_r(get_permalink(6));
                 echo 'the_permalink: ' . '<br>';
                 echo (get_the_permalink());
                 echo 'the_permalink: ' . '<br>';
