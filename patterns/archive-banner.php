@@ -65,21 +65,6 @@
                 // $currentCategory = add_query_arg( $wp->query_string, '', home_url( $wp->request ) );
                 // $currentCategory = str_replace('/','',substr(home_url( add_query_arg( null, null )),36, 30));
                 echo $currentCategory;
-
-                echo '<br>';
-
-                // $obj = get_query_object();
-                // print_r($obj);
-                // print($obj);
-                // echo($obj);
-                // if($obj){
-                //   echo 'ok';
-                // }else{
-                //   echo 'nok';
-                // };
-                // echo '<br>';
-                print_r(get_the_archive_title());
-                print_r(post_type_archive_title());
               ?>
               <span class="desktop:text-[100px] text-[70px] leading-[1px] desktop:leading-auto">.</span></span
             >
