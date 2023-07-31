@@ -66,6 +66,15 @@
                 // $currentCategory = str_replace('/','',substr(home_url( add_query_arg( null, null )),36, 30));
                 echo $currentCategory;
                 print(single_cat_title());
+                $terms = get_the_terms( get_the_ID(), 'kategorie_dladomu' );
+                                        
+                if ( $terms && ! is_wp_error( $terms ) ) {
+                    echo '<ul>';
+                    foreach ( $terms as $term ) {
+                        echo '<li><a href="'. get_term_link($term) .'">'. $term->name .'</a></li>';
+                    }
+                    echo '<ul>';
+}
               ?>
               <span class="desktop:text-[100px] text-[70px] leading-[1px] desktop:leading-auto">.</span></span
             >
