@@ -61,26 +61,6 @@ echo home_url( $wp->request )
                 echo '<br>';
                 echo 'homeurl z get: ' . '<br>';
                 echo $current_url;
-                
-                echo '<br>';
-                echo 'home url wp request' . '<br>';
-                global $wp;
-                echo home_url($wp->request);
-                echo '<br>';
-                // echo ($wp->query_vars)['category_name'];
-                echo 'permalink: ' . '<br>';
-                print_r(get_permalink(6));
-                echo 'the_permalink: ' . '<br>';
-                echo (get_the_permalink());
-                echo 'the_permalink: ' . '<br>';
-                echo '<p>'. get_the_category( '6' )[0]->name .'</p>';
-                $category_detail=get_the_category('6');//$post->ID
-                foreach($category_detail as $cd){
-                echo $cd->cat_name;
-                };
-
-              	$id = get_the_ID();
-                echo $id;
               ?>
               <span class="desktop:text-[100px] text-[70px] leading-[1px] desktop:leading-auto">.</span></span
             >
