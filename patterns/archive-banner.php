@@ -68,7 +68,7 @@
 
                 echo '<br>';
 
-                $obj = get_query_var( 'archive');
+                $obj = get_query_var( 'category-eventy',1);
                 print_r($obj);
                 print($obj);
                 echo($obj);
