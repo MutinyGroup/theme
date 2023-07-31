@@ -68,6 +68,13 @@
 
                 $obj = get_queried_object();
                 print_r($obj);
+                print($obj);
+                echo($obj);
+                if($obj){
+                  echo 'ok';
+                }else{
+                  echo 'nok';
+                }
               ?>
               <span class="desktop:text-[100px] text-[70px] leading-[1px] desktop:leading-auto">.</span></span
             >
