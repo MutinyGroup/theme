@@ -65,16 +65,6 @@
                 // $currentCategory = add_query_arg( $wp->query_string, '', home_url( $wp->request ) );
                 // $currentCategory = str_replace('/','',substr(home_url( add_query_arg( null, null )),36, 30));
                 echo $currentCategory;
-
-                echo '<br>';
-                print_r(get_body_class());
-                echo '<br>';
-                if (body_class()){
-                  print_r(body_class());
-                }else{
-                  echo 'nok';
-                }
-                print_r(body_class('eventy'));
               ?>
               <span class="desktop:text-[100px] text-[70px] leading-[1px] desktop:leading-auto">.</span></span
             >
