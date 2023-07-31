@@ -66,10 +66,7 @@ echo home_url( $wp->request )
                 global $wp;
                 $current_url2 = home_url( add_query_arg( array(), $wp->request ) );
                 $current_slug = add_query_arg( array(), $wp->request );
-                function wp_get_current_url() {
-                  return home_url( $_SERVER[‘REQUEST_URI’] );
-                }
-                $test = wp_get_current_url();
+
                 $obj_id = get_queried_object_id();
                 $current_url3 = get_permalink( $obj_id );
                 $obj_id2 = get_queried_object_id();
