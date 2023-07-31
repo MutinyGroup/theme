@@ -60,12 +60,10 @@
                 // print_r($wp->parse_request());
                 // $current_url = home_url($wp->request);
                 // $currentCategory = parse_url($current_url)['path'];
-                // $current_url5 = substr((home_url($_SERVER['REQUEST_URI'])),36, 30);
-                // echo $current_url5;
-                // $current_url6 = "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
-                // echo $current_url6;
-                // $current_url7 = add_query_arg( $wp->query_string, '', home_url( $wp->request ) );
-                $currentCategory = str_replace('/','',substr(home_url( add_query_arg( null, null )),36, 30));
+                // $currentCategory = substr((home_url($_SERVER['REQUEST_URI'])),36, 30);
+                // $currentCategory = "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
+                $currentCategory = add_query_arg( $wp->query_string, '', home_url( $wp->request ) );
+                // $currentCategory = str_replace('/','',substr(home_url( add_query_arg( null, null )),36, 30));
                 echo $currentCategory;
               ?>
               <span class="desktop:text-[100px] text-[70px] leading-[1px] desktop:leading-auto">.</span></span
