@@ -66,8 +66,10 @@
                 // $currentCategory = str_replace('/','',substr(home_url( add_query_arg( null, null )),36, 30));
                 echo $currentCategory;
 
-                print_r(get_body_class());
-                print_r(body_class());
+                echo '<br>';
+                print_r(get_body_class('category'));
+                echo '<br>';
+                print_r(body_class('category'));
               ?>
               <span class="desktop:text-[100px] text-[70px] leading-[1px] desktop:leading-auto">.</span></span
             >
