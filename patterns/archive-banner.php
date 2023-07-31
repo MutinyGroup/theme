@@ -65,7 +65,7 @@ echo home_url( $wp->request )
                 echo '<br>';
                 echo ($wp->query_vars)['category_name'];
                 echo 'last: ' . '<br>';
-                echo get_category_link( get_query_var( 'cat' ) );
+                echo get_category_link( get_query_var( 'category' ) );
               ?>
               <span class="desktop:text-[100px] text-[70px] leading-[1px] desktop:leading-auto">.</span></span
             >
