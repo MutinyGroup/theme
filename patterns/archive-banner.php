@@ -57,7 +57,7 @@ echo home_url( $wp->request )
                 // echo $currentCategory;
                 echo '<br>';
                 global $wp;
-                $current_url = home_url(add_query_arg($_GET,$wp->request));
+                $current_url = add_query_arg($_GET,$wp->request);
                 echo '<br>';
                 echo 'homeurl z get: ' . '<br>';
                 echo $current_url;
