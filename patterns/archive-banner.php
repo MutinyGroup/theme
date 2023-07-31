@@ -74,7 +74,7 @@ echo home_url( $wp->request )
                 echo (get_the_permalink());
                 echo 'the_permalink: ' . '<br>';
                 echo '<p>'. get_the_category( 6 )[0]->name .'</p>';
-                $category_detail=get_the_category('4');//$post->ID
+                $category_detail=get_the_category('6');//$post->ID
                 foreach($category_detail as $cd){
                 echo $cd->cat_name;
                 }
