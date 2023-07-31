@@ -79,6 +79,7 @@
                 // };
                 // echo '<br>';
                 print_r(get_the_archive_title());
+                print_r(post_type_archive_title());
               ?>
               <span class="desktop:text-[100px] text-[70px] leading-[1px] desktop:leading-auto">.</span></span
             >
