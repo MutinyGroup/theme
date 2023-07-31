@@ -63,21 +63,21 @@
                 // $currentCategory = parse_url($current_url)['path'];
                 // echo $currentCategory;
 
-                // $current_url5 = home_url($_SERVER['REQUEST_URI']);
+                $current_url5 = home_url($_SERVER['REQUEST_URI']);
 
-                // echo home_url( add_query_arg( null, null ));
+                echo home_url( add_query_arg( null, null ));
 
-                // echo $current_url5;
+                echo $current_url5;
 
-                // $current_url6 = "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
-                // echo $current_url6;
+                $current_url6 = "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
+                echo $current_url6;
 
                 // WordPress Site
                 global $wp;
                 echo 'ulr7';
                 echo '<br>';
-                $currentCategory = add_query_arg( $wp->query_string, '', home_url( $wp->request ) );
-                echo $currentCategory;
+                $current_url7 = add_query_arg( $wp->query_string, '', home_url( $wp->request ) );
+                echo $current_url7;
                 echo 'get queried obj';
                 echo '<br>';
 
