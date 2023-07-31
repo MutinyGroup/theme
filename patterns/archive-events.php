@@ -58,7 +58,6 @@
     <!-- wp:list -->
     <ul class="wp-block-list events-list mb-[150px]">
       <?php
-        // global $wp;
         $args = array(
           'post_type' => 'realizacje',
           'posts_per_page' => 10,
