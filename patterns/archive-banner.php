@@ -66,7 +66,19 @@ echo home_url( $wp->request )
                 if ( $post ) {
                   $categories = get_the_category( $post->ID );
                   var_dump( $categories );
+                  print_r($categories);
                 };
+
+                /* FIRST
+ * Note: This function only returns results from the default “category” taxonomy. For custom taxonomies use get_the_terms().
+ */
+$categories = get_the_terms( $post->ID, 'taxonomy' );
+// now you can view your category in array:
+// using var_dump( $categories );
+// or you can take all with foreach:
+foreach( $categories as $category ) {
+    echo $category->term_id . ', ' . $category->slug . ', ' . $category->name . '<br />';
+}
               ?>
               <span class="desktop:text-[100px] text-[70px] leading-[1px] desktop:leading-auto">.</span></span
             >
