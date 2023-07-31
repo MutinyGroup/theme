@@ -56,7 +56,7 @@ echo home_url( $wp->request )
                 echo $currentCategory;
                 echo '<br>';
                 global $wp;
-                $current_url = home_url(add_query_arg(array(), $wp->request));
+                $current_url = home_url(add_query_arg($_GET,$wp->request));
                 echo $current_url;
               ?>
               <span class="desktop:text-[100px] text-[70px] leading-[1px] desktop:leading-auto">.</span></span
