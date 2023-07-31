@@ -67,6 +67,7 @@
                 echo $currentCategory;
 
                 print_r(get_body_class());
+                print_r(body_class());
               ?>
               <span class="desktop:text-[100px] text-[70px] leading-[1px] desktop:leading-auto">.</span></span
             >
