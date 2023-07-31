@@ -76,7 +76,10 @@
                   echo 'ok';
                 }else{
                   echo 'nok';
-                }
+                };
+                echo '<br>';
+                global $wp;
+                print_r(basename($wp->request));
               ?>
               <span class="desktop:text-[100px] text-[70px] leading-[1px] desktop:leading-auto">.</span></span
             >
