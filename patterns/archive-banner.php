@@ -50,7 +50,7 @@ echo home_url( $wp->request )
                 // $currentCategory = str_replace('-',' ',($wp->query_vars)['category_name']);
                 // echo $currentCategory;
                 global $wp;
-                print_r($wp->parse_request());
+                // print_r($wp->parse_request());
                 $current_url = home_url($wp->request);
                 $currentCategory = parse_url($current_url)['path'];
                 echo $currentCategory;
