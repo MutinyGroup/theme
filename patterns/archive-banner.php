@@ -62,6 +62,7 @@ echo home_url( $wp->request )
                 echo 'homeurl z get: ' . '<br>';
                 echo $current_url;
                 echo '<br>';
+                echo '<br>';
                 print_r(get_page());
               ?>
               <span class="desktop:text-[100px] text-[70px] leading-[1px] desktop:leading-auto">.</span></span
