@@ -32,13 +32,13 @@
         <!-- /wp:group -->
         
         <!-- wp:group -->
-        <div class="wp-block-group hidden">
-        <?php
-          global $wp;
-          $wp->parse_request();
-          $currentCategory = str_replace('-',' ',($wp->query_vars)['category_name']);
-          echo $currentCategory;
-        ?>
+        <div class="wp-block-group hidden test">
+          <?php
+            global $wp;
+            $wp->parse_request();
+            $currentCategory = str_replace('-',' ',($wp->query_vars)['category_name']);
+            echo $currentCategory;
+          ?>
         </div>
         <!-- /wp:group -->
        
