@@ -66,7 +66,8 @@ echo home_url( $wp->request )
                 echo ($wp->query_vars)['category_name'];
                 echo 'permalink: ' . '<br>';
                 print_r(get_permalink(115));
-                echo 'las2t: ' . '<br>';
+                echo 'the_permalink: ' . '<br>';
+                echo (get_the_permalink());
               ?>
               <span class="desktop:text-[100px] text-[70px] leading-[1px] desktop:leading-auto">.</span></span
             >
