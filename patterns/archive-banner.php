@@ -67,12 +67,12 @@
                 echo $currentCategory;
 
                 echo '<br>';
-                print_r(get_body_class('category'));
+                print_r(get_body_class());
                 echo '<br>';
-                if (body_class() == 'category-eventy'){
-                  echo 'eventy-ok';
+                if (body_class()){
+                  print_r(body_class());
                 }else{
-                  echo 'eventy-nok2';
+                  echo 'nok';
                 }
                 print_r(body_class('eventy'));
               ?>
