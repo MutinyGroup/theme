@@ -28,7 +28,7 @@
         // $current_url = home_url($wp->request);
         // $currentCategory = substr(parse_url($current_url )['path'], 10, 30);
         $cats = get_categories($args);
-        $currentCategory2 = str_replace('-','-',str_replace('/','',substr("http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]",35, 30)));
+        $currentCategory2 = str_replace('/','',substr("http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]",35, 30));
 
 
         foreach($cats as $cat) {
