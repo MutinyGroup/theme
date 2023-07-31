@@ -66,7 +66,7 @@
                 // $currentCategory = str_replace('/','',substr(home_url( add_query_arg( null, null )),36, 30));
                 echo $currentCategory;
               ?>
-              <span class="desktop:text-[100px] text-[70px] leading-[1px] desktop:leading-auto">.</span></span
+              <span class="desktop:text-[100px] test text-[70px] leading-[1px] desktop:leading-auto">.</span></span
             >
           </p>
           <!-- /wp:paragraph -->
