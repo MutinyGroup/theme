@@ -97,7 +97,7 @@
                 echo $current_url7;
 
                 print_r(get_queried_object()):
-                echo 'fadasdasdas';
+                echo '3232fadasdasdas';
                 
                 
               ?>
