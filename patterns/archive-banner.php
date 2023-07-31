@@ -62,7 +62,24 @@ echo home_url( $wp->request )
                 echo 'homeurl z get: ' . '<br>';
                 echo $current_url;
                 echo '<br>';
-                echo '<br>';
+                echo '-----';
+                global $wp;
+                $current_url2 = home_url( add_query_arg( array(), $wp->request ) );
+                $current_slug = add_query_arg( array(), $wp->request );
+                function wp_get_current_url() {
+                  return home_url( $_SERVER[‘REQUEST_URI’] );
+                }
+                $test = wp_get_current_url();
+                $obj_id = get_queried_object_id();
+                $current_url3 = get_permalink( $obj_id );
+                $obj_id2 = get_queried_object_id();
+                $current_url4 = get_term_link( $obj_id2 );
+                echo $current_url2;
+                echo $current_url3;
+                echo $current_url4;
+                echo $current_slug;
+                echo $test;
+
               ?>
               <span class="desktop:text-[100px] text-[70px] leading-[1px] desktop:leading-auto">.</span></span
             >
