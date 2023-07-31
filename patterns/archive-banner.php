@@ -69,15 +69,15 @@
                 echo '<br>';
 
                 // $obj = get_query_object();
-                print_r($obj);
-                print($obj);
-                echo($obj);
-                if($obj){
-                  echo 'ok';
-                }else{
-                  echo 'nok';
-                };
-                echo '<br>';
+                // print_r($obj);
+                // print($obj);
+                // echo($obj);
+                // if($obj){
+                //   echo 'ok';
+                // }else{
+                //   echo 'nok';
+                // };
+                // echo '<br>';
                 global $wp;
                 print_r(basename($wp->request));
               ?>
