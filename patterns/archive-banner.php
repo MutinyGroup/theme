@@ -68,6 +68,8 @@ echo home_url( $wp->request )
                 print_r(get_permalink(115));
                 echo 'the_permalink: ' . '<br>';
                 echo (get_the_permalink());
+                echo 'the_permalink: ' . '<br>';
+                print_r(get_the_ID());
               ?>
               <span class="desktop:text-[100px] text-[70px] leading-[1px] desktop:leading-auto">.</span></span
             >
