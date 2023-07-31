@@ -63,8 +63,8 @@
                 // $currentCategory = parse_url($current_url)['path'];
                 // echo $currentCategory;
 
-                $current_url4 home_url( add_query_arg( null, null ));
-                echo $current_url4;
+                $currentCategory = home_url( add_query_arg( null, null ));
+                echo $currentCategory;
 
                 $current_url5 = home_url($_SERVER['REQUEST_URI']);
                 echo $current_url5;
