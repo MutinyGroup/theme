@@ -64,8 +64,8 @@ echo home_url( $wp->request )
                 echo home_url($wp->request);
                 echo '<br>';
                 echo ($wp->query_vars)['category_name'];
-                echo 'last: ' . '<br>';
-                print_r(get_permalink( get_the_ID() ));
+                echo 'permalink: ' . '<br>';
+                print_r(get_permalink());
                 echo 'las2t: ' . '<br>';
                 print_r(($wp->public_query_vars())[27]);
               ?>
