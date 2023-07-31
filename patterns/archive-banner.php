@@ -54,14 +54,15 @@ echo home_url( $wp->request )
                 $current_url = home_url($wp->request);
                 // $currentCategory = parse_url($current_url)['path'];
                 echo 'home_url1: ' . '<br>';
-                echo $currentCategory;
+                // echo $currentCategory;
                 echo '<br>';
                 global $wp;
                 $current_url = home_url(add_query_arg($_GET,$wp->request));
+                echo '<br>';
                 echo 'homeurl z get: ' . '<br>';
-
                 echo $current_url;
                 
+                echo '<br>';
                 echo 'home url wp request' . '<br>';
                 global $wp;
                 echo home_url($wp->request);
