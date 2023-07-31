@@ -75,7 +75,7 @@
                 $current_url2 = home_url( add_query_arg( array(), $wp->request ) );
                 $current_slug = add_query_arg( array(), $wp->request );
 
-                $obj_id = get_post_type_archive_link();
+                $obj_id = get_post_type_archive_link('category');
                 $obj_id2 = get_queried_object_id();
                 $current_url5 = home_url($_SERVER['REQUEST_URI']);
                 echo '2:' . '<br>';
