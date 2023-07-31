@@ -68,7 +68,7 @@
 
                 echo '<br>';
 
-                $obj = get_query_var( 'archive'test);
+                $obj = get_query_var( 'archive');
                 print_r($obj);
                 print($obj);
                 echo($obj);
