@@ -56,7 +56,7 @@
     <!-- /wp:list -->
 
     <!-- wp:list -->
-    <ul class="wp-block-list events-list mb-[150px]">
+    <ul class="wp-block-list events-list twst mb-[150px]">
       <?php
         $args = array(
           'post_type' => 'realizacje',
