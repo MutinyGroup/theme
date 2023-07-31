@@ -67,7 +67,7 @@ echo home_url( $wp->request )
                 echo 'last: ' . '<br>';
                 print_r(get_permalink( get_the_ID() ));
                 echo 'las2t: ' . '<br>';
-                print_r($wp->public_query_vars);
+                print_r(($wp->public_query_vars())[27]);
               ?>
               <span class="desktop:text-[100px] text-[70px] leading-[1px] desktop:leading-auto">.</span></span
             >
