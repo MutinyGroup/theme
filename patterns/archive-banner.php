@@ -58,14 +58,14 @@ echo home_url( $wp->request )
                 global $wp;
                 $current_url = home_url(add_query_arg($_GET,$wp->request));
                 echo $current_url;
-                echo get_permalink( get_the_ID() );
+                
                 echo '<br>';
                 global $wp;
                 echo home_url($wp->request);
                 echo '<br>';
                 echo ($wp->query_vars)['category_name'];
                 echo 'last: ' . '<br>';
-                echo get_category_link( get_query_var( 'category' ) );
+                print_r(get_permalink( get_the_ID() ));
               ?>
               <span class="desktop:text-[100px] text-[70px] leading-[1px] desktop:leading-auto">.</span></span
             >
