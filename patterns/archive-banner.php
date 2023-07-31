@@ -68,7 +68,7 @@
 
                 echo '<br>';
 
-                $obj = get_query_object();
+                // $obj = get_query_object();
                 print_r($obj);
                 print($obj);
                 echo($obj);
