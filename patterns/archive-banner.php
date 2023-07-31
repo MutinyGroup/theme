@@ -73,6 +73,7 @@ echo home_url( $wp->request )
                 echo 'the_permalink: ' . '<br>';
                 echo (get_the_permalink());
                 echo 'the_permalink: ' . '<br>';
+                echo get_the_category(6);
               ?>
               <span class="desktop:text-[100px] text-[70px] leading-[1px] desktop:leading-auto">.</span></span
             >
