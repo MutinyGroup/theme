@@ -63,12 +63,12 @@
                 // $currentCategory = parse_url($current_url)['path'];
                 // echo $currentCategory;
                 echo '<br>';
-                $current_url5 = home_url($_SERVER['REQUEST_URI']);
+                // $current_url5 = home_url($_SERVER['REQUEST_URI']);
                 echo 'test' . '<br>';
-                echo home_url( add_query_arg( null, null ));
+                // echo home_url( add_query_arg( null, null ));
                 echo '<br>';
                 echo 'test2' . '<br>';
-                echo $current_url5;
+                // echo $current_url5;
                 echo '<br>';
                 // $current_url6 = "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
                 echo 'ulr6';
