@@ -82,6 +82,7 @@
                 echo '3:' . '<br>';
                 print_r($wp->request);
                 echo 'test' . '<br>';
+                echo home_url( add_query_arg( null, null ));
                 
               ?>
               <span class="desktop:text-[100px] text-[70px] leading-[1px] desktop:leading-auto">.</span></span
