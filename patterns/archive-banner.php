@@ -66,7 +66,7 @@
                 $currentCategory = home_url( add_query_arg( null, null ));
                 echo $currentCategory;
 
-                $current_url5 = home_url($_SERVER['REQUEST_URI']);
+                $current_url5 = subbstr((home_url($_SERVER['REQUEST_URI'])),36, 30);
                 echo $current_url5;
 
                 $current_url6 = "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
