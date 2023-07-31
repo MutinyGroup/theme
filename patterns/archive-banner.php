@@ -63,25 +63,25 @@
                 // $currentCategory = parse_url($current_url)['path'];
                 // echo $currentCategory;
 
-                $currentCategory = home_url( add_query_arg( null, null ));
+                $currentCategory = substr(home_url( add_query_arg( null, null )),36, 30);
                 echo $currentCategory;
 
-                $current_url5 = substr((home_url($_SERVER['REQUEST_URI'])),36, 30);
-                echo $current_url5;
+                // $current_url5 = substr((home_url($_SERVER['REQUEST_URI'])),36, 30);
+                // echo $current_url5;
 
-                $current_url6 = "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
-                echo $current_url6;
+                // $current_url6 = "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
+                // echo $current_url6;
 
-                // WordPress Site
-                global $wp;
-                echo 'ulr7';
-                echo '<br>';
-                $current_url7 = add_query_arg( $wp->query_string, '', home_url( $wp->request ) );
-                echo $current_url7;
-                echo 'get queried obj';
-                echo '<br>';
+                // // WordPress Site
+                // global $wp;
+                // echo 'ulr7';
+                // echo '<br>';
+                // $current_url7 = add_query_arg( $wp->query_string, '', home_url( $wp->request ) );
+                // echo $current_url7;
+                // echo 'get queried obj';
+                // echo '<br>';
 
-                echo '13232fadasdasdas';
+                // echo '13232fadasdasdas';
                 
                 
               ?>
