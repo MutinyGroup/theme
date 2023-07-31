@@ -85,7 +85,6 @@
                 echo 'get queried obj';
                 echo '<br>';
 
-                print_r(get_queried_object());
                 echo '13232fadasdasdas';
                 
                 
