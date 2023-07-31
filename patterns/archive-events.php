@@ -28,7 +28,7 @@
         // $current_url = home_url($wp->request);
         // $currentCategory = substr(parse_url($current_url )['path'], 10, 30);
         $cats = get_categories($args);
-        $currentCategory = str_replace('-','-',str_replace('/','',substr("http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]",35, 30)));
+        $currentCategory2 = str_replace('-','-',str_replace('/','',substr("http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]",35, 30)));
 
 
         foreach($cats as $cat) {
@@ -40,12 +40,13 @@
           }else{ ?>
             <!-- wp:list-item -->
             <li
-              class="w-fit h-[40px] test1 px-[10px] bg-[#F2F2F2] border border-[#AAA] border-[2px] rounded-full uppercase text-[14px] font-semibold leading-[20px] flex justify-center items-center hover:bg-primaryYellow hover:border-primaryYellow transition ease-out duration-300 cursor-pointer <?php if ($catNoSpaces == $currentCategory) echo 'bg-primaryYellow border-primaryYellow'; ?>"
+              class="w-fit h-[40px] test1 px-[10px] bg-[#F2F2F2] border border-[#AAA] border-[2px] rounded-full uppercase text-[14px] font-semibold leading-[20px] flex justify-center items-center hover:bg-primaryYellow hover:border-primaryYellow transition ease-out duration-300 cursor-pointer <?php if ($catNoSpaces == $currentCategory2) echo 'bg-primaryYellow border-primaryYellow'; ?>"
             >
               <!-- wp:paragraph -->
               <a href="<?php echo get_category_link( $cat->term_id ) ?>" class="flex items-center w-full h-full">
                 <?php echo $cat->name; ?>
-                <?php echo $currentCategory; ?>
+                <?php echo $catNoSpaces; ?>
+                <?php echo $currentCategory2; ?>
               </a>
               <!-- /wp:paragraph -->
             </li>
