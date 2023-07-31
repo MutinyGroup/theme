@@ -78,8 +78,7 @@
                 //   echo 'nok';
                 // };
                 // echo '<br>';
-                global $wp;
-                print_r(basename($wp->request));
+                print_r(get_the_archive_title());
               ?>
               <span class="desktop:text-[100px] text-[70px] leading-[1px] desktop:leading-auto">.</span></span
             >
