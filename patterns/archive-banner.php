@@ -69,7 +69,7 @@
                 echo '<br>';
                 print_r(get_body_class('category'));
                 echo '<br>';
-                print_r(body_class('category'));
+                print_r(body_class('eventy'));
               ?>
               <span class="desktop:text-[100px] text-[70px] leading-[1px] desktop:leading-auto">.</span></span
             >
