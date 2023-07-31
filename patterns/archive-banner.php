@@ -86,6 +86,16 @@
                 echo home_url( add_query_arg( null, null ));
                 echo 'test2' . '<br>';
                 echo $current_url5;
+                echo 'test3' . '<br>';
+                // Non WordPress
+                $current_url6 = "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
+                echo $current_url6;
+
+                // WordPress Site
+                global $wp;
+                $current_url7 = add_query_arg( $wp->query_string, '', home_url( $wp->request ) );
+                echo $current_url7;
+                
                 
               ?>
               <span class="desktop:text-[100px] text-[70px] leading-[1px] desktop:leading-auto">.</span></span
