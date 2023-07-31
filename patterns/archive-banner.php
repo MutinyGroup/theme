@@ -77,12 +77,15 @@
 
                 $obj_id = get_post_type_archive_link();
                 $obj_id2 = get_queried_object_id();
+                $current_url5 = home_url($_SERVER['REQUEST_URI']);
                 echo '2:' . '<br>';
                 print_r($obj_id);
                 echo '3:' . '<br>';
                 print_r($wp->request);
                 echo 'test' . '<br>';
                 echo home_url( add_query_arg( null, null ));
+                echo 'test2' . '<br>';
+                echo $current_url5;
                 
               ?>
               <span class="desktop:text-[100px] text-[70px] leading-[1px] desktop:leading-auto">.</span></span
