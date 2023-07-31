@@ -61,6 +61,12 @@ echo home_url( $wp->request )
                 echo '<br>';
                 echo 'homeurl z get: ' . '<br>';
                 echo $current_url;
+
+                $post = get_post();
+                if ( $post ) {
+                  $categories = get_the_category( $post->ID );
+                  var_dump( $categories );
+                };
               ?>
               <span class="desktop:text-[100px] text-[70px] leading-[1px] desktop:leading-auto">.</span></span
             >
