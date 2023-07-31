@@ -52,18 +52,21 @@ echo home_url( $wp->request )
                 global $wp;
                 // print_r($wp->parse_request());
                 $current_url = home_url($wp->request);
-                $currentCategory = parse_url($current_url)['path'];
+                // $currentCategory = parse_url($current_url)['path'];
+                echo 'home_url1: ' . '<br>';
                 echo $currentCategory;
                 echo '<br>';
                 global $wp;
                 $current_url = home_url(add_query_arg($_GET,$wp->request));
+                echo 'homeurl z get: ' . '<br>';
+
                 echo $current_url;
                 
-                echo '<br>';
+                echo 'home url wp request' . '<br>';
                 global $wp;
                 echo home_url($wp->request);
                 echo '<br>';
-                echo ($wp->query_vars)['category_name'];
+                // echo ($wp->query_vars)['category_name'];
                 echo 'permalink: ' . '<br>';
                 print_r(get_permalink(6));
                 echo 'the_permalink: ' . '<br>';
