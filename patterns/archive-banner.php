@@ -69,10 +69,10 @@
                 echo '<br>';
                 print_r(get_body_class('category'));
                 echo '<br>';
-                if (body_class('category-eventy')){
+                if (body_class() == 'category-eventy'){
                   echo 'eventy-ok';
                 }else{
-                  echo 'eventy-nok';
+                  echo 'eventy-nok2';
                 }
                 print_r(body_class('eventy'));
               ?>
