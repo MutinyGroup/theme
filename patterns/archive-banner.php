@@ -71,7 +71,7 @@ echo home_url( $wp->request )
                 echo '2:' . '<br>';
                 print_r($obj_id);
                 echo '3:' . '<br>';
-                print_r($obj_id2);
+                print_r($wp->request);
 
               ?>
               <span class="desktop:text-[100px] text-[70px] leading-[1px] desktop:leading-auto">.</span></span
