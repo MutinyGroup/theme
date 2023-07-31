@@ -61,7 +61,9 @@ echo home_url( $wp->request )
                 echo get_permalink( get_the_ID() );
                 echo '<br>';
                 global $wp;
-                echo home_url($wp->request)
+                echo home_url($wp->request);
+                echo '<br>';
+                echo ($wp->query_vars)['category_name'];
               ?>
               <span class="desktop:text-[100px] text-[70px] leading-[1px] desktop:leading-auto">.</span></span
             >
