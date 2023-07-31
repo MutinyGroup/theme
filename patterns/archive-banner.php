@@ -46,10 +46,11 @@ echo home_url( $wp->request )
               >
               <?php
                 // global $wp
-                $wp->parse_request;
+                // $wp->parse_request;
                 // $currentCategory = str_replace('-',' ',($wp->query_vars)['category_name']);
                 // echo $currentCategory;
                 global $wp;
+                $wp->parse_request;
                 $current_url = home_url($wp->request);
                 $currentCategory = parse_url($current_url)['path'];
                 echo $currentCategory;
