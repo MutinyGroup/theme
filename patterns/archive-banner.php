@@ -69,6 +69,11 @@
                 echo '<br>';
                 print_r(get_body_class('category'));
                 echo '<br>';
+                if (body_class('category-eventy')){
+                  echo 'eventy-ok';
+                }else{
+                  echo 'eventy-nok';
+                }
                 print_r(body_class('eventy'));
               ?>
               <span class="desktop:text-[100px] text-[70px] leading-[1px] desktop:leading-auto">.</span></span
