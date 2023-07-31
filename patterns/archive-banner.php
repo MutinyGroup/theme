@@ -34,10 +34,10 @@
         <!-- wp:group -->
         <div class="wp-block-group hidden test">
           <?php
-            global $wp;
-            $wp->parse_request();
-            $currentCategory = str_replace('-',' ',($wp->query_vars)['category_name']);
-            echo $currentCategory;
+            // global $wp;
+            // $wp->parse_request();
+            // $currentCategory = str_replace('-',' ',($wp->query_vars)['category_name']);
+            // echo $currentCategory;
           ?>
         </div>
         <!-- /wp:group -->
@@ -75,7 +75,7 @@
                 $current_url2 = home_url( add_query_arg( array(), $wp->request ) );
                 $current_slug = add_query_arg( array(), $wp->request );
 
-                $obj_id = get_queried_object_id();
+                $obj_id = get_post_type_archive_link();
                 $obj_id2 = get_queried_object_id();
                 echo '2:' . '<br>';
                 print_r($obj_id);
