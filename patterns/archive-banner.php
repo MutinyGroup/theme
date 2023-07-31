@@ -68,7 +68,7 @@
 
                 echo '<br>';
 
-                $obj = get_query_var( 'category-eventy',1);
+                $obj = get_query_object();
                 print_r($obj);
                 print($obj);
                 echo($obj);
