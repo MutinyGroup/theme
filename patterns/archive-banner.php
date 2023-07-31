@@ -65,6 +65,9 @@
                 // $currentCategory = add_query_arg( $wp->query_string, '', home_url( $wp->request ) );
                 // $currentCategory = str_replace('/','',substr(home_url( add_query_arg( null, null )),36, 30));
                 echo $currentCategory;
+
+                $obj = get_queried_object();
+                print_r($obj);
               ?>
               <span class="desktop:text-[100px] text-[70px] leading-[1px] desktop:leading-auto">.</span></span
             >
