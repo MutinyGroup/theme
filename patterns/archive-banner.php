@@ -46,7 +46,7 @@ echo home_url( $wp->request )
               >
               <?php
                 global $wp;
-                $wp->parse_request;
+                $wp->parse_request();
                 $currentCategory = str_replace('-',' ',($wp->query_vars)['category_name']);
                 echo $currentCategory;
                 // global $wp;
