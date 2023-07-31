@@ -56,7 +56,7 @@
     <!-- /wp:list -->
 
     <!-- wp:list -->
-    <ul class="wp-block-list events-list twst mb-[150px]">
+    <ul class="wp-block-list events-list mb-[150px]">
       <?php
         $args = array(
           'post_type' => 'realizacje',
@@ -70,16 +70,6 @@
           while($post_query->have_posts() ) {
             $post_query->the_post();
             $postImageUrl = wp_get_attachment_image_src(get_post_thumbnail_id(),'portrait');
-
-            $terms = get_the_terms( get_the_ID(), 'kategorie_dladomu' );
-                                        
-            if ( $terms && ! is_wp_error( $terms ) ) {
-                echo '<ul>';
-                foreach ( $terms as $term ) {
-                    echo '<li><a href="'. get_term_link($term) .'">'. $term->name .'</a></li>';
-                }
-                echo '<ul>';
-              }
             if (true){ ?>
               <!-- wp:list-item -->
               <li class="event-tile group desktop:flex gap-[75px] mb-[50px]">
