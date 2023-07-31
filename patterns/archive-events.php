@@ -70,6 +70,13 @@
           while($post_query->have_posts() ) {
             $post_query->the_post();
             $postImageUrl = wp_get_attachment_image_src(get_post_thumbnail_id(),'portrait');
+            $obj_id = get_queried_object_id();
+            $obj_id2 = get_queried_object_id();
+            echo '2:' . '<br>';
+            print_r($obj_id);
+            echo '3:' . '<br>';
+            print_r($wp->request);
+            echo 'test' . '<br>';
             if (true){ ?>
               <!-- wp:list-item -->
               <li class="event-tile group desktop:flex gap-[75px] mb-[50px]">
