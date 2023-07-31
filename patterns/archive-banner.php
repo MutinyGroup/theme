@@ -61,7 +61,7 @@
                 // $current_url = home_url($wp->request);
                 // $currentCategory = parse_url($current_url)['path'];
                 // $currentCategory = substr((home_url($_SERVER['REQUEST_URI'])),36, 30);
-                $currentCategory = str_replace('/','',substr("http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]",35, 30));
+                $currentCategory = str_replace('-',' ',str_replace('/','',substr("http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]",35, 30)));
                 // $currentCategory = add_query_arg( $wp->query_string, '', home_url( $wp->request ) );
                 // $currentCategory = str_replace('/','',substr(home_url( add_query_arg( null, null )),36, 30));
                 echo $currentCategory;
