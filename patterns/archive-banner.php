@@ -74,11 +74,11 @@ echo home_url( $wp->request )
                 $current_url3 = get_permalink( $obj_id );
                 $obj_id2 = get_queried_object_id();
                 $current_url4 = get_term_link( $obj_id2 );
-                echo $current_url2;
-                echo $current_url3;
-                echo $current_url4;
-                echo $current_slug;
-                echo $test;
+                print_r($current_url2);
+                print_r($current_url3);
+                print_r($current_url4);
+                print_r($current_slug);
+                print_r($test);
 
               ?>
               <span class="desktop:text-[100px] text-[70px] leading-[1px] desktop:leading-auto">.</span></span
