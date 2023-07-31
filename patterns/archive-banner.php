@@ -77,7 +77,7 @@
                 echo 'ulr7';
                 echo '<br>';
                 $currentCategory = add_query_arg( $wp->query_string, '', home_url( $wp->request ) );
-                echo $current_url7;
+                // echo $current_url7;
                 echo 'get queried obj';
                 echo '<br>';
 
