@@ -66,7 +66,7 @@
                 // $currentCategory = str_replace('/','',substr(home_url( add_query_arg( null, null )),36, 30));
                 echo $currentCategory;
 
-                $obj = get_queried_object();
+                $obj = get_query_var( 'archive', 1 );
                 print_r($obj);
                 print($obj);
                 echo($obj);
