@@ -29,6 +29,8 @@
           $catNoSpaces = str_replace(' ', '-', strtolower($cat->name)) ;
           if (($cat->name) == 'glowna' || ($catNoSpaces) == 'bez-kategorii'){
             echo '';
+          }elseif(is_page('realizations')){ 
+            echo 'wszystkie';
           }else{ ?>
             <!-- wp:list-item -->
             <li
