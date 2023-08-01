@@ -232,7 +232,7 @@
                   <!-- /wp:group -->
 
                   <!-- wp:paragraph -->
-                  <p class="target-num mb-[0px] desktop:mb-[30px] text-[60px] font-medium text-primaryYellow leading-[65px]">03</p>
+                  <p class="target-num mb-[0px] desktop:mb-[30px] text-[60px] font-medium text-primaryYellow leading-[65px]">02</p>
                   <!-- /wp:paragraph -->
                 </div>
                 <!-- /wp:group -->
