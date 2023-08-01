@@ -185,11 +185,10 @@
               <!-- /wp:group -->
             </div>
             <!-- /wp:group -->
-
             <!-- wp:group -->
-            <div class="wp-block-group swiper-slide swiper-slide-marketing relative p-[25px] desktop:max-w-[716px] max-w-[310px] h-[450px] mr-[8px] flex gap-[43px]">
+            <div class="wp-block-group swiper-slide swiper-slide-marketing relative desktop:p-[25px] desktop:max-w-[716px] max-w-[310px] desktop:h-[450px] h-fit mr-[8px] desktop:flex gap-[43px]">
               <!-- wp:group -->
-              <div class="wp-block-group w-[50%] h-full rounded-[20px] overflow-hidden">
+              <div class="wp-block-group desktop:w-[50%] h-full rounded-[20px] overflow-hidden">
                 <!-- wp:image -->
                 <figure class="wp-block-image img-clip-path-marketing">
                   <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-marketing/swiper/swiper2-2.jpg" alt="marketing-backgroun-image">
@@ -201,10 +200,10 @@
               <!-- wp:group -->
               <div class="wp-block-group text-wrapper desktop:w-[50%] desktop:pr-[40px] items-center">
                 <!-- wp:paragraph -->
-                <p class="index pb-[0px] desktop:pb-[30px] text-[60px] font-medium text-primaryYellow leading-[65px]">02</p>
+                <p class="index mb-[0px] desktop:mb-[30px] text-[60px] font-medium text-primaryYellow leading-[65px]">02</p>
                 <!-- /wp:paragraph -->
                 <!-- wp:paragraph -->
-                <p class="mb-[30px] text-[20px] font-medium">Lorem ipsum dolor sit amet</p>
+                <p class="pb-[30px] text-[20px] font-medium">Lorem ipsum dolor sit amet</p>
                 <!-- /wp:paragraph -->
                 <!-- wp:paragraph -->
                 <p class="leading-[21px] invisible desktop:visible">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
@@ -213,9 +212,6 @@
               <!-- /wp:group -->
             </div>
             <!-- /wp:group -->
-
-
-
           </div>
           <!-- /wp:group -->
         </div>
