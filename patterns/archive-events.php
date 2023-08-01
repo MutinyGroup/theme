@@ -14,6 +14,17 @@
   >
     <!-- wp:list -->
     <ul class="wp-block-list categories-all-1 mb-[108px] flex flex-wrap gap-[10px]">
+      <!-- wp:list-item -->
+      <li
+        class="w-fit test1 h-[40px] px-[10px] bg-[#F2F2F2] border border-[#AAA] border-[2px] rounded-full uppercase text-[14px] font-semibold leading-[20px] flex justify-center items-center transition ease-out duration-300 cursor-pointer"
+      >
+        <!-- wp:paragraph -->
+        <a href="<?php echo get_home_url() . '/realizations'; ?>" class="flex items-center w-full h-full">
+          Wszystkie kategorie
+        </a>
+        <!-- /wp:paragraph -->
+      </li>
+      <!-- /wp:list-item -->       
       <?php
         // global $wp;
         // $wp->parse_request();
