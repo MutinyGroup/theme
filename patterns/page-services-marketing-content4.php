@@ -173,7 +173,7 @@
               <!-- wp:group -->
               <div class="wp-block-group text-wrapper desktop:my-auto desktop:w-[50%] desktop:pr-[40px] items-center">
                 <!-- wp:group -->
-                <div class="wp-block-group counter-index-wrapper min-w-[95px] inline relative">
+                <div class="wp-block-group counter-index-wrapper min-w-[95px] inline desktop:block relative">
                   <!-- wp:group -->
                   <div class="wp-block-group circle-counter-index z-[-1] w-[80px] h-[80px] absolute desktop:top-[-50px] top-[-50px] desktop:left-[30px] right-[30px]">
                     <!-- wp:paragraph -->
@@ -185,7 +185,7 @@
                   <!-- /wp:group -->
 
                   <!-- wp:paragraph -->
-                  <p class="target-num mb-[0px] desktop:mb-[30px] text-[60px] font-medium text-primaryYellow leading-[65px]">01</p>
+                  <p class="target-num mb-[0px] desktop:mb-[30px] text-[60px] font-medium text-primaryYellow leading-[65px] inline desktop:block">01</p>
                   <!-- /wp:paragraph -->
                 </div>
                 <!-- /wp:group -->
