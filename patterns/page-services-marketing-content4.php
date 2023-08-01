@@ -133,21 +133,9 @@
         <!-- wp:group -->
         <div id="marketing2" class="wp-block-group swiper swiperMarketing2 relative desktop:pt-[60px] absolute top-0 desktop:left-[150px] left-[20px]">
           <!-- wp:group -->
-          <div id="marketing2-prev" class="wp-block-group hidden group swiper-button-prev w-[56px] h-[56px] absolute top-[50%] desktop:right-[50px] translate-y-[50%]">
-            <!-- wp:paragraph -->
-            <svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 56 56" fill="none" class="rotate-180 group fill-transparent group-hover:fill-[#FEC400]">
-              <rect x="1.5" y="1.5" width="53" height="53" rx="26.5" stroke="#AAAAAA" stroke-width="3" class="group-hover:stroke-primaryYellow transition-stroke ease-out duration-500"/>
-              <path d="M28 35L35 28.0189L28.0379 21" stroke="black" stroke-width="1.5" class="group-hover:stroke-black transition-stroke ease-out duration-500"/>
-              <path d="M20 28L31 28" stroke="black" stroke-width="1.5" class="group-hover:stroke-black transition-stroke ease-out duration-500"/>
-            </svg>
-            <!-- /wp:paragraph -->
-          </div>
-          <!-- /wp:group -->
-
-          <!-- wp:group -->
           <div id="marketing2-prev" class="wp-block-group group swiper-button-prev w-[56px] h-[56px] absolute top-[50%] desktop:right-[100px] translate-y-[50%]">
             <!-- wp:paragraph -->
-            <svg class="rotate-180" xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 56 56" fill="none" class="group fill-primaryYellow">
+            <svg class="rotate-180" xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 56 56" fill="#FEC400" class="group fill-primaryYellow">
               <rect x="1.5" y="1.5" width="53" height="53" rx="26.5" stroke="#FEC400" stroke-width="3" class="group-hover:stroke-primaryYellow transition-stroke ease-out duration-500"/>
               <path d="M28 35L35 28.0189L28.0379 21" stroke="black" stroke-width="1.5" class="group-hover:stroke-black transition-stroke ease-out duration-500"/>
               <path d="M20 28L31 28" stroke="black" stroke-width="1.5"/>
