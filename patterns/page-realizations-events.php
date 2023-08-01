@@ -15,22 +15,17 @@
   >
     <!-- wp:list -->
     <ul class="wp-block-list categories-all-1 mb-[108px] flex flex-wrap gap-[10px]">
-      <?php
-        if (is_page('realizations')){ ?>
-          <!-- wp:list-item -->
-          <li
-            class="w-fit test1 h-[40px] px-[10px] bg-[#F2F2F2] border border-[#AAA] border-[2px] rounded-full uppercase text-[14px] font-semibold leading-[20px] flex justify-center items-center hover:bg-primaryYellow hover:border-primaryYellow transition ease-out duration-300 cursor-pointer"
-          >
-            <!-- wp:paragraph -->
-            <a href="#" class="flex items-center w-full h-full">
-              Wszystkie kategorie
-            </a>
-            <!-- /wp:paragraph -->
-          </li>
-          <!-- /wp:list-item --> 
-        <?php
-        };
-      ?>
+      <!-- wp:list-item -->
+      <li
+        class="w-fit test1 h-[40px] px-[10px] bg-[#F2F2F2] border border-[#AAA] border-[2px] rounded-full uppercase text-[14px] font-semibold leading-[20px] flex justify-center items-center hover:bg-primaryYellow hover:border-primaryYellow transition ease-out duration-300 cursor-pointer"
+      >
+        <!-- wp:paragraph -->
+        <a href="#" class="flex items-center w-full h-full">
+          Wszystkie kategorie
+        </a>
+        <!-- /wp:paragraph -->
+      </li>
+      <!-- /wp:list-item --> 
       <?php
         $args = array(
           'taxonomy' => 'category',
@@ -79,14 +74,7 @@
             $post_query->the_post();
             $postImageUrl = wp_get_attachment_image_src(get_post_thumbnail_id(),'portrait');
             $counter++;
-            if (true){ 
-              print_r(is_page('realizations'));
-              echo '<br>';
-              print_r(is_home());
-              echo '<br>';
-              print_r(is_front_page());
-              ?>
-            
+            if (true){ ?>
               <!-- wp:list-item -->
               <li class="event-tile group desktop:flex gap-[75px] mb-[50px]">
                 <!-- wp:group -->
