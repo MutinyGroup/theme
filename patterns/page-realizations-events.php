@@ -16,6 +16,22 @@
     <!-- wp:list -->
     <ul class="wp-block-list categories-all-1 mb-[108px] flex flex-wrap gap-[10px]">
       <?php
+        if (is_page(110)){ ?>
+          <!-- wp:list-item -->
+          <li
+            class="w-fit test1 h-[40px] px-[10px] bg-[#F2F2F2] border border-[#AAA] border-[2px] rounded-full uppercase text-[14px] font-semibold leading-[20px] flex justify-center items-center hover:bg-primaryYellow hover:border-primaryYellow transition ease-out duration-300 cursor-pointer"
+          >
+            <!-- wp:paragraph -->
+            <a href="#" class="flex items-center w-full h-full">
+              Wszystkie kategorie
+            </a>
+            <!-- /wp:paragraph -->
+          </li>
+          <!-- /wp:list-item --> 
+        <?php
+        };
+      ?>
+      <?php
         $args = array(
           'taxonomy' => 'category',
           'orderby' => 'name',
@@ -29,9 +45,6 @@
           $catNoSpaces = str_replace(' ', '-', strtolower($cat->name)) ;
           if (($cat->name) == 'glowna' || ($catNoSpaces) == 'bez-kategorii'){
             echo '';
-          }else if(is_page(110)){ 
-            echo 'wszystkie';
-            return;
           }else{ ?>
             <!-- wp:list-item -->
             <li
