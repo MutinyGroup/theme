@@ -16,9 +16,6 @@
     <!-- wp:list -->
     <ul class="wp-block-list categories-all-1 mb-[108px] flex flex-wrap gap-[10px]">
       <?php
-      print_r(is_page('realizations'));
-      echo '<br>';
-      print_r(is_home());
         if (is_page('realizations')){ ?>
           <!-- wp:list-item -->
           <li
@@ -82,7 +79,14 @@
             $post_query->the_post();
             $postImageUrl = wp_get_attachment_image_src(get_post_thumbnail_id(),'portrait');
             $counter++;
-            if (true){ ?>
+            if (true){ 
+              print_r(is_page('realizations'));
+              echo '<br>';
+              print_r(is_home());
+              echo '<br>';
+              print_r(is_front_page());
+              ?>
+            
               <!-- wp:list-item -->
               <li class="event-tile group desktop:flex gap-[75px] mb-[50px]">
                 <!-- wp:group -->
