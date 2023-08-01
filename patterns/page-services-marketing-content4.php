@@ -171,7 +171,7 @@
               <!-- /wp:group -->
 
               <!-- wp:group -->
-              <div class="wp-block-group text-wrapper desktop:my-auto desktop:w-[50%] desktop:pr-[40px] items-center">
+              <div class="wp-block-group text-wrapper desktop:my-auto desktop:w-[50%] desktop:pr-[40px] items-center flex desktop:block">
                 <!-- wp:group -->
                 <div class="wp-block-group counter-index-wrapper min-w-[95px] inline relative">
                   <!-- wp:group -->
@@ -193,7 +193,7 @@
                 <p class="pb-[30px] text-[20px] font-medium">Lorem ipsum dolor sit amet</p>
                 <!-- /wp:paragraph -->
                 <!-- wp:paragraph -->
-                <p class="leading-[21px] invisible desktop:visible">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <p class="leading-[21px] w-0 desktop:w-auto invisible desktop:visible">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                 <!-- /wp:paragraph -->
               </div>
               <!-- /wp:group -->
