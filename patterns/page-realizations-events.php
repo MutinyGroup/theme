@@ -16,7 +16,7 @@
     <!-- wp:list -->
     <ul class="wp-block-list categories-all-1 mb-[108px] flex flex-wrap gap-[10px]">
       <?php
-        if (is_page(110)){ ?>
+        if (is_page('realizations')){ ?>
           <!-- wp:list-item -->
           <li
             class="w-fit test1 h-[40px] px-[10px] bg-[#F2F2F2] border border-[#AAA] border-[2px] rounded-full uppercase text-[14px] font-semibold leading-[20px] flex justify-center items-center hover:bg-primaryYellow hover:border-primaryYellow transition ease-out duration-300 cursor-pointer"
