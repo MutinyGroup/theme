@@ -20,7 +20,7 @@
       >
         <!-- wp:paragraph -->
         <a href="<?php echo get_home_url() . '/realizations'; ?>" class="flex items-center w-full h-full">
-          Wszystkie kategorie
+          Wszystkie realizacje
         </a>
         <!-- /wp:paragraph -->
       </li>
