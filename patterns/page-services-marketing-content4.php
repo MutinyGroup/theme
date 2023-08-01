@@ -171,7 +171,7 @@
               <!-- /wp:group -->
 
               <!-- wp:group -->
-              <div class="wp-block-group text-wrapper desktop:w-[50%] desktop:pr-[40px] items-center">
+              <div class="wp-block-group text-wrapper desktop:my-auto desktop:w-[50%] desktop:pr-[40px] items-center">
                 <!-- wp:group -->
                 <div class="wp-block-group counter-index-wrapper min-w-[95px] inline relative">
                   <!-- wp:group -->
