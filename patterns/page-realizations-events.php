@@ -18,7 +18,7 @@
       <?php
       print_r(is_page('realizations'));
       echo '<br>';
-      print_r(is_page(110));
+      print_r(is_home());
         if (is_page('realizations')){ ?>
           <!-- wp:list-item -->
           <li
