@@ -244,6 +244,7 @@
               </div>
               <!-- /wp:group -->
 
+            <!-- /wp:group -->
             <!-- wp:group -->
             <div class="wp-block-group swiper-slide swiper-slide-marketing relative desktop:p-[25px] desktop:max-w-[716px] max-w-[310px] desktop:h-[450px] h-fit mr-[8px] desktop:flex gap-[43px]">
               <!-- wp:group -->
