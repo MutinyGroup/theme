@@ -138,7 +138,6 @@
                     <?php the_title(); ?>
                   </a>
                   <!-- /wp:paragraph -->
-                  <!-- wp:post-title /-->
                   <!-- wp:buttons -->
                   <div
                     class="wp-block-buttons w-[56px] h-[56px]"
