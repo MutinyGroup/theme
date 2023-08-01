@@ -16,6 +16,9 @@
     <!-- wp:list -->
     <ul class="wp-block-list categories-all-1 mb-[108px] flex flex-wrap gap-[10px]">
       <?php
+      print_r(is_page('realizations'));
+      echo '<br>';
+      print_r(is_page(110));
         if (is_page('realizations')){ ?>
           <!-- wp:list-item -->
           <li
