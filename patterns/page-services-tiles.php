@@ -221,7 +221,7 @@
                       <!-- wp:group -->
                       <div class="wp-block-group inline">
                         <!-- wp:paragraph -->
-                        <a href="#">
+                        <a href="<?php the_permalink(); ?>">
                           Dowiedz się więcej
                         </a>
                         <!-- /wp:paragraph -->
