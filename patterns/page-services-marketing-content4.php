@@ -181,6 +181,47 @@
                       <path d="M0.5 40C0.5 18.1848 18.1848 0.5 40 0.5C61.8152 0.5 79.5 18.1848 79.5 40C79.5 61.8152 61.8152 79.5 40 79.5C18.1848 79.5 0.5 61.8152 0.5 40Z" stroke="white"/>
                     </svg>
                     <!-- /wp:paragraph -->
+                  </div>
+                  <!-- /wp:group -->
+
+                  <!-- wp:paragraph -->
+                  <p class="target-num mb-[0px] desktop:mb-[30px] text-[60px] font-medium text-primaryYellow leading-[65px]">01</p>
+                  <!-- /wp:paragraph -->
+                </div>
+                <!-- /wp:group -->
+                <!-- wp:paragraph -->
+                <p class="pb-[30px] text-[20px] font-medium">Lorem ipsum dolor sit amet</p>
+                <!-- /wp:paragraph -->
+                <!-- wp:paragraph -->
+                <p class="leading-[21px] invisible desktop:visible">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <!-- /wp:paragraph -->
+              </div>
+              <!-- /wp:group -->
+            </div>
+            <!-- /wp:group -->
+            <!-- wp:group -->
+            <div class="wp-block-group swiper-slide swiper-slide-marketing relative desktop:p-[25px] desktop:max-w-[716px] max-w-[310px] desktop:h-[450px] h-fit mr-[8px] desktop:flex gap-[43px]">
+              <!-- wp:group -->
+              <div class="wp-block-group desktop:w-[50%] h-full rounded-[20px] overflow-hidden">
+                <!-- wp:image -->
+                <figure class="wp-block-image img-clip-path-marketing">
+                  <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-marketing/swiper/swiper2-1.jpg" alt="marketing-backgroun-image">
+                </figure>
+                <!-- /wp:image -->
+              </div>
+              <!-- /wp:group -->
+
+              <!-- wp:group -->
+              <div class="wp-block-group text-wrapper desktop:my-auto desktop:w-[50%] desktop:pr-[40px] items-center">
+                <!-- wp:group -->
+                <div class="wp-block-group counter-index-wrapper min-w-[95px] inline relative">
+                  <!-- wp:group -->
+                  <div class="wp-block-group circle-counter-index z-[-1] w-[80px] h-[80px] absolute desktop:top-[-50px] top-[-50px] desktop:left-[30px] right-[30px]">
+                    <!-- wp:paragraph -->
+                    <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80" fill="none">
+                      <path d="M0.5 40C0.5 18.1848 18.1848 0.5 40 0.5C61.8152 0.5 79.5 18.1848 79.5 40C79.5 61.8152 61.8152 79.5 40 79.5C18.1848 79.5 0.5 61.8152 0.5 40Z" stroke="white"/>
+                    </svg>
+                    <!-- /wp:paragraph -->
                     <!-- wp:paragraph -->
                     <svg class="scale-[0.75] absolute top-[0px] left-[0px]" xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80" fill="none">
                       <path d="M0.5 40C0.5 18.1848 18.1848 0.5 40 0.5C61.8152 0.5 79.5 18.1848 79.5 40C79.5 61.8152 61.8152 79.5 40 79.5C18.1848 79.5 0.5 61.8152 0.5 40Z" stroke="white"/>
@@ -202,25 +243,48 @@
                 <!-- /wp:paragraph -->
               </div>
               <!-- /wp:group -->
-            </div>
-            <!-- /wp:group -->
+
             <!-- wp:group -->
-            <div class="wp-block-group test swiper-slide swiper-slide-marketing relative desktop:p-[25px] desktop:max-w-[716px] max-w-[310px] desktop:h-[450px] h-fit mr-[8px] desktop:flex gap-[43px]">
+            <div class="wp-block-group swiper-slide swiper-slide-marketing relative desktop:p-[25px] desktop:max-w-[716px] max-w-[310px] desktop:h-[450px] h-fit mr-[8px] desktop:flex gap-[43px]">
               <!-- wp:group -->
               <div class="wp-block-group desktop:w-[50%] h-full rounded-[20px] overflow-hidden">
                 <!-- wp:image -->
                 <figure class="wp-block-image img-clip-path-marketing">
-                  <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-marketing/swiper/swiper2-2.jpg" alt="marketing-backgroun-image">
+                  <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-marketing/swiper/swiper2-1.jpg" alt="marketing-backgroun-image">
                 </figure>
                 <!-- /wp:image -->
               </div>
               <!-- /wp:group -->
 
               <!-- wp:group -->
-              <div class="wp-block-group text-wrapper desktop:w-[50%] desktop:pr-[40px] items-center">
-                <!-- wp:paragraph -->
-                <p class="index mb-[0px] desktop:mb-[30px] text-[60px] font-medium text-primaryYellow leading-[65px]">02</p>
-                <!-- /wp:paragraph -->
+              <div class="wp-block-group text-wrapper desktop:my-auto desktop:w-[50%] desktop:pr-[40px] items-center">
+                <!-- wp:group -->
+                <div class="wp-block-group counter-index-wrapper min-w-[95px] inline relative">
+                  <!-- wp:group -->
+                  <div class="wp-block-group circle-counter-index z-[-1] w-[80px] h-[80px] absolute desktop:top-[-50px] top-[-50px] desktop:left-[30px] right-[30px]">
+                    <!-- wp:paragraph -->
+                    <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80" fill="none">
+                      <path d="M0.5 40C0.5 18.1848 18.1848 0.5 40 0.5C61.8152 0.5 79.5 18.1848 79.5 40C79.5 61.8152 61.8152 79.5 40 79.5C18.1848 79.5 0.5 61.8152 0.5 40Z" stroke="white"/>
+                    </svg>
+                    <!-- /wp:paragraph -->
+                    <!-- wp:paragraph -->
+                    <svg class="scale-[0.75] absolute top-[0px] left-[0px]" xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80" fill="none">
+                      <path d="M0.5 40C0.5 18.1848 18.1848 0.5 40 0.5C61.8152 0.5 79.5 18.1848 79.5 40C79.5 61.8152 61.8152 79.5 40 79.5C18.1848 79.5 0.5 61.8152 0.5 40Z" stroke="white"/>
+                    </svg>
+                    <!-- /wp:paragraph -->
+                    <!-- wp:paragraph -->
+                    <svg class="scale-[0.50] absolute top-[0px] left-[0px]" xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80" fill="none">
+                      <path d="M0.5 40C0.5 18.1848 18.1848 0.5 40 0.5C61.8152 0.5 79.5 18.1848 79.5 40C79.5 61.8152 61.8152 79.5 40 79.5C18.1848 79.5 0.5 61.8152 0.5 40Z" stroke="white"/>
+                    </svg>
+                    <!-- /wp:paragraph -->
+                  </div>
+                  <!-- /wp:group -->
+
+                  <!-- wp:paragraph -->
+                  <p class="target-num mb-[0px] desktop:mb-[30px] text-[60px] font-medium text-primaryYellow leading-[65px]">03</p>
+                  <!-- /wp:paragraph -->
+                </div>
+                <!-- /wp:group -->
                 <!-- wp:paragraph -->
                 <p class="pb-[30px] text-[20px] font-medium">Lorem ipsum dolor sit amet</p>
                 <!-- /wp:paragraph -->
@@ -229,6 +293,8 @@
                 <!-- /wp:paragraph -->
               </div>
               <!-- /wp:group -->
+            </div>
+            <!-- /wp:group -->              
             </div>
             <!-- /wp:group -->
           </div>
