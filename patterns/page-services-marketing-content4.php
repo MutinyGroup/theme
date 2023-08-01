@@ -186,7 +186,7 @@
             </div>
             <!-- /wp:group -->
             <!-- wp:group -->
-            <div class="wp-block-group swiper-slide swiper-slide-marketing relative desktop:p-[25px] desktop:max-w-[716px] max-w-[310px] desktop:h-[450px] h-fit mr-[8px] desktop:flex gap-[43px]">
+            <div class="wp-block-group test swiper-slide swiper-slide-marketing relative desktop:p-[25px] desktop:max-w-[716px] max-w-[310px] desktop:h-[450px] h-fit mr-[8px] desktop:flex gap-[43px]">
               <!-- wp:group -->
               <div class="wp-block-group desktop:w-[50%] h-full rounded-[20px] overflow-hidden">
                 <!-- wp:image -->
