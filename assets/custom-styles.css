@@ -388,15 +388,17 @@ body{
   z-index: 0;
   position: relative;
  }
-
  .marketing-gallery img{
   width: 100%;
+ }
+ .swiperMarketing2 figure img{
+   height: 100%;
+   object-fit: cover;
  }
 
  .ytp-cued-thumbnail-overlay{
   background-image: url(https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-about/about-video.jpg)!important;
  }
-
 
  /* navigation menu */
 
