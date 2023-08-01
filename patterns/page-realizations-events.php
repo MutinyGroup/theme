@@ -21,7 +21,7 @@
       >
         <!-- wp:paragraph -->
         <a href="<?php echo get_home_url() . '/realizations'; ?>" class="flex items-center w-full h-full">
-          Wszystkie kategorie
+          Wszystkie realizacje
         </a>
         <!-- /wp:paragraph -->
       </li>
@@ -133,13 +133,12 @@
                   </ul>
                   <!-- /wp:list -->
 
-                  <!-- wp:title -->
-                  <h2 class="mb-[50px] text-[35px] font-semibold leading-[42px]">
-                    <a href="<?php the_permalink(); ?>">
-                      <?php the_title(); ?>
-                    </a>
-                  </h2>
-                  <!-- /wp:title -->
+                  <!-- wp:paragraph -->
+                  <a href="<?php the_permalink(); ?>" class="mb-[50px] text-[35px] font-semibold leading-[42px]">
+                    <?php the_title(); ?>
+                  </a>
+                  <!-- /wp:paragraph -->
+                  <!-- wp:post-title /-->
                   <!-- wp:buttons -->
                   <div
                     class="wp-block-buttons w-[56px] h-[56px]"
