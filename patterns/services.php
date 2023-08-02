@@ -225,7 +225,7 @@
       </div>
       <!-- /wp:group -->
       <!-- wp:buttons -->
-      <div class="wp-block-buttons w-[225px] text-center px-[20px] btn-more ml-[0px] p-[15px_30px] uppercase border-[2px] border-white rounded-full hover:bg-white hover:text-black transition ease-out duration-300">
+      <div class="wp-block-buttons w-[225px] test text-center px-[20px] btn-more ml-[0px] p-[15px_30px] uppercase border-[2px] border-white rounded-full hover:bg-white hover:text-black transition ease-out duration-300">
         <!-- wp:paragraph -->
         <a href="https://mutiny.webo.design/services/" class="uppercase text-[14px] font-bold">Dowiedz się więcej</a>
         <!-- /wp:paragraph -->
