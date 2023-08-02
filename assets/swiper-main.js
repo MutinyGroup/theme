@@ -124,7 +124,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
 
   new Swiper('#opinions-bright', {
     direction: "horizontal",
-    slidesPerView: 1,
+    slidesPerView: 'auto',
     clickable: true,
     grabCursor: true,
     pagination: {
