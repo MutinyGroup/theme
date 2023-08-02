@@ -131,10 +131,10 @@
                   </div>
                   <!-- /wp:group -->
                   <!-- wp:group -->
-                  <div class="wp-block-group tile-title pr-[50px] absolute bottom-[50px] desktop:left-[50px] left-[20px]">
+                  <div class="wp-block-group tile-title absolute bottom-[50px] desktop:left-[50px] left-[20px]">
                     <!-- wp:paragraph -->
-                    <p class="w-fit desktop:text-[35px] text-[30px] desktop:mb-[20px] mb-[10px] leading-[42px] font-semibold group-hover:border-b-[2px] group-hover:border-primaryYellow desktop:group-hover:translate-y-[-50px] group-hover:translate-y-[-70px] transition ease-in-out duration-[400ms] cursor-pointer">
-                      <a href="<?php the_permalink(); ?>">
+                    <p class="w-fit desktop:text-[35px] text-[30px] desktop:mb-[20px] mb-[10px] leading-[42px] font-semibold desktop:group-hover:translate-y-[-50px] group-hover:translate-y-[-70px] transition ease-in-out duration-[400ms] cursor-pointer">
+                      <a href="<?php the_permalink(); ?>" class="group-hover:border-b-[2px] group-hover:border-primaryYellow">
                         <?php the_title(); ?>
                       </a>
                     </p>
