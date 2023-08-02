@@ -19,7 +19,7 @@
   <!-- wp:group -->
   <div class="wp-block-group container relative mx-auto desktop:px-0 px-[20px]">
     <!-- wp:group -->
-    <div class="wp-block-group title-wrapper relative desktop:mb-[120px] mb-[230px] flex gap-[20px]">
+    <div class="wp-block-group title-wrapper relative desktop:mb-[150px] mb-[230px] flex gap-[20px]">
       <!-- wp:group -->
       <div class="wp-block-group flash-wrapper wide:scale-[1] desktop:scale-[1] scale-[0.5] absolute top-[-350px] desktop:top-[-300px] wide:top-[-270px] right-[-90px] desktop:left-[-200px] wide:left-[-230px] z-[-1]">
         <!-- wp:paragraph -->
