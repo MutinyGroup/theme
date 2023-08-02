@@ -30,9 +30,9 @@
     <!-- /wp:group -->
 
     <!-- wp:group -->
-    <div class="wp-block-group targets-wrapper desktop:ml-[83px] desktop:flex gap-x-[80px]">
+    <div class="wp-block-group targets-wrapper desktop:ml-[83px] desktop:flex gap-x-[80px] wide:gap-x-[200px]">
       <!-- wp:group -->
-      <div class="wp-block-group col1 desktop:mb-auto mb-[20px] desktop:basis-[45%] desktop:h-[791px] h-[300px] rounded-tr-[15px]">
+      <div class="wp-block-group col1 desktop:mb-auto mb-[20px] desktop:basis-[45%] wide:h-[900px] desktop:h-[790px] h-[300px] rounded-tr-[15px]">
         <!-- wp:group -->
         <div class="wp-block-group img-clip-path-rounded w-full h-full rounded-tr-[20px] overflow-hidden">
           <!-- wp:image -->
@@ -64,7 +64,7 @@
         </p>
         <!-- /wp:paragraph -->
         <!-- wp:list -->
-        <ul class="wp-block-list targets-list desktop:mb-[70px] mb-[40px] text-left desktop:flex flex-wrap wide:flex-nowrap desktop:justify-start justify-center gap-x-[30px] gap-y-[50px]">
+        <ul class="wp-block-list targets-list max-w-[600px] desktop:mb-[70px] mb-[40px] text-left desktop:flex flex-wrap desktop:justify-start justify-center gap-x-[30px] gap-y-[50px]">
           <!-- wp:list-item -->
           <li class="relative mb-[20px] desktop:mb-0 desktop:max-w-[264px] max-w-full flex items-center desktop:list-item gap-[20px]">
             <!-- wp:group -->
