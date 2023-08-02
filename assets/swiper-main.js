@@ -130,7 +130,17 @@ document.addEventListener("DOMContentLoaded", function(event) {
     pagination: {
       el: '#opinions-pagination',
       type: 'fraction',
-
+      formatFractionCurrent: function (number) {
+        return ('0' + number).slice(-2);
+      },
+      formatFractionTotal: function (number) {
+        return ('0' + number).slice(-2);
+      },
+      renderFraction: function (currentClass, totalClass) {
+        return '<span class="mr-[10px] ' + currentClass + '"></span>' +
+                ' / ' +
+                '<span class="ml-[10px] text-black text-[20px] ' + totalClass + '"></span>';
+      }
     },
     navigation: {
       nextEl: '#opinions-next',
