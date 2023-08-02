@@ -26,7 +26,7 @@
       </svg>
       <!-- /wp:paragraph -->
       <!-- wp:list -->
-      <ul class="wp-block-list flex flex-wrap justify-between wide:justify-center gap-x-[60px] wide:gap-x-[100px] gap-y-[100px]">
+      <ul class="wp-block-list flex flex-wrap justify-center gap-x-[60px] wide:gap-x-[100px] gap-y-[100px]">
         <?php
           $args = array(
             'post_type' => 'post',
