@@ -8,9 +8,9 @@
 ?>
 
 <!-- wp:group -->
-<div class="wp-block-group o-nas pt-[100px] desktop:mb-[150px] mb-[200px]">
+<div class="wp-block-group o-nas pt-[100px] mb-[200px] desktop:mb-[150px] wide:mb-[220px] ">
   <!-- wp:group -->
-  <div class="wp-block-group relative desktop:px-0 px-[20px]">
+  <div class="wp-block-group relative px-[20px] desktop:px-0">
     <!-- wp:group -->
     <div class="wp-block-group title-wrapper relative container mx-auto desktop:mb-[120px] mb-[60px] flex desktop:gap-[20px] gap-[0px]">
       <!-- wp:paragraph -->
