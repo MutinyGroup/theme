@@ -16,9 +16,9 @@
       <!-- wp:group -->
       <div class="wp-block-group banner-title relative desktop:mb-[89px] mb-[45px] desktop:pt-[110px] pt-0 uppercase fullhd:text-[85px] desktop:text-[85px] text-[38px] font-normal desktop:w-[940px] wide:leading-[85px] desktop:leading-[80px] leading-[38px]">
         <!-- wp:group -->
-        <div class="wp-block-group flash-wrapper desktop:scale-[1] scale-[0.5] absolute desktop:top-[-40px] top-[-350px] desktop:left-[-140px] right-[-90px]">
+        <div class="wp-block-group flash-wrapper desktop:scale-[1] scale-[0.5] absolute desktop:top-[-130px] top-[-350px] desktop:left-[-140px] right-[-90px] z-[-1]">
           <!-- wp:paragraph -->
-          <svg class="flash desktop:scale-[1] scale-[0.5]  z-[-1]" xmlns="http://www.w3.org/2000/svg" width="688" height="801" viewBox="0 0 688 801" fill="none">
+          <svg class="flash" xmlns="http://www.w3.org/2000/svg" width="688" height="801" viewBox="0 0 688 801" fill="none">
             <g filter="url(#filter0_f_1787_1988)">
             <circle cx="287.132" cy="400.132" r="150" transform="rotate(-45 287.132 400.132)" fill="url(#paint0_linear_1787_1988)" fill-opacity="0.5"/>
             </g>
@@ -37,7 +37,7 @@
           <!-- /wp:paragraph -->
 
           <!-- wp:image -->
-          <figure class="wp-block-image flash desktop:scale-[1] scale-[0.5] z-[-1] absolute top-[0px] right-[0px]">
+          <figure class="wp-block-image flash absolute top-[0px] left-[0px]">
             <img
               src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/bg-yellow-flash.png"
               alt="background image"
