@@ -74,7 +74,7 @@
       <!-- /wp:group -->
 
       <!-- wp:group -->
-      <div id="opinions-bright" class="wp-block-group swiper swiperOpinions dessktop:max-w-[464px] ml-0 overflow-visible">
+      <div id="opinions-bright" class="wp-block-group swiper swiperOpinions bg-red-300 dessktop:max-w-[464px] ml-0 overflow-visible">
         <!-- wp:group -->
         <div class="wp-block-group swiper-wrapper">
           <!-- wp:group -->
