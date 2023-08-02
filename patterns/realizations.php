@@ -87,7 +87,7 @@
 
 
     <!-- wp:group -->
-    <div class="wp-block-group gallery-cols wide:max-w-[1300px] mx-auto relative pb-[30px]">
+    <div class="wp-block-group gallery-cols wide:max-w-[1260px] mx-auto relative pb-[30px]">
       <!-- wp:list -->
       <ul class="wp-block-list w-[100%] flex flex-wrap justify-between gap-x-[8px] gap-y-[30px]">
         <?php
@@ -107,7 +107,7 @@
               $counter++;
               if (true){ ?>         
                 <!-- wp:list-item -->
-                <li class="wp-block-group tile-realizacje mb-[30px] desktop:h-[700px] h-[480px] relative group w-1/2 transition ease-in-out duration-[400ms] img-clip-path-rounded relative group w-[100%] desktop:w-[545px] wide:w-[600px] desktop:h-[600px] h-[320px] <?php if (($counter % 2)) echo ''; else echo 'desktop:translate-y-[50px]'; ?>">
+                <li class="wp-block-group tile-realizacje mb-[30px] h-[320px] desktop:h-[600px] wide:h-[680px] w-[100%] desktop:w-[545px] wide:w-[600px] h-[480px] desktop:h-[700px] wide:h-[780px] relative group w-1/2 transition ease-in-out duration-[400ms] img-clip-path-rounded relative group <?php if (($counter % 2)) echo ''; else echo 'desktop:translate-y-[50px]'; ?>">
                   <!-- wp:group -->
                   <div class="wp-block-group <?php if($counter == 1) echo 'img-clip-path-services'; elseif($counter == $post_query->post_count) echo 'img-clip-path-blog'; ?> gray-overlay w-full h-full bg-[#101010] absolute top-0 left-0 opacity-[50%]">
                     <!-- wp:paragraph -->
