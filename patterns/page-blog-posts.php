@@ -45,7 +45,7 @@
               $counter++;
               if ($tab[$i] == 0){ ?>
                 <!-- wp:list-item -->
-                <li class="wp-block-group bigger swiper-slide relative group desktop:w-[535px] w-fit desktop:h-[675px] h-[320px] <?php if (!($counter % 2)) echo 'desktop:translate-y-[120px]'; else echo ''; ?>">
+                <li class="wp-block-group bigger swiper-slide relative group w-fit desktop:w-[535px] wide:w-[600px] h-[320px] desktop:h-[675px] wide:h-[756px] <?php if (!($counter % 2)) echo 'desktop:translate-y-[120px]'; else echo ''; ?>">
                   <!-- wp:paragraph -->
                   <a href="<?php the_permalink(); ?>">
                     <!-- wp:group -->
