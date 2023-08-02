@@ -69,14 +69,15 @@
           <!-- wp:paragraph {"templateLock":"contentOnly", "classname":"wp-class2"} -->
           <p class="relative italic font-medium before:content-[''] before:inline-block desktop:before:mr-[70px] before:mr-[5px] before:bottom-0 before:left-0 desktop:before:w-[280px] before:w-[30px] desktop:before:h-[6px] before:h-[2px] before:bg-white">UDERZENIEM.</p>
           <!-- /wp:paragraph -->
-
-          <!-- wp:paragraph -->
-          <p class="banner-paragraph desktop:ml-[95px] desktop:ml-[45px] ml-[20px] desktop:w-[264px] max-w-[300px] desktop:text-[18px] text-[18px] font-light leading-[22px]">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore <span class="text-primaryYellow">magna aliqua.</span>
-          </p>
-          <!-- /wp:paragraph -->
         </div>
         <!-- /wp:group -->
+
+        <!-- wp:paragraph -->
+        <p class="banner-paragraph desktop:ml-[95px] desktop:ml-[45px] ml-[20px] desktop:w-[264px] max-w-[300px] desktop:text-[18px] text-[18px] font-light leading-[22px]">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore <span class="text-primaryYellow">magna aliqua.</span>
+        </p>
+        <!-- /wp:paragraph -->
+
       </div>
       <!-- /wp:group -->
 
