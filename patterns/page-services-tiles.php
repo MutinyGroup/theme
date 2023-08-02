@@ -79,7 +79,7 @@
     <!-- /wp:group -->
     
     <!-- wp:group -->
-    <div class="wp-block-group paragrapth-wrapper mb-[100px] flex justify-end">
+    <div class="wp-block-group paragrapth-wrapper mb-[100px] flex justify-end wide:justify-center">
       <!-- wp:paragraph -->
       <p class="text text-[20px] leading-[30px] max-w-[625px]">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -94,7 +94,7 @@
     <!-- wp:group -->
     <div class="wp-block-group gallery-cols relative pb-[150px]">
       <!-- wp:list -->
-      <ul class="wp-block-list w-[100%] flex flex-wrap justify-between gap-x-[8px] gap-y-[30px]">
+      <ul class="wp-block-list w-[100%] wide:max-w-[1115px] mx-auto flex flex-wrap justify-between gap-x-[8px] gap-y-[30px]">
         <?php
           $args = array(
             'post_type' => 'uslugi',
