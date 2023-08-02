@@ -82,9 +82,9 @@
       <!-- /wp:group -->
 
       <!-- wp:group -->
-      <div class="wp-block-group right-col banner-bg desktop:w-[44%] w-[65%] absolute right-0 desktop:top-[50px] top-[80px] z-[-1]">
+      <div class="wp-block-group right-col banner-bg wide:max-h-[950px] desktop:w-[44%] w-[65%] absolute right-0 desktop:top-[50px] top-[80px] z-[-1]">
         <!-- wp:image -->
-        <figure class="wp-block-image">
+        <figure class="wp-block-image h-full">
           <img
             src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/front-page/banner-bg.png"
             alt="background image"
