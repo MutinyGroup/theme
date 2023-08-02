@@ -61,7 +61,7 @@
         <!-- /wp:group -->
 
         <!-- wp:group -->
-        <div id="opinions-pagination" class="wp-block-group swiper-pagination w-fit text-primaryYellow text-[50px] absolute wide:left-[330px] desktop:left-[200px] left-[130px] desktop:top-[110px] top-[-70px]">
+        <div id="opinions-pagination" class="wp-block-group swiper-pagination w-fit text-primaryYellow text-[50px] absolute left-[130px] desktop:left-[200px] wide:left-[190px] top-[-70px] desktop:top-[110px] wide:top-[90px]">
         </div>
         <!-- /wp:group -->
       </div>
