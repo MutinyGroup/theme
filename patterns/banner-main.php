@@ -10,7 +10,7 @@
 <!-- wp:group {"templateLock":"contentOnly"} -->
 <div class="wp-block-group banner relative mb-0 desktop:pt-[80px] pt-[120px] h-screen desktop:h-auto overflow-hidden desktop:overflow-visible">
   <!-- wp:group -->
-  <div class="wp-block-group container mx-auto desktop:px-0 px-[20px] wide:h-[1180px] desktop:h-[790px] h-full">
+  <div class="wp-block-group container mx-auto desktop:px-0 px-[20px] wide:h-[900px] desktop:h-[790px] h-full">
     <!-- wp:group -->
     <div class="wp-block-group banner-title relative desktop:mb-[89px] mb-[45px] desktop:pt-[130px] pt-0 uppercase fullhd:text-[85px] desktop:text-[85px] text-[38px] font-normal desktop:w-[940px] wide:leading-[85px] desktop:leading-[80px] leading-[38px]">
       <!-- wp:paragraph -->
