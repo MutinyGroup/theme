@@ -16,7 +16,7 @@
       <!-- wp:group -->
       <div class="wp-block-group left-col relative wide:pt-[110px] desktop:pt-[80px] pt-0  fullhd:text-[85px] desktop:text-[85px] text-[38px] font-normal desktop:w-[940px] wide:leading-[85px] desktop:leading-[80px] leading-[38px]">
         <!-- wp:group -->
-        <div class="wp-block-group flash-wrapper desktop:scale-[1] scale-[0.5] absolute desktop:top-[-130px] top-[-350px] desktop:left-[-140px] right-[-90px] z-[-1]">
+        <div class="wp-block-group flash-wrapper wide:scale-[1.2] desktop:scale-[1] scale-[0.5] absolute desktop:top-[-130px] top-[-350px] desktop:left-[-140px] right-[-90px] z-[-1]">
           <!-- wp:paragraph -->
           <svg class="flash" xmlns="http://www.w3.org/2000/svg" width="688" height="801" viewBox="0 0 688 801" fill="none">
             <g filter="url(#filter0_f_1787_1988)">
@@ -46,22 +46,6 @@
           <!-- /wp:image -->
         </div>
         <!-- /wp:group -->
-        <svg xmlns="http://www.w3.org/2000/svg" width="729" height="746" viewBox="0 0 729 746" fill="none">
-          <g filter="url(#filter0_f_1382_326)">
-          <circle cx="328.132" cy="345.132" r="150" transform="rotate(-45 328.132 345.132)" fill="url(#paint0_linear_1382_326)" fill-opacity="0.5"/>
-          </g>
-          <defs>
-          <filter id="filter0_f_1382_326" x="-71.8679" y="-54.8679" width="800" height="800" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-          <feFlood flood-opacity="0" result="BackgroundImageFix"/>
-          <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
-          <feGaussianBlur stdDeviation="125" result="effect1_foregroundBlur_1382_326"/>
-          </filter>
-          <linearGradient id="paint0_linear_1382_326" x1="328.132" y1="195.132" x2="328.132" y2="495.132" gradientUnits="userSpaceOnUse">
-          <stop stop-color="#FEC400" stop-opacity="0.6"/>
-          <stop offset="1" stop-color="#FEC400" stop-opacity="0"/>
-          </linearGradient>
-          </defs>
-        </svg>
 
         <!-- wp:image -->
         <figure class="wp-block-image bg-shape w-[1220px] h-[750px] z-[-1] opacity-[0.25] absolute top-[130px] left-[-320px]">
