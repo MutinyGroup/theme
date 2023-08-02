@@ -33,7 +33,7 @@
       <!-- wp:group -->
       <div class="wp-block-group swiper-nav-container desktop:block hidden relative w-[33%] wide:w-[30%] z-2">
         <!-- wp:group -->
-        <div class="nav-wrapper w-[155px] h-[80px] flex justify-center items-center absolute top-[0px] desktop:top-[0px] left-[130px] desktop:left-[190px] wide:left-[180px]">
+        <div class="wp-block-group nav-wrapper w-[155px] h-[80px] flex justify-center items-center absolute top-[0px] desktop:top-[0px] left-[130px] desktop:left-[190px] wide:left-[180px]">
           <!-- wp:group -->
           <div id="opinions-prev" class="wp-block-group group swiper-button-prev w-[56px] h-[56px] ">
             <!-- wp:paragraph -->
