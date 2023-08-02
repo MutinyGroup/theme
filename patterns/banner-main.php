@@ -15,33 +15,37 @@
     <div class="wp-block-group content-with-bg-wrapper">
       <!-- wp:group -->
       <div class="wp-block-group banner-title relative desktop:mb-[89px] mb-[45px] desktop:pt-[110px] pt-0 uppercase fullhd:text-[85px] desktop:text-[85px] text-[38px] font-normal desktop:w-[940px] wide:leading-[85px] desktop:leading-[80px] leading-[38px]">
-        <!-- wp:paragraph -->
-        <svg class="flash desktop:scale-[1] scale-[0.5] absolute desktop:top-[-40px] top-[-350px] desktop:left-[-140px] right-[-90px] z-[-1]" xmlns="http://www.w3.org/2000/svg" width="688" height="801" viewBox="0 0 688 801" fill="none">
-          <g filter="url(#filter0_f_1787_1988)">
-          <circle cx="287.132" cy="400.132" r="150" transform="rotate(-45 287.132 400.132)" fill="url(#paint0_linear_1787_1988)" fill-opacity="0.5"/>
-          </g>
-          <defs>
-          <filter id="filter0_f_1787_1988" x="-112.868" y="0.131836" width="800" height="800" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-          <feFlood flood-opacity="0" result="BackgroundImageFix"/>
-          <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
-          <feGaussianBlur stdDeviation="125" result="effect1_foregroundBlur_1787_1988"/>
-          </filter>
-          <linearGradient id="paint0_linear_1787_1988" x1="287.132" y1="250.132" x2="287.132" y2="550.132" gradientUnits="userSpaceOnUse">
-          <stop stop-color="#FEC400" stop-opacity="0.6"/>
-          <stop offset="1" stop-color="#FEC400" stop-opacity="0"/>
-          </linearGradient>
-          </defs>
-        </svg>
-        <!-- /wp:paragraph -->
+        <!-- wp:group -->
+        <div class="wp-block-group flash-wrapper absolute desktop:top-[-40px] top-[-350px] desktop:left-[-140px] right-[-90px]">
+          <!-- wp:paragraph -->
+          <svg class="flash desktop:scale-[1] scale-[0.5]  z-[-1]" xmlns="http://www.w3.org/2000/svg" width="688" height="801" viewBox="0 0 688 801" fill="none">
+            <g filter="url(#filter0_f_1787_1988)">
+            <circle cx="287.132" cy="400.132" r="150" transform="rotate(-45 287.132 400.132)" fill="url(#paint0_linear_1787_1988)" fill-opacity="0.5"/>
+            </g>
+            <defs>
+            <filter id="filter0_f_1787_1988" x="-112.868" y="0.131836" width="800" height="800" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+            <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+            <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+            <feGaussianBlur stdDeviation="125" result="effect1_foregroundBlur_1787_1988"/>
+            </filter>
+            <linearGradient id="paint0_linear_1787_1988" x1="287.132" y1="250.132" x2="287.132" y2="550.132" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#FEC400" stop-opacity="0.6"/>
+            <stop offset="1" stop-color="#FEC400" stop-opacity="0"/>
+            </linearGradient>
+            </defs>
+          </svg>
+          <!-- /wp:paragraph -->
 
-        <!-- wp:image -->
-        <figure class="wp-block-image flash desktop:scale-[1] scale-[0.5] absolute desktop:top-[-260px] top-[-220px] desktop:left-[-140px] left-[-200px] z-[-1]">
-          <img
-            src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/bg-yellow-flash.png"
-            alt="background image"
-          />
-        </figure>
-        <!-- /wp:image -->
+          <!-- wp:image -->
+          <figure class="wp-block-image flash desktop:scale-[1] scale-[0.5] z-[-1]">
+            <img
+              src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/bg-yellow-flash.png"
+              alt="background image"
+            />
+          </figure>
+          <!-- /wp:image -->
+        </div>
+        <!-- /wp:group -->
 
         <!-- wp:image -->
         <figure class="wp-block-image bg-shape w-[1220px] h-[750px] z-[-1] opacity-[0.25] absolute top-[130px] left-[-320px]">
