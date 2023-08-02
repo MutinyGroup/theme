@@ -14,7 +14,7 @@
     <!-- wp:group -->
     <div class="wp-block-group banner-title relative desktop:mb-[89px] mb-[45px] desktop:pt-[130px] pt-0 uppercase fullhd:text-[85px] desktop:text-[85px] text-[38px] font-normal desktop:w-[940px] wide:leading-[85px] desktop:leading-[80px] leading-[38px]">
       <!-- wp:paragraph -->
-      <svg class="flash desktop:scale-[1] scale-[0.5] absolute desktop:top-[-260px] top-[-350px] desktop:left-[-140px] right-[-90px] z-[-1]" xmlns="http://www.w3.org/2000/svg" width="688" height="801" viewBox="0 0 688 801" fill="none">
+      <svg class="flash desktop:scale-[1] scale-[0.5] absolute desktop:top-[-40px] top-[-350px] desktop:left-[-140px] right-[-90px] z-[-1]" xmlns="http://www.w3.org/2000/svg" width="688" height="801" viewBox="0 0 688 801" fill="none">
         <g filter="url(#filter0_f_1787_1988)">
         <circle cx="287.132" cy="400.132" r="150" transform="rotate(-45 287.132 400.132)" fill="url(#paint0_linear_1787_1988)" fill-opacity="0.5"/>
         </g>
@@ -88,7 +88,7 @@
     <!-- /wp:paragraph -->
 
     <!-- wp:paragraph -->
-    <a href="#about" class="wp-block-buttons desktop:w-[175px] w-[140px] desktop:h-[175px] h-[140px] mx-0 text-center rounded-full border desktop:border-[4px] border-[3px] border-[#D5D5D5] absolute bottom-[110px] desktop:bottom-auto desktop:top-[550px] wide:top-[720px] desktop:left-[56%] left-[50%] translate-x-[-50%] hover:border-none hover:bg-primaryYellow hover:text-white transition ease-out duration-300 flex flex-col justify-center items-center gap-y-0 cursor-pointer is-layout-flex">
+    <a href="#about" class="wp-block-buttons desktop:w-[175px] w-[140px] desktop:h-[175px] h-[140px] mx-0 text-center rounded-full border desktop:border-[4px] border-[3px] border-[#D5D5D5] absolute bottom-[110px] desktop:bottom-auto desktop:top-[550px] wide:top-[50%] desktop:left-[56%] left-[50%] translate-x-[-50%] hover:border-none hover:bg-primaryYellow hover:text-white transition ease-out duration-300 flex flex-col justify-center items-center gap-y-0 cursor-pointer is-layout-flex">
       <!-- wp:paragraph -->
       <p>Zobacz</p>
       <!-- /wp:paragraph -->
