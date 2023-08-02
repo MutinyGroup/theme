@@ -86,6 +86,13 @@ body{
   transform: rotate(-43deg);
 }
 
+/* banner */
+
+.right-col img{
+  height: 100%!important;
+  object-fit: cover;
+}
+
 /* about us */
 
 .img-clip-path-about-us{
