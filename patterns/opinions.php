@@ -31,7 +31,7 @@
     <div class="wp-block-group swiper-section-wrapper relative desktop:flex">
 
       <!-- wp:group -->
-      <div class="wp-block-group swiper-nav-container desktop:block hidden relative w-[40%] wide:w-[30%] z-2">
+      <div class="wp-block-group swiper-nav-container desktop:block hidden relative w-[33%] wide:w-[30%] z-2">
         <!-- wp:group -->
         <div class="nav-wrapper w-[155px] h-[80px] flex justify-center items-center absolute top-[0px] desktop:top-[0px] left-[130px] desktop:left-[190px] wide:left-[180px]">
           <!-- wp:group -->
