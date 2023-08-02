@@ -49,7 +49,7 @@
                   <!-- wp:paragraph -->
                   <a href="<?php the_permalink(); ?>">
                     <!-- wp:group -->
-                    <div class="wp-block-group not_img-clip-path-rounded mb-[20px]">
+                    <div class="wp-block-group img-clip-path-rounded mb-[20px]">
                       <!-- wp:group -->
                       <div class="wp-block-group img-clip-path-blog h-full overflow-hidden rounded-[20px]">
                         <!-- wp:image -->
