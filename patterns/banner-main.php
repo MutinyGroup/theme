@@ -14,7 +14,7 @@
     <!-- wp:group -->
     <div class="wp-block-group content-with-bg-wrapper">
       <!-- wp:group -->
-      <div class="wp-block-group banner-title relative desktop:mb-[89px] mb-[45px] desktop:pt-[110px] pt-0  fullhd:text-[85px] desktop:text-[85px] text-[38px] font-normal desktop:w-[940px] wide:leading-[85px] desktop:leading-[80px] leading-[38px]">
+      <div class="wp-block-group banner-title relative desktop:mb-[89px] mb-[45px] wide:pt-[110px] desktop:pt-[80px] pt-0  fullhd:text-[85px] desktop:text-[85px] text-[38px] font-normal desktop:w-[940px] wide:leading-[85px] desktop:leading-[80px] leading-[38px]">
         <!-- wp:group -->
         <div class="wp-block-group flash-wrapper desktop:scale-[1] scale-[0.5] absolute desktop:top-[-130px] top-[-350px] desktop:left-[-140px] right-[-90px] z-[-1]">
           <!-- wp:paragraph -->
