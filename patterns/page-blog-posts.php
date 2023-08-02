@@ -90,7 +90,7 @@
               $i++; 
               }else{ ?>
                 <!-- wp:list-item -->
-                <li class="wp-block-group smaller swiper-slide relative group desktop:w-[444px] w-fit desktop:h-[675px] h-[320px] <?php if (!($counter % 2)) echo 'desktop:translate-y-[120px]'; else echo ''; ?>">
+                <li class="wp-block-group smaller swiper-slide relative group w-fit desktop:w-[444px] wide:w-[580px]  desktop:h-[675px] h-[320px] <?php if (!($counter % 2)) echo 'desktop:translate-y-[120px]'; else echo ''; ?>">
                   <!-- wp:paragraph -->
                   <a href="<?php the_permalink(); ?>">
                     <!-- wp:group -->
