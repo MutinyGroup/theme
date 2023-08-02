@@ -3,7 +3,7 @@ tailwind.config = {
     container: {
       screens: {
         xl: "1100px",
-        "2xl": "1240px",
+        "2xl": "1496px",
       },
     },
     extend: {
