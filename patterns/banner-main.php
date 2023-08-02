@@ -14,7 +14,7 @@
     <!-- wp:group -->
     <div class="wp-block-group content-with-bg-wrapper">
       <!-- wp:group -->
-      <div class="wp-block-group banner-title relative desktop:mb-[89px] mb-[45px] desktop:pt-[110px] pt-0 uppercase fullhd:text-[85px] desktop:text-[85px] text-[38px] font-normal desktop:w-[940px] wide:leading-[85px] desktop:leading-[80px] leading-[38px]">
+      <div class="wp-block-group banner-title relative desktop:mb-[89px] mb-[45px] desktop:pt-[110px] pt-0  fullhd:text-[85px] desktop:text-[85px] text-[38px] font-normal desktop:w-[940px] wide:leading-[85px] desktop:leading-[80px] leading-[38px]">
         <!-- wp:group -->
         <div class="wp-block-group flash-wrapper desktop:scale-[1] scale-[0.5] absolute desktop:top-[-130px] top-[-350px] desktop:left-[-140px] right-[-90px] z-[-1]">
           <!-- wp:paragraph -->
@@ -57,15 +57,15 @@
         <!-- /wp:image -->
 
         <!-- wp:paragraph -->
-        <p class="company-title font-normal text-[16px] leading-[125%]">Mutiny Group</p>
+        <p class="company-title uppercase font-normal text-[16px] leading-[125%]">Mutiny Group</p>
         <!-- /wp:paragraph -->
 
         <!-- wp:paragraph -->
-        <p class="font-medium">Wchodzimy <br> na rynek z mocnym</p>
+        <p class="font-medium uppercase">Wchodzimy <br> na rynek z mocnym</p>
         <!-- /wp:paragraph -->
 
         <!-- wp:paragraph {"templateLock":"contentOnly", "classname":"wp-class2"} -->
-        <p class="relative italic font-medium before:content-[''] before:inline-block desktop:before:mr-[70px] before:mr-[5px] before:bottom-0 before:left-0 desktop:before:w-[280px] before:w-[30px] desktop:before:h-[6px] before:h-[2px] before:bg-white">UDERZENIEM.</p>
+        <p class="relative uppercase italic font-medium before:content-[''] before:inline-block desktop:before:mr-[70px] before:mr-[5px] before:bottom-0 before:left-0 desktop:before:w-[280px] before:w-[30px] desktop:before:h-[6px] before:h-[2px] before:bg-white">UDERZENIEM.</p>
         <!-- /wp:paragraph -->
 
         <!-- wp:paragraph -->
