@@ -8,7 +8,7 @@
 ?>
 
 <!-- wp:group {"templateLock":"all","lock":{"move":true,"remove":true},"anchor":true} -->
-<div id="Banner" class="wp-block-group services-banner h-screen desktop:h-auto desktop:mb-[150px]">
+<div id="Banner" class="wp-block-group realizations-banner h-screen desktop:h-auto desktop:mb-[150px]">
   <!-- wp:group -->
   <div
     class="wp-block-group container relative mx-auto desktop:px-0 px-[20px]"
@@ -56,12 +56,13 @@
     <!-- /wp:group -->
   </div>
   <!-- /wp:group -->
+
   <!-- wp:group -->
   <div class="wp-block-group relative desktop:ml-[80px]">
     <!-- wp:group -->
-    <div class="wp-block-group container mx-auto">
+    <div class="wp-block-group container mx-auto desktop:px-0 px-[20px]">
       <!-- wp:paragraph -->
-      <p class="text text-[20px] leading-[30px] desktop:max-w-[445px] desktop:ml-[200px]">
+      <p class="text-[16px] desktop:text-[20px] leading-[30px] desktop:max-w-[445px] desktop:ml-[200px]">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.
       </p>
       <!-- /wp:paragraph -->
