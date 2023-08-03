@@ -59,7 +59,7 @@
   <!-- wp:group -->
   <div class="wp-block-group relative desktop:ml-[80px]">
     <!-- wp:group -->
-    <div class="wp-block-group container mx-auto">
+    <div class="wp-block-group container mx-auto desktop:px-0 px-[20px]">
       <!-- wp:paragraph -->
       <p class="text text-[20px] leading-[30px] desktop:max-w-[445px] desktop:ml-[200px]">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.
