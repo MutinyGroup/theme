@@ -57,12 +57,17 @@
   </div>
   <!-- /wp:group -->
   <!-- wp:group -->
-  <div class="wp-block-group about-banner-img23 relative desktop:ml-[80px]">
-    <!-- wp:paragraph -->
-    <p class="text text-[20px] leading-[30px] desktop:max-w-[445px]">
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.
-    </p>
+  <div class="wp-block-group relative desktop:ml-[80px]">
+    <!-- wp:group -->
+    <div class="wp-block-group container mx-auto">
+      <!-- wp:paragraph -->
+      <p class="text text-[20px] leading-[30px] desktop:max-w-[445px]">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.
+      </p>
       <!-- /wp:paragraph -->
+    </div>
+    <!-- /wp:group -->
+
 
     <!-- wp:buttons -->
     <div
