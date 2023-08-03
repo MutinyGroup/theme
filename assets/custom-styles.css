@@ -374,7 +374,7 @@ body{
    }
 }
  .post-img img{
-   min-height: 525px;
+   height: 525px;
    object-fit: cover;
  }
  @media only screen and (max-width: 480px) {
@@ -384,7 +384,7 @@ body{
 }
  @media only screen and (min-width: 1600px) {
   .post-img img{
-    min-height: 580px;
+    height: 580px;
   }
 }
 
