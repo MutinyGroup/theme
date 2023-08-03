@@ -210,7 +210,7 @@
       <!-- wp:buttons -->
       <div class="wp-block-buttons btn-more ml-[0px] p-[15px_30px] uppercase border-[2px] border-white rounded-full hover:bg-white hover:text-black transition ease-out duration-300">
         <!-- wp:paragraph -->
-        <a href="https://mutiny.webo.design/realizations/" class="uppercase text-[14px] desktop:w-[220px] w-auto max-w-[220px] font-bold">Zobacz wszystkie realizacje</a>
+        <a href="<?php echo get_home_url() . '/realizations'; ?>" class="uppercase text-[14px] desktop:w-[220px] w-auto max-w-[220px] font-bold">Zobacz wszystkie realizacje</a>
         <!-- /wp:paragraph -->
       </div>
       <!-- /wp:group -->
