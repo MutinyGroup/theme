@@ -45,7 +45,9 @@
             granic
           </p>
           <!-- /wp:paragraph -->
+          <!-- wp:paragraph -->
           <span class="ml-[-8px] desktop:ml-[-16px] desktop:text-[100px] text-[70px] leading-[1px] desktop:leading-auto">.</span>
+          <!-- /wp:paragraph -->
         </div>
         <!-- /wp:group -->
       </div>
