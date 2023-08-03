@@ -95,7 +95,7 @@
                 <!-- /wp:group -->
                 
                 <!-- wp:group -->
-                <div class="wp-block-group content-wrapper desktop:w-[60%] flex flex-col is-layout-flow justify-center">
+                <div class="wp-block-group content-wrapper desktop:w-[60%] flex flex-col justify-center">
                   <!-- wp:image -->
                   <figure
                     class="wp-block-image event-logo-color mb-[25px] w-[60px]"
