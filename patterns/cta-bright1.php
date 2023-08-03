@@ -43,7 +43,7 @@
       <div class="wp-block-group uslugi-title font-normal desktop:text-[65px] text-[32px] desktop:leading-[70px] leading-[36px]">
         <!-- wp:paragraph -->
         <p class="uppercase">
-          Poznaj ofertę <br>
+          Poznaj ofertę
         </p>
         <!-- /wp:paragraph -->
         <!-- wp:paragraph -->
