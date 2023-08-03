@@ -38,14 +38,23 @@
         <div class="wp-block-group uslugi-title uppercase font-medium desktop:text-[60px] text-[24px] desktop:leading-[60px] leading-[30px]">
           <!-- wp:paragraph -->
           <p
-            class="uppercase"
+          class="uppercase"
           >
-            PROJEKTY Z KTÓRCH <br />
-            JESTEŚMY
-            <span
+            Projekty z których
+          </p>
+          <!-- /wp:paragraph -->
+          <!-- wp:paragraph -->
+          <p class="inline">
+            jesteśmy
+          </p>
+          <!-- /wp:paragraph -->
+          <!-- wp:paragraph -->
+            <p
               class="relative inline desktop:text-[60px] text-[24px] uppercase italic before:content-[''] before:inline-block desktop:before:mr-[8px] before:mr-[4px] before:bottom-0 before:left-0 desktop:before:w-[90px] before:w-[30px] desktop:before:h-[3px] before:h-[2px] before:bg-black"
-              >Dumni</span
             >
+              dumni.
+            </p>
+            <!-- /wp:paragraph -->
           </p>
           <!-- /wp:paragraph -->
         </div>
