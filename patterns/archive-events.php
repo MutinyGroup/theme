@@ -16,7 +16,7 @@
     <ul class="wp-block-list categories-all-1 mb-[108px] flex flex-wrap gap-[10px]">
       <!-- wp:list-item -->
       <li
-        class="w-fit test1 h-[40px] px-[10px] bg-[#F2F2F2] border border-[#AAA] border-[2px] rounded-full uppercase text-[14px] font-semibold leading-[20px] flex justify-center items-center hover:bg-primaryYellow hover:border-primaryYellow transition ease-out duration-300 cursor-pointer"
+        class="w-fit h-[40px] px-[10px] bg-[#F2F2F2] border border-[#AAA] border-[2px] rounded-full uppercase text-[14px] font-semibold leading-[20px] flex justify-center items-center hover:bg-primaryYellow hover:border-primaryYellow transition ease-out duration-300 cursor-pointer"
       >
         <!-- wp:paragraph -->
         <a href="<?php echo get_home_url() . '/realizations'; ?>" class="flex items-center w-full h-full">
@@ -51,7 +51,7 @@
           }else{ ?>
             <!-- wp:list-item -->
             <li
-              class="w-fit h-[40px] test1 px-[10px] bg-[#F2F2F2] border border-[#AAA] border-[2px] rounded-full uppercase text-[14px] font-semibold leading-[20px] flex justify-center items-center hover:bg-primaryYellow hover:border-primaryYellow transition ease-out duration-300 cursor-pointer <?php if ($catNoSpaces == $currentCategory2) echo 'bg-primaryYellow border-primaryYellow'; ?>"
+              class="w-fit h-[40px] px-[10px] bg-[#F2F2F2] border border-[#AAA] border-[2px] rounded-full uppercase text-[14px] font-semibold leading-[20px] flex justify-center items-center hover:bg-primaryYellow hover:border-primaryYellow transition ease-out duration-300 cursor-pointer <?php if ($catNoSpaces == $currentCategory2) echo 'bg-primaryYellow border-primaryYellow'; ?>"
             >
               <!-- wp:paragraph -->
               <a href="<?php echo get_category_link( $cat->term_id ) ?>" class="flex items-center w-full h-full">
