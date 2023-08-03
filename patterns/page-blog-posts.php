@@ -8,13 +8,13 @@
 ?>
 
 <!-- wp:group -->
-<div id="Posty" class="wp-block-group page-about-services mb-[150px] pt-[80px] desktop:pt-0 overflow-hidden">
+<div id="Posty" class="wp-block-group page-blog-posts mb-[150px] pt-[80px] desktop:pt-0 overflow-hidden">
   <!-- wp:group -->
   <div
     class="wp-block-group container mx-auto relative desktop:px-0 px-[20px]"
   >    
     <!-- wp:group -->
-    <div class="wp-block-group new gallery-cols relative flex justify-between pb-[150px]">
+    <div class="wp-block-group new gallery-cols relative flex justify-between desktop:pb-[150px] pb-[80px]">
       <!-- wp:paragraph -->
       <svg class="wp-block-image z-[-1] absolute top-[0px] right-[0px]" xmlns="http://www.w3.org/2000/svg" width="470" height="396" viewBox="0 0 470 396" fill="none">
         <path d="M468.243 393.924L1 236.702V1.9702L468.243 159.192V393.924Z" stroke="white" stroke-width="2"/>
