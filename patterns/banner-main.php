@@ -63,7 +63,11 @@
           <!-- /wp:paragraph -->
 
           <!-- wp:paragraph -->
-          <p class="font-medium">Wchodzimy <br> na rynek z mocnym</p>
+          <p class="font-medium">Wchodzimy</p>
+          <!-- /wp:paragraph -->
+
+          <!-- wp:paragraph -->
+          <p class="font-medium">na rynek z mocnym</p>
           <!-- /wp:paragraph -->
 
           <!-- wp:paragraph {"templateLock":"contentOnly", "classname":"wp-class2"} -->
