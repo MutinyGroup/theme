@@ -7,7 +7,7 @@
  */
 ?>
 <!-- wp:group -->
-<div id="Wpisy" class="wp-block-group archive-events my-[150px] overflow-hidden">
+<div id="Wpisy" class="wp-block-group archive-events mb-[150px] mt-[80px] desktop:mt-[150px] overflow-hidden">
   <!-- wp:group -->
   <div
     class="wp-block-group container mx-auto relative desktop:px-0 px-[20px]"
