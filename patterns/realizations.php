@@ -146,7 +146,7 @@
                     <!-- /wp:paragraph -->
 
                     <!-- wp:list -->
-                    <ul class="wp-block-list test categories-wrapper mb-[20px] flex flex-wrap gap-[10px] desktop:group-hover:translate-y-[-50px] group-hover:translate-y-[-70px] transition ease-in-out duration-[400ms]">
+                    <ul class="wp-block-list categories-wrapper mb-[20px] flex flex-wrap gap-[10px] desktop:group-hover:translate-y-[-50px] group-hover:translate-y-[-70px] transition ease-in-out duration-[400ms]">
                       <?php 
                         $categoriesArray = get_the_category();
                         foreach ($categoriesArray as $category) {
