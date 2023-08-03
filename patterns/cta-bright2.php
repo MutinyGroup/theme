@@ -1,13 +1,13 @@
 <?php
 /**
- * Title: bright-cta2
- * Slug: bright-cta2
+ * Title: cta-bright2
+ * Slug: cta-bright2
  * Categories: text, banner
  * Viewport Width: 1280
  */
 ?>
 <!-- wp:group -->
-<div id="CTA2" class="wp-block-group relative cta desktop:mb-[150px] overflow-hidden desktop:overflow-visible">
+<div id="CTA2" class="wp-block-group relative cta-bright2 desktop:mb-[150px] overflow-hidden desktop:overflow-visible">
   <!-- wp:group -->
   <div class="wp-block-group container group mx-auto desktop:px-0 px-[20px] desktop:mt-0 mt-[120px] desktop:h-[700px] h-[480px]">
     <!-- wp:group -->
@@ -53,16 +53,16 @@
       <!-- /wp:group -->
     </div>
     <!-- /wp:group -->
-    <!-- wp:buttons -->
-    <div class="wp-block-buttons desktop:w-[175px] w-[140px] desktop:h-[175px] h-[140px] desktop:ml-[120px] mx-auto text-center rounded-full border desktop:border-[4px] border-[3px] border-[#AAA] group-hover:border-none group-hover:bg-primaryYellow group-hover:text-white transition ease-out duration-300 flex flex-col justify-center items-center gap-y-0 cursor-pointer">
+    <!-- wp:paragraph -->
+    <a href="<?php echo get_home_url() . '/contact' ?>" class="wp-block-buttons desktop:w-[175px] w-[140px] desktop:h-[175px] h-[140px] desktop:ml-[120px] mx-auto text-center rounded-full border desktop:border-[4px] border-[3px] border-[#AAA] group-hover:border-none group-hover:bg-primaryYellow group-hover:text-white transition ease-out duration-300 flex flex-col justify-center items-center gap-y-0 cursor-pointer">
       <!-- wp:paragraph -->
       <p>Skontaktuj się</p>
       <!-- /wp:paragraph -->
       <!-- wp:paragraph -->
       <p class="uppercase text-[25px] font-extrabold">TERAZ</p>
       <!-- /wp:paragraph -->
-    </div>
-    <!-- /wp:buttons -->
+    </a>
+    <!-- /wp:paragraph -->
   </div>
   <!-- /wp:group -->
   
