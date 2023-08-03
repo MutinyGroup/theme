@@ -8,7 +8,7 @@
 ?>
 
 <!-- wp:group {"templateLock":"all","lock":{"move":true,"remove":true},"anchor":true} -->
-<div id="Banner" class="wp-block-group realizations-banner h-screen desktop:h-auto desktop:mb-[150px]">
+<div id="Banner" class="wp-block-group realizations-banner h-fit desktop:h-auto desktop:mb-[150px] mb-[80px]">
   <!-- wp:group -->
   <div
     class="wp-block-group container relative mx-auto desktop:px-0 px-[20px]"
@@ -60,7 +60,7 @@
   <!-- wp:group -->
   <div class="wp-block-group relative desktop:ml-[80px]">
     <!-- wp:group -->
-    <div class="wp-block-group container mx-auto desktop:px-0 px-[20px]">
+    <div class="wp-block-group container mx-auto desktop:px-0 px-[20px] mb-[80px]">
       <!-- wp:paragraph -->
       <p class="text-[16px] desktop:text-[20px] leading-[30px] desktop:max-w-[445px] desktop:ml-[200px]">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.
@@ -73,7 +73,7 @@
     <!-- wp:paragraph -->
     <a
       href="#Eventy"
-      class="wp-block-buttons desktop:w-[175px] w-[140px] desktop:h-[175px] h-[140px] mx-0 text-center rounded-full border desktop:border-[4px] border-[3px] border-[#AAAAAA] absolute desktop:top-[-130px] top-[260px] wide:left-[70%] desktop:left-[80%] left-[50%] translate-x-[-50%] hover:border-none hover:bg-primaryYellow hover:text-white transition ease-out duration-300 flex flex-col justify-center items-center gap-y-0 cursor-pointer"
+      class="wp-block-buttons desktop:w-[175px] w-[140px] desktop:h-[175px] h-[140px] mx-auto desktop:mx-0 text-center rounded-full border desktop:border-[4px] border-[3px] border-[#AAAAAA] desktop:absolute desktop:top-[-130px] top-[260px] wide:left-[70%] desktop:left-[80%] left-[50%] translate-x-[-50%] hover:border-none hover:bg-primaryYellow hover:text-white transition ease-out duration-300 flex flex-col justify-center items-center gap-y-0 cursor-pointer"
     >
       <!-- wp:paragraph -->
       <p>Zobacz</p>
