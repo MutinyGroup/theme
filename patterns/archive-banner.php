@@ -8,7 +8,7 @@
 ?>
 
 <!-- wp:group -->
-<div class="wp-block-group archive-banner desktop:mb-[150px]">
+<div id="Banner" class="wp-block-group archive-banner desktop:mb-[150px]">
   <!-- wp:group -->
   <div
     class="wp-block-group container relative mx-auto desktop:px-0 px-[20px]"
