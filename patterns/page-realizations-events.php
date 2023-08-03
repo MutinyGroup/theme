@@ -14,7 +14,7 @@
     class="wp-block-group container mx-auto relative desktop:px-0 px-[20px]"
   >
     <!-- wp:list -->
-    <ul class="wp-block-list categories-all-1 mb-[108px] flex flex-wrap gap-[10px]">
+    <ul id="Kategorie" class="wp-block-list categories-all-1 mb-[108px] flex flex-wrap gap-[10px]">
       <!-- wp:list-item -->
       <li
         class="w-fit h-[40px] px-[10px] bg-primaryYellow border border-primaryYellow border-[2px] rounded-full uppercase text-[14px] font-semibold leading-[20px] flex justify-center items-center transition ease-out duration-300 cursor-pointer"
@@ -61,7 +61,7 @@
     <!-- /wp:list -->
 
     <!-- wp:list -->
-    <ul class="wp-block-list events-list mb-[150px]">
+    <ul id="Lista Eventy" class="wp-block-list events-list mb-[150px]">
       <?php
         $args = array(
           'post_type' => 'realizacje',
