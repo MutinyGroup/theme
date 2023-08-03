@@ -7,7 +7,7 @@
  */
 ?>
 <!-- wp:group -->
-<div class="wp-block-group uslugi desktop:mb-[150px] mb-[80px]">
+<div id="Usługi" class="wp-block-group uslugi desktop:mb-[150px] mb-[80px]">
   <!-- wp:group -->
   <div class="wp-block-group desktop:mb-[150px] mb-[80px] relative">
     <!-- wp:group -->

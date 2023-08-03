@@ -7,7 +7,7 @@
  */
 ?>
 <!-- wp:group -->
-<div class="wp-block-group opinions desktop:mb-[150px] mb-[60px]">
+<div id="Opinie" class="wp-block-group opinions desktop:mb-[150px] mb-[60px]">
   <!-- wp:group -->
   <div class="wp-block-group relative mx-auto desktop:ml-[83px] desktop:px-0 px-[20px] overflow-hidden bg-black">
     <!-- wp:group -->
