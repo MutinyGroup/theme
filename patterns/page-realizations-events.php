@@ -140,7 +140,7 @@
                   <!-- /wp:paragraph -->
                   <!-- wp:buttons -->
                   <div
-                    class="wp-block-buttons w-[56px] h-[56px] mt-[50px]"
+                    class="wp-block-buttons w-[56px] h-[56px] mt-[40px]"
                   >
                   <!-- wp:paragraph -->
                     <a href="<?php the_permalink(); ?>">
