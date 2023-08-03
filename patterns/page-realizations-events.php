@@ -95,7 +95,7 @@
                 <!-- /wp:group -->
                 
                 <!-- wp:group -->
-                <div class="wp-block-group content-wrapper desktop:w-[60%]">
+                <div class="wp-block-group content-wrapper desktop:w-[60%] flex flex-col is-layout-flow justify-center">
                   <!-- wp:image -->
                   <figure
                     class="wp-block-image event-logo-color mb-[25px] w-[60px]"
@@ -134,13 +134,13 @@
                   <!-- /wp:list -->
 
                   <!-- wp:paragraph -->
-                  <a href="<?php the_permalink(); ?>" class="mb-[50px] text-[35px] font-semibold leading-[42px]">
+                  <a href="<?php the_permalink(); ?>" class="text-[35px] font-semibold leading-[42px]">
                     <?php the_title(); ?>
                   </a>
                   <!-- /wp:paragraph -->
                   <!-- wp:buttons -->
                   <div
-                    class="wp-block-buttons w-[56px] h-[56px]"
+                    class="wp-block-buttons w-[56px] h-[56px] mt-[50px]"
                   >
                   <!-- wp:paragraph -->
                     <a href="<?php the_permalink(); ?>">
