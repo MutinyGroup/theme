@@ -139,7 +139,7 @@
                   <!-- /wp:group -->
 
                   <!-- wp:group -->
-                  <div class="wp-block-group slide-title absolute desktop:bottom-[85px] bottom-[125px] left-[25px] z-[1] group-hover:translate-y-[-80px] transition ease-out duration-500">
+                  <div class="wp-block-group slide-title absolute desktop:bottom-[85px] bottom-[100px] left-[25px] z-[1] group-hover:translate-y-[-80px] transition ease-out duration-500">
                     <!-- wp:paragraph -->
                     <a href="<?php the_permalink(); ?>" class="mr-[20px] text-[25px] font-semibold mb-[15px] underline-offset-[7px] group-hover:underline group-hover:decoration-primaryYellow group-hover:translate-y-[-80px] transition ease-out duration-500">
                       <?php the_title(); ?>
