@@ -4,6 +4,11 @@ html{
   scroll-behavior: smooth;
 }
 
+/* Gutenberg Editor */
+.block-editor-iframe__body .editor-styles-wrapper{
+  background-color: black!important;
+}
+
 body{
   font-family: 'Urbanist', sans-serif;
 }
