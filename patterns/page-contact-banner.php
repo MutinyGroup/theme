@@ -7,18 +7,19 @@
  */
 ?>
 
-<!-- wp:group -->
-<div id="Banner" class="wp-block-group contact-banner desktop:h-[770px] h-screen desktop:mb-[150px]">
+<!-- wp:group {"templateLock":"all","lock":{"move":true,"remove":true},"anchor":true} -->
+<div id="Banner" class="wp-block-group services-banner h-screen desktop:h-auto desktop:mb-[150px]">
   <!-- wp:group -->
   <div
     class="wp-block-group container relative mx-auto desktop:px-0 px-[20px]"
   >
     <!-- wp:group -->
     <div
-      class="wp-block-group title-wrapper relative desktop:mb-[58px] mb-[40px] pt-[90px]"
+      class="wp-block-group title-wrapper relative desktop:mb-[58px] mb-[40px] desktop:pt-[90px]"
     >
       <!-- wp:group -->
       <div
+        id="title"
         class="wp-block-group title-wrapper relative container mx-auto flex"
       >
 
@@ -27,7 +28,7 @@
         class="wp-block-group section-title grid desktop:basis-auto desktop:w-[145px] desktop:basis-[80%] uppercase text-primaryYellow"
         >
           <!-- wp:paragraph -->
-          <p class="justify-self-end pt-[3px] pr-[15px]">Działamy?</p>
+          <p class="justify-self-end pt-[3px] pr-[15px]">DZIAŁAMY?</p>
           <!-- /wp:paragraph -->
         </div>  
         <!-- /wp:group -->
@@ -39,7 +40,7 @@
           <p
             class="uppercase"
           >
-            Skontaktuj się <br />
+            SKONTAKTUJ SIĘ <br />
             z
             <span
               class="relative inline desktop:text-[60px] text-[24px] uppercase italic before:content-[''] before:inline-block desktop:before:mr-[8px] before:mr-[4px] before:bottom-0 before:left-0 desktop:before:w-[90px] before:w-[30px] desktop:before:h-[3px] before:h-[2px] before:bg-black"
@@ -56,7 +57,7 @@
   </div>
   <!-- /wp:group -->
   <!-- wp:group -->
-  <div class="wp-block-group about-banner-img relative desktop:ml-[80px]">
+  <div class="wp-block-group about-banner-img23 relative desktop:ml-[80px]">
     <!-- wp:image -->
     <figure class="wp-block-image object-cover h-full">
       <img
@@ -65,9 +66,10 @@
       />
     </figure>
     <!-- /wp:image -->
-    <!-- wp:buttons -->
-    <div
-      class="wp-block-buttons desktop:w-[175px] w-[140px] desktop:h-[175px] h-[140px] mx-0 text-center rounded-full border desktop:border-[4px] border-[3px] border-[#AAAAAA] absolute desktop:top-[-130px] top-[300px] desktop:left-[1080px] left-[50%] translate-x-[-50%] hover:border-none hover:bg-primaryYellow hover:text-white transition ease-out duration-300 flex flex-col justify-center items-center gap-y-0 cursor-pointer"
+    <!-- wp:paragraph -->
+    <a
+      href="#Info"
+      class="wp-block-buttons desktop:w-[175px] w-[140px] desktop:h-[175px] h-[140px] mx-0 text-center rounded-full border desktop:border-[4px] border-[3px] border-[#AAAAAA] absolute desktop:top-[-130px] top-[260px] wide:left-[70%] desktop:left-[80%] left-[50%] translate-x-[-50%] hover:border-none hover:bg-primaryYellow hover:text-white transition ease-out duration-300 flex flex-col justify-center items-center gap-y-0 cursor-pointer"
     >
       <!-- wp:paragraph -->
       <p>Skontaktuj się</p>
@@ -75,8 +77,8 @@
       <!-- wp:paragraph -->
       <p class="uppercase text-[25px] font-extrabold">z nami</p>
       <!-- /wp:paragraph -->
-    </div>
-    <!-- /wp:buttons -->
+    </a>
+    <!-- /wp:paragraph -->
   </div>
   <!-- /wp:group -->
 </div>
