@@ -7,7 +7,7 @@
  */
 ?>
 <!-- wp:group -->
-<div class="wp-block-group single-page-post mb-[150px] overflow-hidden">
+<div id="Wpis" class="wp-block-group single-page-post mb-[150px] overflow-hidden">
   <!-- wp:group -->
   <div
     class="wp-block-group relative"
