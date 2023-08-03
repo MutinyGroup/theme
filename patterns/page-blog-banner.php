@@ -8,7 +8,7 @@
 ?>
 
 <!-- wp:group {"templateLock":"all","lock":{"move":true,"remove":true},"anchor":true} -->
-<div id="Banner" class="wp-block-group services-banner h-[calc(screen-80px)] desktop:h-auto desktop:mb-[150px]">
+<div id="Banner" class="wp-block-group services-banner h-[calc(100vh-80px)] desktop:h-auto desktop:mb-[150px]">
   <!-- wp:group -->
   <div
     class="wp-block-group container relative mx-auto desktop:px-0 px-[20px]"
