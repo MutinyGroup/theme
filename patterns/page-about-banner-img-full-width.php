@@ -36,6 +36,7 @@
           <p>
             Nie boimy sie
           </p>
+          <!-- /wp:paragraph -->
           <!-- wp:paragraph -->
           <p>
             przekraczać
