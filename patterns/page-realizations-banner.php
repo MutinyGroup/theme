@@ -15,7 +15,7 @@
   >
     <!-- wp:group -->
     <div
-      class="wp-block-group title-wrapper relative container mx-auto desktop:pt-[90px] desktop:mb-[80px] mb-[60px] flex"
+      class="wp-block-group title-wrapper relative container mx-auto desktop:pt-[90px] desktop:mb-[58px] mb-[40px] flex"
     >
       <!-- wp:group -->
       <div
@@ -49,15 +49,14 @@
 
     <!-- wp:group -->
     <div class="wp-block-group about-banner-img23 relative desktop:ml-[80px]">
-      <!-- wp:group -->
-      <div class="wp-block-group paragrapth-wrapper desktop:ml-[230px] mt-[50px] desktop:mt-[0px] desktop:mt-0 pb-[260px] desktop:pb-0">
-        <!-- wp:paragraph -->
-        <p class="text text-[20px] leading-[30px] desktop:max-w-[445px]">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.
-        </p>
-        <!-- /wp:paragraph -->
-      </div>
-      <!-- /wp:group -->
+      <!-- wp:image -->
+      <figure class="wp-block-image object-cover h-full">
+        <img
+          src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-services/services-banner-bg.jpg"
+          alt="bg-image"
+        />
+      </figure>
+      <!-- /wp:image -->
       <!-- wp:buttons -->
       <div
         class="wp-block-buttons desktop:w-[175px] w-[140px] desktop:h-[175px] h-[140px] mx-0 text-center rounded-full border desktop:border-[4px] border-[3px] border-[#AAAAAA] absolute desktop:top-[-130px] top-[260px] wide:left-[70%] desktop:left-[80%] left-[50%] translate-x-[-50%] hover:border-none hover:bg-primaryYellow hover:text-white transition ease-out duration-300 flex flex-col justify-center items-center gap-y-0 cursor-pointer"
