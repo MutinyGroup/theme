@@ -39,7 +39,7 @@
       <!-- wp:group -->
       <div class="wp-block-group col1 relative address text-[20px] leading-[29px]">
         <!-- wp:paragraph -->
-        <svg class="shape opacity-[60%] scale-[0.6] desktop:scale-[1] z-[-1] absolute desktop:top-0 top-[-50px] desktop:right-[0px] right-[-60px]" xmlns="http://www.w3.org/2000/svg" width="235" height="317" viewBox="0 0 235 317" fill="none">
+        <svg class="shape scale-[0.6] desktop:scale-[1] z-[-1] absolute desktop:top-[-100px] top-[-50px] desktop:right-[20px] right-[-60px]" xmlns="http://www.w3.org/2000/svg" width="235" height="317" viewBox="0 0 235 317" fill="none">
           <g style="mix-blend-mode:color-dodge">
           <path d="M0.999786 314.924L233.621 236.649V1.91746L0.999786 80.1919V314.924Z" stroke="#FFF" stroke-width="2"/>
           </g>
