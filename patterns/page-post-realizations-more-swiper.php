@@ -7,7 +7,7 @@
  */
 ?>
 <!-- wp:group -->
-<div class="wp-block-group realizations-posts desktop:mb-[150px] mb-[60px]">
+<div id="Swiper" class="wp-block-group realizations-posts desktop:mb-[150px] mb-[60px]">
   <!-- wp:group -->
   <div class="wp-block-group relative ">
     <!-- wp:group -->
