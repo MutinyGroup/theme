@@ -57,7 +57,7 @@
         <!-- /wp:image -->
         
         <!-- wp:group -->
-        <div class="wp-block-group title-text-wrapper mb-[70px] uppercase">
+        <div class="wp-block-group title-text-wrapper mb-[50px] desktop:mb-[70px] uppercase">
           <!-- wp:paragraph -->
           <p class="company-title font-normal text-[16px] leading-[125%]">Mutiny Group</p>
           <!-- /wp:paragraph -->
