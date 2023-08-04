@@ -20,7 +20,7 @@
       <!-- wp:group -->
       <div
         id="title"
-        class="wp-block-group title-wrapper relative container mx-auto flex"
+        class="wp-block-group title-wrapper relative container mx-auto desktop:flex"
       >
 
         <!-- wp:group -->
