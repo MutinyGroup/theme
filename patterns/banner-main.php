@@ -8,9 +8,9 @@
 ?>
 
 <!-- wp:group {"templateLock":"contentOnly"} -->
-<div id="Banner" class="wp-block-group banner relative mb-0 pt-[80px] h-auto desktop:h-auto overflow-hidden desktop:overflow-visible">
+<div id="Banner" class="wp-block-group banner relative mb-0 pt-[80px] h-fit desktop:h-auto overflow-hidden desktop:overflow-visible">
   <!-- wp:group -->
-  <div class="wp-block-group container mx-auto desktop:px-0 px-[20px] wide:h-[900px] desktop:h-[790px] h-auto">
+  <div class="wp-block-group container mx-auto desktop:px-0 px-[20px] wide:h-[900px] desktop:h-[790px] h-fit">
     <!-- wp:group -->
     <div class="wp-block-group content-with-bg-wrapper">
       <!-- wp:group -->
