@@ -40,6 +40,25 @@ body{
   filter: blur(125px);
   transform: rotate(-45deg);
 }
+
+/* clip path */
+
+.clip-path-img img{
+  height: 100%;
+  width: 100%;
+  object-fit: fill;
+}
+.clipped-banner{
+  clip-path: url(#clipped-banner);
+}
+.clipped-about{
+  clip-path: url(#clipped-about);
+}
+.clipped-swiper-serv-1{
+  clip-path: url(#clipped-swiper-serv-start);
+}
+
+
 .wp-block-image{
   margin-bottom: 0;
 }
@@ -48,7 +67,7 @@ body{
   transform: rotate(180deg);
 }
 /* clip path */
-.flt_svg {
+/* .flt_svg {
   visibility: hidden; 
   position: absolute;
   width: 0px;
@@ -56,7 +75,7 @@ body{
 }
 .img-clip-path-rounded{
   filter: url('#flt_tag');
-}
+} */
 
 /* header */
 
@@ -88,11 +107,10 @@ body{
 
 /* banner */
 
-.right-col img{
-  height: 100%!important;
-  width: 100%!important;
-  max-width: 100%!important;
-  object-fit: fill!important;
+.banner-img img{
+  height: 100%;
+  width: 100%;
+  object-fit: fill;
 }
 
 .clipped-banner{
@@ -101,13 +119,6 @@ body{
 
 
 /* about us */
-.about-img img{
-  height: 100%;
-  width: 100%;
-  max-width: 100%;
-  object-fit: fill;
-}
-
 .img-clip-path-about-us{
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 95%, 60% 95%, 53% 100%, 0 100%);
   clip-path: polygon(0 0, 100% 0, 100% 95%, 60% 95%, 53% 100%, 0 100%);
