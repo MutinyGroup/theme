@@ -97,7 +97,7 @@
           <!-- wp:paragraph -->
         <svg width="0" height="0">
           <defs>
-            <clipPath id="clipped-banner wide:scale-[1.35]">
+            <clipPath id="clipped-banner" class="wide:scale-[1.35]">
               <path d="M0 20C0 8.95432 8.95431 0 20 0H625V700H212.426C204.47 700 196.839 696.839 191.213 691.213L8.78681 508.787C3.16072 503.161 0 495.53 0 487.574V20Z"/>
             </clipPath>
           </defs>

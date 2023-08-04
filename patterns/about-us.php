@@ -43,7 +43,7 @@
           <!-- wp:paragraph -->
           <svg width="0" height="0">
             <defs>
-              <clipPath id="clipped wide:scale-x-1.4">
+              <clipPath id="clipped" class="wide:scale-x-1.4">
                 <path d="M0 0H523C534.046 0 543 8.95431 543 20V721C543 732.046 534.046 741 523 741H355.427C347.47 741 339.839 744.161 334.213 749.787L301.787 782.213C296.161 787.839 288.53 791 280.574 791H0.000204735L0 0Z"/>
               </clipPath>
             </defs>
