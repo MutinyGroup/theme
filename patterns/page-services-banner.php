@@ -25,7 +25,7 @@
 
         <!-- wp:group -->
         <div
-        class="wp-block-group section-title grid desktop:w-[145px] uppercase text-primaryYellow"
+        class="wp-block-group section-title grid desktop:w-[145px] w-[90px] uppercase text-primaryYellow"
         >
           <!-- wp:paragraph -->
           <p class="justify-self-end pt-[3px] pr-[15px]">Usługi</p>
