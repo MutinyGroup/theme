@@ -106,6 +106,12 @@ body{
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 95%, 60% 95%, 53% 100%, 0 100%);
   clip-path: polygon(0 0, 100% 0, 100% 95%, 60% 95%, 53% 100%, 0 100%);
 }
+.clipped {
+  --myWidth: 100vw;
+  --myHeight: 10rem;
+  --myRad: 2rem;
+  clip-path: url(#clipped);
+}
 
 /* services */
 
