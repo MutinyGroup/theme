@@ -96,7 +96,7 @@ body{
   .right-col img{
     height: 300px!important;
     width: 250px;
-    object-fit: contain;
+    object-fit: cover;
   }
 }
 
