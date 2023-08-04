@@ -85,7 +85,7 @@
       <!-- /wp:group -->
 
       <!-- wp:group -->
-      <div class="wp-block-group right-col banner-bg wide:h-[950px] h-[300px] desktop:w-[44%] w-[65%] absolute right-0 desktop:top-[50px] top-[30px] z-[-1]">
+      <div class="wp-block-group right-col banner-bg h-[300px] desktop:h-auto wide:h-[950px] desktop:w-[44%] w-[65%] absolute right-0 desktop:top-[50px] top-[30px] z-[-1]">
         <!-- wp:image -->
         <figure class="wp-block-image h-full">
           <img
