@@ -140,7 +140,7 @@
           </div>
           <!-- /wp:group -->
           <!-- wp:group -->
-          <div class="wp-block-group inner-col2 w-[49%] absolute top-[100px] right-0">
+          <div class="wp-block-group inner-col2 w-[49%] absolute top-[60px] right-0">
             <!-- wp:group -->
             <div class="wp-block-group tile-wrapper relative mb-[12px] rounded-[20px] overflow-hidden">
               <!-- wp:image -->
