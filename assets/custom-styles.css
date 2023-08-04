@@ -200,6 +200,13 @@ body{
 .clipped-services-swiper-start{
   clip-path: url(#clipped-services-swiper-start);
 }
+/* about us */
+.services-swiper-img img{
+  height: 100%;
+  width: 100%;
+  max-width: 100%;
+  object-fit: fill;
+}
 
 /* realizations */
 .realizacje{
