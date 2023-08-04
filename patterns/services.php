@@ -111,7 +111,7 @@
                 <!-- wp:group -->
                 <div class="wp-block-group swiper-slide swiper-slide-services relative z-[2] group p-[25px] wide:max-w-[420px] desktop:max-w-[354px] max-w-[310px] h-[450px] wide:h-[530px] rounded-[20px] transition ease-out duration-300 mr-[8px] cursor-default">
                   <!-- wp:group -->
-                  <div class="wp-block-group img-clip-path-wrapper w-full h-full rounded-tr-[20px] rounded-br-[20px] overflow-hidden absolute left-0 top-0 z-[-1]">
+                  <div class="wp-block-group img-clip-path-wrapper img-clip-path-rounded w-full h-full rounded-tr-[20px] rounded-br-[20px] overflow-hidden absolute left-0 top-0 z-[-1]">
                     <!-- wp:group -->
                     <div class="wp-block-group <?php if($counter == 1) echo 'img-clip-path-services'; elseif($counter == $post_query->post_count) echo 'img-clip-path-blog'; ?> gray-overlay w-full h-full bg-[#101010] absolute top-0 left-0 opacity-[50%] z-[1]">
                       <!-- wp:paragraph -->
@@ -124,6 +124,17 @@
                       <img src="<?php echo $postImageUrl[0]; ?>" alt="services-backgroun-image">
                     </figure>
                     <!-- /wp:image -->
+                    <!-- wp:paragraph -->
+                    <svg class="flt_svg" xmlns="http://www.w3.org/2000/svg">
+                      <defs>
+                        <filter id="flt_tag">
+                          <feGaussianBlur in="SourceGraphic" stdDeviation="8" result="blur" />
+                          <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9" result="flt_tag" />
+                          <feComposite in="SourceGraphic" in2="flt_tag" operator="atop"/>
+                        </filter>
+                      </defs>
+                    </svg>
+                    <!-- /wp:paragraph -->
                   </div>
                   <!-- /wp:group -->
 
