@@ -53,28 +53,27 @@
           ?>
         </div>
         <!-- /wp:group -->
-       
+
         <!-- wp:group -->
         <div class="wp-block-group uslugi-title uppercase font-medium desktop:text-[60px] text-[30px] desktop:leading-[60px] leading-[30px]">
           <!-- wp:paragraph -->
+          <p>REALIZACJE Z KATEGORII</p>
+          <!-- /wp:paragraph -->
+          <!-- wp:paragraph -->
           <p
-            class=""
+            class="relative desktop:inline-block block uppercase italic before:content-[''] before:inline-block desktop:before:mr-[8px] before:mr-[4px] before:bottom-0 before:left-0 desktop:before:w-[90px] before:w-[30px] desktop:before:h-[3px] before:h-[2px] before:bg-black"
           >
-            Realizacje z kategorii
-            
-            <span
-              class="relative desktop:inline-block block uppercase italic before:content-[''] before:inline-block desktop:before:mr-[8px] before:mr-[4px] before:bottom-0 before:left-0 desktop:before:w-[90px] before:w-[30px] desktop:before:h-[3px] before:h-[2px] before:bg-black"
-              >
-              <?php
-                $currentCategory = str_replace('-',' ',str_replace('/','',substr("http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]",35, 30)));
-                echo $currentCategory;
-              ?>
-              <span class="ml-[-8px] desktop:ml-[-16px] desktop:text-[100px] text-[70px] leading-[1px] desktop:leading-auto">.</span></span
-            >
+            <?php
+              $currentCategory = str_replace('-',' ',str_replace('/','',substr("http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]",35, 30)));
+              echo $currentCategory;
+            ?>
           </p>
           <!-- /wp:paragraph -->
+          <!-- wp:paragraph -->
+          <span class="ml-[-8px] desktop:ml-[-16px] desktop:text-[100px] text-[70px] leading-[1px] desktop:leading-auto">.</span>
+          <!-- /wp:paragraph -->
         </div>
-        <!-- /wp:group -->
+        <!-- /wp:group -->        
       </div>
       <!-- /wp:group -->
     </div>
