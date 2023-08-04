@@ -94,7 +94,8 @@ body{
 }
 @media only screen and (max-width: 480px) {
   .right-col img{
-    height: 200px!important;
+    height: 250px!important;
+    object-fit: cover;
   }
 }
 
