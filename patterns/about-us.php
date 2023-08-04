@@ -34,20 +34,23 @@
       <!-- wp:group -->
       <div class="wp-block-group col1 desktop:mb-auto mb-[20px] desktop:basis-[45%] wide:h-[900px] desktop:h-[790px] h-[300px] rounded-tr-[15px]">
         <!-- wp:group -->
-        <div class="wp-block-group img-clip-path-rounded w-full h-full rounded-tr-[20px] overflow-hidden">
+        <div class="wp-block-group w-full h-full rounded-tr-[20px] overflow-hidden">
           <!-- wp:image -->
-          <figure class="wp-block-image img-clip-path-about-us h-full">
+          <figure class="wp-block-image clipped h-full">
             <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/front-page/o-nas-img.png" alt="background-image">
           </figure>
           <!-- /wp:image -->
           <!-- wp:paragraph -->
-          <svg class="flt_svg" xmlns="http://www.w3.org/2000/svg">
+          <svg width="0" height="0">
             <defs>
-              <filter id="flt_tag">
-                <feGaussianBlur in="SourceGraphic" stdDeviation="8" result="blur" />    
-                <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9" result="flt_tag" />
-                <feComposite in="SourceGraphic" in2="flt_tag" operator="atop"/>
-              </filter>
+              <clipPath id="clipped">
+                <circle cx="var(--myRad)" cy="var(--myRad)" r="var(--myRad)"></circle>
+                <circle cx="var(--myRad)" cy="calc(var(--myHeight) - var(--myRad))" r="var(--myRad)"></circle>
+                <circle cx="calc(var(--myWidth) - var(--myRad))" cy="calc(var(--myHeight) - var(--myRad))" r="var(--myRad)"></circle>
+                <circle cx="calc(var(--myWidth) - var(--myRad))" cy="var(--myRad)" r="var(--myRad)"></circle>
+                <rect y="var(--myRad)" width="var(--myWidth)" height="calc(var(--myHeight) - (2 * var(--myRad)))"></rect>
+                <rect x="var(--myRad)" width="calc(var(--myWidth) - (2 * var(--myRad)))" height="var(--myHeight)"></rect>
+              </clipPath>
             </defs>
           </svg>
           <!-- /wp:paragraph -->
