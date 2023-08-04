@@ -32,11 +32,11 @@
     <!-- wp:group -->
     <div class="wp-block-group targets-wrapper desktop:ml-[83px] desktop:flex gap-x-[80px] wide:gap-x-[200px]">
       <!-- wp:group -->
-      <div class="wp-block-group col1 desktop:mb-auto mb-[20px] desktop:basis-[45%] wide:h-[900px] desktop:h-[790px] h-[300px] rounded-tr-[15px]">
+      <div class="wp-block-group col1 desktop:mb-auto mb-[20px] desktop:basis-[45%] wide:h-[900px] desktop:h-[790px] rounded-tr-[15px]">
         <!-- wp:group -->
         <div class="wp-block-group w-full h-full rounded-tr-[20px] overflow-hidden">
           <!-- wp:image -->
-          <figure class="wp-block-image clipped h-full">
+          <figure class="wp-block-image clipped max-h-[600px] relative">
             <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/front-page/o-nas-img.png" alt="background-image">
           </figure>
           <!-- /wp:image -->

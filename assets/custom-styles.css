@@ -101,6 +101,12 @@ body{
 }
 
 /* about us */
+.about-img{
+  height: 100%;
+  width: 100%;
+  max-width: 100%;
+  object-fit: fill;
+}
 
 .img-clip-path-about-us{
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 95%, 60% 95%, 53% 100%, 0 100%);
