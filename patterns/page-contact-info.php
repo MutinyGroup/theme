@@ -42,7 +42,7 @@
       >
         <!-- wp:group -->
         <div
-        class="wp-block-group section-title grid desktop:basis-auto desktop:w-[145px] desktop:basis-[80%] uppercase text-primaryYellow"
+        class="wp-block-group section-title grid desktop:basis-auto desktop:w-[165px] desktop:basis-[80%] uppercase text-primaryYellow"
         >
           <!-- wp:paragraph -->
           <p class="pt-[3px] pr-[15px] text-left desktop:text-right">Marketing robimy kompleksowo</p>
