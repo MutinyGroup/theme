@@ -101,6 +101,9 @@ body{
     object-fit: cover!important;
   }
 }
+.clipped-banner{
+  clip-path: url(#clipped-banner);
+}
 
 
 /* about us */
