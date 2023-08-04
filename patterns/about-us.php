@@ -36,7 +36,7 @@
         <!-- wp:group -->
         <div class="wp-block-group w-full h-full rounded-tr-[20px] overflow-hidden">
           <!-- wp:image -->
-          <figure class="wp-block-image clipped max-h-[600px] relative">
+          <figure class="wp-block-image about-img clipped max-h-[600px] wide:max-h-[900px] desktop:max-h-[790px] relative">
             <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/front-page/o-nas-img.png" alt="background-image">
           </figure>
           <!-- /wp:image -->

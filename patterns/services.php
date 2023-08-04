@@ -120,18 +120,16 @@
                     </div>
                     <!-- /wp:group -->                      
                     <!-- wp:image -->
-                    <figure class="wp-block-image <?php if($counter == 1) echo 'img-clip-path-services'; elseif($counter == $post_query->post_count) echo 'img-clip-path-blog'; ?>  h-full">
+                    <figure class="wp-block-image services-swiper-img <?php if($counter == 1) echo 'clipped-services-swiper-start'; elseif($counter == $post_query->post_count) echo 'clipped-services-swiper-end'; ?>  h-full">
                       <img src="<?php echo $postImageUrl[0]; ?>" alt="services-backgroun-image">
                     </figure>
                     <!-- /wp:image -->
                     <!-- wp:paragraph -->
-                    <svg class="flt_svg" xmlns="http://www.w3.org/2000/svg">
+                    <svg width="0" height="0">
                       <defs>
-                        <filter id="flt_tag">
-                          <feGaussianBlur in="SourceGraphic" stdDeviation="8" result="blur" />
-                          <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9" result="flt_tag" />
-                          <feComposite in="SourceGraphic" in2="flt_tag" operator="atop"/>
-                        </filter>
+                        <clipPath id="clipped-services-swiper-start">
+                        <path d="M0 88.2843C0 82.9799 2.10714 77.8929 5.85786 74.1421L74.1421 5.85786C77.8929 2.10713 82.9799 0 88.2843 0H334C345.046 0 354 8.95431 354 20V430C354 441.046 345.046 450 334 450H0V88.2843Z"/>
+                        </clipPath>
                       </defs>
                     </svg>
                     <!-- /wp:paragraph -->
