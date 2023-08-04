@@ -35,27 +35,22 @@
 
 
         <!-- wp:group -->
-        <div class="wp-block-group title uppercase font-medium desktop:text-[60px] text-[24px] desktop:leading-[60px] leading-[30px]">
+        <div class="wp-block-group uslugi-title uppercase font-medium desktop:text-[60px] text-[30px] desktop:leading-[60px] leading-[30px]">
+          <!-- wp:paragraph -->
+          <p>Nie boimy sie</p>
+          <!-- /wp:paragraph -->
+          <!-- wp:paragraph -->
+          <p class="inline">przekraczać</p>
+          <!-- /wp:paragraph -->
           <!-- wp:paragraph -->
           <p
-          class="uppercase"
+            class="relative desktop:inline-block block uppercase italic before:content-[''] before:inline-block desktop:before:mr-[8px] before:mr-[4px] before:bottom-0 before:left-0 desktop:before:w-[90px] before:w-[30px] desktop:before:h-[3px] before:h-[2px] before:bg-black"
           >
-            Jak możemy
+            granic
           </p>
           <!-- /wp:paragraph -->
           <!-- wp:paragraph -->
-          <p class="inline">
-            Ci
-          </p>
-          <!-- /wp:paragraph -->
-          <!-- wp:paragraph -->
-            <p
-              class="relative inline desktop:text-[60px] text-[24px] uppercase italic before:content-[''] before:inline-block desktop:before:mr-[8px] before:mr-[4px] before:bottom-0 before:left-0 desktop:before:w-[90px] before:w-[30px] desktop:before:h-[3px] before:h-[2px] before:bg-black"
-            >
-              pomóc?
-            </p>
-            <!-- /wp:paragraph -->
-          </p>
+          <span class="ml-[-8px] desktop:ml-[-16px] desktop:text-[100px] text-[70px] leading-[1px] desktop:leading-auto">.</span>
           <!-- /wp:paragraph -->
         </div>
         <!-- /wp:group -->
