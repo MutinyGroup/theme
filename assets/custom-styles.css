@@ -101,7 +101,7 @@ body{
 
 
 /* about us */
-.about-img{
+.about-img img{
   height: 100%;
   width: 100%;
   max-width: 100%;
@@ -196,6 +196,9 @@ body{
 .img-clip-path-services2{
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 83%, 82% 100%, 0 100%);
   clip-path: polygon(0 0, 100% 0, 100% 83%, 82% 100%, 0 100%);
+}
+.clipped-services-swiper-start{
+  clip-path: url(#clipped-services-swiper-start);
 }
 
 /* realizations */
