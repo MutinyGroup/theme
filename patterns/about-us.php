@@ -36,10 +36,10 @@
         <!-- wp:group -->
         <div class="wp-block-group w-full h-full rounded-tr-[20px] overflow-hidden">
           <!-- wp:image -->
-          <figure class="wp-block-image hero-box__figure clip-path-img clipped-about w-full h-full relative">
-            <img class="hero-box__img" src="https://mutiny.webo.design/wp-content/uploads/2023/07/services-tile-img6.jpg" alt="background-image">
+          <figure class="wp-block-image hero-box__figure">
+            <img src="https://images.pexels.com/photos/2662116/pexels-photo-2662116.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" class="hero-box__img" width="750" height="750">
+
           </figure>
-          <!-- /wp:image -->
           <!-- wp:paragraph -->
           <svg x="0px" y="0px" viewBox="0 0 1374.7 1083.6" class="hero-box__svg " >
             <defs>
