@@ -36,8 +36,8 @@
         <!-- wp:group -->
         <div class="wp-block-group w-full h-full rounded-tr-[20px] overflow-hidden">
           <!-- wp:image -->
-          <figure class="wp-block-image clip-path-img clipped-about w-full h-full relative">
-            <img src="https://mutiny.webo.design/wp-content/uploads/2023/07/services-tile-img6.jpg" alt="background-image">
+          <figure class="wp-block-image hero-box__figure clip-path-img clipped-about w-full h-full relative">
+            <img class="hero-box__img" src="https://mutiny.webo.design/wp-content/uploads/2023/07/services-tile-img6.jpg" alt="background-image">
           </figure>
           <!-- /wp:image -->
           <!-- wp:paragraph -->
