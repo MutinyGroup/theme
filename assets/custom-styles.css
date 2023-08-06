@@ -65,86 +65,17 @@ body{
 }
 
 /* test */
-*, *::before, *::after {
-  box-sizing: border-box;
-}
-
-.hero-box { 
-min-height: 60vh;
-width: 100%;
-position: relative;
-}
-
-.hero-box__inner {
-padding: 2rem;
-max-width: 80rem;
-display: flex;
-flex-wrap: wrap;
-}
-
-.hero-box__content {
-width: 100%;
-padding: 0 1rem;
-}
-
-
-
-.hero-box__figure-box {
-position: ;
-top: 0;
-right: 0;
-width: 70%;
-height: 61vh;
-}
-
 .hero-box__figure {
-padding: 0;
-margin: 0;
-display: block;
-width: 100%;
-height: 100%;
-position: relative;
+  width: 100%!important;
+  height: 100%!important;
 }
 
 .hero-box__img {
-position: ;
-width: 100%;
-height: auto;
-object-fit: cover;
-display: block;
-clip-path: url(#mainHeroBlock3);
+  width: 100%!important;
+  height: auto!important;
+  object-fit: cover!important;
+  clip-path: url(#mainHeroBlock3)!important;
 }
-
-.hero-box__svg {
-/*     position: absolute;
-  bottom: 0;
-  top: 0;
-  right: 0;
-  left: 0;
-  z-index: 1; */
-}
-
-.fill-primary {
-  fill: #377dff!important;
-}
-
-#mainHeroBlock3 {
-transform: scale(0.0007274, 0.0009228);
-}
-
-@media (min-width:768px){
-.hero-box__content {
-  width:40%;
-}
-}
-
-/* in first sample dimensions are preserved better than second sample */
-
-/* 
-using this artile to have responsive clip-path ==>
-http://meyerweb.com/eric/thoughts/2017/02/24/scaling-svg-clipping-paths-for-css-use/
-==> to have responsive clip path must convert all the SVG coordinates to the range 0–1 and using the clipPathUnits="objectBoundingBox" attribute. */
-
 
 .wp-block-image{
   margin-bottom: 0;
