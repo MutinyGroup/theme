@@ -126,7 +126,7 @@
                     <!-- /wp:image -->
    
                     <!-- wp:paragraph -->
-                    <svg width="0" height="0" class="<?php if($counter == 1) echo ''; elseif($counter == $post_query->post_count) echo ''; ?>">
+                    <svg width="0" height="0">
                       <defs>
                         <?php
                           if($counter == 1){
@@ -178,7 +178,7 @@
                   <!-- /wp:buttons -->
 
                   <!-- wp:paragraph -->
-                  <p class="hover-text w-[250px] mt-[270px] wide:mt-[350px] translate-y-[70px] opacity-[0%] group-hover:opacity-[100%] desktop:group-hover:translate-y-[10px] group-hover:translate-y-[-55px] transition-all ease-out duration-500 text-[15px] font-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet in aspernatur alias ipsa, fuga ut!
+                  <p class="hover-text w-[250px] mt-[270px] wide:mt-[350px] translate-y-[70px] opacity-[0%] group-hover:opacity-[100%] desktop:group-hover:translate-y-[10px] group-hover:translate-y-[-75px] transition-all ease-out duration-500 text-[15px] font-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet in aspernatur alias ipsa, fuga ut!
                   </p>
                   <!-- /wp:paragraph -->
                 </div>
