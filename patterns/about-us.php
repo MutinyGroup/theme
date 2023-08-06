@@ -37,8 +37,7 @@
         <div class="wp-block-group w-full h-full rounded-tr-[20px] overflow-hidden">
           <!-- wp:image -->
           <figure class="wp-block-image hero-box__figure">
-            <img src="https://images.pexels.com/photos/2662116/pexels-photo-2662116.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" class="hero-box__img" width="750" height="750">
-
+            <img src="https://images.pexels.com/photos/2662116/pexels-photo-2662116.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" class="hero-box__img">
           </figure>
           <!-- wp:paragraph -->
           <svg x="0px" y="0px" viewBox="0 0 1374.7 1083.6" class="hero-box__svg " >
