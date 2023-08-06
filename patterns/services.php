@@ -120,19 +120,13 @@
                     </div>
                     <!-- /wp:group -->                      
                     <!-- wp:image -->
-                    <figure class="wp-block-image clip-path-img1 <?php if($counter == 1) echo 'clipped-swiper-serv-11'; elseif($counter == $post_query->post_count) echo 'clipped-swiper-serv-22'; ?>  h-full">
+                    <figure class="wp-block-image clip-path-img <?php if($counter == 1) echo 'clipped-swiper-serv-1'; elseif($counter == $post_query->post_count) echo 'clipped-swiper-serv-2'; ?>  h-full">
                       <img src="<?php echo $postImageUrl[0]; ?>" alt="services-background-image">
-                      <svg viewBox="0 0 398.6 435.4" width="0" height="0">
-                        <clipPath id="blob1" clipPathUnits="objectBoundingBox" transform="scale(0.002508, 0.002296)">
-                          <path d="M0 20C0 8.9543 8.95431 0 20 0H80H334C345.046 0 354 8.9543 354 20V361.716C354 367.02 351.893 372.107 348.142 375.858L279.858 444.142C276.107 447.893 271.02 450 265.716 450H0V20Z"  />
-                        </clipPath>
-                      </svg>
-                      
                     </figure>
                     <!-- /wp:image -->
    
                     <!-- wp:paragraph -->
-                    <svg width="0" height="0" class="hidden">
+                    <svg width="0" height="0">
                       <defs>
                         <?php
                           if($counter == 1){
