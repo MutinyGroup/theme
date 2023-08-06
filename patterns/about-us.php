@@ -34,13 +34,13 @@
       <!-- wp:group -->
       <div class="wp-block-group col1 desktop:mb-auto mb-[20px] desktop:basis-[45%] wide:h-[900px] desktop:h-[790px] rounded-tr-[15px]">
         <!-- wp:group -->
-        <div class="wp-block-group w-full h-full rounded-tr-[20px] overflow-hidden">
+        <div class="wp-block-group relative w-full h-full rounded-tr-[20px] overflow-hidden">
           <!-- wp:image -->
           <figure class="wp-block-image hero-box__figure">
             <img src="https://images.pexels.com/photos/2662116/pexels-photo-2662116.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="about-us-image" class="hero-box__img">
           </figure>
           <!-- wp:paragraph -->
-          <svg x="0px" y="0px" viewBox="0 0 1374.7 1083.6" class="hero-box__svg " >
+          <svg x="0px" y="0px" viewBox="0 0 1374.7 1083.6" class="hero-box__svg absolute top-0" >
             <defs>
               <clipPath id="mainHeroBlock3" clipPathUnits="objectBoundingBox" transform="scale(0.0018, 0.0012)">
                 <path d="M0 0H523C534.046 0 543 8.95431 543 20V721C543 732.046 534.046 741 523 741H355.427C347.47 741 339.839 744.161 334.213 749.787L301.787 782.213C296.161 787.839 288.53 791 280.574 791H0.000204735L0 0Z"/>
