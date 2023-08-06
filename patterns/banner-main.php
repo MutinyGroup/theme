@@ -87,7 +87,7 @@
       <!-- wp:group -->
       <div class="wp-block-group right-col banner-bg h-[300px] desktop:h-auto wide:h-[950px] desktop:w-[44%] w-[65%] absolute right-0 desktop:top-[50px] top-[30px] z-[-1]">
         <!-- wp:image -->
-        <figure class="wp-block-image clip-path-img clipped-banner max-h-[300px] relative desktop:max-h-full before:content-[''] before:w-full before:h-full before:bg-[#000] before:opacity-[30%] before:absolute before:top-0 before:left-0">
+        <figure class="wp-block-image clip-path-img clipped-banner relative desktop:max-h-full before:content-[''] before:w-full before:h-full before:bg-[#000] before:opacity-[30%] before:absolute before:top-0 before:left-0">
           <img
             src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/front-page/banner-bg.png"
             alt="background image"
@@ -97,7 +97,7 @@
           <!-- wp:paragraph -->
         <svg width="0" height="0">
           <defs>
-            <clipPath id="clipped-banner" class="wide:scale-[1.35]">
+            <clipPath id="clipped-banner" class="wide:scale-[1.35] scale-[0.4]">
               <path d="M0 20C0 8.95432 8.95431 0 20 0H625V700H212.426C204.47 700 196.839 696.839 191.213 691.213L8.78681 508.787C3.16072 503.161 0 495.53 0 487.574V20Z"/>
             </clipPath>
           </defs>
