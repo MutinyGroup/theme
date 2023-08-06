@@ -37,15 +37,18 @@
         <div class="wp-block-group w-full h-full rounded-tr-[20px] overflow-hidden">
           <!-- wp:image -->
           <figure class="wp-block-image clip-path-img clipped-about w-full h-full relative">
-            <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/front-page/o-nas-img.png" alt="background-image">
+            <img src="https://mutiny.webo.design/wp-content/uploads/2023/07/services-tile-img6.jpg" alt="background-image">
           </figure>
           <!-- /wp:image -->
           <!-- wp:paragraph -->
-          <svg viewBox="0 0 398.6 435.4" width="0" height="0">
-            <clipPath id="clipped-about" clipPathUnits="objectBoundingBox" transform="scale(0.002508, 0.002296)">
-              <path xmlns="http://www.w3.org/2000/svg" d="M66.1682 -6.10352e-05H334C345.046 -6.10352e-05 354 8.95424 354 19.9999V396.928C354 407.974 345.046 416.928 334 416.928H233.807C225.792 416.928 218.11 420.136 212.474 425.835L197.386 441.094C191.751 446.793 184.069 450 176.054 450H20.0001C8.95444 450 0.000112129 441.046 0.000109321 430L5.0847e-06 19.9999C2.2765e-06 8.95424 8.95431 -6.10352e-05 20 -6.10352e-05L66.1682 -6.10352e-05Z" />
-            </clipPath>
-          </svg>
+          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1374.7 1083.6" class="hero-box__svg " >
+              <path class="main-hero-0 fill-primary" opacity=".10" d="M0 0H523C534.046 0 543 8.95431 543 20V721C543 732.046 534.046 741 523 741H355.427C347.47 741 339.839 744.161 334.213 749.787L301.787 782.213C296.161 787.839 288.53 791 280.574 791H0.000204735L0 0Z"></path>
+              <defs>
+                    <clipPath id="mainHeroBlock3" clipPathUnits="objectBoundingBox" transform="scale(0.0007274, 0.0009228)">
+                     <use xlink:href="#mainHeroBlock1" style="overflow:visible;"></use>
+                    </clipPath>
+                </defs>
+            </svg>
           <!-- /wp:paragraph -->
         </div>
         <!-- /wp:group -->
