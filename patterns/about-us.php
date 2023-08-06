@@ -37,13 +37,13 @@
         <div class="wp-block-group w-full h-full rounded-tr-[20px] overflow-hidden">
           <!-- wp:image -->
           <figure class="wp-block-image clip-path-img clipped-about w-full h-full relative">
-            <img class="blob" src="https://mutiny.webo.design/wp-content/uploads/2023/07/services-tile-img6.jpg" alt="background-image">
+            <img src="https://mutiny.webo.design/wp-content/uploads/2023/07/services-tile-img6.jpg" alt="background-image">
           </figure>
           <!-- /wp:image -->
           <!-- wp:paragraph -->
           <svg viewBox="0 0 398.6 435.4" width="0" height="0">
             <clipPath id="blob1" clipPathUnits="objectBoundingBox" transform="scale(0.002508, 0.002296)">
-              <path d="M0 20C0 8.9543 8.95431 0 20 0H80H334C345.046 0 354 8.9543 354 20V361.716C354 367.02 351.893 372.107 348.142 375.858L279.858 444.142C276.107 447.893 271.02 450 265.716 450H0V20Z"/>
+              <path d="M0 0H523C534.046 0 543 8.95431 543 20V721C543 732.046 534.046 741 523 741H355.427C347.47 741 339.839 744.161 334.213 749.787L301.787 782.213C296.161 787.839 288.53 791 280.574 791H0.000204735L0 0Z"/>
             </clipPath>
           </svg>
           <!-- /wp:paragraph -->

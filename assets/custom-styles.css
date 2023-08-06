@@ -51,7 +51,7 @@ body{
 .clipped-banner{
   clip-path: url(#clipped-banner);
 }
-.clipped-about{
+.clipped-about img{
   clip-path: url(#clipped-about);
 }
 .clipped-swiper-serv-1{
