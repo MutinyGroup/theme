@@ -109,7 +109,7 @@
                 $counter++;
               ?>
                 <!-- wp:group -->
-                <div class="wp-block-group swiper-slide swiper-slide-services relative z-[2] group p-[25px] wide:max-w-[420px] desktop:max-w-[354px] max-w-[310px] h-[450px] wide:h-[530px] rounded-[20px] transition ease-out duration-300 mr-[8px] cursor-default">
+                <div class="wp-block-group swiper-slide swiper-slide-services relative z-[2] group p-[25px] wide:max-w-[420px] desktop:max-w-[354px] max-w-[310px] h-[390px] desktop:h-[450px] wide:h-[530px] rounded-[20px] transition ease-out duration-300 mr-[8px] cursor-default">
                   <!-- wp:group -->
                   <div class="wp-block-group img-clip-path-wrapper w-full h-full rounded-[20px] rounded-br-[20px] overflow-hidden absolute left-0 top-0 z-[-1]">
                     <!-- wp:group -->
