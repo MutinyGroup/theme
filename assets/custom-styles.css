@@ -139,12 +139,6 @@ body{
   justify-content: center;
   align-items: center;
 }
-.swiper-slide-services img {
-  display: block;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
 .swiper-slide-services {
   width: 354px !important;
   height: 450px !important;
