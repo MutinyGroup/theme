@@ -293,6 +293,7 @@ body{
   overflow-x: hidden;
 }
 
+.video-player-wrapper::before,
 .tile-realizacje-1::before,
 .tile-realizacje-2::before {
   opacity: 0;
@@ -310,6 +311,9 @@ body{
   background-size: cover;
   background-blend-mode: hard-light, hard-light, luminosity;
   transition: all 0.3s ease-out;
+}
+.video-player-wrapper::before{
+  clip-path: url(#clipped-video);
 }
 .tile-realizacje-1::before {
   clip-path: url(#clipped-realizations-1);
