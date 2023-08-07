@@ -217,13 +217,11 @@
           </figure>
           <!-- /wp:image -->
           <!-- wp:paragraph -->
-          <svg class="flt_svg" xmlns="http://www.w3.org/2000/svg">
+          <svg x="0px" y="0px" viewBox="0 0 1374.7 1083.6" class="absolute top-0" >
             <defs>
-              <filter id="flt_tag">
-                <feGaussianBlur in="SourceGraphic" stdDeviation="8" result="blur" />    
-                <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9" result="flt_tag" />
-                <feComposite in="SourceGraphic" in2="flt_tag" operator="atop"/>
-              </filter>
+              <clipPath id="clipped-meet-us-gallery" class="scale-x-[0.00184] scale-[0.00122]" clipPathUnits="objectBoundingBox" transform="scale(0.0018, 0.0012)">
+                <path d="M-0.000204735 0L605 0C616.046 0 625 8.95431 625 20V680C625 691.046 616.046 700 605 700H437.429C429.472 700 421.841 703.161 416.215 708.787L383.789 741.213C378.163 746.839 370.532 750 362.576 750H0L-0.000204735 0Z"/>
+              </clipPath>
             </defs>
           </svg>
           <!-- /wp:paragraph -->

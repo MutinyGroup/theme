@@ -41,7 +41,7 @@ body{
   transform: rotate(-45deg);
 }
 
-/* clip path images */
+/* clip path images - front page */
 
 .clipped-banner img,
 .clipped-about img,
@@ -49,8 +49,9 @@ body{
 .clipped-swiper-serv-2 img,
 .clipped-realizations-1 img,
 .clipped-realizations-2 img,
-/* .clipped-blog img, */
-.clipped-cta img{
+.clipped-blog img,
+.clipped-cta img,
+.clipped-meet-us-gallery{
   height: 100%;
   width: 100%;
   object-fit: cover;
@@ -95,6 +96,10 @@ body{
 }
 .clipped-cta img{
   clip-path: url(#clipped-cta);
+}
+/* clip path images - page about */
+.clipped-meet-us-gallery{
+  clip-path: url(#clipped-meet-us-gallery);
 }
 
 
