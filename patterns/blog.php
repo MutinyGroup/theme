@@ -211,7 +211,11 @@
     <!-- wp:group -->
     <div class="wp-block-group button-wrapper container mx-auto px-[20px] desktop:px-0 flex items-center justify-center desktop:gap-[80px] gap-[20px] cursor-pointer">
       <!-- wp:group -->
-      <div class="wp-block-group gray-border w-full h-[2px] bg-[#808080] opacity-[25%]"></div>
+      <div class="wp-block-group gray-border w-full h-[2px] bg-[#808080] opacity-[25%]">
+        <!-- wp:paragraph -->
+        <p class="hidden">gray border</p>
+        <!-- /wp:paragraph -->
+      </div>
       <!-- /wp:group -->
       <!-- wp:buttons -->
       <div class="wp-block-buttons btn-more text-center ml-[0px] p-[15px_30px] uppercase border-[2px] border-white rounded-full hover:bg-white hover:text-black transition ease-out duration-300">
