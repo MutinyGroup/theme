@@ -63,8 +63,8 @@ body{
 .clipped-swiper-serv-2{
   clip-path: url(#clipped-swiper-serv-2);
 }
-.blob{
-  clip-path: url("#blob1");
+.clipped-services{
+  clip-path: url("#clipped-services");
 }
 
 /* test */
