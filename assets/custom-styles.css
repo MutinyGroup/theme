@@ -75,7 +75,6 @@ body{
 .clipped-blog{
   clip-path: url(#clipped-blog);
 }
-
 .clipped-blog img{
   transition: all 0.7s ease-out;
   transform: scale(1.15);
