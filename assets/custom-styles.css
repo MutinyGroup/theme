@@ -60,9 +60,10 @@ body{
 .clipped-swiper-serv-2{
   clip-path: url(#clipped-swiper-serv-2);
 }
-.clipped-services img{
-  clip-path: url(#clipped-services);
+.clipped-realizations img{
+  clip-path: url(#clipped-realizations);
 }
+
 
 /* test */
 /* .hero-box__figure {
