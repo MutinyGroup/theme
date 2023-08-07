@@ -75,20 +75,12 @@ body{
 .clipped-blog{
   clip-path: url(#clipped-blog);
 }
-
-
-/* test */
-/* .hero-box__figure {
-  width: 100%!important;
-  height: 100%!important;
+.clipped-blog img{
+  transform: scale(1.06);
 }
-
-.hero-box__img {
-  width: 100%!important;
-  height: 100%!important;
-  object-fit: cover!important;
-  clip-path: url(#mainHeroBlock3)!important;
-} */
+.clipped-blog img:hover{
+  transform: scale(1.12);
+}
 
 .wp-block-image{
   margin-bottom: 0;
