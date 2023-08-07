@@ -146,7 +146,7 @@
                         <!-- wp:group -->
                         <div class="wp-block-group img-wrapper mb-[20px]">
                           <!-- wp:group -->
-                          <div class="wp-block-group overflow-hidden h-[320px] desktop:h-[500px] rounded-[20px]">
+                          <div class="wp-block-group overflow-hidden h-[320px] desktop:h-[480px] wide:h-[500px] rounded-[20px]">
                             <!-- wp:image -->
                             <figure class="wp-block-image post-img scale-[1.12] group-hover:scale-[1.06] transition ease-out duration-[700ms]">
                               <img src="<?php echo $postImageUrl[0]; ?>" alt="post-image">
