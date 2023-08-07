@@ -83,6 +83,7 @@ body{
 }
 .clipped-cta img{
   clip-path: url(#clipped-cta);
+  height: 100%!important;
 }
 .clipped-cta:before{
   clip-path: url(#clipped-cta);
