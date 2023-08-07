@@ -118,7 +118,7 @@
                   <!-- wp:group -->
                   <div class="wp-block-group img-clip-path-wrapper  w-full h-full rounded-tr-[20px] rounded-br-[20px] overflow-hidden absolute left-0 top-0 z-[-1]">
                     <!-- wp:image -->
-                    <figure class="wp-block-image clip-path-figure clipped-realizations h-full group-hover:grayscale transition ease-in-out duration-[400ms]">
+                    <figure class="wp-block-image clip-path-figure h-full group-hover:grayscale transition ease-in-out duration-[400ms]">
                       <img src="<?php echo $postImageUrl[0]; ?>" alt="realizations-backgroun-image">
                     </figure>
                     <!-- /wp:image -->
