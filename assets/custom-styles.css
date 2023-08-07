@@ -50,10 +50,10 @@ body{
 .clipped-realizations-1 img,
 .clipped-realizations-2 img,
 .clipped-blog img,
-.clipped-blog img{
+.clipped-cta img{
   height: 100%;
   width: 100%;
-  object-fit: cover!important;
+  object-fit: cover;
 }
 .clipped-banner img{
   clip-path: url(#clipped-banner);
