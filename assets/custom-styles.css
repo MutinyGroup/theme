@@ -102,7 +102,7 @@ body{
 }
 @media only screen and (max-width: 480px) {
  .clipped-blog img{
-   height: 360px;
+   height: 370px;
  }
 }
 @media only screen and (min-width: 1600px) {
