@@ -43,7 +43,7 @@ body{
 
 /* clip path */
 
-.clip-path-img img{
+.clip-path-figure img{
   height: 100%;
   width: 100%;
   object-fit: cover;
@@ -52,9 +52,6 @@ body{
   clip-path: url(#clipped-banner);
 }
 .clipped-about img{
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
   clip-path: url(#mainHeroBlock3);
 }
 .clipped-swiper-serv-1{
@@ -63,8 +60,8 @@ body{
 .clipped-swiper-serv-2{
   clip-path: url(#clipped-swiper-serv-2);
 }
-.clipped-services{
-  clip-path: url("#clipped-services");
+.clipped-services img{
+  clip-path: url(#clipped-services);
 }
 
 /* test */
