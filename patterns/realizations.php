@@ -123,7 +123,7 @@
                     </figure>
                     <!-- /wp:image -->
                     <!-- wp:paragraph -->
-                    <svg x="0px" y="0px" viewBox="0 0 1374.7 1083.6" class=" absolute top-0" >
+                    <svg x="0px" y="0px" viewBox="0 0 1374.7 1083.6" class="absolute top-0" >
                       <defs>
                         <?php 
                           if($counter == 1){
