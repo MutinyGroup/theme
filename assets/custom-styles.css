@@ -93,6 +93,20 @@ body{
    height: 580px;
  }
 }
+.post-img img{
+  height: 525px;
+  object-fit: cover;
+}
+@media only screen and (max-width: 480px) {
+ .post-img img{
+   height: 320px;
+ }
+}
+@media only screen and (min-width: 1600px) {
+ .post-img img{
+   height: 580px;
+ }
+}
 
 .wp-block-image{
   margin-bottom: 0;
