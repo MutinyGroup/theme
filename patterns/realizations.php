@@ -107,7 +107,7 @@
               $counter++;
               if (true){ ?>         
                 <!-- wp:list-item -->
-                <li class="wp-block-group tile-realizacje mb-[30px] h-[320px] desktop:h-[600px] wide:h-[680px] w-[100%] desktop:w-[545px] wide:w-[600px] h-[480px] desktop:h-[700px] wide:h-[780px] relative group w-1/2 transition ease-in-out duration-[400ms] img-clip-path-rounded relative group <?php if (($counter % 2)) echo ''; else echo 'desktop:translate-y-[50px]'; ?>">
+                <li class="wp-block-group tile-realizacje mb-[30px] h-[320px] desktop:h-[600px] wide:h-[680px] w-[100%] desktop:w-[545px] wide:w-[600px] h-[480px] desktop:h-[700px] wide:h-[780px] relative group w-1/2 transition ease-in-out duration-[400ms] relative group <?php if (($counter % 2)) echo ''; else echo 'desktop:translate-y-[50px]'; ?>">
                   <!-- wp:group -->
                   <div class="wp-block-group <?php if($counter == 1) echo 'img-clip-path-services'; elseif($counter == $post_query->post_count) echo 'img-clip-path-blog'; ?> gray-overlay w-full h-full bg-[#101010] absolute top-0 left-0 opacity-[50%]">
                     <!-- wp:paragraph -->
@@ -118,7 +118,7 @@
                   <!-- wp:group -->
                   <div class="wp-block-group img-clip-path-wrapper  w-full h-full rounded-tr-[20px] rounded-br-[20px] overflow-hidden absolute left-0 top-0 z-[-1]">
                     <!-- wp:image -->
-                    <figure class="wp-block-image <?php if($counter == 1) echo 'clipped-realizations-1'; elseif($counter == $post_query->post_count) echo 'clipped-about'; ?> h-full group-hover:grayscale transition ease-in-out duration-[400ms]">
+                    <figure class="wp-block-image clipped-realizations h-full group-hover:grayscale transition ease-in-out duration-[400ms]">
                       <img src="<?php echo $postImageUrl[0]; ?>" alt="realizations-backgroun-image">
                     </figure>
                     <!-- /wp:image -->
@@ -128,14 +128,14 @@
                         <?php 
                           if($counter == 1){
                             echo '
-                            <clipPath id="clipped-realizations-1" class="scale-[0.002]" clipPathUnits="objectBoundingBox" transform="scale(0.0018, 0.0012)">
+                            <clipPath id="clipped-realizations" class="scale-[0.002]" clipPathUnits="objectBoundingBox" transform="scale(0.0018, 0.0012)">
                               <path d="M94.1421 5.85786C97.8929 2.10713 102.98 0 108.284 0H515C526.046 0 535 8.95431 535 20V670C535 686.569 521.569 700 505 700H20.0002C8.95451 700 0.000199138 691.046 0.000195955 680L3.12042e-05 108.284C2.96756e-05 102.98 2.10717 97.8929 5.85789 94.1421L94.1421 5.85786Z"/>
                             </clipPath>
                             '; 
                           }elseif($counter == $post_query->post_count){
                             echo '
-                            <clipPath id="clipped-about" class="scale-x-[0.00184] scale-[0.00122]" clipPathUnits="objectBoundingBox" transform="scale(0.0018, 0.0012)">
-                              <path d="M0 0H523C534.046 0 543 8.95431 543 20V721C543 732.046 534.046 741 523 741H355.427C347.47 741 339.839 744.161 334.213 749.787L301.787 782.213C296.161 787.839 288.53 791 280.574 791H0.000204735L0 0Z"/>
+                            <clipPath id="clipped-realizations" class="scale-x-[0.00184] scale-[0.00122]" clipPathUnits="objectBoundingBox" transform="scale(0.0018, 0.0012)">
+                              <path d="M99.9999 0H515C526.046 0 535 8.95431 535 20V630C535 641.046 526.046 650 515 650H346.951C338.934 650 331.25 653.209 325.615 658.91L293.807 691.09C288.172 696.791 280.488 700 272.471 700H20.0001C8.9544 700 0.000110665 691.046 0.000107937 680L-5.50846e-05 20C-5.78129e-05 8.9543 8.95425 0 19.9999 0L99.9999 0Z"/>
                             </clipPath>
                             ';
                           } 
