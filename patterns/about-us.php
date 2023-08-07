@@ -39,6 +39,7 @@
           <figure class="wp-block-image w-full h-full clipped-about">
             <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/front-page/o-nas-img.png" alt="about-us-image">
           </figure>
+          <!-- /wp:image -->
           <!-- wp:paragraph -->
           <svg x="0px" y="0px" viewBox="0 0 1374.7 1083.6" class="absolute top-0" >
             <defs>
