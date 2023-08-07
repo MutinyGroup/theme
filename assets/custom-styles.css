@@ -104,7 +104,7 @@ body{
 .clipped-meet-us-gallery{
   clip-path: url(#clipped-meet-us-gallery);
 }
-.video-player-wrapper:after{
+.video-player-wrapper::after{
   clip-path: url(#clipped-cta);
 }
 
