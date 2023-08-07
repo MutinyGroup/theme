@@ -52,7 +52,7 @@ body{
   clip-path: url(#clipped-banner);
 }
 .clipped-about img{
-  clip-path: url(#mainHeroBlock3);
+  clip-path: url(#clipped-about);
 }
 .clipped-swiper-serv-1{
   clip-path: url(#clipped-swiper-serv-1);
