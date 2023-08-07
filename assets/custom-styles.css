@@ -49,7 +49,8 @@ body{
 .clipped-swiper-serv-2 img,
 .clipped-realizations-1 img,
 .clipped-realizations-2 img,
-.clipped-blog img{
+.clipped-blog img,
+.clipped-blog{
   height: 100%;
   width: 100%;
   object-fit: cover;
