@@ -137,7 +137,7 @@
                             '; 
                           }elseif($counter == $post_query->post_count){
                             echo '
-                              <clipPath id="clipped-swiper-serv-2" class="scale-[0.84] desktop:scale-[1]">
+                              <clipPath id="clipped-swiper-serv-2" class="scale-[0.84] desktop:scale-[1] wide:scale-[1.2]">
                                 <path d="M0 20C0 8.9543 8.95431 0 20 0H80H334C345.046 0 354 8.9543 354 20V361.716C354 367.02 351.893 372.107 348.142 375.858L279.858 444.142C276.107 447.893 271.02 450 265.716 450H0V20Z"/>
                               </clipPath>
                             ';
