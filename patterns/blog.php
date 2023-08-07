@@ -97,13 +97,13 @@
                   $counter++;
                   if ($counter == 1){ ?>
                     <!-- wp:group -->
-                    <div class="wp-block-group swiper-slide desktop:mr-[80px] mr-[20px] relative group desktop:w-[535px] w-[300px] desktop:h-[675px] h-[500px]">
+                    <div class="wp-block-group swiper-slide desktop:mr-[80px] mr-[20px] relative group desktop:w-[535px] w-[300px] h-[500px] desktop:h-[675px] ">
                       <!-- wp:paragraph -->
                       <a href="<?php the_permalink(); ?>">                      
                         <!-- wp:group -->
                         <div class="wp-block-group mb-[20px]">
                           <!-- wp:group -->
-                          <div class="wp-block-group h-[335px] desktop:h-[550px] overflow-hidden rounded-[20px]">
+                          <div class="wp-block-group h-[360px] desktop:h-[550px] overflow-hidden rounded-[20px]">
                             <!-- wp:image -->
                             <figure class="wp-block-image post-img clipped-blog">
                               <img src="<?php echo $postImageUrl[0]; ?>" alt="post-image">
