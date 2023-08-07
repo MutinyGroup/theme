@@ -108,6 +108,23 @@ body{
   clip-path: url(#clipped-cta);
 }
 
+.video-player-wrapper::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  opacity: 50%;
+  width: 100%;
+  height: 100%;
+  background: url('https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-about/about-video.jpg');
+  background-position: center center;
+  background-size: cover;
+  transition: all 0.3s ease-out;
+}
+.video-player-wrapper::before{
+  clip-path: url(#clipped-video);
+}
 
 @media only screen and (max-width: 480px) {
  .clipped-blog img{
@@ -293,7 +310,6 @@ body{
   overflow-x: hidden;
 }
 
-.video-player-wrapper::before,
 .tile-realizacje-1::before,
 .tile-realizacje-2::before {
   opacity: 0;
@@ -311,9 +327,6 @@ body{
   background-size: cover;
   background-blend-mode: hard-light, hard-light, luminosity;
   transition: all 0.3s ease-out;
-}
-.video-player-wrapper::before{
-  clip-path: url(#clipped-video);
 }
 .tile-realizacje-1::before {
   clip-path: url(#clipped-realizations-1);
