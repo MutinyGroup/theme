@@ -77,10 +77,10 @@ body{
 }
 
 .clipped-blog img{
-  transform: scale(1.06);
+  transform: scale(1.12);
 }
 .swiperBlog .swiper-slide:hover .clipped-blog>img{
-  transform: scale(1.12);
+  transform: scale(1.06);
 }
 
 .wp-block-image{
