@@ -44,13 +44,13 @@ window.addEventListener("load", function () {
   
 
   videoBtn.addEventListener('click', () =>{
+    videoYt.classList.replace('opacity-0', 'opacity-1');
     videoWrapper.classList.add('after:opacity-0');
     videoBtn.classList.add('opacity-0');
     setTimeout(() => {
       videoWrapper.classList.replace('after:z-[1]', 'after:z-[-1]');
       // videoWrapper.classList.remove('img-clip-path-video');
       videoBtn.classList.replace('z-[2]', 'z-[-1]');
-      videoYt.classList.replace('opacity-0', 'opacity-1');
     },300);
   });
 });
