@@ -82,7 +82,7 @@ body{
 .clipped-blog img{
   height: 525px;
   transition: all 0.7s ease-out;
-  transform: scale(1.15);
+  transform: scale(1.12);
 }
 .clipped-cta img{
   clip-path: url(#clipped-cta);
@@ -98,7 +98,7 @@ body{
 
 
 .swiperBlog .swiper-slide:hover .clipped-blog>img{
-  transform: scale(1.09);
+  transform: scale(1.02);
 }
 @media only screen and (max-width: 480px) {
  .clipped-blog img{
