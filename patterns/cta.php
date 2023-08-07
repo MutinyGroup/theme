@@ -7,9 +7,9 @@
  */
 ?>
 <!-- wp:group -->
-<div id="CTA" class="wp-block-group relative cta desktop:mb-[150px]">
+<div id="CTA" class="wp-block-group relative cta mb-[150px]">
   <!-- wp:group -->
-  <div class="wp-block-group container group mx-auto desktop:px-0 px-[20px] desktop:mt-0 mt-[120px] desktop:p-[110px] h-[480px] desktop:h-[700px] wide:h-[940px] ">
+  <div class="wp-block-group container group mx-auto desktop:px-0 px-[20px] desktop:mt-0 mt-[120px] desktop:p-[110px] h-[300px] desktop:h-[700px] wide:h-[940px] ">
     <!-- wp:group -->
     <div class="wp-block-group title-wrapper relative desktop:mb-[80px] mb-[60px]">
       <!-- wp:group -->
@@ -80,7 +80,7 @@
   <!-- /wp:group -->
   
   <!-- wp:group -->
-  <div class="wp-block-group img-clip-path-wrapper w-[58%] h-full rounded-tl-[20px] overflow-hidden absolute right-0 desktop:top-0 top-[30px] z-[-1]">
+  <div class="wp-block-group img-clip-path-wrapper w-[58%] h-full rounded-tl-[20px] overflow-hidden absolute right-0 desktop:top-0 top-[-40px] z-[-1]">
     <!-- wp:image -->
     <figure class="wp-block-image clipped-cta h-full before:content-[''] before:w-full before:h-full before:bg-[#000] before:opacity-[40%] before:absolute before:top-0 before:left-0 before:z-[1]">
       <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/front-page/section-separator.jpg" alt="cta-backgroun-image">
@@ -89,7 +89,7 @@
     <!-- wp:paragraph -->
     <svg x="0px" y="0px" viewBox="0 0 1374.7 1083.6" class="absolute top-0" >
       <defs>
-        <clipPath id="clipped-cta" class="scale-[0.00177] desktop:scale-y-[0.0015] wide:scale-y-[0.001725]" clipPathUnits="objectBoundingBox">
+        <clipPath id="clipped-cta" class="scale-[0.0013] desktop:scale-y-[0.0015] wide:scale-y-[0.001725]" clipPathUnits="objectBoundingBox">
           <path d="M0 20C0 8.9543 8.95431 0 20 0L808 0V650H212.426C204.47 650 196.839 646.839 191.213 641.213L8.78681 458.787C3.16072 453.161 0 445.53 0 437.574V20Z"/>
         </clipPath>
       </defs>
