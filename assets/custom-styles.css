@@ -43,7 +43,12 @@ body{
 
 /* clip path */
 
-.clip-path-figure img{
+.clipped-banner img,
+.clipped-about img,
+.clipped-swiper-serv-1 img,
+.clipped-swiper-serv-2 img,
+.clipped-realizations-1 img,
+.clipped-banner img{
   height: 100%;
   width: 100%;
   object-fit: cover;
@@ -54,10 +59,10 @@ body{
 .clipped-about img{
   clip-path: url(#clipped-about);
 }
-.clipped-swiper-serv-1{
+.clipped-swiper-serv-1 img{
   clip-path: url(#clipped-swiper-serv-1);
 }
-.clipped-swiper-serv-2{
+.clipped-swiper-serv-2 img{
   clip-path: url(#clipped-swiper-serv-2);
 }
 .clipped-realizations-1 img{
