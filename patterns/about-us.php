@@ -36,7 +36,7 @@
         <!-- wp:group -->
         <div class="wp-block-group relative w-full h-full rounded-tr-[20px] overflow-hidden">
           <!-- wp:image -->
-          <figure class="wp-block-image w-full h-full clip-path-figure clipped-about">
+          <figure class="wp-block-image w-full h-full clipped-about">
             <img src="https://images.pexels.com/photos/2662116/pexels-photo-2662116.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="about-us-image" class="hero-box__img">
           </figure>
           <!-- wp:paragraph -->
