@@ -83,7 +83,7 @@
   <div class="wp-block-group img-clip-path-wrapper w-[58%] h-full rounded-tl-[20px] overflow-hidden absolute right-0 desktop:top-0 top-[30px] z-[-1]">
     <!-- wp:image -->
     <figure class="wp-block-image clipped-cta">
-      <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/front-page/cta-bg.png" alt="cta-backgroun-image">
+      <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/front-page/section-separator.jpg" alt="cta-backgroun-image">
     </figure>
     <!-- /wp:image -->
     <!-- wp:paragraph -->
