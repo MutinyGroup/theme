@@ -117,8 +117,8 @@ body{
   opacity: 70%;
   width: 100%;
   height: 780px;
-  /* background: url('https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-about/about-video.jpg'); */
-  background: red;
+  background: url('https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-about/about-video.jpg');
+  /* background: red; */
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
