@@ -258,10 +258,6 @@ body{
 .tile-realizacje:hover::before{
   opacity: 1;
 }
-.tile-realizacje img{
-  height: 100%;
-  object-fit: cover;
-}
 
 .img-clip-path-realizations{
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 93%, 61% 93%, 52% 100%, 0 100%);
