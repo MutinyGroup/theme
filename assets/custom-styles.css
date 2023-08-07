@@ -309,7 +309,7 @@ body{
   clip-path: url(#clipped-realizations-2);
 }
 .tile-realizacje-1:hover::before,
-.tile-realizacje-1:hover::before{
+.tile-realizacje-2:hover::before{
   opacity: 1;
 }
 
