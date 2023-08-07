@@ -75,10 +75,11 @@ body{
 .clipped-blog{
   clip-path: url(#clipped-blog);
 }
+
 .clipped-blog img{
   transform: scale(1.06);
 }
-.clipped-blog img:hover{
+.swiperBlog .swiper-slide:hover .clipped-blog{
   transform: scale(1.12);
 }
 
