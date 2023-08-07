@@ -51,7 +51,8 @@ body{
 .clipped-realizations-2 img,
 .clipped-blog img,
 .clipped-cta img,
-.clipped-meet-us-gallery{
+.clipped-meet-us-gallery,
+.clipped-video{
   height: 100%;
   width: 100%;
   object-fit: cover;
@@ -97,9 +98,14 @@ body{
 .clipped-cta img{
   clip-path: url(#clipped-cta);
 }
+
 /* clip path images - page about */
+
 .clipped-meet-us-gallery{
   clip-path: url(#clipped-meet-us-gallery);
+}
+.video-player-wrapper:after{
+  clip-path: url(#clipped-cta);
 }
 
 
