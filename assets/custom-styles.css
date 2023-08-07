@@ -41,7 +41,7 @@ body{
   transform: rotate(-45deg);
 }
 
-/* clip path */
+/* clip path images */
 
 .clipped-banner img,
 .clipped-about img,
@@ -84,6 +84,15 @@ body{
 .clipped-cta img{
   clip-path: url(#clipped-cta);
 }
+.clipped-cta:before{
+  clip-path: url(#clipped-cta);
+}
+.clipped-cta img{
+  clip-path: url(#clipped-cta);
+}
+
+
+
 .swiperBlog .swiper-slide:hover .clipped-blog>img{
   transform: scale(1.09);
 }
