@@ -73,7 +73,7 @@ body{
   clip-path: url(#clipped-realizations-2);
 }
 .clipped-blog img{
-  clip-path: url(#clipped-realizations-2);
+  clip-path: url(#clipped-blog);
 }
 
 
