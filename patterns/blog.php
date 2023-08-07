@@ -105,7 +105,7 @@
                           <!-- wp:group -->
                           <div class="wp-block-group h-[360px] desktop:h-[550px] overflow-hidden rounded-[20px]">
                             <!-- wp:image -->
-                            <figure class="wp-block-image clipped-blog h-full">
+                            <figure class="wp-block-image post-img clipped-blog h-full transition ease-out duration-[700ms]">
                               <img src="<?php echo $postImageUrl[0]; ?>" alt="post-image">
                             </figure>
                             <!-- /wp:image -->
