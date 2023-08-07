@@ -40,14 +40,17 @@ window.addEventListener("load", function () {
   // video background image
   const videoWrapper = document.querySelector('.js-videoWrapper');
   const videoBtn = document.querySelector('.js-videoBtn');
+  const videoYt = document.querySelector('.video-yt');
+  
 
   videoBtn.addEventListener('click', () =>{
     videoWrapper.classList.add('after:opacity-0');
     videoBtn.classList.add('opacity-0');
     setTimeout(() => {
       videoWrapper.classList.replace('after:z-[1]', 'after:z-[-1]');
-      videoWrapper.classList.remove('img-clip-path-video');
+      // videoWrapper.classList.remove('img-clip-path-video');
       videoBtn.classList.replace('z-[2]', 'z-[-1]');
+      videoYt.classList.replace('opacity-0', 'opacity-1');
     },300);
   });
 });
