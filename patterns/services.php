@@ -120,7 +120,7 @@
                     </div>
                     <!-- /wp:group -->                      
                     <!-- wp:image -->
-                    <figure class="wp-block-image services-img<?php if($counter == 1) echo 'clipped-swiper-serv-1'; elseif($counter == $post_query->post_count) echo 'clipped-swiper-serv-2'; ?>  h-full">
+                    <figure class="wp-block-image services-img <?php if($counter == 1) echo 'clipped-swiper-serv-1'; elseif($counter == $post_query->post_count) echo 'clipped-swiper-serv-2'; ?>  h-full">
                       <img src="<?php echo $postImageUrl[0]; ?>" alt="services-background-image">
                     </figure>
                     <!-- /wp:image -->
