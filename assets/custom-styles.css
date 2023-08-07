@@ -76,11 +76,22 @@ body{
   clip-path: url(#clipped-blog);
 }
 .clipped-blog img{
+  height: 525px;
   transition: all 0.7s ease-out;
   transform: scale(1.15);
 }
 .swiperBlog .swiper-slide:hover .clipped-blog>img{
   transform: scale(1.09);
+}
+@media only screen and (max-width: 480px) {
+ .clipped-blog img{
+   height: 3035px;
+ }
+}
+@media only screen and (min-width: 1600px) {
+ .clipped-blog img{
+   height: 580px;
+ }
 }
 
 .wp-block-image{
@@ -424,20 +435,7 @@ body{
     margin: 0;
    }
 }
- .post-img img{
-   height: 525px;
-   object-fit: cover;
- }
- @media only screen and (max-width: 480px) {
-  .post-img img{
-    height: 200px;
-  }
-}
- @media only screen and (min-width: 1600px) {
-  .post-img img{
-    height: 580px;
-  }
-}
+
 
  /* page services-marketing */
  .inactive{
