@@ -91,7 +91,7 @@
         >
           <!-- wp:image -->
           <figure
-            class="wp-block-image h-full clipped-blog"
+            class="wp-block-image scale-1 h-full clipped-blog"
           >
             <img
               src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-contact/co-founder-img.jpg"
