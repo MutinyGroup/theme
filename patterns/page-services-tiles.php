@@ -176,7 +176,7 @@
                           class="text-[15px] relative flex gap-[10px]"
                         >
                           <!-- wp:group -->
-                          <div class="wp-block-group separator mt-[13px] w-[20px] h-[2px] bg-primaryYellow">
+                          <div class="wp-block-group separator mt-[8px] w-[20px] h-[2px] bg-primaryYellow">
                             <!-- wp:paragraph -->
                             <p class="hidden">separator</p>
                             <!-- /wp:paragraph -->
