@@ -169,7 +169,7 @@
                       <!-- /wp:paragraph -->
                       <!-- wp:list -->
                       <ul
-                        class="wp-block-list mt-[20px] hover-text desktop:block opacity-[0%] group-hover:opacity-[100%] text-[15px] desktop:leading-[32px] leading-[30px] font-semibold uppercase transition ease-out duration-500"
+                        class="wp-block-list mt-[20px] hover-text desktop:block opacity-[0%] group-hover:opacity-[100%] text-[15px] leading-[32px] font-semibold uppercase transition ease-out duration-500"
                       >
                         <!-- wp:list-item -->
                         <li
