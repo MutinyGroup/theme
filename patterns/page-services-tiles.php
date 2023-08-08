@@ -173,28 +173,28 @@
                       >
                         <!-- wp:list-item -->
                         <li
-                          class="text-[15px] relative before:content-[''] before:inline-block desktop:before:mr-[5px] before:mb-[5px] desktop:before:w-[20px] desktop:before:h-[2px] before:bg-primaryYellow"
+                          class="text-[15px] relative before:content-[''] before:inline-block before:mr-[5px] before:mb-[5px] before:w-[20px] before:h-[2px] before:bg-primaryYellow"
                         >
                           Opracowanie strategii marketingowych
                         </li>
                         <!-- /wp:list-item -->
                         <!-- wp:list-item -->
                         <li
-                          class="text-[15px] relative before:content-[''] before:inline-block desktop:before:mr-[5px] before:mb-[5px] desktop:before:w-[20px] desktop:before:h-[2px] before:bg-primaryYellow"
+                          class="text-[15px] relative before:content-[''] before:inline-block before:mr-[5px] before:mb-[5px] before:w-[20px] before:h-[2px] before:bg-primaryYellow"
                         >
                           Content marketing
                         </li>
                         <!-- /wp:list-item -->
                         <!-- wp:list-item -->
                         <li
-                          class="text-[15px] relative before:content-[''] before:inline-block desktop:before:mr-[5px] before:mb-[5px] desktop:before:w-[20px] desktop:before:h-[2px] before:bg-primaryYellow"
+                          class="text-[15px] relative before:content-[''] before:inline-block before:mr-[5px] before:mb-[5px] before:w-[20px] before:h-[2px] before:bg-primaryYellow"
                         >
                           Kreowanie tożsamości marki
                         </li>
                         <!-- /wp:list-item -->
                         <!-- wp:list-item -->
                         <li
-                          class="text-[15px] relative before:content-[''] before:inline-block desktop:before:mr-[5px] before:mb-[5px] desktop:before:w-[20px] desktop:before:h-[2px] before:bg-primaryYellow"
+                          class="text-[15px] relative before:content-[''] before:inline-block before:mr-[5px] before:mb-[5px] before:w-[20px] before:h-[2px] before:bg-primaryYellow"
                         >
                           Dobór kanałów i narzędzi komunikacji
                         </li>
