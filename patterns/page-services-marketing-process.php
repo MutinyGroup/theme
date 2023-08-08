@@ -122,9 +122,9 @@
             <!-- wp:group -->
             <div class="wp-block-group mb-[20px] h-auto desktop:h-[640px]">
               <!-- wp:group -->
-              <div class="wp-block-group h-full overflow-hidden rounded-[20px]">
+              <div class="wp-block-group h-full w-full overflow-hidden rounded-[20px]">
                 <!-- wp:image -->
-                <figure class="wp-block-image h-full clipped-blog">
+                <figure class="wp-block-image h-full w-full clipped-blog">
                   <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-marketing/process-img.jpg" alt="column-img">
                 </figure>
                 <!-- /wp:image -->
