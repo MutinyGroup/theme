@@ -241,6 +241,12 @@ body{
 .swiper-button-prev::after {
   display: none;
 }
+.tile-services-1::before {
+  clip-path: url(#clipped-realizations-1);
+}
+.tile-services-2::before {
+  clip-path: url(#clipped-realizations-2);
+}
 .swiper-slide-services::before {
   clip-path: url(#clipped-realizations-1);
   opacity: 0;
