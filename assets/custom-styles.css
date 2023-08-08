@@ -126,6 +126,12 @@ body{
   clip-path: url(#clipped-video);
 }
 
+/* clip path images - page about */
+
+.clipped-why{
+  clip-path: url(#clipped-why);
+}
+
 @media only screen and (max-width: 480px) {
  .clipped-blog img{
    height: 340px;

@@ -106,7 +106,7 @@
                 >
                   <!-- wp:image -->
                   <figure
-                    class="wp-block-image group-hover:grayscale transition ease-in-out duration-[400ms]"
+                    class="wp-block-image h-full clipped-why group-hover:grayscale transition ease-in-out duration-[400ms]"
                   >
                     <img
                       src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-services/why-img1.jpg"
@@ -115,29 +115,11 @@
                   </figure>
                   <!-- /wp:image -->
                   <!-- wp:paragraph -->
-                  <svg
-                    class="flt_svg"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
+                  <svg x="0px" y="0px" viewBox="0 0 1374.7 1083.6" class="absolute top-0" >
                     <defs>
-                      <filter id="flt_tag">
-                        <feGaussianBlur
-                          in="SourceGraphic"
-                          stdDeviation="8"
-                          result="blur"
-                        />
-                        <feColorMatrix
-                          in="blur"
-                          mode="matrix"
-                          values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9"
-                          result="flt_tag"
-                        />
-                        <feComposite
-                          in="SourceGraphic"
-                          in2="flt_tag"
-                          operator="atop"
-                        />
-                      </filter>
+                      <clipPath id="clipped-why" class="scale-[0.00133] scale-x-[0.001]" clipPathUnits="objectBoundingBox">
+                        <path d="M806 0L20 0C8.95428 0 0 8.95431 0 20V201.583C0 212.629 8.95428 221.583 20 221.583H158.191C166.144 221.583 173.771 224.741 179.397 230.363L190.262 241.22C195.887 246.842 203.515 250 211.468 250H806L806 0Z"/>
+                      </clipPath>
                     </defs>
                   </svg>
                   <!-- /wp:paragraph -->
