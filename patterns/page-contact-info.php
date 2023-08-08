@@ -89,6 +89,13 @@
         <div
           class="wp-block-group img-clip-path-wrapper w-full h-full overflow-hidden"
         >
+          <!-- wp:group -->
+          <div class="overlay-author h-full w-full absolute top-0 left-0 clipped-blog">
+            <!-- wp:paragraph -->
+            <p>overlay</p>
+            <!-- /wp:paragraph -->
+          </div>
+          <!-- wp:group -->
           <!-- wp:image -->
           <figure
             class="wp-block-image author-img h-full clipped-blog"
