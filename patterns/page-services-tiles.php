@@ -214,7 +214,7 @@
                           <!-- wp:group -->
                           <div class="wp-block-group separator mt-[8px] w-[20px] h-[2px] bg-primaryYellow">
                             <!-- wp:paragraph -->
-                            <p class="hidden">separator</p>
+                            <p class="hidden test">separator</p>
                             <!-- /wp:paragraph -->
                           </div>
                           <!-- /wp:group -->
