@@ -266,7 +266,7 @@ body{
   clip-path: url(#clipped-realizations-2);
 }
 .swiper-slide-services::before {
-  clip-path: url(#clipped-realizations-1);
+  /* clip-path: url(#clipped-realizations-1); */
   opacity: 0;
   content: "";
   position: absolute;
