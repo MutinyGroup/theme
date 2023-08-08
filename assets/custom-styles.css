@@ -542,6 +542,10 @@ body{
 
  /* navigation menu */
 
+ .wp-block-navigation__responsive-container-open{
+   display: none;
+ }
+
 .wp-block-navigation__responsive-close{
   max-width: fit-content;
 }
