@@ -63,10 +63,12 @@ body{
 .clipped-about img{
   clip-path: url(#clipped-about);
 }
-.clipped-swiper-serv-1 img{
+.clipped-swiper-serv-1 img,
+.clipped-swiper-serv-1{
   clip-path: url(#clipped-swiper-serv-1);
 }
-.clipped-swiper-serv-2 img{
+.clipped-swiper-serv-2 img,
+.clipped-swiper-serv-2{
   clip-path: url(#clipped-swiper-serv-2);
 }
 .clipped-realizations-1 img,
