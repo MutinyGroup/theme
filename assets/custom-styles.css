@@ -589,7 +589,7 @@ body{
   transform: scale(1);
 }
 .overlay-author{
-  background: linear-gradient(360deg, rgba(0, 0, 0, 0.50) 0%, rgba(0, 0, 0, 0.00) 100%), lightgray -1307.193px -953.951px / 820.554% 430.228% no-repeat;
+  background: linear-gradient(360deg, rgba(0, 0, 0, 0.50) 0%, rgba(0, 0, 0, 0.00) 80%);
   background-blend-mode: hard-light, normal;
 }
 
