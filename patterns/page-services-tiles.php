@@ -183,7 +183,7 @@
                           </div>
                           <!-- /wp:group -->
                           <!-- wp:paragraph -->
-                          <p>
+                          <p class="leading-[28px]">
                             Opracowanie strategii marketingowych
                           </p>
                           <!-- /wp:paragraph -->
