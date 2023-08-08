@@ -51,8 +51,8 @@ body{
 .clipped-realizations-2 img,
 .clipped-blog img,
 .clipped-cta img,
-.clipped-meet-us-gallery,
-.clipped-video{
+.clipped-meet-us-gallery img,
+.clipped-video img{
   height: 100%;
   width: 100%;
   object-fit: cover;
@@ -334,6 +334,7 @@ body{
 
 .tile-realizacje-1::before,
 .tile-realizacje-2::before {
+  clip-path: url(#clipped-realizations-1);
   opacity: 0;
   content: "";
   position: absolute;
