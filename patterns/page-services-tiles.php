@@ -114,7 +114,7 @@
                 <li class="wp-block-group swiper-slide img-clip-path-rounded relative group desktop:w-[545px] w-[100%] desktop:h-[600px] h-[320px] <?php if (($counter % 2)) echo ''; else echo 'desktop:translate-y-[50px]'; ?>">                
                   <!-- wp:group -->
                   <div
-                    class="wp-block-group group relative gallery-tile <?php if($counter == 1) echo 'img-clip-path-services'; elseif($counter == $post_query->post_count) echo 'img-clip-path-blog'; ?>  z-[1] group desktop:p-[25px] desktop:h-[600px] h-[320px] overflow-hidden rounded-[20px] transition ease-out duration-300 mr-[8px] mb-[30px]"
+                    class="wp-block-group group relative gallery-tile <?php if($counter == 1) echo 'clipped-realizations-1'; elseif($counter == $post_query->post_count) echo 'clipped-realizations-2'; ?>  z-[1] group desktop:p-[25px] desktop:h-[600px] h-[320px] overflow-hidden rounded-[20px] transition ease-out duration-300 mr-[8px] mb-[30px]"
                   >
                     <!-- wp:group -->
                     <div
@@ -133,31 +133,26 @@
                       <!-- /wp:image -->
 
                       <!-- wp:paragraph -->
-                      <svg
-                        class="flt_svg"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <defs>
-                          <filter id="flt_tag">
-                            <feGaussianBlur
-                              in="SourceGraphic"
-                              stdDeviation="8"
-                              result="blur"
-                            />
-                            <feColorMatrix
-                              in="blur"
-                              mode="matrix"
-                              values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9"
-                              result="flt_tag"
-                            />
-                            <feComposite
-                              in="SourceGraphic"
-                              in2="flt_tag"
-                              operator="atop"
-                            />
-                          </filter>
-                        </defs>
-                      </svg>
+                      <svg x="0px" y="0px" viewBox="0 0 1374.7 1083.6" class="absolute top-0" >
+                      <defs>
+                        <?php 
+                          if($counter == 1){
+                            echo '
+                            <clipPath id="clipped-realizations-1" class="scale-[0.002]" clipPathUnits="objectBoundingBox">
+                              <path d="M94.1421 5.85786C97.8929 2.10713 102.98 0 108.284 0H515C526.046 0 535 8.95431 535 20V670C535 686.569 521.569 700 505 700H20.0002C8.95451 700 0.000199138 691.046 0.000195955 680L3.12042e-05 108.284C2.96756e-05 102.98 2.10717 97.8929 5.85789 94.1421L94.1421 5.85786Z"/>
+                            </clipPath>
+                            '; 
+                          }elseif($counter == $post_query->post_count){
+                            echo '
+                            <clipPath id="clipped-realizations-2" class="scale-[0.00142] scale-x-[0.00185]" clipPathUnits="objectBoundingBox">
+                              <path d="M99.9999 0H515C526.046 0 535 8.95431 535 20V630C535 641.046 526.046 650 515 650H346.951C338.934 650 331.25 653.209 325.615 658.91L293.807 691.09C288.172 696.791 280.488 700 272.471 700H20.0001C8.9544 700 0.000110665 691.046 0.000107937 680L-5.50846e-05 20C-5.78129e-05 8.9543 8.95425 0 19.9999 0L99.9999 0Z"/>
+                            </clipPath>
+                            ';
+                          } 
+                        ?>
+   
+                      </defs>
+                    </svg>
                       <!-- /wp:paragraph -->
                     </div>
                     <!-- /wp:group -->
