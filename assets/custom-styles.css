@@ -88,6 +88,9 @@ body{
 .swiperBlog .swiper-slide:hover .clipped-blog>img{
   transform: scale(1.11);
 }
+.blog-posts-wrapper .swiper-slide:hover .clipped-blog>img{
+  transform: scale(1.11);
+}
 .clipped-cta img{
   clip-path: url(#clipped-cta);
   height: 100%!important;
