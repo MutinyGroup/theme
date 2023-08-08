@@ -102,7 +102,7 @@
               <div class="wp-block-group img-clip-path-rounded h-[250px] w-[800px]">
                 <!-- wp:group -->
                 <div
-                  class="wp-block-group img-clip-path-wrapper img-clip-path-why mb-[50px] w-full h-full rounded-[20px] overflow-hidden"
+                  class="wp-block-group img-clip-path-wrapper mb-[50px] w-full h-full rounded-[20px] overflow-hidden"
                 >
                   <!-- wp:image -->
                   <figure
