@@ -84,7 +84,7 @@
     <!-- wp:group -->
     <div class="wp-block-group contact-info-cols-wrapper desktop:flex desktop:gap-[80px] gap-[20px]">
       <!-- wp:group -->
-      <div class="wp-block-group col1 desktop:w-[30%]">
+      <div class="wp-block-group col1 desktop:w-[35%]">
         <!-- wp:group -->
         <div
           class="wp-block-group img-clip-path-wrapper w-full h-full overflow-hidden"
