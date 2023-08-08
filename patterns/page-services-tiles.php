@@ -169,13 +169,24 @@
                       <!-- /wp:paragraph -->
                       <!-- wp:list -->
                       <ul
-                        class="wp-block-list mt-[20px] hover-text desktop:block opacity-[0%] group-hover:opacity-[100%] text-[15px] leading-[32px] font-semibold uppercase transition ease-out duration-500"
+                        class="wp-block-list mt-[20px] hover-text desktop:block opacity-[0%] group-hover:opacity-[100%] text-[15px] desktop:leading-[32px] leading-[30px] font-semibold uppercase transition ease-out duration-500"
                       >
                         <!-- wp:list-item -->
                         <li
-                          class="text-[15px] relative before:content-[''] before:inline-block before:mr-[5px] before:mb-[5px] before:w-[20px] before:h-[2px] before:bg-primaryYellow"
+                          class="text-[15px] relative flex gap-[10px]"
                         >
+                        <!-- wp:group -->
+                        <div class="separator inline-block w-[20px] h-[2px] bg-primaryYellow">
+                          <!-- wp:paragraph -->
+                          <p>separator</p>
+                          <!-- /wp:paragraph -->
+                        </div>
+                        <!-- wp:group -->
+                        <!-- wp:paragraph -->
+                        <p>
                           Opracowanie strategii marketingowych
+                        </p>
+                        <!-- /wp:paragraph -->
                         </li>
                         <!-- /wp:list-item -->
                         <!-- wp:list-item -->
