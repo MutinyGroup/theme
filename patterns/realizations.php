@@ -107,7 +107,7 @@
               $counter++;
               if (true){ ?>         
                 <!-- wp:list-item -->
-                <li class="wp-block-group tile-realizacje mb-[30px] h-[320px] desktop:h-[600px] wide:h-[680px] w-[100%] desktop:w-[545px] wide:w-[600px] h-[480px] desktop:h-[700px] wide:h-[780px] relative group w-1/2 transition ease-in-out duration-[400ms] relative group <?php if (($counter % 2)) echo 'tile-realizacje-1'; else echo 'tile-realizacje-2 desktop:translate-y-[50px]'; ?>">
+                <li class="wp-block-group tile-realizacje mb-[30px] h-[320px] desktop:h-[600px] wide:h-[680px] w-[100%] desktop:w-[545px] wide:w-[600px] h-[480px] desktop:h-[700px] wide:h-[780px] relative group w-1/2 transition ease-in-out duration-[400ms] relative group <?php if (($counter % 2)) echo 'tile-realizacje-1'; else echo 'tile-realizacje-2 desktop:translate-y-[70px]'; ?>">
                   <!-- wp:group -->
                   <div class="wp-block-group <?php if($counter == 1) echo 'clipped-realizations-1'; elseif($counter == $post_query->post_count) echo 'clipped-realizations-2'; ?> gray-overlay w-full h-full bg-[#101010] absolute top-0 left-0 opacity-[60%]">
                     <!-- wp:paragraph -->
