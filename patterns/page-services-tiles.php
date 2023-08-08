@@ -175,18 +175,18 @@
                         <li
                           class="text-[15px] relative flex gap-[10px]"
                         >
-                        <!-- wp:group -->
-                        <div class="separator inline-block w-[20px] h-[2px] bg-primaryYellow">
+                          <!-- wp:group -->
+                          <div class="wp-block-group separator self-center w-[20px] h-[2px] bg-primaryYellow">
+                            <!-- wp:paragraph -->
+                            <p>separator</p>
+                            <!-- /wp:paragraph -->
+                          </div>
+                          <!-- /wp:group -->
                           <!-- wp:paragraph -->
-                          <p>separator</p>
+                          <p>
+                            Opracowanie strategii marketingowych
+                          </p>
                           <!-- /wp:paragraph -->
-                        </div>
-                        <!-- wp:group -->
-                        <!-- wp:paragraph -->
-                        <p>
-                          Opracowanie strategii marketingowych
-                        </p>
-                        <!-- /wp:paragraph -->
                         </li>
                         <!-- /wp:list-item -->
                         <!-- wp:list-item -->
