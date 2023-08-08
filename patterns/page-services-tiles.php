@@ -191,25 +191,58 @@
                         <!-- /wp:list-item -->
                         <!-- wp:list-item -->
                         <li
-                          class="text-[15px] relative before:content-[''] before:inline-block before:mr-[5px] before:mb-[5px] before:w-[20px] before:h-[2px] before:bg-primaryYellow"
+                          class="text-[15px] relative flex gap-[10px]"
                         >
-                          Content marketing
+                          <!-- wp:group -->
+                          <div class="wp-block-group separator mt-[8px] w-[20px] h-[2px] bg-primaryYellow">
+                            <!-- wp:paragraph -->
+                            <p class="hidden">separator</p>
+                            <!-- /wp:paragraph -->
+                          </div>
+                          <!-- /wp:group -->
+                          <!-- wp:paragraph -->
+                          <p class="leading-[20px]">
+                            Content marketing
+                          </p>
+                          <!-- /wp:paragraph -->
                         </li>
                         <!-- /wp:list-item -->
                         <!-- wp:list-item -->
                         <li
-                          class="text-[15px] relative before:content-[''] before:inline-block before:mr-[5px] before:mb-[5px] before:w-[20px] before:h-[2px] before:bg-primaryYellow"
+                          class="text-[15px] relative flex gap-[10px]"
                         >
-                          Kreowanie tożsamości marki
+                          <!-- wp:group -->
+                          <div class="wp-block-group separator mt-[8px] w-[20px] h-[2px] bg-primaryYellow">
+                            <!-- wp:paragraph -->
+                            <p class="hidden">separator</p>
+                            <!-- /wp:paragraph -->
+                          </div>
+                          <!-- /wp:group -->
+                          <!-- wp:paragraph -->
+                          <p class="leading-[20px]">
+                            Kreowanie tożsamości marki
+                          </p>
+                          <!-- /wp:paragraph -->
                         </li>
                         <!-- /wp:list-item -->
                         <!-- wp:list-item -->
                         <li
-                          class="text-[15px] relative before:content-[''] before:inline-block before:mr-[5px] before:mb-[5px] before:w-[20px] before:h-[2px] before:bg-primaryYellow"
+                          class="text-[15px] relative flex gap-[10px]"
                         >
-                          Dobór kanałów i narzędzi komunikacji
+                          <!-- wp:group -->
+                          <div class="wp-block-group separator mt-[8px] w-[20px] h-[2px] bg-primaryYellow">
+                            <!-- wp:paragraph -->
+                            <p class="hidden">separator</p>
+                            <!-- /wp:paragraph -->
+                          </div>
+                          <!-- /wp:group -->
+                          <!-- wp:paragraph -->
+                          <p class="leading-[20px]">
+                            Dobór kanałów i narzędzi komunikacji
+                          </p>
+                          <!-- /wp:paragraph -->
                         </li>
-                        <!-- /wp:list-item -->
+                        <!-- /wp:list-item -->                                                
                       </ul>
                       <!-- /wp:list -->
                     </div>
