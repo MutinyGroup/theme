@@ -87,7 +87,7 @@
       <div class="wp-block-group col1 desktop:w-[35%]">
         <!-- wp:group -->
         <div
-          class="wp-block-group img-clip-path-wrapper w-full h-full overflow-hidden"
+          class="wp-block-group img-clip-path-wrapper relative w-full h-full overflow-hidden"
         >
           <!-- wp:group -->
           <div class="overlay-author h-full w-full absolute top-0 left-0 clipped-blog">

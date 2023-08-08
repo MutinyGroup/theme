@@ -94,7 +94,7 @@
                     <!-- wp:group -->
                     <div class="wp-block-group img-clip-path-rounded mb-[20px]">
                       <!-- wp:group -->
-                      <div class="wp-block-group img-clip-path-blog h-full desktop:h-auto overflow-hidden rounded-[20px]">
+                      <div class="wp-block-group h-full desktop:h-auto overflow-hidden rounded-[20px]">
                         <!-- wp:image -->
                         <figure class="wp-block-image post-img clipped-blog">
                           <img src="<?php echo $postImageUrl[0]; ?>" alt="post-image">
