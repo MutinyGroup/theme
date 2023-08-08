@@ -82,12 +82,12 @@
     <!-- /wp:group -->
     
     <!-- wp:group -->
-    <div class="wp-block-group contact-info-cols-wrapper flex desktop:gap-[80px] gap-[20px]">
+    <div class="wp-block-group contact-info-cols-wrapper desktop:flex desktop:gap-[80px] gap-[20px]">
       <!-- wp:group -->
-      <div class="wp-block-group col1 w-[30%]">
+      <div class="wp-block-group col1 desktop:w-[30%]">
         <!-- wp:group -->
         <div
-          class="wp-block-group img-clip-path-wrapper w-full h-full-[20px] overflow-hidden"
+          class="wp-block-group img-clip-path-wrapper w-full h-full overflow-hidden"
         >
           <!-- wp:image -->
           <figure
@@ -102,8 +102,8 @@
           <!-- wp:paragraph -->
           <svg x="0px" y="0px" viewBox="0 0 1374.7 1083.6" class="absolute top-0" >
             <defs>
-              <clipPath id="clipped-blog" class="scale-[0.00179] desktop:scale-[0.00179] wide:scale-y-[0.00181]" clipPathUnits="objectBoundingBox">
-                <path d="M100 0H515C526.046 0 535 8.9543 535 20V480C535 491.046 526.046 500 515 500H346.951C338.934 500 331.25 503.209 325.615 508.91L293.807 541.09C288.172 546.791 280.488 550 272.471 550H20.0002C8.95446 550 0.000170086 541.046 0.000166614 530L6.28732e-06 20C2.81493e-06 8.95432 8.95431 0 20 0L100 0Z"/>
+              <clipPath id="clipped-blog" class="scale-[0.00179] desktop:scale-y-[0.0022] desktop:scale-[0.0028] wide:scale-y-[0.0021]" clipPathUnits="objectBoundingBox">
+                <path d="M66.1682 0H334C345.046 0 354 8.9543 354 20V396.929C354 407.974 345.046 416.929 334 416.929H233.807C225.792 416.929 218.11 420.136 212.474 425.835L197.386 441.094C191.751 446.793 184.069 450 176.054 450H20.0001C8.95444 450 0.000112129 441.046 0.000109321 430L5.0847e-06 20C2.2765e-06 8.9543 8.95431 0 20 0L66.1682 0Z"/>
               </clipPath>
             </defs>
           </svg>
