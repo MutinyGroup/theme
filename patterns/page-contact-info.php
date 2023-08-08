@@ -95,7 +95,7 @@
             <p class="hidden">overlay</p>
             <!-- /wp:paragraph -->
           </div>
-          <!-- wp:group -->
+          <!-- /wp:group -->
           <!-- wp:image -->
           <figure
             class="wp-block-image author-img h-full clipped-blog"
