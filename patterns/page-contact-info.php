@@ -90,7 +90,7 @@
           class="wp-block-group img-clip-path-wrapper relative w-full h-full overflow-hidden"
         >
           <!-- wp:group -->
-          <div class="overlay-author z-[1] h-full w-full absolute top-0 left-0 clipped-blog">
+          <div class="wp-block-group overlay-author z-[1] h-full w-full absolute top-0 left-0 clipped-blog">
             <!-- wp:paragraph -->
             <p class="hidden">overlay</p>
             <!-- /wp:paragraph -->
