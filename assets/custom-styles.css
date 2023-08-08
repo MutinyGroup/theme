@@ -125,6 +125,11 @@ body{
   background-repeat: no-repeat;
   transition: all 0.3s ease-out;
 }
+@media only screen and (max-width: 480px) {
+  .video-player-wrapper::after{
+    height: 320px;
+  }
+ }
 .video-player-wrapper::after{
   clip-path: url(#clipped-video);
 }
@@ -576,6 +581,11 @@ body{
 
 .wp-block-embed__wrapper{
   height: 620px;
+}
+@media only screen and (max-width: 480px) {
+  .wp-block-embed__wrapper{
+    height: 320px;
+  }
 }
 @media only screen and (min-width: 1600px) {
   .wp-block-embed__wrapper{
