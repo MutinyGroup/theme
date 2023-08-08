@@ -123,7 +123,7 @@
 
                       <!-- wp:image -->
                       <figure
-                        class="wp-block-image group-hover:grayscale transition ease-in-out duration-[400ms]"
+                        class="wp-block-image group-hover:grayscale transition ease-in-out duration-[400ms] <?php if($counter == 1) echo 'clipped-realizations-1 tile-services-1'; elseif($counter == $post_query->post_count) echo 'clipped-realizations-2 tile-services-2'; ?>"
                       >
                         <img
                           src="<?php echo $postImageUrl[0]; ?>"
