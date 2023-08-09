@@ -74,7 +74,7 @@
   <!-- wp:group -->
   <div class="wp-block-group img-clip-path-wrapper w-[58%] h-full rounded-tl-[20px] overflow-hidden absolute right-0 desktop:top-0 top-[30px] z-[-1]">
     <!-- wp:image -->
-    <figure class="wp-block-image h-full clipped-cta">
+    <figure class="wp-block-image h-full clipped-cta before:content-[''] before:w-full before:h-full before:bg-[#F2F2F2] before:z-[1] before:opacity-[60%] before:absolute before:top-0 before:left-0">
       <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/cta-bright-bg2.jpeg" alt="cta-backgroun-image">
     </figure>
     <!-- /wp:image -->
