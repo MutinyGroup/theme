@@ -49,7 +49,6 @@ window.addEventListener("load", function () {
     videoBtn.classList.add('opacity-0');
     setTimeout(() => {
       videoWrapper.classList.replace('after:z-[1]', 'after:z-[-1]');
-      // videoWrapper.classList.remove('img-clip-path-video');
       videoBtn.classList.replace('z-[2]', 'z-[-1]');
     },300);
   });

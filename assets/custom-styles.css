@@ -125,21 +125,27 @@ body{
   left: 0;
   z-index: 1;
   width: 100%;
-  height: 780px;
+  height: 620px;
   background: url('https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-about/about-video.jpg');
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
   transition: all 0.3s ease-out;
 }
+.video-player-wrapper::after{
+  clip-path: url(#clipped-video);
+}
 @media only screen and (max-width: 480px) {
   .video-player-wrapper::after{
     height: 320px;
   }
  }
-.video-player-wrapper::after{
-  clip-path: url(#clipped-video);
-}
+@media only screen and (min-width: 1600px) {
+  .video-player-wrapper::after{
+    height: 800px;
+  }
+ }
+
 
 /* clip path images - page about */
 
