@@ -8,13 +8,13 @@
 ?>
 
 <!-- wp:group {"templateLock":"contentOnly"} -->
-<div id="Banner" class="wp-block-group banner relative mb-0 pt-[80px] h-fit desktop:h-auto overflow-hidden desktop:overflow-visible">
+<div id="Banner" class="wp-block-group banner group relative mb-0 pt-[80px] h-fit desktop:h-auto overflow-hidden desktop:overflow-visible">
   <!-- wp:group -->
   <div class="wp-block-group container mx-auto desktop:px-0 px-[20px] wide:h-[900px] desktop:h-[790px] h-fit">
     <!-- wp:group -->
     <div class="wp-block-group content-with-bg-wrapper">
       <!-- wp:group -->
-      <div class="wp-block-group left-col relative wide:pt-[110px] desktop:pt-[80px] pt-0  fullhd:text-[85px] desktop:text-[85px] text-[38px] font-normal desktop:w-[940px] wide:leading-[85px] desktop:leading-[80px] leading-[38px]">
+      <div class="wp-block-group left-col relative wide:pt-[110px] desktop:pt-[80px] pt-0 fullhd:text-[85px] desktop:text-[85px] text-[38px] font-normal desktop:w-[940px] wide:leading-[85px] desktop:leading-[80px] leading-[38px]">
         <!-- wp:group -->
         <div class="wp-block-group flash-wrapper wide:scale-[1.2] desktop:scale-[1.1] scale-[0.5] absolute desktop:top-[-130px] top-[-350px] desktop:left-[-140px] right-[-90px] z-[-1]">
           <!-- wp:paragraph -->
@@ -116,9 +116,9 @@
     <!-- /wp:group -->
   
     <!-- wp:paragraph -->
-    <a href="#about" class="wp-block-buttons desktop:w-[175px] w-[140px] desktop:h-[175px] h-[140px] mx-auto text-center rounded-full border desktop:border-[4px] border-[3px] border-[#D5D5D5] desktop:absolute bottom-[200px] desktop:bottom-auto desktop:top-[58%] wide:top-[65%] desktop:left-[56%] left-[50%] desktop:translate-x-[-50%] hover:border-none hover:bg-primaryYellow hover:text-white transition ease-out duration-300 flex flex-col justify-center items-center gap-y-0 cursor-pointer is-layout-flex">
+    <a href="#about" class="wp-block-buttons desktop:w-[175px] w-[140px] desktop:h-[175px] h-[140px] mx-auto text-center rounded-full border desktop:border-[4px] border-[3px] border-[#D5D5D5] desktop:absolute bottom-[200px] desktop:bottom-auto desktop:top-[58%] wide:top-[65%] desktop:left-[56%] left-[50%] desktop:translate-x-[-50%] group-hover:border-none group-hover:bg-primaryYellow group-hover:text-white transition ease-out duration-300 flex flex-col justify-center items-center gap-y-0 cursor-pointer is-layout-flex">
       <!-- wp:paragraph -->
-      <p>Zobacz</p>
+      <p class="font-bold">Zobacz</p>
       <!-- /wp:paragraph -->
       <!-- wp:paragraph -->
       <p class="uppercase text-[25px] font-extrabold">WIĘCEJ</p>
