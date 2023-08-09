@@ -86,6 +86,13 @@
 
       <!-- wp:group -->
       <div class="wp-block-group right-col banner-bg h-[300px] desktop:h-[775px] wide:h-[950px] desktop:w-[44%] w-[65%] absolute right-0 desktop:top-[50px] top-[30px] z-[-1]">
+        <!-- wp:group -->
+        <div class="wp-block-group overlay-author z-[1] h-full w-full absolute top-0 left-0 clipped-banner">
+          <!-- wp:paragraph -->
+          <p class="hidden">overlay</p>
+          <!-- /wp:paragraph -->
+        </div>
+        <!-- /wp:group -->
         <!-- wp:image -->
         <figure class="wp-block-image clipped-banner relative h-full before:content-[''] before:w-full before:h-full before:bg-[#000] before:z-[1] before:opacity-[40%] before:absolute before:top-0 before:left-0">
           <img
