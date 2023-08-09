@@ -37,7 +37,7 @@
       </svg>
       <!-- /wp:paragraph -->
       <!-- wp:paragraph -->
-      <p class="section-title text-[20px] text-primaryYellow">Wymagaj więcej</p>
+      <p class="section-title text-[20px] text-primaryYellow">Szukasz wsparcia w marketingu?</p>
       <!-- /wp:paragraph -->
       <!-- wp:group -->
       <div class="wp-block-group uslugi-title font-normal desktop:text-[65px] text-[32px] desktop:leading-[70px] leading-[36px]">
