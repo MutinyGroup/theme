@@ -180,10 +180,11 @@
               <!-- wp:image -->
               <figure class="wp-block-image clipped-swiper-serv-2 h-full">
                 <img
-                  src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-about/about-team1.jpg"
-                  alt="team"
+                src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-about/about-team1.jpg"
+                alt="team"
                 />
               </figure>
+              <!-- /wp:image -->
               <!-- wp:paragraph -->
               <svg width="0" height="0">
                 <defs>
@@ -192,7 +193,7 @@
                   </clipPath>
                 </defs>
               </svg>
-              <!-- wp:paragraph -->
+              <!-- /wp:paragraph -->
               <!-- /wp:image -->
               <!-- wp:group -->
               <div
