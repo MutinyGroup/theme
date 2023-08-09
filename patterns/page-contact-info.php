@@ -51,7 +51,7 @@
         <!-- /wp:group -->
 
         <!-- wp:group -->
-        <div class="wp-block-group uslugi-title uppercase font-medium desktop:text-[60px] text-[24px] desktop:leading-[60px] leading-[30px]">
+        <div class="wp-block-group uslugi-title uppercase font-medium desktop:text-[50px] text-[24px] desktop:leading-[60px] leading-[30px]">
           <!-- wp:paragraph -->
           <p
             class="uppercase"
@@ -74,7 +74,7 @@
     <!-- wp:group -->
     <div class="wp-block-group paragrapth-wrapper relative mb-[50px] flex justify-end">
       <!-- wp:paragraph -->
-      <svg class="shape opacity-[60%] z-[-1] scale-[0.6] desktop:scale-[1] z-[-1] absolute desktop:top-0 top-[-50px] desktop:right-[0px] right-[-60px]" xmlns="http://www.w3.org/2000/svg" width="470" height="395" viewBox="0 0 470 395" fill="none">
+      <svg class="shape opacity-[60%] z-[-1] scale-[0.6] desktop:scale-[1] z-[-1] absolute desktop:top-[-70] top-[-50px] desktop:right-[-120px] right-[-60px]" xmlns="http://www.w3.org/2000/svg" width="470" height="395" viewBox="0 0 470 395" fill="none">
         <path d="M468.243 393.924L1 236.702V1.9702L468.243 159.192V393.924Z" stroke="white" stroke-width="2"/>
       </svg>
       <!-- /wp:paragraph -->
