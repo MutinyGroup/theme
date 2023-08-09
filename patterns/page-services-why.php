@@ -199,20 +199,9 @@
             <!-- /wp:paragraph -->
 
             <!-- wp:paragraph -->
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="236"
-              height="317"
-              viewBox="0 0 236 317"
-              fill="none"
-              class="z-[-1] absolute top-[190px] left-[30px] opacity-[60%]"
-            >
-              <path
-                d="M234.242 314.924L1.62109 236.649V1.91746L234.242 80.1919V314.924Z"
-                stroke="white"
-                stroke-width="2"
-              />
-            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="236" height="317" viewBox="0 0 236 317" fill="none" class="z-[-1] absolute top-[190px] left-[30px] opacity-[60%]">
+              <path d="M1.62088 314.924L234.242 236.649V1.91746L1.62088 80.1919V314.924Z" stroke="white" stroke-width="2"/>
+            </svg>            
             <!-- /wp:paragraph -->
           </div>
           <!-- /wp:group -->
