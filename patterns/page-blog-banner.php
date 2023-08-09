@@ -3,6 +3,8 @@
  * Title: page-blog-banner
  * Slug: page-blog-banner
  * Categories: text, banner, theme
+ * Block Types: core/query, core/post-template
+ * Keywords: blog
  * Viewport Width: 1280
  */
 ?>
