@@ -139,20 +139,18 @@
         <!-- wp:group -->
         <div class="wp-block-group mb-[20px] w-[50%] absolute top-[60px] right-[0px]">
           <!-- wp:group -->
-          <div class="wp-block-group img-clip-path-meet-us rounded-tr-[20px] overflow-hidden ">
+          <div class="wp-block-group overflow-hidden ">
             <!-- wp:image -->
-            <figure class="wp-block-image marketing-gallery">
+            <figure class="wp-block-image clipped-meet-us-gallery h-full">
               <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-marketing/gallery2.jpg" alt="image">
             </figure>
             <!-- /wp:image -->
             <!-- wp:paragraph -->
-            <svg class="flt_svg" xmlns="http://www.w3.org/2000/svg">
+            <svg x="0px" y="0px" viewBox="0 0 1374.7 1083.6" class="absolute top-0" >
               <defs>
-                <filter id="flt_tag">
-                  <feGaussianBlur in="SourceGraphic" stdDeviation="8" result="blur" />    
-                  <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9" result="flt_tag" />
-                  <feComposite in="SourceGraphic" in2="flt_tag" operator="atop"/>
-                </filter>
+                <clipPath id="clipped-meet-us-gallery" class="scale-[0.00133] scale-x-[0.00160]" clipPathUnits="objectBoundingBox">
+                  <path d="M-0.000204735 0L605 0C616.046 0 625 8.95431 625 20V680C625 691.046 616.046 700 605 700H437.429C429.472 700 421.841 703.161 416.215 708.787L383.789 741.213C378.163 746.839 370.532 750 362.576 750H0L-0.000204735 0Z"/>
+                </clipPath>
               </defs>
             </svg>
             <!-- /wp:paragraph -->
