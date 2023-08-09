@@ -37,7 +37,7 @@
       <!-- /wp:paragraph -->
       <!-- wp:paragraph -->
       <p
-        class="section-title desktop:basis-auto desktop:w-[145px] basis-[20%] uppercase text-primaryYellow"
+        class="section-title desktop:basis-auto desktop:w-[145px] basis-[20%] uppercase text-primaryYellow text-right pr-[20px]"
       >
         Nasze <br> podejście
       </p>
