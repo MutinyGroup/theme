@@ -10,14 +10,14 @@
 ?>
 
 <!-- wp:group {"templateLock":"all","lock":{"move":true,"remove":true},"anchor":true} -->
-<div id="Banner" class="wp-block-group services-banner h-[calc(100vh-80px)] desktop:h-auto desktop:mb-[150px]">
+<div id="Banner" class="wp-block-group services-banner group h-[calc(100vh-80px)] desktop:h-auto desktop:mb-[150px]">
   <!-- wp:group -->
   <div
     class="wp-block-group container relative mx-auto desktop:px-0 px-[20px]"
   >
     <!-- wp:group -->
     <div
-      class="wp-block-group title-wrapper relative desktop:mb-[58px] mb-[40px] desktop:pt-[90px]"
+      class="wp-block-group title-wrapper relative desktop:mb-[58px] mb-[40px] desktop:mt-[90px]"
     >
       <!-- wp:group -->
       <div
@@ -77,10 +77,10 @@
     <!-- wp:paragraph -->
     <a
       href="#Posty"
-      class="wp-block-buttons desktop:w-[175px] w-[140px] desktop:h-[175px] h-[140px] mx-0 text-center rounded-full border desktop:border-[4px] border-[3px] border-[#AAAAAA] absolute desktop:top-[-130px] top-[260px] wide:left-[70%] desktop:left-[80%] left-[50%] translate-x-[-50%] hover:border-none hover:bg-primaryYellow hover:text-white transition ease-out duration-300 flex flex-col justify-center items-center gap-y-0 cursor-pointer"
+      class="wp-block-buttons desktop:w-[175px] w-[140px] desktop:h-[175px] h-[140px] mx-0 text-center rounded-full border desktop:border-[4px] border-[3px] border-[#AAAAAA] absolute desktop:top-[-130px] top-[260px] wide:left-[70%] desktop:left-[80%] left-[50%] translate-x-[-50%] group-hover:border-none group-hover:bg-primaryYellow group-hover:text-white transition ease-out duration-300 flex flex-col justify-center items-center gap-y-0 cursor-pointer"
     >
       <!-- wp:paragraph -->
-      <p>Zobacz</p>
+      <p class="font-bold">Zobacz</p>
       <!-- /wp:paragraph -->
       <!-- wp:paragraph -->
       <p class="uppercase text-[25px] font-extrabold">WIĘCEJ</p>
