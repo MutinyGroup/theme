@@ -52,7 +52,8 @@ body{
 .clipped-cta img,
 .clipped-meet-us-gallery img,
 .clipped-video img,
-.clipped-content4 img{
+.clipped-content4 img,
+.clipped-contact{
   height: 100%;
   width: 100%;
   object-fit: cover;
@@ -107,6 +108,9 @@ body{
 }
 .clipped-content4 img{
   clip-path: url(#clipped-content4);
+}
+.clipped-contact img{
+  clip-path: url(#clipped-contact);
 }
 
 /* clip path images - page about */

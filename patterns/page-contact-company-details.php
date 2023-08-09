@@ -10,20 +10,18 @@
 <!-- wp:group -->
 <div id="O firmie" class="wp-block-group relative page-contact-info desktop::mb-[300px] mb-[100px]">
   <!-- wp:group -->
-  <div class="wp-block-group desktop:block hidden img-clip-path-wrapper w-[444px] overflow-hidden absolute bottom-[-150px] right-[0px] z-[-1]">
+  <div class="wp-block-group desktop:block hidden w-[444px] overflow-hidden absolute bottom-[-150px] right-[0px] z-[-1]">
     <!-- wp:image -->
-    <figure class="wp-block-image img-clip-path-cta">
+    <figure class="wp-block-image h-full clipped-contact">
       <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-contact/page-contact-company-details.jpg" alt="image">
     </figure>
     <!-- /wp:image -->
     <!-- wp:paragraph -->
-    <svg class="flt_svg" xmlns="http://www.w3.org/2000/svg">
+    <svg x="0px" y="0px" viewBox="0 0 1374.7 1083.6" class="absolute top-0" >
       <defs>
-        <filter id="flt_tag">
-          <feGaussianBlur in="SourceGraphic" stdDeviation="8" result="blur" />    
-          <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9" result="flt_tag" />
-          <feComposite in="SourceGraphic" in2="flt_tag" operator="atop"/>
-        </filter>
+        <clipPath id="clipped-contact" class="scale-[0.00133] scale-x-[0.00160]" clipPathUnits="objectBoundingBox">
+          <path d="M5.45959e-06 20C2.44434e-06 8.95431 8.95431 0 20 0L515 0C526.046 0 535 8.95431 535 20V579.2C535 590.246 526.046 599.2 515 599.2H376.228C368.272 599.2 360.641 602.361 355.015 607.987L329.789 633.213C324.162 638.839 316.532 642 308.575 642H20.0001C8.95446 642 0.000172808 633.046 0.000169793 622L5.45959e-06 20Z"/>
+        </clipPath>
       </defs>
     </svg>
     <!-- /wp:paragraph -->
