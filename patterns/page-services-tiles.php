@@ -79,9 +79,9 @@
     <!-- /wp:group -->
     
     <!-- wp:group -->
-    <div class="wp-block-group paragrapth-wrapper mb-[100px] flex justify-end wide:justify-center">
+    <div class="wp-block-group paragrapth-wrapper desktop:max-w-[1115px] mb-[100px] mx-auto">
       <!-- wp:paragraph -->
-      <p class="text text-[20px] leading-[30px] max-w-[625px]">
+      <p class="text ml-auto mr-0 text-[20px] leading-[30px] max-w-[625px]">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
         eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
         ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
