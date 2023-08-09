@@ -22,7 +22,6 @@
         id="title"
         class="wp-block-group title-wrapper relative container mx-auto desktop:flex"
       >
-
         <!-- wp:group -->
         <div
         class="wp-block-group section-title grid desktop:basis-auto desktop:w-[145px] desktop:basis-[80%] uppercase text-primaryYellow"
