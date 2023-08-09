@@ -54,7 +54,7 @@
                   $counter++;
                   if ($counter == 1){ ?>
                     <!-- wp:group -->
-                    <div class="wp-block-group swiper-slide desktop:mr-[80px] mr-[20px] relative group desktop:w-[444px] w-[300px] desktop:h-[675px] h-[500px]">
+                    <div class="wp-block-group swiper-slide desktop:mr-[80px] mr-[20px] relative group desktop:w-[535px] w-[300px] h-[500px] desktop:h-[675px] ">
                       <!-- wp:paragraph -->
                       <a href="<?php the_permalink(); ?>">                      
                         <!-- wp:group -->
@@ -76,7 +76,9 @@
                             </svg>
                             <!-- /wp:paragraph -->
                           </div>
-                          <!-- /wp:group -->                         
+                          <!-- /wp:group -->
+                        </div>
+                        <!-- /wp:group -->
 
                         <!-- wp:paragraph -->
                         <p class="slide-date font-light flex items-center before:content-[''] before:w-[20px] before:h-[1px] before:bg-primaryYellow before:inline-block before:mr-[10px] mb-[20px]"><?php the_time('d / m / Y'); ?></p>
@@ -90,7 +92,7 @@
                       </a>
                       <!-- /wp:paragraph -->
                     </div>
-                    <!-- /wp:group -->                
+                    <!-- /wp:group -->             
                   <?php 
                   }else{ ?>                    
                     <!-- wp:group -->
