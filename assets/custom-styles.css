@@ -180,16 +180,6 @@ body{
   writing-mode: vertical-rl;
   transform: rotate(180deg);
 }
-/* clip path */
-/* .flt_svg {
-  visibility: hidden; 
-  position: absolute;
-  width: 0px;
-  height: 0px;
-}
-.img-clip-path-rounded{
-  filter: url('#flt_tag');
-} */
 
 /* header */
 
@@ -233,10 +223,6 @@ body{
 
 
 /* about us */
-.img-clip-path-about-us{
-  -webkit-clip-path: polygon(0 0, 100% 0, 100% 95%, 60% 95%, 53% 100%, 0 100%);
-  clip-path: polygon(0 0, 100% 0, 100% 95%, 60% 95%, 53% 100%, 0 100%);
-}
 .clipped{
   clip-path: url(#clipped);
 }
@@ -315,14 +301,6 @@ body{
   opacity: 1;
 }
 
-.img-clip-path-services{
-  -webkit-clip-path: polygon(19% 0, 100% 0, 100% 100%, 0 100%, 0 17%);
-  clip-path: polygon(19% 0, 100% 0, 100% 100%, 0 100%, 0 17%);
-}
-.img-clip-path-services2{
-  -webkit-clip-path: polygon(0 0, 100% 0, 100% 83%, 82% 100%, 0 100%);
-  clip-path: polygon(0 0, 100% 0, 100% 83%, 82% 100%, 0 100%);
-}
 .clipped-services-swiper-start{
   clip-path: url(#clipped-services-swiper-start);
 }
@@ -369,39 +347,6 @@ body{
   opacity: 1;
 }
 
-.img-clip-path-realizations{
-  -webkit-clip-path: polygon(0 0, 100% 0, 100% 93%, 61% 93%, 52% 100%, 0 100%);
-  clip-path: polygon(0 0, 100% 0, 100% 93%, 61% 93%, 52% 100%, 0 100%);
-}
-
-/* blog */
-
-.img-clip-path-blog{
-  -webkit-clip-path: polygon(0 0, 100% 0, 100% 92%, 62% 92%, 53% 100%, 0 100%);
-  clip-path: polygon(0 0, 100% 0, 100% 92%, 62% 92%, 53% 100%, 0 100%);
-}
-
-/* cta */
-
-.img-clip-path-cta{
-  -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 25% 100%, 0 68%);
-  clip-path: polygon(0 0, 100% 0, 100% 100%, 25% 100%, 0 68%);
-}
-
-/* meet us */
-
-.img-clip-path-meet-us{
-  -webkit-clip-path: polygon(0 0, 100% 0, 100% 93%, 68% 93%, 60% 100%, 0 100%);
-  clip-path: polygon(0 0, 100% 0, 100% 93%, 68% 93%, 60% 100%, 0 100%);
-}
-
-/* meet us */
-
-.img-clip-path-video{
-  -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 28% 100%, 24% 92%, 0 92%);
-  clip-path: polygon(0 0, 100% 0, 100% 100%, 28% 100%, 24% 92%, 0 92%);
-}
-
 /* page about sport logos */
 
 .logos-sport-wrapper figure img{
@@ -438,13 +383,6 @@ body{
   transition: all 0.3s ease-out;
 }
 
-/* page services why section */
-
-.img-clip-path-why {
-  -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 24% 100%, 21% 89%, 0 89%);
-  clip-path: polygon(0 0, 100% 0, 100% 100%, 24% 100%, 21% 89%, 0 89%);
-}
-
 /* swiper opinions */
 .swiperOpinions .swiper-wrapper .swiper-slide{
   transition: opacity 0.3s ease-out;
@@ -460,7 +398,6 @@ body{
 .swiperOpinions .swiper-wrapper .swiper-slide-active{
   opacity: 100%;
 }
-
 
 /* blog page */
 
