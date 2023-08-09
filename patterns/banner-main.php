@@ -85,9 +85,9 @@
       <!-- /wp:group -->
 
       <!-- wp:group -->
-      <div class="wp-block-group right-col banner-bg h-[300px] desktop:h-auto wide:h-[950px] desktop:w-[44%] w-[65%] absolute right-0 desktop:top-[50px] top-[30px] z-[-1]">
+      <div class="wp-block-group right-col banner-bg h-[300px] desktop:h-[775px] wide:h-[950px] desktop:w-[44%] w-[65%] absolute right-0 desktop:top-[50px] top-[30px] z-[-1]">
         <!-- wp:image -->
-        <figure class="wp-block-image clip-path-img clipped-banner relative desktop:max-h-full before:content-[''] before:w-full before:h-full before:bg-[#000] before:opacity-[30%] before:absolute before:top-0 before:left-0">
+        <figure class="wp-block-image clip-path-img clipped-banner relative desktop:max-h-full before:content-[''] before:w-full before:h-full before:bg-[#000] before:z-[1] before:opacity-[40%] before:absolute before:top-0 before:left-0">
           <img
             src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/front-page/frontpage-banner.jpg"
             alt="background image"

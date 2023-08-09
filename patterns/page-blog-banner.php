@@ -2,7 +2,7 @@
 /**
  * Title: page-blog-banner
  * Slug: page-blog-banner
- * Categories: text, banner
+ * Categories: text, banner, theme
  * Viewport Width: 1280
  */
 ?>
