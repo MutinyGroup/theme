@@ -270,7 +270,7 @@
               <!-- wp:group -->
               <div class="wp-block-group desktop:w-[50%] h-full rounded-[20px] overflow-hidden">
                 <!-- wp:image -->
-                <figure class="wp-block-image content4 h-full">
+                <figure class="wp-block-image clipped-content4 h-full">
                   <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-marketing/swiper/swiper2-1.jpg" alt="marketing-backgroun-image">
                 </figure>
                 <!-- /wp:image -->
