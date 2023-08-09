@@ -3,7 +3,6 @@
 html{
   scroll-behavior: smooth;
 }
-
 body{
   font-family: 'Urbanist', sans-serif;
 }
@@ -147,7 +146,6 @@ body{
 .clipped-why{
   clip-path: url(#clipped-why);
 }
-
 @media only screen and (max-width: 480px) {
  .clipped-blog img{
    height: 340px;
@@ -172,7 +170,6 @@ body{
    height: 580px;
  }
 }
-
 .wp-block-image{
   margin-bottom: 0;
 }
@@ -195,7 +192,6 @@ body{
   transform-origin: left;
   transform: rotate(0);
 }
-
 .active .hamburger-btn-line:nth-child(1){
   transform-origin: left;
   transform: rotate(43deg);
@@ -216,11 +212,9 @@ body{
   width: 100%;
   object-fit: fill;
 }
-
 .clipped-banner{
   clip-path: url(#clipped-banner);
 }
-
 
 /* about us */
 .clipped{
@@ -275,7 +269,6 @@ body{
   filter: grayscale(100%);
   transition: all 0.3s ease-out;
 }
-
 .swiper-slide-services:after {
   opacity: 0;
   content: "";
@@ -388,7 +381,6 @@ body{
   transition: opacity 0.3s ease-out;
   opacity: 0%
 }
-
 .swiperOpinions .swiper-wrapper .swiper-slide-prev{
   opacity: 0;
 }
@@ -467,9 +459,9 @@ body{
    }
 }
 
-
  /* page services-marketing */
- .inactive{
+
+.inactive{
   max-height: 0px;
   opacity: 0%;
   padding-top: 5px;
@@ -477,27 +469,27 @@ body{
   z-index: -1;
   position: relative;
 }
- .active{
+.active{
   max-height: 280px;
   opacity: 100%;
   padding-top: 5px;
   padding-bottom: 5px;
   z-index: 0;
   position: relative;
- }
- .marketing-gallery img{
-  width: 100%;
- }
- .swiperMarketing2 figure img{
-   height: 100%;
-   object-fit: cover;
- }
+}
+.marketing-gallery img{
+width: 100%;
+}
+.swiperMarketing2 figure img{
+  height: 100%;
+  object-fit: cover;
+}
 
  /* navigation menu */
 
- .wp-block-navigation__responsive-container-open{
-   display: none;
- }
+.wp-block-navigation__responsive-container-open{
+  display: none;
+}
 
 .wp-block-navigation__responsive-close{
   max-width: fit-content;
@@ -506,12 +498,12 @@ body{
   font-size: 16px!important;
   font-weight: 600;
   border-bottom: 2px transparent solid; 
- }
- .wp-block-navigation-item:hover{
+}
+.wp-block-navigation-item:hover{
   border-bottom: 2px #FEC400 solid;
   color: #AAA;
   transition: all 0.3s ease-out; 
- }
+}
 .current-menu-item{
   color: #FEC400;
 }
