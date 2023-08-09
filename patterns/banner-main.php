@@ -50,7 +50,7 @@
         <!-- wp:image -->
         <figure class="wp-block-image bg-shape w-[1220px] h-[750px] z-[-1] opacity-[0.25] absolute top-[130px] left-[-320px]">
           <img
-            src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/front-page/frontpage-banner.jpg"
+            src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/front-page/banner-bg-shape.png"
             alt="background image"
           />
         </figure>
@@ -89,7 +89,7 @@
         <!-- wp:image -->
         <figure class="wp-block-image clip-path-img clipped-banner relative desktop:max-h-full before:content-[''] before:w-full before:h-full before:bg-[#000] before:opacity-[30%] before:absolute before:top-0 before:left-0">
           <img
-            src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/front-page/banner-bg.png"
+            src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/front-page/frontpage-banner.jpg"
             alt="background image"
           />
         </figure>
