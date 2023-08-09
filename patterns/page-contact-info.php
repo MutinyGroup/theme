@@ -74,6 +74,11 @@
     <!-- wp:group -->
     <div class="wp-block-group paragrapth-wrapper mb-[100px] flex justify-end">
       <!-- wp:paragraph -->
+      <svg class="shape opacity-[60%] z-[-1] scale-[0.6] desktop:scale-[1] z-[-1] absolute desktop:top-0 top-[-50px] desktop:right-[0px] right-[-60px]" xmlns="http://www.w3.org/2000/svg" width="470" height="395" viewBox="0 0 470 395" fill="none">
+        <path d="M0.999573 393.345L468.242 236.123V1.39158L0.999573 158.613V393.345Z" stroke="white" stroke-width="2"/>
+      </svg>
+      <!-- /wp:paragraph -->
+      <!-- wp:paragraph -->
       <p class="text text-[20px] leading-[30px] max-w-[625px]">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
       </p>
