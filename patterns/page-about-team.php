@@ -88,10 +88,10 @@
       <div class="wp-block-group col2 desktop:w-[55%] z-[1]">
         <!-- wp:group -->
         <div class="wp-block-group gallery-cols relative flex gap-[8px]">
-          <!-- wp:group -->
-          <div class="wp-block-group inner-col1 w-[49%]">
-            <!-- wp:group -->
-            <div class="wp-block-group tile-wrapper relative mb-[12px] rounded-[20px] overflow-hidden">
+          <!-- wp:list -->
+          <ul class="wp-block-group inner-col1 w-[49%]">
+            <!-- wp:list-item -->
+            <li class="wp-block-group tile-wrapper relative mb-[12px] rounded-[20px] overflow-hidden">
               <!-- wp:image -->
               <figure class="wp-block-image">
                 <img
@@ -112,10 +112,10 @@
                 <!-- /wp:paragraph -->
               </div>
               <!-- /wp:group -->
-            </div>
-            <!-- /wp:group -->
-            <!-- wp:group -->
-            <div class="wp-block-group tile-wrapper relative mb-[12px] rounded-[20px] overflow-hidden">
+            </li>
+            <!-- /wp:list-item -->
+            <!-- wp:list-item -->
+            <li class="wp-block-group tile-wrapper relative mb-[12px] rounded-[20px] overflow-hidden">
               <!-- wp:image -->
               <figure class="wp-block-image">
                 <img
@@ -136,10 +136,10 @@
                 <!-- /wp:paragraph -->
               </div>
               <!-- /wp:group -->
-            </div>
-            <!-- /wp:group -->
-          </div>
-          <!-- /wp:group -->
+            </li>
+            <!-- /wp:list-item -->
+          </li>
+          <!-- /wp:li -->
           <!-- wp:group -->
           <div class="wp-block-group inner-col2 w-[49%] absolute top-[60px] right-0">
             <!-- wp:group -->
