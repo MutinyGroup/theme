@@ -30,7 +30,7 @@
     <!-- /wp:group -->
 
     <!-- wp:group -->
-    <div class="wp-block-group targets-wrapper desktop:ml-[83px] desktop:flex gap-x-[80px] wide:gap-x-[200px]">
+    <div class="wp-block-group targets-wrapper desktop:flex gap-x-[80px] wide:gap-x-[200px]">
       <!-- wp:group -->
       <div class="wp-block-group col1 desktop:mb-auto mb-[20px] desktop:basis-[45%] h-[450px] desktop:h-[790px] wide:h-[900px] rounded-tr-[15px]">
         <!-- wp:group -->
