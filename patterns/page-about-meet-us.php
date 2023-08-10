@@ -201,7 +201,7 @@
       <!-- wp:image -->
       <figure class="wp-block-image w-[58%] overflow-hidden rounded-tl-[22px] rounded-bl-[22px]">
         <img  
-        src="	https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-about/about-gallery2.jpg"
+        src="	https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-about/about-gallery2.jpeg"
         alt="image"
         />
       </figure>
