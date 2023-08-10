@@ -108,7 +108,7 @@
                   </clipPath>
                 </defs>
               </svg>
-              <!-- wp:paragraph -->
+              <!-- /wp:paragraph -->
               <!-- wp:group -->
               <div
                 class="wp-block-group text-content text-white absolute desktop:bottom-[30px] bottom-[10px] desktop:left-[30px] left-[10px] leading-[30px]"
