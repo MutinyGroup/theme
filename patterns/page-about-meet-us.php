@@ -197,7 +197,7 @@
     <!-- /wp:list -->
 
     <!-- wp:group {"displayLayout":{"type":"flex","columns":2}, "width":"200px"} -->
-    <div class="wp-block-group gallery desktop:mb-[240px] mb-[150px] relative mb-[100px] flex">
+    <div class="wp-block-group gallery mb-[80px] desktop:mb-[240px] relative mb-[100px] flex">
       <!-- wp:image -->
       <figure class="wp-block-image meet-us-gallery w-[58%] aspect-[5/6] overflow-hidden rounded-tl-[20px] rounded-bl-[20px]">
         <img  
@@ -208,7 +208,7 @@
       <!-- /wp:image -->
 
       <!-- wp:group -->
-      <div class="wp-block-group mb-[20px] w-[58%] absolute top-[100px] right-[10px]">
+      <div class="wp-block-group mb-[20px] w-[58%] absolute top-[50px] desktop:top-[100px] right-[10px]">
         <!-- wp:group -->
         <div class="wp-block-group">
           <!-- wp:image -->
