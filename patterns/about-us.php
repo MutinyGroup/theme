@@ -12,7 +12,7 @@
   <!-- wp:group -->
   <div class="wp-block-group relative px-[20px] desktop:px-0">
     <!-- wp:group -->
-    <div class="wp-block-group title-wrapper relative desktop:mb-[150px] mb-[230px] flex gap-[20px]">
+    <div class="wp-block-group title-wrapper container mx-auto relative desktop:mb-[150px] mb-[230px] flex gap-[20px]">
       <!-- wp:paragraph -->
       <p class="section-title min-w-fit uppercase text-primaryYellow">O nas</p>
       <!-- /wp:paragraph -->
