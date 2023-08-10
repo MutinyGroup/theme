@@ -13,7 +13,7 @@
     <!-- wp:group -->
     <div class="wp-block-group title-wrapper relative desktop:mb-[80px] mb-[60px]">
       <!-- wp:group -->
-      <div class="wp-block-group flash-wrapper wide:scale-[1] desktop:scale-[1] scale-[0.5] absolute top-[-350px] desktop:top-[-300px] wide:top-[-270px] left-[-120px] desktop:left-[-200px] wide:left-[-230px] z-[-1]">
+      <div class="wp-block-group flash-wrapper wide:scale-[1] desktop:scale-[1] scale-[0.5] absolute top-[-350px] desktop:top-[-300px] wide:top-[-270px] left-[-200px] wide:left-[-230px] z-[-1]">
         <!-- wp:paragraph -->
         <svg class="flash" xmlns="http://www.w3.org/2000/svg" width="688" height="801" viewBox="0 0 688 801" fill="none">
           <g filter="url(#filter0_f_1787_1988)">
