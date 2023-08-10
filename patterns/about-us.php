@@ -12,18 +12,50 @@
   <!-- wp:group -->
   <div class="wp-block-group relative px-[20px] desktop:px-0">
     <!-- wp:group -->
-    <div id="about" class="wp-block-group title-wrapper relative container mx-auto desktop:mb-[120px] mb-[60px] pt-[70px] desktop:pt-0 flex desktop:gap-[20px] gap-[0px]">
-      <!-- wp:paragraph -->
-      <p class="section-title desktop:basis-auto desktop:w-[145px] basis-[80%] uppercase text-primaryYellow ">O nas</p>
-      <!-- /wp:group -->
+    <div class="wp-block-group title-wrapper relative desktop:mb-[150px] mb-[230px] flex gap-[20px]">
       <!-- wp:group -->
-      <div class="wp-block-group uslugi-title">
+      <div class="wp-block-group flash-wrapper wide:scale-[1] desktop:scale-[1] scale-[0.5] absolute top-[-350px] desktop:top-[-300px] wide:top-[-270px] right-[-90px] desktop:left-[-200px] wide:left-[-230px] z-[-1]">
         <!-- wp:paragraph -->
+        <svg class="flash" xmlns="http://www.w3.org/2000/svg" width="688" height="801" viewBox="0 0 688 801" fill="none">
+          <g filter="url(#filter0_f_1787_1988)">
+          <circle cx="287.132" cy="400.132" r="150" transform="rotate(-45 287.132 400.132)" fill="url(#paint0_linear_1787_1988)" fill-opacity="0.5"/>
+          </g>
+          <defs>
+          <filter id="filter0_f_1787_1988" x="-112.868" y="0.131836" width="800" height="800" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+          <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+          <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+          <feGaussianBlur stdDeviation="125" result="effect1_foregroundBlur_1787_1988"/>
+          </filter>
+          <linearGradient id="paint0_linear_1787_1988" x1="287.132" y1="250.132" x2="287.132" y2="550.132" gradientUnits="userSpaceOnUse">
+          <stop stop-color="#FEC400" stop-opacity="0.6"/>
+          <stop offset="1" stop-color="#FEC400" stop-opacity="0"/>
+          </linearGradient>
+          </defs>
+        </svg>
+        <!-- /wp:paragraph -->
+
+        <!-- wp:image -->
+        <figure class="wp-block-image flash absolute top-[0px] left-[0px]">
+          <img
+            src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/bg-yellow-flash.png"
+            alt="background image"
+          />
+        </figure>
+        <!-- /wp:image -->
+      </div>
+      <!-- /wp:group -->
+
+      <!-- wp:paragraph -->
+      <p class="section-title uppercase text-primaryYellow">O nas</p>
+      <!-- /wp:paragraph -->
+      <!-- wp:group -->
+      <div class="wp-block-group uslugi-title is-layout-flow">
+        
         <p class="uppercase desktop:text-[50px] text-[24px] desktop:leading-[55px] leading-[30px]">
           Holistyczne podejście do działań reklamowych sprawia, że nasza firma działa
           <span class="relative desktop:text-[50px] text-[24px] uppercase italic before:content-[''] before:inline-block desktop:before:mr-[16px] before:mr-[4px] before:bottom-0 before:left-0 desktop:before:w-[90px] before:w-[30px] desktop:before:h-[3px] before:h-[2px] before:bg-white">jak jeden organizm</span>
         </p>
-        <!-- /wp:paragraph -->
+        
       </div>
       <!-- /wp:group -->
     </div>
