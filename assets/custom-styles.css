@@ -324,12 +324,6 @@ body{
   object-fit: fill;
 }
 
-/* realizations */
-.realizacje{
-  /* overflow-y: visible;
-  overflow-x: visible; */
-}
-
 .tile-realizacje-1::before,
 .tile-realizacje-2::before {
   opacity: 0;
