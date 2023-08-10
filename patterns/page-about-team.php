@@ -147,8 +147,8 @@
               <!-- /wp:group -->
             </li>
             <!-- /wp:list-item -->
-          </li>
-          <!-- /wp:li -->
+          </ul>
+          <!-- /wp:list -->
           <!-- wp:group -->
           <div class="wp-block-group inner-col2 w-[49%] absolute top-[60px] right-0">
             <!-- wp:group -->
@@ -194,7 +194,7 @@
                 </defs>
               </svg>
               <!-- /wp:paragraph -->
-              
+
               <!-- wp:group -->
               <div
                 class="wp-block-group text-content text-white absolute desktop:bottom-[30px] bottom-[10px] desktop:left-[30px] left-[10px] leading-[30px]"
