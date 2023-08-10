@@ -199,7 +199,7 @@
     <!-- wp:group {"displayLayout":{"type":"flex","columns":2}, "width":"200px"} -->
     <div class="wp-block-group gallery desktop:mb-[240px] mb-[150px] relative mb-[100px] flex">
       <!-- wp:image -->
-      <figure class="wp-block-image meet-us-gallery w-[58%] desktop:h-[750px] aspect-[5/6]">
+      <figure class="wp-block-image meet-us-gallery w-[58%] aspect-[5/6]">
         <img  
         src="	https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-about/about-gallery2.jpeg"
         alt="image"
