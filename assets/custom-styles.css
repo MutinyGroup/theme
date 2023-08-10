@@ -116,8 +116,14 @@ body{
 
 /* clip path images - page about */
 
-.clipped-meet-us-gallery{
+.clipped-meet-us-gallery img{
   clip-path: url(#clipped-meet-us-gallery);
+  height: 100%;
+  object-fit: cover;
+}
+.meet-us-gallery img{
+  height: 100%;
+  object-fit: cover;
 }
 .clipped-team img{
   clip-path: url(#clipped-team);
