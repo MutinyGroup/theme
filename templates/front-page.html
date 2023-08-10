@@ -1,25 +1,39 @@
 <!-- wp:template-part {"slug":"front-page/header"} /-->
 
-<!-- wp:template-part {"slug":"front-page/sidebar"} /-->
-
-
-<!-- wp:pattern {"slug":"banner-main"} /-->
-
-<!-- wp:pattern {"slug":"mutiny/about-us"} /-->
-
-<!-- wp:pattern {"slug":"services"} /-->
-
-<!-- wp:pattern {"slug":"img-separator"} /-->
-
-<!-- wp:pattern {"slug":"companies-logos"} /-->
-
-<!-- wp:pattern {"slug":"realizations"} /-->
-
-<!-- wp:pattern {"slug":"opinions"} /-->
-
-<!-- wp:pattern {"slug":"blog"} /-->
-
-<!-- wp:pattern {"slug":"cta"} /-->
-
-
-<!-- wp:template-part {"slug":"front-page/footer"} /-->
+<!-- wp:group -->
+<div class="page-wrapper flex">
+  <!-- wp:group -->
+  <div class="sidebar w-[80px]">
+    <!-- wp:template-part {"slug":"front-page/sidebar"} /-->
+  </div>
+  <!-- /wp:group -->
+  
+  <!-- wp:group -->
+  <div class="content-wrapper w-full">
+    <!-- wp:group -->
+    <div class="container mx-auto">
+      <!-- wp:pattern {"slug":"banner-main"} /-->
+      
+      <!-- wp:pattern {"slug":"mutiny/about-us"} /-->
+      
+      <!-- wp:pattern {"slug":"services"} /-->
+      
+      <!-- wp:pattern {"slug":"img-separator"} /-->
+      
+      <!-- wp:pattern {"slug":"companies-logos"} /-->
+      
+      <!-- wp:pattern {"slug":"realizations"} /-->
+      
+      <!-- wp:pattern {"slug":"opinions"} /-->
+      
+      <!-- wp:pattern {"slug":"blog"} /-->
+      
+      <!-- wp:pattern {"slug":"cta"} /-->
+      
+      <!-- wp:template-part {"slug":"front-page/footer"} /-->
+    </div>
+    <!-- /wp:group -->
+  </div>
+  <!-- /wp:group -->
+</div>
+<!-- /wp:group -->
