@@ -51,6 +51,7 @@ body{
 .clipped-blog img,
 .clipped-cta img,
 .clipped-meet-us-gallery img,
+.clipped-team img,
 .clipped-video img,
 .clipped-content4 img,
 .clipped-contact{
@@ -117,6 +118,9 @@ body{
 
 .clipped-meet-us-gallery{
   clip-path: url(#clipped-meet-us-gallery);
+}
+.clipped-team{
+  clip-path: url(#clipped-team);
 }
 .video-player-wrapper::after{
   clip-path: url(#clipped-cta);
