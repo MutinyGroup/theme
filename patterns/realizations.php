@@ -7,9 +7,9 @@
  */
 ?>
 <!-- wp:group -->
-<div id="Realizacje" class="wp-block-group realizacje relative desktop:mb-[150px] desktop:pt-[220px] pt-[180px] desktop:mb-[200px] mb-[60px]">
+<div id="Realizacje" class="wp-block-group realizacje relative desktop:mb-[150px] desktop:pt-[220px] pt-[180px] desktop:mb-[200px] mb-[60px] overflow-visible">
   <!-- wp:paragraph -->
-  <svg class="bg-shape w-[1440px] h-[815px] z-[-1] opacity-[0.16] absolute top-[130px] desktop:left-[150px] left-[-140px]" xmlns="http://www.w3.org/2000/svg" width="1051" height="816" viewBox="0 0 1051 816" fill="none">
+  <svg class="bg-shape z-[-1] opacity-[0.16] absolute top-[130px] right-0" xmlns="http://www.w3.org/2000/svg" width="1051" height="816" viewBox="0 0 1051 816" fill="none">
     <g style="mix-blend-mode:color-dodge">
     <path d="M1 1.96689L938.264 332.267L938.596 332.384L938.929 332.267L1406.89 167.352V413.308L938.596 578.341L234.981 330.381L233.649 329.911V331.324V814.048L1 732.06V1.96689Z" stroke="#808080" stroke-width="2"/>
     </g>

@@ -270,7 +270,6 @@ body{
   clip-path: url(#clipped-realizations-2);
 }
 .swiper-slide-services::before {
-  /* clip-path: url(#clipped-realizations-1); */
   opacity: 0;
   content: "";
   position: absolute;
@@ -327,8 +326,8 @@ body{
 
 /* realizations */
 .realizacje{
-  overflow-y: visible;
-  overflow-x: hidden;
+  /* overflow-y: visible;
+  overflow-x: visible; */
 }
 
 .tile-realizacje-1::before,
