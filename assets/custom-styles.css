@@ -119,7 +119,7 @@ body{
 .clipped-meet-us-gallery{
   clip-path: url(#clipped-meet-us-gallery);
 }
-.clipped-team{
+.clipped-team img{
   clip-path: url(#clipped-team);
 }
 .video-player-wrapper::after{
