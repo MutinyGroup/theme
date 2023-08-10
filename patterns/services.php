@@ -163,7 +163,7 @@
                   <!-- /wp:group -->
 
                   <!-- wp:buttons -->
-                  <div class="wp-block-buttons btn-swiper-more group text-[14px] uppercase absolute desktop:bottom-[25px] bottom-[55px] left-[25px] transition ease-out duration-300">
+                  <div class="wp-block-buttons btn-swiper-more group text-[14px] uppercase absolute desktop:bottom-[25px] bottom-[55px] left-[25px] cursor-pointer transition ease-out duration-300">
                     <!-- wp:paragraph -->
                     <a href="<?php the_permalink(); ?>" class="inline-block z-[1]">
                       Dowiedz się więcej
