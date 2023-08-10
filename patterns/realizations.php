@@ -53,7 +53,7 @@
       <!-- /wp:group -->
 
       <!-- wp:paragraph -->
-      <p class="section-title uppercase text-primaryYellow">Realiacje</p>
+      <p class="section-title uppercase text-primaryYellow">Realizacje</p>
       <!-- /wp:paragraph -->
       <!-- wp:group -->
       <div class="wp-block-group realizations-title desktop:leading-[55px] leading-[35px]">
