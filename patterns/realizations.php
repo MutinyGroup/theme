@@ -70,7 +70,7 @@
     </div>
     <!-- /wp:group -->
     <!-- wp:paragraph -->
-    <p class="sub-title desktop:max-w-[400px] max-w-[200px] desktop:text-[20px] text-[16px] font-light desktop:leading-[30px] leading-[26px] absolute desktop:left-[65%] left-[160px] desktop:top-[40px] top-[120px]">
+    <p class="sub-title desktop:max-w-[400px] max-w-[300px] desktop:text-[20px] text-[16px] font-light desktop:leading-[30px] leading-[26px] absolute left-[40%] desktop:left-[65%] top-[140px] desktop:top-[40px]">
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore <span class="text-primaryYellow">et dolore magna aliqua. </span>
     </p>
     <!-- /wp:paragraph -->
