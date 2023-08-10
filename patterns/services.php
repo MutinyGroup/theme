@@ -109,11 +109,11 @@
                 $counter++;
               ?>
                 <!-- wp:group -->
-                <div class="wp-block-group swiper-slide swiper-slide-services relative z-[2] group p-[25px] wide:max-w-[420px] desktop:max-w-[354px] max-w-[310px] h-[380px] desktop:h-[450px] wide:h-[530px] rounded-[20px] transition ease-out duration-300 mr-[8px] <?php if($counter == 1) echo 'clipped-swiper-serv-1'; elseif($counter == $post_query->post_count) echo 'clipped-swiper-serv-2'; ?>">
+                <div class="wp-block-group swiper-slide swiper-slide-services relative z-[2] group p-[25px] wide:max-w-[420px] desktop:max-w-[354px] max-w-[310px] h-[380px] desktop:h-[450px] wide:h-[530px] rounded-[20px] hover:grayscale transition ease-out duration-300 mr-[8px] <?php if($counter == 1) echo 'clipped-swiper-serv-1'; elseif($counter == $post_query->post_count) echo 'clipped-swiper-serv-2'; ?>">
                   <!-- wp:group -->
                   <div class="wp-block-group img-clip-path-wrapper w-full h-full rounded-[20px] rounded-br-[20px] overflow-hidden absolute left-0 top-0 z-[-1]">
                     <!-- wp:group -->
-                    <div class="wp-block-group <?php if($counter == 1) echo 'clipped-swiper-serv-1'; elseif($counter == $post_query->post_count) echo 'clipped-swiper-serv-2'; ?> gray-overlay w-full h-full bg-[#101010] absolute top-0 left-0 opacity-[50%] z-[1]">
+                    <div class="wp-block-group <?php if($counter == 1) echo 'clipped-swiper-serv-1'; elseif($counter == $post_query->post_count) echo 'clipped-swiper-serv-2'; ?> gray-overlay w-full h-full bg-[#101010] absolute top-0 left-0 opacity-[70%] z-[1]">
                       <!-- wp:paragraph -->
                       <p class="hidden">gray overlay</p>
                       <!-- /wp:paragraph -->
