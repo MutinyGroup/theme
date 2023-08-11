@@ -93,7 +93,7 @@
             <!-- wp:list-item -->
             <li class="wp-block-group tile-wrapper relative mb-[12px] rounded-[20px] overflow-hidden">
               <!-- wp:group -->
-              <div class="wp-block-group overlay-author z-[1] h-full w-full bg-gradient-to-t from-black tp-[rgba(0,0,0,0)] opacity-[20%] absolute top-0 left-0 clipped-swiper-serv-1">
+              <div class="wp-block-group overlay-author z-[1] h-full w-full bg-gradient-to-t from-black via-[rgba(0,0,0,0)] opacity-[40%] absolute top-0 left-0 clipped-swiper-serv-1">
                 <!-- wp:paragraph -->
                 <p class="hidden">overlay</p>
                 <!-- /wp:paragraph -->
@@ -118,7 +118,7 @@
               <!-- /wp:paragraph -->
               <!-- wp:group -->
               <div
-                class="wp-block-group text-content text-white absolute desktop:bottom-[30px] bottom-[10px] desktop:left-[30px] left-[10px] leading-[30px]"
+                class="wp-block-group text-content text-white absolute desktop:bottom-[30px] bottom-[10px] desktop:left-[30px] left-[10px] leading-[30px] z-[2]"
               >
                 <!-- wp:paragraph -->
                 <p class="name desktop:text-[25px] text-[20px] font-medium">Olga Anusiewicz</p>
@@ -132,6 +132,13 @@
             <!-- /wp:list-item -->
             <!-- wp:list-item -->
             <li class="wp-block-group tile-wrapper relative mb-[12px] rounded-[20px] overflow-hidden">
+              <!-- wp:group -->
+              <div class="wp-block-group overlay-author z-[1] h-full w-full bg-gradient-to-t from-black via-[rgba(0,0,0,0)] opacity-[40%] absolute top-0 left-0 clipped-swiper-serv-1">
+                <!-- wp:paragraph -->
+                <p class="hidden">overlay</p>
+                <!-- /wp:paragraph -->
+              </div>
+              <!-- /wp:group -->
               <!-- wp:image -->
               <figure class="wp-block-image">
                 <img
@@ -142,7 +149,7 @@
               <!-- /wp:image -->
               <!-- wp:group -->
               <div
-                class="wp-block-group text-content text-white absolute desktop:bottom-[30px] bottom-[10px] desktop:left-[30px] left-[10px] leading-[30px]"
+                class="wp-block-group text-content text-white absolute desktop:bottom-[30px] bottom-[10px] desktop:left-[30px] left-[10px] leading-[30px] z-[2]"
               >
                 <!-- wp:paragraph -->
                 <p class="name text-[25px] font-medium">Olga Anusiewicz</p>
@@ -160,6 +167,13 @@
           <div class="wp-block-group inner-col2 w-[49%] absolute top-[60px] right-0">
             <!-- wp:group -->
             <div class="wp-block-group tile-wrapper relative mb-[12px] rounded-[20px] overflow-hidden">
+             <!-- wp:group -->
+             <div class="wp-block-group overlay-author z-[1] h-full w-full bg-gradient-to-t from-black via-[rgba(0,0,0,0)] opacity-[40%] absolute top-0 left-0 clipped-swiper-serv-1">
+                <!-- wp:paragraph -->
+                <p class="hidden">overlay</p>
+                <!-- /wp:paragraph -->
+              </div>
+              <!-- /wp:group -->              
               <!-- wp:image -->
               <figure class="wp-block-image">
                 <img
@@ -170,7 +184,7 @@
               <!-- /wp:image -->
               <!-- wp:group -->
               <div
-                class="wp-block-group text-content text-white absolute desktop:bottom-[30px] bottom-[10px] desktop:left-[30px] left-[10px] leading-[30px]"
+                class="wp-block-group text-content text-white absolute desktop:bottom-[30px] bottom-[10px] desktop:left-[30px] left-[10px] leading-[30px] z-[2]"
               >
                 <!-- wp:paragraph -->
                 <p class="name text-[25px] font-medium">Olga Anusiewicz</p>
@@ -184,6 +198,13 @@
             <!-- /wp:group -->
             <!-- wp:group -->
             <div class="wp-block-group tile-wrapper relative mb-[12px] rounded-[20px] overflow-hidden">
+             <!-- wp:group -->
+             <div class="wp-block-group overlay-author z-[1] h-full w-full bg-gradient-to-t from-black via-[rgba(0,0,0,0)] opacity-[40%] absolute top-0 left-0 clipped-swiper-serv-1">
+                <!-- wp:paragraph -->
+                <p class="hidden">overlay</p>
+                <!-- /wp:paragraph -->
+              </div>
+              <!-- /wp:group -->              
               <!-- wp:image -->
               <figure class="wp-block-image clipped-team h-full">
                 <img
@@ -204,7 +225,7 @@
 
               <!-- wp:group -->
               <div
-                class="wp-block-group text-content text-white absolute desktop:bottom-[30px] bottom-[10px] desktop:left-[30px] left-[10px] leading-[30px]"
+                class="wp-block-group text-content text-white absolute desktop:bottom-[30px] bottom-[10px] desktop:left-[30px] left-[10px] leading-[30px] z-[2]"
               >
                 <!-- wp:paragraph -->
                 <p class="name text-[25px] font-medium">Olga Anusiewicz</p>
