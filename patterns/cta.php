@@ -2,7 +2,7 @@
 /**
  * Title: cta
  * Slug: cta
- * Categories: text, banner
+ * Categories: CTA
  * Viewport Width: 1280
  */
 ?>

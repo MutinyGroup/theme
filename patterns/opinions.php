@@ -2,7 +2,7 @@
 /**
  * Title: opinions
  * Slug: opinions
- * Categories: text, banner
+ * Categories: Swiper, Opinie
  * Viewport Width: 1280
  */
 ?>

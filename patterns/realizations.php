@@ -2,7 +2,7 @@
 /**
  * Title: realizations
  * Slug: realizations
- * Categories: text, banner
+ * Categories: Kafelki
  * Viewport Width: 1280
  */
 ?>

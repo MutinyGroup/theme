@@ -2,7 +2,7 @@
 /**
  * Title: about-us
  * Slug: mutiny/about-us
- * Categories: text, banner
+ * Categories: text, counter
  * Viewport Width: 1280
  */
 ?>

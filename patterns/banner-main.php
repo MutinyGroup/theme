@@ -2,7 +2,7 @@
 /**
  * Title: banner
  * Slug: banner-main
- * Categories: text, banner
+ * Categories: Banner, Front Page
  * Viewport Width: 1280
  */
 ?>

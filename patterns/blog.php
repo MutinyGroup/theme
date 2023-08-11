@@ -2,7 +2,7 @@
 /**
  * Title: blog
  * Slug: blog
- * Categories: text, banner
+ * Categories: Swiper, Blog
  * Viewport Width: 1280
  */
 ?>

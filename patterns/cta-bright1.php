@@ -2,7 +2,7 @@
 /**
  * Title: cta-bright1
  * Slug: cta-bright1
- * Categories: text, banner
+ * Categories: CTA
  * Viewport Width: 1280
  */
 ?>
