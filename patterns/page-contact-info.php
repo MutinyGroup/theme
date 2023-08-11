@@ -95,12 +95,12 @@
           class="wp-block-group img-clip-path-wrapper relative w-full h-full overflow-hidden"
         >
           <!-- wp:group -->
-          <div class="wp-block-group overlay-author z-[1] h-full w-full absolute top-0 left-0 clipped-blog">
+          <div class="wp-block-group overlay-author z-[1] h-full w-full bg-gradient-to-t from-black via-[rgba(0,0,0,0)] opacity-[40%] absolute top-0 left-0 clipped-blog">
             <!-- wp:paragraph -->
             <p class="hidden">overlay</p>
             <!-- /wp:paragraph -->
           </div>
-          <!-- /wp:group -->
+          <!-- /wp:group -->  
           <!-- wp:image -->
           <figure
             class="wp-block-image author-img h-full clipped-blog"
