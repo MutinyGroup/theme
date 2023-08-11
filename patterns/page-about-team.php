@@ -133,7 +133,7 @@
             <!-- wp:list-item -->
             <li class="wp-block-group tile-wrapper relative mb-[12px] rounded-[20px] overflow-hidden">
               <!-- wp:group -->
-              <div class="wp-block-group overlay-author z-[1] h-full w-full bg-gradient-to-t from-black via-[rgba(0,0,0,0)] opacity-[40%] absolute top-0 left-0 clipped-swiper-serv-1">
+              <div class="wp-block-group overlay-author z-[1] h-full w-full bg-gradient-to-t from-black via-[rgba(0,0,0,0)] opacity-[40%] absolute top-0 left-0">
                 <!-- wp:paragraph -->
                 <p class="hidden">overlay</p>
                 <!-- /wp:paragraph -->
@@ -168,7 +168,7 @@
             <!-- wp:group -->
             <div class="wp-block-group tile-wrapper relative mb-[12px] rounded-[20px] overflow-hidden">
              <!-- wp:group -->
-             <div class="wp-block-group overlay-author z-[1] h-full w-full bg-gradient-to-t from-black via-[rgba(0,0,0,0)] opacity-[40%] absolute top-0 left-0 clipped-swiper-serv-1">
+             <div class="wp-block-group overlay-author z-[1] h-full w-full bg-gradient-to-t from-black via-[rgba(0,0,0,0)] opacity-[40%] absolute top-0 left-0">
                 <!-- wp:paragraph -->
                 <p class="hidden">overlay</p>
                 <!-- /wp:paragraph -->
@@ -199,7 +199,7 @@
             <!-- wp:group -->
             <div class="wp-block-group tile-wrapper relative mb-[12px] rounded-[20px] overflow-hidden">
              <!-- wp:group -->
-             <div class="wp-block-group overlay-author z-[1] h-full w-full bg-gradient-to-t from-black via-[rgba(0,0,0,0)] opacity-[40%] absolute top-0 left-0 clipped-swiper-serv-1">
+             <div class="wp-block-group overlay-author z-[1] h-full w-full bg-gradient-to-t from-black via-[rgba(0,0,0,0)] opacity-[40%] absolute top-0 left-0 clipped-team">
                 <!-- wp:paragraph -->
                 <p class="hidden">overlay</p>
                 <!-- /wp:paragraph -->
