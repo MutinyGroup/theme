@@ -2,7 +2,7 @@
 /**
  * Title: img-separator
  * Slug: img-separator
- * Categories: text, banner
+ * Categories: Separator
  * Viewport Width: 1280
  */
 ?>
