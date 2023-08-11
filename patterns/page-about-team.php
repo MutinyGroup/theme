@@ -93,7 +93,7 @@
             <!-- wp:list-item -->
             <li class="wp-block-group tile-wrapper relative mb-[12px] rounded-[20px] overflow-hidden">
               <!-- wp:group -->
-              <div class="wp-block-group overlay-author z-[1] h-full w-full bg-gradient-to-t from-black via-white to-white opacity-[50%] absolute top-0 left-0 clipped-swiper-serv-1">
+              <div class="wp-block-group overlay-author z-[1] h-full w-full bg-gradient-to-t from-black tp-[rgba(0,0,0,0)] opacity-[20%] absolute top-0 left-0 clipped-swiper-serv-1">
                 <!-- wp:paragraph -->
                 <p class="hidden">overlay</p>
                 <!-- /wp:paragraph -->
@@ -102,7 +102,7 @@
               <!-- wp:image -->
               <figure class="wp-block-image clipped-swiper-serv-1 h-full">
                 <img
-                  src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-about/about-team1.jpg"
+                  src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-about/about-team2.jpg"
                   alt="team"
                 />
               </figure>
