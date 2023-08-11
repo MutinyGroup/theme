@@ -114,7 +114,7 @@
           <!-- wp:paragraph -->
           <svg x="0px" y="0px" viewBox="0 0 1374.7 1083.6" class="absolute top-0" >
             <defs>
-              <clipPath id="clipped-blog" class="scale-[0.0061] scale-x-[0.482] desktop:scale-x-[0.84] scale-y-[0.48] desktop:scale-y-[0.82]" clipPathUnits="objectBoundingBox">
+              <clipPath id="clipped-blog" class="scale-[0.0022] scale-x-[0.0028]" clipPathUnits="objectBoundingBox">
                 <path d="M66.1682 0H334C345.046 0 354 8.9543 354 20V396.929C354 407.974 345.046 416.929 334 416.929H233.807C225.792 416.929 218.11 420.136 212.474 425.835L197.386 441.094C191.751 446.793 184.069 450 176.054 450H20.0001C8.95444 450 0.000112129 441.046 0.000109321 430L5.0847e-06 20C2.2765e-06 8.9543 8.95431 0 20 0L66.1682 0Z"/>
               </clipPath>
             </defs>
