@@ -128,7 +128,7 @@
               <!-- wp:image -->
               <figure class="wp-block-image">
                 <img
-                  src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-about/about-team1.jpg"
+                  src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-about/about-team3.jpg"
                   alt="team"
                 />
               </figure>
@@ -156,7 +156,7 @@
               <!-- wp:image -->
               <figure class="wp-block-image">
                 <img
-                  src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-about/about-team1.jpg"
+                  src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-about/about-team2.jpg"
                   alt="team"
                 />
               </figure>
@@ -180,7 +180,7 @@
               <!-- wp:image -->
               <figure class="wp-block-image clipped-team h-full">
                 <img
-                src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-about/about-team1.jpg"
+                src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-about/about-team4.jpg"
                 alt="team"
                 />
               </figure>
@@ -188,7 +188,7 @@
               <!-- wp:paragraph -->
               <svg width="0" height="0">
                 <defs>
-                  <clipPath id="clipped-team" class="scale-[0.84] desktop:scale-[0.839]">
+                  <clipPath id="clipped-team" class="scale-[0.44] desktop:scale-[0.839]">
                     <path d="M66.1682 -6.10352e-05H334C345.046 -6.10352e-05 354 8.95424 354 19.9999V396.928C354 407.974 345.046 416.928 334 416.928H233.807C225.792 416.928 218.11 420.136 212.474 425.835L197.386 441.094C191.751 446.793 184.069 450 176.054 450H20.0001C8.95444 450 0.000112129 441.046 0.000109321 430L5.0847e-06 19.9999C2.2765e-06 8.95424 8.95431 -6.10352e-05 20 -6.10352e-05L66.1682 -6.10352e-05Z"/>
                   </clipPath>
                 </defs>
