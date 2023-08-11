@@ -31,7 +31,7 @@
         </div>  
         <!-- /wp:group -->
         <!-- wp:group -->
-        <div class="wp-block-group uslugi-title uppercase font-medium desktop:text-[60px] text-[30px] desktop:leading-[60px] leading-[30px]">
+        <div class="wp-block-group max-w-[75%] uslugi-title uppercase font-medium desktop:text-[60px] text-[30px] desktop:leading-[60px] leading-[30px]">
           <!-- wp:paragraph -->
           <p>NIE BOIMY SIĘ</p>
           <!-- /wp:paragraph -->
@@ -73,7 +73,7 @@
     <!-- wp:paragraph -->
     <a
       href="#Poznaj nas"
-      class="desktop:w-[175px] w-[140px] desktop:h-[175px] h-[140px] mx-0 text-center rounded-full border desktop:border-[4px] border-[3px] border-[#AAAAAA] absolute desktop:top-[-130px] top-[310px] wide:left-[70%] desktop:left-[80%] left-[50%] translate-x-[-50%] group-hover:border-none group-hover:bg-primaryYellow group-hover:text-white transition ease-out duration-300 flex flex-col justify-center items-center gap-y-0 cursor-pointer"
+      class="desktop:w-[175px] w-[140px] desktop:h-[175px] h-[140px] mx-0 text-center rounded-full border desktop:border-[4px] border-[3px] border-[#AAAAAA] absolute desktop:top-[-130px] top-[310px] wide:left-[70%] desktop:left-[85%] left-[50%] translate-x-[-50%] group-hover:border-none group-hover:bg-primaryYellow group-hover:text-white transition ease-out duration-300 flex flex-col justify-center items-center gap-y-0 cursor-pointer"
     >
       <!-- wp:paragraph -->
       <p class="font-bold">Zobacz</p>
