@@ -2,7 +2,7 @@
 /**
  * Title: services
  * Slug: services
- * Categories: Swiper, Usługi
+ * Categories: Gallery
  * Viewport Width: 1280
  */
 ?>
