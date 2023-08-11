@@ -102,7 +102,7 @@
               <!-- wp:image -->
               <figure class="wp-block-image clipped-swiper-serv-1 h-full">
                 <img
-                  src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-about/about-team2.jpg"
+                  src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-about/about-team1.jpg"
                   alt="team"
                 />
               </figure>
