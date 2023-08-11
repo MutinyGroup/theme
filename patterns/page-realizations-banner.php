@@ -62,7 +62,7 @@
   <!-- /wp:group -->
 
   <!-- wp:group -->
-  <div class="wp-block-group relative desktop:ml-[80px]">
+  <div class="wp-block-group relative">
     <!-- wp:group -->
     <div class="wp-block-group container mx-auto desktop:px-0 px-[20px] mb-[80px]">
       <!-- wp:paragraph -->
