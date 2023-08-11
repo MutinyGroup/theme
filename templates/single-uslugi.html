@@ -1,9 +1,21 @@
 <!-- wp:template-part {"slug":"page-bright/header-bright"} /-->
 
-<!-- wp:template-part {"slug":"page-bright/sidebar-bright"} /-->
+<!-- wp:group -->
+<div id="Mutiny theme" class="wp-block-group page-wrapper desktop:flex">
+  <!-- wp:group -->
+  <div id="Sidebar" class="wp-block-group sidebar hidden desktop:block desktop:min-w-[80px]">
+    <!-- wp:template-part {"slug":"page-bright/sidebar-bright"} /-->
+  </div>
+  <!-- /wp:group -->
+  
+  <!-- wp:group -->
+  <div id="Page content" class="wp-block-group page-content-wrapper w-screen desktop:w-[calc(100%-80px)]">
+    <!-- wp:pattern {"slug":"single-uslugi"} /-->
 
-<!-- wp:pattern {"slug":"single-uslugi"} /-->
+    <!-- wp:pattern {"slug":"cta-bright1"} /-->
 
-<!-- wp:pattern {"slug":"cta-bright1"} /-->
-
-<!-- wp:template-part {"slug":"page-bright/footer-bright"} /-->
+    <!-- wp:template-part {"slug":"page-bright/footer-bright"} /-->
+  </div>
+  <!-- /wp:group -->
+</div>
+<!-- /wp:group -->
