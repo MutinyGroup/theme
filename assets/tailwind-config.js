@@ -14,6 +14,7 @@ tailwind.config = {
       },
     },
     screens: {
+      mobile: "480px",
       tablet: "640px",
       desktop: "1024px",
       wide: "1600px",
