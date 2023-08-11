@@ -19,7 +19,7 @@
 // echo $currentCategory;
 ?>
 
-<!-- wp:group -->
+<!-- wp:group {"templateLock":"all","lock":{"move":true,"remove":true} -->
 <div id="Banner" class="wp-block-group archive-banner desktop:mb-[150px]">
   <!-- wp:group -->
   <div
