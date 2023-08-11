@@ -6,7 +6,7 @@
  * Viewport Width: 1280
  */
 ?>
-<!-- wp:group -->
+<!-- wp:group {"templateLock":"all","lock":{"move":true,"remove":true} -->
 <div id="CTA" class="wp-block-group relative cta-bright1 mb-[120px] desktop:mb-[150px] overflow-hidden desktop:overflow-visible">
   <!-- wp:group -->
   <div class="wp-block-group container group mx-auto desktop:px-0 px-[20px] desktop:mt-0 mt-[55px] h-[300px] desktop:h-[700px] wide:h-[940px]">

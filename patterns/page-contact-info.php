@@ -7,7 +7,7 @@
  */
 ?>
 
-<!-- wp:group -->
+<!-- wp:group {"templateLock":"all","lock":{"move":true,"remove":true} -->
 <div id="Info" class="wp-block-group page-contact-info my-[150px]">
   <!-- wp:group -->
   <div

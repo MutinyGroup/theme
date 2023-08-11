@@ -6,7 +6,7 @@
  * Viewport Width: 1280
  */
 ?>
-<!-- wp:group -->
+<!-- wp:group {"templateLock":"all","lock":{"move":true,"remove":true} -->
 <div id="Wpisy" class="wp-block-group archive-events mb-[150px] mt-[80px] desktop:mt-[150px] overflow-hidden">
   <!-- wp:group -->
   <div

@@ -7,7 +7,7 @@
  */
 ?>
 
-<!-- wp:group -->
+<!-- wp:group {"templateLock":"all","lock":{"move":true,"remove":true} -->
 <div id="Dlaczego" class="wp-block-group why desktop:pt-[150px] overflow-hidden">
   <!-- wp:group -->
   <div

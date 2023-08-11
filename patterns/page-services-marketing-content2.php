@@ -7,7 +7,7 @@
  */
 ?>
 
-<!-- wp:group -->
+<!-- wp:group {"templateLock":"all","lock":{"move":true,"remove":true} -->
 <div class="wp-block-group page-marketing-info mb-[100px]">
   <!-- wp:group -->
   <div

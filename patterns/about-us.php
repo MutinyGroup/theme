@@ -7,7 +7,7 @@
  */
 ?>
 
-<!-- wp:group -->
+<!-- wp:group {"templateLock":"all","lock":{"move":true,"remove":true} -->
 <div id="O nas" class="wp-block-group o-nas pt-[100px] mb-[200px] desktop:mb-[150px] wide:mb-[220px] ">
   <!-- wp:group -->
   <div class="wp-block-group relative px-[20px] desktop:px-0">

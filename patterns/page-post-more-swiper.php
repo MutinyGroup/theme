@@ -6,7 +6,7 @@
  * Viewport Width: 1280
  */
 ?>
-<!-- wp:group -->
+<!-- wp:group {"templateLock":"all","lock":{"move":true,"remove":true} -->
 <div id="Swiper" class="wp-block-group blog desktop:mb-[150px] mb-[60px]">
   <!-- wp:group -->
   <div class="wp-block-group relative ">

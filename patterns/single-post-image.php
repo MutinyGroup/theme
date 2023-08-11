@@ -6,7 +6,7 @@
  * Viewport Width: 1280
  */
 ?>
-<!-- wp:group -->
+<!-- wp:group {"templateLock":"all","lock":{"move":true,"remove":true} -->
 <div class="wp-block-group featured-image-test mb-[100px] w-[1300px] hidden">
   <!-- wp:image -->
   <figure class="wp-block-image">
