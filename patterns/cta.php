@@ -69,7 +69,7 @@
     <!-- wp:paragraph -->
     <a href="<?php echo get_home_url() . '/contact'; ?>" class="desktop:w-[175px] w-[140px] desktop:h-[175px] h-[140px] desktop:ml-[120px] mx-auto text-center rounded-full border border-[4px] border-[#D5D5D5] group-hover:border-none group-hover:bg-primaryYellow group-hover:text-white transition ease-out duration-300 flex flex-col justify-center items-center gap-y-0 cursor-pointer">
       <!-- wp:paragraph -->
-      <p>Skontaktuj się</p>
+      <p class="font-bold">Skontaktuj się</p>
       <!-- /wp:paragraph -->
       <!-- wp:paragraph -->
       <p class="uppercase text-[25px] font-extrabold">TERAZ</p>
