@@ -85,7 +85,7 @@
       <!-- /wp:group -->
 
       <!-- wp:group -->
-      <div class="wp-block-group right-col banner-bg h-[300px] desktop:h-[775px] wide:h-[950px] desktop:w-[44%] w-[65%] absolute right-0 desktop:top-[50px] top-[30px] z-[-1]">
+      <div class="wp-block-group right-col banner-bg h-[300px] tablet:h-[450px] desktop:h-[775px] wide:h-[950px] desktop:w-[44%] w-[65%] absolute right-0 desktop:top-[50px] top-[30px] z-[-1]">
         <!-- wp:group -->
         <div class="wp-block-group overlay-author z-[1] h-full w-full absolute top-0 left-0 clipped-banner">
           <!-- wp:paragraph -->
@@ -104,7 +104,7 @@
           <!-- wp:paragraph -->
         <svg width="0" height="0">
           <defs>
-            <clipPath id="clipped-banner" class="scale-[0.4] tablet:scale-[0.8] desktop:scale-[1.1] wide:scale-[1.35]">
+            <clipPath id="clipped-banner" class="scale-[0.5] tablet:scale-[1.1] tablet:scale-y-[0.7] desktop:scale-[1.1] wide:scale-[1.35]">
               <path d="M0 20C0 8.95432 8.95431 0 20 0H625V700H212.426C204.47 700 196.839 696.839 191.213 691.213L8.78681 508.787C3.16072 503.161 0 495.53 0 487.574V20Z"/>
             </clipPath>
           </defs>
