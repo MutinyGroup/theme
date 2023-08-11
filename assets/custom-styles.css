@@ -125,7 +125,8 @@ body{
   height: 100%;
   object-fit: cover;
 }
-.clipped-team img{
+.clipped-team img,
+.clipped-team{
   clip-path: url(#clipped-team);
 }
 .video-player-wrapper::after{
