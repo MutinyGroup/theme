@@ -6,7 +6,7 @@
  * Viewport Width: 1280
  */
 ?>
-<!-- wp:group {"templateLock":"all","lock":{"move":true,"remove":true} -->
+<!-- wp:group {"templateLock":"all","lock":{"move":true,"remove":true},"anchor":true} -->
 <div id="Realizacje" class="wp-block-group realizacje relative desktop:mb-[150px] desktop:pt-[220px] pt-[180px] desktop:mb-[200px] mb-[60px] overflow-visible">
   <!-- wp:paragraph -->
   <svg class="bg-shape z-[-1] opacity-[0.16] absolute top-[130px] right-0" xmlns="http://www.w3.org/2000/svg" width="1051" height="816" viewBox="0 0 1051 816" fill="none">

@@ -7,7 +7,7 @@
  */
 ?>
 
-<!-- wp:group {"templateLock":"all","lock":{"move":true,"remove":true} -->
+<!-- wp:group {"templateLock":"all","lock":{"move":true,"remove":true},"anchor":true} -->
 <div id="Posty" class="wp-block-group page-blog-posts mb-[80px] desktop:mb-[150px] pt-[80px] desktop:pt-0 overflow-hidden">
   <!-- wp:group -->
   <div

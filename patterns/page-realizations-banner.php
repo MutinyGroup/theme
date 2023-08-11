@@ -7,7 +7,7 @@
  */
 ?>
 
-<!-- wp:group {"templateLock":"all","lock":{"move":true,"remove":true} -->
+<!-- wp:group {"templateLock":"all","lock":{"move":true,"remove":true},"anchor":true} -->
 <div id="Banner" class="wp-block-group realizations-banner h-fit desktop:h-auto desktop:mb-[150px] mb-[80px]">
   <!-- wp:group -->
   <div

@@ -7,7 +7,7 @@
  */
 ?>
 
-<!-- wp:group {"templateLock":"all","lock":{"move":true,"remove":true} -->
+<!-- wp:group {"templateLock":"all","lock":{"move":true,"remove":true},"anchor":true} -->
 <div id="Eventy" class="wp-block-group page-realizations-events mb-[150px] overflow-hidden">
   <!-- wp:group -->
   <div
