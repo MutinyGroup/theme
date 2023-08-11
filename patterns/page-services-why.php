@@ -190,7 +190,7 @@
         <!-- wp:group -->
         <div class="wp-block-group cols-wrapper desktop:flex">
           <!-- wp:group -->
-          <div class="wp-block-group col1 relative w-[50%]">
+          <div class="wp-block-group col1 relative w-[40%]">
             <!-- wp:paragraph -->
             <p class="text-[50px] text-primaryYellow">
               02 /
@@ -206,7 +206,7 @@
           </div>
           <!-- /wp:group -->
           <!-- wp:group -->
-          <div class="wp-block-group col2 desktop:w-[50%]">
+          <div class="wp-block-group col2 desktop:w-[60%]">
             <!-- wp:group -->
             <div class="wp-block-group mb-[95px]">
               <!-- wp:group -->
@@ -301,7 +301,7 @@
         <!-- wp:group -->
         <div class="wp-block-group cols-wrapper desktop:flex">
           <!-- wp:group -->
-          <div class="wp-block-group col1 relative w-[50%]">
+          <div class="wp-block-group col1 relative w-[40%]">
             <!-- wp:paragraph -->
             <p class="text-[50px] text-primaryYellow">
               03 /
@@ -317,7 +317,7 @@
           </div>
           <!-- /wp:group -->
           <!-- wp:group -->
-          <div class="wp-block-group col2 desktop:w-[50%]">
+          <div class="wp-block-group col2 desktop:w-[60%]">
             <!-- wp:group -->
             <div class="wp-block-group mb-[95px]">
               <!-- wp:group -->
