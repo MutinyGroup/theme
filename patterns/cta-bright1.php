@@ -7,7 +7,7 @@
  */
 ?>
 <!-- wp:group {"templateLock":"all","lock":{"move":true,"remove":true},"anchor":true} -->
-<div id="CTA" class="wp-block-group relative cta mb-[150px]">
+<div id="CTA" class="wp-block-group relative cta-bright1 mb-[150px]">
   <!-- wp:group -->
   <div class="wp-block-group container group mx-auto desktop:px-0 px-[20px] desktop:mt-0 mt-[120px] desktop:p-[110px] h-[300px] desktop:h-[700px] wide:h-[940px] ">
     <!-- wp:group -->
