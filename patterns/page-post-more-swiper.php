@@ -36,8 +36,8 @@
       <div class="wp-block-group desktop:mt-[-120px] w-full overflow-hidden">
         <!-- wp:group -->
         <div id="blog" class="wp-block-group swiper swiperBlog desktop:w-[calc(100%-150px)] relative desktop:pt-[180px] absolute top-0 desktop:left-[150px] left-[20px]">
-          <!-- wp:group -->
-          <div class="wp-block-group swiper-wrapper">
+          <!-- wp:list -->
+          <ul class="wp-block-list swiper-wrapper">
             <?php
               $args = array(
                   'post_type' => 'post',
@@ -53,8 +53,8 @@
                   $postImageUrl = wp_get_attachment_image_src(get_post_thumbnail_id(),'portrait');
                   $counter++;
                   if ($counter == 1){ ?>
-                    <!-- wp:group -->
-                    <div class="wp-block-group swiper-slide desktop:mr-[80px] mr-[20px] relative group desktop:w-[535px] w-[300px] h-[500px] desktop:h-[675px] ">
+                    <!-- wp:list-item -->
+                    <li class="wp-block-group swiper-slide desktop:mr-[80px] mr-[20px] relative group desktop:w-[535px] w-[300px] h-[500px] desktop:h-[675px] ">
                       <!-- wp:paragraph -->
                       <a href="<?php the_permalink(); ?>">                      
                         <!-- wp:group -->
@@ -91,12 +91,12 @@
                         <!-- /wp:paragraph -->
                       </a>
                       <!-- /wp:paragraph -->
-                    </div>
-                    <!-- /wp:group -->             
+                    </li>
+                    <!-- /wp:list-item -->             
                   <?php 
                   }else{ ?>                    
-                    <!-- wp:group -->
-                    <div class="wp-block-group swiper-slide desktop:mr-[80px] mr-[20px] relative group desktop:w-[444px] w-[280px] desktop:h-[675px] h-[480px]">
+                    <!-- wp:list-item -->
+                    <li class="wp-block-group swiper-slide desktop:mr-[80px] mr-[20px] relative group desktop:w-[444px] w-[280px] desktop:h-[675px] h-[480px]">
                       <!-- wp:paragraph -->
                       <a href="<?php the_permalink(); ?>">                        
                         <!-- wp:group -->
@@ -124,15 +124,15 @@
                         <!-- /wp:paragraph -->
                       </a>
                       <!-- /wp:paragraph -->
-                    </div>
-                    <!-- /wp:group -->                         
+                    </li>
+                    <!-- /wp:list-item -->                        
                   <?php
                   };
                 };
               };
             ?>
-          </div>
-          <!-- /wp:group -->
+          </ul>
+          <!-- /wp:list -->
 
           <!-- wp:group -->
           <div id="blog-prev" class="wp-block-group group swiper-button-prev desktop:inline-block hidden w-[56px] h-[56px] absolute desktop:top-[90px] top-[35px] desktop:left-[800px] left-[190px]">
