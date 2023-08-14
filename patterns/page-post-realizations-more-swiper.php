@@ -53,8 +53,8 @@
                   $postImageUrl = wp_get_attachment_image_src(get_post_thumbnail_id(),'portrait');
                   $counter++;
                   if ($counter == 1){ ?>
-                    <!-- wp:group -->
-                    <div class="wp-block-group swiper-slide desktop:mr-[80px] mr-[20px] relative group desktop:w-[444px] w-[300px] desktop:h-[675px] h-[500px]">
+                    <!-- wp:list-item -->
+                    <li class="wp-block-group swiper-slide desktop:mr-[80px] mr-[20px] relative group desktop:w-[444px] w-[300px] desktop:h-[675px] h-[500px]">
                       <!-- wp:paragraph -->
                       <a href="<?php the_permalink(); ?>">                      
                         <!-- wp:group -->
@@ -93,12 +93,12 @@
                         <!-- /wp:paragraph -->
                       </a>
                       <!-- /wp:paragraph -->
-                    </div>
-                    <!-- /wp:group -->                
+                  </li>
+                    <!-- /wp:list-item -->                
                   <?php 
                   }else{ ?>                    
-                    <!-- wp:group -->
-                    <div class="wp-block-group swiper-slide desktop:mr-[80px] mr-[20px] relative group desktop:w-[444px] w-[280px] desktop:h-[675px] h-[500px]">
+                    <!-- wp:list-item -->
+                    <li class="wp-block-group swiper-slide desktop:mr-[80px] mr-[20px] relative group desktop:w-[444px] w-[280px] desktop:h-[675px] h-[500px]">
                       <!-- wp:paragraph -->
                       <a href="<?php the_permalink(); ?>">                        
                         <!-- wp:group -->
@@ -137,8 +137,8 @@
                         <!-- /wp:paragraph -->
                       </a>
                       <!-- /wp:paragraph -->
-                    </div>
-                    <!-- /wp:group -->                      
+                    </li>
+                    <!-- /wp:list-item -->                      
                   <?php
                   };
                 };
