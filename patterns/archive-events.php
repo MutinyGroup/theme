@@ -57,7 +57,7 @@
               <a href="<?php echo get_category_link( $cat->term_id ) ?>" class="flex items-center w-full h-full">
                 <?php echo $cat->name; ?>
                 <?php 
-                  if ( is_multisite() ) { 
+                  if ( is_multisite('Mutiny Group') ) { 
                     echo 'Multisite is enabled'; 
                     echo $currentCategory2; 
                   }; ?>
