@@ -39,7 +39,7 @@ jobs:
           node-version: lts/*
 
       - name: Install dependency in theme
-        run: pnpm install
+        run: pnpm install --frozen-lockfile --prod
 
       - name: Install dependency in theme
         run: pnpm run deploy
