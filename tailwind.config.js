@@ -1,9 +1,9 @@
-tailwind.config = {
+module.exports = {
   future: {
     purgeLayersByDefault: true,
   },
   content: [
-    "./assets/**/*.{js}",
+    "./assets/**/*.js",
     "./parts/**/*.{html,php}",
     "./patterns/**/*.{html,php}",
     "./templates/**/*.{html,php}",
