@@ -56,7 +56,13 @@
               <!-- wp:paragraph -->
               <a href="<?php echo get_category_link( $cat->term_id ) ?>" class="flex items-center w-full h-full">
                 <?php echo $cat->name; ?>
-                <?php echo $currentCategory2; ?>
+                <?php 
+                  if ( is_multisite() ) { 
+                    echo 'Multisite is enabled'; 
+                    echo $currentCategory2; 
+                  }; ?>
+
+                
               </a>
               <!-- /wp:paragraph -->
             </li>
