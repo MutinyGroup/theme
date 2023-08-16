@@ -64,8 +64,11 @@
             class="relative inline-block uppercase italic before:content-[''] before:inline-block desktop:before:mr-[8px] before:mr-[4px] before:bottom-0 before:left-0 desktop:before:w-[90px] before:w-[30px] desktop:before:h-[3px] before:h-[2px] before:bg-black"
           >
             <?php
-              $currentCategory = str_replace('-',' ',str_replace('/','',substr("http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]",40, 30)));
-              echo $currentCategory;
+              // $currentCategory = str_replace('-',' ',str_replace('/','',substr("http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]",40, 30)));
+              // echo $currentCategory;
+              $currentCategory2 = str_replace('/','',substr("http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]",39, 30));
+
+              echo $currentCategory2;
             ?>
           </p>
           <!-- /wp:paragraph -->

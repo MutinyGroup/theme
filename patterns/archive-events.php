@@ -26,21 +26,13 @@
       </li>
       <!-- /wp:list-item -->       
       <?php
-        // global $wp;
-        // $wp->parse_request();
-        // $currentCategory = ($wp->query_vars)['category_name'];
         $args = array(
           'taxonomy' => 'category',
           'orderby' => 'name',
           'order'   => 'ASC'
         );
-
-        // $wp->parse_request();
-        // $current_url = home_url($wp->request);
-        // $currentCategory = substr(parse_url($current_url )['path'], 10, 30);
         $cats = get_categories($args);
         $currentCategory2 = str_replace('/','',substr("http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]",39, 30));
-
 
         foreach($cats as $cat) {
         ?>
