@@ -41,7 +41,7 @@ jobs:
       - name: Install dependency in theme
         run: pnpm install --frozen-lockfile --prod
 
-      - name: Install dependency in theme
+      - name: Run deploy script
         run: pnpm run deploy
 
       - name: Deploy to Server
