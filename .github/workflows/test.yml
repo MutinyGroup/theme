@@ -13,32 +13,25 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
-        with:
-          fetch-depth: 2
 
-      - name: Get Composer Cache Directory
-        id: composer-cache
+      - uses: pnpm/action-setup@v2
+        name: Install pnpm
+        with:
+          version: 7
+          run_install: false
+
+      - name: Get pnpm store directory
+        shell: bash
         run: |
-          echo "::set-output name=dir::$(composer config cache-files-dir)"
+          echo "STORE_PATH=$(pnpm store path --silent)" >> $GITHUB_ENV
 
       - uses: actions/cache@v3
+        name: Setup pnpm cache
         with:
-          path: ${{ steps.composer-cache.outputs.dir }}
-          key: ${{ runner.os }}-composer-${{ hashFiles('**/composer.lock') }}
+          path: ${{ env.STORE_PATH }}
+          key: ${{ runner.os }}-pnpm-store-${{ hashFiles('**/pnpm-lock.yaml') }}
           restore-keys: |
-            ${{ runner.os }}-composer-
-
-      - name: Get npm cache directory
-        id: npm-cache
-        run: |
-          echo "::set-output name=dir::$(npm config get cache)"
-
-      - uses: actions/cache@v3
-        with:
-          path: ${{ steps.npm-cache.outputs.dir }}
-          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
-          restore-keys: |
-            ${{ runner.os }}-node-
+            ${{ runner.os }}-pnpm-store-
 
       - name: Use Node.js
         uses: actions/setup-node@v3
@@ -46,10 +39,10 @@ jobs:
           node-version: lts/*
 
       - name: Install dependency in theme
-        run: npm install && npm run deploy
+        run: pnpm install
 
-      - name: Remove node
-        run: sudo rm -rf node_modules
+      - name: Install dependency in theme
+        run: pnpm run deploy
 
       - name: Deploy to Server
         uses: easingthemes/ssh-deploy@v4
@@ -71,5 +64,3 @@ jobs:
           REMOTE_PORT: ${{ secrets.REMOTE_PORT }}
           REMOTE_USER: ${{ secrets.REMOTE_USER }}
           EXCLUDE: "/node_modules/, /cache/, /.git/, /.github/, /.vscode/"
-
-
