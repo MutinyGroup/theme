@@ -56,13 +56,7 @@
               <!-- wp:paragraph -->
               <a href="<?php echo get_category_link( $cat->term_id ) ?>" class="flex items-center w-full h-full">
                 <?php echo $cat->name; ?>
-                <?php 
-                  if ( is_multisite('Mutiny Group') ) { 
-                    echo 'Multisite is enabled'; 
-                    echo $currentCategory2; 
-                  }; ?>
-
-                
+                <?php echo $currentCategory2; ?>
               </a>
               <!-- /wp:paragraph -->
             </li>
@@ -82,7 +76,7 @@
           'post_type' => 'realizacje',
           'posts_per_page' => 10,
           'order' => 'DESC',
-          'category_name' => $currentCategory
+          'category_name' => $currentCategory2
         );
         $post_query = new WP_Query($args);
 
