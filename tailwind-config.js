@@ -1,4 +1,13 @@
 tailwind.config = {
+  future: {
+    purgeLayersByDefault: true,
+  },
+  content: [
+    "./assets/**/*.{js}",
+    "./parts/**/*.{html,php}",
+    "./patterns/**/*.{html,php}",
+    "./templates/**/*.{html,php}",
+  ],
   theme: {
     container: {
       screens: {
@@ -18,7 +27,7 @@ tailwind.config = {
       tablet: "640px",
       desktop: "1024px",
       wide: "1600px",
-      fullhd: "1920px"
+      fullhd: "1920px",
     },
   },
 };
