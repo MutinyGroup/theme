@@ -68,12 +68,17 @@
               echo ' 1 ' + $currentCategory;
               echo '<br>';
 
-              $currentCategory2 = str_replace('/','',substr("http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]",38, 30));
+              $currentCategory2 = str_replace('/','',substr("http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]",39, 30));
 
               echo ' 2 ' + $currentCategory2;
               echo '<br>';
 
               echo substr("http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]",0, 100);
+              echo '<br>';
+
+              echo substr("http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]",29, 30);
+              echo '<br>';
+
             ?>
           </p>
           <!-- /wp:paragraph -->
