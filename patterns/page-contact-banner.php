@@ -8,14 +8,14 @@
 ?>
 
 <!-- wp:group {"templateLock":"all","lock":{"move":true,"remove":true},"anchor":true} -->
-<div id="Banner" class="wp-block-group contact-banner h-screen desktop:h-auto desktop:mb-[150px]">
+<div id="Banner" class="wp-block-group contact-banner group h-screen desktop:h-auto desktop:mb-[150px]">
   <!-- wp:group -->
   <div
     class="wp-block-group container relative mx-auto desktop:px-0 px-[20px]"
   >
     <!-- wp:group -->
     <div
-      class="wp-block-group title-wrapper relative group desktop:mb-[100px] mb-[40px] desktop:pt-[90px]"
+      class="wp-block-group title-wrapper relative desktop:mb-[100px] mb-[40px] desktop:pt-[90px]"
     >
       <!-- wp:group -->
       <div
