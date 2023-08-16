@@ -37,7 +37,7 @@
         "development": "cross-env NODE_ENV=development postcss ./css/index.css -o assets/css/styles.min.css",
         "production": "cross-env NODE_ENV=production postcss ./css/index.css -o assets/css/styles.min.css",
         "blank": "echo \"Error: no test specified\"",
-        "deploy": "npm run blank"
+        "deploy": "npm run production"
     },
     "dependencies": {
         "@tailwindcss/aspect-ratio": "^0.4.0",
