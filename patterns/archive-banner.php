@@ -65,12 +65,12 @@
           >
             <?php
               $currentCategory = str_replace('-',' ',str_replace('/','',substr("http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]",40, 30)));
-              echo ' 1 ' + $currentCategory;
+              echo ' 1 ' . $currentCategory;
               echo '<br>';
 
               $currentCategory2 = str_replace('/','',substr("http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]",39, 30));
 
-              echo ' 2 ' + $currentCategory2;
+              echo ' 2 ' . $currentCategory2;
               echo '<br>';
 
               echo substr("http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]",0, 100);
