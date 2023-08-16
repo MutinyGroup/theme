@@ -376,3 +376,13 @@ function getGlobalWPObject(){
 	$wpParsed = $wp->parse_request();
 	return $wpParsed;
 }
+
+
+function my_enqueue($hook) {
+	if ('edit.php' !== $hook) {
+			return;
+	}
+	wp_enqueue_script('my_custom_script', '//cdn.tailwindcss.com', '3.3.2');
+}
+
+add_action('admin_enqueue_scripts', 'my_enqueue');
