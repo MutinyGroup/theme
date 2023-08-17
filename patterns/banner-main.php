@@ -122,13 +122,7 @@
       <!-- wp:paragraph -->
       <p>
         <a href="#O nas" class="">
-          <!-- wp:paragraph -->
-          <p class="font-bold">Zobacz</p>
-          <!-- /wp:paragraph -->
-          <!-- wp:paragraph -->
-          <p class="uppercase text-[25px] font-extrabold">WIĘCEJ</p>
-          <!-- /wp:paragraph -->
-          </p>
+          zobacz wiecej
         </a>
       </p>
       <!-- /wp:paragraph -->
