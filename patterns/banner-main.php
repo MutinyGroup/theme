@@ -122,7 +122,10 @@
       <!-- wp:paragraph -->
       <p>
         <a href="#O nas" class="">
-          Zoabcz Więcej
+          <!-- wp:paragraph -->
+          <p class="font-bold">Zoabcz</p>
+          <!-- wp:paragraph -->
+          Więcej
         </a>
       </p>
       <!-- /wp:paragraph -->
