@@ -530,7 +530,7 @@ width: 100%;
 .wp-block-navigation__container li:last-child{
   padding: 10px 20px;
   text-transform: uppercase;
-  border: 2px #AAA;
+  border: 2px #AAA solid;
   border-radius: 9999px;
   cursor: pointer;
   transition: all 0.3s ease-out;
