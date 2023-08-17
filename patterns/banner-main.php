@@ -117,19 +117,22 @@
     </div>
     <!-- /wp:group -->
   
-    <!-- wp:paragraph -->
-    <p>
-      <a href="#O nas" class="desktop:w-[175px] w-[140px] desktop:h-[175px] h-[140px] mx-auto text-center rounded-full desktop:border-[4px] border-[3px] border-[#D5D5D5] desktop:absolute bottom-[200px] desktop:bottom-auto desktop:top-[58%] wide:top-[65%] desktop:left-[56%] left-[50%] desktop:translate-x-[-50%] group-hover:border-none group-hover:bg-primaryYellow group-hover:text-white transition ease-out duration-300 flex flex-col justify-center items-center gap-y-0 cursor-pointer is-layout-flex">
-        <!-- wp:paragraph -->
-        <p class="font-bold">Zobacz</p>
-        <!-- /wp:paragraph -->
-        <!-- wp:paragraph -->
-        <p class="uppercase text-[25px] font-extrabold">WIĘCEJ</p>
-        <!-- /wp:paragraph -->
-        </p>
-      </a>
-    </p>
-    <!-- /wp:paragraph -->
+    <!-- wp:group -->
+    <div class="wp-block-group btn-more">
+      <!-- wp:paragraph -->
+      <p>
+        <a href="#O nas" class="desktop:w-[175px] w-[140px] desktop:h-[175px] h-[140px] mx-auto text-center rounded-full desktop:border-[4px] border-[3px] border-[#D5D5D5] desktop:absolute bottom-[200px] desktop:bottom-auto desktop:top-[58%] wide:top-[65%] desktop:left-[56%] left-[50%] desktop:translate-x-[-50%] group-hover:border-none group-hover:bg-primaryYellow group-hover:text-white transition ease-out duration-300 flex flex-col justify-center items-center gap-y-0 cursor-pointer is-layout-flex">
+          <!-- wp:paragraph -->
+          <p class="font-bold">Zobacz</p>
+          <!-- /wp:paragraph -->
+          <!-- wp:paragraph -->
+          <p class="uppercase text-[25px] font-extrabold">WIĘCEJ</p>
+          <!-- /wp:paragraph -->
+          </p>
+        </a>
+      </p>
+      <!-- /wp:paragraph -->
+    </div>
   </div>
   <!-- /wp:group -->
 </div>
