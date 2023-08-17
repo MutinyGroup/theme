@@ -246,12 +246,19 @@ body{
 .swiperServices .swiper-wrapper{
   height: 100%!important;
 }
-#services-next{
+#services-next,
+#services-prev{
   width: 56px;
   height: 56px;
   position: absolute;
+}
+#services-next{
   top: 90px;
-  left: 870px;
+  right: 180px;
+}
+#services-prev{
+  top: 90px;
+  right: 250px;
 }
 
 .swiper-slide-services {
