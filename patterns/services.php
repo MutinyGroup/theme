@@ -89,10 +89,10 @@
     <div class="wp-block-group mt-[80px] swiper-container h-[500px] w-full overflow-hidden">
 
       <!-- wp:group -->
-      <div id="services" class="wp-block-group swiper swiperServices desktop:w-[calc(100%-90px)] desktop:h-[450px] absolute top-0 desktop:top-[60px] desktop:left-[45px] left-[20px]">
+      <div id="services" class="wp-block-group swiper swiperServices desktop:w-[calc(100%-90px)] desktop:h-[450px] wide:h-[530px] absolute top-0 desktop:top-[60px] desktop:left-[45px] left-[20px]">
 
         <!-- wp:group -->
-        <div class="wp-block-group swiper-wrapper desktop:h-[480px] wide:h-[530px]">
+        <div class="wp-block-group swiper-wrapper h-full">
           <?php
             $args = array(
               'post_type' => 'uslugi',
