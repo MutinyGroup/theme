@@ -246,6 +246,9 @@ body{
 .swiperServices .swiper-wrapper{
   height: 100%!important;
 }
+.swiper-slide-services{
+  height: 450px;
+}
 #services-next,
 #services-prev{
   width: 56px;
