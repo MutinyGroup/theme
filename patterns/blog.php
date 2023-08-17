@@ -184,9 +184,9 @@
           <!-- /wp:group -->
 
           <!-- wp:group -->
-          <div class="wp-block-group swiper-nav-container desktop:block hidden relative">
+          <div class="wp-block-group swiper-nav-container desktop:block hidden absolute desktop:top-[90px] top-[35px] desktop:right-[200px]">
             <!-- wp:group -->
-            <div class="swiper-nav-wrapper w-[155px] h-[80px] flex justify-center items-center absolute desktop:top-[90px] top-[35px] desktop:right-[200px]">
+            <div class="swiper-nav-wrapper w-[155px] h-[80px] flex justify-center items-center">
               <!-- wp:group -->
               <div id="blog-prev" class="wp-block-group group swiper-button-prev desktop:inline-block hidden w-[56px] h-[56px] ">
                 <!-- wp:paragraph -->
