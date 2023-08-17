@@ -243,32 +243,6 @@ body{
 
 /* services */
 
-.swiperServices .swiper-wrapper{
-  height: 100%!important;
-}
-.swiper-slide-services{
-  height: 450px!important;
-}
-#services-next,
-#services-prev{
-  width: 56px;
-  height: 56px;
-  position: absolute;
-}
-#services-next{
-  top: 0px;
-  right: 0px;
-}
-#services-prev{
-  top: 0px;
-  right: 0px;
-}
-/* .swiper-nav-wrapper{
-  position: absolute;
-  top: 90px;
-  right: 250px;
-} */
-
 .swiper-slide-services {
   font-size: 18px;
   background: transparent;
