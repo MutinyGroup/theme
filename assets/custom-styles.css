@@ -243,6 +243,10 @@ body{
 
 /* services */
 
+.swiperServices .swiper-wrapper{
+  height: 100%!important;
+}
+
 .swiper-slide-services {
   font-size: 18px;
   background: transparent;
@@ -316,7 +320,9 @@ body{
 .clipped-services-swiper-start{
   clip-path: url(#clipped-services-swiper-start);
 }
+
 /* about us */
+
 .services-swiper-img img{
   height: 100%;
   width: 100%;
