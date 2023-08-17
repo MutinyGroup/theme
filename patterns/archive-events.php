@@ -16,7 +16,7 @@
     <ul class="wp-block-list categories-all-1 mb-[108px] flex flex-wrap gap-[10px]">
       <!-- wp:list-item -->
       <li
-        class="w-fit h-[40px] px-[10px] bg-[#F2F2F2] border border-[#AAA] border-[2px] rounded-full uppercase text-[14px] font-semibold leading-[20px] flex justify-center items-center hover:bg-primaryYellow hover:border-primaryYellow transition ease-out duration-300 cursor-pointer"
+        class="w-fit h-[40px] px-[10px] bg-[#F2F2F2] border-[#AAA] border-[2px] rounded-full uppercase text-[14px] font-semibold leading-[20px] flex justify-center items-center hover:bg-primaryYellow hover:border-primaryYellow transition ease-out duration-300 cursor-pointer"
       >
         <!-- wp:paragraph -->
         <a href="<?php echo get_home_url() . '/realizations'; ?>" class="flex items-center w-full h-full">
@@ -43,7 +43,7 @@
           }else{ ?>
             <!-- wp:list-item -->
             <li
-              class="w-fit h-[40px] px-[10px] bg-[#F2F2F2] border border-[#AAA] border-[2px] rounded-full uppercase text-[14px] font-semibold leading-[20px] flex justify-center items-center hover:bg-primaryYellow hover:border-primaryYellow transition ease-out duration-300 cursor-pointer <?php if ($catNoSpaces == $currentCategory2) echo 'bg-primaryYellow border-primaryYellow'; ?>"
+              class="w-fit h-[40px] px-[10px] bg-[#F2F2F2] border-[#AAA] border-[2px] rounded-full uppercase text-[14px] font-semibold leading-[20px] flex justify-center items-center hover:bg-primaryYellow hover:border-primaryYellow transition ease-out duration-300 cursor-pointer <?php if ($catNoSpaces == $currentCategory2) echo 'bg-primaryYellow border-primaryYellow'; ?>"
             >
               <!-- wp:paragraph -->
               <a href="<?php echo get_category_link( $cat->term_id ) ?>" class="flex items-center w-full h-full">
@@ -80,7 +80,7 @@
               <li class="event-tile group desktop:flex gap-[75px] mb-[50px]">
                 <!-- wp:group -->
                 <div
-                  class="wp-block-group event-image-wrapper desktop:mb-0 mb-[20px] w-[40%] max-h-[400px] overflow-hidden w-full rounded-[20px]"
+                  class="wp-block-group event-image-wrapper desktop:mb-0 mb-[20px] max-h-[400px] overflow-hidden w-full rounded-[20px]"
                 >
                   <!-- wp:image -->
                   <figure
@@ -120,7 +120,7 @@
                           echo '';
                         }else{ ?>
                           <!-- wp:list-item -->
-                          <li class="w-fit p-[0px_8px] flex justify-center items-center bg-[#F2F2F2] leading-[20px] border border-[#D5D5D5] border-[2px] rounded-full uppercase text-[13px] font-semibold">
+                          <li class="w-fit p-[0px_8px] flex justify-center items-center bg-[#F2F2F2] leading-[20px] border-[#D5D5D5] border-[2px] rounded-full uppercase text-[13px] font-semibold">
                             <p>
                               <?php echo $category->name ?>
                             </p>
