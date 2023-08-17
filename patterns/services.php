@@ -155,7 +155,7 @@
                   <!-- /wp:group -->
 
                   <!-- wp:group -->
-                  <div class="wp-block-group slide-title absolute desktop:bottom-[85px] bottom-[100px] left-[25px] z-[1] group-hover:translate-y-[-80px] transition ease-out duration-500">
+                  <div class="wp-block-group text-wrapper slide-title absolute desktop:bottom-[85px] bottom-[100px] left-[25px] z-[1] group-hover:translate-y-[-80px] transition ease-out duration-500">
                     <!-- wp:paragraph -->
                     <p>
                       <a href="<?php the_permalink(); ?>" class="mr-[20px] text-[25px] font-semibold mb-[15px] underline-offset-[7px] group-hover:underline group-hover:decoration-primaryYellow group-hover:translate-y-[-80px] transition ease-out duration-500">
@@ -182,7 +182,7 @@
                   <!-- /wp:buttons -->
 
                   <!-- wp:paragraph -->
-                  <p class="hover-text mt-[360px] wide:mt-[350px] opacity-[0%] group-hover:opacity-[100%] group-hover:mt-[270px] transition-all ease-out duration-500 text-[15px] font-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet in aspernatur alias ipsa, fuga ut!
+                  <p class="hover-text mt-[360px] wide:mt-[350px] opacity-[0%] group-hover:opacity-[100%] group-hover:mt-[270px] transition-all ease-out duration-500 text-[15px] font-light z-[1]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet in aspernatur alias ipsa, fuga ut!
                   </p>
                   <!-- /wp:paragraph -->
                 </div>
