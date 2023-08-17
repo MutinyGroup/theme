@@ -222,7 +222,7 @@
       <!-- wp:group -->
       <div class="wp-block-group gray-border hidden desktop:inline-block w-full h-[2px] bg-[#808080] opacity-[15%]">
         <!-- wp:paragraph -->
-        <p>gray separator</p>
+        <p class="hidden">gray separator</p>
         <!-- /wp:paragraph -->
       </div>
       <!-- /wp:group -->
