@@ -182,7 +182,7 @@
                   <!-- /wp:buttons -->
 
                   <!-- wp:paragraph -->
-                  <p class="hover-text mt-[340px] wide:mt-[350px] opacity-[0%] group-hover:opacity-[100%] group-hover:mt-[270px] transition-all ease-out duration-500 text-[15px] font-light z-[1]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet in aspernatur alias ipsa, fuga ut!
+                  <p class="hover-text mt-[370px] wide:mt-[350px] opacity-[0%] group-hover:opacity-[100%] group-hover:mt-[290px] transition-all ease-out duration-500 text-[15px] font-light z-[1]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet in aspernatur alias ipsa, fuga ut!
                   </p>
                   <!-- /wp:paragraph -->
                 </div>
