@@ -253,12 +253,12 @@ body{
   position: absolute;
 }
 #services-next{
-  top: 90px;
-  right: 180px;
+  top: 0px;
+  right: 0px;
 }
 #services-prev{
-  top: 90px;
-  right: 250px;
+  top: 0px;
+  right: 0px;
 }
 .swiper-nav-wrapper{
   position: absolute;

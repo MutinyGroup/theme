@@ -191,7 +191,7 @@
         <!-- /wp:group -->
 
         <!-- wp:group -->
-        <div class="swiper-nav-wrapper w-[155px] h-[80px]">
+        <div class="swiper-nav-wrapper relative w-[155px] h-[80px]">
           <!-- wp:group -->
           <div id="services-prev" class="wp-block-group group swiper-button-prev desktop:inline-block hidden w-[56px] h-[56px] absolute desktop:top-[90px] top-[35px] desktop:left-[800px] left-[190px]">
             <!-- wp:paragraph -->
