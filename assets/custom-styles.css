@@ -246,6 +246,13 @@ body{
 .swiperServices .swiper-wrapper{
   height: 100%!important;
 }
+#services-next{
+  width: 56px;
+  height: 56px;
+  position: absolute;
+  top: 90px;
+  left: 870px;
+}
 
 .swiper-slide-services {
   font-size: 18px;
