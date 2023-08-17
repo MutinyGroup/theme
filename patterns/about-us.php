@@ -238,8 +238,8 @@
           <!-- wp:buttons -->
           <div class="wp-block-buttons btn-more cursor-pointer ml-[0px] p-[15px_30px] uppercase border-[2px] border-white rounded-full desktop:static absolute desktop:bottom-[-30px] bottom-[-80px] desktop:left-[0px] left-[50%] desktop:translate-x-0 translate translate-x-[-50%] hover:bg-white hover:text-black transition ease-out duration-300">
             <!-- wp:paragraph -->
-            <p>
-              <a href="<?php echo get_home_url() . '/about' ?>" class="uppercase w-[140px] text-[14px] font-bold">Dowiedz się więcej</a>
+            <p class="uppercase w-[140px] text-[14px] font-bold">
+              <a href="<?php echo get_home_url() . '/about' ?>">Dowiedz się więcej</a>
             </p>
             <!-- /wp:paragraph -->
           </div>
