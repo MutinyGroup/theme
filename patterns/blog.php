@@ -184,27 +184,38 @@
           <!-- /wp:group -->
 
           <!-- wp:group -->
-          <div id="blog-prev" class="wp-block-group group swiper-button-prev desktop:inline-block hidden w-[56px] h-[56px] absolute desktop:top-[90px] top-[35px] desktop:right-[50px]">
-            <!-- wp:paragraph -->
-            <svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 56 56" fill="none" class="group rotate-180 fill-transparent group-hover:fill-white">
-              <rect x="1.5" y="1.5" width="53" height="53" rx="26.5" stroke="#D5D5D5" stroke-width="3" class="group-hover:stroke-white transition-stroke ease-out duration-500"/>
-              <path d="M28 35L35 28.0189L28.0379 21" stroke="white" stroke-width="1.5" class="group-hover:stroke-black transition-stroke ease-out duration-500"/>
-              <path d="M20 28L31 28" stroke="white" stroke-width="1.5" class="group-hover:stroke-black transition-stroke ease-out duration-500"/>
-            </svg>
-            <!-- /wp:paragraph -->
+          <div class="wp-block-group swiper-nav-container desktop:block hidden relative">
+            <!-- wp:group -->
+            <div class="swiper-nav-wrapper w-[155px] h-[80px] flex justify-center items-center absolute desktop:top-[90px] top-[35px] desktop:right-[200px]">
+              <!-- wp:group -->
+              <div id="blog-prev" class="wp-block-group group swiper-button-prev desktop:inline-block hidden w-[56px] h-[56px] ">
+                <!-- wp:paragraph -->
+                <svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 56 56" fill="none" class="group rotate-180 fill-transparent group-hover:fill-white">
+                  <rect x="1.5" y="1.5" width="53" height="53" rx="26.5" stroke="#D5D5D5" stroke-width="3" class="group-hover:stroke-white transition-stroke ease-out duration-500"/>
+                  <path d="M28 35L35 28.0189L28.0379 21" stroke="white" stroke-width="1.5" class="group-hover:stroke-black transition-stroke ease-out duration-500"/>
+                  <path d="M20 28L31 28" stroke="white" stroke-width="1.5" class="group-hover:stroke-black transition-stroke ease-out duration-500"/>
+                </svg>
+                <!-- /wp:paragraph -->
+              </div>
+              <!-- /wp:group -->
+              <!-- wp:group -->
+              <div id="blog-next" class="wp-block-group group swiper-button-next desktop:inline-block hidden w-[56px] h-[56px]">
+                <!-- wp:paragraph -->
+                <svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 56 56" fill="none" class="group fill-transparent group-hover:fill-white">
+                  <rect x="1.5" y="1.5" width="53" height="53" rx="26.5" stroke="#D5D5D5" stroke-width="3" class="group-hover:stroke-white transition-stroke ease-out duration-500"/>
+                  <path d="M28 35L35 28.0189L28.0379 21" stroke="white" stroke-width="1.5" class="group-hover:stroke-black transition-stroke ease-out duration-500"/>
+                  <path d="M20 28L31 28" stroke="white" stroke-width="1.5" class="group-hover:stroke-black transition-stroke ease-out duration-500"/>
+                </svg>
+                <!-- /wp:paragraph -->
+              </div>
+              <!-- /wp:group -->
+            </div>
+            <!-- /wp:group -->
           </div>
           <!-- /wp:group -->
-          <!-- wp:group -->
-          <div id="blog-next" class="wp-block-group group swiper-button-next desktop:inline-block hidden w-[56px] h-[56px] absolute desktop:top-[90px] top-[35px] desktop:right-[10px]">
-            <!-- wp:paragraph -->
-            <svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 56 56" fill="none" class="group fill-transparent group-hover:fill-white">
-              <rect x="1.5" y="1.5" width="53" height="53" rx="26.5" stroke="#D5D5D5" stroke-width="3" class="group-hover:stroke-white transition-stroke ease-out duration-500"/>
-              <path d="M28 35L35 28.0189L28.0379 21" stroke="white" stroke-width="1.5" class="group-hover:stroke-black transition-stroke ease-out duration-500"/>
-              <path d="M20 28L31 28" stroke="white" stroke-width="1.5" class="group-hover:stroke-black transition-stroke ease-out duration-500"/>
-            </svg>
-            <!-- /wp:paragraph -->
-          </div>
-          <!-- /wp:group -->
+
+
+
         </div>
         <!-- /wp:group -->
       </div>
