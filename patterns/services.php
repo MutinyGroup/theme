@@ -88,12 +88,12 @@
     <!-- /wp:paragraph -->
     
     <!-- wp:group -->
-    <div class="wp-block-group swiper-container h-fit w-full pt-[100px] overflow-hidden">
+    <div class="wp-block-group mt-[80px] desktop:mt-[-120px] w-full overflow-hidden">
       <!-- wp:group -->
-      <div id="services" class="wp-block-group swiper swiperServices desktop:w-[calc(100%-90px)] desktop:h-auto wide:h-[530px] absolute top-0 desktop:top-[-60px] desktop:left-[45px] left-[20px]">
+      <div id="services" class="wp-block-group swiper swiperServices desktop:w-[calc(100%-90px)] desktop:pt-[180px] absolute top-0 desktop:left-[45px] left-[20px]">
 
         <!-- wp:group -->
-        <div class="wp-block-group swiper-wrapper h-full pt-[120px]">
+        <div class="wp-block-group swiper-wrapper desktop:h-[480px] wide:h-[530px]">
           <?php
             $args = array(
               'post_type' => 'uslugi',
@@ -110,7 +110,7 @@
                 $counter++;
               ?>
                 <!-- wp:group -->
-                <div class="wp-block-group swiper-slide swiper-slide-services relative z-[2] group p-[25px] wide:max-w-[420px] desktop:max-w-[354px] max-w-[310px] h-[380px] desktop:h-[435px] wide:h-[530px] rounded-[20px] transition ease-out duration-300 mr-[8px] <?php if($counter == 1) echo 'clipped-swiper-serv-1'; elseif($counter == $post_query->post_count) echo 'clipped-swiper-serv-2'; ?>">
+                <div class="wp-block-group swiper-slide swiper-slide-services relative z-[2] group p-[25px] wide:max-w-[420px] desktop:max-w-[354px] max-w-[310px] h-[380px] desktop:h-[450px] wide:h-[530px] rounded-[20px] transition ease-out duration-300 mr-[8px] <?php if($counter == 1) echo 'clipped-swiper-serv-1'; elseif($counter == $post_query->post_count) echo 'clipped-swiper-serv-2'; ?>">
                   <!-- wp:group -->
                   <div class="wp-block-group img-clip-path-wrapper w-full h-full rounded-[20px] rounded-br-[20px] overflow-hidden absolute left-0 top-0 z-[-1] group-hover:grayscale">
                     <!-- wp:group -->
