@@ -78,7 +78,7 @@ body{
 }
 .clipped-realizations-2 img,
 .clipped-realizations-2{
-  clip-path: url(#clipped-realizations-2);
+  clip-path: url(#clipped-realizations-2)!important;
 }
 .clipped-realizations-2:before img{
   clip-path: url(#clipped-realizations-2);
