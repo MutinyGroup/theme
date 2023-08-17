@@ -15,22 +15,24 @@
       <!-- wp:group -->
       <div class="wp-block-group flash-wrapper wide:scale-[1] desktop:scale-[1] scale-[0.5] absolute top-[-340px] desktop:top-[-300px] wide:top-[-270px] left-[-240px] desktop:left-[-200px] wide:left-[-260px] z-[-1]">
         <!-- wp:paragraph -->
-        <svg class="flash" xmlns="http://www.w3.org/2000/svg" width="688" height="801" viewBox="0 0 688 801" fill="none">
-          <g filter="url(#filter0_f_1787_1988)">
-          <circle cx="287.132" cy="400.132" r="150" transform="rotate(-45 287.132 400.132)" fill="url(#paint0_linear_1787_1988)" fill-opacity="0.5"/>
-          </g>
-          <defs>
-          <filter id="filter0_f_1787_1988" x="-112.868" y="0.131836" width="800" height="800" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-          <feFlood flood-opacity="0" result="BackgroundImageFix"/>
-          <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
-          <feGaussianBlur stdDeviation="125" result="effect1_foregroundBlur_1787_1988"/>
-          </filter>
-          <linearGradient id="paint0_linear_1787_1988" x1="287.132" y1="250.132" x2="287.132" y2="550.132" gradientUnits="userSpaceOnUse">
-          <stop stop-color="#FEC400" stop-opacity="0.6"/>
-          <stop offset="1" stop-color="#FEC400" stop-opacity="0"/>
-          </linearGradient>
-          </defs>
-        </svg>
+        <p>
+          <svg class="flash" xmlns="http://www.w3.org/2000/svg" width="688" height="801" viewBox="0 0 688 801" fill="none">
+            <g filter="url(#filter0_f_1787_1988)">
+            <circle cx="287.132" cy="400.132" r="150" transform="rotate(-45 287.132 400.132)" fill="url(#paint0_linear_1787_1988)" fill-opacity="0.5"/>
+            </g>
+            <defs>
+            <filter id="filter0_f_1787_1988" x="-112.868" y="0.131836" width="800" height="800" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+            <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+            <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+            <feGaussianBlur stdDeviation="125" result="effect1_foregroundBlur_1787_1988"/>
+            </filter>
+            <linearGradient id="paint0_linear_1787_1988" x1="287.132" y1="250.132" x2="287.132" y2="550.132" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#FEC400" stop-opacity="0.6"/>
+            <stop offset="1" stop-color="#FEC400" stop-opacity="0"/>
+            </linearGradient>
+            </defs>
+          </svg>
+          </p>
         <!-- /wp:paragraph -->
 
         <!-- wp:image -->
@@ -155,9 +157,11 @@
                   <!-- wp:group -->
                   <div class="wp-block-group slide-title absolute desktop:bottom-[85px] bottom-[100px] left-[25px] z-[1] group-hover:translate-y-[-80px] transition ease-out duration-500">
                     <!-- wp:paragraph -->
-                    <a href="<?php the_permalink(); ?>" class="mr-[20px] text-[25px] font-semibold mb-[15px] underline-offset-[7px] group-hover:underline group-hover:decoration-primaryYellow group-hover:translate-y-[-80px] transition ease-out duration-500">
-                      <?php the_title(); ?>
-                    </a>
+                    <p>
+                      <a href="<?php the_permalink(); ?>" class="mr-[20px] text-[25px] font-semibold mb-[15px] underline-offset-[7px] group-hover:underline group-hover:decoration-primaryYellow group-hover:translate-y-[-80px] transition ease-out duration-500">
+                        <?php the_title(); ?>
+                      </a>
+                    </p>
                     <!-- /wp:paragraph -->
                   </div>
                   <!-- /wp:group -->
@@ -191,25 +195,29 @@
         <!-- /wp:group -->
 
         <!-- wp:group -->
-        <div id="services-prev" class="wp-block-group group swiper-button-prev desktop:inline-block hidden w-[56px] h-[56px] absolute desktop:top-[90px] top-[35px] desktop:left-[800px] left-[190px]">
+        <div id="services-prev" class="wp-block-group group swiper-button-prev desktop:inline-block hidden w-[56px] h-[56px] absolute top-[35px] desktop:top-[60px] left-[190px] desktop:left-[800px]">
           <!-- wp:paragraph -->
-          <svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 56 56" fill="none" class="rotate-180 group fill-transparent group-hover:fill-white">
-            <rect x="1.5" y="1.5" width="53" height="53" rx="26.5" stroke="#D5D5D5" stroke-width="3" class="group-hover:stroke-white transition-stroke ease-out duration-500"/>
-            <path d="M28 35L35 28.0189L28.0379 21" stroke="white" stroke-width="1.5" class="group-hover:stroke-black transition-stroke ease-out duration-500"/>
-            <path d="M20 28L31 28" stroke="white" stroke-width="1.5" class="group-hover:stroke-black transition-stroke ease-out duration-500"/>
-          </svg>
+          <p>
+            <svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 56 56" fill="none" class="rotate-180 group fill-transparent group-hover:fill-white">
+              <rect x="1.5" y="1.5" width="53" height="53" rx="26.5" stroke="#D5D5D5" stroke-width="3" class="group-hover:stroke-white transition-stroke ease-out duration-500"/>
+              <path d="M28 35L35 28.0189L28.0379 21" stroke="white" stroke-width="1.5" class="group-hover:stroke-black transition-stroke ease-out duration-500"/>
+              <path d="M20 28L31 28" stroke="white" stroke-width="1.5" class="group-hover:stroke-black transition-stroke ease-out duration-500"/>
+            </svg>
+          </p>
           <!-- /wp:paragraph -->
         </div>
         <!-- /wp:group -->
 
         <!-- wp:group -->
-        <div id="services-next" class="wp-block-group group swiper-button-next desktop:inline-block hidden w-[56px] h-[56px] absolute desktop:top-[90px] top-[35px] desktop:left-[870px] left-[260px]">
+        <div id="services-next" class="wp-block-group group swiper-button-next desktop:inline-block hidden w-[56px] h-[56px] absolute top-[35px] desktop:top-[60px] left-[260px] desktop:left-[870px]">
           <!-- wp:paragraph -->
-          <svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 56 56" fill="none" class="group fill-transparent group-hover:fill-white">
-            <rect x="1.5" y="1.5" width="53" height="53" rx="26.5" stroke="#D5D5D5" stroke-width="3" class="group-hover:stroke-white transition-stroke ease-out duration-500"/>
-            <path d="M28 35L35 28.0189L28.0379 21" stroke="white" stroke-width="1.5" class="group-hover:stroke-black transition-stroke ease-out duration-500"/>
-            <path d="M20 28L31 28" stroke="white" stroke-width="1.5" class="group-hover:stroke-black transition-stroke ease-out duration-500"/>
-          </svg>
+          <p>
+            <svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 56 56" fill="none" class="group fill-transparent group-hover:fill-white">
+              <rect x="1.5" y="1.5" width="53" height="53" rx="26.5" stroke="#D5D5D5" stroke-width="3" class="group-hover:stroke-white transition-stroke ease-out duration-500"/>
+              <path d="M28 35L35 28.0189L28.0379 21" stroke="white" stroke-width="1.5" class="group-hover:stroke-black transition-stroke ease-out duration-500"/>
+              <path d="M20 28L31 28" stroke="white" stroke-width="1.5" class="group-hover:stroke-black transition-stroke ease-out duration-500"/>
+            </svg>
+          </p>
           <!-- /wp:paragraph -->
         </div>
         <!-- /wp:group -->
@@ -230,7 +238,9 @@
       <!-- wp:buttons -->
       <div class="wp-block-buttons min-w-[225px] flex justify-center items-center px-[20px] btn-more ml-[0px] p-[15px_30px] uppercase border-[2px] border-white rounded-full hover:bg-white hover:text-black transition ease-out duration-300">
         <!-- wp:paragraph -->
-        <a href="<?php echo get_home_url() . '/services'; ?>" class="uppercase text-[14px] font-bold">Dowiedz się więcej</a>
+        <p>
+          <a href="<?php echo get_home_url() . '/services'; ?>" class="uppercase text-[14px] font-bold">Dowiedz się więcej</a>
+        </p>
         <!-- /wp:paragraph -->
       </div>
       <!-- /wp:buttons -->
