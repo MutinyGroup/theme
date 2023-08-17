@@ -260,6 +260,11 @@ body{
   top: 90px;
   right: 250px;
 }
+.swiper-nav-wrapper{
+  position: absolute;
+  top: 90px;
+  right: 250px;
+}
 
 .swiper-slide-services {
   font-size: 18px;
