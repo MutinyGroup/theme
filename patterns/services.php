@@ -88,7 +88,7 @@
     <!-- /wp:paragraph -->
     
     <!-- wp:group -->
-    <div class="wp-block-group mt-[80px] desktop:mt-[-120px] w-full h-[660px] overflow-hidden">
+    <div class="wp-block-group mt-[80px] desktop:mt-[-120px] w-full h-[660px] wide:h-[720px] overflow-hidden">
 
       <!-- wp:group -->
       <div id="services" class="wp-block-group swiper swiperServices desktop:w-[calc(100%-90px)] desktop:pt-[180px] absolute top-0 desktop:top-[160px] left-[20px] desktop:left-[90px]">
@@ -182,7 +182,7 @@
                   <!-- /wp:buttons -->
 
                   <!-- wp:paragraph -->
-                  <p class="hover-text mt-[370px] wide:mt-[350px] opacity-[0%] group-hover:opacity-[100%] group-hover:mt-[220px] wide:group-hover:mt-[250px] transition-all ease-out duration-500 text-[15px] font-light z-[1]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet in aspernatur alias ipsa, fuga ut!
+                  <p class="hover-text mt-[370px] wide:mt-[350px] opacity-[0%] group-hover:opacity-[100%] group-hover:mt-[220px] wide:group-hover:mt-[270px] transition-all ease-out duration-500 text-[15px] font-light z-[1]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet in aspernatur alias ipsa, fuga ut!
                   </p>
                   <!-- /wp:paragraph -->
                 </div>

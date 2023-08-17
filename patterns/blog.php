@@ -76,7 +76,7 @@
     
 
     <!-- wp:group -->
-    <div class="wp-block-group relative min-h-[855px]">
+    <div class="wp-block-group relative min-h-[910px]">
       <!-- wp:group -->
       <div class="wp-block-group desktop:mt-[-120px] w-full overflow-hidden">
         <!-- wp:group -->
