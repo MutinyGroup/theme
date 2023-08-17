@@ -1,35 +1,41 @@
-<!-- wp:template-part {"slug":"front-page/header"} /-->
-
 <!-- wp:group -->
-<div id="Mutiny theme" class="wp-block-group page-wrapper desktop:flex">
+<div class="main-wrapper !bg-red-500">
+
+  <!-- wp:template-part {"slug":"front-page/header"} /-->
+  
   <!-- wp:group -->
-  <div id="Sidebar" class="wp-block-group sidebar hidden desktop:block desktop:min-w-[80px]">
-    <!-- wp:template-part {"slug":"front-page/sidebar"} /-->
+  <div id="Mutiny theme" class="wp-block-group page-wrapper desktop:flex">
+    <!-- wp:group -->
+    <div id="Sidebar" class="wp-block-group sidebar hidden desktop:block desktop:min-w-[80px]">
+      <!-- wp:template-part {"slug":"front-page/sidebar"} /-->
+    </div>
+    <!-- /wp:group -->
+    
+    <!-- wp:group -->
+    <div id="Page content" class="wp-block-group page-content-wrapper w-screen desktop:w-[calc(100%-80px)]">
+      <!-- wp:pattern {"slug":"banner-main"} /-->
+      
+      <!-- wp:pattern {"slug":"mutiny/about-us"} /-->
+      
+      <!-- wp:pattern {"slug":"services"} /-->
+      
+      <!-- wp:pattern {"slug":"img-separator"} /-->
+      
+      <!-- wp:pattern {"slug":"companies-logos"} /-->
+      
+      <!-- wp:pattern {"slug":"realizations"} /-->
+      
+      <!-- wp:pattern {"slug":"opinions"} /-->
+      
+      <!-- wp:pattern {"slug":"blog"} /-->
+      
+      <!-- wp:pattern {"slug":"cta"} /-->
+      
+      <!-- wp:template-part {"slug":"front-page/footer"} /-->
+    </div>
+    <!-- /wp:group -->
   </div>
   <!-- /wp:group -->
   
-  <!-- wp:group -->
-  <div id="Page content" class="wp-block-group page-content-wrapper w-screen desktop:w-[calc(100%-80px)]">
-    <!-- wp:pattern {"slug":"banner-main"} /-->
-    
-    <!-- wp:pattern {"slug":"mutiny/about-us"} /-->
-    
-    <!-- wp:pattern {"slug":"services"} /-->
-    
-    <!-- wp:pattern {"slug":"img-separator"} /-->
-    
-    <!-- wp:pattern {"slug":"companies-logos"} /-->
-    
-    <!-- wp:pattern {"slug":"realizations"} /-->
-
-    <!-- wp:pattern {"slug":"opinions"} /-->
-
-    <!-- wp:pattern {"slug":"blog"} /-->
-
-    <!-- wp:pattern {"slug":"cta"} /-->
-
-    <!-- wp:template-part {"slug":"front-page/footer"} /-->
-  </div>
-  <!-- /wp:group -->
 </div>
 <!-- /wp:group -->
