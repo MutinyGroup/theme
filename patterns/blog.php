@@ -76,13 +76,13 @@
     
 
     <!-- wp:group -->
-    <div class="wp-block-group relative min-h-[910px]">
+    <div class="wp-block-group relative min-h-[540px] desktop:min-h-[910px]">
       <!-- wp:group -->
       <div class="wp-block-group desktop:mt-[-120px] w-full overflow-hidden">
         <!-- wp:group -->
         <div id="blog" class="wp-block-group swiper swiperBlog desktop:w-[calc(100%-90px)] desktop:pt-[180px] absolute top-0 desktop:top-[30px] desktop:left-[90px] left-[20px]">
           <!-- wp:group -->
-          <div class="wp-block-group swiper-wrapper">
+          <div class="wp-block-group swiper-wrapper overflow-hidden">
             <?php
               $args = array(
                   'post_type' => 'post',
