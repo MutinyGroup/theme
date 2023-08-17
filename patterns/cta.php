@@ -15,22 +15,24 @@
       <!-- wp:group -->
       <div class="wp-block-group flash-wrapper wide:scale-[1] desktop:scale-[1] scale-[0.5] absolute top-[-350px] desktop:top-[-300px] wide:top-[-270px] left-[-200px] wide:left-[-230px] z-[-1]">
         <!-- wp:paragraph -->
-        <svg class="flash" xmlns="http://www.w3.org/2000/svg" width="688" height="801" viewBox="0 0 688 801" fill="none">
-          <g filter="url(#filter0_f_1787_1988)">
-          <circle cx="287.132" cy="400.132" r="150" transform="rotate(-45 287.132 400.132)" fill="url(#paint0_linear_1787_1988)" fill-opacity="0.5"/>
-          </g>
-          <defs>
-          <filter id="filter0_f_1787_1988" x="-112.868" y="0.131836" width="800" height="800" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-          <feFlood flood-opacity="0" result="BackgroundImageFix"/>
-          <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
-          <feGaussianBlur stdDeviation="125" result="effect1_foregroundBlur_1787_1988"/>
-          </filter>
-          <linearGradient id="paint0_linear_1787_1988" x1="287.132" y1="250.132" x2="287.132" y2="550.132" gradientUnits="userSpaceOnUse">
-          <stop stop-color="#FEC400" stop-opacity="0.6"/>
-          <stop offset="1" stop-color="#FEC400" stop-opacity="0"/>
-          </linearGradient>
-          </defs>
-        </svg>
+        <p>
+          <svg class="flash" xmlns="http://www.w3.org/2000/svg" width="688" height="801" viewBox="0 0 688 801" fill="none">
+            <g filter="url(#filter0_f_1787_1988)">
+            <circle cx="287.132" cy="400.132" r="150" transform="rotate(-45 287.132 400.132)" fill="url(#paint0_linear_1787_1988)" fill-opacity="0.5"/>
+            </g>
+            <defs>
+            <filter id="filter0_f_1787_1988" x="-112.868" y="0.131836" width="800" height="800" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+            <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+            <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+            <feGaussianBlur stdDeviation="125" result="effect1_foregroundBlur_1787_1988"/>
+            </filter>
+            <linearGradient id="paint0_linear_1787_1988" x1="287.132" y1="250.132" x2="287.132" y2="550.132" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#FEC400" stop-opacity="0.6"/>
+            <stop offset="1" stop-color="#FEC400" stop-opacity="0"/>
+            </linearGradient>
+            </defs>
+          </svg>
+        </p>
         <!-- /wp:paragraph -->
 
         <!-- wp:image -->
