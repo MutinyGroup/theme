@@ -64,6 +64,9 @@
 
         <!-- wp:group -->
         <div id="opinions-pagination" class="wp-block-group swiper-pagination w-fit h-fit text-primaryYellow text-[50px] absolute left-[130px] desktop:left-[200px] wide:left-[190px] top-[-70px] desktop:top-[90px]">
+          <!-- wp:paragraph -->
+          <p>Swiper pagination</p>
+          <!-- /wp:paragraph -->
         </div>
         <!-- /wp:group -->
       </div>
