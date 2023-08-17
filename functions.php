@@ -295,7 +295,6 @@ if ( function_exists( 'register_block_style' ) ) {
 function mutinyblocks_register_styles() {
 	$theme_version = wp_get_theme()->get( 'Version' );
 	wp_enqueue_style( 'mutinyblocks-style', get_stylesheet_uri(), array(), $theme_version );
-	wp_enqueue_style('custom-styles', get_theme_file_uri('/assets/styles.min.css'), '1.0');
 
 	// wp_enqueue_script('tailwind', '//cdn.tailwindcss.com', '3.3.2');
 	// wp_enqueue_script('tailwind-config', get_theme_file_uri('/assets/tailwind-config.js'), '1.0', array('tailwind'));
@@ -303,6 +302,8 @@ function mutinyblocks_register_styles() {
 	wp_enqueue_script('swiper', '//cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js', '9.4.1');
 	wp_enqueue_style('swiper-css', '//cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css', '9.4.1');
 	wp_enqueue_script('swiperMain', get_theme_file_uri('/assets/swiper-main.js'), '1.0', array('swiper'));
+
+	wp_enqueue_style('custom-styles', get_theme_file_uri('/assets/styles.min.css'), '1.0', array('swiper-css'));
 
 	wp_enqueue_style('google-fonts-api', '//fonts.googleapis.com', '1.0');
 	wp_enqueue_style('google-fonts-gstatic', '//fonts.gstatic.com', '1.0');
