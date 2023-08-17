@@ -124,6 +124,8 @@
         <!-- wp:paragraph -->
         <p class="uppercase text-[25px] font-extrabold">WIĘCEJ</p>
         <!-- /wp:paragraph -->
+        </p>
+      </a>
     </p>
     <!-- /wp:paragraph -->
   </div>
