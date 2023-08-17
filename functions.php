@@ -377,11 +377,19 @@ function getGlobalWPObject(){
 }
 
 
-function my_enqueue($hook) {
-	if ('edit.php' !== $hook) {
-			return;
-	}
-	wp_enqueue_script('my_custom_script', '//cdn.tailwindcss.com', '3.3.2');
+/**
+ * Registers an FRONTEND stylesheet for the theme.
+ */
+function wpdocs_theme_add_editor_styles() {
+    add_editor_style( 'assets/styles.min.css' );
 }
+add_action( 'admin_init', 'wpdocs_theme_add_editor_styles' );
 
-add_action('admin_enqueue_scripts', 'my_enqueue');
+/**
+ * Registers an editor stylesheet for the theme.
+ */
+function wpdocs_theme_add_editor_styles() {
+    add_editor_style( 'assets/editor.css' );
+}
+add_action( 'admin_init', 'wpdocs_theme_add_editor_styles' );
+
