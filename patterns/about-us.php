@@ -243,7 +243,11 @@
           </div>
           <!-- /wp:buttons -->
           <!-- wp:group -->
-          <div class="wp-block-group gray-border hidden desktop:inline-block w-[285px] h-[2px] bg-[#808080] opacity-[15%]"></div>
+          <div class="wp-block-group gray-border hidden desktop:inline-block w-[285px] h-[2px] bg-[#808080] opacity-[15%]">
+            <!-- wp:paragraph -->
+            <p class="hidden">gray separator</p>
+            <!-- /wp:paragraph -->
+          </div>
           <!-- /wp:group -->
         </div>
         <!-- /wp:group -->
