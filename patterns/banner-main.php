@@ -122,8 +122,8 @@
       <!-- wp:paragraph -->
       <p>
         <a href="#O nas" class="">
-          <span class="font-bold blok">Zobacz</span>
-          WIĘCEJ
+          <span class="font-bold block">Zobacz</span>
+          <span class="font-bold block text-[25px]">WIĘCEJ</span>
         </a>
       </p>
       <!-- /wp:paragraph -->
