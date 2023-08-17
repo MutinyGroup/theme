@@ -18,22 +18,24 @@
         <!-- wp:group -->
         <div class="wp-block-group flash-wrapper wide:scale-[1.2] desktop:scale-[1.1] scale-[0.5] absolute desktop:top-[-130px] top-[-350px] left-[-200px] desktop:left-[-180px] z-[-1]">
           <!-- wp:paragraph -->
-          <svg class="flash" xmlns="http://www.w3.org/2000/svg" width="688" height="801" viewBox="0 0 688 801" fill="none">
-            <g filter="url(#filter0_f_1787_1988)">
-            <circle cx="287.132" cy="400.132" r="150" transform="rotate(-45 287.132 400.132)" fill="url(#paint0_linear_1787_1988)" fill-opacity="0.5"/>
-            </g>
-            <defs>
-            <filter id="filter0_f_1787_1988" x="-112.868" y="0.131836" width="800" height="800" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-            <feFlood flood-opacity="0" result="BackgroundImageFix"/>
-            <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
-            <feGaussianBlur stdDeviation="125" result="effect1_foregroundBlur_1787_1988"/>
-            </filter>
-            <linearGradient id="paint0_linear_1787_1988" x1="287.132" y1="250.132" x2="287.132" y2="550.132" gradientUnits="userSpaceOnUse">
-            <stop stop-color="#FEC400" stop-opacity="0.6"/>
-            <stop offset="1" stop-color="#FEC400" stop-opacity="0"/>
-            </linearGradient>
-            </defs>
-          </svg>
+          <p>
+            <svg class="flash" xmlns="http://www.w3.org/2000/svg" width="688" height="801" viewBox="0 0 688 801" fill="none">
+              <g filter="url(#filter0_f_1787_1988)">
+              <circle cx="287.132" cy="400.132" r="150" transform="rotate(-45 287.132 400.132)" fill="url(#paint0_linear_1787_1988)" fill-opacity="0.5"/>
+              </g>
+              <defs>
+              <filter id="filter0_f_1787_1988" x="-112.868" y="0.131836" width="800" height="800" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+              <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+              <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+              <feGaussianBlur stdDeviation="125" result="effect1_foregroundBlur_1787_1988"/>
+              </filter>
+              <linearGradient id="paint0_linear_1787_1988" x1="287.132" y1="250.132" x2="287.132" y2="550.132" gradientUnits="userSpaceOnUse">
+              <stop stop-color="#FEC400" stop-opacity="0.6"/>
+              <stop offset="1" stop-color="#FEC400" stop-opacity="0"/>
+              </linearGradient>
+              </defs>
+            </svg>
+          </p>
           <!-- /wp:paragraph -->
 
           <!-- wp:image -->
@@ -117,7 +119,7 @@
   
     <!-- wp:paragraph -->
     <p>
-      <a href="#O nas" class="wp-block-buttons desktop:w-[175px] w-[140px] desktop:h-[175px] h-[140px] mx-auto text-center rounded-full desktop:border-[4px] border-[3px] border-[#D5D5D5] desktop:absolute bottom-[200px] desktop:bottom-auto desktop:top-[58%] wide:top-[65%] desktop:left-[56%] left-[50%] desktop:translate-x-[-50%] group-hover:border-none group-hover:bg-primaryYellow group-hover:text-white transition ease-out duration-300 flex flex-col justify-center items-center gap-y-0 cursor-pointer is-layout-flex">
+      <a href="#O nas" class="desktop:w-[175px] w-[140px] desktop:h-[175px] h-[140px] mx-auto text-center rounded-full desktop:border-[4px] border-[3px] border-[#D5D5D5] desktop:absolute bottom-[200px] desktop:bottom-auto desktop:top-[58%] wide:top-[65%] desktop:left-[56%] left-[50%] desktop:translate-x-[-50%] group-hover:border-none group-hover:bg-primaryYellow group-hover:text-white transition ease-out duration-300 flex flex-col justify-center items-center gap-y-0 cursor-pointer is-layout-flex">
         <!-- wp:paragraph -->
         <p class="font-bold">Zobacz</p>
         <!-- /wp:paragraph -->
