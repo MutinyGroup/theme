@@ -251,14 +251,14 @@
                   <!-- /wp:group -->   
                   <!-- wp:buttons -->
                   <div
-                    class="wp-block-buttons btn-swiper-more group z-[2] pr-[20px] desktop:pr-0 text-[14px] font-semibold uppercase absolute desktop:bottom-[40px] desktop:bottom-[75px] bottom-[20px] desktop:left-[25px] left-[20px] transition ease-out duration-300"
+                    class="wp-block-buttons btn-swiper-more group z-[2] pr-[20px] desktop:pr-0 text-[14px] font-semibold uppercase absolute  desktop:bottom-[75px] bottom-[20px] desktop:left-[25px] left-[20px] transition ease-out duration-300"
                   >
                     <!-- wp:paragraph -->
-                    <a href="<?php the_permalink(); ?>" class="inline-block flex items-center desktop:block">
+                    <a href="<?php the_permalink(); ?>" class="flex items-center desktop:block">
                       <!-- wp:group -->
                       <div class="wp-block-group inline">
                         <!-- wp:paragraph -->
-                        <p>
+                        <p class="inline">
                           Dowiedz się więcej
                         </p>
                         <!-- /wp:paragraph -->

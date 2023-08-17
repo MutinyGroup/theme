@@ -7,7 +7,7 @@
  */
 ?>
 <!-- wp:group {"templateLock":"all","lock":{"move":true,"remove":true},"anchor":true} -->
-<div id="Realizacje" class="wp-block-group realizacje relative desktop:mb-[150px] desktop:pt-[220px] pt-[180px] desktop:mb-[200px] mb-[60px] overflow-visible">
+<div id="Realizacje" class="wp-block-group realizacje relative desktop:pt-[220px] pt-[180px] desktop:mb-[200px] mb-[60px] overflow-visible">
   <!-- wp:paragraph -->
   <svg class="bg-shape z-[-1] opacity-[0.16] absolute top-[130px] right-0" xmlns="http://www.w3.org/2000/svg" width="1051" height="816" viewBox="0 0 1051 816" fill="none">
     <g style="mix-blend-mode:color-dodge">
@@ -75,7 +75,7 @@
     </p>
     <!-- /wp:paragraph -->
     <!-- wp:group -->
-    <div class="wp-block-group circle-title w-[120px] h-[120px] mx-0 leading-[20px] flex items-center justify-center flex-col rounded-full border border-[4px] border-[#D5D5D5] absolute desktop:top-[130px] top-[80px] desktop:left-[60%] left-[75px] translate-x-[-50%]">
+    <div class="wp-block-group circle-title w-[120px] h-[120px] mx-0 leading-[20px] flex items-center justify-center flex-col rounded-full border-[4px] border-[#D5D5D5] absolute desktop:top-[130px] top-[80px] desktop:left-[60%] left-[75px] translate-x-[-50%]">
       <!-- wp:paragraph -->
       <p class="leading-[28px] uppercase text-[25px] font-extrabold">CASE</p>
       <!-- /wp:paragraph -->
@@ -107,7 +107,7 @@
               $counter++;
               if (true){ ?>         
                 <!-- wp:list-item -->
-                <li class="wp-block-group tile-realizacje mb-[30px] h-[320px] desktop:h-[600px] wide:h-[680px] w-[100%] desktop:w-[545px] wide:w-[600px] h-[480px] desktop:h-[700px] wide:h-[780px] relative group w-1/2 transition ease-in-out duration-[400ms] relative group <?php if (($counter % 2)) echo 'tile-realizacje-1'; else echo 'tile-realizacje-2 desktop:translate-y-[70px]'; ?>">
+                <li class="wp-block-group tile-realizacje mb-[30px] desktop:w-[545px] wide:w-[600px] h-[480px] desktop:h-[700px] wide:h-[780px] relative group w-1/2 transition ease-in-out duration-[400ms] group <?php if (($counter % 2)) echo 'tile-realizacje-1'; else echo 'tile-realizacje-2 desktop:translate-y-[70px]'; ?>">
                   <!-- wp:group -->
                   <div class="wp-block-group <?php if($counter == 1) echo 'clipped-realizations-1'; elseif($counter == $post_query->post_count) echo 'clipped-realizations-2'; ?> gray-overlay w-full h-full bg-[#101010] absolute top-0 left-0 opacity-[60%]">
                     <!-- wp:paragraph -->
@@ -183,7 +183,7 @@
                     <!-- /wp:list -->                    
 
                     <!-- wp:buttons -->
-                    <div class="wp-block-buttons group uppercase text-[14px] font-semibold uppercase group-hover:translate-y-[25px] transition ease-in-out duration-[400ms]">
+                    <div class="wp-block-buttons group uppercase text-[14px] font-semibold group-hover:translate-y-[25px] transition ease-in-out duration-[400ms]">
                       <!-- wp:paragraph -->
                       <a href="#" class="wp-block-link inline-block">
                         Czytaj więcej
