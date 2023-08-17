@@ -185,14 +185,16 @@
                     <!-- wp:buttons -->
                     <div class="wp-block-buttons group uppercase text-[14px] font-semibold group-hover:translate-y-[25px] transition ease-in-out duration-[400ms]">
                       <!-- wp:paragraph -->
-                      <a href="#" class="wp-block-link inline-block">
-                        Czytaj więcej
-                        <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" fill="none " class="inline-block ml-[10px] ">
-                          <rect x="1" y="1" width="34" height="34" rx="18" stroke="#D5D5D5" stroke-width="2" fill="transparent" class="transition ease-in-out duration-[400ms] group-hover:fill-[#FEC400] group-hover:stroke-[#FEC400]"/>
-                          <path d="M19 22L23 18.0108L19.0217 14" stroke="white"/>
-                          <path d="M12 18L20 18" stroke="white" />
-                        </svg>
-                      </a>
+                      <p>
+                        <a href="#" class="wp-block-link inline-block">
+                          Czytaj więcej
+                          <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" fill="none " class="inline-block ml-[10px] ">
+                            <rect x="1" y="1" width="34" height="34" rx="18" stroke="#D5D5D5" stroke-width="2" fill="transparent" class="transition ease-in-out duration-[400ms] group-hover:fill-[#FEC400] group-hover:stroke-[#FEC400]"/>
+                            <path d="M19 22L23 18.0108L19.0217 14" stroke="white"/>
+                            <path d="M12 18L20 18" stroke="white" />
+                          </svg>
+                        </a>
+                      </p>
                       <!-- /wp:paragraph -->
                     </div>
                     <!-- /wp:buttons -->
@@ -221,7 +223,9 @@
       <!-- wp:buttons -->
       <div class="wp-block-buttons btn-more ml-[0px] p-[15px_30px] uppercase border-[2px] border-white rounded-full hover:bg-white hover:text-black transition ease-out duration-300">
         <!-- wp:paragraph -->
-        <a href="<?php echo get_home_url() . '/realizations'; ?>" class="uppercase text-[14px] desktop:w-[220px] w-auto max-w-[220px] font-bold">Zobacz wszystkie realizacje</a>
+        <p>
+          <a href="<?php echo get_home_url() . '/realizations'; ?>" class="uppercase text-[14px] desktop:w-[220px] w-auto max-w-[220px] font-bold">Zobacz wszystkie realizacje</a>
+        </p>
         <!-- /wp:paragraph -->
       </div>
       <!-- /wp:group -->
