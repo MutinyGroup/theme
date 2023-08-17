@@ -88,7 +88,7 @@
     <!-- /wp:paragraph -->
     
     <!-- wp:group -->
-    <div class="wp-block-group mt-[80px] desktop:mt-[-120px] w-full overflow-hidden">
+    <div class="wp-block-group mt-[80px] desktop:mt-[-120px] w-full h-[660px] overflow-hidden">
 
       <!-- wp:group -->
       <div id="services" class="wp-block-group swiper swiperServices desktop:w-[calc(100%-90px)] desktop:pt-[180px] absolute top-0 desktop:left-[45px] left-[20px]">
