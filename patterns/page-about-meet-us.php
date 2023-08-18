@@ -41,7 +41,7 @@
       </p>  
       <!-- /wp:paragraph -->
       <!-- wp:paragraph -->
-      <p class="section-title desktop:w-[145px] desktop:basis-[80%]  uppercase text-primaryYellow ">Poznajmy się</p>
+      <p class="section-title desktop:w-[145px] desktop:basis-auto uppercase text-primaryYellow ">Poznajmy się</p>
       <!-- /wp:paragraph -->
       <!-- wp:group -->
       <div class="wp-block-group uslugi-title font-medium">
