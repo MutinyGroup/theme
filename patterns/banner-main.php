@@ -16,7 +16,7 @@
       <!-- wp:group -->
       <div class="wp-block-group left-col relative wide:pt-[110px] desktop:pt-[80px] pt-0 fullhd:text-[85px] desktop:text-[85px] text-[38px] font-normal desktop:w-[940px] wide:leading-[85px] desktop:leading-[80px] leading-[38px]">
         <!-- wp:group -->
-        <div class="wp-block-group flash-wrapper wide:scale-[1.2] desktop:scale-[1.1] scale-[0.5] absolute desktop:top-[-130px] top-[-350px] left-[-200px] desktop:left-[-180px] z-[-1]">
+        <div class="wp-block-group flash-wrapper wide:scale-[1.2] desktop:scale-[1.1] scale-[0.5] absolute desktop:top-[-130px] top-[-350px] left-[-200px] desktop:left-[-180px] z-[0]">
           <!-- wp:paragraph -->
           <p>
             <svg class="flash" xmlns="http://www.w3.org/2000/svg" width="688" height="801" viewBox="0 0 688 801" fill="none">
@@ -50,7 +50,7 @@
         <!-- /wp:group -->
 
         <!-- wp:image -->
-        <figure class="wp-block-image bg-shape w-[1220px] h-[750px] z-[-1] opacity-[0.25] absolute top-[130px] left-[-320px]">
+        <figure class="wp-block-image bg-shape w-[1220px] h-[750px] z-[0] opacity-[0.25] absolute top-[130px] left-[-320px]">
           <img
             src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/front-page/banner-bg-shape.png"
             alt="background image"
@@ -59,7 +59,7 @@
         <!-- /wp:image -->
         
         <!-- wp:group -->
-        <div class="wp-block-group title-text-wrapper mb-[50px] desktop:mb-[70px] uppercase">
+        <div class="wp-block-group title-text-wrapper mb-[50px] desktop:mb-[70px] uppercase relative z-[1]">
           <!-- wp:paragraph -->
           <p class="company-title font-normal text-[16px] leading-[125%]">Mutiny Group</p>
           <!-- /wp:paragraph -->
@@ -87,9 +87,9 @@
       <!-- /wp:group -->
 
       <!-- wp:group -->
-      <div class="wp-block-group right-col banner-bg h-[300px] tablet:h-[450px] desktop:h-[775px] wide:h-[950px] desktop:w-[44%] w-[65%] absolute right-0 desktop:top-[50px] top-[30px] z-[-1]">
+      <div class="wp-block-group right-col banner-bg h-[300px] tablet:h-[450px] desktop:h-[775px] wide:h-[950px] desktop:w-[44%] w-[65%] absolute right-0 desktop:top-[50px] top-[30px] z-[0]">
         <!-- wp:group -->
-        <div class="wp-block-group overlay-author z-[1] h-full w-full absolute top-0 left-0 clipped-banner">
+        <div class="wp-block-group overlay-author z-[0] h-full w-full absolute top-0 left-0 clipped-banner">
           <!-- wp:paragraph -->
           <p class="hidden">overlay</p>
           <!-- /wp:paragraph -->
