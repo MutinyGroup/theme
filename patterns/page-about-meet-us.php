@@ -14,27 +14,31 @@
     <!-- wp:group -->
     <div class="wp-block-group title-wrapper relative container mx-auto desktop:mb-[100px] mb-[60px] flex">
       <!-- wp:paragraph -->
-      <svg class="flash desktop:scale-[1] scale-[0.4] absolute desktop:top-[-330px] top-[-360px] desktop:left-[-140px] right-[-100px] z-[-1]" xmlns="http://www.w3.org/2000/svg" width="688" height="801" viewBox="0 0 688 801" fill="none">
-        <g filter="url(#filter0_f_1787_1988)">
-        <circle cx="287.132" cy="400.132" r="150" transform="rotate(-45 287.132 400.132)" fill="url(#paint0_linear_1787_1988)" fill-opacity="0.5"/>
-        </g>
-        <defs>
-        <filter id="filter0_f_1787_1988" x="-112.868" y="0.131836" width="800" height="800" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-        <feFlood flood-opacity="0" result="BackgroundImageFix"/>
-        <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
-        <feGaussianBlur stdDeviation="125" result="effect1_foregroundBlur_1787_1988"/>
-        </filter>
-        <linearGradient id="paint0_linear_1787_1988" x1="287.132" y1="250.132" x2="287.132" y2="550.132" gradientUnits="userSpaceOnUse">
-        <stop stop-color="#FEC400" stop-opacity="0.6"/>
-        <stop offset="1" stop-color="#FEC400" stop-opacity="0"/>
-        </linearGradient>
-        </defs>
-      </svg>
+      <p>
+        <svg class="flash desktop:scale-[1] scale-[0.4] absolute desktop:top-[-330px] top-[-360px] desktop:left-[-140px] right-[-100px] z-[-1]" xmlns="http://www.w3.org/2000/svg" width="688" height="801" viewBox="0 0 688 801" fill="none">
+          <g filter="url(#filter0_f_1787_1988)">
+          <circle cx="287.132" cy="400.132" r="150" transform="rotate(-45 287.132 400.132)" fill="url(#paint0_linear_1787_1988)" fill-opacity="0.5"/>
+          </g>
+          <defs>
+          <filter id="filter0_f_1787_1988" x="-112.868" y="0.131836" width="800" height="800" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+          <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+          <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+          <feGaussianBlur stdDeviation="125" result="effect1_foregroundBlur_1787_1988"/>
+          </filter>
+          <linearGradient id="paint0_linear_1787_1988" x1="287.132" y1="250.132" x2="287.132" y2="550.132" gradientUnits="userSpaceOnUse">
+          <stop stop-color="#FEC400" stop-opacity="0.6"/>
+          <stop offset="1" stop-color="#FEC400" stop-opacity="0"/>
+          </linearGradient>
+          </defs>
+        </svg>
+      </p>
       <!-- /wp:paragraph -->
       <!-- wp:paragraph -->
-      <svg class="shape opacity-[60%] scale-[0.6] desktop:scale-[1] z-[-1] absolute desktop:top-0 top-[-50px] desktop:right-[0px] right-[-60px]" xmlns="http://www.w3.org/2000/svg" width="470" height="396" viewBox="0 0 470 396" fill="none">
-        <path d="M468.243 393.924L1 236.702V1.9702L468.243 159.192V393.924Z" stroke="#FFFFFF" stroke-width="2"/>
-      </svg>
+      <p>
+        <svg class="shape opacity-[60%] scale-[0.6] desktop:scale-[1] z-[-1] absolute desktop:top-0 top-[-50px] desktop:right-[0px] right-[-60px]" xmlns="http://www.w3.org/2000/svg" width="470" height="396" viewBox="0 0 470 396" fill="none">
+          <path d="M468.243 393.924L1 236.702V1.9702L468.243 159.192V393.924Z" stroke="#FFFFFF" stroke-width="2"/>
+        </svg>
+      </p>  
       <!-- /wp:paragraph -->
       <!-- wp:paragraph -->
       <p class="section-title desktop:w-[145px] desktop:basis-[80%]  uppercase text-primaryYellow ">Poznajmy się</p>
@@ -217,13 +221,15 @@
           </figure>
           <!-- /wp:image -->
           <!-- wp:paragraph -->
-          <svg x="0px" y="0px" viewBox="0 0 1374.7 1083.6" class="absolute top-0" >
-            <defs>
-              <clipPath id="clipped-meet-us-gallery" class="scale-[0.00133] scale-x-[0.00160]" clipPathUnits="objectBoundingBox">
-                <path d="M-0.000204735 0L605 0C616.046 0 625 8.95431 625 20V680C625 691.046 616.046 700 605 700H437.429C429.472 700 421.841 703.161 416.215 708.787L383.789 741.213C378.163 746.839 370.532 750 362.576 750H0L-0.000204735 0Z"/>
-              </clipPath>
-            </defs>
-          </svg>
+          <p>
+            <svg x="0px" y="0px" viewBox="0 0 1374.7 1083.6" class="absolute top-0" >
+              <defs>
+                <clipPath id="clipped-meet-us-gallery" class="scale-[0.00133] scale-x-[0.00160]" clipPathUnits="objectBoundingBox">
+                  <path d="M-0.000204735 0L605 0C616.046 0 625 8.95431 625 20V680C625 691.046 616.046 700 605 700H437.429C429.472 700 421.841 703.161 416.215 708.787L383.789 741.213C378.163 746.839 370.532 750 362.576 750H0L-0.000204735 0Z"/>
+                </clipPath>
+              </defs>
+            </svg>
+          </p>
           <!-- /wp:paragraph -->
         </div>
         <!-- /wp:group -->

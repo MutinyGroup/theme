@@ -41,11 +41,13 @@
             <!-- wp:group -->
             <div id="opinions-prev" class="wp-block-group group swiper-button-prev w-[56px] h-[56px] ">
               <!-- wp:paragraph -->
-              <svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 56 56" fill="none" class="rotate-180 group fill-transparent group-hover:fill-[#FEC400]">
-                <rect x="1.5" y="1.5" width="53" height="53" rx="26.5" stroke="#AAAAAA" stroke-width="3" class="group-hover:stroke-primaryYellow transition-stroke ease-out duration-500"/>
-                <path d="M28 35L35 28.0189L28.0379 21" stroke="black" stroke-width="1.5" class="group-hover:stroke-black transition-stroke ease-out duration-500"/>
-                <path d="M20 28L31 28" stroke="black" stroke-width="1.5" class="group-hover:stroke-black transition-stroke ease-out duration-500"/>
-              </svg>
+              <p>
+                <svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 56 56" fill="none" class="rotate-180 group fill-transparent group-hover:fill-[#FEC400]">
+                  <rect x="1.5" y="1.5" width="53" height="53" rx="26.5" stroke="#AAAAAA" stroke-width="3" class="group-hover:stroke-primaryYellow transition-stroke ease-out duration-500"/>
+                  <path d="M28 35L35 28.0189L28.0379 21" stroke="black" stroke-width="1.5" class="group-hover:stroke-black transition-stroke ease-out duration-500"/>
+                  <path d="M20 28L31 28" stroke="black" stroke-width="1.5" class="group-hover:stroke-black transition-stroke ease-out duration-500"/>
+                </svg>
+              </p>  
               <!-- /wp:paragraph -->
             </div>
             <!-- /wp:group -->
@@ -53,11 +55,13 @@
             <!-- wp:group -->
             <div id="opinions-next" class="wp-block-group group swiper-button-next w-[56px] h-[56px]">
               <!-- wp:paragraph -->
-              <svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 56 56" fill="none" class="group fill-transparent group-hover:fill-primaryYellow">
-                <rect x="1.5" y="1.5" width="53" height="53" rx="26.5" stroke="#AAAAAA" stroke-width="3" class="group-hover:stroke-primaryYellow transition-stroke ease-out duration-500"/>
-                <path d="M28 35L35 28.0189L28.0379 21" stroke="black" stroke-width="1.5" class="group-hover:stroke-black transition-stroke ease-out duration-500"/>
-                <path d="M20 28L31 28" stroke="black" stroke-width="1.5" class="group-hover:stroke-black transition-stroke ease-out duration-500"/>
-              </svg>
+              <p>
+                <svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 56 56" fill="none" class="group fill-transparent group-hover:fill-primaryYellow">
+                  <rect x="1.5" y="1.5" width="53" height="53" rx="26.5" stroke="#AAAAAA" stroke-width="3" class="group-hover:stroke-primaryYellow transition-stroke ease-out duration-500"/>
+                  <path d="M28 35L35 28.0189L28.0379 21" stroke="black" stroke-width="1.5" class="group-hover:stroke-black transition-stroke ease-out duration-500"/>
+                  <path d="M20 28L31 28" stroke="black" stroke-width="1.5" class="group-hover:stroke-black transition-stroke ease-out duration-500"/>
+                </svg>
+              </p>  
               <!-- /wp:paragraph -->
             </div>
             <!-- /wp:group -->
@@ -82,9 +86,11 @@
             <!-- wp:group -->
             <div class="wp-block-group quote-sign desktop:mb-[35px] mb-[20px] desktop:mt-0 mt-[40px]">
               <!-- wp:paragraph -->
-              <svg xmlns="http://www.w3.org/2000/svg" width="39" height="26" viewBox="0 0 39 26" fill="none">
-                <path d="M0.08 20.92C5.6 20.36 8.32 17.56 7.92 13H2.96V0.199999H15.92V11C15.92 21.56 10.64 25.8 1.12 25.96L0.08 20.92ZM22.9706 20.92C28.4906 20.36 31.2106 17.56 30.8106 13H25.8506V0.199999H38.8106V11C38.8106 21.56 33.5306 25.8 24.0106 25.96L22.9706 20.92Z" fill="#555555"/>
-              </svg>
+              <p>
+                <svg xmlns="http://www.w3.org/2000/svg" width="39" height="26" viewBox="0 0 39 26" fill="none">
+                  <path d="M0.08 20.92C5.6 20.36 8.32 17.56 7.92 13H2.96V0.199999H15.92V11C15.92 21.56 10.64 25.8 1.12 25.96L0.08 20.92ZM22.9706 20.92C28.4906 20.36 31.2106 17.56 30.8106 13H25.8506V0.199999H38.8106V11C38.8106 21.56 33.5306 25.8 24.0106 25.96L22.9706 20.92Z" fill="#555555"/>
+                </svg>
+              </p>
               <!-- /wp:paragraph -->
             </div>
             <!-- /wp:group -->
@@ -118,9 +124,11 @@
             <!-- wp:group -->
             <div class="wp-block-group quote-sign desktop:mb-[35px] mb-[20px] desktop:mt-0 mt-[40px]">
               <!-- wp:paragraph -->
-              <svg xmlns="http://www.w3.org/2000/svg" width="39" height="26" viewBox="0 0 39 26" fill="none">
-                <path d="M0.08 20.92C5.6 20.36 8.32 17.56 7.92 13H2.96V0.199999H15.92V11C15.92 21.56 10.64 25.8 1.12 25.96L0.08 20.92ZM22.9706 20.92C28.4906 20.36 31.2106 17.56 30.8106 13H25.8506V0.199999H38.8106V11C38.8106 21.56 33.5306 25.8 24.0106 25.96L22.9706 20.92Z" fill="#555555"/>
-              </svg>
+              <p>
+                <svg xmlns="http://www.w3.org/2000/svg" width="39" height="26" viewBox="0 0 39 26" fill="none">
+                  <path d="M0.08 20.92C5.6 20.36 8.32 17.56 7.92 13H2.96V0.199999H15.92V11C15.92 21.56 10.64 25.8 1.12 25.96L0.08 20.92ZM22.9706 20.92C28.4906 20.36 31.2106 17.56 30.8106 13H25.8506V0.199999H38.8106V11C38.8106 21.56 33.5306 25.8 24.0106 25.96L22.9706 20.92Z" fill="#555555"/>
+                </svg>
+              </p>
               <!-- /wp:paragraph -->
             </div>
             <!-- /wp:group -->
@@ -154,9 +162,11 @@
             <!-- wp:group -->
             <div class="wp-block-group quote-sign desktop:mb-[35px] mb-[20px] desktop:mt-0 mt-[40px]">
               <!-- wp:paragraph -->
-              <svg xmlns="http://www.w3.org/2000/svg" width="39" height="26" viewBox="0 0 39 26" fill="none">
-                <path d="M0.08 20.92C5.6 20.36 8.32 17.56 7.92 13H2.96V0.199999H15.92V11C15.92 21.56 10.64 25.8 1.12 25.96L0.08 20.92ZM22.9706 20.92C28.4906 20.36 31.2106 17.56 30.8106 13H25.8506V0.199999H38.8106V11C38.8106 21.56 33.5306 25.8 24.0106 25.96L22.9706 20.92Z" fill="#555555"/>
-              </svg>
+              <p>
+                <svg xmlns="http://www.w3.org/2000/svg" width="39" height="26" viewBox="0 0 39 26" fill="none">
+                  <path d="M0.08 20.92C5.6 20.36 8.32 17.56 7.92 13H2.96V0.199999H15.92V11C15.92 21.56 10.64 25.8 1.12 25.96L0.08 20.92ZM22.9706 20.92C28.4906 20.36 31.2106 17.56 30.8106 13H25.8506V0.199999H38.8106V11C38.8106 21.56 33.5306 25.8 24.0106 25.96L22.9706 20.92Z" fill="#555555"/>
+                </svg>
+              </p>
               <!-- /wp:paragraph -->
             </div>
             <!-- /wp:group -->
@@ -190,9 +200,11 @@
             <!-- wp:group -->
             <div class="wp-block-group quote-sign desktop:mb-[35px] mb-[20px] desktop:mt-0 mt-[40px]">
               <!-- wp:paragraph -->
-              <svg xmlns="http://www.w3.org/2000/svg" width="39" height="26" viewBox="0 0 39 26" fill="none">
-                <path d="M0.08 20.92C5.6 20.36 8.32 17.56 7.92 13H2.96V0.199999H15.92V11C15.92 21.56 10.64 25.8 1.12 25.96L0.08 20.92ZM22.9706 20.92C28.4906 20.36 31.2106 17.56 30.8106 13H25.8506V0.199999H38.8106V11C38.8106 21.56 33.5306 25.8 24.0106 25.96L22.9706 20.92Z" fill="#555555"/>
-              </svg>
+              <p>
+                <svg xmlns="http://www.w3.org/2000/svg" width="39" height="26" viewBox="0 0 39 26" fill="none">
+                  <path d="M0.08 20.92C5.6 20.36 8.32 17.56 7.92 13H2.96V0.199999H15.92V11C15.92 21.56 10.64 25.8 1.12 25.96L0.08 20.92ZM22.9706 20.92C28.4906 20.36 31.2106 17.56 30.8106 13H25.8506V0.199999H38.8106V11C38.8106 21.56 33.5306 25.8 24.0106 25.96L22.9706 20.92Z" fill="#555555"/>
+                </svg>
+              </p>
               <!-- /wp:paragraph -->
             </div>
             <!-- /wp:group -->
