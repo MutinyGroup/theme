@@ -121,7 +121,7 @@
                   </div>
                   <!-- /wp:group -->                 
                   <!-- wp:group -->
-                  <div class="wp-block-group img-clip-path-wrapper w-full h-full rounded-tr-[20px] rounded-br-[20px] overflow-hidden absolute left-0 top-0 z-[-1]">
+                  <div class="wp-block-group img-clip-path-wrapper w-full h-full rounded-tr-[20px] rounded-br-[20px] overflow-hidden absolute left-0 top-0">
                     <!-- wp:image -->
                     <figure class="wp-block-image <?php if($counter == 1) echo 'clipped-realizations-1'; elseif($counter == $post_query->post_count) echo 'clipped-realizations-2'; ?> h-full group-hover:grayscale transition ease-in-out duration-[400ms]">
                       <img src="<?php echo $postImageUrl[0]; ?>" alt="realizations-backgroun-image">
@@ -152,7 +152,7 @@
                   </div>
                   <!-- /wp:group -->
                   <!-- wp:group -->
-                  <div class="wp-block-group tile-title absolute bottom-[50px] desktop:left-[50px] left-[20px]">
+                  <div class="wp-block-group tile-title z-[1] absolute bottom-[50px] desktop:left-[50px] left-[20px]">
                     <!-- wp:paragraph -->
                     <p class="w-fit desktop:text-[35px] text-[30px] desktop:mb-[20px] mb-[10px] leading-[42px] font-semibold desktop:group-hover:translate-y-[-50px] group-hover:translate-y-[-70px] transition ease-in-out duration-[400ms] cursor-pointer">
                       <a href="<?php the_permalink(); ?>" class="group-hover:border-b-[2px] group-hover:border-primaryYellow">
@@ -206,7 +206,7 @@
                   </div>
                   <!-- /wp:group -->
                   <!-- wp:paragraph -->
-                  <p class="on-hover-desc pr-[40px] font-light leading-[22px] absolute bottom-[90px] desktop:left-[50px] left-[20px] translate-y-[70px] opacity-[0%] group-hover:opacity-[100%] group-hover:translate-y-[8px] transition-all ease-in-out duration-[400ms]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+                  <p class="on-hover-desc pr-[40px] font-light leading-[22px] z-[1] absolute bottom-[90px] desktop:left-[50px] left-[20px] translate-y-[70px] opacity-[0%] group-hover:opacity-[100%] group-hover:translate-y-[8px] transition-all ease-in-out duration-[400ms]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
                   <!-- /wp:paragraph -->
                 </li>
                 <!-- /wp:list-item -->                          
