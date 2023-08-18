@@ -219,7 +219,7 @@
       <!-- wp:buttons -->
       <div class="wp-block-buttons btn-more ml-[0px] p-[15px_30px] uppercase border-[2px] border-white rounded-full hover:bg-white hover:text-black transition ease-out duration-300">
         <!-- wp:paragraph -->
-        <p class="desktop:w-[220px] font-bold max-w-[220px] text-[14px] uppercase w-auto">
+        <p class="desktop:min-w-fit font-bold text-[14px] uppercase w-auto">
           <a href="<?php echo get_home_url() . '/realizations'; ?>">Zobacz wszystkie realizacje</a>
         </p>
         <!-- /wp:paragraph -->

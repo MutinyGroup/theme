@@ -235,9 +235,7 @@
       <!-- wp:buttons -->
       <div class="wp-block-buttons btn-more text-center ml-[0px] p-[15px_30px] uppercase border-[2px] border-white rounded-full hover:bg-white hover:text-black transition ease-out duration-300">
         <!-- wp:paragraph -->
-        <p class="uppercase w-[220px] text-[14px] font-bold">
-          <a href="<?php echo get_home_url() . '/blog'; ?>">Zobacz wszystkie newsy</a>
-        </p>
+        <p class="uppercase w-fit text-[14px] font-bold"><a href="<?php echo get_home_url() . '/blog'; ?>">Zobacz wszystkie newsy</a></p>
         <!-- /wp:paragraph -->
       </div>
       <!-- /wp:buttons -->
