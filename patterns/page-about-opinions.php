@@ -29,11 +29,8 @@
     
     <!-- wp:group -->
     <div class="wp-block-group swiper-section-wrapper relative desktop:flex">
-
       <!-- wp:group -->
       <div class="wp-block-group swiper-nav-wrapper desktop:block hidden relative w-[33%] wide:w-[30%] z-2">
-
-      
         <!-- wp:group -->
         <div class="wp-block-group swiper-nav-container desktop:block hidden relative w-[33%] wide:w-[30%] z-2">
           <!-- wp:group -->
@@ -70,6 +67,9 @@
 
           <!-- wp:group -->
           <div id="opinions-pagination" class="wp-block-group swiper-pagination w-[150px] h-fit text-primaryYellow text-[50px] absolute left-[130px] desktop:left-[200px] wide:left-[190px] top-[-70px] desktop:top-[90px]">
+            <!-- wp:paragraph -->
+            <p class="hidden">swiper pagination</p>
+            <!-- /wp:paragraph -->
           </div>
           <!-- /wp:group -->
         </div>
