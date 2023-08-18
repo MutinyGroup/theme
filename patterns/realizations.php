@@ -171,11 +171,7 @@
                             echo '';
                           }else{ ?>
                             <!-- wp:list-item -->
-                            <li class="uppercase p-[5px_10px] inline-block text-[12px] text-black font-semibold bg-[#D5D5D5] rounded-full">
-                              <p>
-                                <?php echo $category->name ?>
-                              </p>
-                            </li>
+                            <li class="uppercase p-[5px_10px] inline-block text-[12px] text-black font-semibold text-center bg-[#D5D5D5] rounded-full"><p><?php echo $category->name ?></p></li>
                             <!-- /wp:list-item -->
                           <?php
                           };
