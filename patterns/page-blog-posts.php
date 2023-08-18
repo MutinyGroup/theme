@@ -76,7 +76,7 @@
 
                     <!-- wp:paragraph -->
                     <p class="subtitle inline text-[23px] font-medium leading-[30px] border-b-[1px] border-transparent group-hover:border-primaryYellow group-hover:text-primaryYellow transition ease-out duration-[800ms]">
-                      <?php the_title(); ?>
+                      <span><?php the_title(); ?></span>
                     </p>
                     <!-- /wp:paragraph -->
                   </a>  
@@ -141,7 +141,11 @@
       <!-- wp:group -->
       <div
         class="wp-block-group gray-border hidden desktop:inline-block w-full h-[2px] bg-[#808080] opacity-[15%]"
-      ></div>
+      >
+        <!-- wp:paragraph -->
+        <p class="hidden">gray separator</p>
+        <!-- /wp:paragraph -->    
+      </div>
       <!-- /wp:group -->
 
       <!-- wp:buttons -->
