@@ -19,8 +19,7 @@
       <!-- wp:group -->
       <div class="wp-block-group uslugi-title is-layout-flow">
         <!-- wp:paragraph -->
-        <p class="uppercase desktop:text-[50px] text-[24px] desktop:leading-[55px] leading-[30px]">
-          Holistyczne podejście do działań reklamowych sprawia, że nasza firma działa
+        <p class="uppercase desktop:text-[50px] text-[24px] desktop:leading-[55px] leading-[30px]">Holistyczne podejście do działań reklamowych sprawia, że nasza firma działa
           <span class="relative desktop:text-[50px] text-[24px] uppercase italic before:content-[''] before:inline-block desktop:before:mr-[16px] before:mr-[4px] before:bottom-0 before:left-0 desktop:before:w-[90px] before:w-[30px] desktop:before:h-[3px] before:h-[2px] before:bg-white">jak jeden organizm</span>
         </p>
         <!-- /wp:paragraph -->
