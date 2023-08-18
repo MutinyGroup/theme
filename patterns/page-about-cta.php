@@ -12,9 +12,6 @@
   <div class="wp-block-group group container group mx-auto desktop:px-0 px-[20px] desktop:mt-0 mt-[120px] wide:h-[1180px] desktop:h-[700px] h-[480px]">
     <!-- wp:group -->
     <div class="wp-block-group title-wrapper relative desktop:pt-[110px] pt-[0px] desktop:mb-[80px] mb-[60px]">
-      <!-- wp:group -->
-      <div class="wp-block-group bg-flash top-[80px] z-[-1]"></div>
-      <!-- /wp:group -->
       <!-- wp:paragraph -->
       <p>
         <svg xmlns="http://www.w3.org/2000/svg" width="1201" height="917" viewBox="0 0 1201 917" fill="none" class="absolute top-[-190px] left-[-260px] z-[-1]">
