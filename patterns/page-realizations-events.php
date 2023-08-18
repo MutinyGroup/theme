@@ -125,8 +125,7 @@
                   <!-- /wp:list -->
 
                   <!-- wp:paragraph -->
-                  <p><a href="<?php the_permalink(); ?>" class="text-[35px] font-semibold leading-[42px]"><?php the_title(); ?></a>
-                  </p>  
+                  <p><a href="<?php the_permalink(); ?>" class="text-[35px] font-semibold leading-[42px]"><?php the_title(); ?></a></p>  
                   <!-- /wp:paragraph -->
                   <!-- wp:buttons -->
                   <div
