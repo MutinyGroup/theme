@@ -131,6 +131,7 @@
                   >
                   <!-- wp:group -->
                   <div class="wp-block-group">
+                    <!-- wp:paragraph -->
                     <a href="<?php the_permalink(); ?>">
                       <!-- wp:paragraph -->
                       <svg
@@ -166,6 +167,7 @@
                       </svg>
                       <!-- /wp:paragraph -->
                     </a>
+                    <!-- /wp:paragraph -->
                   </div>
                   <!-- /wp:group -->
                   </div>
