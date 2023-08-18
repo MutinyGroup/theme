@@ -46,8 +46,6 @@
               if ($tab[$i] == 0){ ?>
                 <!-- wp:list-item -->
                 <li class="wp-block-group bigger swiper-slide relative group w-full desktop:w-[535px] wide:w-[580px] h-fit desktop:h-[675px] wide:h-[756px] <?php if (!($counter % 2)) echo 'desktop:translate-y-[120px]'; else echo ''; ?>">
-                  <!-- wp:group -->
-                  <div class="wp-block-group test">
                     <a href="<?php the_permalink(); ?>">
                       <!-- wp:group -->
                       <div class="wp-block-group mb-[20px]">
@@ -82,8 +80,6 @@
                       </p>
                       <!-- /wp:paragraph -->
                     </a>  
-                  </div>
-                  <!-- /wp:group -->
                 </li>
                 <!-- /wp:list-item -->                  
               <?php 
