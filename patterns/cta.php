@@ -50,20 +50,16 @@
       <p class="section-title text-[20px] text-primaryYellow">Wymagaj więcej</p>
       <!-- /wp:paragraph -->
       <!-- wp:group -->
-      <div class="wp-block-group uslugi-title font-normal desktop:text-[65px] text-[32px] desktop:leading-[70px] leading-[36px]">
+      <div class="wp-block-group uslugi-title is-layout-flow">
         <!-- wp:paragraph -->
-        <p class="uppercase">
-          Porozmawiajmy
-        </p>
+        <p class="uppercase inline desktop:text-[50px] text-[24px] desktop:leading-[55px] leading-[30px]">Porozmawiajmy</p>
         <!-- /wp:paragraph -->
         <!-- wp:paragraph -->
-        <p class="uppercase">
-          o potrzebach
-        </p>
+        <p class="uppercase inline desktop:text-[50px] text-[24px] desktop:leading-[55px] leading-[30px]">o potrzebach</p>
         <!-- /wp:paragraph -->
-        <!-- wp:paragraph -->
-        <p class="relative uppercase italic before:content-[''] before:inline-block before:mr-[-5px] before:bottom-0 before:left-0 desktop:before:w-[120px] before:w-[30px] before:h-[2px] before:bg-white"> Twojej marki.</p>
-        <!-- /wp:paragraph -->
+        <!-- wp:paragraph {"templateLock":"contentOnly"} -->
+        <p class="relative ml-[12px] desktop:text-[50px] text-[24px] desktop:leading-[55px] leading-[30px] inline-block uppercase italic before:content-[''] before:inline-block desktop:before:mr-[18px] before:mr-[8px] before:bottom-0 before:left-0 desktop:before:w-[90px] before:w-[30px] desktop:before:h-[3px] before:h-[2px] before:bg-white">Twojej marki</p>
+        <!-- /wp:paragraph -->      
       </div>
       <!-- /wp:group -->
     </div>
