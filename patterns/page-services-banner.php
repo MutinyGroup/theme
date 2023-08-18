@@ -42,12 +42,8 @@
           <!-- wp:paragraph -->
           <p class="inline">Ci</p>
           <!-- /wp:paragraph -->
-          <!-- wp:paragraph -->
-          <p
-            class="relative inline-block uppercase italic before:content-[''] before:inline-block desktop:before:mr-[8px] before:mr-[4px] before:bottom-0 before:left-0 desktop:before:w-[90px] before:w-[30px] desktop:before:h-[3px] before:h-[2px] before:bg-black"
-          >
-            pomóc?
-          </p>
+          <!-- wp:paragraph {"templateLock":"contentOnly"} -->
+          <p class="relative inline-block uppercase italic before:content-[''] before:inline-block desktop:before:mr-[8px] before:mr-[4px] before:bottom-0 before:left-0 desktop:before:w-[90px] before:w-[30px] desktop:before:h-[3px] before:h-[2px] before:bg-black">POMÓC</p>
           <!-- /wp:paragraph -->
         </div>
         <!-- /wp:group -->

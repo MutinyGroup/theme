@@ -38,8 +38,8 @@
           <!-- wp:paragraph -->
           <p class="inline">PRZEKRACZAĆ</p>
           <!-- /wp:paragraph -->
-           <!-- wp:paragraph {"templateLock":"contentOnly"} -->
-           <p class="relative inline-block uppercase italic before:content-[''] before:inline-block desktop:before:mr-[8px] before:mr-[4px] before:bottom-0 before:left-0 desktop:before:w-[90px] before:w-[30px] desktop:before:h-[3px] before:h-[2px] before:bg-black">GRANIC</p>
+          <!-- wp:paragraph {"templateLock":"contentOnly"} -->
+          <p class="relative inline-block uppercase italic before:content-[''] before:inline-block desktop:before:mr-[8px] before:mr-[4px] before:bottom-0 before:left-0 desktop:before:w-[90px] before:w-[30px] desktop:before:h-[3px] before:h-[2px] before:bg-black">GRANIC</p>
           <!-- /wp:paragraph -->
           <!-- wp:paragraph -->
           <span class="ml-[-8px] desktop:ml-[-16px] desktop:text-[100px] text-[70px] leading-[1px] desktop:leading-auto">.</span>
