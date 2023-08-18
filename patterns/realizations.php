@@ -126,36 +126,35 @@
                     </figure>
                     <!-- /wp:image -->
                     <!-- wp:paragraph -->
-                    <svg x="0px" y="0px" viewBox="0 0 1374.7 1083.6" class="absolute top-0" >
-                      <defs>
-                        <?php 
-                          if($counter == 1){
-                            echo '
-                            <clipPath id="clipped-realizations-1" class="scale-[0.002]" clipPathUnits="objectBoundingBox">
-                              <path d="M94.1421 5.85786C97.8929 2.10713 102.98 0 108.284 0H515C526.046 0 535 8.95431 535 20V670C535 686.569 521.569 700 505 700H20.0002C8.95451 700 0.000199138 691.046 0.000195955 680L3.12042e-05 108.284C2.96756e-05 102.98 2.10717 97.8929 5.85789 94.1421L94.1421 5.85786Z"/>
-                            </clipPath>
-                            '; 
-                          }elseif($counter == $post_query->post_count){
-                            echo '
-                            <clipPath id="clipped-realizations-2" class="scale-[0.00142] scale-x-[0.00185]" clipPathUnits="objectBoundingBox">
-                              <path d="M99.9999 0H515C526.046 0 535 8.95431 535 20V630C535 641.046 526.046 650 515 650H346.951C338.934 650 331.25 653.209 325.615 658.91L293.807 691.09C288.172 696.791 280.488 700 272.471 700H20.0001C8.9544 700 0.000110665 691.046 0.000107937 680L-5.50846e-05 20C-5.78129e-05 8.9543 8.95425 0 19.9999 0L99.9999 0Z"/>
-                            </clipPath>
-                            ';
-                          } 
-                        ?>
-   
-                      </defs>
-                    </svg>
+                    <p>
+                      <svg x="0px" y="0px" viewBox="0 0 1374.7 1083.6" class="absolute top-0" >
+                        <defs>
+                          <?php 
+                            if($counter == 1){
+                              echo '
+                              <clipPath id="clipped-realizations-1" class="scale-[0.002]" clipPathUnits="objectBoundingBox">
+                                <path d="M94.1421 5.85786C97.8929 2.10713 102.98 0 108.284 0H515C526.046 0 535 8.95431 535 20V670C535 686.569 521.569 700 505 700H20.0002C8.95451 700 0.000199138 691.046 0.000195955 680L3.12042e-05 108.284C2.96756e-05 102.98 2.10717 97.8929 5.85789 94.1421L94.1421 5.85786Z"/>
+                              </clipPath>
+                              '; 
+                            }elseif($counter == $post_query->post_count){
+                              echo '
+                              <clipPath id="clipped-realizations-2" class="scale-[0.00142] scale-x-[0.00185]" clipPathUnits="objectBoundingBox">
+                                <path d="M99.9999 0H515C526.046 0 535 8.95431 535 20V630C535 641.046 526.046 650 515 650H346.951C338.934 650 331.25 653.209 325.615 658.91L293.807 691.09C288.172 696.791 280.488 700 272.471 700H20.0001C8.9544 700 0.000110665 691.046 0.000107937 680L-5.50846e-05 20C-5.78129e-05 8.9543 8.95425 0 19.9999 0L99.9999 0Z"/>
+                              </clipPath>
+                              ';
+                            } 
+                          ?>
+    
+                        </defs>
+                      </svg>
+                    </p> 
                     <!-- /wp:paragraph -->
                   </div>
                   <!-- /wp:group -->
                   <!-- wp:group -->
                   <div class="wp-block-group tile-title z-[1] absolute bottom-[50px] desktop:left-[50px] left-[20px]">
                     <!-- wp:paragraph -->
-                    <p class="w-fit desktop:text-[35px] text-[30px] desktop:mb-[20px] mb-[10px] leading-[42px] font-semibold desktop:group-hover:translate-y-[-50px] group-hover:translate-y-[-70px] transition ease-in-out duration-[400ms] cursor-pointer">
-                      <a href="<?php the_permalink(); ?>" class="group-hover:border-b-[2px] group-hover:border-primaryYellow">
-                        <?php the_title(); ?>
-                      </a>
+                    <p class="w-fit desktop:text-[35px] text-[30px] desktop:mb-[20px] mb-[10px] leading-[42px] font-semibold desktop:group-hover:translate-y-[-50px] group-hover:translate-y-[-70px] transition ease-in-out duration-[400ms] cursor-pointer"><a href="<?php the_permalink(); ?>" class="group-hover:border-b-[2px] group-hover:border-primaryYellow"><?php the_title(); ?></a>
                     </p>
                     <!-- /wp:paragraph -->
 
@@ -176,7 +175,6 @@
                           <?php
                           };
                         ?>
-
                       <?php }; ?>
                     </ul>
                     <!-- /wp:list -->                    
@@ -184,16 +182,11 @@
                     <!-- wp:buttons -->
                     <div class="wp-block-buttons group uppercase text-[14px] font-semibold group-hover:translate-y-[25px] transition ease-in-out duration-[400ms]">
                       <!-- wp:paragraph -->
-                      <p>
-                        <a href="#" class="wp-block-link inline-block">
-                          Czytaj więcej
-                          <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" fill="none " class="inline-block ml-[10px] ">
+                      <p><a href="#" class="wp-block-link inline-block">Czytaj więcej<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" fill="none " class="inline-block ml-[10px] ">
                             <rect x="1" y="1" width="34" height="34" rx="18" stroke="#D5D5D5" stroke-width="2" fill="transparent" class="transition ease-in-out duration-[400ms] group-hover:fill-[#FEC400] group-hover:stroke-[#FEC400]"/>
                             <path d="M19 22L23 18.0108L19.0217 14" stroke="white"/>
                             <path d="M12 18L20 18" stroke="white" />
-                          </svg>
-                        </a>
-                      </p>
+                          </svg></a></p>
                       <!-- /wp:paragraph -->
                     </div>
                     <!-- /wp:buttons -->
