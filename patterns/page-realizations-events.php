@@ -17,7 +17,7 @@
     <ul id="Kategorie" class="wp-block-list categories-all-1 mb-[60px] desktop:mb-[110px] flex flex-wrap gap-[10px]">
       <!-- wp:list-item -->
       <li
-        class="w-fit h-[40px] px-[10px] bg-primaryYellow border-primaryYellow border-[2px] rounded-full uppercase text-[14px] font-semibold leading-[20px] flex justify-center items-center transition ease-out duration-300 cursor-pointer"
+        class="w-fit h-[40px] px-[10px] bg-primaryYellow border-primaryYellow border-[2px] rounded-full uppercase text-[14px] font-semibold text-center leading-[20px] flex justify-center items-center transition ease-out duration-300 cursor-pointer"
       >
         <a href="<?php echo get_home_url() . '/realizations'; ?>" class="flex items-center justify-center w-full h-full">
           <p>Wszystkie realizacje</p>
@@ -94,7 +94,7 @@
                 <div class="wp-block-group content-wrapper desktop:w-[60%] flex flex-col justify-center">
                   <!-- wp:image -->
                   <figure
-                    class="wp-block-image event-logo-color mb-[25px] w-[60px]"
+                    class="wp-block-image event-logo-color w-[60px]"
                   >
                     <img
                       src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-realizations/logo-efc-color.png"
@@ -104,7 +104,7 @@
                   <!-- /wp:image -->
 
                   <!-- wp:list -->
-                  <ul class="wp-block-list categories-under-logo mb-[20px] flex flex-wrap gap-[10px]">
+                  <ul class="wp-block-list categories-under-logo my-[20px] flex flex-wrap gap-[10px]">
                     <?php 
                       $categoriesArray = get_the_category();
                       foreach ($categoriesArray as $category) {
