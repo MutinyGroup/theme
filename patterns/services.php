@@ -80,9 +80,7 @@
     </div>
     <!-- /wp:group -->
     <!-- wp:paragraph -->
-    <p class="desktop:leading-[30px] leading-[26px] desktop:text-[20px] text-[15px] font-light min-w-[150px] max-w-[400px] desktop:ml-[360px] ml-[150px] desktop:mb-[0px] mb-[40px]">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi est similique, sint <span class="text-primaryYellow">illum architecto</span> fugit quae beatae
-    </p>
+    <p class="desktop:leading-[30px] leading-[26px] desktop:text-[20px] text-[15px] font-light min-w-[150px] max-w-[400px] desktop:ml-[360px] ml-[150px] desktop:mb-[0px] mb-[40px]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi est similique, sint <span class="text-primaryYellow">illum architecto</span> fugit quae beatae</p>
     <!-- /wp:paragraph -->
     
     <!-- wp:group -->

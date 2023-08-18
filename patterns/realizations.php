@@ -75,9 +75,7 @@
     </div>
     <!-- /wp:group -->
     <!-- wp:paragraph -->
-    <p class="sub-title desktop:max-w-[400px] max-w-[300px] desktop:text-[20px] text-[16px] font-light desktop:leading-[30px] leading-[26px] absolute left-[40%] desktop:left-[65%] top-[140px] desktop:top-[40px]">
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore <span class="text-primaryYellow">et dolore magna aliqua. </span>
-    </p>
+    <p class="sub-title desktop:max-w-[400px] max-w-[300px] desktop:text-[20px] text-[16px] font-light desktop:leading-[30px] leading-[26px] absolute left-[40%] desktop:left-[65%] top-[140px] desktop:top-[40px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore <span class="text-primaryYellow">et dolore magna aliqua. </span></p>
     <!-- /wp:paragraph -->
     <!-- wp:group -->
     <div class="wp-block-group circle-title w-[120px] h-[120px] mx-0 leading-[20px] flex items-center justify-center flex-col rounded-full border-[4px] border-[#D5D5D5] absolute desktop:top-[130px] top-[80px] desktop:left-[60%] left-[75px] translate-x-[-50%]">
