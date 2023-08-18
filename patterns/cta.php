@@ -13,7 +13,7 @@
     <!-- wp:group -->
     <div class="wp-block-group title-wrapper relative desktop:mb-[80px] mb-[60px]">
       <!-- wp:group -->
-      <div class="wp-block-group flash-wrapper wide:scale-[1] desktop:scale-[1] scale-[0.5] absolute top-[-350px] desktop:top-[-300px] wide:top-[-270px] left-[-200px] wide:left-[-230px] z-[-1]">
+      <div class="wp-block-group flash-wrapper wide:scale-[1] desktop:scale-[1] scale-[0.5] absolute top-[-350px] desktop:top-[-300px] wide:top-[-270px] left-[-200px] wide:left-[-230px] z-[0]">
         <!-- wp:paragraph -->
         <p>
           <svg class="flash" xmlns="http://www.w3.org/2000/svg" width="688" height="801" viewBox="0 0 688 801" fill="none">
@@ -50,7 +50,7 @@
       <p class="section-title text-[20px] text-primaryYellow">Wymagaj więcej</p>
       <!-- /wp:paragraph -->
       <!-- wp:group -->
-      <div class="wp-block-group uslugi-title is-layout-flow">
+      <div class="wp-block-group uslugi-title relative z-[1]">
         <!-- wp:paragraph -->
         <p class="uppercase inline desktop:text-[50px] text-[24px] desktop:leading-[55px] leading-[30px]">Porozmawiajmy</p>
         <!-- /wp:paragraph -->
@@ -76,7 +76,7 @@
   <!-- /wp:group -->
   
   <!-- wp:group -->
-  <div class="wp-block-group img-clip-path-wrapper w-[58%] h-full rounded-tl-[20px] overflow-hidden absolute right-0 desktop:top-0 top-[-40px] z-[-1]">
+  <div class="wp-block-group img-clip-path-wrapper w-[58%] h-full rounded-tl-[20px] overflow-hidden absolute right-0 desktop:top-0 top-[-40px] z-[0]">
     <!-- wp:image -->
     <figure class="wp-block-image clipped-cta h-full before:content-[''] before:w-full before:h-full before:bg-[#000] before:opacity-[40%] before:absolute before:top-0 before:left-0 before:z-[1]">
       <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/front-page/cta-bg.jpeg" alt="cta-backgroun-image">
