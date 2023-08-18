@@ -230,7 +230,7 @@
                     </clipPath>
                   </defs>
                 </svg>
-              <p>
+              </p>
               <!-- /wp:paragraph -->
 
               <!-- wp:group -->
