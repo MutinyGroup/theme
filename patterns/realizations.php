@@ -91,7 +91,7 @@
     <!-- wp:group -->
     <div class="wp-block-group gallery-cols wide:max-w-[1260px] mx-auto relative pb-[30px]">
       <!-- wp:list -->
-      <ul class="wp-block-list w-[100%] flex flex-wrap justify-between gap-x-[8px] gap-y-[30px]">
+      <ul class="wp-block-list w-[100%] desktop:flex flex-wrap justify-between gap-x-[8px] gap-y-[30px]">
         <?php
           $args = array(
             'post_type' => 'realizacje',
@@ -109,7 +109,7 @@
               $counter++;
               if (true){ ?>         
                 <!-- wp:list-item -->
-                <li class="wp-block-group tile-realizacje mb-[30px] desktop:w-[545px] wide:w-[600px] h-[480px] desktop:h-[700px] wide:h-[780px] relative group w-1/2 transition ease-in-out duration-[400ms] group <?php if (($counter % 2)) echo 'tile-realizacje-1'; else echo 'tile-realizacje-2 desktop:translate-y-[70px]'; ?>">
+                <li class="wp-block-group tile-realizacje mb-[30px] desktop:w-[545px] wide:w-[600px] h-[480px] desktop:h-[700px] wide:h-[780px] relative group transition ease-in-out duration-[400ms] group <?php if (($counter % 2)) echo 'tile-realizacje-1'; else echo 'tile-realizacje-2 desktop:translate-y-[70px]'; ?>">
                   <!-- wp:group -->
                   <div class="wp-block-group <?php if($counter == 1) echo 'clipped-realizations-1'; elseif($counter == $post_query->post_count) echo 'clipped-realizations-2'; ?> gray-overlay w-full h-full bg-[#101010] absolute top-0 left-0 opacity-[60%]">
                     <!-- wp:paragraph -->
