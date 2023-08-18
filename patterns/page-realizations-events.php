@@ -116,9 +116,7 @@
                         }else{ ?>
                           <!-- wp:list-item -->
                           <li class="w-fit p-[0px_8px] flex justify-center items-center bg-[#F2F2F2] leading-[20px] border-[#D5D5D5] border-[2px] rounded-full uppercase text-[13px] font-semibold">
-                            <p>
-                              <?php echo $category->name ?>
-                            </p>
+                            <p><?php echo $category->name; ?></p>
                           </li>
                           <!-- /wp:list-item -->
                         <?php
