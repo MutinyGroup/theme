@@ -66,16 +66,27 @@
       <!-- /wp:group -->
     </div>
     <!-- /wp:group -->
-    <!-- wp:paragraph -->
-    <a href="<?php echo get_home_url() . '/contact'; ?>" class="desktop:w-[175px] w-[140px] desktop:h-[175px] h-[140px] desktop:ml-[120px] mx-auto text-center rounded-full border-[4px] border-[#D5D5D5] group-hover:border-none group-hover:bg-primaryYellow group-hover:text-white transition ease-out duration-300 flex flex-col justify-center items-center gap-y-0 cursor-pointer">
+
+
+
+
+
+
+    <!-- wp:group -->
+    <div class="wp-block-group desktop:w-[175px] w-[140px] desktop:h-[175px] h-[140px] desktop:ml-[120px] mx-auto text-center rounded-full border-[4px] border-[#D5D5D5] group-hover:border-none group-hover:bg-primaryYellow group-hover:text-white transition ease-out duration-300 flex flex-col justify-center items-center gap-y-0 cursor-pointer">
       <!-- wp:paragraph -->
-      <p class="font-bold">Skontaktuj się</p>
+      <p>
+        <a href="<?php echo get_home_url() . '/contact'; ?>">
+          <span class="font-bold block">Skontaktuj się</span>
+          <span class="font-bold block text-[25px] uppercase">TERAZ</span>
+        </a>
+      </p>
       <!-- /wp:paragraph -->
-      <!-- wp:paragraph -->
-      <p class="uppercase text-[25px] font-extrabold">TERAZ</p>
-      <!-- /wp:paragraph -->
-    </a>
-    <!-- /wp:paragraph -->
+    </div>
+    <!-- /wp:group -->       
+
+
+
   </div>
   <!-- /wp:group -->
   
