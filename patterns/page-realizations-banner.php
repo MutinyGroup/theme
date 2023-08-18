@@ -42,12 +42,8 @@
           <!-- wp:paragraph -->
           <p class="inline">JESTEŚMY</p>
           <!-- /wp:paragraph -->
-          <!-- wp:paragraph -->
-          <p
-            class="relative inline-block uppercase italic before:content-[''] before:inline-block desktop:before:mr-[8px] before:mr-[4px] before:bottom-0 before:left-0 desktop:before:w-[90px] before:w-[30px] desktop:before:h-[3px] before:h-[2px] before:bg-black"
-          >
-            <span>DUMNI</span>
-          </p>
+          <!-- wp:paragraph {"templateLock":"contentOnly", "classname":"wp-class2"} -->
+          <p class="relative italic font-medium before:content-[''] before:inline-block desktop:before:mr-[70px] before:mr-[5px] before:bottom-0 before:left-0 desktop:before:w-[280px] before:w-[30px] desktop:before:h-[6px] before:h-[2px] before:bg-white">DUMNI</p>
           <!-- /wp:paragraph -->
           <!-- wp:paragraph -->
           <span class="ml-[-8px] desktop:ml-[-16px] desktop:text-[100px] text-[70px] leading-[1px] desktop:leading-auto">.</span>
