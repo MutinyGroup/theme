@@ -82,7 +82,7 @@
         <!-- wp:group -->
         <div id="blog" class="wp-block-group swiper swiperBlog w-screen desktop:w-[calc(100%-90px)] desktop:pt-[180px] absolute top-0 desktop:top-[30px] desktop:left-[90px] left-[20px]">
           <!-- wp:list -->
-          <ul class="wp-block-list swiper-wrapper overflow-hidden">
+          <ul class="wp-block-list swiper-wrapper">
             <?php
               $args = array(
                   'post_type' => 'post',
