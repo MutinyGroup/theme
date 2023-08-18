@@ -234,9 +234,7 @@
       <!-- wp:buttons -->
       <div class="wp-block-buttons min-w-[225px] flex justify-center items-center px-[20px] btn-more ml-[0px] p-[15px_30px] uppercase border-[2px] border-white rounded-full hover:bg-white hover:text-black transition ease-out duration-300">
         <!-- wp:paragraph -->
-        <p>
-          <a href="<?php echo get_home_url() . '/services'; ?>" class="uppercase text-[14px] font-bold">Dowiedz się więcej</a>
-        </p>
+        <p><a href="<?php echo get_home_url() . '/services'; ?>" class="uppercase text-[14px] font-bold">Dowiedz się więcej</a></p>
         <!-- /wp:paragraph -->
       </div>
       <!-- /wp:buttons -->
