@@ -73,6 +73,8 @@
             if (true){ ?>
               <!-- wp:list-item -->
               <li class="event-tile group desktop:flex gap-[75px] mb-[50px]">
+                <p class="hidden min-w-0">test</p>
+                <!-- wp:group -->
                 <div
                   class="wp-block-group event-image-wrapper desktop:mb-0 mb-[20px] max-h-[400px] overflow-hidden w-full rounded-[20px]"
                 >
@@ -87,7 +89,9 @@
                   </figure>
                   <!-- /wp:image -->
                 </div>
+                <!-- /wp:group -->
                 
+                <!-- wp:group -->
                 <div class="wp-block-group content-wrapper desktop:w-[60%] flex flex-col justify-center">
                   <!-- wp:image -->
                   <figure
@@ -172,6 +176,7 @@
                   </div>
                   <!-- /wp:buttons -->
                 </div>
+                <!-- /wp:group -->
               </li>
               <!-- /wp:list-item -->               
             <?php 
