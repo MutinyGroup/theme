@@ -161,7 +161,8 @@
           <a
             href="#"
             class="uppercase text-[14px] font-bold"
-            >Pokaż więcej
+            >
+            <span>Pokaż więcej</span>
           </a>
         </p>
         <!-- /wp:paragraph -->
