@@ -50,7 +50,7 @@
       <p class="section-title text-[20px] text-primaryYellow">Wymagaj więcej</p>
       <!-- /wp:paragraph -->
       <!-- wp:group -->
-      <div class="wp-block-group font-normal desktop:text-[65px] text-[32px] desktop:leading-[70px] leading-[36px] z-[1]">
+      <div class="wp-block-group font-normal desktop:text-[65px] text-[32px] desktop:leading-[70px] leading-[36px] relative z-[1]">
         <!-- wp:paragraph -->
         <p class="uppercase">Porozmawiajmy</p>
         <!-- /wp:paragraph -->
