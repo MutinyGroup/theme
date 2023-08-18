@@ -20,9 +20,7 @@
         class="w-fit h-[40px] px-[10px] bg-primaryYellow border-primaryYellow border-[2px] rounded-full uppercase text-[14px] font-semibold leading-[20px] flex justify-center items-center transition ease-out duration-300 cursor-pointer"
       >
         <a href="<?php echo get_home_url() . '/realizations'; ?>" class="flex items-center justify-center w-full h-full">
-          <!-- wp:paragraph -->
           <p>Wszystkie realizacje</p>
-          <!-- /wp:paragraph -->
         </a>
       </li>
       <!-- /wp:list-item --> 
