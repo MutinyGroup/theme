@@ -16,12 +16,10 @@
       <p class="section-title uppercase text-primaryYellow">Opinie</p>
       <!-- /wp:paragraph -->
       <!-- wp:group -->
-      <div class="wp-block-group uslugi-title">
+      <div class="wp-block-group uslugi-title is-layout-flow">
         <!-- wp:paragraph -->
-        <p class="uppercase desktop:text-[35px] text-[26px] font-medium leading-[32px]">
-          Co mówią nasi klienci?
-        </p>
-        <!-- /wp:paragraph -->
+        <p class="uppercase inline desktop:text-[50px] text-[24px] desktop:leading-[55px] leading-[30px]">Co mówią nasi klienci?</p>
+        <!-- /wp:paragraph -->     
       </div>
       <!-- /wp:group -->
     </div>
