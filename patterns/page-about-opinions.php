@@ -9,7 +9,7 @@
 <!-- wp:group {"templateLock":"all","lock":{"move":true,"remove":true},"anchor":true} -->
 <div id="Opinie" class="wp-block-group opinions desktop:mb-[150px] mb-[60px]">
   <!-- wp:group -->
-  <div class="wp-block-group relative mx-auto desktop:ml-[83px] desktop:px-0 px-[20px] overflow-hidden bg-white">
+  <div class="wp-block-group relative mx-auto desktop:px-0 px-[20px] overflow-hidden bg-white">
     <!-- wp:group -->
     <div class="wp-block-group title-wrapper relative container mx-auto desktop:ml-[120px] ml-0 desktop:pt-[100px] desktop:mt-0 mt-[60px] desktop:mb-[80px] flex gap-[20px]">
       <!-- wp:paragraph -->
