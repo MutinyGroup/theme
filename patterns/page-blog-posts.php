@@ -154,17 +154,10 @@
 
       <!-- wp:buttons -->
       <div
-        class="wp-block-buttons btn-more desktop:w-[330px] ml-[0px] p-[15px_30px] uppercase border-[2px] border-[#D5D5D5] rounded-full hover:border-primaryYellow hover:text-black transition ease-out duration-300"
+        class="wp-block-buttons btn-more min-w-fit ml-[0px] p-[15px_30px] uppercase border-[2px] border-[#D5D5D5] rounded-full hover:border-primaryYellow hover:text-black transition ease-out duration-300"
       >
         <!-- wp:paragraph -->
-        <p>
-          <a
-            href="#"
-            class="uppercase text-[14px] font-bold"
-            >
-            <span>Pokaż więcej</span>
-          </a>
-        </p>
+        <p><a href="#" class="uppercase text-[14px] font-bold">Pokaż więcej</a></p>
         <!-- /wp:paragraph -->
       </div>
       <!-- /wp:buttons -->
