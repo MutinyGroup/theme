@@ -44,7 +44,7 @@
               class="w-fit h-[40px] px-[10px] bg-[#F2F2F2] border-[#AAA] border-[2px] rounded-full uppercase text-[14px] font-semibold leading-[20px] flex justify-center items-center hover:bg-primaryYellow hover:border-primaryYellow transition ease-out duration-300 cursor-pointer"
             >
               <a href="<?php echo get_category_link( $cat->term_id ) ?>" class="flex items-center w-fit h-full">
-                <?php echo 'test'; ?>
+                test
               </a>
             </li>
             <!-- /wp:list-item --> 
