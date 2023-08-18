@@ -94,6 +94,9 @@
     
     <!-- wp:group -->
     <div class="wp-block-group separator w-full h-[2px] bg-[#D5D5D5] mb-[50px]">
+      <!-- wp:paragraph -->
+      <p>gray separator</p>
+      <!-- /wp:paragraph -->
     </div>
     <!-- /wp:group -->
     
