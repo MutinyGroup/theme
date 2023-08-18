@@ -130,15 +130,18 @@
                   <!-- /wp:list -->
 
                   <!-- wp:paragraph -->
-                  <a href="<?php the_permalink(); ?>" class="text-[35px] font-semibold leading-[42px]">
-                    <?php the_title(); ?>
-                  </a>
+                  <p>
+                    <a href="<?php the_permalink(); ?>" class="text-[35px] font-semibold leading-[42px]">
+                      <?php the_title(); ?>
+                    </a>
+                  </p>  
                   <!-- /wp:paragraph -->
                   <!-- wp:buttons -->
                   <div
                     class="wp-block-buttons w-[56px] h-[56px] mt-[40px]"
                   >
                   <!-- wp:paragraph -->
+                  <p>
                     <a href="<?php the_permalink(); ?>">
                       <!-- wp:paragraph -->
                       <svg
@@ -174,7 +177,8 @@
                       </svg>
                       <!-- /wp:paragraph -->
                     </a>
-                    <!-- /wp:paragraph -->
+                  </p>
+                  <!-- /wp:paragraph -->
                   </div>
                   <!-- /wp:buttons -->
                 </div>
@@ -208,11 +212,13 @@
         class="wp-block-buttons btn-more desktop:w-[330px] w-fit ml-[0px] p-[15px_30px] uppercase border-[2px] border-[#D5D5D5] rounded-full hover:border-primaryYellow hover:text-black transition ease-out duration-300"
       >
         <!-- wp:paragraph -->
-        <a
-          href="#"
-          class="uppercase text-[14px] font-bold"
-          >Pokaż więcej</a
-        >
+        <p>
+          <a
+            href="#"
+            class="uppercase text-[14px] font-bold"
+            >Pokaż więcej
+          </a>
+        </p>
         <!-- /wp:paragraph -->
       </div>
       <!-- /wp:buttons -->
