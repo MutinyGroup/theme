@@ -37,7 +37,7 @@
       </svg>
       <!-- /wp:paragraph -->
       <!-- wp:paragraph -->
-      <p class="section-title desktop:basis-auto desktop:w-[145px] desktop:basis-[80%]  uppercase text-primaryYellow ">Poznajmy się</p>
+      <p class="section-title desktop:w-[145px] desktop:basis-[80%]  uppercase text-primaryYellow ">Poznajmy się</p>
       <!-- /wp:paragraph -->
       <!-- wp:group -->
       <div class="wp-block-group uslugi-title font-medium">
@@ -197,7 +197,7 @@
     <!-- /wp:list -->
 
     <!-- wp:group {"displayLayout":{"type":"flex","columns":2}, "width":"200px"} -->
-    <div class="wp-block-group gallery mb-[80px] desktop:mb-[240px] relative mb-[100px] flex">
+    <div class="wp-block-group gallery desktop:mb-[240px] relative mb-[100px] flex">
       <!-- wp:image -->
       <figure class="wp-block-image meet-us-gallery w-[58%] aspect-[5/6] overflow-hidden rounded-tl-[20px] rounded-bl-[20px]">
         <img  

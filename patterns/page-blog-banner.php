@@ -26,7 +26,7 @@
       >
         <!-- wp:group -->
         <div
-        class="wp-block-group section-title grid desktop:basis-auto desktop:w-[145px] desktop:basis-[80%] uppercase text-primaryYellow"
+        class="wp-block-group section-title grid desktop:w-[145px] desktop:basis-[80%] uppercase text-primaryYellow"
         >
           <!-- wp:paragraph -->
           <p class="justify-self-end pt-[3px] pr-[15px]">AKTUALNOŚCI</p>
@@ -75,17 +75,19 @@
 
 
     <!-- wp:paragraph -->
-    <a
-      href="#Posty"
-      class="wp-block-buttons desktop:w-[175px] w-[140px] desktop:h-[175px] h-[140px] mx-0 text-center rounded-full border desktop:border-[4px] border-[3px] border-[#AAAAAA] absolute desktop:top-[-130px] top-[260px] wide:left-[70%] desktop:left-[85%] left-[50%] translate-x-[-50%] group-hover:border-none group-hover:bg-primaryYellow group-hover:text-white transition ease-out duration-300 flex flex-col justify-center items-center gap-y-0 cursor-pointer"
-    >
-      <!-- wp:paragraph -->
-      <p class="font-bold">Zobacz</p>
-      <!-- /wp:paragraph -->
-      <!-- wp:paragraph -->
-      <p class="uppercase text-[25px] font-extrabold">WIĘCEJ</p>
-      <!-- /wp:paragraph -->
-    </a>
+    <p>
+      <a
+        href="#Posty"
+        class="wp-block-buttons desktop:w-[175px] w-[140px] desktop:h-[175px] h-[140px] mx-0 text-center rounded-full desktop:border-[4px] border-[3px] border-[#AAAAAA] absolute desktop:top-[-130px] top-[260px] wide:left-[70%] desktop:left-[85%] left-[50%] translate-x-[-50%] group-hover:border-none group-hover:bg-primaryYellow group-hover:text-white transition ease-out duration-300 flex flex-col justify-center items-center gap-y-0 cursor-pointer"
+      >
+        <!-- wp:paragraph -->
+        <p class="font-bold">Zobacz</p>
+        <!-- /wp:paragraph -->
+        <!-- wp:paragraph -->
+        <p class="uppercase text-[25px] font-extrabold">WIĘCEJ</p>
+        <!-- /wp:paragraph -->
+      </a>
+    </p>
     <!-- /wp:paragraph -->
   </div>
   <!-- /wp:group -->
