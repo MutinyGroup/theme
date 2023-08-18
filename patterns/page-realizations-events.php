@@ -88,7 +88,6 @@
                   <!-- /wp:image -->
                 </div>
                 
-                <!-- wp:group -->
                 <div class="wp-block-group content-wrapper desktop:w-[60%] flex flex-col justify-center">
                   <!-- wp:image -->
                   <figure
@@ -173,7 +172,6 @@
                   </div>
                   <!-- /wp:buttons -->
                 </div>
-                <!-- /wp:group -->
               </li>
               <!-- /wp:list-item -->               
             <?php 
