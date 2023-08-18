@@ -120,24 +120,20 @@
                         <?php
                         };
                       ?>
-
                     <?php }; ?>
                   </ul>
                   <!-- /wp:list -->
 
                   <!-- wp:paragraph -->
-                  <p>
-                    <a href="<?php the_permalink(); ?>" class="text-[35px] font-semibold leading-[42px]">
-                      <?php the_title(); ?>
-                    </a>
+                  <p><a href="<?php the_permalink(); ?>" class="text-[35px] font-semibold leading-[42px]"><?php the_title(); ?></a>
                   </p>  
                   <!-- /wp:paragraph -->
                   <!-- wp:buttons -->
                   <div
                     class="wp-block-buttons w-[56px] h-[56px] mt-[40px]"
                   >
-                  <!-- wp:paragraph -->
-                  <p>
+                  <!-- wp:group -->
+                  <div class="wp-block-group">
                     <a href="<?php the_permalink(); ?>">
                       <!-- wp:paragraph -->
                       <svg
@@ -173,8 +169,8 @@
                       </svg>
                       <!-- /wp:paragraph -->
                     </a>
-                  </p>
-                  <!-- /wp:paragraph -->
+                  </div>
+                  <!-- /wp:group -->
                   </div>
                   <!-- /wp:buttons -->
                 </div>
