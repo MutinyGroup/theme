@@ -78,9 +78,9 @@
     <!-- wp:group -->
     <div class="wp-block-group relative min-h-[540px] desktop:min-h-[910px]">
       <!-- wp:group -->
-      <div class="wp-block-group desktop:mt-[-120px] w-full overflow-hidden">
+      <div class="wp-block-group desktop:mt-[-120px] w-full h-full overflow-hidden">
         <!-- wp:group -->
-        <div id="blog" class="wp-block-group swiper swiperBlog w-screen desktop:w-[calc(100%-90px)] desktop:pt-[180px] absolute top-0 desktop:top-[30px] desktop:left-[90px] left-[20px]">
+        <div id="blog" class="wp-block-group swiper swiperBlog w-screen desktop:w-[calc(100%-90px)] desktop:pt-[180px] absolute top-0 desktop:top-[30px] desktop:left-[90px] pl-[20px] desktop:pl-0">
           <!-- wp:list -->
           <ul class="wp-block-list swiper-wrapper">
             <?php
