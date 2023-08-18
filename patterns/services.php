@@ -58,7 +58,7 @@
       <p class="section-title uppercase text-primaryYellow">Usługi</p>
       <!-- /wp:paragraph -->
       <!-- wp:group -->
-      <div class="wp-block-group uslugi-title desktop:leading-[55px] leading-[30px]">
+      <div class="wp-block-group uslugi-title desktop:leading-[46px] leading-[30px]">
         <!-- wp:paragraph -->
         <p class="uppercase inline desktop:text-[50px] text-[24px]">KAMPANIE REALIZUJEMY</p>
         <!-- /wp:paragraph -->
