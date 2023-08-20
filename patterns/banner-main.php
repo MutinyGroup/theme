@@ -94,7 +94,7 @@
         </div>
         <!-- /wp:group -->
         <!-- wp:image -->
-        <figure class="wp-block-image clipped-banner relative h-full before:content-[''] before:w-full before:h-full before:bg-[#000] before:z-[1] before:opacity-[30%] before:absolute before:top-0 before:left-0">
+        <figure class="wp-block-image clipped-banner relative h-full">
           <img
             src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/front-page/frontpage-banner.jpg"
             alt="background image"
