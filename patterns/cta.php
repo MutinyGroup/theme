@@ -9,7 +9,7 @@
 <!-- wp:group {"templateLock":"all","lock":{"move":true,"remove":true},"anchor":true} -->
 <div id="CTA" class="wp-block-group relative cta mb-[150px]">
   <!-- wp:paragraph -->
-  <p class="scale-[0.25] desktop:scale-[1]">
+  <p class="scale-[0.3] desktop:scale-[1] absolute left-0">
     <svg class="bg-shape z-[0] opacity-[0.16] absolute top-[-145px] left-[-80px]" width="1201" height="846" viewBox="0 0 1201 846" fill="none">
       <path d="M-91 1.48144L553.626 261.4L554 261.55L554.374 261.4L751.215 182.032L876 176.545V324.915L554 454.748L69.8739 259.545L68.5 258.991V260.472V656.519L-91 592.207V1.48144Z" stroke="white" stroke-width="2"/>
       <path d="M1040.04 456.466L1040.67 456.213V455.539L1040.67 241.752L1200 177.482L1200 585.017L1039.29 649.842L555.667 844.922L234 715.171V522.097L555.293 651.697L555.667 651.848L556.041 651.697L1040.04 456.466Z" stroke="white" stroke-width="2"/>
