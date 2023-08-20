@@ -182,7 +182,7 @@
                           class="mb-[6px] text-[15px] relative"
                         >
                           <!-- wp:group -->
-                          <div class="wp-block-group wrapper-test flex gap-[10px]">                        
+                          <div class="wp-block-group wrapper-test flex gap-[10px]">
                             <!-- wp:group -->
                             <div class="wp-block-group separator mt-[8px] w-[20px] h-[2px] bg-primaryYellow">
                               <!-- wp:paragraph -->
@@ -199,36 +199,44 @@
                         <!-- /wp:list-item -->
                         <!-- wp:list-item -->
                         <li
-                          class="mb-[6px] text-[15px] relative flex gap-[10px]"
+                          class="mb-[6px] text-[15px] relative"
                         >
                           <!-- wp:group -->
-                          <div class="wp-block-group separator mt-[8px] w-[20px] h-[2px] bg-primaryYellow">
+                          <div class="wp-block-group wrapper-test flex gap-[10px]">
+                            <!-- wp:group -->
+                            <div class="wp-block-group separator mt-[8px] w-[20px] h-[2px] bg-primaryYellow">
+                              <!-- wp:paragraph -->
+                              <p class="hidden">separator</p>
+                              <!-- /wp:paragraph -->
+                            </div>
+                            <!-- /wp:group -->
                             <!-- wp:paragraph -->
-                            <p class="hidden test">separator</p>
+                            <p class="leading-[20px]">Kreowanie tosamości marki</p>
                             <!-- /wp:paragraph -->
                           </div>
                           <!-- /wp:group -->
-                          <!-- wp:paragraph -->
-                          <p class="leading-[20px]">Kreowanie tożsamości marki</p>
-                          <!-- /wp:paragraph -->
                         </li>
                         <!-- /wp:list-item -->
                         <!-- wp:list-item -->
                         <li
-                          class="mb-[6px] text-[15px] relative flex gap-[10px]"
+                          class="mb-[6px] text-[15px] relative"
                         >
                           <!-- wp:group -->
-                          <div class="wp-block-group separator mt-[8px] w-[20px] h-[2px] bg-primaryYellow">
+                          <div class="wp-block-group wrapper-test flex gap-[10px]">
+                            <!-- wp:group -->
+                            <div class="wp-block-group separator mt-[8px] w-[20px] h-[2px] bg-primaryYellow">
+                              <!-- wp:paragraph -->
+                              <p class="hidden">separator</p>
+                              <!-- /wp:paragraph -->
+                            </div>
+                            <!-- /wp:group -->
                             <!-- wp:paragraph -->
-                            <p class="hidden">separator</p>
+                            <p class="leading-[20px]">Dobór kanałów i narzędzie komunikacji</p>
                             <!-- /wp:paragraph -->
                           </div>
                           <!-- /wp:group -->
-                          <!-- wp:paragraph -->
-                          <p class="leading-[20px]">Dobór kanałów i narzędzi komunikacji</p>
-                          <!-- /wp:paragraph -->
                         </li>
-                        <!-- /wp:list-item -->                                                
+                        <!-- /wp:list-item -->                                               
                       </ul>
                       <!-- /wp:list -->
                     </div>
