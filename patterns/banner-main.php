@@ -49,14 +49,13 @@
         </div>
         <!-- /wp:group -->
 
-        <!-- wp:image -->
-        <figure class="wp-block-image bg-shape w-[1220px] h-[750px] z-[0] opacity-[0.25] absolute top-[130px] left-[-320px]">
-          <img
-            src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/front-page/banner-bg-shape.png"
-            alt="background image"
-          />
-        </figure>
-        <!-- /wp:image -->
+        <!-- wp:group -->
+        <div class="wp-block-group bg-shape z-[0] opacity-[0.25] absolute top-[130px] left-[0px]">
+        <svg xmlns="http://www.w3.org/2000/svg" width="910" height="1572" viewBox="0 0 910 1572" fill="none">
+          <path d="M-498 1.66654L439.866 331.967L440.198 332.084L440.53 331.967L908.797 167.051V413.008L440.198 578.041L-263.868 330.081L-265.201 329.611V331.024V1570L-498 1488.01V1.66654Z" stroke="white" stroke-width="2"/>
+        </svg>
+        </div>
+        <!-- /wp:group -->
         
         <!-- wp:group -->
         <div class="wp-block-group title-text-wrapper mb-[50px] desktop:mb-[70px] uppercase relative z-[1]">
