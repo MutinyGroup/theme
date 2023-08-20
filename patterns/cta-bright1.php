@@ -52,9 +52,7 @@
       <!-- wp:group -->
       <div class="wp-block-group uslugi-title font-normal desktop:text-[65px] text-[32px] desktop:leading-[70px] leading-[36px]">
         <!-- wp:paragraph -->
-        <p class="uppercase">
-          Poznaj ofertę
-        </p>
+        <p class="uppercase">Poznaj ofertę</p>
         <!-- /wp:paragraph -->
         <!-- wp:paragraph -->
         <p class="relative uppercase italic before:content-[''] before:inline-block before:mr-[-5px] before:bottom-0 before:left-0 desktop:before:w-[120px] before:w-[30px] before:h-[2px] before:bg-black"> Mutiny</p>
