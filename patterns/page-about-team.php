@@ -47,10 +47,7 @@
       <!-- wp:group -->
       <div class="wp-block-group uslugi-title">
         <!-- wp:paragraph -->
-        <p class="uppercase desktop:text-[50px] text-[24px] desktop:leading-[55px] leading-[30px]">
-        Zgrany zespół  <br> to
-          <span class="relative desktop:text-[50px] text-[24px] uppercase italic before:content-[''] before:inline-block desktop:before:mr-[16px] before:mr-[4px] before:bottom-0 before:left-0 desktop:before:w-[90px] before:w-[30px] desktop:before:h-[3px] before:h-[2px] before:bg-black">podstawa</span>
-        </p>
+        <p class="uppercase desktop:text-[50px] text-[24px] desktop:leading-[55px] leading-[30px]">Zgrany zespół  <br> to <span class="relative desktop:text-[50px] text-[24px] uppercase italic before:content-[''] before:inline-block desktop:before:mr-[16px] before:mr-[4px] before:bottom-0 before:left-0 desktop:before:w-[90px] before:w-[30px] desktop:before:h-[3px] before:h-[2px] before:bg-black">podstawa</span></p>
         <!-- /wp:paragraph -->
       </div>
       <!-- /wp:group -->
@@ -80,12 +77,7 @@
         </p>
         <!-- /wp:paragraph -->
         <!-- wp:paragraph -->
-        <p class="wp-block-group text-[16px] leading-[21px] w-[263px]">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-          enim ad minim veniam, quis nostrud exercitation ullamco laboris
-          nisi ut aliquip ex ea commodo consequat.
-        </p>
+        <p class="wp-block-group text-[16px] leading-[21px] w-[263px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
         <!-- /wp:paragraph -->
       </div>
       <!-- /wp:group -->
