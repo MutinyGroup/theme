@@ -13,7 +13,7 @@
     <!-- wp:group -->
     <div class="wp-block-group title-wrapper relative container mx-auto desktop:px-0 px-[20px] desktop:mb-[80px] mb-[50px] flex gap-[20px]">
       <!-- wp:group -->
-      <div class="wp-block-group flash-wrapper wide:scale-[1] desktop:scale-[1] scale-[0.5] absolute top-[-340px] desktop:top-[-300px] wide:top-[-270px] left-[-240px] desktop:left-[-200px] wide:left-[-260px] z-[-1]">
+      <div class="wp-block-group flash-wrapper wide:scale-[1] desktop:scale-[1] scale-[0.5] absolute top-[-340px] desktop:top-[-300px] wide:top-[-270px] left-[-240px] desktop:left-[-200px] wide:left-[-260px] z-[0]">
         <!-- wp:paragraph -->
         <p>
           <svg class="flash" xmlns="http://www.w3.org/2000/svg" width="688" height="801" viewBox="0 0 688 801" fill="none">
@@ -46,9 +46,8 @@
       </div>
       <!-- /wp:group -->
 
-
       <!-- wp:group -->
-      <div class="wp-block-group bg-shape w-[440px] h-[394px] z-[-1] opacity-[0.20] absolute top-[0px] right-[10px] bg-[url('https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/front-page/services-bg-shape.png')] bg-center bg-no-repeat bg-contain">
+      <div class="wp-block-group bg-shape w-[440px] h-[394px] z-[0] opacity-[0.20] absolute top-[0px] right-[10px] bg-[url('https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/front-page/services-bg-shape.png')] bg-center bg-no-repeat bg-contain">
         <!-- wp:paragraph -->
         <p class="hidden">background line shape</p>
         <!-- /wp:paragraph -->
@@ -85,10 +84,8 @@
     
     <!-- wp:group -->
     <div class="wp-block-group mt-[80px] desktop:mt-[-120px] w-full h-[380px] desktop:h-[660px] wide:h-[720px] overflow-hidden">
-
       <!-- wp:group -->
       <div id="services" class="wp-block-group swiper swiperServices w-screen desktop:w-[calc(100%-90px)] desktop:pt-[180px] absolute top-[300px] desktop:top-[160px] left-[20px] desktop:left-[90px]">
-
         <!-- wp:group -->
         <div class="wp-block-group swiper-wrapper desktop:h-[480px] wide:h-[530px]">
           <?php
@@ -145,8 +142,6 @@
                       </defs>
                     </svg>
                     <!-- /wp:paragraph -->                                   
-
-
                   </div>
                   <!-- /wp:group -->
 
@@ -178,8 +173,7 @@
                   <!-- /wp:buttons -->
 
                   <!-- wp:paragraph -->
-                  <p class="hover-text mt-[370px] wide:mt-[350px] opacity-[0%] group-hover:opacity-[100%] group-hover:mt-[220px] wide:group-hover:mt-[270px] transition-all ease-out duration-500 text-[15px] font-light z-[1]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet in aspernatur alias ipsa, fuga ut!
-                  </p>
+                  <p class="hover-text mt-[370px] wide:mt-[350px] opacity-[0%] group-hover:opacity-[100%] group-hover:mt-[220px] wide:group-hover:mt-[270px] transition-all ease-out duration-500 text-[15px] font-light z-[1]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet in aspernatur alias ipsa, fuga ut!</p>
                   <!-- /wp:paragraph -->
                 </div>
                 <!-- /wp:group -->            
