@@ -193,24 +193,24 @@
               <!-- /wp:group -->
 
               <!-- wp:paragraph -->
-              <p class="my-[50px] text-[35px] leading-[42px] font-semibold uppercase" > Mamy nieszablonowe <br /> podejście </p>
+              <p class="my-[50px] text-[35px] leading-[42px] font-semibold uppercase">Mamy nieszablonowe <br /> podejście </p>
               <!-- /wp:paragraph -->
               <!-- wp:paragraph -->
-              <p class="mb-[50px] text-[20px] leading-[30px]"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+              <p class="mb-[50px] text-[20px] leading-[30px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
               <!-- /wp:paragraph -->
               <!-- wp:paragraph -->
-              <p class="mb-[50px]"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+              <p class="mb-[50px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
               <!-- /wp:paragraph -->
               <!-- wp:list -->
               <ul class="wp-block-list leading-[32px] font-semibold">
                 <!-- wp:list-item -->
-                <li class="before:content-[''] before:inline-block desktop:before:mr-[5px] before:mb-[5px] desktop:before:w-[20px] desktop:before:h-[2px] before:bg-primaryYellow" > Lorem ipsum dolor sit amet</li>
+                <li class="before:content-[''] before:inline-block desktop:before:mr-[5px] before:mb-[5px] desktop:before:w-[20px] desktop:before:h-[2px] before:bg-primaryYellow">Lorem ipsum dolor sit amet</li>
                 <!-- /wp:list-item -->
                 <!-- wp:list-item -->
-                <li class="before:content-[''] before:inline-block desktop:before:mr-[5px] before:mb-[5px] desktop:before:w-[20px] desktop:before:h-[2px] before:bg-primaryYellow" > Consectetur adipiscing elit</li>
+                <li class="before:content-[''] before:inline-block desktop:before:mr-[5px] before:mb-[5px] desktop:before:w-[20px] desktop:before:h-[2px] before:bg-primaryYellow">Consectetur adipiscing elit</li>
                 <!-- /wp:list-item -->
                 <!-- wp:list-item -->
-                <li class="before:content-[''] before:inline-block desktop:before:mr-[5px] before:mb-[5px] desktop:before:w-[20px] desktop:before:h-[2px] before:bg-primaryYellow" > Sed do eiusmod tempor incididunt</li>
+                <li class="before:content-[''] before:inline-block desktop:before:mr-[5px] before:mb-[5px] desktop:before:w-[20px] desktop:before:h-[2px] before:bg-primaryYellow">Sed do eiusmod tempor incididunt</li>
                 <!-- /wp:list-item -->
               </ul>
               <!-- /wp:list -->
@@ -230,16 +230,15 @@
           <!-- wp:group -->
           <div class="wp-block-group col1 relative w-[40%]">
             <!-- wp:paragraph -->
-            <p class="text-[50px] text-primaryYellow">
-              03 /
-              <span class="text-[20px] text-black font-medium">03</span>
-            </p>
+            <p class="text-[50px] text-primaryYellow">03 /<span class="text-[20px] text-black font-medium">03</span></p>
             <!-- /wp:paragraph -->
 
             <!-- wp:paragraph -->
-            <svg xmlns="http://www.w3.org/2000/svg" width="290" height="335" viewBox="0 0 290 335" fill="none" class="z-[-1] absolute top-[190px] left-[30px] opacity-[80%]">
-              <path d="M1.62094 1.8927L288.5 98.6655V333.397L1.62094 236.624V1.8927Z" stroke="white" stroke-width="2"/>
-            </svg>            
+            <p>
+              <svg xmlns="http://www.w3.org/2000/svg" width="290" height="335" viewBox="0 0 290 335" fill="none" class="z-[-1] absolute top-[190px] left-[30px] opacity-[80%]">
+                <path d="M1.62094 1.8927L288.5 98.6655V333.397L1.62094 236.624V1.8927Z" stroke="white" stroke-width="2"/>
+              </svg>   
+            </p>         
             <!-- /wp:paragraph -->
           </div>
           <!-- /wp:group -->
@@ -250,27 +249,22 @@
               <!-- wp:group -->
               <div class="wp-block-group h-[250px] w-[800px]">
                 <!-- wp:group -->
-                <div
-                  class="wp-block-group img-clip-path-wrapper mb-[50px] w-full h-full rounded-[20px] overflow-hidden"
-                >
+                <div class="wp-block-group img-clip-path-wrapper mb-[50px] w-full h-full rounded-[20px] overflow-hidden" >
                   <!-- wp:image -->
-                  <figure
-                    class="wp-block-image h-full clipped-why group-hover:grayscale transition ease-in-out duration-[400ms]"
-                  >
-                    <img
-                      src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-services/why-img3.jpg"
-                      alt="services-background-image"
-                    />
+                  <figure class="wp-block-image h-full clipped-why group-hover:grayscale transition ease-in-out duration-[400ms]">
+                    <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-services/why-img3.jpg" alt="services-background-image" />
                   </figure>
                   <!-- /wp:image -->
                   <!-- wp:paragraph -->
-                  <svg x="0px" y="0px" viewBox="0 0 1374.7 1083.6" class="absolute top-0" >
-                    <defs>
-                      <clipPath id="clipped-why" class="scale-[0.0038] scale-x-[0.0013]" clipPathUnits="objectBoundingBox">
-                        <path d="M806 0L20 0C8.95428 0 0 8.95431 0 20V201.583C0 212.629 8.95428 221.583 20 221.583H158.191C166.144 221.583 173.771 224.741 179.397 230.363L190.262 241.22C195.887 246.842 203.515 250 211.468 250H806L806 0Z"/>
-                      </clipPath>
-                    </defs>
-                  </svg>
+                  <p>
+                    <svg x="0px" y="0px" viewBox="0 0 1374.7 1083.6" class="absolute top-0" >
+                      <defs>
+                        <clipPath id="clipped-why" class="scale-[0.0038] scale-x-[0.0013]" clipPathUnits="objectBoundingBox">
+                          <path d="M806 0L20 0C8.95428 0 0 8.95431 0 20V201.583C0 212.629 8.95428 221.583 20 221.583H158.191C166.144 221.583 173.771 224.741 179.397 230.363L190.262 241.22C195.887 246.842 203.515 250 211.468 250H806L806 0Z"/>
+                        </clipPath>
+                      </defs>
+                    </svg>
+                  </p>
                   <!-- /wp:paragraph -->
                 </div>
                 <!-- /wp:group -->
