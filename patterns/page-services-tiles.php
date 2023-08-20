@@ -174,6 +174,7 @@
                             <p class="leading-[20px]">Opracowanie strategii marketingowych</p>
                             <!-- /wp:paragraph -->
                           </div>
+                          <!-- /wp:group -->
                         </li>
                         <!-- /wp:list-item -->
                         <!-- wp:list-item -->
@@ -193,6 +194,7 @@
                             <p class="leading-[20px]">Content marketing</p>
                             <!-- /wp:paragraph -->
                           </div>
+                          <!-- /wp:group -->
                         </li>
                         <!-- /wp:list-item -->
                         <!-- wp:list-item -->
