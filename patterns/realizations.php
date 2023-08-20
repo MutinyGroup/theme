@@ -10,7 +10,7 @@
 <div id="Realizacje" class="wp-block-group realizacje relative desktop:pt-[220px] pt-[180px] desktop:mb-[200px] mb-[60px] overflow-visible">
   <!-- wp:paragraph -->
   <p>
-    <svg class="bg-shape z-[-1] opacity-[0.16] absolute top-[130px] right-0" xmlns="http://www.w3.org/2000/svg" width="1051" height="816" viewBox="0 0 1051 816" fill="none">
+    <svg class="bg-shape z-[0] opacity-[0.16] absolute top-[130px] right-0" xmlns="http://www.w3.org/2000/svg" width="1051" height="816" viewBox="0 0 1051 816" fill="none">
       <g style="mix-blend-mode:color-dodge">
       <path d="M1 1.96689L938.264 332.267L938.596 332.384L938.929 332.267L1406.89 167.352V413.308L938.596 578.341L234.981 330.381L233.649 329.911V331.324V814.048L1 732.06V1.96689Z" stroke="#808080" stroke-width="2"/>
       </g>
@@ -19,49 +19,51 @@
   <!-- /wp:paragraph -->
 
   <!-- wp:group -->
+  <div class="wp-block-group flash-wrapper wide:scale-[1] desktop:scale-[1] scale-[0.5] absolute top-[-340px] desktop:top-[-300px] wide:top-[-270px] left-[-240px] desktop:left-[-200px] wide:left-[-260px] z-[0]">
+  <!-- wp:paragraph -->
+  <p>
+    <svg class="flash" xmlns="http://www.w3.org/2000/svg" width="688" height="801" viewBox="0 0 688 801" fill="none">
+      <g filter="url(#filter0_f_1787_1988)">
+      <circle cx="287.132" cy="400.132" r="150" transform="rotate(-45 287.132 400.132)" fill="url(#paint0_linear_1787_1988)" fill-opacity="0.5"/>
+      </g>
+      <defs>
+      <filter id="filter0_f_1787_1988" x="-112.868" y="0.131836" width="800" height="800" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+      <feGaussianBlur stdDeviation="125" result="effect1_foregroundBlur_1787_1988"/>
+      </filter>
+      <linearGradient id="paint0_linear_1787_1988" x1="287.132" y1="250.132" x2="287.132" y2="550.132" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FEC400" stop-opacity="0.6"/>
+      <stop offset="1" stop-color="#FEC400" stop-opacity="0"/>
+      </linearGradient>
+      </defs>
+    </svg>
+  </p> 
+  <!-- /wp:paragraph -->
+
+  <!-- wp:image -->
+  <figure class="wp-block-image flash absolute top-[0px] left-[0px]">
+    <img
+      src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/bg-yellow-flash.png"
+      alt="background image"
+    />
+  </figure>
+  <!-- /wp:image -->
+</div>
+      <!-- /wp:group -->
+
+  <!-- wp:group -->
   <div class="wp-block-group container relative mx-auto desktop:px-0 px-[20px]">
     <!-- wp:group -->
-    <div class="wp-block-group title-wrapper relative desktop:mb-[150px] mb-[230px] flex gap-[20px]">
-      <!-- wp:group -->
-      <div class="wp-block-group flash-wrapper wide:scale-[1] desktop:scale-[1] scale-[0.5] absolute top-[-340px] desktop:top-[-300px] wide:top-[-270px] left-[-240px] desktop:left-[-200px] wide:left-[-260px] z-[0]">
-        <!-- wp:paragraph -->
-        <p>
-          <svg class="flash" xmlns="http://www.w3.org/2000/svg" width="688" height="801" viewBox="0 0 688 801" fill="none">
-            <g filter="url(#filter0_f_1787_1988)">
-            <circle cx="287.132" cy="400.132" r="150" transform="rotate(-45 287.132 400.132)" fill="url(#paint0_linear_1787_1988)" fill-opacity="0.5"/>
-            </g>
-            <defs>
-            <filter id="filter0_f_1787_1988" x="-112.868" y="0.131836" width="800" height="800" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-            <feFlood flood-opacity="0" result="BackgroundImageFix"/>
-            <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
-            <feGaussianBlur stdDeviation="125" result="effect1_foregroundBlur_1787_1988"/>
-            </filter>
-            <linearGradient id="paint0_linear_1787_1988" x1="287.132" y1="250.132" x2="287.132" y2="550.132" gradientUnits="userSpaceOnUse">
-            <stop stop-color="#FEC400" stop-opacity="0.6"/>
-            <stop offset="1" stop-color="#FEC400" stop-opacity="0"/>
-            </linearGradient>
-            </defs>
-          </svg>
-        </p> 
-        <!-- /wp:paragraph -->
+    <div class="wp-block-group title-wrapper relative desktop:mb-[150px] mb-[230px] flex gap-[20px] z-[1]">
 
-        <!-- wp:image -->
-        <figure class="wp-block-image flash absolute top-[0px] left-[0px]">
-          <img
-            src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/bg-yellow-flash.png"
-            alt="background image"
-          />
-        </figure>
-        <!-- /wp:image -->
-      </div>
-      <!-- /wp:group -->
 
       <!-- wp:paragraph -->
       <p class="section-title uppercase text-primaryYellow">Realizacje</p>
       <!-- /wp:paragraph -->
 
       <!-- wp:group -->
-      <div class="wp-block-group uslugi-title z-[1] relative is-layout-flow">
+      <div class="wp-block-group realizations-title z-[1] relative is-layout-flow">
         <!-- wp:paragraph -->
         <p class="uppercase desktop:text-[50px] text-[24px] desktop:leading-[55px] leading-[30px]">Zobacz efekty</p>
         <!-- /wp:paragraph -->
