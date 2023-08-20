@@ -9,11 +9,13 @@
 <!-- wp:group {"templateLock":"all","lock":{"move":true,"remove":true},"anchor":true} -->
 <div id="Realizacje" class="wp-block-group realizacje relative desktop:pt-[220px] pt-[180px] desktop:mb-[200px] mb-[60px] overflow-visible">
   <!-- wp:paragraph -->
-  <svg class="bg-shape z-[-1] opacity-[0.16] absolute top-[130px] right-0" xmlns="http://www.w3.org/2000/svg" width="1051" height="816" viewBox="0 0 1051 816" fill="none">
-    <g style="mix-blend-mode:color-dodge">
-    <path d="M1 1.96689L938.264 332.267L938.596 332.384L938.929 332.267L1406.89 167.352V413.308L938.596 578.341L234.981 330.381L233.649 329.911V331.324V814.048L1 732.06V1.96689Z" stroke="#808080" stroke-width="2"/>
-    </g>
-  </svg>
+  <p>
+    <svg class="bg-shape z-[-1] opacity-[0.16] absolute top-[130px] right-0" xmlns="http://www.w3.org/2000/svg" width="1051" height="816" viewBox="0 0 1051 816" fill="none">
+      <g style="mix-blend-mode:color-dodge">
+      <path d="M1 1.96689L938.264 332.267L938.596 332.384L938.929 332.267L1406.89 167.352V413.308L938.596 578.341L234.981 330.381L233.649 329.911V331.324V814.048L1 732.06V1.96689Z" stroke="#808080" stroke-width="2"/>
+      </g>
+    </svg>
+  </p>
   <!-- /wp:paragraph -->
 
   <!-- wp:group -->
@@ -154,8 +156,7 @@
                   <!-- wp:group -->
                   <div class="wp-block-group tile-title z-[1] absolute bottom-[50px] desktop:left-[50px] left-[20px]">
                     <!-- wp:paragraph -->
-                    <p class="w-fit desktop:text-[35px] text-[30px] desktop:mb-[20px] mb-[10px] leading-[42px] font-semibold desktop:group-hover:translate-y-[-50px] group-hover:translate-y-[-70px] transition ease-in-out duration-[400ms] cursor-pointer"><a href="<?php the_permalink(); ?>" class="group-hover:border-b-[2px] group-hover:border-primaryYellow"><?php the_title(); ?></a>
-                    </p>
+                    <p class="w-fit desktop:text-[35px] text-[30px] desktop:mb-[20px] mb-[10px] leading-[42px] font-semibold desktop:group-hover:translate-y-[-50px] group-hover:translate-y-[-70px] transition ease-in-out duration-[400ms] cursor-pointer"><a href="<?php the_permalink(); ?>" class="group-hover:border-b-[2px] group-hover:border-primaryYellow"><?php the_title(); ?></a></p>
                     <!-- /wp:paragraph -->
 
                     <!-- wp:list -->
@@ -217,12 +218,12 @@
       </div>
       <!-- /wp:group -->
       <!-- wp:buttons -->
-      <div class="wp-block-buttons btn-more ml-[0px] p-[15px_30px] uppercase border-[2px] border-white rounded-full hover:bg-white hover:text-black transition ease-out duration-300">
+      <div class="wp-block-buttons min-w-[225px] flex justify-center items-center px-[20px] btn-more ml-[0px] p-[15px_30px] uppercase border-[2px] border-white rounded-full hover:bg-white hover:text-black transition ease-out duration-300">
         <!-- wp:paragraph -->
-        <p class="desktop:min-w-fit font-bold text-[14px] uppercase w-auto"><a href="<?php echo get_home_url() . '/realizations'; ?>">Zobacz wszystkie realizacje</a></p>
+        <p><a href="<?php echo get_home_url() . '/realizations'; ?>" class="uppercase text-[14px] font-bold">Zobacz wszystkie realizacje</a></p>
         <!-- /wp:paragraph -->
       </div>
-      <!-- /wp:group -->
+      <!-- /wp:buttons -->
     </div>
     <!-- /wp:group -->
   </div>
