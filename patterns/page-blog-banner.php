@@ -10,30 +10,20 @@
 ?>
 
 <!-- wp:group {"templateLock":"all","lock":{"move":true,"remove":true},"anchor":true} -->
-<div id="Banner" class="wp-block-group services-banner group h-auto desktop:mb-[150px] pt-[80px] desktop:pt-0">
+<div id="Banner" class="wp-block-group blog-banner group h-auto desktop:mb-[150px] pt-[80px] desktop:pt-0">
   <!-- wp:group -->
-  <div
-    class="wp-block-group container relative mx-auto desktop:px-0 px-[20px]"
-  >
+  <div class="wp-block-group container relative mx-auto desktop:px-0 px-[20px]">
     <!-- wp:group -->
-    <div
-      class="wp-block-group title-wrapper relative desktop:mb-[58px] mb-[40px] desktop:mt-[90px]"
-    >
+    <div class="wp-block-group title-wrapper relative desktop:mb-[58px] mb-[40px] desktop:mt-[90px]">
       <!-- wp:group -->
-      <div
-        id="title"
-        class="wp-block-group title-wrapper relative container mx-auto desktop:flex"
-      >
+      <div id="title" class="wp-block-group title-wrapper relative container mx-auto desktop:flex">
         <!-- wp:group -->
-        <div
-        class="wp-block-group section-title grid desktop:w-[145px] desktop:basis-auto uppercase text-primaryYellow"
-        >
+        <div class="wp-block-group section-title grid desktop:w-[145px] desktop:basis-auto uppercase text-primaryYellow">
           <!-- wp:paragraph -->
           <p class="justify-self-start pt-[3px] pr-[15px]">AKTUALNOŚCI</p>
           <!-- /wp:paragraph -->
         </div>  
         <!-- /wp:group -->
-
 
         <!-- wp:group -->
         <div class="wp-block-group uslugi-title uppercase font-medium desktop:text-[60px] text-[30px] desktop:leading-[60px] leading-[30px]">
