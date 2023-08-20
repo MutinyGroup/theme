@@ -272,50 +272,24 @@
               <!-- /wp:group -->
 
               <!-- wp:paragraph -->
-              <p
-                class="my-[50px] text-[35px] leading-[42px] font-semibold uppercase"
-              >
-                Mamy nieszablonowe <br />
-                podejście
-              </p>
+              <p class="my-[50px] text-[35px] leading-[42px] font-semibold uppercase" >Mamy nieszablonowe <br />podejście</p>
               <!-- /wp:paragraph -->
               <!-- wp:paragraph -->
-              <p class="mb-[50px] text-[20px] leading-[30px]">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                do eiusmod tempor incididunt ut labore et dolore magna
-                aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                ullamco laboris nisi ut aliquip ex ea commodo consequat.
-              </p>
+              <p class="mb-[50px] text-[20px] leading-[30px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, seddo eiusmod tempor incididunt ut labore et dolore magnaaliqua. Ut enim ad minim veniam, quis nostrud exercitationullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
               <!-- /wp:paragraph -->
               <!-- wp:paragraph -->
-              <p class="mb-[50px]">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                do eiusmod tempor incididunt ut labore et dolore magna
-                aliqua. Ut enim ad minim veniam.
-              </p>
+              <p class="mb-[50px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, seddo eiusmod tempor incididunt ut labore et dolore magnaaliqua. Ut enim ad minim veniam.</p>
               <!-- /wp:paragraph -->
               <!-- wp:list -->
               <ul class="wp-block-list leading-[32px] font-semibold">
                 <!-- wp:list-item -->
-                <li
-                  class="before:content-[''] before:inline-block desktop:before:mr-[5px] before:mb-[5px] desktop:before:w-[20px] desktop:before:h-[2px] before:bg-primaryYellow"
-                >
-                  Lorem ipsum dolor sit amet
-                </li>
+                <li class="before:content-[''] before:inline-block desktop:before:mr-[5px] before:mb-[5px] desktop:before:w-[20px] desktop:before:h-[2px] before:bg-primaryYellow">Lorem ipsum dolor sit amet</li>
                 <!-- /wp:list-item -->
                 <!-- wp:list-item -->
-                <li
-                  class="before:content-[''] before:inline-block desktop:before:mr-[5px] before:mb-[5px] desktop:before:w-[20px] desktop:before:h-[2px] before:bg-primaryYellow"
-                >
-                  Consectetur adipiscing elit
-                </li>
+                <li class="before:content-[''] before:inline-block desktop:before:mr-[5px] before:mb-[5px] desktop:before:w-[20px] desktop:before:h-[2px] before:bg-primaryYellow">Consectetur adipiscing elit</li>
                 <!-- /wp:list-item -->
                 <!-- wp:list-item -->
-                <li
-                  class="before:content-[''] before:inline-block desktop:before:mr-[5px] before:mb-[5px] desktop:before:w-[20px] desktop:before:h-[2px] before:bg-primaryYellow"
-                >
-                  Sed do eiusmod tempor incididunt
-                </li>
+                <li class="before:content-[''] before:inline-block desktop:before:mr-[5px] before:mb-[5px] desktop:before:w-[20px] desktop:before:h-[2px] before:bg-primaryYellow">Sed do eiusmod tempor incididunt</li>
                 <!-- /wp:list-item -->
               </ul>
               <!-- /wp:list -->
@@ -327,7 +301,6 @@
         <!-- /wp:group -->
       </li>
       <!-- /wp:list-item -->      
-
     </ul>
     <!-- /wp:list -->
   </div>
