@@ -8,7 +8,7 @@
 ?>
 
 <!-- wp:group {"templateLock":"all","lock":{"move":true,"remove":true},"anchor":true} -->
-<div id="Banner" class="wp-block-group banner group relative mb-0 pt-[80px] h-fit desktop:h-auto overflow-hidden desktop:overflow-visible">
+<div id="Banner" class="wp-block-group banner group relative mb-0 pt-[110px] desktop:pt-[80px] h-fit desktop:h-auto overflow-hidden desktop:overflow-visible">
   <!-- wp:group -->
   <div class="wp-block-group bg-shape z-[0] scale-[0.7] desktop:scale-[1] opacity-[10%] absolute top-[-200px] desktop:top-[120px] left-[-350px] desktop:left-[-80px]">
     <!-- wp:paragraph -->
@@ -90,7 +90,7 @@
       <!-- /wp:group -->
 
       <!-- wp:group -->
-      <div class="wp-block-group right-col banner-bg h-[300px] tablet:h-[450px] desktop:h-[775px] wide:h-[950px] desktop:w-[44%] w-[65%] absolute right-0 desktop:top-[50px] top-[30px] z-[0]">
+      <div class="wp-block-group right-col banner-bg h-[300px] tablet:h-[450px] desktop:h-[775px] wide:h-[950px] desktop:w-[44%] w-[65%] absolute right-0 top-[80px] desktop:top-[50px] z-[0]">
         <!-- wp:image -->
         <figure class="wp-block-image clipped-banner relative h-full before:content-[''] before:w-full before:h-full before:bg-[#000] before:z-[1] before:opacity-[30%] before:absolute before:top-0 before:left-0">
           <img
