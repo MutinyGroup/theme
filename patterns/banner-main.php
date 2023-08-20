@@ -86,9 +86,15 @@
 
       <!-- wp:group -->
       <div class="wp-block-group right-col banner-bg h-[300px] tablet:h-[450px] desktop:h-[775px] wide:h-[950px] desktop:w-[44%] w-[65%] absolute right-0 desktop:top-[50px] top-[30px] z-[0]">
-
+        <!-- wp:group -->
+        <div class="wp-block-group overlay-author z-[1] h-full w-full bg-black opacity-[30%] absolute top-0 left-0 clipped-banner">
+          <!-- wp:paragraph -->
+          <p class="hidden">overlay</p>
+          <!-- /wp:paragraph -->
+        </div>
+        <!-- /wp:group -->
         <!-- wp:image -->
-        <figure class="wp-block-image clipped-banner relative h-full before:content-[''] before:w-full before:h-full before:bg-[#000] before:z-[1] before:opacity-[30%] before:absolute before:top-0 before:left-0">
+        <figure class="wp-block-image clipped-banner relative h-full">
           <img
             src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/front-page/frontpage-banner.jpg"
             alt="background image"
