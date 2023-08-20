@@ -211,9 +211,6 @@
             <!-- /wp:group -->
           </div>
           <!-- /wp:group -->
-
-
-
         </div>
         <!-- /wp:group -->
       </div>
@@ -233,9 +230,9 @@
       </div>
       <!-- /wp:group -->
       <!-- wp:buttons -->
-      <div class="wp-block-buttons btn-more text-center ml-[0px] p-[15px_30px] uppercase border-[2px] border-white rounded-full hover:bg-white hover:text-black transition ease-out duration-300">
+      <div class="wp-block-buttons min-w-fit flex justify-center items-center px-[20px] btn-more ml-[0px] p-[15px_30px] uppercase border-[2px] border-white rounded-full hover:bg-white hover:text-black transition ease-out duration-300">
         <!-- wp:paragraph -->
-        <p class="uppercase w-fit text-[14px] font-bold"><a href="<?php echo get_home_url() . '/blog'; ?>">Zobacz wszystkie newsy</a></p>
+        <p><a href="<?php echo get_home_url() . '/blog'; ?>" class="uppercase text-[14px] font-bold">Zobacz wszystkie newsy</a></p>
         <!-- /wp:paragraph -->
       </div>
       <!-- /wp:buttons -->
