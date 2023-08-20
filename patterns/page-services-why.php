@@ -151,7 +151,7 @@
           <!-- wp:group -->
           <div class="wp-block-group col1 relative w-[40%]">
             <!-- wp:paragraph -->
-            <p class="text-[50px] text-primaryYellow">02 /<span class="text-[20px] text-black font-medium">03<span></p>
+            <p class="text-[50px] text-primaryYellow">02 /<span class="text-[20px] text-black font-medium">03</span></p>
             <!-- /wp:paragraph -->
 
             <!-- wp:paragraph -->
@@ -204,16 +204,13 @@
               <!-- wp:list -->
               <ul class="wp-block-list leading-[32px] font-semibold">
                 <!-- wp:list-item -->
-                <li class="before:content-[''] before:inline-block desktop:before:mr-[5px] before:mb-[5px] desktop:before:w-[20px] desktop:before:h-[2px] before:bg-primaryYellow" > Lorem ipsum dolor sit amet
-                </li>
+                <li class="before:content-[''] before:inline-block desktop:before:mr-[5px] before:mb-[5px] desktop:before:w-[20px] desktop:before:h-[2px] before:bg-primaryYellow" > Lorem ipsum dolor sit amet</li>
                 <!-- /wp:list-item -->
                 <!-- wp:list-item -->
-                <li class="before:content-[''] before:inline-block desktop:before:mr-[5px] before:mb-[5px] desktop:before:w-[20px] desktop:before:h-[2px] before:bg-primaryYellow" > Consectetur adipiscing elit
-                </li>
+                <li class="before:content-[''] before:inline-block desktop:before:mr-[5px] before:mb-[5px] desktop:before:w-[20px] desktop:before:h-[2px] before:bg-primaryYellow" > Consectetur adipiscing elit</li>
                 <!-- /wp:list-item -->
                 <!-- wp:list-item -->
-                <li class="before:content-[''] before:inline-block desktop:before:mr-[5px] before:mb-[5px] desktop:before:w-[20px] desktop:before:h-[2px] before:bg-primaryYellow" > Sed do eiusmod tempor incididunt
-                </li>
+                <li class="before:content-[''] before:inline-block desktop:before:mr-[5px] before:mb-[5px] desktop:before:w-[20px] desktop:before:h-[2px] before:bg-primaryYellow" > Sed do eiusmod tempor incididunt</li>
                 <!-- /wp:list-item -->
               </ul>
               <!-- /wp:list -->
