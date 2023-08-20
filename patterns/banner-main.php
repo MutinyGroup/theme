@@ -10,7 +10,7 @@
 <!-- wp:group {"templateLock":"all","lock":{"move":true,"remove":true},"anchor":true} -->
 <div id="Banner" class="wp-block-group banner group relative mb-0 pt-[80px] h-fit desktop:h-auto overflow-hidden desktop:overflow-visible">
   <!-- wp:group -->
-  <div class="wp-block-group bg-shape z-[0] opacity-[15%] absolute top-[120px] left-[-80px]">
+  <div class="wp-block-group bg-shape z-[0] opacity-[10%] absolute top-[120px] left-[-80px]">
     <!-- wp:paragraph -->
     <p>
       <svg xmlns="http://www.w3.org/2000/svg" width="910" height="1572" viewBox="0 0 910 1572" fill="none">
@@ -20,7 +20,7 @@
     <!-- /wp:paragraph -->
   </div>
   <!-- /wp:group -->  
-  
+
   <!-- wp:group -->
   <div class="wp-block-group container mx-auto desktop:px-0 px-[20px] wide:h-[900px] desktop:h-[790px] h-fit">
     <!-- wp:group -->
