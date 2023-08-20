@@ -56,15 +56,12 @@
       </p>
       <!-- /wp:paragraph -->
       <!-- wp:paragraph -->
-      <p
-        class="section-title desktop:basis-auto desktop:w-[145px] uppercase text-primaryYellow text-right pr-[20px]"
-      >Marketing robimy kompleksowo</p>
+      <p class="section-title desktop:basis-auto desktop:w-[145px] uppercase text-primaryYellow text-right pr-[20px]">Marketing robimy kompleksowo</p>
       <!-- /wp:paragraph -->
       <!-- wp:group -->
       <div class="wp-block-group uslugi-title">
         <!-- wp:paragraph -->
-        <p class="uppercase desktop:text-[50px] text-[24px] desktop:leading-[55px] leading-[30px]"
-        >Wybierz usługę którą <br />jesteś<span class="relative desktop:text-[50px] text-[24px] uppercase italic before:content-[''] before:inline-block desktop:before:mr-[8px] before:mr-[4px] before:bottom-0 before:left-0 desktop:before:w-[90px] before:w-[30px] desktop:before:h-[3px] before:h-[2px] before:bg-black">zainteresowany</span></p>
+        <p class="uppercase desktop:text-[50px] text-[24px] desktop:leading-[55px] leading-[30px]">Wybierz usługę którą <br />jesteś<span class="relative desktop:text-[50px] text-[24px] uppercase italic before:content-[''] before:inline-block desktop:before:mr-[8px] before:mr-[4px] before:bottom-0 before:left-0 desktop:before:w-[90px] before:w-[30px] desktop:before:h-[3px] before:h-[2px] before:bg-black">zainteresowany</span></p>
         <!-- /wp:paragraph -->
       </div>
       <!-- /wp:group -->
