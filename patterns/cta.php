@@ -7,7 +7,7 @@
  */
 ?>
 <!-- wp:group {"templateLock":"all","lock":{"move":true,"remove":true},"anchor":true} -->
-<div id="CTA" class="wp-block-group relative cta mb-[150px]">
+<div id="CTA" class="wp-block-group relative cta mb-[150px] overflow-x-hidden">
   <!-- wp:paragraph -->
   <p>
     <svg class="bg-shape z-[0] opacity-[0.16] absolute top-[-145px] left-[-80px]" width="1201" height="846" viewBox="0 0 1201 846" fill="none">
