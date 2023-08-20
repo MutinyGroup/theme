@@ -9,17 +9,18 @@
 
 <!-- wp:group {"templateLock":"all","lock":{"move":true,"remove":true},"anchor":true} -->
 <div id="Banner" class="wp-block-group banner group relative mb-0 pt-[80px] h-fit desktop:h-auto overflow-hidden desktop:overflow-visible">
-        <!-- wp:group -->
-        <div class="wp-block-group bg-shape z-[0] opacity-[15%] absolute top-[50px] left-[0px]">
-          <!-- wp:paragraph -->
-          <p>
-            <svg xmlns="http://www.w3.org/2000/svg" width="910" height="1572" viewBox="0 0 910 1572" fill="none">
-              <path d="M-498 1.66654L439.866 331.967L440.198 332.084L440.53 331.967L908.797 167.051V413.008L440.198 578.041L-263.868 330.081L-265.201 329.611V331.024V1570L-498 1488.01V1.66654Z" stroke="white" stroke-width="2"/>
-            </svg>
-          </p>
-          <!-- /wp:paragraph -->
-        </div>
-        <!-- /wp:group -->  
+  <!-- wp:group -->
+  <div class="wp-block-group bg-shape z-[0] opacity-[15%] absolute top-[120px] left-[-80px]">
+    <!-- wp:paragraph -->
+    <p>
+      <svg xmlns="http://www.w3.org/2000/svg" width="910" height="1572" viewBox="0 0 910 1572" fill="none">
+        <path d="M-498 1.66654L439.866 331.967L440.198 332.084L440.53 331.967L908.797 167.051V413.008L440.198 578.041L-263.868 330.081L-265.201 329.611V331.024V1570L-498 1488.01V1.66654Z" stroke="white" stroke-width="2"/>
+      </svg>
+    </p>
+    <!-- /wp:paragraph -->
+  </div>
+  <!-- /wp:group -->  
+  
   <!-- wp:group -->
   <div class="wp-block-group container mx-auto desktop:px-0 px-[20px] wide:h-[900px] desktop:h-[790px] h-fit">
     <!-- wp:group -->
