@@ -20,7 +20,7 @@
         <!-- wp:group -->
         <div class="wp-block-group section-title grid desktop:w-[145px] desktop:basis-auto uppercase text-primaryYellow">
           <!-- wp:paragraph -->
-          <p class="justify-self-start pt-[3px] pr-[15px]">AKTUALNOŚCI</p>
+          <p class="justify-self-start desktop:justify-self-end pt-[3px] pr-[15px]">AKTUALNOŚCI</p>
           <!-- /wp:paragraph -->
         </div>  
         <!-- /wp:group -->

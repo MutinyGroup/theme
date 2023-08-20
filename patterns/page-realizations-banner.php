@@ -18,7 +18,7 @@
         <!-- wp:group -->
         <div class="wp-block-group section-title grid desktop:w-[145px] desktop:basis-auto uppercase text-primaryYellow">
           <!-- wp:paragraph -->
-          <p class="justify-self-start pt-[3px] pr-[15px]">Realizacje</p>
+          <p class="justify-self-start desktop:justify-self-end pt-[3px] pr-[15px]">Realizacje</p>
           <!-- /wp:paragraph -->
         </div>  
         <!-- /wp:group -->
@@ -59,7 +59,7 @@
     <div class="wp-block-group desktop:w-[175px] w-[140px] desktop:h-[175px] h-[140px] desktop:mx-0 mb-[80px] dekstop:mb-0 text-center rounded-full desktop:border-[4px] border-[3px] border-[#AAAAAA] mx-auto desktop:absolute desktop:top-[-130px] top-[310px] wide:left-[70%] desktop:left-[85%] left-[50%] desktop:translate-x-[-50%] group-hover:border-none group-hover:bg-primaryYellow group-hover:text-white transition ease-out duration-300 flex flex-col justify-center items-center gap-y-0 cursor-pointer">
       <!-- wp:paragraph -->
       <p>
-        <a href="#Posty">
+        <a href="#Eventy">
           <span class="font-bold block">Zobacz</span>
           <span class="font-bold block text-[25px]">WIĘCEJ</span>
         </a>
