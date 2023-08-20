@@ -23,7 +23,7 @@
         </div>  
         <!-- /wp:group -->
         <!-- wp:group -->
-        <div class="wp-block-group max-w-[75%] uslugi-title uppercase font-medium desktop:text-[60px] text-[30px] desktop:leading-[60px] leading-[30px]">
+        <div class="wp-block-group max-w-[85%] uslugi-title uppercase font-medium desktop:text-[60px] text-[30px] desktop:leading-[60px] leading-[30px]">
           <!-- wp:paragraph -->
           <p>SPRAWDŹ CO</p>
           <!-- /wp:paragraph -->
