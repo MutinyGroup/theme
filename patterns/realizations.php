@@ -23,7 +23,7 @@
     <!-- wp:group -->
     <div class="wp-block-group title-wrapper relative desktop:mb-[150px] mb-[230px] flex gap-[20px]">
       <!-- wp:group -->
-      <div class="wp-block-group flash-wrapper wide:scale-[1] desktop:scale-[1] scale-[0.5] absolute top-[-340px] desktop:top-[-300px] wide:top-[-270px] left-[-240px] desktop:left-[-200px] wide:left-[-260px] z-[-1]">
+      <div class="wp-block-group flash-wrapper wide:scale-[1] desktop:scale-[1] scale-[0.5] absolute top-[-340px] desktop:top-[-300px] wide:top-[-270px] left-[-240px] desktop:left-[-200px] wide:left-[-260px] z-[0]">
         <!-- wp:paragraph -->
         <p>
           <svg class="flash" xmlns="http://www.w3.org/2000/svg" width="688" height="801" viewBox="0 0 688 801" fill="none">
@@ -60,12 +60,8 @@
       <p class="section-title uppercase text-primaryYellow">Realizacje</p>
       <!-- /wp:paragraph -->
 
-
-
-
-
       <!-- wp:group -->
-      <div class="wp-block-group uslugi-title is-layout-flow">
+      <div class="wp-block-group uslugi-title z-[1] relative is-layout-flow">
         <!-- wp:paragraph -->
         <p class="uppercase desktop:text-[50px] text-[24px] desktop:leading-[55px] leading-[30px]">Zobacz efekty</p>
         <!-- /wp:paragraph -->
