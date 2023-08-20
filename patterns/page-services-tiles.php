@@ -18,60 +18,53 @@
       class="wp-block-group title-wrapper relative container mx-auto desktop:mb-[120px] mb-[60px] desktop:flex"
     >
       <!-- wp:paragraph -->
-      <svg class="flash desktop:scale-[1] scale-[0.4] absolute desktop:top-[-330px] top-[-360px] desktop:left-[-140px] right-[-100px] z-[-1]" xmlns="http://www.w3.org/2000/svg" width="688" height="801" viewBox="0 0 688 801" fill="none">
-        <g filter="url(#filter0_f_1787_1988)">
-        <circle cx="287.132" cy="400.132" r="150" transform="rotate(-45 287.132 400.132)" fill="url(#paint0_linear_1787_1988)" fill-opacity="0.5"/>
-        </g>
-        <defs>
-        <filter id="filter0_f_1787_1988" x="-112.868" y="0.131836" width="800" height="800" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-        <feFlood flood-opacity="0" result="BackgroundImageFix"/>
-        <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
-        <feGaussianBlur stdDeviation="125" result="effect1_foregroundBlur_1787_1988"/>
-        </filter>
-        <linearGradient id="paint0_linear_1787_1988" x1="287.132" y1="250.132" x2="287.132" y2="550.132" gradientUnits="userSpaceOnUse">
-        <stop stop-color="#FEC400" stop-opacity="0.6"/>
-        <stop offset="1" stop-color="#FEC400" stop-opacity="0"/>
-        </linearGradient>
-        </defs>
-      </svg>
+      <p>
+        <svg class="flash desktop:scale-[1] scale-[0.4] absolute desktop:top-[-330px] top-[-360px] desktop:left-[-140px] right-[-100px] z-[-1]" xmlns="http://www.w3.org/2000/svg" width="688" height="801" viewBox="0 0 688 801" fill="none">
+          <g filter="url(#filter0_f_1787_1988)">
+          <circle cx="287.132" cy="400.132" r="150" transform="rotate(-45 287.132 400.132)" fill="url(#paint0_linear_1787_1988)" fill-opacity="0.5"/>
+          </g>
+          <defs>
+          <filter id="filter0_f_1787_1988" x="-112.868" y="0.131836" width="800" height="800" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+          <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+          <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+          <feGaussianBlur stdDeviation="125" result="effect1_foregroundBlur_1787_1988"/>
+          </filter>
+          <linearGradient id="paint0_linear_1787_1988" x1="287.132" y1="250.132" x2="287.132" y2="550.132" gradientUnits="userSpaceOnUse">
+          <stop stop-color="#FEC400" stop-opacity="0.6"/>
+          <stop offset="1" stop-color="#FEC400" stop-opacity="0"/>
+          </linearGradient>
+          </defs>
+        </svg>
+      </p>
       <!-- /wp:paragraph -->
       <!-- wp:paragraph -->
-      <svg
-        class="shape scale-[0.6] desktop:scale-[1] z-[-1] absolute top-0 desktop:right-[-100px] right-auto left-[-40px] desktop:left-auto"
-        xmlns="http://www.w3.org/2000/svg"
-        width="470"
-        height="396"
-        viewBox="0 0 470 396"
-        fill="none"
-      >
-        <path
-          d="M468.243 393.924L1 236.702V1.9702L468.243 159.192V393.924Z"
-          stroke="#FFFFFF"
-          stroke-width="2"
-        />
-      </svg>
+      <p>
+        <svg
+          class="shape scale-[0.6] desktop:scale-[1] z-[-1] absolute top-0 desktop:right-[-100px] right-auto left-[-40px] desktop:left-auto"
+          xmlns="http://www.w3.org/2000/svg"
+          width="470"
+          height="396"
+          viewBox="0 0 470 396"
+          fill="none"
+        >
+          <path
+            d="M468.243 393.924L1 236.702V1.9702L468.243 159.192V393.924Z"
+            stroke="#FFFFFF"
+            stroke-width="2"
+          />
+        </svg>
+      </p>
       <!-- /wp:paragraph -->
       <!-- wp:paragraph -->
       <p
         class="section-title desktop:basis-auto desktop:w-[145px] uppercase text-primaryYellow text-right pr-[20px]"
-      >
-        Marketing robimy kompleksowo
-      </p>
+      >Marketing robimy kompleksowo</p>
       <!-- /wp:paragraph -->
       <!-- wp:group -->
       <div class="wp-block-group uslugi-title">
         <!-- wp:paragraph -->
-        <p
-          class="uppercase desktop:text-[50px] text-[24px] desktop:leading-[55px] leading-[30px]"
-        >
-          Wybierz usługę którą <br />
-          jesteś
-          <span
-            class="relative desktop:text-[50px] text-[24px] uppercase italic before:content-[''] before:inline-block desktop:before:mr-[8px] before:mr-[4px] before:bottom-0 before:left-0 desktop:before:w-[90px] before:w-[30px] desktop:before:h-[3px] before:h-[2px] before:bg-black"
-          >
-            zainteresowany</span
-          >
-        </p>
+        <p class="uppercase desktop:text-[50px] text-[24px] desktop:leading-[55px] leading-[30px]"
+        >Wybierz usługę którą <br />jesteś<span class="relative desktop:text-[50px] text-[24px] uppercase italic before:content-[''] before:inline-block desktop:before:mr-[8px] before:mr-[4px] before:bottom-0 before:left-0 desktop:before:w-[90px] before:w-[30px] desktop:before:h-[3px] before:h-[2px] before:bg-black">zainteresowany</span></p>
         <!-- /wp:paragraph -->
       </div>
       <!-- /wp:group -->
@@ -81,12 +74,7 @@
     <!-- wp:group -->
     <div class="wp-block-group paragrapth-wrapper desktop:max-w-[1115px] mb-[100px] mx-auto">
       <!-- wp:paragraph -->
-      <p class="text ml-auto mr-0 text-[20px] leading-[30px] max-w-[625px]">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-        ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-        aliquip ex ea commodo consequat.
-      </p>
+      <p class="text ml-auto mr-0 text-[20px] leading-[30px] max-w-[625px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
       <!-- /wp:paragraph -->
     </div>
     <!-- /wp:group -->
@@ -133,26 +121,28 @@
                       <!-- /wp:image -->
 
                       <!-- wp:paragraph -->
-                      <svg x="0px" y="0px" viewBox="0 0 1374.7 1083.6" class="absolute top-0" >
-                      <defs>
-                        <?php 
-                          if($counter == 1){
-                            echo '
-                            <clipPath id="clipped-realizations-1" class="scale-[0.002]" clipPathUnits="objectBoundingBox">
-                              <path d="M94.1421 5.85786C97.8929 2.10713 102.98 0 108.284 0H515C526.046 0 535 8.95431 535 20V670C535 686.569 521.569 700 505 700H20.0002C8.95451 700 0.000199138 691.046 0.000195955 680L3.12042e-05 108.284C2.96756e-05 102.98 2.10717 97.8929 5.85789 94.1421L94.1421 5.85786Z"/>
-                            </clipPath>
-                            '; 
-                          }elseif($counter == $post_query->post_count){
-                            echo '
-                            <clipPath id="clipped-realizations-2" class="scale-[0.00143] scale-x-[0.00188]" clipPathUnits="objectBoundingBox">
-                              <path d="M99.9999 0H515C526.046 0 535 8.95431 535 20V630C535 641.046 526.046 650 515 650H346.951C338.934 650 331.25 653.209 325.615 658.91L293.807 691.09C288.172 696.791 280.488 700 272.471 700H20.0001C8.9544 700 0.000110665 691.046 0.000107937 680L-5.50846e-05 20C-5.78129e-05 8.9543 8.95425 0 19.9999 0L99.9999 0Z"/>
-                            </clipPath>
-                            ';
-                          } 
-                        ?>
-   
-                      </defs>
-                    </svg>
+                      <p>
+                        <svg x="0px" y="0px" viewBox="0 0 1374.7 1083.6" class="absolute top-0" >
+                          <defs>
+                            <?php 
+                              if($counter == 1){
+                                echo '
+                                <clipPath id="clipped-realizations-1" class="scale-[0.002]" clipPathUnits="objectBoundingBox">
+                                  <path d="M94.1421 5.85786C97.8929 2.10713 102.98 0 108.284 0H515C526.046 0 535 8.95431 535 20V670C535 686.569 521.569 700 505 700H20.0002C8.95451 700 0.000199138 691.046 0.000195955 680L3.12042e-05 108.284C2.96756e-05 102.98 2.10717 97.8929 5.85789 94.1421L94.1421 5.85786Z"/>
+                                </clipPath>
+                                '; 
+                              }elseif($counter == $post_query->post_count){
+                                echo '
+                                <clipPath id="clipped-realizations-2" class="scale-[0.00143] scale-x-[0.00188]" clipPathUnits="objectBoundingBox">
+                                  <path d="M99.9999 0H515C526.046 0 535 8.95431 535 20V630C535 641.046 526.046 650 515 650H346.951C338.934 650 331.25 653.209 325.615 658.91L293.807 691.09C288.172 696.791 280.488 700 272.471 700H20.0001C8.9544 700 0.000110665 691.046 0.000107937 680L-5.50846e-05 20C-5.78129e-05 8.9543 8.95425 0 19.9999 0L99.9999 0Z"/>
+                                </clipPath>
+                                ';
+                              } 
+                            ?>
+      
+                          </defs>
+                        </svg>
+                      </p>
                       <!-- /wp:paragraph -->
                     </div>
                     <!-- /wp:group -->
@@ -161,11 +151,7 @@
                       class="wp-block-group slide-title absolute desktop:bottom-[0px] bottom-[55px] desktop:left-[25px] left-[20px] translate-y-[130px] desktop:translate-y-[0px] group-hover:translate-y-[-20px] desktop:group-hover:translate-y-[-120px] transition ease-out duration-[400ms]"
                     >
                       <!-- wp:paragraph -->
-                      <a href="<?php the_permalink(); ?>"
-                        class="mr-[20px] desktop:text-[35px] text-[26px] font-semibold mb-[15px] underline-offset-[9px] group-hover:underline group-hover:decoration-primaryYellow"
-                      >
-                        <?php the_title(); ?>
-                      </a>
+                      <a href="<?php the_permalink(); ?>" class="mr-[20px] desktop:text-[35px] text-[26px] font-semibold mb-[15px] underline-offset-[9px] group-hover:underline group-hover:decoration-primaryYellow"><?php the_title(); ?></a>
                       <!-- /wp:paragraph -->
                       <!-- wp:list -->
                       <ul
@@ -183,9 +169,7 @@
                           </div>
                           <!-- /wp:group -->
                           <!-- wp:paragraph -->
-                          <p class="leading-[20px]">
-                            Opracowanie strategii marketingowych
-                          </p>
+                          <p class="leading-[20px]">Opracowanie strategii marketingowych</p>
                           <!-- /wp:paragraph -->
                         </li>
                         <!-- /wp:list-item -->
@@ -201,9 +185,7 @@
                           </div>
                           <!-- /wp:group -->
                           <!-- wp:paragraph -->
-                          <p class="leading-[20px]">
-                            Content marketing
-                          </p>
+                          <p class="leading-[20px]">Content marketing</p>
                           <!-- /wp:paragraph -->
                         </li>
                         <!-- /wp:list-item -->
@@ -219,9 +201,7 @@
                           </div>
                           <!-- /wp:group -->
                           <!-- wp:paragraph -->
-                          <p class="leading-[20px]">
-                            Kreowanie tożsamości marki
-                          </p>
+                          <p class="leading-[20px]">Kreowanie tożsamości marki</p>
                           <!-- /wp:paragraph -->
                         </li>
                         <!-- /wp:list-item -->
@@ -237,9 +217,7 @@
                           </div>
                           <!-- /wp:group -->
                           <!-- wp:paragraph -->
-                          <p class="leading-[20px]">
-                            Dobór kanałów i narzędzi komunikacji
-                          </p>
+                          <p class="leading-[20px]">Dobór kanałów i narzędzi komunikacji</p>
                           <!-- /wp:paragraph -->
                         </li>
                         <!-- /wp:list-item -->                                                
@@ -258,41 +236,41 @@
                       <!-- wp:group -->
                       <div class="wp-block-group inline">
                         <!-- wp:paragraph -->
-                        <p class="inline">
-                          Dowiedz się więcej
-                        </p>
+                        <p class="inline">Dowiedz się więcej</p>
                         <!-- /wp:paragraph -->
                       </div>
                       <!-- /wp:group -->
                       <!-- wp:paragraph -->
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="36"
-                        height="36"
-                        viewBox="0 0 36 36"
-                        fill="none "
-                        class="inline-block ml-[10px]"
-                      >
-                        <rect
-                          x="1"
-                          y="1"
-                          width="34"
-                          height="34"
-                          rx="18"
-                          stroke="#AAAAAA"
-                          stroke-width="2"
-                          fill="transparent"
-                          class="transition ease-out duration-300 group-hover:fill-[#FEC400] group-hover:stroke-[#FEC400]"
-                        />
-                        <path
-                          d="M19 22L23 18.0108L19.0217 14"
-                          stroke="black"
-                        />
-                        <path
-                          d="M12 18L20 18"
-                          stroke="black"
-                        />
-                      </svg>
+                      <p>
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="36"
+                          height="36"
+                          viewBox="0 0 36 36"
+                          fill="none "
+                          class="inline-block ml-[10px]"
+                        >
+                          <rect
+                            x="1"
+                            y="1"
+                            width="34"
+                            height="34"
+                            rx="18"
+                            stroke="#AAAAAA"
+                            stroke-width="2"
+                            fill="transparent"
+                            class="transition ease-out duration-300 group-hover:fill-[#FEC400] group-hover:stroke-[#FEC400]"
+                          />
+                          <path
+                            d="M19 22L23 18.0108L19.0217 14"
+                            stroke="black"
+                          />
+                          <path
+                            d="M12 18L20 18"
+                            stroke="black"
+                          />
+                        </svg>
+                      </p>
                       <!-- /wp:paragraph -->
                     </a>
                     <!-- /wp:paragraph -->
