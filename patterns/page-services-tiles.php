@@ -162,15 +162,18 @@
                           class="mb-[6px] text-[15px] relative flex gap-[10px]"
                         >
                           <!-- wp:group -->
-                          <div class="wp-block-group separator mt-[8px] w-[20px] h-[2px] bg-primaryYellow">
+                          <div class="wp-block-group wrapper-test">
+                            <!-- wp:group -->
+                            <div class="wp-block-group separator mt-[8px] w-[20px] h-[2px] bg-primaryYellow">
+                              <!-- wp:paragraph -->
+                              <p class="hidden">separator</p>
+                              <!-- /wp:paragraph -->
+                            </div>
+                            <!-- /wp:group -->
                             <!-- wp:paragraph -->
-                            <p class="hidden">separator</p>
+                            <p class="leading-[20px]">Opracowanie strategii marketingowych</p>
                             <!-- /wp:paragraph -->
                           </div>
-                          <!-- /wp:group -->
-                          <!-- wp:paragraph -->
-                          <p class="leading-[20px]">Opracowanie strategii marketingowych</p>
-                          <!-- /wp:paragraph -->
                         </li>
                         <!-- /wp:list-item -->
                         <!-- wp:list-item -->
@@ -178,15 +181,18 @@
                           class="mb-[6px] text-[15px] relative flex gap-[10px]"
                         >
                           <!-- wp:group -->
-                          <div class="wp-block-group separator mt-[8px] w-[20px] h-[2px] bg-primaryYellow">
+                          <div class="wp-block-group wrapper-test">                        
+                            <!-- wp:group -->
+                            <div class="wp-block-group separator mt-[8px] w-[20px] h-[2px] bg-primaryYellow">
+                              <!-- wp:paragraph -->
+                              <p class="hidden">separator</p>
+                              <!-- /wp:paragraph -->
+                            </div>
+                            <!-- /wp:group -->
                             <!-- wp:paragraph -->
-                            <p class="hidden">separator</p>
+                            <p class="leading-[20px]">Content marketing</p>
                             <!-- /wp:paragraph -->
                           </div>
-                          <!-- /wp:group -->
-                          <!-- wp:paragraph -->
-                          <p class="leading-[20px]">Content marketing</p>
-                          <!-- /wp:paragraph -->
                         </li>
                         <!-- /wp:list-item -->
                         <!-- wp:list-item -->
