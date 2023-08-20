@@ -61,36 +61,22 @@
       <!-- wp:group -->
       <div class="wp-block-group col1 desktop:pl-[155px] basis-[40%]">
         <!-- wp:paragraph -->
-        <p class="max-w-[173px] text-[16px] leading-[21px]">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor.
-        </p>
+        <p class="max-w-[173px] text-[16px] leading-[21px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
         <!-- /wp:paragraph -->
       </div>
       <!-- /wp:group -->
       <!-- wp:group -->
       <div class=" wp-block-group col2 basis-[60%]">
         <!-- wp:paragraph -->
-        <p class="desktop:text-[20px] text-[18px] desktop:leading-[30px] leading-[26px] mb-[50px]">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-          enim ad minim veniam, quis nostrud exercitation ullamco laboris
-          nisi ut aliquip ex ea commodo consequat.
-        </p>
+        <p class="desktop:text-[20px] text-[18px] desktop:leading-[30px] leading-[26px] mb-[50px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
         <!-- /wp:paragraph -->
         <!-- wp:paragraph -->
-        <p class="hidden desktop:block text-[16px] leading-[21px]">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-          enim ad minim veniam, quis nostrud exercitation ullamco laboris
-          nisi ut aliquip ex ea commodo consequat.
-        </p>
+        <p class="hidden desktop:block text-[16px] leading-[21px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
         <!-- /wp:paragraph -->
       </div>
       <!-- /wp:group -->
     </div>
     <!-- /wp:group -->
-    
     
     <!-- wp:group -->
     <div class="wp-block-group separator w-full h-[2px] bg-[#D5D5D5] mb-[50px]">
@@ -120,9 +106,7 @@
           <p class="target-title desktop:mb-[15px] text-[20px] font-semibold">Mamy plan</p>
           <!-- /wp:paragraph -->
           <!-- wp:paragraph -->
-          <p class="target-paragraph font-light leading-[21px]">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-          </p>
+          <p class="target-paragraph font-light leading-[21px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
           <!-- /wp:paragraph -->
         </div>
         <!-- /wp:group -->
@@ -144,9 +128,7 @@
           <p class="target-title desktop:mb-[15px] text-[20px] font-semibold">Mamy plan</p>
           <!-- /wp:paragraph -->
           <!-- wp:paragraph -->
-          <p class="target-paragraph font-light leading-[21px]">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-          </p>
+          <p class="target-paragraph font-light leading-[21px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
           <!-- /wp:paragraph -->
         </div>
         <!-- /wp:group -->
@@ -168,9 +150,7 @@
           <p class="target-title desktop:mb-[15px] text-[20px] font-semibold">Mamy plan</p>
           <!-- /wp:paragraph -->
           <!-- wp:paragraph -->
-          <p class="target-paragraph font-light leading-[21px]">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-          </p>
+          <p class="target-paragraph font-light leading-[21px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
           <!-- /wp:paragraph -->
         </div>
         <!-- /wp:group -->
@@ -192,9 +172,7 @@
           <p class="target-title desktop:mb-[15px] text-[20px] font-semibold">Mamy plan</p>
           <!-- /wp:paragraph -->
           <!-- wp:paragraph -->
-          <p class="target-paragraph font-light leading-[21px]">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-          </p>
+          <p class="target-paragraph font-light leading-[21px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
           <!-- /wp:paragraph -->
         </div>
         <!-- /wp:group -->
