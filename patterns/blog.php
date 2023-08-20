@@ -47,7 +47,7 @@
       <!-- /wp:group -->
 
       <!-- wp:image -->
-      <figure class="wp-block-image bg-shape desktop:w-[234px] w-[125px] z-[-1] opacity-[0.3] absolute desktop:top-[-130px] top-[-60px] desktop:left-[-10px] left-[-10px] mb-[20px] desktop:max-w-[444px] max-h-[450px]">
+      <figure class="wp-block-image bg-shape desktop:w-[234px] w-[125px] z-[0] opacity-[0.3] absolute desktop:top-[-130px] top-[-60px] desktop:left-[-10px] left-[-10px] mb-[20px] desktop:max-w-[444px] max-h-[450px]">
         <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/front-page/blog-bg-shape.png" alt="background-shape">
       </figure>
       <!-- /wp:image -->
@@ -60,7 +60,7 @@
       <p class="section-title uppercase text-primaryYellow">Aktualności</p>
       <!-- /wp:paragraph -->
       <!-- wp:group -->
-      <div class="wp-block-group uslugi-title is-layout-flow">
+      <div class="wp-block-group blog-title z-[1]">
         <!-- wp:paragraph -->
         <p class="uppercase inline desktop:text-[50px] text-[24px] desktop:leading-[55px] leading-[30px]">Aktualności i wydarzenia</p>
         <!-- /wp:paragraph -->
