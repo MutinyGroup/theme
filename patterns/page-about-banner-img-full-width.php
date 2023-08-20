@@ -8,23 +8,15 @@
 ?>
 
 <!-- wp:group {"templateLock":"all","lock":{"move":true,"remove":true},"anchor":true} -->
-<div id="Banner" class="wp-block-group about-banner group desktop:mb-[150px]">
+<div id="Banner" class="wp-block-group about-banner group desktop:mb-[150px] pt-[80px] desktop:pt-auto">
   <!-- wp:group -->
-  <div
-    class="wp-block-group container relative mx-auto desktop:px-0 px-[20px]"
-  >
+  <div class="wp-block-group container relative mx-auto desktop:px-0 px-[20px]">
     <!-- wp:group -->
-    <div
-      class="wp-block-group title-wrapper relative desktop:mb-[40px] mb-[20px] desktop:mt-[90px]"
-    >
+    <div class="wp-block-group title-wrapper relative desktop:mb-[40px] mb-[20px] desktop:mt-[90px]">
       <!-- wp:group -->
-      <div
-        class="wp-block-group title-wrapper relative container mx-auto flex"
-      >
+      <div class="wp-block-group title-wrapper relative container mx-auto flex">
         <!-- wp:group -->
-        <div
-        class="wp-block-group section-title grid desktop:w-[145px] w-[90px] uppercase text-primaryYellow"
-        >
+        <div class="wp-block-group section-title grid desktop:w-[145px] w-[90px] uppercase text-primaryYellow">
           <!-- wp:paragraph -->
           <p class="justify-self-end pt-[3px] pr-[15px]">O nas</p>
           <!-- /wp:paragraph -->
