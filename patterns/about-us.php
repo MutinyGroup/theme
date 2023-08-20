@@ -226,9 +226,9 @@
         <!-- wp:group -->
         <div class="wp-block-group button-wrapper flex items-center gap-[64px]">
           <!-- wp:buttons -->
-          <div class="wp-block-buttons btn-more cursor-pointer ml-[0px] p-[15px_30px] uppercase border-[2px] border-white rounded-full desktop:static absolute desktop:bottom-[-30px] bottom-[-80px] desktop:left-[0px] left-[50%] desktop:translate-x-0 translate translate-x-[-50%] hover:bg-white hover:text-black transition ease-out duration-300">
+          <div class="wp-block-buttons min-w-[225px] flex justify-center items-center px-[20px] btn-more ml-[0px] p-[15px_30px] uppercase border-[2px] border-white rounded-full hover:bg-white hover:text-black transition ease-out duration-300">
             <!-- wp:paragraph -->
-            <p class="uppercase w-fit text-[14px] font-bold"><a href="<?php echo get_home_url() . '/about' ?>">Dowiedz się więcej</a></p>
+            <p><a href="<?php echo get_home_url() . '/about'; ?>" class="uppercase text-[14px] font-bold">Dowiedz się więcej</a></p>
             <!-- /wp:paragraph -->
           </div>
           <!-- /wp:buttons -->
