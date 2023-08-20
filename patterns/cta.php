@@ -92,13 +92,15 @@
     </figure>
     <!-- /wp:image -->
     <!-- wp:paragraph -->
-    <svg x="0px" y="0px" viewBox="0 0 1374.7 1083.6" class="absolute top-0" >
-      <defs>
-        <clipPath id="clipped-cta" class="scale-[0.00125] desktop:scale-[0.0013] desktop:scale-y-[0.0015] wide:scale-y-[0.001525]" clipPathUnits="objectBoundingBox">
-          <path d="M0 20C0 8.9543 8.95431 0 20 0L808 0V650H212.426C204.47 650 196.839 646.839 191.213 641.213L8.78681 458.787C3.16072 453.161 0 445.53 0 437.574V20Z"/>
-        </clipPath>
-      </defs>
-    </svg>
+    <p>
+      <svg x="0px" y="0px" viewBox="0 0 1374.7 1083.6" class="absolute top-0" >
+        <defs>
+          <clipPath id="clipped-cta" class="scale-[0.00125] desktop:scale-[0.0013] desktop:scale-y-[0.0015] wide:scale-y-[0.001525]" clipPathUnits="objectBoundingBox">
+            <path d="M0 20C0 8.9543 8.95431 0 20 0L808 0V650H212.426C204.47 650 196.839 646.839 191.213 641.213L8.78681 458.787C3.16072 453.161 0 445.53 0 437.574V20Z"/>
+          </clipPath>
+        </defs>
+      </svg>
+    </p>
     <!-- /wp:paragraph -->
   </div>
   <!-- /wp:group -->
