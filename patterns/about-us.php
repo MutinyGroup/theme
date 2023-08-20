@@ -224,7 +224,7 @@
         <!-- /wp:list -->
 
         <!-- wp:group -->
-        <div class="wp-block-group button-wrapper flex items-center gap-[64px]">
+        <div class="wp-block-group button-wrapper flex justify-center items-center gap-[64px]">
           <!-- wp:buttons -->
           <div class="wp-block-buttons min-w-[225px] flex justify-center items-center px-[20px] btn-more ml-[0px] p-[15px_30px] uppercase border-[2px] border-white rounded-full hover:bg-white hover:text-black transition ease-out duration-300">
             <!-- wp:paragraph -->
