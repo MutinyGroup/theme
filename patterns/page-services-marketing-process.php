@@ -10,17 +10,11 @@
 <!-- wp:group {"templateLock":"all","lock":{"move":true,"remove":true},"anchor":true} -->
 <div id="Process" class="wp-block-group page-marketing-info desktop:my-[150px] my-[50px]">
   <!-- wp:group -->
-  <div
-    class="wp-block-group container mx-auto relative desktop:px-0 px-[20px]"
-  >
+  <div class="wp-block-group container mx-auto relative desktop:px-0 px-[20px]">
     <!-- wp:group -->
-    <div
-      class="wp-block-group title-wrapper relative desktop:mb-[58px] mb-[40px] pt-[90px]"
-    >
+    <div class="wp-block-group title-wrapper relative desktop:mb-[58px] mb-[40px] pt-[90px]">
       <!-- wp:group -->
-      <div
-        class="wp-block-group title-wrapper relative desktop:flex"
-      >
+      <div class="wp-block-group title-wrapper relative desktop:flex">
         <!-- wp:paragraph -->
         <p>
           <svg class="flash desktop:scale-[1] scale-[0.4] absolute desktop:top-[-330px] top-[-360px] desktop:left-[-140px] right-[-100px] z-[-1]" xmlns="http://www.w3.org/2000/svg" width="688" height="801" viewBox="0 0 688 801" fill="none">
@@ -43,9 +37,7 @@
         <!-- /wp:paragraph -->
 
         <!-- wp:group -->
-        <div
-        class="wp-block-group section-title grid desktop:basis-auto desktop:w-[145px] uppercase text-primaryYellow"
-        >
+        <div class="wp-block-group section-title grid desktop:basis-auto desktop:w-[145px] uppercase text-primaryYellow">
           <!-- wp:paragraph -->
           <p class="desktop:justify-self-end pt-[3px] pr-[15px] text-[20px]">01</p>
           <!-- /wp:paragraph -->
@@ -70,8 +62,7 @@
       <!-- wp:group -->
       <div class="wp-block-group col1 desktop:pl-[155px] basis-[40%]">
         <!-- wp:paragraph -->
-        <p class="max-w-[173px] text-[16px] leading-[21px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
-        </p>
+        <p class="max-w-[173px] text-[16px] leading-[21px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
         <!-- /wp:paragraph -->
       </div>
       <!-- /wp:group -->
