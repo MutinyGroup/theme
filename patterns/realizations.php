@@ -110,7 +110,7 @@
                 <!-- wp:list-item -->
                 <li class="wp-block-group tile-realizacje mb-[30px] desktop:w-[545px] wide:w-[600px] h-[480px] desktop:h-[700px] wide:h-[780px] relative group transition ease-in-out duration-[400ms] group <?php if (($counter % 2)) echo 'tile-realizacje-1'; else echo 'tile-realizacje-2 desktop:translate-y-[70px]'; ?>">
                   <!-- wp:group -->
-                  <div class="wp-block-group <?php if($counter == 1) echo 'clipped-realizations-1'; elseif($counter == $post_query->post_count) echo 'clipped-realizations-2'; ?> gray-overlay w-full h-full bg-[#101010] z-[1] absolute top-0 left-0 opacity-[60%]">
+                  <div class="wp-block-group <?php if($counter == 1) echo "clip-path-url-['#clipped-realizations-1']"; elseif($counter == $post_query->post_count) echo "clip-path-url-['#clipped-realizations-2']"; ?> gray-overlay w-full h-full bg-[#101010] z-[1] absolute top-0 left-0 opacity-[60%]">
                     <!-- wp:paragraph -->
                     <p class="hidden">gray overlay</p>
                     <!-- /wp:paragraph -->
@@ -119,7 +119,7 @@
                   <!-- wp:group -->
                   <div class="wp-block-group img-clip-path-wrapper w-full h-full rounded-tr-[20px] rounded-br-[20px] overflow-hidden absolute left-0 top-0">
                     <!-- wp:image -->
-                    <figure class="wp-block-image <?php if($counter == 1) echo 'clipped-realizations-1'; elseif($counter == $post_query->post_count) echo 'clipped-realizations-2'; ?> h-full group-hover:grayscale transition ease-in-out duration-[400ms]">
+                    <figure class="wp-block-image <?php if($counter == 1) echo "clip-path-url-['#clipped-realizations-1']"; elseif($counter == $post_query->post_count) echo "clip-path-url-['#clipped-realizations-2']"; ?> h-full group-hover:grayscale transition ease-in-out duration-[400ms]">
                       <img src="<?php echo $postImageUrl[0]; ?>" alt="realizations-backgroun-image">
                     </figure>
                     <!-- /wp:image -->
