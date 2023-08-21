@@ -96,8 +96,8 @@
                 if ($counter == 1) { ?>
                   <!-- wp:group -->
                   <div class="wp-block-group swiper-slide desktop:mr-[80px] mr-[20px] relative group desktop:w-[535px] w-[300px] h-[500px] desktop:h-[675px] ">
-                    <!-- wp:paragraph -->
-                    <p>
+                    <!-- wp:group -->
+                    <div class="wp-block-group">
                       <a href="<?php the_permalink(); ?>">
                         <!-- wp:group -->
                         <div class="wp-block-group mb-[20px]">
@@ -132,8 +132,8 @@
                         </p>
                         <!-- /wp:paragraph -->
                       </a>
-                    </p>
-                    <!-- /wp:paragraph -->
+                    </div>
+                    <!-- /wp:group -->
                   </div>
                   <!-- /wp:group -->
                 <?php
