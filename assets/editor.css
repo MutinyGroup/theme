@@ -1,6 +1,7 @@
 body{
     background-color: #F2F2F2;
     color: black;
+    overflow-x: hidden;
 }
 a:link{
     text-decoration: none;
