@@ -126,9 +126,7 @@
                       <!-- /wp:paragraph -->
 
                       <!-- wp:paragraph -->
-                      <p class="subtitle inline text-[23px] font-medium leading-[30px] border-b-[1px] border-transparent group-hover:border-primaryYellow group-hover:text-primaryYellow transition ease-out duration-[800ms]">
-                        <?php the_title(); ?>
-                      </p>
+                      <p class="subtitle inline text-[23px] font-medium leading-[30px] border-b-[1px] border-transparent group-hover:border-primaryYellow group-hover:text-primaryYellow transition ease-out duration-[800ms]"><?php the_title(); ?></p>
                       <!-- /wp:paragraph -->
                     </div>
                     <!-- /wp:group -->
