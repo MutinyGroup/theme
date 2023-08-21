@@ -14,6 +14,11 @@ a:link{
 .swiper-services-editor{
     height: 850px;
 }
+.services-img div{
+    height: 100%!important;
+}
+
+/* ------ */
 .swiper .swiperBlog{
     z-index: 10;
     position: relative;
