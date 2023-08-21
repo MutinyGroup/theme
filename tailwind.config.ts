@@ -1,13 +1,13 @@
+import type { Config } from "tailwindcss";
+
 module.exports = {
-  future: {
-    purgeLayersByDefault: true,
-  },
   content: [
-    "./assets/**/*.js",
+    "./assets/**/*.{js,ts}",
     "./parts/**/*.{html,php}",
     "./patterns/**/*.{html,php}",
     "./templates/**/*.{html,php}",
   ],
+  plugins: [require("tailwind-clip-path")],
   theme: {
     container: {
       screens: {
@@ -30,4 +30,4 @@ module.exports = {
       fullhd: "1920px",
     },
   },
-};
+} satisfies Config;

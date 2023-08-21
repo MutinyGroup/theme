@@ -79,6 +79,9 @@ devDependencies:
   stylelint-config-standard:
     specifier: ^34.0.0
     version: 34.0.0(stylelint@15.10.2)
+  tailwind-clip-path:
+    specifier: ^1.0.0
+    version: 1.0.0
 
 packages:
 
@@ -4583,6 +4586,10 @@ packages:
       slice-ansi: 4.0.0
       string-width: 4.2.3
       strip-ansi: 6.0.1
+    dev: true
+
+  /tailwind-clip-path@1.0.0:
+    resolution: {integrity: sha512-pac3BiCZCEKtX+3In4508PFcX2eZL7JwliZMtfYE0RoqFMjfbCVLmu+uuEFqn1y/f2vrOB5rY4XNcmaOSG1csw==}
     dev: true
 
   /tailwindcss-blend-mode@1.0.0:
