@@ -99,7 +99,7 @@
               <!-- /wp:group -->
               <!-- wp:image -->
               <figure class="wp-block-image clipped-swiper-serv-1 w-full h-full">
-                <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-about/about-team1.jpg" alt="team" />
+                <img class="test-in-img" src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-about/about-team1.jpg" alt="team" />
               </figure>
               <!-- /wp:image -->
               <!-- wp:paragraph -->
