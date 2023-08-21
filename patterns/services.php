@@ -154,7 +154,7 @@
                 <!-- /wp:group -->
 
                 <!-- wp:group -->
-                <div class="wp-block-group text-wrapper slide-title absolute desktop:bottom-[85px] bottom-[100px] left-[25px] z-[1] group-hover:translate-y-[-80px] transition ease-out duration-500">
+                <div class="wp-block-group text-wrapper slide-title absolute desktop:bottom-[85px] bottom-[100px] left-[25px] z-[1] group-hover:translate-y-[-80px] transition ease-out duration-500 z-[2]">
                   <!-- wp:paragraph -->
                   <p><a href="<?php the_permalink(); ?>" class="mr-[20px] text-[25px] font-semibold mb-[15px] underline-offset-[7px] group-hover:underline group-hover:decoration-primaryYellow group-hover:translate-y-[-80px] transition ease-out duration-500"><?php the_title(); ?></a></p>
                   <!-- /wp:paragraph -->
@@ -162,7 +162,7 @@
                 <!-- /wp:group -->
 
                 <!-- wp:buttons -->
-                <div class="wp-block-buttons btn-swiper-more group text-[14px] uppercase absolute desktop:bottom-[25px] bottom-[55px] left-[25px] cursor-pointer transition ease-out duration-300 z-[1]">
+                <div class="wp-block-buttons btn-swiper-more group text-[14px] uppercase absolute desktop:bottom-[25px] bottom-[55px] left-[25px] cursor-pointer transition ease-out duration-300 z-[2]">
                   <!-- wp:paragraph -->
                   <p><a href="<?php the_permalink(); ?>" class="inline-block z-[1]">Dowiedz się więcej
                       <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" fill="none " class="inline-block ml-[10px] ">
@@ -176,7 +176,7 @@
                 <!-- /wp:buttons -->
 
                 <!-- wp:paragraph -->
-                <p class="hover-text mt-[370px] wide:mt-[350px] opacity-[0%] group-hover:opacity-[100%] group-hover:mt-[120px] desktop:group-hover:mt-[220px] wide:group-hover:mt-[270px] transition-all ease-out duration-500 text-[15px] font-light z-[1]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet in aspernatur alias ipsa, fuga ut!</p>
+                <p class="hover-text mt-[370px] wide:mt-[350px] opacity-[0%] group-hover:opacity-[100%] group-hover:mt-[120px] desktop:group-hover:mt-[220px] wide:group-hover:mt-[270px] transition-all ease-out duration-500 text-[15px] font-light z-[2]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet in aspernatur alias ipsa, fuga ut!</p>
                 <!-- /wp:paragraph -->
               </div>
               <!-- /wp:group -->
