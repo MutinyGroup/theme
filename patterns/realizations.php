@@ -178,9 +178,6 @@
                     <?php }; ?>
                   </ul>
                   <!-- /wp:list -->
-
-                  </defs>
-                  </svg>
                   </p>
                   <!-- /wp:paragraph -->
               </li>
