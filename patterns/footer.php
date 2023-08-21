@@ -7,7 +7,7 @@
  * Viewport Width: 1280
  */
 ?>
-<!-- wp:group -->
+<!-- wp:group {"templateLock":"all","lock":{"move":true,"remove":true},"anchor":true} -->
 <div id="Footer" class="wp-block-group footer">
   <!-- wp:group -->
   <div class="wp-block-group footer1 container mx-auto desktop:px-0 px-[20px] border-b border-[#80808099]">
