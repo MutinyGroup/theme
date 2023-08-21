@@ -19,6 +19,11 @@ figure[class*="post-img"] img {
 .banner-bg figure div{
     height: 100%!important;
 }
+.banner-bg{
+    right: -80px;
+    width: 50%;
+
+}
 /* Swiper Services */
 
 .swiperServices{
