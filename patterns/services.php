@@ -104,7 +104,7 @@
               <!-- wp:group -->
               <div class="wp-block-group swiper-slide swiper-slide-services relative z-[2] group p-[25px] wide:max-w-[420px] desktop:max-w-[354px] max-w-[310px] h-[380px] desktop:h-[450px] wide:h-[530px] rounded-[20px] transition ease-out duration-300 mr-[8px] <?php echo ($counter == 1) ?  "clip-path-url-['#clipped-swiper-serv-1']" : (($counter == $post_query->post_count) ? "clip-path-url-['#clipped-swiper-serv-2']" : ''); ?>">
                 <!-- wp:group -->
-                <div class="wp-block-group img-clip-path-wrapper w-full h-full rounded-[20px] rounded-br-[20px] overflow-hidden absolute left-0 top-0 z-[-1] group-hover:grayscale">
+                <div class="wp-block-group img-clip-path-wrapper w-full h-full rounded-[20px] rounded-br-[20px] overflow-hidden absolute left-0 top-0 z-[0] group-hover:grayscale">
                   <!-- wp:group -->
                   <div class="wp-block-group img-clip-path-wrapper w-full h-full rounded-[20px] rounded-br-[20px] overflow-hidden absolute left-0 top-0 z-[0] group-hover:grayscale">
                     <!-- wp:group -->
@@ -128,26 +128,27 @@
                   <!-- /wp:image -->
 
                   <!-- wp:paragraph -->
-                  <svg width="0" height="0">
-                    <defs>
-                      <?php
-                      if ($counter == 1) {
-                        echo '
-                              <clipPath id="clipped-swiper-serv-1" class="scale-[0.84] desktop:scale-[1.2]">
-                                <path d="M0 88.2843C0 82.9799 2.10714 77.8929 5.85786 74.1421L74.1421 5.85786C77.8929 2.10713 82.9799 0 88.2843 0H334C345.046 0 354 8.95431 354 20V430C354 441.046 345.046 450 334 450H0V88.2843Z"/>
-                              </clipPath>
-                            ';
-                      } elseif ($counter == $post_query->post_count) {
-                        echo '
-                              <clipPath id="clipped-swiper-serv-2" class="scale-[0.84] desktop:scale-[1] wide:scale-[1.2]">
-                                <path d="M0 20C0 8.9543 8.95431 0 20 0H80H334C345.046 0 354 8.9543 354 20V361.716C354 367.02 351.893 372.107 348.142 375.858L279.858 444.142C276.107 447.893 271.02 450 265.716 450H0V20Z"/>
-                              </clipPath>
-                            ';
-                      }
-                      ?>
-
-                    </defs>
-                  </svg>
+                  <p>
+                    <svg width="0" height="0">
+                      <defs>
+                        <?php
+                        if ($counter == 1) {
+                          echo '
+                            <clipPath id="clipped-swiper-serv-1" class="scale-[0.84] desktop:scale-[1.2]">
+                              <path d="M0 88.2843C0 82.9799 2.10714 77.8929 5.85786 74.1421L74.1421 5.85786C77.8929 2.10713 82.9799 0 88.2843 0H334C345.046 0 354 8.95431 354 20V430C354 441.046 345.046 450 334 450H0V88.2843Z"/>
+                            </clipPath>
+                              ';
+                        } elseif ($counter == $post_query->post_count) {
+                          echo '
+                            <clipPath id="clipped-swiper-serv-2" class="scale-[0.84] desktop:scale-[1] wide:scale-[1.2]">
+                              <path d="M0 20C0 8.9543 8.95431 0 20 0H80H334C345.046 0 354 8.9543 354 20V361.716C354 367.02 351.893 372.107 348.142 375.858L279.858 444.142C276.107 447.893 271.02 450 265.716 450H0V20Z"/>
+                            </clipPath>
+                          ';
+                        }
+                        ?>
+                      </defs>
+                    </svg>
+                  </p>
                   <!-- /wp:paragraph -->
                 </div>
                 <!-- /wp:group -->
