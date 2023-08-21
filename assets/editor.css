@@ -7,18 +7,16 @@ a:link{
     text-decoration: none;
 }
 
-figure[class*="clip-path-url"] img,
-figure[class*="meet-us-gallery"] img,
-figure[class*="post-img"] img {
+figure div{
   height: 100%;
   width: 100%;
   object-fit: cover;
 }
 
 /* FRONTPAGE */
-.banner-bg figure div{
+/* .banner-bg figure div{
     height: 100%!important;
-}
+} */
 .banner-bg{
     right: -80px;
     width: 50%;
@@ -65,9 +63,9 @@ figure[class*="post-img"] img {
 .swiperBlog .swiper-wrapper .swiper-slide{
     min-width: 535px
 }
-.post-img div{
+/* .post-img div{
     height: 100%!important;
-}
+} */
 .swiper-overscroll{
     overflow-x: scroll!important;
 }
