@@ -99,8 +99,7 @@
               <!-- /wp:group -->
               <!-- wp:image -->
               <figure class="wp-block-image clipped-swiper-serv-1 w-full h-full">
-                <img class="test-in-img" src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-about/about-team1.jpg" alt="team"
-                />
+                <img class="test-in-img" src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-about/about-team1.jpg" alt="team" />
               </figure>
               <!-- /wp:image -->
               <!-- wp:paragraph -->
@@ -139,10 +138,7 @@
               <!-- /wp:group -->
               <!-- wp:image -->
               <figure class="wp-block-image w-full h-full [&>img]:test-from-figure">
-                <img
-                  src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-about/about-team3.jpg"
-                  alt="team"
-                />
+                <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-about/about-team3.jpg" alt="team" />
               </figure>
               <!-- /wp:image -->
               <!-- wp:group -->
@@ -174,10 +170,7 @@
               <!-- /wp:group -->              
               <!-- wp:image -->
               <figure class="wp-block-image">
-                <img
-                  src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-about/about-team2.jpg"
-                  alt="team"
-                />
+                <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-about/about-team2.jpg" alt="team" />
               </figure>
               <!-- /wp:image -->
               <!-- wp:group -->
@@ -205,10 +198,7 @@
               <!-- /wp:group -->              
               <!-- wp:image -->
               <figure class="wp-block-image clipped-team h-full">
-                <img
-                src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-about/about-team4.jpg"
-                alt="team"
-                />
+                <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-about/about-team4.jpg" alt="team" />
               </figure>
               <!-- /wp:image -->
               <!-- wp:paragraph -->
