@@ -125,10 +125,10 @@ body {
 .clipped-meet-us-gallery img {
   clip-path: url(#clipped-meet-us-gallery);
 }
-.meet-us-gallery img {
+/* .meet-us-gallery img {
   height: 100%;
   object-fit: cover;
-}
+} */
 /* 
 .clipped-team img,
 .clipped-team {
