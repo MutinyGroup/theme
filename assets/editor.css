@@ -6,6 +6,7 @@ a:link{
     text-decoration: none;
 }
 
+/* FRONTPAGE */
 /* Swiper Services */
 
 .swiperServices{
@@ -31,11 +32,11 @@ a:link{
     min-width: 444px;
 }
 
-/* Swiper Blog Dark */
+/* Swiper Blog  */
 
-.swiper .swiperBlog{
-    z-index: 10;
-    position: relative;
+.swiperBlog{
+    z-index: 10!important;
+    position: relative!important;
 }
 .swiper-wrapper{
     display: flex;
