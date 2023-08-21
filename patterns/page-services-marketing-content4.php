@@ -91,7 +91,7 @@
         <!-- wp:group -->
         <div class="wp-block-group desktop:mt-[-120px] w-full">
           <!-- wp:group -->
-          <div id="marketing2" class="wp-block-group swiper swiperMarketing2 desktop:pt-[60px] absolute top-0 desktop:left-[150px] left-[20px]">
+          <div id="marketing2" class="wp-block-group swiper swiperMarketing2 desktop:pt-[60px] relative top-0 desktop:left-[150px] left-[20px]">
             <!-- wp:group -->
             <div id="marketing2-prev" class="wp-block-group group swiper-button-prev w-[56px] h-[56px] absolute top-[50%] desktop:right-[100px] translate-y-[50%] rotate-180">
               <!-- wp:paragraph -->
