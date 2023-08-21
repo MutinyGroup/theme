@@ -84,8 +84,8 @@
     <div class="wp-block-group mt-[80px] desktop:mt-[-120px] w-full h-[380px] desktop:h-[660px] wide:h-[720px] overflow-hidden swiper-services-editor">
       <!-- wp:group -->
       <div id="services" class="wp-block-group swiper swiperServices w-screen desktop:w-[calc(100%-90px)] desktop:pt-[180px] absolute top-[300px] desktop:top-[160px] left-[20px] desktop:left-[90px]">
-        <!-- wp:list -->
-        <ul class="wp-block-list swiper-wrapper desktop:h-[480px] wide:h-[530px]">
+        <!-- wp:group -->
+        <div class="wp-block-group swiper-wrapper desktop:h-[480px] wide:h-[530px]">
           <?php
           $args = array(
             'post_type' => 'uslugi',
@@ -101,8 +101,8 @@
               $postImageUrl = wp_get_attachment_image_src(get_post_thumbnail_id(), 'portrait');
               $counter++;
           ?>
-              <!-- wp:list-item -->
-              <li class="swiper-slide swiper-slide-services relative z-[2] group p-[25px] wide:max-w-[420px] desktop:max-w-[354px] max-w-[310px] h-[380px] desktop:h-[450px] wide:h-[530px] rounded-[20px] transition ease-out duration-300 mr-[8px] <?php echo ($counter == 1) ?  "clip-path-url-['#clipped-swiper-serv-1']" : (($counter == $post_query->post_count) ? "clip-path-url-['#clipped-swiper-serv-2']" : ''); ?>">
+              <!-- wp:group -->
+              <div class="wp-block-group swiper-slide swiper-slide-services relative z-[2] group p-[25px] wide:max-w-[420px] desktop:max-w-[354px] max-w-[310px] h-[380px] desktop:h-[450px] wide:h-[530px] rounded-[20px] transition ease-out duration-300 mr-[8px] <?php echo ($counter == 1) ?  "clip-path-url-['#clipped-swiper-serv-1']" : (($counter == $post_query->post_count) ? "clip-path-url-['#clipped-swiper-serv-2']" : ''); ?>">
                 <!-- wp:group -->
                 <div class="wp-block-group img-clip-path-wrapper w-full h-full rounded-[20px] rounded-br-[20px] overflow-hidden absolute left-0 top-0 z-[1] group-hover:grayscale">
                   <!-- wp:group -->
@@ -178,14 +178,14 @@
                 <!-- wp:paragraph -->
                 <p class="hover-text mt-[370px] wide:mt-[350px] opacity-[0%] group-hover:opacity-[100%] group-hover:mt-[120px] desktop:group-hover:mt-[220px] wide:group-hover:mt-[270px] transition-all ease-out duration-500 text-[15px] font-light z-[2]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet in aspernatur alias ipsa, fuga ut!</p>
                 <!-- /wp:paragraph -->
-              </li>
-              <!-- /wp:list-item -->
+              </div>
+              <!-- /wp:group -->
           <?php
             };
           };
           ?>
-        </ul>
-        <!-- /wp:list -->
+        </div>
+        <!-- /wp:group -->
 
         <!-- wp:group -->
         <div id="services-prev" class="wp-block-group group swiper-button-prev desktop:inline-block hidden w-[56px] h-[56px] absolute top-[35px] desktop:top-[60px] left-[190px] desktop:left-[800px]">
