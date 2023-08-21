@@ -8,6 +8,9 @@ a:link{
 .swiperServices{
     overflow-x: scroll;
 }
+.swiper-slide-services{
+    min-width: 354px!important;
+}
 .swiper .swiperBlog{
     z-index: 10;
     position: relative;
