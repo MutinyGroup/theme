@@ -53,6 +53,9 @@ dependencies:
   postcss-reporter:
     specifier: ^7.0.5
     version: 7.0.5(postcss@8.4.28)
+  tailwind-clip-path:
+    specifier: ^1.0.0
+    version: 1.0.0
   tailwindcss:
     specifier: ^3.3.3
     version: 3.3.3
@@ -79,9 +82,6 @@ devDependencies:
   stylelint-config-standard:
     specifier: ^34.0.0
     version: 34.0.0(stylelint@15.10.2)
-  tailwind-clip-path:
-    specifier: ^1.0.0
-    version: 1.0.0
 
 packages:
 
@@ -4590,7 +4590,7 @@ packages:
 
   /tailwind-clip-path@1.0.0:
     resolution: {integrity: sha512-pac3BiCZCEKtX+3In4508PFcX2eZL7JwliZMtfYE0RoqFMjfbCVLmu+uuEFqn1y/f2vrOB5rY4XNcmaOSG1csw==}
-    dev: true
+    dev: false
 
   /tailwindcss-blend-mode@1.0.0:
     resolution: {integrity: sha512-O73Kp4xe89tzStNBc28cTBuEhX6rpxytTzk/51XilHFUbv66o9IAZH0pCQhClYjiMjEpMFgdhg/h1CJkm4qkkQ==}
