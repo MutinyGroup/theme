@@ -42,9 +42,14 @@ figure[class*="post-img"] img {
 
 /* Swiper Blog  */
 
+.blog-container-editor{
+    min-height: 1100px;
+}
+
 .swiperBlog{
     z-index: 10!important;
     position: relative!important;
+    height: 1000px;
 }
 .swiper-wrapper{
     display: flex;
