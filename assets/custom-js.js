@@ -8,7 +8,7 @@ window.addEventListener("load", function () {
       mainNavMenu.classList.remove("opacity-[0]");
       mainNavMenu.classList.add("opacity-[1]");
       mainNavMenu.classList.replace('z-[-2]','z-[3]');
-      mainNavMenu.classList.remove('translate-x-[100%]');      
+      mainNavMenu.classList.remove('translate-x-[100%]');
       btnOpenMenu.classList.add("active");
     } else if (mainNavMenu.classList.contains("opacity-[1]")) {
       mainNavMenu.classList.remove("opacity-[1]");
@@ -26,7 +26,7 @@ window.addEventListener("load", function () {
 
   clickBar.forEach(function(item,index) {
     item.addEventListener("click", () => {
-      if (!stepParagraph[index].classList.contains('active')) { 
+      if (!stepParagraph[index].classList.contains('active')) {
         stepParagraph[index].classList.replace('inactive','active');
         iconArrow[index].classList.replace('rotate-90', 'rotate-[-90deg]');
         iconArrow[index].classList.add('rotate-[-90deg]');
@@ -41,7 +41,7 @@ window.addEventListener("load", function () {
   const videoWrapper = document.querySelector('.js-videoWrapper');
   const videoBtn = document.querySelector('.js-videoBtn');
   const videoYt = document.querySelector('.video-yt');
-  
+
 
   videoBtn.addEventListener('click', () =>{
     videoYt.classList.replace('opacity-0', 'opacity-1');

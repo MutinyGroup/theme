@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Title: banner
  * Slug: banner-main
@@ -14,7 +15,7 @@
     <!-- wp:paragraph -->
     <p>
       <svg xmlns="http://www.w3.org/2000/svg" width="910" height="1572" viewBox="0 0 910 1572" fill="none">
-        <path d="M-498 1.66654L439.866 331.967L440.198 332.084L440.53 331.967L908.797 167.051V413.008L440.198 578.041L-263.868 330.081L-265.201 329.611V331.024V1570L-498 1488.01V1.66654Z" stroke="white" stroke-width="2"/>
+        <path d="M-498 1.66654L439.866 331.967L440.198 332.084L440.53 331.967L908.797 167.051V413.008L440.198 578.041L-263.868 330.081L-265.201 329.611V331.024V1570L-498 1488.01V1.66654Z" stroke="white" stroke-width="2" />
       </svg>
     </p>
     <!-- /wp:paragraph -->
@@ -33,18 +34,18 @@
           <p>
             <svg class="flash" xmlns="http://www.w3.org/2000/svg" width="688" height="801" viewBox="0 0 688 801" fill="none">
               <g filter="url(#filter0_f_1787_1988)">
-              <circle cx="287.132" cy="400.132" r="150" transform="rotate(-45 287.132 400.132)" fill="url(#paint0_linear_1787_1988)" fill-opacity="0.5"/>
+                <circle cx="287.132" cy="400.132" r="150" transform="rotate(-45 287.132 400.132)" fill="url(#paint0_linear_1787_1988)" fill-opacity="0.5" />
               </g>
               <defs>
-              <filter id="filter0_f_1787_1988" x="-112.868" y="0.131836" width="800" height="800" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-              <feFlood flood-opacity="0" result="BackgroundImageFix"/>
-              <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
-              <feGaussianBlur stdDeviation="125" result="effect1_foregroundBlur_1787_1988"/>
-              </filter>
-              <linearGradient id="paint0_linear_1787_1988" x1="287.132" y1="250.132" x2="287.132" y2="550.132" gradientUnits="userSpaceOnUse">
-              <stop stop-color="#FEC400" stop-opacity="0.6"/>
-              <stop offset="1" stop-color="#FEC400" stop-opacity="0"/>
-              </linearGradient>
+                <filter id="filter0_f_1787_1988" x="-112.868" y="0.131836" width="800" height="800" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                  <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                  <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+                  <feGaussianBlur stdDeviation="125" result="effect1_foregroundBlur_1787_1988" />
+                </filter>
+                <linearGradient id="paint0_linear_1787_1988" x1="287.132" y1="250.132" x2="287.132" y2="550.132" gradientUnits="userSpaceOnUse">
+                  <stop stop-color="#FEC400" stop-opacity="0.6" />
+                  <stop offset="1" stop-color="#FEC400" stop-opacity="0" />
+                </linearGradient>
               </defs>
             </svg>
           </p>
@@ -52,10 +53,7 @@
 
           <!-- wp:image -->
           <figure class="wp-block-image flash absolute top-[0px] left-[0px]">
-            <img
-              src="/wp-content/themes/mutiny/assets/img/bg-yellow-flash.png"
-              alt="background image"
-            />
+            <img src="/wp-content/themes/mutiny/assets/img/bg-yellow-flash.png" alt="background image" />
           </figure>
           <!-- /wp:image -->
         </div>
@@ -101,7 +99,7 @@
           <svg width="0" height="0">
             <defs>
               <clipPath id="clipped-banner" class="scale-[0.5] tablet:scale-[1.1] tablet:scale-y-[0.7] desktop:scale-[1.1] wide:scale-[1.35]">
-                <path d="M0 20C0 8.95432 8.95431 0 20 0H625V700H212.426C204.47 700 196.839 696.839 191.213 691.213L8.78681 508.787C3.16072 503.161 0 495.53 0 487.574V20Z"/>
+                <path d="M0 20C0 8.95432 8.95431 0 20 0H625V700H212.426C204.47 700 196.839 696.839 191.213 691.213L8.78681 508.787C3.16072 503.161 0 495.53 0 487.574V20Z" />
               </clipPath>
             </defs>
           </svg>
@@ -128,4 +126,3 @@
   <!-- /wp:group -->
 </div>
 <!-- /wp:group -->
-

@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Title: page-about-companies-logos
  * Slug: page-about-companies-logos

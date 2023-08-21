@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Title: page-services-marketing-banner
  * Slug: page-services-marketing-banner
@@ -44,9 +45,7 @@
     </figure>
     <!-- /wp:image -->
     <!-- wp:buttons -->
-    <div
-      class="wp-block-buttons desktop:w-[175px] w-[140px] desktop:h-[175px] h-[140px] mx-0 text-center rounded-full desktop:border-[4px] border-[3px] border-[#AAAAAA] absolute desktop:top-[-130px] top-[350px] desktop:left-[85%] left-[50%] translate-x-[-50%] hover:border-none hover:bg-primaryYellow hover:text-white transition ease-out duration-300 flex flex-col justify-center items-center gap-y-0 cursor-pointer"
-    >
+    <div class="wp-block-buttons desktop:w-[175px] w-[140px] desktop:h-[175px] h-[140px] mx-0 text-center rounded-full desktop:border-[4px] border-[3px] border-[#AAAAAA] absolute desktop:top-[-130px] top-[350px] desktop:left-[85%] left-[50%] translate-x-[-50%] hover:border-none hover:bg-primaryYellow hover:text-white transition ease-out duration-300 flex flex-col justify-center items-center gap-y-0 cursor-pointer">
       <!-- wp:paragraph -->
       <p>
         <a href="#O nas">
@@ -64,19 +63,8 @@
   <div class="wp-block-group paragraph-wrapper container mx-auto desktop:px-0 px-[20px] relative w-full desktop:mb-[150px] mb-[50px] desktop:pt-[100px] pt-[50px]">
     <!-- wp:paragraph -->
     <p>
-      <svg
-        class="shape scale-[0.6] desktop:scale-[1] z-[-1] absolute top-0 desktop:right-[0px] right-auto left-[-40px] desktop:left-auto"
-        xmlns="http://www.w3.org/2000/svg"
-        width="470"
-        height="396"
-        viewBox="0 0 470 396"
-        fill="none"
-      >
-        <path
-          d="M468.243 393.924L1 236.702V1.9702L468.243 159.192V393.924Z"
-          stroke="#FFFFFF"
-          stroke-width="2"
-        />
+      <svg class="shape scale-[0.6] desktop:scale-[1] z-[-1] absolute top-0 desktop:right-[0px] right-auto left-[-40px] desktop:left-auto" xmlns="http://www.w3.org/2000/svg" width="470" height="396" viewBox="0 0 470 396" fill="none">
+        <path d="M468.243 393.924L1 236.702V1.9702L468.243 159.192V393.924Z" stroke="#FFFFFF" stroke-width="2" />
       </svg>
     </p>
     <!-- /wp:paragraph -->

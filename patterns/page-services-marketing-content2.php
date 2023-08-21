@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Title: page-services-marketing-content2
  * Slug: page-services-marketing-content2
@@ -19,18 +20,18 @@
         <p>
           <svg class="flash desktop:scale-[1] scale-[0.4] absolute desktop:top-[-330px] top-[-360px] desktop:left-[-140px] right-[-100px] z-[-1]" xmlns="http://www.w3.org/2000/svg" width="688" height="801" viewBox="0 0 688 801" fill="none">
             <g filter="url(#filter0_f_1787_1988)">
-            <circle cx="287.132" cy="400.132" r="150" transform="rotate(-45 287.132 400.132)" fill="url(#paint0_linear_1787_1988)" fill-opacity="0.5"/>
+              <circle cx="287.132" cy="400.132" r="150" transform="rotate(-45 287.132 400.132)" fill="url(#paint0_linear_1787_1988)" fill-opacity="0.5" />
             </g>
             <defs>
-            <filter id="filter0_f_1787_1988" x="-112.868" y="0.131836" width="800" height="800" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-            <feFlood flood-opacity="0" result="BackgroundImageFix"/>
-            <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
-            <feGaussianBlur stdDeviation="125" result="effect1_foregroundBlur_1787_1988"/>
-            </filter>
-            <linearGradient id="paint0_linear_1787_1988" x1="287.132" y1="250.132" x2="287.132" y2="550.132" gradientUnits="userSpaceOnUse">
-            <stop stop-color="#FEC400" stop-opacity="0.6"/>
-            <stop offset="1" stop-color="#FEC400" stop-opacity="0"/>
-            </linearGradient>
+              <filter id="filter0_f_1787_1988" x="-112.868" y="0.131836" width="800" height="800" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+                <feGaussianBlur stdDeviation="125" result="effect1_foregroundBlur_1787_1988" />
+              </filter>
+              <linearGradient id="paint0_linear_1787_1988" x1="287.132" y1="250.132" x2="287.132" y2="550.132" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#FEC400" stop-opacity="0.6" />
+                <stop offset="1" stop-color="#FEC400" stop-opacity="0" />
+              </linearGradient>
             </defs>
           </svg>
         </p>
@@ -48,9 +49,7 @@
         <!-- wp:group -->
         <div class="wp-block-group uslugi-title uppercase font-medium desktop:text-[50px] text-[24px] desktop:leading-[60px] leading-[30px]">
           <!-- wp:paragraph -->
-          <p class="uppercase">content<span class="relative inline desktop:text-[50px] text-[24px] uppercase italic before:content-[''] before:inline-block desktop:before:mr-[8px] before:mr-[4px] before:bottom-0 before:left-0 desktop:before:w-[90px] before:w-[30px] desktop:before:h-[3px] before:h-[2px] before:bg-black"
-              >Marketing</span
-            >
+          <p class="uppercase">content<span class="relative inline desktop:text-[50px] text-[24px] uppercase italic before:content-[''] before:inline-block desktop:before:mr-[8px] before:mr-[4px] before:bottom-0 before:left-0 desktop:before:w-[90px] before:w-[30px] desktop:before:h-[3px] before:h-[2px] before:bg-black">Marketing</span>
           </p>
           <!-- /wp:paragraph -->
         </div>
@@ -74,7 +73,7 @@
         <!-- wp:paragraph -->
         <p>
           <svg class="hidden desktop:block z-[-1] absolute top-[-250px] left-[-250px]" xmlns="http://www.w3.org/2000/svg" width="1051" height="810" viewBox="0 0 1051 810" fill="none">
-            <path d="M1 1.45224L938.266 329.349L938.596 329.465L938.927 329.349L1406.89 165.633V409.787L938.596 573.618L234.979 327.462L233.649 326.996V328.405V807.609L1 726.219V1.45224Z" stroke="white" stroke-width="2"/>
+            <path d="M1 1.45224L938.266 329.349L938.596 329.465L938.927 329.349L1406.89 165.633V409.787L938.596 573.618L234.979 327.462L233.649 326.996V328.405V807.609L1 726.219V1.45224Z" stroke="white" stroke-width="2" />
           </svg>
         </p>
         <!-- /wp:paragraph -->

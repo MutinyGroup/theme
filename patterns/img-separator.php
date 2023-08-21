@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Title: img-separator
  * Slug: img-separator
@@ -15,4 +16,3 @@
   <!-- /wp:image -->
 </div>
 <!-- /wp:group -->
-

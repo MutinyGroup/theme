@@ -11,12 +11,12 @@ Text Domain: mutiny-blocks
 Tags: one-column, flexible-header, accessibility-ready, custom-colors, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, rtl-language-support, sticky-post, threaded-comments, translation-ready
 */
 
-/* 
+/*
  * Import the default Twenty Twenty styles.
 */
 @import url('mutiny-styles/style.css');
 
-/* 
+/*
  * Set the default link color.
 */
 :root {
@@ -58,7 +58,7 @@ Tags: one-column, flexible-header, accessibility-ready, custom-colors, custom-me
 
 /*
 ** Site Content
-** (Extra specificity here is necessary to override default theme styles for content within Group block inner containers.) 
+** (Extra specificity here is necessary to override default theme styles for content within Group block inner containers.)
 */
 .site-content > .wp-block-group__inner-container > .entry-content:not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright):not(.is-style-wide) {
 	max-width: inherit;
@@ -71,16 +71,16 @@ Tags: one-column, flexible-header, accessibility-ready, custom-colors, custom-me
 	padding: 0 0 1px;
 }
 
-.site-footer .alignfull, .site-footer hr.wp-block-separator {	
-	margin: 4rem auto 0;	
-}	
+.site-footer .alignfull, .site-footer hr.wp-block-separator {
+	margin: 4rem auto 0;
+}
 
-.site-footer h3 {	
-	margin-top: 0;	
-}	
+.site-footer h3 {
+	margin-top: 0;
+}
 
 .site-footer .footer-top {
-	border-bottom: none;	
+	border-bottom: none;
 	margin-bottom: 0;
 	padding-bottom: 0;
 }
@@ -89,11 +89,11 @@ Tags: one-column, flexible-header, accessibility-ready, custom-colors, custom-me
 	justify-content: flex-end;
 }
 
-.site-footer .footer-menu a {	
-	font-family: "Inter var", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif;	
-}	
+.site-footer .footer-menu a {
+	font-family: "Inter var", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif;
+}
 
-.footer-social .wp-social-link {	
-	width: auto;	
-	height: auto;	
+.footer-social .wp-social-link {
+	width: auto;
+	height: auto;
 }

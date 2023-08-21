@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Title: cta-bright1
  * Slug: cta-bright1
@@ -18,18 +19,18 @@
         <p>
           <svg class="flash" xmlns="http://www.w3.org/2000/svg" width="688" height="801" viewBox="0 0 688 801" fill="none">
             <g filter="url(#filter0_f_1787_1988)">
-            <circle cx="287.132" cy="400.132" r="150" transform="rotate(-45 287.132 400.132)" fill="url(#paint0_linear_1787_1988)" fill-opacity="0.5"/>
+              <circle cx="287.132" cy="400.132" r="150" transform="rotate(-45 287.132 400.132)" fill="url(#paint0_linear_1787_1988)" fill-opacity="0.5" />
             </g>
             <defs>
-            <filter id="filter0_f_1787_1988" x="-112.868" y="0.131836" width="800" height="800" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-            <feFlood flood-opacity="0" result="BackgroundImageFix"/>
-            <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
-            <feGaussianBlur stdDeviation="125" result="effect1_foregroundBlur_1787_1988"/>
-            </filter>
-            <linearGradient id="paint0_linear_1787_1988" x1="287.132" y1="250.132" x2="287.132" y2="550.132" gradientUnits="userSpaceOnUse">
-            <stop stop-color="#FEC400" stop-opacity="0.6"/>
-            <stop offset="1" stop-color="#FEC400" stop-opacity="0"/>
-            </linearGradient>
+              <filter id="filter0_f_1787_1988" x="-112.868" y="0.131836" width="800" height="800" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+                <feGaussianBlur stdDeviation="125" result="effect1_foregroundBlur_1787_1988" />
+              </filter>
+              <linearGradient id="paint0_linear_1787_1988" x1="287.132" y1="250.132" x2="287.132" y2="550.132" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#FEC400" stop-opacity="0.6" />
+                <stop offset="1" stop-color="#FEC400" stop-opacity="0" />
+              </linearGradient>
             </defs>
           </svg>
         </p>
@@ -37,10 +38,7 @@
 
         <!-- wp:image -->
         <figure class="wp-block-image flash absolute top-[0px] left-[0px]">
-          <img
-            src="/wp-content/themes/mutiny/assets/img/bg-yellow-flash.png"
-            alt="background image"
-          />
+          <img src="/wp-content/themes/mutiny/assets/img/bg-yellow-flash.png" alt="background image" />
         </figure>
         <!-- /wp:image -->
       </div>
@@ -85,10 +83,10 @@
     </figure>
     <!-- /wp:image -->
     <!-- wp:paragraph -->
-    <svg x="0px" y="0px" viewBox="0 0 1374.7 1083.6" class="absolute top-0" >
+    <svg x="0px" y="0px" viewBox="0 0 1374.7 1083.6" class="absolute top-0">
       <defs>
         <clipPath id="clipped-cta" class="scale-[0.00125] desktop:scale-[0.0013] desktop:scale-y-[0.0015] wide:scale-y-[0.001525]" clipPathUnits="objectBoundingBox">
-          <path d="M0 20C0 8.9543 8.95431 0 20 0L808 0V650H212.426C204.47 650 196.839 646.839 191.213 641.213L8.78681 458.787C3.16072 453.161 0 445.53 0 437.574V20Z"/>
+          <path d="M0 20C0 8.9543 8.95431 0 20 0L808 0V650H212.426C204.47 650 196.839 646.839 191.213 641.213L8.78681 458.787C3.16072 453.161 0 445.53 0 437.574V20Z" />
         </clipPath>
       </defs>
     </svg>

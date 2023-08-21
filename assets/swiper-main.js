@@ -146,7 +146,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
       nextEl: '#opinions-next',
       prevEl: '#opinions-prev',
     },
-  });  
+  });
 
   new Swiper('#blog', {
     direction: "horizontal",
@@ -164,7 +164,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
     slidesPerView: 'auto',
     clickable: true,
     grabCursor: true,
-  }); 
+  });
 
   new Swiper('#marketing2', {
     direction: "horizontal",
@@ -175,5 +175,5 @@ document.addEventListener("DOMContentLoaded", function(event) {
       nextEl: '#marketing2-next',
       prevEl: '#marketing2-prev',
     },
-  }); 
+  });
 });

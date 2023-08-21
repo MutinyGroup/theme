@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Title: page-services-marketing-content3
  * Slug: page-services-marketing-content3
@@ -19,18 +20,18 @@
         <p>
           <svg class="flash desktop:scale-[1] scale-[0.4] absolute desktop:top-[-330px] top-[-360px] desktop:left-[-140px] right-[-100px] z-[-1]" xmlns="http://www.w3.org/2000/svg" width="688" height="801" viewBox="0 0 688 801" fill="none">
             <g filter="url(#filter0_f_1787_1988)">
-            <circle cx="287.132" cy="400.132" r="150" transform="rotate(-45 287.132 400.132)" fill="url(#paint0_linear_1787_1988)" fill-opacity="0.5"/>
+              <circle cx="287.132" cy="400.132" r="150" transform="rotate(-45 287.132 400.132)" fill="url(#paint0_linear_1787_1988)" fill-opacity="0.5" />
             </g>
             <defs>
-            <filter id="filter0_f_1787_1988" x="-112.868" y="0.131836" width="800" height="800" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-            <feFlood flood-opacity="0" result="BackgroundImageFix"/>
-            <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
-            <feGaussianBlur stdDeviation="125" result="effect1_foregroundBlur_1787_1988"/>
-            </filter>
-            <linearGradient id="paint0_linear_1787_1988" x1="287.132" y1="250.132" x2="287.132" y2="550.132" gradientUnits="userSpaceOnUse">
-            <stop stop-color="#FEC400" stop-opacity="0.6"/>
-            <stop offset="1" stop-color="#FEC400" stop-opacity="0"/>
-            </linearGradient>
+              <filter id="filter0_f_1787_1988" x="-112.868" y="0.131836" width="800" height="800" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+                <feGaussianBlur stdDeviation="125" result="effect1_foregroundBlur_1787_1988" />
+              </filter>
+              <linearGradient id="paint0_linear_1787_1988" x1="287.132" y1="250.132" x2="287.132" y2="550.132" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#FEC400" stop-opacity="0.6" />
+                <stop offset="1" stop-color="#FEC400" stop-opacity="0" />
+              </linearGradient>
             </defs>
           </svg>
         </p>
@@ -63,7 +64,7 @@
       <div class="wp-block-group col1 relative desktop:pl-[155px] basis-[40%]">
         <!-- wp:paragraph -->
         <svg class="z-[-1] absolute top-[-20px] left-[130px]" xmlns="http://www.w3.org/2000/svg" width="236" height="317" viewBox="0 0 236 317" fill="none">
-          <path d="M234.242 314.923L1.62109 236.649V1.91697L234.242 80.1914V314.923Z" stroke="white" stroke-width="2"/>
+          <path d="M234.242 314.923L1.62109 236.649V1.91697L234.242 80.1914V314.923Z" stroke="white" stroke-width="2" />
         </svg>
         <!-- /wp:paragraph -->
         <!-- wp:paragraph -->
@@ -76,7 +77,7 @@
         <!-- wp:paragraph -->
         <p>
           <svg class="z-[-1] absolute top-[-250px] right-[20px]" xmlns="http://www.w3.org/2000/svg" width="470" height="396" viewBox="0 0 470 396" fill="none">
-            <path d="M0.999573 393.923L468.242 236.702V1.96971L0.999573 159.191V393.923Z" stroke="white" stroke-width="2"/>
+            <path d="M0.999573 393.923L468.242 236.702V1.96971L0.999573 159.191V393.923Z" stroke="white" stroke-width="2" />
           </svg>
         </p>
         <!-- /wp:paragraph -->
@@ -114,10 +115,10 @@
               </figure>
               <!-- /wp:image -->
               <!-- wp:paragraph -->
-              <svg x="0px" y="0px" viewBox="0 0 1374.7 1083.6" class="absolute top-0" >
+              <svg x="0px" y="0px" viewBox="0 0 1374.7 1083.6" class="absolute top-0">
                 <defs>
                   <clipPath id="clipped-meet-us-gallery" class="scale-[0.00133] scale-x-[0.00160]" clipPathUnits="objectBoundingBox">
-                    <path d="M-0.000204735 0L605 0C616.046 0 625 8.95431 625 20V680C625 691.046 616.046 700 605 700H437.429C429.472 700 421.841 703.161 416.215 708.787L383.789 741.213C378.163 746.839 370.532 750 362.576 750H0L-0.000204735 0Z"/>
+                    <path d="M-0.000204735 0L605 0C616.046 0 625 8.95431 625 20V680C625 691.046 616.046 700 605 700H437.429C429.472 700 421.841 703.161 416.215 708.787L383.789 741.213C378.163 746.839 370.532 750 362.576 750H0L-0.000204735 0Z" />
                   </clipPath>
                 </defs>
               </svg>

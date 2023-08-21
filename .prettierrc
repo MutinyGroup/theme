@@ -1,0 +1,14 @@
+{
+	"phpVersion": "8.1",
+	"tabWidth": 4,
+	"useTabs": false,
+	"singleQuote": true,
+	"trailingCommaPHP": true,
+	"pluginSearchDirs": [
+		"/HDExterno/Langs/PHP/plugin/html/wp-content/themes/api/node_modules",
+		"./node_modules",
+		"node_modules"
+	],
+	"plugins": ["@prettier/plugin-php", "@wordpress/prettier-config"],
+	"parser": "php"
+}

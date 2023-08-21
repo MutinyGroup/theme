@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Title: single-post-image
  * Slug: single-post-image

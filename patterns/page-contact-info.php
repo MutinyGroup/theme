@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Title: page-contact-info
  * Slug: page-contact-info
@@ -17,18 +18,18 @@
       <p>
         <svg class="flash desktop:scale-[1] scale-[0.4] absolute desktop:top-[-330px] top-[-360px] desktop:left-[-140px] right-[-100px] z-[-1]" xmlns="http://www.w3.org/2000/svg" width="688" height="801" viewBox="0 0 688 801" fill="none">
           <g filter="url(#filter0_f_1787_1988)">
-            <circle cx="287.132" cy="400.132" r="150" transform="rotate(-45 287.132 400.132)" fill="url(#paint0_linear_1787_1988)" fill-opacity="0.5"/>
+            <circle cx="287.132" cy="400.132" r="150" transform="rotate(-45 287.132 400.132)" fill="url(#paint0_linear_1787_1988)" fill-opacity="0.5" />
           </g>
           <defs>
-          <filter id="filter0_f_1787_1988" x="-112.868" y="0.131836" width="800" height="800" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-            <feFlood flood-opacity="0" result="BackgroundImageFix"/>
-            <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
-            <feGaussianBlur stdDeviation="125" result="effect1_foregroundBlur_1787_1988"/>
-          </filter>
-          <linearGradient id="paint0_linear_1787_1988" x1="287.132" y1="250.132" x2="287.132" y2="550.132" gradientUnits="userSpaceOnUse">
-            <stop stop-color="#FEC400" stop-opacity="0.6"/>
-            <stop offset="1" stop-color="#FEC400" stop-opacity="0"/>
-          </linearGradient>
+            <filter id="filter0_f_1787_1988" x="-112.868" y="0.131836" width="800" height="800" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+              <feFlood flood-opacity="0" result="BackgroundImageFix" />
+              <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+              <feGaussianBlur stdDeviation="125" result="effect1_foregroundBlur_1787_1988" />
+            </filter>
+            <linearGradient id="paint0_linear_1787_1988" x1="287.132" y1="250.132" x2="287.132" y2="550.132" gradientUnits="userSpaceOnUse">
+              <stop stop-color="#FEC400" stop-opacity="0.6" />
+              <stop offset="1" stop-color="#FEC400" stop-opacity="0" />
+            </linearGradient>
           </defs>
         </svg>
       </p>
@@ -61,7 +62,7 @@
       <!-- wp:paragraph -->
       <p>
         <svg class="shape opacity-[60%] scale-[0.6] desktop:scale-[1] z-[-1] absolute desktop:top-[-70px] top-[-120px] desktop:right-[-120px] right-[-60px]" xmlns="http://www.w3.org/2000/svg" width="470" height="395" viewBox="0 0 470 395" fill="none">
-          <path d="M468.243 393.924L1 236.702V1.9702L468.243 159.192V393.924Z" stroke="white" stroke-width="2"/>
+          <path d="M468.243 393.924L1 236.702V1.9702L468.243 159.192V393.924Z" stroke="white" stroke-width="2" />
         </svg>
       </p>
       <!-- /wp:paragraph -->
@@ -91,10 +92,10 @@
           <!-- /wp:image -->
           <!-- wp:paragraph -->
           <p>
-            <svg x="0px" y="0px" viewBox="0 0 1374.7 1083.6" class="absolute top-0" >
+            <svg x="0px" y="0px" viewBox="0 0 1374.7 1083.6" class="absolute top-0">
               <defs>
                 <clipPath id="clipped-blog" class="scale-[0.0022] scale-x-[0.0028]" clipPathUnits="objectBoundingBox">
-                  <path d="M66.1682 0H334C345.046 0 354 8.9543 354 20V396.929C354 407.974 345.046 416.929 334 416.929H233.807C225.792 416.929 218.11 420.136 212.474 425.835L197.386 441.094C191.751 446.793 184.069 450 176.054 450H20.0001C8.95444 450 0.000112129 441.046 0.000109321 430L5.0847e-06 20C2.2765e-06 8.9543 8.95431 0 20 0L66.1682 0Z"/>
+                  <path d="M66.1682 0H334C345.046 0 354 8.9543 354 20V396.929C354 407.974 345.046 416.929 334 416.929H233.807C225.792 416.929 218.11 420.136 212.474 425.835L197.386 441.094C191.751 446.793 184.069 450 176.054 450H20.0001C8.95444 450 0.000112129 441.046 0.000109321 430L5.0847e-06 20C2.2765e-06 8.9543 8.95431 0 20 0L66.1682 0Z" />
                 </clipPath>
               </defs>
             </svg>

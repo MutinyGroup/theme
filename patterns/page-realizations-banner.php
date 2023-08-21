@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Title: page-realizations-banner
  * Slug: page-realizations-banner
@@ -20,7 +21,7 @@
           <!-- wp:paragraph -->
           <p class="justify-self-start desktop:justify-self-end pt-[3px] pr-[15px]">Realizacje</p>
           <!-- /wp:paragraph -->
-        </div>  
+        </div>
         <!-- /wp:group -->
 
         <!-- wp:group -->
@@ -31,8 +32,8 @@
           <!-- wp:paragraph -->
           <p class="inline">JESTEŚMY</p>
           <!-- /wp:paragraph -->
-         <!-- wp:paragraph {"templateLock":"contentOnly"} -->
-         <p class="relative inline-block uppercase italic before:content-[''] before:inline-block desktop:before:mr-[8px] before:mr-[4px] before:bottom-0 before:left-0 desktop:before:w-[90px] before:w-[30px] desktop:before:h-[3px] before:h-[2px] before:bg-black">DUMNI</p>
+          <!-- wp:paragraph {"templateLock":"contentOnly"} -->
+          <p class="relative inline-block uppercase italic before:content-[''] before:inline-block desktop:before:mr-[8px] before:mr-[4px] before:bottom-0 before:left-0 desktop:before:w-[90px] before:w-[30px] desktop:before:h-[3px] before:h-[2px] before:bg-black">DUMNI</p>
           <!-- /wp:paragraph -->
           <!-- wp:paragraph -->
           <span class="ml-[-8px] desktop:ml-[-16px] desktop:text-[100px] text-[70px] leading-[1px] desktop:leading-auto">.</span>
@@ -66,7 +67,7 @@
       </p>
       <!-- /wp:paragraph -->
     </div>
-    <!-- /wp:group -->       
+    <!-- /wp:group -->
   </div>
   <!-- /wp:group -->
 </div>
