@@ -23,6 +23,14 @@ a:link{
 
 /* Swiper Opinions Dark */
 
+.swiperOpinions{
+    overflow-x: scroll;
+}
+.swiperOpinions .swiper-wrapper .swiper-slide{
+    opacity:1;
+    min-width: 444px;
+}
+
 /* --- others --- */
 .swiper .swiperBlog{
     z-index: 10;
