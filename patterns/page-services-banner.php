@@ -51,7 +51,7 @@
     <div class="wp-block-group overflow-hidden w-full h-full">
       <!-- wp:image -->
       <figure class="wp-block-image h-full w-[920px] desktop:w-auto">
-        <img src="/wp-content/themes/mutiny/assets/img/page-services/services-banner-bg.jpg" alt="bg-image" />
+        <img src="<?php echo home_url() . '/wp-content/themes/mutiny/assets/img/page-services/services-banner-bg.jpg'; ?>" alt="bg-image" />
       </figure>
       <!-- /wp:image -->
     </div>

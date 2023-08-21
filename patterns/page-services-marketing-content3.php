@@ -101,7 +101,7 @@
         <div class="wp-block-group gallery desktop:mb-[240px] relative mb-[100px] flex gap-[8px]">
           <!-- wp:image -->
           <figure class="wp-block-image w-[50%] overflow-hidden rounded-tl-[22px] rounded-bl-[22px]">
-            <img src="/wp-content/themes/mutiny/assets/img/page-marketing/gallery1.jpg" alt="image" />
+            <img src="<?php echo home_url() . '/wp-content/themes/mutiny/assets/img/page-marketing/gallery1.jpg'; ?>" alt="image" />
           </figure>
           <!-- /wp:image -->
 
@@ -111,7 +111,7 @@
             <div class="wp-block-group overflow-hidden ">
               <!-- wp:image -->
               <figure class="wp-block-image clipped-meet-us-gallery h-full">
-                <img src="/wp-content/themes/mutiny/assets/img/page-marketing/gallery2.jpg" alt="image">
+                <img src="<?php echo home_url() . '/wp-content/themes/mutiny/assets/img/page-marketing/gallery2.jpg'; ?>" alt="image">
               </figure>
               <!-- /wp:image -->
               <!-- wp:paragraph -->

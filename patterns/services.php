@@ -38,14 +38,14 @@
 
         <!-- wp:image -->
         <figure class="wp-block-image flash absolute top-[0px] left-[0px]">
-          <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/bg-yellow-flash.png" alt="background image" />
+          <img src="<?php echo home_url() . '/wp-content/themes/mutiny/assets/img/bg-yellow-flash.png'; ?>" alt="background image" />
         </figure>
         <!-- /wp:image -->
       </div>
       <!-- /wp:group -->
 
       <!-- wp:group -->
-      <div class="wp-block-group bg-shape w-[440px] h-[394px] z-[0] opacity-[0.20] absolute top-[0px] right-[10px] bg-[url('/wp-content/themes/mutiny/assets/img/front-page/services-bg-shape.png')] bg-center bg-no-repeat bg-contain">
+      <div class="wp-block-group bg-shape w-[440px] h-[394px] z-[0] opacity-[0.20] absolute top-[0px] right-[10px] bg-[url('<?php echo home_url() . '/wp-content/themes/mutiny/assets/img/front-page/services-bg-shape.png'; ?>')] bg-center bg-no-repeat bg-contain">
         <!-- wp:paragraph -->
         <p class="hidden">background line shape</p>
         <!-- /wp:paragraph -->

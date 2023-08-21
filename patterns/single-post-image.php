@@ -11,7 +11,7 @@
 <div class="wp-block-group featured-image-test mb-[100px] w-[1300px] hidden">
   <!-- wp:image -->
   <figure class="wp-block-image">
-    <img src="/wp-content/themes/mutiny/assets/img/page-blog/single-post-img.jpg" alt="single-post-image">
+    <img src="<?php echo home_url() . '/wp-content/themes/mutiny/assets/img/page-blog/single-post-img.jpg'; ?>" alt="single-post-image">
   </figure>
   <!-- /wp:image -->
 </div>
