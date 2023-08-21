@@ -45,12 +45,12 @@
       <!-- wp:paragraph -->
       <p class="section-title text-[20px] text-primaryYellow">Wymagaj więcej</p>
       <!-- /wp:paragraph -->
-      <!-- wp:group -->
+      <!-- wp:group {"templateLock":"all"} -->
       <div class="wp-block-group uslugi-title font-normal desktop:text-[65px] text-[32px] desktop:leading-[70px] leading-[36px]">
-        <!-- wp:paragraph -->
+        <!-- wp:paragraph {"templateLock":"all"} -->
         <p class="uppercase">Porozmawiajmy</p>
         <!-- /wp:paragraph -->
-        <!-- wp:paragraph -->
+        <!-- wp:paragraph {"templateLock":"all"} -->
         <p class="uppercase">o potrzebach</p>
         <!-- /wp:paragraph -->
         <!-- wp:paragraph -->
