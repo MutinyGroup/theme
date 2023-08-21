@@ -5,6 +5,9 @@ body{
 a:link{
     text-decoration: none;
 }
+.swiperServices{
+    overflow-x: scroll;
+}
 .swiper .swiperBlog{
     z-index: 10;
     position: relative;
