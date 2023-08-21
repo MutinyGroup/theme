@@ -106,6 +106,7 @@
                             <img src="<?php echo $postImageUrl[0]; ?>" alt="post-image">
                           </figure>
                           <!-- /wp:image -->
+
                           <!-- wp:paragraph -->
                           <svg x="0px" y="0px" viewBox="0 0 1374.7 1083.6" class="absolute top-0">
                             <defs>
@@ -115,6 +116,41 @@
                             </defs>
                           </svg>
                           <!-- /wp:paragraph -->
+                        </div>
+                        <!-- /wp:group -->
+                      </a>
+                      <!-- /wp:group -->
+                    </p>
+                    <!-- /wp:paragraph -->
+
+                    <!-- wp:paragraph -->
+                    <p class="slide-date font-light flex items-center before:content-[''] before:w-[20px] before:h-[1px] before:bg-primaryYellow before:inline-block before:mr-[10px] mb-[20px]"><?php the_time('d / m / Y'); ?></p>
+                    <!-- /wp:paragraph -->
+
+                    <!-- wp:paragraph -->
+                    <p class="subtitle inline text-[23px] font-medium leading-[30px] border-b-[1px] border-transparent group-hover:border-primaryYellow group-hover:text-primaryYellow transition ease-out duration-[800ms]">
+                      <?php the_title(); ?>
+                    </p>
+                    <!-- /wp:paragraph -->
+                    </a>
+                    </p>
+                    <!-- /wp:paragraph -->
+                  </li>
+                  <!-- /wp:list-item -->
+                <?php
+                } else { ?>
+                  <!-- wp:list-item -->
+                  <li class="swiper-slide desktop:mr-[80px] mr-[20px] relative group desktop:w-[444px] w-[280px] desktop:h-[675px] h-[480px]">
+                    <!-- wp:paragraph -->
+                    <p>
+                      <a href="<?php the_permalink(); ?>">
+                        <!-- wp:group -->
+                        <div class="wp-block-group overflow-hidden h-[320px] desktop:h-[500px] wide:h-[500px] rounded-[20px]">
+                          <!-- wp:image -->
+                          <figure class="wp-block-image post-img scale-[1.12] group-hover:scale-[1.06] transition ease-out duration-[600ms]">
+                            <img src="<?php echo $postImageUrl[0]; ?>" alt="post-image">
+                          </figure>
+                          <!-- /wp:image -->
                         </div>
                         <!-- /wp:group -->
         </div>
@@ -134,106 +170,73 @@
         <!-- /wp:paragraph -->
         </li>
         <!-- /wp:list-item -->
-      <?php
-                } else { ?>
-        <!-- wp:list-item -->
-        <li class="swiper-slide desktop:mr-[80px] mr-[20px] relative group desktop:w-[444px] w-[280px] desktop:h-[675px] h-[480px]">
-          <!-- wp:paragraph -->
-          <p>
-            <a href="<?php the_permalink(); ?>">
-              <!-- wp:group -->
-              <div class="wp-block-group overflow-hidden h-[320px] desktop:h-[500px] wide:h-[500px] rounded-[20px]">
-                <!-- wp:image -->
-                <figure class="wp-block-image post-img scale-[1.12] group-hover:scale-[1.06] transition ease-out duration-[600ms]">
-                  <img src="<?php echo $postImageUrl[0]; ?>" alt="post-image">
-                </figure>
-                <!-- /wp:image -->
-              </div>
-              <!-- /wp:group -->
-      </div>
-      <!-- /wp:group -->
-
-      <!-- wp:paragraph -->
-      <p class="slide-date font-light flex items-center before:content-[''] before:w-[20px] before:h-[1px] before:bg-primaryYellow before:inline-block before:mr-[10px] mb-[20px]"><?php the_time('d / m / Y'); ?></p>
-      <!-- /wp:paragraph -->
-
-      <!-- wp:paragraph -->
-      <p class="subtitle inline text-[23px] font-medium leading-[30px] border-b-[1px] border-transparent group-hover:border-primaryYellow group-hover:text-primaryYellow transition ease-out duration-[800ms]">
-        <?php the_title(); ?>
-      </p>
-      <!-- /wp:paragraph -->
-      </a>
-      </p>
-      <!-- /wp:paragraph -->
-      </li>
-      <!-- /wp:list-item -->
-<?php
+  <?php
                 };
               };
             };
-?>
-</ul>
-<!-- /wp:list -->
+  ?>
+  </ul>
+  <!-- /wp:list -->
 
-<!-- wp:group -->
-<div class="wp-block-group swiper-nav-container desktop:block hidden absolute desktop:top-[30px] top-[35px] desktop:right-[150px]">
   <!-- wp:group -->
-  <div class="wp-block-group swiper-nav-wrapper w-[155px] h-[80px] flex justify-center items-center">
+  <div class="wp-block-group swiper-nav-container desktop:block hidden absolute desktop:top-[30px] top-[35px] desktop:right-[150px]">
     <!-- wp:group -->
-    <div id="blog-prev" class="wp-block-group group swiper-button-prev desktop:inline-block hidden w-[56px] h-[56px] ">
-      <!-- wp:paragraph -->
-      <svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 56 56" fill="none" class="group rotate-180 fill-transparent group-hover:fill-white">
-        <rect x="1.5" y="1.5" width="53" height="53" rx="26.5" stroke="#D5D5D5" stroke-width="3" class="group-hover:stroke-white transition-stroke ease-out duration-500" />
-        <path d="M28 35L35 28.0189L28.0379 21" stroke="white" stroke-width="1.5" class="group-hover:stroke-black transition-stroke ease-out duration-500" />
-        <path d="M20 28L31 28" stroke="white" stroke-width="1.5" class="group-hover:stroke-black transition-stroke ease-out duration-500" />
-      </svg>
-      <!-- /wp:paragraph -->
-    </div>
-    <!-- /wp:group -->
-    <!-- wp:group -->
-    <div id="blog-next" class="wp-block-group group swiper-button-next desktop:inline-block hidden w-[56px] h-[56px]">
-      <!-- wp:paragraph -->
-      <p>
-        <svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 56 56" fill="none" class="group fill-transparent group-hover:fill-white">
+    <div class="wp-block-group swiper-nav-wrapper w-[155px] h-[80px] flex justify-center items-center">
+      <!-- wp:group -->
+      <div id="blog-prev" class="wp-block-group group swiper-button-prev desktop:inline-block hidden w-[56px] h-[56px] ">
+        <!-- wp:paragraph -->
+        <svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 56 56" fill="none" class="group rotate-180 fill-transparent group-hover:fill-white">
           <rect x="1.5" y="1.5" width="53" height="53" rx="26.5" stroke="#D5D5D5" stroke-width="3" class="group-hover:stroke-white transition-stroke ease-out duration-500" />
           <path d="M28 35L35 28.0189L28.0379 21" stroke="white" stroke-width="1.5" class="group-hover:stroke-black transition-stroke ease-out duration-500" />
           <path d="M20 28L31 28" stroke="white" stroke-width="1.5" class="group-hover:stroke-black transition-stroke ease-out duration-500" />
         </svg>
-      </p>
+        <!-- /wp:paragraph -->
+      </div>
+      <!-- /wp:group -->
+      <!-- wp:group -->
+      <div id="blog-next" class="wp-block-group group swiper-button-next desktop:inline-block hidden w-[56px] h-[56px]">
+        <!-- wp:paragraph -->
+        <p>
+          <svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 56 56" fill="none" class="group fill-transparent group-hover:fill-white">
+            <rect x="1.5" y="1.5" width="53" height="53" rx="26.5" stroke="#D5D5D5" stroke-width="3" class="group-hover:stroke-white transition-stroke ease-out duration-500" />
+            <path d="M28 35L35 28.0189L28.0379 21" stroke="white" stroke-width="1.5" class="group-hover:stroke-black transition-stroke ease-out duration-500" />
+            <path d="M20 28L31 28" stroke="white" stroke-width="1.5" class="group-hover:stroke-black transition-stroke ease-out duration-500" />
+          </svg>
+        </p>
+        <!-- /wp:paragraph -->
+      </div>
+      <!-- /wp:group -->
+    </div>
+    <!-- /wp:group -->
+  </div>
+  <!-- /wp:group -->
+      </div>
+      <!-- /wp:group -->
+    </div>
+    <!-- /wp:group -->
+  </div>
+  <!-- /wp:group -->
+
+
+
+  <!-- wp:group -->
+  <div class="wp-block-group button-wrapper container mx-auto px-[20px] desktop:px-0 flex items-center justify-center desktop:gap-[80px] gap-[20px] cursor-pointer">
+    <!-- wp:group -->
+    <div class="wp-block-group gray-border w-full h-[2px] bg-[#808080] opacity-[25%]">
+      <!-- wp:paragraph -->
+      <p class="hidden">gray border</p>
       <!-- /wp:paragraph -->
     </div>
     <!-- /wp:group -->
-  </div>
-  <!-- /wp:group -->
-</div>
-<!-- /wp:group -->
+    <!-- wp:buttons -->
+    <div class="wp-block-buttons min-w-fit flex justify-center items-center px-[20px] btn-more ml-[0px] p-[15px_30px] uppercase border-[2px] border-white rounded-full hover:bg-white hover:text-black transition ease-out duration-300">
+      <!-- wp:paragraph -->
+      <p><a href="<?php echo get_home_url() . '/blog'; ?>" class="uppercase text-[14px] font-bold">Zobacz wszystkie newsy</a></p>
+      <!-- /wp:paragraph -->
     </div>
-    <!-- /wp:group -->
+    <!-- /wp:buttons -->
   </div>
   <!-- /wp:group -->
-</div>
-<!-- /wp:group -->
-
-
-
-<!-- wp:group -->
-<div class="wp-block-group button-wrapper container mx-auto px-[20px] desktop:px-0 flex items-center justify-center desktop:gap-[80px] gap-[20px] cursor-pointer">
-  <!-- wp:group -->
-  <div class="wp-block-group gray-border w-full h-[2px] bg-[#808080] opacity-[25%]">
-    <!-- wp:paragraph -->
-    <p class="hidden">gray border</p>
-    <!-- /wp:paragraph -->
-  </div>
-  <!-- /wp:group -->
-  <!-- wp:buttons -->
-  <div class="wp-block-buttons min-w-fit flex justify-center items-center px-[20px] btn-more ml-[0px] p-[15px_30px] uppercase border-[2px] border-white rounded-full hover:bg-white hover:text-black transition ease-out duration-300">
-    <!-- wp:paragraph -->
-    <p><a href="<?php echo get_home_url() . '/blog'; ?>" class="uppercase text-[14px] font-bold">Zobacz wszystkie newsy</a></p>
-    <!-- /wp:paragraph -->
-  </div>
-  <!-- /wp:buttons -->
-</div>
-<!-- /wp:group -->
 </div>
 <!-- /wp:group -->
 </div>
