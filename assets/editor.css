@@ -12,9 +12,18 @@ figure div{
     width: 100%;
     object-fit: cover;
 }
+
+/* FRONTPAGE */
+
 .banner-bg{
     right: -80px;
     width: 50%;
+}
+.tile-title ul li{
+    height: fit-content;
+}
+.tile-title ul li div{
+    white-space: inherit;
 }
 
 /* Swiper Services */
@@ -69,7 +78,6 @@ figure div{
   .blog-posts-wrapper .swiper-slide:hover .blog-first-img-hover > img {
     transform: scale(1.11);
 }
-
 .swiper-overscroll{
     overflow-x: scroll!important;
 }
@@ -77,5 +85,6 @@ figure div{
 /* PAGE REALIZATIONS */
 
 .categories-under-logo li div{
-    white-space:inherit;
+    white-space: inherit;
 }
+
