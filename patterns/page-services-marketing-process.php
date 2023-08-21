@@ -41,7 +41,7 @@
           <!-- wp:paragraph -->
           <p class="desktop:justify-self-end pt-[3px] pr-[15px] text-[20px]">01</p>
           <!-- /wp:paragraph -->
-        </div>  
+        </div>
         <!-- /wp:group -->
 
 
@@ -56,7 +56,7 @@
       <!-- /wp:group -->
     </div>
     <!-- /wp:group -->
-    
+
     <!-- wp:group -->
     <div class="wp-block-group text-cols-wrapper flex desktop:gap-[0px] gap-[20px] basis desktop:mb-[100px] mb-[50px]">
       <!-- wp:group -->
@@ -94,7 +94,7 @@
               <div class="wp-block-group h-full w-full overflow-hidden rounded-[20px]">
                 <!-- wp:image -->
                 <figure class="wp-block-image h-full w-full clipped-blog">
-                  <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-marketing/process-img.jpg" alt="column-img">
+                  <img src="/wp-content/themes/mutiny/assets/img/page-marketing/process-img.jpg" alt="column-img">
                 </figure>
                 <!-- /wp:image -->
               </div>
@@ -150,11 +150,11 @@
                       <path d="M28 35L35 28.0189L28.0379 21" stroke="black" stroke-width="1.5" class="group-hover:stroke-black transition-stroke ease-out duration-500"/>
                       <path d="M20 28L31 28" stroke="black" stroke-width="1.5" class="group-hover:stroke-black transition-stroke ease-out duration-500"/>
                     </svg>
-                  </p>  
+                  </p>
                   <!-- /wp:paragraph -->
                 </div>
                 <!-- /wp:group -->
-                
+
                 <!-- wp:group -->
                 <div class="wp-block-group step-paragraph paragraph-wrapper overflow-hidden leading-[21px] px-[20px] bg-[#F2F2F2] transition-height ease-out duration-[500ms] inactive">
                   <!-- wp:paragraph -->
@@ -194,7 +194,7 @@
                   <!-- /wp:paragraph -->
                 </div>
                 <!-- /wp:group -->
-                
+
                 <!-- wp:group -->
                 <div class="wp-block-group step-paragraph paragraph-wrapper overflow-hidden leading-[21px] px-[20px] bg-[#F2F2F2] transition-height ease-out duration-[500ms] inactive">
                   <!-- wp:paragraph -->
@@ -234,7 +234,7 @@
                   <!-- /wp:paragraph -->
                 </div>
                 <!-- /wp:group -->
-                
+
                 <!-- wp:group -->
                 <div class="wp-block-group step-paragraph paragraph-wrapper overflow-hidden leading-[21px] px-[20px] bg-[#F2F2F2] transition-height ease-out duration-[500ms] inactive">
                   <!-- wp:paragraph -->
@@ -247,7 +247,7 @@
                 <!-- /wp:group -->
               </li>
               <!-- /wp:list-item -->
-              
+
               <!-- wp:list-item -->
               <li class="list-content-wrapper transition ease-out duration-[500ms]">
                 <!-- wp:group -->
@@ -274,7 +274,7 @@
                   <!-- /wp:paragraph -->
                 </div>
                 <!-- /wp:group -->
-                
+
                 <!-- wp:group -->
                 <div class="wp-block-group step-paragraph paragraph-wrapper overflow-hidden leading-[21px] px-[20px] bg-[#F2F2F2] transition-height ease-out duration-[500ms] inactive">
                   <!-- wp:paragraph -->
@@ -286,7 +286,7 @@
                 </div>
                 <!-- /wp:group -->
               </li>
-              <!-- /wp:list-item -->              
+              <!-- /wp:list-item -->
             </ul>
             <!-- /wp:list -->
           </div>

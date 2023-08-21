@@ -41,7 +41,7 @@
           <!-- wp:paragraph -->
           <p class="desktop:justify-self-end pt-[3px] pr-[15px] text-[20px]">02</p>
           <!-- /wp:paragraph -->
-        </div>  
+        </div>
         <!-- /wp:group -->
 
 
@@ -59,7 +59,7 @@
       <!-- /wp:group -->
     </div>
     <!-- /wp:group -->
-    
+
     <!-- wp:group -->
     <div class="wp-block-group text-cols-wrapper flex desktop:gap-[0px] gap-[20px] basis desktop:mb-[100px] mb-[50px]">
       <!-- wp:group -->
@@ -111,7 +111,7 @@
                 <div class="wp-block-group w-full h-full rounded-[20px] overflow-hidden absolute left-0 top-0 z-[-1]">
                   <!-- wp:image -->
                   <figure class="wp-block-image img-clip-path-marketing">
-                    <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-marketing/swiper/swiper1.jpg" alt="marketing-backgroun-image">
+                    <img src="/wp-content/themes/mutiny/assets/img/page-marketing/swiper/swiper1.jpg" alt="marketing-backgroun-image">
                   </figure>
                   <!-- /wp:image -->
                 </div>
@@ -124,7 +124,7 @@
                 <div class="wp-block-group w-full h-full rounded-[20px] overflow-hidden absolute left-0 top-0 z-[-1]">
                   <!-- wp:image -->
                   <figure class="wp-block-image img-clip-path-marketing">
-                    <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-marketing/swiper/swiper2.jpg" alt="marketing-backgroun-image">
+                    <img src="/wp-content/themes/mutiny/assets/img/page-marketing/swiper/swiper2.jpg" alt="marketing-backgroun-image">
                   </figure>
                   <!-- /wp:image -->
                 </div>
@@ -137,7 +137,7 @@
                 <div class="wp-block-group w-full h-full rounded-[20px] overflow-hidden absolute left-0 top-0 z-[-1]">
                   <!-- wp:image -->
                   <figure class="wp-block-image img-clip-path-marketing">
-                    <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-marketing/swiper/swiper3.jpg" alt="marketing-backgroun-image">
+                    <img src="/wp-content/themes/mutiny/assets/img/page-marketing/swiper/swiper3.jpg" alt="marketing-backgroun-image">
                   </figure>
                   <!-- /wp:image -->
                 </div>
@@ -150,7 +150,7 @@
                 <div class="wp-block-group w-full h-full rounded-[20px] overflow-hidden absolute left-0 top-0 z-[-1]">
                   <!-- wp:image -->
                   <figure class="wp-block-image img-clip-path-marketing">
-                    <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-marketing/swiper/swiper4.jpg" alt="marketing-backgroun-image">
+                    <img src="/wp-content/themes/mutiny/assets/img/page-marketing/swiper/swiper4.jpg" alt="marketing-backgroun-image">
                   </figure>
                   <!-- /wp:image -->
                 </div>
@@ -163,7 +163,7 @@
                 <div class="wp-block-group w-full h-full rounded-[20px] overflow-hidden absolute left-0 top-0 z-[-1]">
                   <!-- wp:image -->
                   <figure class="wp-block-image img-clip-path-marketing">
-                    <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-marketing/swiper/swiper1.jpg" alt="marketing-backgroun-image">
+                    <img src="/wp-content/themes/mutiny/assets/img/page-marketing/swiper/swiper1.jpg" alt="marketing-backgroun-image">
                   </figure>
                   <!-- /wp:image -->
                 </div>

@@ -93,7 +93,7 @@
                   <!-- wp:image -->
                   <figure class="wp-block-image h-full clipped-why group-hover:grayscale transition ease-in-out duration-[400ms]"
                   >
-                    <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-services/why-img1.jpg" alt="services-background-image"
+                    <img src="/wp-content/themes/mutiny/assets/img/page-services/why-img1.jpg" alt="services-background-image"
                     />
                   </figure>
                   <!-- /wp:image -->
@@ -158,8 +158,8 @@
             <p>
               <svg xmlns="http://www.w3.org/2000/svg" width="236" height="317" viewBox="0 0 236 317" fill="none" class="z-[-1] absolute top-[190px] left-[30px] opacity-[80%]">
                 <path d="M1.62088 314.924L234.242 236.649V1.91746L1.62088 80.1919V314.924Z" stroke="white" stroke-width="2"/>
-              </svg>     
-            </p>       
+              </svg>
+            </p>
             <!-- /wp:paragraph -->
           </div>
           <!-- /wp:group -->
@@ -173,7 +173,7 @@
                 <div class="wp-block-group img-clip-path-wrapper mb-[50px] w-full h-full rounded-[20px] overflow-hidden" >
                   <!-- wp:image -->
                   <figure class="wp-block-image h-full clipped-why group-hover:grayscale transition ease-in-out duration-[400ms]" >
-                    <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-services/why-img2.jpg" alt="services-background-image" />
+                    <img src="/wp-content/themes/mutiny/assets/img/page-services/why-img2.jpg" alt="services-background-image" />
                   </figure>
                   <!-- /wp:image -->
                   <!-- wp:paragraph -->
@@ -237,8 +237,8 @@
             <p>
               <svg xmlns="http://www.w3.org/2000/svg" width="290" height="335" viewBox="0 0 290 335" fill="none" class="z-[-1] absolute top-[190px] left-[30px] opacity-[80%]">
                 <path d="M1.62094 1.8927L288.5 98.6655V333.397L1.62094 236.624V1.8927Z" stroke="white" stroke-width="2"/>
-              </svg>   
-            </p>         
+              </svg>
+            </p>
             <!-- /wp:paragraph -->
           </div>
           <!-- /wp:group -->
@@ -252,7 +252,7 @@
                 <div class="wp-block-group img-clip-path-wrapper mb-[50px] w-full h-full rounded-[20px] overflow-hidden" >
                   <!-- wp:image -->
                   <figure class="wp-block-image h-full clipped-why group-hover:grayscale transition ease-in-out duration-[400ms]">
-                    <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-services/why-img3.jpg" alt="services-background-image" />
+                    <img src="/wp-content/themes/mutiny/assets/img/page-services/why-img3.jpg" alt="services-background-image" />
                   </figure>
                   <!-- /wp:image -->
                   <!-- wp:paragraph -->
@@ -300,7 +300,7 @@
         </div>
         <!-- /wp:group -->
       </li>
-      <!-- /wp:list-item -->      
+      <!-- /wp:list-item -->
     </ul>
     <!-- /wp:list -->
   </div>

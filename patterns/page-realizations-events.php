@@ -23,7 +23,7 @@
           <p>Wszystkie realizacje</p>
         </a>
       </li>
-      <!-- /wp:list-item --> 
+      <!-- /wp:list-item -->
       <?php
         $args = array(
           'taxonomy' => 'category',
@@ -47,7 +47,7 @@
                 <p><?php echo $cat->name; ?></p>
               </a>
             </li>
-            <!-- /wp:list-item --> 
+            <!-- /wp:list-item -->
           <?php
           }; ?>
       <?php
@@ -91,7 +91,7 @@
                     <!-- /wp:image -->
                   </div>
                   <!-- /wp:group -->
-                  
+
                   <!-- wp:group -->
                   <div class="wp-block-group content-wrapper desktop:w-[60%] flex flex-col justify-center">
                     <!-- wp:image -->
@@ -99,7 +99,7 @@
                       class="wp-block-image event-logo-color w-[60px]"
                     >
                       <img
-                        src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-realizations/logo-efc-color.png"
+                        src="/wp-content/themes/mutiny/assets/img/page-realizations/logo-efc-color.png"
                         alt=""
                       />
                     </figure>
@@ -107,7 +107,7 @@
 
                     <!-- wp:list -->
                     <ul class="wp-block-list categories-under-logo my-[20px] flex flex-wrap gap-[10px]">
-                      <?php 
+                      <?php
                         $categoriesArray = get_the_category();
                         foreach ($categoriesArray as $category) {
                         $category_link = get_category_link($category->term_id);
@@ -127,7 +127,7 @@
                     <!-- /wp:list -->
 
                     <!-- wp:paragraph -->
-                    <p><a href="<?php the_permalink(); ?>" class="text-[35px] font-semibold leading-[42px]"><?php the_title(); ?></a></p>  
+                    <p><a href="<?php the_permalink(); ?>" class="text-[35px] font-semibold leading-[42px]"><?php the_title(); ?></a></p>
                     <!-- /wp:paragraph -->
                     <!-- wp:buttons -->
                     <div
@@ -178,11 +178,11 @@
                     <!-- /wp:buttons -->
                   </div>
                   <!-- /wp:group -->
-                </div>  
+                </div>
                 <!-- /wp:group -->
               </li>
-              <!-- /wp:list-item -->               
-            <?php 
+              <!-- /wp:list-item -->
+            <?php
             }
           };
         };
@@ -220,7 +220,7 @@
       >
         <!-- wp:paragraph -->
         <p class="hidden">gray separator</p>
-        <!-- /wp:paragraph -->    
+        <!-- /wp:paragraph -->
       </div>
       <!-- /wp:group -->
     </div>

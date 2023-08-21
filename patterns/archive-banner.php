@@ -40,9 +40,9 @@
           <!-- wp:paragraph -->
           <p class="justify-self-end pt-[3px] pr-[15px]">Archiwum</p>
           <!-- /wp:paragraph -->
-        </div>  
+        </div>
         <!-- /wp:group -->
-        
+
         <!-- wp:group -->
         <div class="wp-block-group hidden test">
           <?php
@@ -73,7 +73,7 @@
           <span class="ml-[-8px] desktop:ml-[-16px] desktop:text-[100px] text-[70px] leading-[1px] desktop:leading-auto">.</span>
           <!-- /wp:paragraph -->
         </div>
-        <!-- /wp:group -->        
+        <!-- /wp:group -->
       </div>
       <!-- /wp:group -->
     </div>
@@ -87,7 +87,7 @@
       <!-- wp:image -->
       <figure class="wp-block-image h-full w-[920px] desktop:w-auto">
         <img
-          src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-about/about-banner-bg.jpg"
+          src="/wp-content/themes/mutiny/assets/img/page-about/about-banner-bg.jpg"
           alt="bg-image"
         />
       </figure>

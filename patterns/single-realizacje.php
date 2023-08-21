@@ -11,7 +11,7 @@
   <!-- wp:group -->
   <div
     class="wp-block-group container mx-auto relative desktop:px-0 px-[20px]"
-  >    
+  >
 
     <!-- wp:group -->
     <div class="hidden loop-test wp-block-group">
@@ -55,9 +55,9 @@
       <?php endwhile; ?>
     </div>
     <!-- /wp:group -->
-    
+
     <!-- wp:paragraph -->
-    <a href="https://mutiny.webo.design/realizations/" class="group mt-[60px] mb-[40px] w-fit font-semibold flex items-center gap-[8px]">
+    <a href="/realizations/" class="group mt-[60px] mb-[40px] w-fit font-semibold flex items-center gap-[8px]">
       <!-- wp:group -->
       <div class="wp-block-group group w-[56px] h-[56px]">
         <!-- wp:paragraph -->
@@ -83,7 +83,7 @@
         <!-- wp:post-title /-->
       </div>
       <!-- /wp:group -->
-      
+
       <!-- wp:group -->
       <div class="wp-block-group post-author-wrapper desktop:w-[30%]">
         <!-- wp:group -->
@@ -96,7 +96,7 @@
           <!-- wp:group -->
           <div class="wp-block-group wp-block-post-author__avatar img author-avatar h-[60px]">
             <!-- wp:post-author-avatar /-->
-            
+
             <!-- wp:avatar {"userId":5, "size":60,"isLink":true,"style":{"spacing":{"margin":{"bottom":"40px"}},"border":{"radius":"10px","width":"3px"},"color":{"duotone":["#000000","#ffe2c7"]}},"borderColor":"vivid-red"} /-->
           </div>
           <!-- /wp:group -->
@@ -122,7 +122,7 @@
 
     </div>
     <!-- /wp:group -->
-    
+
     <!-- wp:group -->
     <div class="wp-block-group layout-two-cols mb-[50px] desktop:flex gap-[50px]">
       <!-- wp:group -->
@@ -130,7 +130,7 @@
         <!-- wp:post-content /-->
       </div>
       <!-- /wp:group -->
-      
+
       <!-- wp:group -->
       <div class="wp-block-group share-wrapper desktop:w-[30%] h-[80px]">
         <!-- wp:group -->
@@ -172,7 +172,7 @@
     <!-- wp:group -->
     <div class="wp-block-group border-wrapper pt-[20px] border-opacity-[40%] border-[#D5D5D5] border-t-[2px]">
       <!-- wp:paragraph -->
-      <a href="https://mutiny.webo.design/blog/" class="group w-fit font-semibold flex items-center gap-[8px]">
+      <a href="/blog/" class="group w-fit font-semibold flex items-center gap-[8px]">
         <!-- wp:group -->
         <div class="wp-block-group group w-[56px] h-[56px]">
         <!-- wp:paragraph -->

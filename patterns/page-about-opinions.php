@@ -26,7 +26,7 @@
       <!-- /wp:group -->
     </div>
     <!-- /wp:group -->
-    
+
     <!-- wp:group -->
     <div class="wp-block-group swiper-section-wrapper relative desktop:flex">
       <!-- wp:group -->
@@ -44,7 +44,7 @@
                   <path d="M28 35L35 28.0189L28.0379 21" stroke="black" stroke-width="1.5" class="group-hover:stroke-black transition-stroke ease-out duration-500"/>
                   <path d="M20 28L31 28" stroke="black" stroke-width="1.5" class="group-hover:stroke-black transition-stroke ease-out duration-500"/>
                 </svg>
-              </p>  
+              </p>
               <!-- /wp:paragraph -->
             </div>
             <!-- /wp:group -->
@@ -58,7 +58,7 @@
                   <path d="M28 35L35 28.0189L28.0379 21" stroke="black" stroke-width="1.5" class="group-hover:stroke-black transition-stroke ease-out duration-500"/>
                   <path d="M20 28L31 28" stroke="black" stroke-width="1.5" class="group-hover:stroke-black transition-stroke ease-out duration-500"/>
                 </svg>
-              </p>  
+              </p>
               <!-- /wp:paragraph -->
             </div>
             <!-- /wp:group -->
@@ -102,7 +102,7 @@
             <div class="wp-block-group opinion-author my-[50px] flex gap-[20px]">
               <!-- wp:image -->
               <figure class="wp-block-image avatar rounded-full w-[60px] overflow-hidden">
-                <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/front-page/avatars-opinions/avatar1.jpg" alt="avatar">
+                <img src="/wp-content/themes/mutiny/assets/img/front-page/avatars-opinions/avatar1.jpg" alt="avatar">
               </figure>
               <!-- /wp:image -->
               <!-- wp:group -->
@@ -140,7 +140,7 @@
             <div class="wp-block-group opinion-author my-[50px] flex gap-[20px]">
               <!-- wp:image -->
               <figure class="wp-block-image avatar rounded-full w-[60px] overflow-hidden">
-                <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/front-page/avatars-opinions/avatar1.jpg" alt="avatar">
+                <img src="/wp-content/themes/mutiny/assets/img/front-page/avatars-opinions/avatar1.jpg" alt="avatar">
               </figure>
               <!-- /wp:image -->
               <!-- wp:group -->
@@ -178,7 +178,7 @@
             <div class="wp-block-group opinion-author my-[50px] flex gap-[20px]">
               <!-- wp:image -->
               <figure class="wp-block-image avatar rounded-full w-[60px] overflow-hidden">
-                <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/front-page/avatars-opinions/avatar1.jpg" alt="avatar">
+                <img src="/wp-content/themes/mutiny/assets/img/front-page/avatars-opinions/avatar1.jpg" alt="avatar">
               </figure>
               <!-- /wp:image -->
               <!-- wp:group -->
@@ -216,7 +216,7 @@
             <div class="wp-block-group opinion-author my-[50px] flex gap-[20px]">
               <!-- wp:image -->
               <figure class="wp-block-image avatar rounded-full w-[60px] overflow-hidden">
-                <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/front-page/avatars-opinions/avatar1.jpg" alt="avatar">
+                <img src="/wp-content/themes/mutiny/assets/img/front-page/avatars-opinions/avatar1.jpg" alt="avatar">
               </figure>
               <!-- /wp:image -->
               <!-- wp:group -->

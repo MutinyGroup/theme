@@ -38,7 +38,7 @@
         <!-- wp:image -->
         <figure class="wp-block-image flash absolute top-[0px] left-[0px]">
           <img
-            src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/bg-yellow-flash.png"
+            src="/wp-content/themes/mutiny/assets/img/bg-yellow-flash.png"
             alt="background image"
           />
         </figure>
@@ -47,7 +47,7 @@
       <!-- /wp:group -->
 
       <!-- wp:group -->
-      <div class="wp-block-group bg-shape w-[440px] h-[394px] z-[0] opacity-[0.20] absolute top-[0px] right-[10px] bg-[url('https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/front-page/services-bg-shape.png')] bg-center bg-no-repeat bg-contain">
+      <div class="wp-block-group bg-shape w-[440px] h-[394px] z-[0] opacity-[0.20] absolute top-[0px] right-[10px] bg-[url('/wp-content/themes/mutiny/assets/img/front-page/services-bg-shape.png')] bg-center bg-no-repeat bg-contain">
         <!-- wp:paragraph -->
         <p class="hidden">background line shape</p>
         <!-- /wp:paragraph -->
@@ -63,7 +63,7 @@
         <!-- /wp:paragraph -->
         <!-- wp:paragraph {"templateLock":"contentOnly"} -->
         <p class="relative ml-[12px] desktop:text-[50px] text-[24px] desktop:leading-[55px] leading-[30px] inline-block uppercase italic before:content-[''] before:inline-block desktop:before:mr-[18px] before:mr-[8px] before:bottom-0 before:left-0 desktop:before:w-[90px] before:w-[30px] desktop:before:h-[3px] before:h-[2px] before:bg-white">KOMPLEKSOWO</p>
-        <!-- /wp:paragraph -->      
+        <!-- /wp:paragraph -->
       </div>
       <!-- /wp:group -->
     </div>
@@ -81,7 +81,7 @@
     <!-- wp:paragraph -->
     <p class="desktop:leading-[30px] leading-[26px] desktop:text-[20px] text-[15px] font-light min-w-[150px] max-w-[400px] desktop:ml-[360px] ml-[150px] desktop:mb-[0px] mb-[40px]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi est similique, sint <span class="text-primaryYellow">illum architecto</span> fugit quae beatae</p>
     <!-- /wp:paragraph -->
-    
+
     <!-- wp:group -->
     <div class="wp-block-group mt-[80px] desktop:mt-[-120px] w-full h-[380px] desktop:h-[660px] wide:h-[720px] overflow-hidden">
       <!-- wp:group -->
@@ -113,13 +113,13 @@
                       <p class="hidden">gray overlay</p>
                       <!-- /wp:paragraph -->
                     </div>
-                    <!-- /wp:group -->                      
+                    <!-- /wp:group -->
                     <!-- wp:image -->
                     <figure class="wp-block-image services-img <?php if($counter == 1) echo "clip-path-url-['#clipped-swiper-serv-1']"; elseif($counter == $post_query->post_count) echo "clip-path-url-['#clipped-swiper-serv-2']"; ?>  h-full">
                       <img src="<?php echo $postImageUrl[0]; ?>" alt="services-background-image">
                     </figure>
                     <!-- /wp:image -->
-   
+
                     <!-- wp:paragraph -->
                     <svg width="0" height="0">
                       <defs>
@@ -129,7 +129,7 @@
                               <clipPath id="clipped-swiper-serv-1" class="scale-[0.84] desktop:scale-[1.2]">
                                 <path d="M0 88.2843C0 82.9799 2.10714 77.8929 5.85786 74.1421L74.1421 5.85786C77.8929 2.10713 82.9799 0 88.2843 0H334C345.046 0 354 8.95431 354 20V430C354 441.046 345.046 450 334 450H0V88.2843Z"/>
                               </clipPath>
-                            '; 
+                            ';
                           }elseif($counter == $post_query->post_count){
                             echo '
                               <clipPath id="clipped-swiper-serv-2" class="scale-[0.84] desktop:scale-[1] wide:scale-[1.2]">
@@ -141,7 +141,7 @@
 
                       </defs>
                     </svg>
-                    <!-- /wp:paragraph -->                                   
+                    <!-- /wp:paragraph -->
                   </div>
                   <!-- /wp:group -->
 
@@ -176,11 +176,11 @@
                   <p class="hover-text mt-[370px] wide:mt-[350px] opacity-[0%] group-hover:opacity-[100%] group-hover:mt-[120px] desktop:group-hover:mt-[220px] wide:group-hover:mt-[270px] transition-all ease-out duration-500 text-[15px] font-light z-[1]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet in aspernatur alias ipsa, fuga ut!</p>
                   <!-- /wp:paragraph -->
                 </div>
-                <!-- /wp:group -->            
-              <?php 
+                <!-- /wp:group -->
+              <?php
               };
             };
-          ?>            
+          ?>
         </div>
         <!-- /wp:group -->
 

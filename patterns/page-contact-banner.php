@@ -20,7 +20,7 @@
           <!-- wp:paragraph -->
           <p class="justify-self-start desktop:justify-self-end pt-[3px] pr-[15px]">DZIAŁAMY?</p>
           <!-- /wp:paragraph -->
-        </div>  
+        </div>
         <!-- /wp:group -->
         <!-- wp:group -->
         <div class="wp-block-group max-w-[85%] uslugi-title uppercase font-medium desktop:text-[60px] text-[30px] desktop:leading-[60px] leading-[30px]">
@@ -51,7 +51,7 @@
       <!-- wp:image -->
       <figure class="wp-block-image h-full w-[920px] desktop:w-auto">
         <img
-          src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-contact/page-contact-banner.jpg"
+          src="/wp-content/themes/mutiny/assets/img/page-contact/page-contact-banner.jpg"
           alt="bg-image"
         />
       </figure>
@@ -70,7 +70,7 @@
       </p>
       <!-- /wp:paragraph -->
     </div>
-    <!-- /wp:group -->    
+    <!-- /wp:group -->
   </div>
   <!-- /wp:group -->
 </div>

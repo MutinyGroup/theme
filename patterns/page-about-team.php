@@ -53,7 +53,7 @@
       <!-- /wp:group -->
     </div>
     <!-- /wp:group -->
-    
+
     <!-- wp:group -->
     <div class="wp-block-group cols desktop:flex">
       <!-- wp:group -->
@@ -99,7 +99,7 @@
               <!-- /wp:group -->
               <!-- wp:image  -->
               <figure class="wp-block-image clip-path-url-['#clipped-swiper-serv-1'] w-full h-full ">
-                <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-about/about-team1.jpg" alt="team" />
+                <img src="/wp-content/themes/mutiny/assets/img/page-about/about-team1.jpg" alt="team" />
               </figure>
               <!-- /wp:image -->
               <!-- wp:paragraph -->
@@ -138,7 +138,7 @@
               <!-- /wp:group -->
               <!-- wp:image -->
               <figure class="wp-block-image w-full h-full">
-                <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-about/about-team3.jpg" alt="team" />
+                <img src="/wp-content/themes/mutiny/assets/img/page-about/about-team3.jpg" alt="team" />
               </figure>
               <!-- /wp:image -->
               <!-- wp:group -->
@@ -167,10 +167,10 @@
                 <p class="hidden">overlay</p>
                 <!-- /wp:paragraph -->
               </div>
-              <!-- /wp:group -->              
+              <!-- /wp:group -->
               <!-- wp:image -->
               <figure class="wp-block-image">
-                <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-about/about-team2.jpg" alt="team" />
+                <img src="/wp-content/themes/mutiny/assets/img/page-about/about-team2.jpg" alt="team" />
               </figure>
               <!-- /wp:image -->
               <!-- wp:group -->
@@ -195,10 +195,10 @@
                 <p class="hidden">overlay</p>
                 <!-- /wp:paragraph -->
               </div>
-              <!-- /wp:group -->              
+              <!-- /wp:group -->
               <!-- wp:image -->
               <figure class="wp-block-image clipped-team h-full">
-                <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-about/about-team4.jpg" alt="team" />
+                <img src="/wp-content/themes/mutiny/assets/img/page-about/about-team4.jpg" alt="team" />
               </figure>
               <!-- /wp:image -->
               <!-- wp:paragraph -->

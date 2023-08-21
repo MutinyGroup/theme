@@ -42,13 +42,13 @@
             </linearGradient>
             </defs>
           </svg>
-        </p> 
+        </p>
         <!-- /wp:paragraph -->
 
         <!-- wp:image -->
         <figure class="wp-block-image flash absolute top-[0px] left-[0px]">
           <img
-            src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/bg-yellow-flash.png"
+            src="/wp-content/themes/mutiny/assets/img/bg-yellow-flash.png"
             alt="background image"
           />
         </figure>
@@ -67,9 +67,9 @@
         <!-- /wp:paragraph -->
         <!-- wp:paragraph {"templateLock":"contentOnly"} -->
         <p class="relative ml-[12px] desktop:text-[50px] text-[24px] desktop:leading-[55px] leading-[30px] inline-block uppercase italic before:content-[''] before:inline-block desktop:before:mr-[18px] before:mr-[8px] before:bottom-0 before:left-0 desktop:before:w-[90px] before:w-[30px] desktop:before:h-[3px] before:h-[2px] before:bg-white">naszej pracy</p>
-        <!-- /wp:paragraph -->      
+        <!-- /wp:paragraph -->
       </div>
-      <!-- /wp:group -->      
+      <!-- /wp:group -->
     </div>
     <!-- /wp:group -->
     <!-- wp:paragraph -->
@@ -106,7 +106,7 @@
               $post_query->the_post();
               $postImageUrl = wp_get_attachment_image_src(get_post_thumbnail_id(),'portrait');
               $counter++;
-              if (true){ ?>         
+              if (true){ ?>
                 <!-- wp:list-item -->
                 <li class="wp-block-group tile-realizacje mb-[30px] desktop:w-[545px] wide:w-[600px] h-[480px] desktop:h-[700px] wide:h-[780px] relative group transition ease-in-out duration-[400ms] group <?php if (($counter % 2)) echo "tile-realizacje-1 clip-path-url-['#clipped-realizations-1']"; else echo "tile-realizacje-2 clip-path-url-['#clipped-realizations-2'] desktop:translate-y-[70px]"; ?>">
                   <!-- wp:group -->
@@ -115,7 +115,7 @@
                     <p class="hidden">gray overlay</p>
                     <!-- /wp:paragraph -->
                   </div>
-                  <!-- /wp:group -->                 
+                  <!-- /wp:group -->
                   <!-- wp:group -->
                   <div class="wp-block-group img-clip-path-wrapper w-full h-full rounded-tr-[20px] rounded-br-[20px] overflow-hidden absolute left-0 top-0">
                     <!-- wp:image -->
@@ -127,25 +127,25 @@
                     <p>
                       <svg x="0px" y="0px" viewBox="0 0 1374.7 1083.6" class="absolute top-0" >
                         <defs>
-                          <?php 
+                          <?php
                             if($counter == 1){
                               echo '
                               <clipPath id="clipped-realizations-1" class="scale-[0.002]" clipPathUnits="objectBoundingBox">
                                 <path d="M94.1421 5.85786C97.8929 2.10713 102.98 0 108.284 0H515C526.046 0 535 8.95431 535 20V670C535 686.569 521.569 700 505 700H20.0002C8.95451 700 0.000199138 691.046 0.000195955 680L3.12042e-05 108.284C2.96756e-05 102.98 2.10717 97.8929 5.85789 94.1421L94.1421 5.85786Z"/>
                               </clipPath>
-                              '; 
+                              ';
                             }elseif($counter == $post_query->post_count){
                               echo '
                               <clipPath id="clipped-realizations-2" class="scale-[0.00142] scale-x-[0.00185]" clipPathUnits="objectBoundingBox">
                                 <path d="M99.9999 0H515C526.046 0 535 8.95431 535 20V630C535 641.046 526.046 650 515 650H346.951C338.934 650 331.25 653.209 325.615 658.91L293.807 691.09C288.172 696.791 280.488 700 272.471 700H20.0001C8.9544 700 0.000110665 691.046 0.000107937 680L-5.50846e-05 20C-5.78129e-05 8.9543 8.95425 0 19.9999 0L99.9999 0Z"/>
                               </clipPath>
                               ';
-                            } 
+                            }
                           ?>
-    
+
                         </defs>
                       </svg>
-                    </p> 
+                    </p>
                     <!-- /wp:paragraph -->
                   </div>
                   <!-- /wp:group -->
@@ -157,7 +157,7 @@
 
                     <!-- wp:list -->
                     <ul class="wp-block-list categories-wrapper mb-[20px] flex flex-wrap gap-[10px] desktop:group-hover:translate-y-[-50px] group-hover:translate-y-[-70px] transition ease-in-out duration-[400ms]">
-                      <?php 
+                      <?php
                         $categoriesArray = get_the_category();
                         foreach ($categoriesArray as $category) {
                         $category_link = get_category_link($category->term_id);
@@ -174,7 +174,7 @@
                         ?>
                       <?php }; ?>
                     </ul>
-                    <!-- /wp:list -->                    
+                    <!-- /wp:list -->
 
                     <!-- wp:buttons -->
                     <div class="wp-block-buttons group uppercase text-[14px] font-semibold group-hover:translate-y-[25px] transition ease-in-out duration-[400ms]">
@@ -193,17 +193,17 @@
                   <p class="on-hover-desc pr-[40px] font-light leading-[22px] z-[1] absolute bottom-[90px] desktop:left-[50px] left-[20px] translate-y-[70px] opacity-[0%] group-hover:opacity-[100%] group-hover:translate-y-[8px] transition-all ease-in-out duration-[400ms]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
                   <!-- /wp:paragraph -->
                 </li>
-                <!-- /wp:list-item -->                          
-              <?php 
+                <!-- /wp:list-item -->
+              <?php
               }
             };
           };
         ?>
       </ul>
-      <!-- /wp:list -->      
+      <!-- /wp:list -->
     </div>
-    <!-- /wp:group -->    
-    
+    <!-- /wp:group -->
+
     <!-- wp:group -->
     <div class="wp-block-group button-wrapper desktop:mt-[80px] mt-[40px] flex items-center justify-center gap-[64px] cursor-pointer">
       <!-- wp:group -->

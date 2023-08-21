@@ -19,7 +19,7 @@
     </p>
     <!-- /wp:paragraph -->
   </div>
-  <!-- /wp:group -->  
+  <!-- /wp:group -->
 
   <!-- wp:group -->
   <div class="wp-block-group container mx-auto desktop:px-0 px-[20px] wide:h-[900px] desktop:h-[790px] h-fit">
@@ -53,7 +53,7 @@
           <!-- wp:image -->
           <figure class="wp-block-image flash absolute top-[0px] left-[0px]">
             <img
-              src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/bg-yellow-flash.png"
+              src="/wp-content/themes/mutiny/assets/img/bg-yellow-flash.png"
               alt="background image"
             />
           </figure>
@@ -62,7 +62,7 @@
         <!-- /wp:group -->
 
 
-        
+
         <!-- wp:group -->
         <div class="wp-block-group title-text-wrapper mb-[100px] desktop:mb-[70px] uppercase relative z-[1]">
           <!-- wp:paragraph -->
@@ -93,7 +93,7 @@
       <div class="wp-block-group right-col banner-bg h-[300px] tablet:h-[450px] desktop:h-[775px] wide:h-[950px] desktop:w-[44%] w-[65%] absolute right-0 top-[80px] desktop:top-[50px] z-[0]">
         <!-- wp:image -->
         <figure class="wp-block-image clip-path-url-['#clipped-banner'] relative h-full before:content-[''] before:w-full before:h-full before:bg-[#000] before:z-[1] before:opacity-[30%] before:absolute before:top-0 before:left-0">
-          <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/front-page/frontpage-banner.jpg" alt="background image" />
+          <img src="/wp-content/themes/mutiny/assets/img/front-page/frontpage-banner.jpg" alt="background image" />
         </figure>
         <!-- /wp:image -->
         <!-- wp:paragraph -->
@@ -108,10 +108,10 @@
         </p>
         <!-- /wp:paragraph -->
       </div>
-      <!-- /wp:group -->  
+      <!-- /wp:group -->
     </div>
     <!-- /wp:group -->
-  
+
     <!-- wp:group -->
     <div class="wp-block-group btn-more desktop:w-[175px] w-[140px] desktop:h-[175px] h-[140px] mx-auto text-center rounded-full desktop:border-[4px] border-[3px] border-[#D5D5D5] z-[1] relative desktop:absolute  desktop:bottom-auto desktop:top-[58%] wide:top-[65%] desktop:left-[56%] desktop:translate-x-[-50%] group-hover:border-none group-hover:bg-primaryYellow group-hover:text-white transition ease-out duration-300 flex flex-col justify-center items-center gap-y-0 cursor-pointer">
       <!-- wp:paragraph -->

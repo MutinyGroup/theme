@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Title: page-about-meet-us
  * Slug: page-about-meet-us
@@ -17,18 +18,18 @@
       <p>
         <svg class="flash desktop:scale-[1] scale-[0.4] absolute desktop:top-[-330px] top-[-360px] desktop:left-[-140px] right-[-100px] z-[-1]" xmlns="http://www.w3.org/2000/svg" width="688" height="801" viewBox="0 0 688 801" fill="none">
           <g filter="url(#filter0_f_1787_1988)">
-          <circle cx="287.132" cy="400.132" r="150" transform="rotate(-45 287.132 400.132)" fill="url(#paint0_linear_1787_1988)" fill-opacity="0.5"/>
+            <circle cx="287.132" cy="400.132" r="150" transform="rotate(-45 287.132 400.132)" fill="url(#paint0_linear_1787_1988)" fill-opacity="0.5" />
           </g>
           <defs>
-          <filter id="filter0_f_1787_1988" x="-112.868" y="0.131836" width="800" height="800" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-          <feFlood flood-opacity="0" result="BackgroundImageFix"/>
-          <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
-          <feGaussianBlur stdDeviation="125" result="effect1_foregroundBlur_1787_1988"/>
-          </filter>
-          <linearGradient id="paint0_linear_1787_1988" x1="287.132" y1="250.132" x2="287.132" y2="550.132" gradientUnits="userSpaceOnUse">
-          <stop stop-color="#FEC400" stop-opacity="0.6"/>
-          <stop offset="1" stop-color="#FEC400" stop-opacity="0"/>
-          </linearGradient>
+            <filter id="filter0_f_1787_1988" x="-112.868" y="0.131836" width="800" height="800" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+              <feFlood flood-opacity="0" result="BackgroundImageFix" />
+              <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+              <feGaussianBlur stdDeviation="125" result="effect1_foregroundBlur_1787_1988" />
+            </filter>
+            <linearGradient id="paint0_linear_1787_1988" x1="287.132" y1="250.132" x2="287.132" y2="550.132" gradientUnits="userSpaceOnUse">
+              <stop stop-color="#FEC400" stop-opacity="0.6" />
+              <stop offset="1" stop-color="#FEC400" stop-opacity="0" />
+            </linearGradient>
           </defs>
         </svg>
       </p>
@@ -36,9 +37,9 @@
       <!-- wp:paragraph -->
       <p>
         <svg class="shape opacity-[60%] scale-[0.6] desktop:scale-[1] z-[-1] absolute desktop:top-0 top-[-50px] desktop:right-[0px] right-[-60px]" xmlns="http://www.w3.org/2000/svg" width="470" height="396" viewBox="0 0 470 396" fill="none">
-          <path d="M468.243 393.924L1 236.702V1.9702L468.243 159.192V393.924Z" stroke="#FFFFFF" stroke-width="2"/>
+          <path d="M468.243 393.924L1 236.702V1.9702L468.243 159.192V393.924Z" stroke="#FFFFFF" stroke-width="2" />
         </svg>
-      </p>  
+      </p>
       <!-- /wp:paragraph -->
       <!-- wp:paragraph -->
       <p class="section-title desktop:w-[145px] desktop:basis-auto uppercase text-primaryYellow ">Poznajmy się</p>
@@ -55,7 +56,7 @@
       <!-- /wp:group -->
     </div>
     <!-- /wp:group -->
-    
+
     <!-- wp:group -->
     <div class="wp-block-group text-cols-wrapper flex desktop:gap-[0px] gap-[20px] basis desktop:mb-[100px] mb-[50px]">
       <!-- wp:group -->
@@ -77,7 +78,7 @@
       <!-- /wp:group -->
     </div>
     <!-- /wp:group -->
-    
+
     <!-- wp:group -->
     <div class="wp-block-group separator w-full h-[2px] bg-[#D5D5D5] mb-[50px]">
       <!-- wp:paragraph -->
@@ -85,11 +86,9 @@
       <!-- /wp:paragraph -->
     </div>
     <!-- /wp:group -->
-    
+
     <!-- wp:list -->
-    <ul
-      class="wp-block-list targets-list desktop:mb-[133px] mb-[80px] text-left flex flex-wrap gap-y-[20px] desktop:gap-y-auto desktop:justify-between justify-center"
-    >
+    <ul class="wp-block-list targets-list desktop:mb-[133px] mb-[80px] text-left flex flex-wrap gap-y-[20px] desktop:gap-y-auto desktop:justify-between justify-center">
       <!-- wp:list-item -->
       <li class="relative mb-[20px] desktop:mb-0 desktop:max-w-[264px] max-w-full flex items-center desktop:list-item gap-[20px]">
         <!-- wp:group -->
@@ -111,7 +110,7 @@
         </div>
         <!-- /wp:group -->
       </li>
-      <!-- /wp:list-item -->  
+      <!-- /wp:list-item -->
       <!-- wp:list-item -->
       <li class="relative mb-[20px] desktop:mb-0 desktop:max-w-[264px] max-w-full flex items-center desktop:list-item gap-[20px]">
         <!-- wp:group -->
@@ -133,7 +132,7 @@
         </div>
         <!-- /wp:group -->
       </li>
-      <!-- /wp:list-item -->  
+      <!-- /wp:list-item -->
       <!-- wp:list-item -->
       <li class="relative mb-[20px] desktop:mb-0 desktop:max-w-[264px] max-w-full flex items-center desktop:list-item gap-[20px]">
         <!-- wp:group -->
@@ -155,7 +154,7 @@
         </div>
         <!-- /wp:group -->
       </li>
-      <!-- /wp:list-item -->  
+      <!-- /wp:list-item -->
       <!-- wp:list-item -->
       <li class="relative mb-[20px] desktop:mb-0 desktop:max-w-[264px] max-w-full flex items-center desktop:list-item gap-[20px]">
         <!-- wp:group -->
@@ -177,7 +176,7 @@
         </div>
         <!-- /wp:group -->
       </li>
-      <!-- /wp:list-item -->                                 
+      <!-- /wp:list-item -->
     </ul>
     <!-- /wp:list -->
 
@@ -185,10 +184,7 @@
     <div class="wp-block-group gallery desktop:mb-[170px] relative mb-[30px] flex">
       <!-- wp:image -->
       <figure class="wp-block-image meet-us-gallery w-[58%] aspect-[5/6] overflow-hidden rounded-tl-[20px] rounded-bl-[20px]">
-        <img  
-        src="	https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-about/about-gallery2.jpeg"
-        alt="image"
-        />
+        <img src="	/wp-content/themes/mutiny/assets/img/page-about/about-gallery2.jpeg" alt="image" />
       </figure>
       <!-- /wp:image -->
 
@@ -197,16 +193,16 @@
         <!-- wp:group -->
         <div class="wp-block-group">
           <!-- wp:image -->
-          <figure class="wp-block-image clip-path-url-['clipped-meet-us-gallery'] meet-us-gallery aspect-[5/6] w-full rounded-tr-[20px] overflow-hidden">
-            <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-about/about-gallery1.jpg" alt="image">
+          <figure class="wp-block-image clipped-meet-us-gallery meet-us-gallery aspect-[5/6] w-full rounded-tr-[20px] overflow-hidden">
+            <img src="/wp-content/themes/mutiny/assets/img/page-about/about-gallery1.jpg" alt="image">
           </figure>
           <!-- /wp:image -->
           <!-- wp:paragraph -->
           <p>
-            <svg x="0px" y="0px" viewBox="0 0 1374.7 1083.6" class="absolute top-0" >
+            <svg x="0px" y="0px" viewBox="0 0 1374.7 1083.6" class="absolute top-0">
               <defs>
                 <clipPath id="clipped-meet-us-gallery" class="scale-[0.00133] scale-x-[0.00160]" clipPathUnits="objectBoundingBox">
-                  <path d="M-0.000204735 0L605 0C616.046 0 625 8.95431 625 20V680C625 691.046 616.046 700 605 700H437.429C429.472 700 421.841 703.161 416.215 708.787L383.789 741.213C378.163 746.839 370.532 750 362.576 750H0L-0.000204735 0Z"/>
+                  <path d="M-0.000204735 0L605 0C616.046 0 625 8.95431 625 20V680C625 691.046 616.046 700 605 700H437.429C429.472 700 421.841 703.161 416.215 708.787L383.789 741.213C378.163 746.839 370.532 750 362.576 750H0L-0.000204735 0Z" />
                 </clipPath>
               </defs>
             </svg>

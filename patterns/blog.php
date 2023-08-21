@@ -38,7 +38,7 @@
         <!-- wp:image -->
         <figure class="wp-block-image flash absolute top-[0px] left-[0px]">
           <img
-            src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/bg-yellow-flash.png"
+            src="/wp-content/themes/mutiny/assets/img/bg-yellow-flash.png"
             alt="background image"
           />
         </figure>
@@ -48,12 +48,12 @@
 
       <!-- wp:image -->
       <figure class="wp-block-image bg-shape desktop:w-[234px] w-[125px] z-[0] opacity-[0.3] absolute desktop:top-[-130px] top-[-60px] desktop:left-[-10px] left-[-10px] mb-[20px] desktop:max-w-[444px] max-h-[450px]">
-        <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/front-page/blog-bg-shape.png" alt="background-shape">
+        <img src="/wp-content/themes/mutiny/assets/img/front-page/blog-bg-shape.png" alt="background-shape">
       </figure>
       <!-- /wp:image -->
       <!-- wp:image -->
       <figure class="wp-block-image bg-shape hidden desktop:block desktop:w-[470px] w-[180px] z-[-1] opacity-[0.2] absolute top-[-280px] right-[100px] mb-[20px] desktop:max-w-[444px] max-h-[450px]">
-        <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/front-page/blog-bg-shape2.png" alt="background-shape">
+        <img src="/wp-content/themes/mutiny/assets/img/front-page/blog-bg-shape2.png" alt="background-shape">
       </figure>
       <!-- /wp:image -->
       <!-- wp:paragraph -->
@@ -66,12 +66,12 @@
         <!-- /wp:paragraph -->
         <!-- wp:paragraph {"templateLock":"contentOnly"} -->
         <p class="relative ml-[12px] desktop:text-[50px] text-[24px] desktop:leading-[55px] leading-[30px] inline-block uppercase italic before:content-[''] before:inline-block desktop:before:mr-[18px] before:mr-[8px] before:bottom-0 before:left-0 desktop:before:w-[90px] before:w-[30px] desktop:before:h-[3px] before:h-[2px] before:bg-white">z Mutiny Group</p>
-        <!-- /wp:paragraph -->      
+        <!-- /wp:paragraph -->
       </div>
       <!-- /wp:group -->
     </div>
     <!-- /wp:group -->
-    
+
 
     <!-- wp:group -->
     <div class="wp-block-group relative min-h-[540px] desktop:min-h-[910px]">
@@ -100,7 +100,7 @@
                     <li class="swiper-slide desktop:mr-[80px] mr-[20px] relative group desktop:w-[535px] w-[300px] h-[500px] desktop:h-[675px] ">
                       <!-- wp:paragraph -->
                       <p>
-                        <a href="<?php the_permalink(); ?>">                      
+                        <a href="<?php the_permalink(); ?>">
                           <!-- wp:group -->
                           <div class="wp-block-group mb-[20px]">
                             <!-- wp:group -->
@@ -134,17 +134,17 @@
                           </p>
                           <!-- /wp:paragraph -->
                         </a>
-                      </p> 
+                      </p>
                       <!-- /wp:paragraph -->
                     </li>
-                    <!-- /wp:list-item -->                
-                  <?php 
-                  }else{ ?>                    
+                    <!-- /wp:list-item -->
+                  <?php
+                  }else{ ?>
                     <!-- wp:list-item -->
                     <li class="swiper-slide desktop:mr-[80px] mr-[20px] relative group desktop:w-[444px] w-[280px] desktop:h-[675px] h-[480px]">
                       <!-- wp:paragraph -->
                       <p>
-                        <a href="<?php the_permalink(); ?>">                        
+                        <a href="<?php the_permalink(); ?>">
                           <!-- wp:group -->
                           <div class="wp-block-group img-wrapper mb-[20px]">
                             <!-- wp:group -->
@@ -169,15 +169,15 @@
                           </p>
                           <!-- /wp:paragraph -->
                         </a>
-                      </p>  
+                      </p>
                       <!-- /wp:paragraph -->
                     </li>
-                    <!-- /wp:list-item -->                      
+                    <!-- /wp:list-item -->
                   <?php
                   };
                 };
               };
-            ?>             
+            ?>
           </ul>
           <!-- /wp:list -->
 
@@ -218,7 +218,7 @@
       </div>
       <!-- /wp:group -->
     </div>
-    <!-- /wp:group --> 
+    <!-- /wp:group -->
 
 
 

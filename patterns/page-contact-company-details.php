@@ -13,7 +13,7 @@
   <div class="wp-block-group desktop:block hidden w-[444px] overflow-hidden absolute bottom-[-150px] right-[0px] z-[-1]">
     <!-- wp:image -->
     <figure class="wp-block-image h-full clipped-contact">
-      <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-contact/page-contact-company-details.jpg" alt="image">
+      <img src="/wp-content/themes/mutiny/assets/img/page-contact/page-contact-company-details.jpg" alt="image">
     </figure>
     <!-- /wp:image -->
     <!-- wp:paragraph -->
