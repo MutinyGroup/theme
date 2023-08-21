@@ -36,7 +36,7 @@
 
         <!-- wp:image -->
         <figure class="wp-block-image flash absolute top-[0px] left-[0px]">
-          <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/bg-yellow-flash.png" alt="background image" />
+          <img src="/wp-content/themes/mutiny/assets/img/bg-yellow-flash.png" alt="background image" />
         </figure>
         <!-- /wp:image -->
       </div>
@@ -61,6 +61,11 @@
     </div>
     <!-- /wp:group -->
 
+
+
+
+
+
     <!-- wp:group -->
     <div class="wp-block-group desktop:w-[175px] w-[140px] desktop:h-[175px] h-[140px] desktop:ml-[120px] mx-auto text-center rounded-full border-[4px] border-[#D5D5D5] group-hover:border-none group-hover:bg-primaryYellow group-hover:text-white transition ease-out duration-300 flex flex-col justify-center items-center gap-y-0 cursor-pointer">
       <!-- wp:paragraph -->
@@ -73,6 +78,9 @@
       <!-- /wp:paragraph -->
     </div>
     <!-- /wp:group -->
+
+
+
   </div>
   <!-- /wp:group -->
 
@@ -80,7 +88,7 @@
   <div class="wp-block-group img-clip-path-wrapper w-[58%] h-full rounded-tl-[20px] overflow-hidden absolute right-0 desktop:top-0 top-[-40px] z-[-1]">
     <!-- wp:image -->
     <figure class="wp-block-image clipped-cta h-full before:content-[''] before:w-full before:h-full before:bg-white before:z-[1] before:opacity-[60%] before:absolute before:top-0 before:left-0">
-      <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/cta-bright-bg1.jpg" alt="cta-backgroun-image">
+      <img src="/wp-content/themes/mutiny/assets/img/cta-bright-bg1.jpg" alt="cta-backgroun-image">
     </figure>
     <!-- /wp:image -->
     <!-- wp:paragraph -->

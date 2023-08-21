@@ -55,7 +55,7 @@
     <!-- /wp:group -->
 
     <!-- wp:paragraph -->
-    <a href="https://mutiny.webo.design/blog/" class="group mt-[60px] mb-[40px] w-fit font-semibold flex items-center gap-[8px]">
+    <a href="/blog/" class="group mt-[60px] mb-[40px] w-fit font-semibold flex items-center gap-[8px]">
       <!-- wp:group -->
       <div class="wp-block-group group w-[56px] h-[56px]">
         <!-- wp:paragraph -->
@@ -131,7 +131,7 @@
     <div class="wp-block-group post-image-test mb-[100px] w-[1300px]">
       <!-- wp:image -->
       <figure class="wp-block-image">
-        <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-blog/single-post-img.jpg" alt="single-post-image">
+        <img src="/wp-content/themes/mutiny/assets/img/page-blog/single-post-img.jpg" alt="single-post-image">
       </figure>
       <!-- /wp:image -->
     </div>
@@ -186,7 +186,7 @@
     <!-- wp:group -->
     <div class="wp-block-group border-wrapper pt-[20px] border-opacity-[40%] border-[#D5D5D5] border-t-[2px]">
       <!-- wp:paragraph -->
-      <a href="https://mutiny.webo.design/blog/" class="group w-fit font-semibold flex items-center gap-[8px]">
+      <a href="/blog/" class="group w-fit font-semibold flex items-center gap-[8px]">
         <!-- wp:group -->
         <div class="wp-block-group group w-[56px] h-[56px]">
           <!-- wp:paragraph -->

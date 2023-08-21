@@ -41,7 +41,7 @@
   <div class="wp-block-group services-marketing-banner-img relative">
     <!-- wp:image -->
     <figure class="wp-block-image object-cover h-full">
-      <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-marketing/marketing-banner.jpg" alt="bg-image" />
+      <img src="/wp-content/themes/mutiny/assets/img/page-marketing/marketing-banner.jpg" alt="bg-image" />
     </figure>
     <!-- /wp:image -->
     <!-- wp:buttons -->

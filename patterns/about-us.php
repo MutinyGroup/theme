@@ -38,7 +38,7 @@
         <div class="wp-block-group relative w-full h-full rounded-tr-[20px] overflow-hidden">
           <!-- wp:image -->
           <figure class="wp-block-image w-full h-full clip-path-url-['#clipped-about']">
-            <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/front-page/o-nas-img.png" alt="about-us-image">
+            <img src="/wp-content/themes/mutiny/assets/img/front-page/o-nas-img.png" alt="about-us-image">
           </figure>
           <!-- /wp:image -->
           <!-- wp:paragraph -->

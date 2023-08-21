@@ -21,42 +21,42 @@
       <div class="wp-block-group swiper-wrapper desktop:gap-x-[0px] desktop:gap-y-[40px] desktop:flex-wrap desktop:items-center desktop:justify-center">
         <!-- wp:core/image -->
         <figure class="swiper-slide logo-img wp-block-image h-auto self-center">
-          <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-about/logos-companies/logo-serenada.png" alt="logo-serenada">
+          <img src="/wp-content/themes/mutiny/assets/img/page-about/logos-companies/logo-serenada.png" alt="logo-serenada">
         </figure>
         <!-- /wp:core/image -->
         <!-- wp:core/image -->
         <figure class="swiper-slide logo-img wp-block-image h-auto self-center">
-          <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-about/logos-companies/logo-westfield.png" alt="logo-westfield">
+          <img src="/wp-content/themes/mutiny/assets/img/page-about/logos-companies/logo-westfield.png" alt="logo-westfield">
         </figure>
         <!-- /wp:core/image -->
         <!-- wp:core/image -->
         <figure class="swiper-slide logo-img wp-block-image h-auto self-center">
-          <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-about/logos-companies/logo-metropolia.png" alt="logo-metropolia">
+          <img src="/wp-content/themes/mutiny/assets/img/page-about/logos-companies/logo-metropolia.png" alt="logo-metropolia">
         </figure>
         <!-- /wp:core/image -->
         <!-- wp:core/image -->
         <figure class="swiper-slide logo-img wp-block-image h-auto self-center">
-          <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-about/logos-companies/logo-efc.png" alt="logo-efc">
+          <img src="/wp-content/themes/mutiny/assets/img/page-about/logos-companies/logo-efc.png" alt="logo-efc">
         </figure>
         <!-- /wp:core/image -->
         <!-- wp:core/image -->
         <figure class="swiper-slide logo-img wp-block-image h-auto self-center">
-          <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-about/logos-companies/logo-navigator.png" alt="logo-navigator">
+          <img src="/wp-content/themes/mutiny/assets/img/page-about/logos-companies/logo-navigator.png" alt="logo-navigator">
         </figure>
         <!-- /wp:core/image -->
         <!-- wp:core/image -->
         <figure class="swiper-slide logo-img wp-block-image h-auto self-center">
-          <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-about/logos-companies/logo-sfera.png" alt="logo-sfera">
+          <img src="/wp-content/themes/mutiny/assets/img/page-about/logos-companies/logo-sfera.png" alt="logo-sfera">
         </figure>
         <!-- /wp:core/image -->
         <!-- wp:core/image -->
         <figure class="swiper-slide logo-img wp-block-image h-auto self-center">
-          <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-about/logos-companies/logo-citypark.png" alt="logo-citypark">
+          <img src="/wp-content/themes/mutiny/assets/img/page-about/logos-companies/logo-citypark.png" alt="logo-citypark">
         </figure>
         <!-- /wp:core/image -->
         <!-- wp:core/image -->
         <figure class="swiper-slide logo-img wp-block-image h-auto self-center">
-          <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-about/logos-companies/logo-gorski.png" alt="logo-gorski">
+          <img src="/wp-content/themes/mutiny/assets/img/page-about/logos-companies/logo-gorski.png" alt="logo-gorski">
         </figure>
         <!-- /wp:core/image -->
       </div>
@@ -77,17 +77,17 @@
       <div class="wp-block-group logos-sport-wrapper flex items-center desktop:gap-[100px]">
         <!-- wp:image -->
         <figure class="wp-block-image">
-          <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-about/logos-companies/logo-leniwce.png" alt="leniwce-logo">
+          <img src="/wp-content/themes/mutiny/assets/img/page-about/logos-companies/logo-leniwce.png" alt="leniwce-logo">
         </figure>
         <!-- /wp:image -->
         <!-- wp:image -->
         <figure class="wp-block-image">
-          <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-about/logos-companies/logo-sport.png" alt="company-logo">
+          <img src="/wp-content/themes/mutiny/assets/img/page-about/logos-companies/logo-sport.png" alt="company-logo">
         </figure>
         <!-- /wp:image -->
         <!-- wp:image -->
         <figure class="wp-block-image">
-          <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-about/logos-companies/logo-leniwce.png" alt="leniwce-logo">
+          <img src="/wp-content/themes/mutiny/assets/img/page-about/logos-companies/logo-leniwce.png" alt="leniwce-logo">
         </figure>
         <!-- /wp:image -->
       </div>

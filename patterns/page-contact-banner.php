@@ -51,10 +51,7 @@
     <div class="wp-block-group overflow-hidden w-full h-full">
       <!-- wp:image -->
       <figure class="wp-block-image h-full w-[920px] desktop:w-auto">
-        <<<<<<< HEAD <img src="/wp-content/themes/mutiny/assets/img/page-contact/page-contact-banner.jpg" alt="bg-image" />
-        =======
-        <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-contact/page-contact-banner.jpg" alt="bg-image" />
-        >>>>>>> parent of 48f39a42 (Remove domain)
+        <img src="/wp-content/themes/mutiny/assets/img/page-contact/page-contact-banner.jpg" alt="bg-image" />
       </figure>
       <!-- /wp:image -->
     </div>

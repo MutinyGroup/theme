@@ -85,8 +85,8 @@
   <!-- wp:group -->
   <div class="wp-block-group img-clip-path-wrapper w-[58%] h-full rounded-tl-[20px] overflow-hidden absolute right-0 desktop:top-0 top-[-40px] z-[0]">
     <!-- wp:image -->
-    <figure class="wp-block-image clip-path-url-['#clipped-cta'] h-full before:content-[''] before:w-full before:h-full before:bg-[#000] before:opacity-[40%] before:absolute before:top-0 before:left-0 before:z-[1]">
-      <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/front-page/cta-bg.jpeg" alt="cta-backgroun-image">
+    <figure class="wp-block-image clipped-cta h-full before:content-[''] before:w-full before:h-full before:bg-[#000] before:opacity-[40%] before:absolute before:top-0 before:left-0 before:z-[1]">
+      <img src="/wp-content/themes/mutiny/assets/img/front-page/cta-bg.jpeg" alt="cta-backgroun-image">
     </figure>
     <!-- /wp:image -->
     <!-- wp:paragraph -->

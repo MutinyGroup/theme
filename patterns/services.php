@@ -45,7 +45,7 @@
       <!-- /wp:group -->
 
       <!-- wp:group -->
-      <div class="wp-block-group bg-shape w-[440px] h-[394px] z-[0] opacity-[0.20] absolute top-[0px] right-[10px] bg-[url('https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/front-page/services-bg-shape.png')] bg-center bg-no-repeat bg-contain">
+      <div class="wp-block-group bg-shape w-[440px] h-[394px] z-[0] opacity-[0.20] absolute top-[0px] right-[10px] bg-[url('/wp-content/themes/mutiny/assets/img/front-page/services-bg-shape.png')] bg-center bg-no-repeat bg-contain">
         <!-- wp:paragraph -->
         <p class="hidden">background line shape</p>
         <!-- /wp:paragraph -->

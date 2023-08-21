@@ -95,7 +95,7 @@
               <div class="wp-block-group h-full w-full overflow-hidden rounded-[20px]">
                 <!-- wp:image -->
                 <figure class="wp-block-image h-full w-full clipped-blog">
-                  <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-marketing/process-img.jpg" alt="column-img">
+                  <img src="/wp-content/themes/mutiny/assets/img/page-marketing/process-img.jpg" alt="column-img">
                 </figure>
                 <!-- /wp:image -->
               </div>

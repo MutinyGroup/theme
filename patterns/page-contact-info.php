@@ -87,7 +87,7 @@
           <!-- /wp:group -->
           <!-- wp:image -->
           <figure class="wp-block-image author-img h-full clipped-blog">
-            <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-contact/co-founder-img.jpg" alt="services-backgroun-image" />
+            <img src="/wp-content/themes/mutiny/assets/img/page-contact/co-founder-img.jpg" alt="services-backgroun-image" />
           </figure>
           <!-- /wp:image -->
           <!-- wp:paragraph -->
