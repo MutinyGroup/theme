@@ -45,7 +45,6 @@ figure[class*="post-img"] img {
 .blog-container-editor{
     min-height: 1100px;
 }
-
 .swiperBlog{
     z-index: 10!important;
     position: relative!important;
@@ -56,6 +55,9 @@ figure[class*="post-img"] img {
 }
 .swiperBlog .swiper-wrapper .swiper-slide{
     min-width: 535px
+}
+.post-img div{
+    height: 100%!important;
 }
 .swiper-overscroll{
     overflow-x: scroll!important;
