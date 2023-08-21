@@ -42,7 +42,7 @@
           <!-- wp:paragraph -->
           <p class="desktop:justify-self-end pt-[3px] pr-[15px] text-[20px]">03</p>
           <!-- /wp:paragraph -->
-        </div>  
+        </div>
         <!-- /wp:group -->
 
 
@@ -57,7 +57,7 @@
       <!-- /wp:group -->
     </div>
     <!-- /wp:group -->
-    
+
     <!-- wp:group -->
     <div class="wp-block-group text-cols-wrapper flex desktop:gap-[0px] gap-[20px] basis desktop:mb-[100px] mb-[50px]">
       <!-- wp:group -->

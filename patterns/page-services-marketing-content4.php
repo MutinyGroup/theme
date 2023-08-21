@@ -42,7 +42,7 @@
           <!-- wp:paragraph -->
           <p class="desktop:justify-self-end pt-[3px] pr-[15px] text-[20px]">04</p>
           <!-- /wp:paragraph -->
-        </div>  
+        </div>
         <!-- /wp:group -->
 
         <!-- wp:group -->
@@ -56,7 +56,7 @@
       <!-- /wp:group -->
     </div>
     <!-- /wp:group -->
-    
+
     <!-- wp:group -->
     <div class="wp-block-group text-cols-wrapper flex desktop:gap-[0px] gap-[20px] basis desktop:mb-[100px] mb-[50px]">
       <!-- wp:group -->
@@ -105,7 +105,7 @@
               </p>
               <!-- /wp:paragraph -->
             </div>
-            <!-- /wp:group -->          
+            <!-- /wp:group -->
 
             <!-- wp:group -->
             <div id="marketing2-next" class="wp-block-group group swiper-button-next w-[56px] h-[56px] absolute top-[50%] desktop:right-[100px] translate-y-[50%]">
@@ -142,7 +142,7 @@
                       </defs>
                     </svg>
                   </p>
-                  <!-- /wp:paragraph -->                
+                  <!-- /wp:paragraph -->
                 </div>
                 <!-- /wp:group -->
 
@@ -176,7 +176,7 @@
                 </div>
                 <!-- /wp:group -->
               </div>
-              <!-- /wp:group -->             
+              <!-- /wp:group -->
 
               <!-- wp:group -->
               <div class="wp-block-group swiper-slide swiper-slide-marketing relative desktop:p-[25px] desktop:max-w-[716px] max-w-[310px] desktop:h-[450px] h-fit mr-[8px] desktop:flex gap-[43px]">
@@ -197,7 +197,7 @@
                       </defs>
                     </svg>
                   </p>
-                  <!-- /wp:paragraph -->                 
+                  <!-- /wp:paragraph -->
                 </div>
                 <!-- /wp:group -->
 
@@ -236,7 +236,7 @@
                 </div>
                 <!-- /wp:group -->
               </div>
-              <!-- /wp:group -->               
+              <!-- /wp:group -->
 
               <!-- wp:group -->
               <div class="wp-block-group swiper-slide swiper-slide-marketing relative desktop:p-[25px] desktop:max-w-[716px] max-w-[310px] desktop:h-[450px] h-fit mr-[8px] desktop:flex gap-[43px]">
@@ -257,7 +257,7 @@
                       </defs>
                     </svg>
                   </p>
-                  <!-- /wp:paragraph --> 
+                  <!-- /wp:paragraph -->
                 </div>
                 <!-- /wp:group -->
 
@@ -305,7 +305,7 @@
                 </div>
                 <!-- /wp:group -->
               </div>
-              <!-- /wp:group -->              
+              <!-- /wp:group -->
             </div>
             <!-- /wp:group -->
           </div>

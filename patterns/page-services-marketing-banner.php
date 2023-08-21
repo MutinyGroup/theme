@@ -21,7 +21,7 @@
           <!-- wp:paragraph -->
           <p class="m-0 justify-self-end pt-[3px] pr-[15px]">Usługi</p>
           <!-- /wp:paragraph -->
-        </div>  
+        </div>
         <!-- /wp:group -->
 
         <!-- wp:group -->

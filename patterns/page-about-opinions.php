@@ -27,7 +27,7 @@
       <!-- /wp:group -->
     </div>
     <!-- /wp:group -->
-    
+
     <!-- wp:group -->
     <div class="wp-block-group swiper-section-wrapper relative desktop:flex">
       <!-- wp:group -->
@@ -45,7 +45,7 @@
                   <path d="M28 35L35 28.0189L28.0379 21" stroke="black" stroke-width="1.5" class="group-hover:stroke-black transition-stroke ease-out duration-500" />
                   <path d="M20 28L31 28" stroke="black" stroke-width="1.5" class="group-hover:stroke-black transition-stroke ease-out duration-500" />
                 </svg>
-              </p>  
+              </p>
               <!-- /wp:paragraph -->
             </div>
             <!-- /wp:group -->
@@ -59,7 +59,7 @@
                   <path d="M28 35L35 28.0189L28.0379 21" stroke="black" stroke-width="1.5" class="group-hover:stroke-black transition-stroke ease-out duration-500" />
                   <path d="M20 28L31 28" stroke="black" stroke-width="1.5" class="group-hover:stroke-black transition-stroke ease-out duration-500" />
                 </svg>
-              </p>  
+              </p>
               <!-- /wp:paragraph -->
             </div>
             <!-- /wp:group -->

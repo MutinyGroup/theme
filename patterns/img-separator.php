@@ -13,6 +13,6 @@
   <figure class="wp-block-image img-separator">
     <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/front-page/section-separator.jpg" alt="image-page-separator">
   </figure>
-  <!-- /wp:image -->  
+  <!-- /wp:image -->
 </div>
 <!-- /wp:group -->
