@@ -106,11 +106,11 @@
                 <!-- wp:group -->
                 <div class="wp-block-group img-clip-path-wrapper w-full h-full rounded-[20px] rounded-br-[20px] overflow-hidden absolute left-0 top-0 z-[-1] group-hover:grayscale">
                   <!-- wp:group -->
-                  <div class="wp-block-group img-clip-path-wrapper w-full h-full rounded-[20px] rounded-br-[20px] overflow-hidden absolute left-0 top-0 z-[-1] group-hover:grayscale">
+                  <div class="wp-block-group img-clip-path-wrapper w-full h-full rounded-[20px] rounded-br-[20px] overflow-hidden absolute left-0 top-0 z-[0] group-hover:grayscale">
                     <!-- wp:group -->
                     <div class="wp-block-group <?php echo ($counter == 1) ? "clip-path-url-['#clipped-swiper-serv-1']" : (($counter == $post_query->post_count) ? "clip-path-url-['#clipped-swiper-serv-2']" : ''); ?> gray-overlay w-full h-full bg-[#101010] absolute top-0 left-0 opacity-[70%] z-[1]">
                       <!-- wp:paragraph -->
-                      <p class="hidden">gray overlay</p>
+                      <p class="hidden">black overlay</p>
                       <!-- /wp:paragraph -->
                     </div>
                     <!-- /wp:group -->
@@ -119,10 +119,6 @@
                       <img src="<?php echo $postImageUrl[0]; ?>" alt="services-background-image">
                     </figure>
                     <!-- /wp:image -->
-
-                    <!-- wp:paragraph -->
-                    <p class="hidden">gray overlay</p>
-                    <!-- /wp:paragraph -->
                   </div>
                   <!-- /wp:group -->
                   <!-- wp:image -->
