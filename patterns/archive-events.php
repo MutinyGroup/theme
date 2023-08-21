@@ -87,7 +87,7 @@
               <div class="wp-block-group content-wrapper desktop:w-[60%] flex flex-col justify-center">
                 <!-- wp:image -->
                 <figure class="wp-block-image event-logo-color mb-[25px] w-[60px]">
-                  <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-realizations/logo-efc-color.png" alt="" />
+                  <img src="<?php echo home_url() . '/wp-content/themes/mutiny/assets/img/page-realizations/logo-efc-color.png'; ?>" alt="" />
                 </figure>
                 <!-- /wp:image -->
 
