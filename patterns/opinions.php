@@ -75,10 +75,10 @@
 
       <!-- wp:group -->
       <div id="opinions-dark" class="wp-block-group swiper swiperOpinions w-full desktop:w-[560px] ml-0 overflow-visible">
-        <!-- wp:group -->
-        <div class="wp-block-group swiper-wrapper">
-          <!-- wp:group -->
-          <div class="wp-block-group swiper-slide relative z-[2] group desktop:max-w-[444px] max-w-[80%] desktop:h-[430px] max-h-[530px] mr-[40px] desktop:mr-[90px]">
+        <!-- wp:list -->
+        <ul class="wp-block-list swiper-wrapper">
+          <!-- wp:list-item -->
+          <li class="swiper-slide relative z-[2] group desktop:max-w-[444px] max-w-[80%] desktop:h-[430px] max-h-[530px] mr-[40px] desktop:mr-[90px]">
             <!-- wp:group -->
             <div class="wp-block-group quote-sign desktop:mb-[35px] mb-[20px] desktop:mt-0 mt-[40px]">
               <!-- wp:paragraph -->
@@ -112,11 +112,11 @@
               <!-- /wp:group -->
             </div>
             <!-- /wp:group -->
-          </div>
-          <!-- /wp:group -->
+          </li>
+          <!-- /wp:list-item -->
 
-          <!-- wp:group -->
-          <div class="wp-block-group swiper-slide relative z-[2] group desktop:max-w-[444px] max-w-[80%] desktop:h-[430px] max-h-[530px] mr-[40px] desktop:mr-[90px]">
+          <!-- wp:list-item -->
+          <li class="swiper-slide relative z-[2] group desktop:max-w-[444px] max-w-[80%] desktop:h-[430px] max-h-[530px] mr-[40px] desktop:mr-[90px]">
             <!-- wp:group -->
             <div class="wp-block-group quote-sign desktop:mb-[35px] mb-[20px] desktop:mt-0 mt-[40px]">
               <!-- wp:paragraph -->
@@ -150,11 +150,11 @@
               <!-- /wp:group -->
             </div>
             <!-- /wp:group -->
-          </div>
-          <!-- /wp:group -->
+          </li>
+          <!-- /wp:list-item -->
 
-          <!-- wp:group -->
-          <div class="wp-block-group swiper-slide relative z-[2] group desktop:max-w-[444px] max-w-[80%] desktop:h-[430px] max-h-[530px] mr-[40px] desktop:mr-[90px]">
+          <!-- wp:list-item -->
+          <li class="swiper-slide relative z-[2] group desktop:max-w-[444px] max-w-[80%] desktop:h-[430px] max-h-[530px] mr-[40px] desktop:mr-[90px]">
             <!-- wp:group -->
             <div class="wp-block-group quote-sign desktop:mb-[35px] mb-[20px] desktop:mt-0 mt-[40px]">
               <!-- wp:paragraph -->
@@ -188,11 +188,11 @@
               <!-- /wp:group -->
             </div>
             <!-- /wp:group -->
-          </div>
-          <!-- /wp:group -->
+          </li>
+          <!-- /wp:list-item -->
 
-          <!-- wp:group -->
-          <div class="wp-block-group swiper-slide relative z-[2] group desktop:max-w-[444px] max-w-[80%] desktop:h-[430px] max-h-[530px] mr-[40px] desktop:mr-[90px]">
+          <!-- wp:list-item -->
+          <li class="swiper-slide relative z-[2] group desktop:max-w-[444px] max-w-[80%] desktop:h-[430px] max-h-[530px] mr-[40px] desktop:mr-[90px]">
             <!-- wp:group -->
             <div class="wp-block-group quote-sign desktop:mb-[35px] mb-[20px] desktop:mt-0 mt-[40px]">
               <!-- wp:paragraph -->
@@ -226,10 +226,10 @@
               <!-- /wp:group -->
             </div>
             <!-- /wp:group -->
-          </div>
-          <!-- /wp:group -->
-        </div>
-        <!-- /wp:group -->
+          </li>
+          <!-- /wp:list-item -->
+        </ul>
+        <!-- /wp:list -->
       </div>
       <!-- /wp:group -->
     </div>
