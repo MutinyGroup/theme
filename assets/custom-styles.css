@@ -201,6 +201,12 @@ body{
   transform: rotate(180deg);
 }
 
+.gallery-cols .inner-col1 img,
+.gallery-cols .inner-col2 img{
+  opacity: 50%!important;
+}
+
+
 /* header */
 
 .hamburger-btn-line:nth-child(1){
