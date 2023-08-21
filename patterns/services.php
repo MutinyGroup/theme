@@ -168,14 +168,14 @@
                 <!-- wp:buttons -->
                 <div class="wp-block-buttons btn-swiper-more group text-[14px] uppercase absolute desktop:bottom-[25px] bottom-[55px] left-[25px] cursor-pointer transition ease-out duration-300 z-[1]">
                   <!-- wp:paragraph -->
-                  <a href="<?php the_permalink(); ?>" class="inline-block z-[1]">
-                    Dowiedz się więcej
-                    <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" fill="none " class="inline-block ml-[10px] ">
-                      <rect x="1" y="1" width="34" height="34" rx="18" stroke="#D5D5D5" stroke-width="2" fill="transparent" class="transition ease-out duration-300 group-hover:fill-[#FEC400] group-hover:stroke-[#FEC400]" />
-                      <path d="M19 22L23 18.0108L19.0217 14" stroke="white" />
-                      <path d="M12 18L20 18" stroke="white" />
-                    </svg>
-                  </a>
+                  <p><a href="<?php the_permalink(); ?>" class="inline-block z-[1]">Dowiedz się więcej
+                      <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" fill="none " class="inline-block ml-[10px] ">
+                        <rect x="1" y="1" width="34" height="34" rx="18" stroke="#D5D5D5" stroke-width="2" fill="transparent" class="transition ease-out duration-300 group-hover:fill-[#FEC400] group-hover:stroke-[#FEC400]" />
+                        <path d="M19 22L23 18.0108L19.0217 14" stroke="white" />
+                        <path d="M12 18L20 18" stroke="white" />
+                      </svg>
+                    </a>
+                  </p>
                   <!-- /wp:paragraph -->
                 </div>
                 <!-- /wp:buttons -->
