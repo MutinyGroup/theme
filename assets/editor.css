@@ -73,3 +73,9 @@ figure div{
 .swiper-overscroll{
     overflow-x: scroll!important;
 }
+
+/* PAGE REALIZATIONS */
+
+.categories-under-logo li div{
+    white-space:inherit;
+}
