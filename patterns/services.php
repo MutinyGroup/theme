@@ -108,7 +108,7 @@
                   <!-- wp:group -->
                   <div class="wp-block-group img-clip-path-wrapper w-full h-full rounded-[20px] rounded-br-[20px] overflow-hidden absolute left-0 top-0 z-[-1] group-hover:grayscale">
                     <!-- wp:group -->
-                    <div class="wp-block-group <?php if($counter == 1) echo 'clipped-swiper-serv-1'; elseif($counter == $post_query->post_count) echo 'clipped-swiper-serv-2'; ?> gray-overlay w-full h-full bg-[#101010] absolute top-0 left-0 opacity-[70%] z-[1]">
+                    <div class="wp-block-group <?php if($counter == 1) echo 'clip-path-url-["#clipped-swiper-serv-1"]'; elseif($counter == $post_query->post_count) echo 'clip-path-url-["#clipped-swiper-serv-2"]'; ?> gray-overlay w-full h-full bg-[#101010] absolute top-0 left-0 opacity-[70%] z-[1]">
                       <!-- wp:paragraph -->
                       <p class="hidden">gray overlay</p>
                       <!-- /wp:paragraph -->
