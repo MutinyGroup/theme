@@ -238,14 +238,14 @@ body {
 
 /* banner */
 
-.banner-img img {
+/* .banner-img img {
   height: 100%;
   width: 100%;
   object-fit: fill;
 }
 .clipped-banner {
   clip-path: url(#clipped-banner);
-}
+} */
 
 /* about us */
 .clipped {
