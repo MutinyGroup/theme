@@ -10,7 +10,9 @@
 <!-- wp:group {"templateLock":"all","lock":{"move":true,"remove":true},"anchor":true} -->
 <div id="Wpis" class="wp-block-group single-realizacje mb-[150px] overflow-hidden">
   <!-- wp:group -->
-  <div class="wp-block-group container mx-auto relative desktop:px-0 px-[20px]">
+  <div
+    class="wp-block-group container mx-auto relative desktop:px-0 px-[20px]"
+  >
 
     <!-- wp:group -->
     <div class="hidden loop-test wp-block-group">
@@ -56,7 +58,7 @@
     <!-- /wp:group -->
 
     <!-- wp:paragraph -->
-    <a href="/realizations/" class="group mt-[60px] mb-[40px] w-fit font-semibold flex items-center gap-[8px]">
+    <a href="https://mutiny.webo.design/realizations/" class="group mt-[60px] mb-[40px] w-fit font-semibold flex items-center gap-[8px]">
       <!-- wp:group -->
       <div class="wp-block-group group w-[56px] h-[56px]">
         <!-- wp:paragraph -->
@@ -171,7 +173,7 @@
     <!-- wp:group -->
     <div class="wp-block-group border-wrapper pt-[20px] border-opacity-[40%] border-[#D5D5D5] border-t-[2px]">
       <!-- wp:paragraph -->
-      <a href="/blog/" class="group w-fit font-semibold flex items-center gap-[8px]">
+      <a href="https://mutiny.webo.design/blog/" class="group w-fit font-semibold flex items-center gap-[8px]">
         <!-- wp:group -->
         <div class="wp-block-group group w-[56px] h-[56px]">
           <!-- wp:paragraph -->

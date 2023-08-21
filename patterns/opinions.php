@@ -20,12 +20,12 @@
       <div class="wp-block-group uslugi-title is-layout-flow">
         <!-- wp:paragraph -->
         <p class="uppercase inline desktop:text-[50px] text-[24px] desktop:leading-[55px] leading-[30px]">Co mówią nasi klienci?</p>
-        <!-- /wp:paragraph -->
+        <!-- /wp:paragraph -->     
       </div>
       <!-- /wp:group -->
     </div>
     <!-- /wp:group -->
-
+    
     <!-- wp:group -->
     <div class="wp-block-group swiper-section-wrapper relative desktop:flex">
 
@@ -42,7 +42,7 @@
                 <path d="M28 35L35 28.0189L28.0379 21" stroke="white" stroke-width="1.5" class="group-hover:stroke-black transition-stroke ease-out duration-500" />
                 <path d="M20 28L31 28" stroke="white" stroke-width="1.5" class="group-hover:stroke-black transition-stroke ease-out duration-500" />
               </svg>
-            </p>
+            </p>  
             <!-- /wp:paragraph -->
           </div>
           <!-- /wp:group -->
@@ -97,7 +97,7 @@
             <div class="wp-block-group opinion-author my-[50px] flex gap-[20px]">
               <!-- wp:image -->
               <figure class="wp-block-image avatar rounded-full w-[60px] overflow-hidden">
-                <img src="/wp-content/themes/mutiny/assets/img/front-page/avatars-opinions/avatar1.jpg" alt="avatar">
+                <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/front-page/avatars-opinions/avatar1.jpg" alt="avatar">
               </figure>
               <!-- /wp:image -->
               <!-- wp:group -->
@@ -134,7 +134,7 @@
             <div class="wp-block-group opinion-author my-[50px] flex gap-[20px]">
               <!-- wp:image -->
               <figure class="wp-block-image avatar rounded-full w-[60px] overflow-hidden">
-                <img src="/wp-content/themes/mutiny/assets/img/front-page/avatars-opinions/avatar1.jpg" alt="avatar">
+                <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/front-page/avatars-opinions/avatar1.jpg" alt="avatar">
               </figure>
               <!-- /wp:image -->
               <!-- wp:group -->
@@ -172,7 +172,7 @@
             <div class="wp-block-group opinion-author my-[50px] flex gap-[20px]">
               <!-- wp:image -->
               <figure class="wp-block-image avatar rounded-full w-[60px] overflow-hidden">
-                <img src="/wp-content/themes/mutiny/assets/img/front-page/avatars-opinions/avatar1.jpg" alt="avatar">
+                <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/front-page/avatars-opinions/avatar1.jpg" alt="avatar">
               </figure>
               <!-- /wp:image -->
               <!-- wp:group -->
@@ -199,7 +199,7 @@
                 <svg xmlns="http://www.w3.org/2000/svg" width="39" height="26" viewBox="0 0 39 26" fill="none">
                   <path d="M0.08 20.92C5.6 20.36 8.32 17.56 7.92 13H2.96V0.199999H15.92V11C15.92 21.56 10.64 25.8 1.12 25.96L0.08 20.92ZM22.9706 20.92C28.4906 20.36 31.2106 17.56 30.8106 13H25.8506V0.199999H38.8106V11C38.8106 21.56 33.5306 25.8 24.0106 25.96L22.9706 20.92Z" fill="#555555" />
                 </svg>
-              </p>
+              </p>  
               <!-- /wp:paragraph -->
             </div>
             <!-- /wp:group -->
@@ -210,7 +210,7 @@
             <div class="wp-block-group opinion-author my-[50px] flex gap-[20px]">
               <!-- wp:image -->
               <figure class="wp-block-image avatar rounded-full w-[60px] overflow-hidden">
-                <img src="/wp-content/themes/mutiny/assets/img/front-page/avatars-opinions/avatar1.jpg" alt="avatar">
+                <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/front-page/avatars-opinions/avatar1.jpg" alt="avatar">
               </figure>
               <!-- /wp:image -->
               <!-- wp:group -->

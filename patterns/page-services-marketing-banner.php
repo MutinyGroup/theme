@@ -21,7 +21,7 @@
           <!-- wp:paragraph -->
           <p class="m-0 justify-self-end pt-[3px] pr-[15px]">Usługi</p>
           <!-- /wp:paragraph -->
-        </div>
+        </div>  
         <!-- /wp:group -->
 
         <!-- wp:group -->
@@ -41,7 +41,7 @@
   <div class="wp-block-group services-marketing-banner-img relative">
     <!-- wp:image -->
     <figure class="wp-block-image object-cover h-full">
-      <img src="/wp-content/themes/mutiny/assets/img/page-marketing/marketing-banner.jpg" alt="bg-image" />
+      <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-marketing/marketing-banner.jpg" alt="bg-image" />
     </figure>
     <!-- /wp:image -->
     <!-- wp:buttons -->

@@ -42,7 +42,7 @@
           <!-- wp:paragraph -->
           <p class="desktop:justify-self-end pt-[3px] pr-[15px] text-[20px]">03</p>
           <!-- /wp:paragraph -->
-        </div>
+        </div>  
         <!-- /wp:group -->
 
 
@@ -57,7 +57,7 @@
       <!-- /wp:group -->
     </div>
     <!-- /wp:group -->
-
+    
     <!-- wp:group -->
     <div class="wp-block-group text-cols-wrapper flex desktop:gap-[0px] gap-[20px] basis desktop:mb-[100px] mb-[50px]">
       <!-- wp:group -->
@@ -101,7 +101,7 @@
         <div class="wp-block-group gallery desktop:mb-[240px] relative mb-[100px] flex gap-[8px]">
           <!-- wp:image -->
           <figure class="wp-block-image w-[50%] overflow-hidden rounded-tl-[22px] rounded-bl-[22px]">
-            <img src="/wp-content/themes/mutiny/assets/img/page-marketing/gallery1.jpg" alt="image" />
+            <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-marketing/gallery1.jpg" alt="image" />
           </figure>
           <!-- /wp:image -->
 
@@ -111,7 +111,7 @@
             <div class="wp-block-group overflow-hidden ">
               <!-- wp:image -->
               <figure class="wp-block-image clipped-meet-us-gallery h-full">
-                <img src="/wp-content/themes/mutiny/assets/img/page-marketing/gallery2.jpg" alt="image">
+                <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-marketing/gallery2.jpg" alt="image">
               </figure>
               <!-- /wp:image -->
               <!-- wp:paragraph -->

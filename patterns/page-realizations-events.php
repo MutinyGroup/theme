@@ -32,19 +32,21 @@
       foreach ($cats as $cat) {
       ?>
         <?php
-        $catNoSpaces = str_replace(' ', '-', strtolower($cat->name));
-        if (($cat->name) == 'glowna' || ($catNoSpaces) == 'bez-kategorii') {
-          echo '';
-        } else { ?>
-          <!-- wp:list-item -->
-          <li class="w-fit h-[40px] px-[10px] bg-[#F2F2F2] border-[#AAA] border-[2px] rounded-full uppercase text-[14px] font-semibold leading-[20px] flex justify-center items-center hover:bg-primaryYellow hover:border-primaryYellow transition ease-out duration-300 cursor-pointer">
-            <a href="<?php echo get_category_link($cat->term_id) ?>" class="flex justify-center items-center w-fit h-full">
-              <p><?php echo $cat->name; ?></p>
-            </a>
-          </li>
-          <!-- /wp:list-item -->
-        <?php
-        }; ?>
+          $catNoSpaces = str_replace(' ', '-', strtolower($cat->name)) ;
+          if (($cat->name) == 'glowna' || ($catNoSpaces) == 'bez-kategorii'){
+            echo '';
+          }else{ ?>
+            <!-- wp:list-item -->
+            <li
+              class="w-fit h-[40px] px-[10px] bg-[#F2F2F2] border-[#AAA] border-[2px] rounded-full uppercase text-[14px] font-semibold leading-[20px] flex justify-center items-center hover:bg-primaryYellow hover:border-primaryYellow transition ease-out duration-300 cursor-pointer"
+            >
+              <a href="<?php echo get_category_link( $cat->term_id ) ?>" class="flex justify-center items-center w-fit h-full">
+                <p><?php echo $cat->name; ?></p>
+              </a>
+            </li>
+            <!-- /wp:list-item -->
+          <?php
+          }; ?>
       <?php
       };
       ?>
@@ -71,51 +73,65 @@
               <!-- wp:group -->
               <div class="wp-block-group tile-container desktop:flex gap-[75px] mb-[50px]">
                 <!-- wp:group -->
-                <div class="wp-block-group event-image-wrapper desktop:mb-0 mb-[20px] max-h-[400px] overflow-hidden w-full rounded-[20px]">
-                  <!-- wp:image -->
-                  <figure class="wp-block-image event-image grayscale scale-[1] group-hover:scale-[1.04] group-hover:grayscale-0 transition ease-out duration-[500ms]">
-                    <img src="<?php echo $postImageUrl[0]; ?>" alt="realization-post-img" />
-                  </figure>
-                  <!-- /wp:image -->
-                </div>
-                <!-- /wp:group -->
+                <div class="wp-block-group tile-container desktop:flex gap-[75px] mb-[50px]">
+                  <!-- wp:group -->
+                  <div
+                    class="wp-block-group event-image-wrapper desktop:mb-0 mb-[20px] max-h-[400px] overflow-hidden w-full rounded-[20px]"
+                  >
+                    <!-- wp:image -->
+                    <figure
+                      class="wp-block-image event-image grayscale scale-[1] group-hover:scale-[1.04] group-hover:grayscale-0 transition ease-out duration-[500ms]"
+                    >
+                      <img
+                        src="<?php echo $postImageUrl[0]; ?>"
+                        alt="realization-post-img"
+                      />
+                    </figure>
+                    <!-- /wp:image -->
+                  </div>
+                  <!-- /wp:group -->
 
-                <!-- wp:group -->
-                <div class="wp-block-group content-wrapper desktop:w-[60%] flex flex-col justify-center">
-                  <!-- wp:image -->
-                  <figure class="wp-block-image event-logo-color w-[60px]">
-                    <img src="/wp-content/themes/mutiny/assets/img/page-realizations/logo-efc-color.png" alt="" />
-                  </figure>
-                  <!-- /wp:image -->
+                  <!-- wp:group -->
+                  <div class="wp-block-group content-wrapper desktop:w-[60%] flex flex-col justify-center">
+                    <!-- wp:image -->
+                    <figure
+                      class="wp-block-image event-logo-color w-[60px]"
+                    >
+                      <img
+                        src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-realizations/logo-efc-color.png"
+                        alt=""
+                      />
+                    </figure>
+                    <!-- /wp:image -->
 
-                  <!-- wp:list -->
-                  <ul class="wp-block-list categories-under-logo my-[20px] flex flex-wrap gap-[10px]">
-                    <?php
-                    $categoriesArray = get_the_category();
-                    foreach ($categoriesArray as $category) {
-                      $category_link = get_category_link($category->term_id);
-                    ?>
+                    <!-- wp:list -->
+                    <ul class="wp-block-list categories-under-logo my-[20px] flex flex-wrap gap-[10px]">
                       <?php
-                      if (($category->name) == 'glowna') {
-                        echo '';
-                      } else { ?>
-                        <!-- wp:list-item -->
-                        <li class="w-fit p-[0px_8px] flex justify-center items-center bg-[#F2F2F2] leading-[20px] border-[#D5D5D5] border-[2px] rounded-full uppercase text-[13px] font-semibold text-center">
-                          <p><?php echo $category->name; ?></p>
-                        </li>
-                        <!-- /wp:list-item -->
-                      <?php
-                      };
-                      ?>
-                    <?php }; ?>
-                  </ul>
-                  <!-- /wp:list -->
+                        $categoriesArray = get_the_category();
+                        foreach ($categoriesArray as $category) {
+                        $category_link = get_category_link($category->term_id);
+                        ?>
+                        <?php
+                          if (($category->name) == 'glowna'){
+                            echo '';
+                          }else{ ?>
+                            <!-- wp:list-item -->
+                            <li class="w-fit p-[0px_8px] flex justify-center items-center bg-[#F2F2F2] leading-[20px] border-[#D5D5D5] border-[2px] rounded-full uppercase text-[13px] font-semibold text-center"><p><?php echo $category->name; ?></p></li>
+                            <!-- /wp:list-item -->
+                          <?php
+                          };
+                        ?>
+                      <?php }; ?>
+                    </ul>
+                    <!-- /wp:list -->
 
-                  <!-- wp:paragraph -->
-                  <p><a href="<?php the_permalink(); ?>" class="text-[35px] font-semibold leading-[42px]"><?php the_title(); ?></a></p>
-                  <!-- /wp:paragraph -->
-                  <!-- wp:buttons -->
-                  <div class="wp-block-buttons w-[56px] h-[56px] mt-[40px]">
+                    <!-- wp:paragraph -->
+                    <p><a href="<?php the_permalink(); ?>" class="text-[35px] font-semibold leading-[42px]"><?php the_title(); ?></a></p>
+                    <!-- /wp:paragraph -->
+                    <!-- wp:buttons -->
+                    <div
+                      class="wp-block-buttons w-[56px] h-[56px] mt-[40px]"
+                    >
                     <!-- wp:group -->
                     <div class="wp-block-group">
                       <!-- wp:paragraph -->
@@ -132,15 +148,14 @@
                     </div>
                     <!-- /wp:group -->
                   </div>
-                  <!-- /wp:buttons -->
+                  <!-- /wp:group -->
                 </div>
                 <!-- /wp:group -->
-              </div>
-              <!-- /wp:group -->
-            </li>
-            <!-- /wp:list-item -->
-      <?php
-          }
+              </li>
+              <!-- /wp:list-item -->
+            <?php
+            }
+          };
         };
       };
       ?>

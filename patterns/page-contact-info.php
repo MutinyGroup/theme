@@ -33,7 +33,7 @@
           </defs>
         </svg>
       </p>
-      <!-- /wp:paragraph -->
+      <!-- /wp:paragraph -->   
 
       <!-- wp:group -->
       <div class="wp-block-group title-wrapper relative container mx-auto desktop:flex">
@@ -42,7 +42,7 @@
           <!-- wp:paragraph -->
           <p class="pt-[3px] pr-[15px] text-left desktop:text-right">Marketing robimy kompleksowo</p>
           <!-- /wp:paragraph -->
-        </div>
+        </div>  
         <!-- /wp:group -->
 
         <!-- wp:group -->
@@ -56,7 +56,7 @@
       <!-- /wp:group -->
     </div>
     <!-- /wp:group -->
-
+    
     <!-- wp:group -->
     <div class="wp-block-group paragrapth-wrapper relative mb-[50px] flex justify-end">
       <!-- wp:paragraph -->
@@ -71,7 +71,7 @@
       <!-- /wp:paragraph -->
     </div>
     <!-- /wp:group -->
-
+    
     <!-- wp:group -->
     <div class="wp-block-group contact-info-cols-wrapper desktop:flex desktop:gap-[80px] gap-[20px]">
       <!-- wp:group -->
@@ -84,10 +84,10 @@
             <p class="hidden">overlay</p>
             <!-- /wp:paragraph -->
           </div>
-          <!-- /wp:group -->
+          <!-- /wp:group -->  
           <!-- wp:image -->
           <figure class="wp-block-image author-img h-full clipped-blog">
-            <img src="/wp-content/themes/mutiny/assets/img/page-contact/co-founder-img.jpg" alt="services-backgroun-image" />
+            <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-contact/co-founder-img.jpg" alt="services-backgroun-image" />
           </figure>
           <!-- /wp:image -->
           <!-- wp:paragraph -->
@@ -105,7 +105,7 @@
         <!-- /wp:group -->
       </div>
       <!-- /wp:group -->
-
+      
       <!-- wp:group -->
       <div class="wp-block-group col2 self-center text-wrapper">
         <!-- wp:group -->
