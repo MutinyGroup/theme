@@ -37,7 +37,7 @@
         <!-- /wp:paragraph -->
 
         <!-- wp:group -->
-        <div class="wp-block-group section-title grid desktop:basis-auto desktop:w-[145px] desktop:basis-[80%] uppercase text-primaryYellow">
+        <div class="wp-block-group section-title grid desktop:basis-auto desktop:w-[145px] uppercase text-primaryYellow">
           <!-- wp:paragraph -->
           <p class="desktop:justify-self-end pt-[3px] pr-[15px] text-[20px]">02</p>
           <!-- /wp:paragraph -->
@@ -104,7 +104,7 @@
         <!-- wp:group -->
         <div class="wp-block-group desktop:mt-[-120px] w-full">
           <!-- wp:group -->
-          <div id="marketing" class="wp-block-group swiper swiperMarketing relative desktop:pt-[180px] absolute top-0 desktop:left-[150px] left-[20px]">
+          <div id="marketing" class="wp-block-group swiper swiperMarketing relative desktop:pt-[180px] top-0 desktop:left-[150px] left-[20px]">
             <!-- wp:group -->
             <div class="wp-block-group swiper-wrapper">
               <!-- wp:group -->
