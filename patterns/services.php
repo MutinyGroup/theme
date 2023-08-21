@@ -170,8 +170,7 @@
                         <path d="M19 22L23 18.0108L19.0217 14" stroke="white" />
                         <path d="M12 18L20 18" stroke="white" />
                       </svg>
-                    </a>
-                  </p>
+                    </a></p>
                   <!-- /wp:paragraph -->
                 </div>
                 <!-- /wp:buttons -->
