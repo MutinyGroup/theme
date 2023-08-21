@@ -11,6 +11,9 @@ a:link{
 .swiper-slide-services{
     min-width: 354px!important;
 }
+.swiper-services-editor{
+    height: 850px;
+}
 .swiper .swiperBlog{
     z-index: 10;
     position: relative;
