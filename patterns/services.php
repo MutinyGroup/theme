@@ -104,9 +104,9 @@
               <!-- wp:group -->
               <div class="wp-block-group swiper-slide swiper-slide-services relative z-[2] group p-[25px] wide:max-w-[420px] desktop:max-w-[354px] max-w-[310px] h-[380px] desktop:h-[450px] wide:h-[530px] rounded-[20px] transition ease-out duration-300 mr-[8px] <?php echo ($counter == 1) ?  "clip-path-url-['#clipped-swiper-serv-1']" : (($counter == $post_query->post_count) ? "clip-path-url-['#clipped-swiper-serv-2']" : ''); ?>">
                 <!-- wp:group -->
-                <div class="wp-block-group img-clip-path-wrapper w-full h-full rounded-[20px] rounded-br-[20px] overflow-hidden absolute left-0 top-0 z-[0] group-hover:grayscale">
+                <div class="wp-block-group img-clip-path-wrapper w-full h-full rounded-[20px] rounded-br-[20px] overflow-hidden absolute left-0 top-0 z-[1] group-hover:grayscale">
                   <!-- wp:group -->
-                  <div class="wp-block-group img-clip-path-wrapper w-full h-full rounded-[20px] rounded-br-[20px] overflow-hidden absolute left-0 top-0 z-[0] group-hover:grayscale">
+                  <div class="wp-block-group img-clip-path-wrapper w-full h-full rounded-[20px] rounded-br-[20px] overflow-hidden absolute left-0 top-0 z-[1] group-hover:grayscale">
                     <!-- wp:group -->
                     <div class="wp-block-group <?php echo ($counter == 1) ? "clip-path-url-['#clipped-swiper-serv-1']" : (($counter == $post_query->post_count) ? "clip-path-url-['#clipped-swiper-serv-2']" : ''); ?> gray-overlay w-full h-full bg-[#101010] absolute top-0 left-0 opacity-[70%] z-[1]">
                       <!-- wp:paragraph -->
@@ -166,7 +166,7 @@
                 <!-- /wp:group -->
 
                 <!-- wp:buttons -->
-                <div class="wp-block-buttons btn-swiper-more group text-[14px] uppercase absolute desktop:bottom-[25px] bottom-[55px] left-[25px] cursor-pointer transition ease-out duration-300">
+                <div class="wp-block-buttons btn-swiper-more group text-[14px] uppercase absolute desktop:bottom-[25px] bottom-[55px] left-[25px] cursor-pointer transition ease-out duration-300 z-[1]">
                   <!-- wp:paragraph -->
                   <a href="<?php the_permalink(); ?>" class="inline-block z-[1]">
                     Dowiedz się więcej
