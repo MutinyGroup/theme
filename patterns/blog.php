@@ -38,7 +38,7 @@
 
         <!-- wp:image -->
         <figure class="wp-block-image flash absolute top-[0px] left-[0px]">
-          <img src="<?php echo home_url(); ?>/wp-content/themes/mutiny/assets/img/bg-yellow-flash.png" alt="background image" />
+          <img src="<?php echo home_url() . '/wp-content/themes/mutiny/assets/img/bg-yellow-flash.png'; ?> " alt="background image" />
         </figure>
         <!-- /wp:image -->
       </div>
@@ -46,12 +46,12 @@
 
       <!-- wp:image -->
       <figure class="wp-block-image bg-shape desktop:w-[234px] w-[125px] z-[0] opacity-[0.3] absolute desktop:top-[-130px] top-[-60px] desktop:left-[-10px] left-[-10px] mb-[20px] desktop:max-w-[444px] max-h-[450px]">
-        <img src="<?php echo home_url(); ?>/wp-content/themes/mutiny/assets/img/front-page/blog-bg-shape.png" alt="background-shape">
+        <img src="<?php echo home_url() . '/wp-content/themes/mutiny/assets/img/front-page/blog-bg-shape.png'; ?>" alt="background-shape">
       </figure>
       <!-- /wp:image -->
       <!-- wp:image -->
       <figure class="wp-block-image bg-shape hidden desktop:block desktop:w-[470px] w-[180px] z-[-1] opacity-[0.2] absolute top-[-280px] right-[100px] mb-[20px] desktop:max-w-[444px] max-h-[450px]">
-        <img src="<?php echo home_url(); ?>/wp-content/themes/mutiny/assets/img/front-page/blog-bg-shape2.png" alt="background-shape">
+        <img src="<?php echo home_url() . '/wp-content/themes/mutiny/assets/img/front-page/blog-bg-shape2.png'; ?>" alt="background-shape">
       </figure>
       <!-- /wp:image -->
       <!-- wp:paragraph -->
