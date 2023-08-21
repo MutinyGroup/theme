@@ -38,17 +38,19 @@
         <div class="wp-block-group relative w-full h-full rounded-tr-[20px] overflow-hidden">
           <!-- wp:image -->
           <figure class="wp-block-image w-full h-full clip-path-url-['#clipped-about']">
-            <img src="/wp-content/themes/mutiny/assets/img/front-page/o-nas-img.png" alt="about-us-image">
+            <img src="<?php echo home_url() . '/wp-content/themes/mutiny/assets/img/front-page/o-nas-img.png'; ?>" alt="about-us-image">
           </figure>
           <!-- /wp:image -->
           <!-- wp:paragraph -->
-          <svg x="0px" y="0px" viewBox="0 0 1374.7 1083.6" class="absolute top-0">
-            <defs>
-              <clipPath id="clipped-about" class="scale-[0.00122] scale-x-[0.00184]" clipPathUnits="objectBoundingBox" transform="scale(0.0018, 0.0012)">
-                <path d="M0 0H523C534.046 0 543 8.95431 543 20V721C543 732.046 534.046 741 523 741H355.427C347.47 741 339.839 744.161 334.213 749.787L301.787 782.213C296.161 787.839 288.53 791 280.574 791H0.000204735L0 0Z" />
-              </clipPath>
-            </defs>
-          </svg>
+          <p>
+            <svg x="0px" y="0px" viewBox="0 0 1374.7 1083.6" class="absolute top-0">
+              <defs>
+                <clipPath id="clipped-about" class="scale-[0.00122] scale-x-[0.00184]" clipPathUnits="objectBoundingBox" transform="scale(0.0018, 0.0012)">
+                  <path d="M0 0H523C534.046 0 543 8.95431 543 20V721C543 732.046 534.046 741 523 741H355.427C347.47 741 339.839 744.161 334.213 749.787L301.787 782.213C296.161 787.839 288.53 791 280.574 791H0.000204735L0 0Z" />
+                </clipPath>
+              </defs>
+            </svg>
+          </p>
           <!-- /wp:paragraph -->
         </div>
         <!-- /wp:group -->
