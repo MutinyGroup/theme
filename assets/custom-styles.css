@@ -7,6 +7,12 @@ a {
   text-decoration: none;
 }
 
+figure[class^="clip-path-url"].wp-block-image img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -44,7 +50,7 @@ body {
 
 /* clip path images - front page */
 
-.clipped-banner img,
+/* .clipped-banner img, */
 .clipped-about img,
 .clipped-swiper-serv-1 img,
 .clipped-swiper-serv-2 img,
