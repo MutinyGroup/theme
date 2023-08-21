@@ -51,7 +51,7 @@ body {
 /* clip path images - front page */
 
 /* .clipped-banner img, */
-.clipped-about img,
+/* .clipped-about img,
 .clipped-swiper-serv-1 img,
 .clipped-swiper-serv-2 img,
 .clipped-realizations-1 img,
@@ -66,8 +66,8 @@ body {
   height: 100%;
   width: 100%;
   object-fit: cover;
-}
-.clipped-about img {
+} */
+/* .clipped-about img {
   clip-path: url(#clipped-about);
 }
 .clipped-swiper-serv-1 img,
@@ -91,7 +91,7 @@ body {
 }
 .clipped-blog {
   clip-path: url(#clipped-blog);
-}
+} */
 .clipped-blog img {
   transition: all 0.6s ease-out;
   transform: scale(1.17);
@@ -102,7 +102,7 @@ body {
 .blog-posts-wrapper .swiper-slide:hover .clipped-blog > img {
   transform: scale(1.11);
 }
-.clipped-cta img {
+/* .clipped-cta img {
   clip-path: url(#clipped-cta);
   height: 100% !important;
 }
@@ -117,11 +117,11 @@ body {
 }
 .clipped-contact img {
   clip-path: url(#clipped-contact);
-}
+} */
 
 /* clip path images - page about */
 
-.clipped-meet-us-gallery img {
+/* .clipped-meet-us-gallery img {
   clip-path: url(#clipped-meet-us-gallery);
   height: 100%;
   object-fit: cover;
@@ -136,7 +136,7 @@ body {
 }
 .video-player-wrapper::after {
   clip-path: url(#clipped-cta);
-}
+} */
 
 .video-player-wrapper::after {
   content: "";
@@ -152,9 +152,9 @@ body {
   background-repeat: no-repeat;
   transition: all 0.3s ease-out;
 }
-.video-player-wrapper::after {
+/* .video-player-wrapper::after {
   clip-path: url(#clipped-video);
-}
+} */
 @media only screen and (max-width: 480px) {
   .video-player-wrapper::after {
     height: 320px;
@@ -168,7 +168,7 @@ body {
 
 /* clip path images - page about */
 
-.clipped-why {
+/* .clipped-why {
   clip-path: url(#clipped-why);
 }
 @media only screen and (max-width: 480px) {
@@ -194,7 +194,7 @@ body {
   .post-img img {
     height: 580px;
   }
-}
+} */
 .wp-block-image {
   margin-bottom: 0;
 }
@@ -248,9 +248,9 @@ body {
 } */
 
 /* about us */
-.clipped {
+/* .clipped {
   clip-path: url(#clipped);
-}
+} */
 
 /* services */
 
@@ -274,12 +274,12 @@ body {
 .swiper-button-prev::after {
   display: none;
 }
-.tile-services-1::before {
+/* .tile-services-1::before {
   clip-path: url(#clipped-realizations-1);
 }
 .tile-services-2::before {
   clip-path: url(#clipped-realizations-2);
-}
+} */
 .swiper-slide-services::before {
   opacity: 0;
   content: "";
@@ -324,9 +324,9 @@ body {
   opacity: 1;
 }
 
-.clipped-services-swiper-start {
+/* .clipped-services-swiper-start {
   clip-path: url(#clipped-services-swiper-start);
-}
+} */
 
 /* about us */
 
@@ -354,12 +354,12 @@ body {
   background-blend-mode: hard-light, hard-light, luminosity;
   transition: all 0.3s ease-out;
 }
-.tile-realizacje-1::before {
+/* .tile-realizacje-1::before {
   clip-path: url(#clipped-realizations-1);
 }
 .tile-realizacje-2::before {
   clip-path: url(#clipped-realizations-2);
-}
+} */
 .tile-realizacje-1:hover::before,
 .tile-realizacje-2:hover::before {
   opacity: 1;
