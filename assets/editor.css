@@ -2,7 +2,19 @@ body{
     background-color: #F2F2F2;
     color: black;
 }
-
 a:link{
     text-decoration: none;
+}
+.swiper .swiperBlog{
+    z-index: 10;
+    position: relative;
+}
+.swiper-wrapper{
+    display: flex;
+}
+.swiperBlog .swiper-wrapper .swiper-slide{
+    min-width: 535px
+}
+.swiper-overscroll{
+    overflow-x: scroll!important;
 }
