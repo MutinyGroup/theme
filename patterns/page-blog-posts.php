@@ -49,7 +49,7 @@
               <li class="wp-block-group bigger swiper-slide relative group w-full desktop:w-[535px] wide:w-[580px] h-fit desktop:h-[675px] wide:h-[756px] <?php echo (!($counter % 2)) ? 'desktop:translate-y-[120px]' : ''; ?>">
                 <a href="<?php the_permalink(); ?>">
                   <!-- wp:group -->
-                  <div class="wp-block-group mb-[20px] h-full">
+                  <div class="wp-block-group h-full mb-[20px]">
                     <!-- wp:group -->
                     <div class="wp-block-group h-full overflow-hidden rounded-[20px]">
                       <!-- wp:image -->
@@ -91,11 +91,10 @@
               $i++;
             } else { ?>
               <!-- wp:list-item -->
-              <li class="wp-block-group smaller swiper-slide relative group w-full desktop:w-[444px] wide:w-[490px] h-fit desktop:h-[675px] <?php if (!($counter % 2)) echo 'desktop:translate-y-[120px]';
-                                                                                                                                            else echo ''; ?>">
+              <li class="wp-block-group smaller swiper-slide relative group w-full desktop:w-[444px] wide:w-[490px] h-fit desktop:h-[675px] <?php echo (!($counter % 2)) ? 'desktop:translate-y-[120px]' : ''; ?>">
                 <a href="<?php the_permalink(); ?>">
                   <!-- wp:group -->
-                  <div class="wp-block-group img-clip-path-rounded mb-[20px]">
+                  <div class="wp-block-group h-full mb-[20px]">
                     <!-- wp:group -->
                     <div class="wp-block-group h-full desktop:h-auto overflow-hidden rounded-[20px]">
                       <!-- wp:image -->
