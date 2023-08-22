@@ -165,12 +165,12 @@ body {
 
 /* about us */
 
-.services-swiper-img img {
+/* .services-swiper-img img {
   height: 100%;
   width: 100%;
   max-width: 100%;
   object-fit: fill;
-}
+} */
 
 .tile-realizacje-1::before,
 .tile-realizacje-2::before {
