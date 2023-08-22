@@ -31,7 +31,7 @@
         <?php
         $args = array(
           'post_type' => 'post',
-          'posts_per_page' => 6,
+          'posts_per_page' => 2,
           'order' => 'DESC'
         );
         $post_query = new WP_Query($args);
@@ -141,6 +141,9 @@
           <!-- /wp:group -->
           <!-- wp:group -->
           <div class="wp-block-group nav-next alignright"><?php previous_posts_link('Newer posts'); ?></div>
+          <!-- /wp:group -->
+          <!-- wp:group -->
+          <div class="wp-block-group nav-next alignright"><?php the_posts_pagination(); ?></div>
           <!-- /wp:group -->
         <?php
         };
