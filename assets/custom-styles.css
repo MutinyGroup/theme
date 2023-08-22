@@ -145,18 +145,18 @@ figure[class*="logo-img"] img {
 /* PAGE ABOUT */
 /* video player */
 .video-player-wrapper::after {
-  content: "";
+  /* content: "";
   position: absolute;
   top: 0;
   left: 0;
   z-index: 1;
   width: 100%;
-  height: 700px;
+  height: 700px; */
   background: url("https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-about/about-video.jpg");
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
-  transition: all 0.3s ease-out;
+  /* transition: all 0.3s ease-out; */
 }
 @media only screen and (max-width: 480px) {
   .video-player-wrapper::after {
