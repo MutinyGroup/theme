@@ -75,14 +75,14 @@ figure[class*="logo-img"] img {
     linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(48, 37, 28, 0.2));
 }
 
-.tile-realizacje-1::before,
-.tile-realizacje-2::before {
+.tile-realizacje::before,
+.tile-realizacje::before {
   background: linear-gradient(0deg, #000000 0%, rgba(0, 0, 0, 0) 50%),
     linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(48, 37, 28, 0.2));
 }
 
-.tile-realizacje-1:hover::before,
-.tile-realizacje-2:hover::before {
+.tile-realizacje:hover::before,
+.tile-realizacje:hover::before {
   opacity: 1;
 }
 
