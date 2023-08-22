@@ -13,7 +13,7 @@
   <!-- wp:group -->
   <div class="wp-block-group desktop:block hidden w-[444px] overflow-hidden absolute bottom-[-150px] right-[0px] z-[-1]">
     <!-- wp:image -->
-    <figure class="wp-block-image h-full clipped-contact">
+    <figure class="wp-block-image h-full clip-path-url-['#clipped-contact']">
       <img src="<?php echo home_url() . '/wp-content/themes/mutiny/assets/img/page-contact/page-contact-company-details.jpg'; ?>" alt="image">
     </figure>
     <!-- /wp:image -->
