@@ -102,7 +102,7 @@
               $counter++;
           ?>
               <!-- wp:group -->
-              <div class="wp-block-group swiper-slide swiper-slide-services relative z-[2] group p-[25px] wide:max-w-[420px] desktop:max-w-[354px] max-w-[310px] h-[380px] desktop:h-[450px] wide:h-[530px] rounded-[20px] text-[18px] flex items-center before:hover:opacity-100 after:hover:opacity-100 wide:before:h-[530px] wide:after:h-[530px] transition ease-out duration-300 mr-[8px] <?php echo ($counter == 1) ?  "clip-path-url-['#clipped-swiper-serv-1']" : (($counter == $post_query->post_count) ? "clip-path-url-['#clipped-swiper-serv-2']" : ''); ?>">
+              <div class="wp-block-group swiper-slide swiper-slide-services relative z-[2] group p-[25px] wide:max-w-[420px] desktop:max-w-[354px] max-w-[310px] h-[380px] desktop:h-[450px] wide:h-[530px] rounded-[20px] text-[18px] flex items-center before:hover:opacity-100 after:hover:opacity-100 wide:before:h-[530px] wide:after:h-[530px] transition ease-out duration-300 mr-[8px] before:content-[''] before:opacity-0 before:absolute before:top-0 before:left-0 before:z-[2] before:w-full before:h-[450px] before:bg-center before:bg-cover before:transition before:duration-[300ms] before:ease-out before:grayscale <?php echo ($counter == 1) ?  "clip-path-url-['#clipped-swiper-serv-1']" : (($counter == $post_query->post_count) ? "clip-path-url-['#clipped-swiper-serv-2']" : ''); ?>">
                 <!-- wp:group -->
                 <div class="wp-block-group img-clip-path-wrapper w-full h-full rounded-[20px] rounded-br-[20px] overflow-hidden absolute left-0 top-0 z-[1] group-hover:grayscale">
                   <!-- wp:group -->
