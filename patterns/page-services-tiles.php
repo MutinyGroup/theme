@@ -82,8 +82,7 @@
             $counter++;
             if (true) { ?>
               <!-- wp:list-item -->
-              <li class="wp-block-group swiper-slide relative group desktop:w-[545px] w-[100%] desktop:h-[600px] h-[320px] <?php if (($counter % 2)) echo "";
-                                                                                                                            else echo 'desktop:translate-y-[50px]'; ?>">
+              <li class="wp-block-group swiper-slide relative group desktop:w-[545px] w-[100%] desktop:h-[600px] h-[320px] <?php echo (($counter % 2)) ? "" : 'desktop:translate-y-[50px]'; ?>">
                 <!-- wp:group -->
                 <div class="wp-block-group group relative gallery-tile w-full <?php if ($counter == 1) echo "clip-path-url-['#clipped-realizations-1'] tile-services-1";
                                                                               elseif ($counter == $post_query->post_count) echo "clip-path-url-['#clipped-realizations-2'] tile-services-2"; ?>  z-[1] group desktop:p-[25px] desktop:h-[600px] h-[320px] overflow-hidden rounded-[20px] transition ease-out duration-300 mr-[8px] mb-[30px]">
