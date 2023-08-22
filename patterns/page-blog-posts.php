@@ -137,20 +137,25 @@
             };
           }; ?>
           <!-- wp:group -->
-          <div class="wp-block-group nav-previous alignleft"><?php next_posts_link('Older posts'); ?></div>
-          <!-- /wp:group -->
-          <!-- wp:group -->
-          <div class="wp-block-group nav-next alignright">
-            <!-- wp:paragraph -->
-            <p>
-              <?php previous_posts_link('Newer posts'); ?>
-            </p>
-            <!-- /wp:paragraph -->
+          <div class="wp-block-group pagination">
+            <?php
+            echo paginate_links(array(
+              'base'         => str_replace(999999999, '%#%', esc_url(get_pagenum_link(999999999))),
+              'total'        => $query->max_num_pages,
+              'current'      => max(1, get_query_var('paged')),
+              'format'       => '?paged=%#%',
+              'show_all'     => false,
+              'type'         => 'plain',
+              'end_size'     => 2,
+              'mid_size'     => 1,
+              'prev_next'    => true,
+              'prev_text'    => sprintf('<i></i> %1$s', __('Newer Posts', 'text-domain')),
+              'next_text'    => sprintf('%1$s <i></i>', __('Older Posts', 'text-domain')),
+              'add_args'     => false,
+              'add_fragment' => '',
+            ));
+            ?>
           </div>
-
-          <!-- /wp:group -->
-          <!-- wp:group -->
-          <div class="wp-block-group nav-next alignright"><?php the_posts_pagination(); ?></div>
           <!-- /wp:group -->
         <?php
         };
