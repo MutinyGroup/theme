@@ -189,21 +189,6 @@ figure[class*="logo-img"] img {
   position: relative;
 }
 
-/* page contact */
-/* .author-img img {
-  transform: scale(1);
-  transition: none;
-  object-position: top;
-} */
-/* .overlay-author {
-  background: linear-gradient(
-    360deg,
-    rgba(0, 0, 0, 0.5) 0%,
-    rgba(0, 0, 0, 0) 65%
-  );
-  background-blend-mode: hard-light, normal;
-} */
-
 /* ----------------------------------------------------------------------------------- */
 
 /* Wordpress default styles */
