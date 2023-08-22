@@ -65,9 +65,6 @@ body {
   }
 }
 
-.wp-block-image {
-  margin-bottom: 0;
-}
 .vertical {
   writing-mode: vertical-rl;
   transform: rotate(180deg);
