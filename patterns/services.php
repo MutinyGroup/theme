@@ -102,7 +102,7 @@
               $counter++;
           ?>
               <!-- wp:group -->
-              <div class="wp-block-group swiper-slide swiper-slide-services relative z-[2] group p-[25px] wide:max-w-[420px] desktop:max-w-[354px] max-w-[310px] h-[380px] desktop:h-[450px] wide:h-[530px] rounded-[20px] transition ease-out duration-300 mr-[8px] <?php echo ($counter == 1) ?  "clip-path-url-['#clipped-swiper-serv-1']" : (($counter == $post_query->post_count) ? "clip-path-url-['#clipped-swiper-serv-2']" : ''); ?>">
+              <div class="wp-block-group swiper-slide swiper-slide-services relative z-[2] group p-[25px] wide:max-w-[420px] desktop:max-w-[354px] max-w-[310px] h-[380px] desktop:h-[450px] wide:h-[530px] rounded-[20px] text-[18px] flex items-center transition ease-out duration-300 mr-[8px] <?php echo ($counter == 1) ?  "clip-path-url-['#clipped-swiper-serv-1']" : (($counter == $post_query->post_count) ? "clip-path-url-['#clipped-swiper-serv-2']" : ''); ?>">
                 <!-- wp:group -->
                 <div class="wp-block-group img-clip-path-wrapper w-full h-full rounded-[20px] rounded-br-[20px] overflow-hidden absolute left-0 top-0 z-[1] group-hover:grayscale">
                   <!-- wp:group -->
@@ -154,7 +154,7 @@
                 <!-- /wp:group -->
 
                 <!-- wp:group -->
-                <div class="wp-block-group text-wrapper slide-title absolute desktop:bottom-[85px] bottom-[100px] left-[25px] z-[1] group-hover:translate-y-[-80px] transition ease-out duration-500 z-[3]">
+                <div class="wp-block-group text-wrapper slide-title absolute desktop:bottom-[85px] bottom-[100px] left-[25px] group-hover:translate-y-[-80px] transition ease-out duration-500 z-[3]">
                   <!-- wp:paragraph -->
                   <p><a href="<?php the_permalink(); ?>" class="mr-[20px] text-[25px] font-semibold mb-[15px] underline-offset-[7px] group-hover:underline group-hover:decoration-primaryYellow group-hover:translate-y-[-80px] transition ease-out duration-500"><?php the_title(); ?></a></p>
                   <!-- /wp:paragraph -->

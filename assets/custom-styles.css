@@ -70,13 +70,7 @@ body {
   }
 }
 
-/* .gallery-cols .inner-col1 img,
-.gallery-cols .inner-col2 img {
-  width: 100% !important;
-  height: 100% !important;
-} */
-
-/* header */
+/* mobile navbar action */
 
 .hamburger-btn-line:nth-child(1) {
   transform-origin: left;
@@ -105,13 +99,13 @@ body {
 
 /* services */
 
-.swiper-slide-services {
+/* .swiper-slide-services {
   font-size: 18px;
   background: transparent;
   display: flex;
   justify-content: center;
   align-items: center;
-}
+} */
 .services-img img {
   height: 100%;
 }
