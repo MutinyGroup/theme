@@ -9,7 +9,8 @@ a {
 
 figure[class*="clip-path-url"] img,
 figure[class*="meet-us-gallery"] img,
-figure[class*="post-img"] img {
+figure[class*="post-img"] img,
+figure[class*="wp-block-image"] img {
   height: 100%;
   width: 100%;
   object-fit: cover;
@@ -63,11 +64,6 @@ body {
   .video-player-wrapper::after {
     height: 880px;
   }
-}
-
-.vertical {
-  writing-mode: vertical-rl;
-  transform: rotate(180deg);
 }
 
 .gallery-cols .inner-col1 img,
