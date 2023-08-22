@@ -109,16 +109,16 @@ body {
 /* .services-img img {
   height: 100%;
 } */
-@media only screen and (min-width: 1600px) {
+/* @media only screen and (min-width: 1600px) {
   .swiper-slide-services {
     width: 420px !important;
     height: 530px !important;
   }
-}
-.swiper-button-next::after,
+} */
+/* .swiper-button-next::after,
 .swiper-button-prev::after {
   display: none;
-}
+} */
 .swiper-slide-services::before {
   opacity: 0;
   content: "";
