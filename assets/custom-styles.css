@@ -106,9 +106,9 @@ body {
   justify-content: center;
   align-items: center;
 } */
-.services-img img {
+/* .services-img img {
   height: 100%;
-}
+} */
 @media only screen and (min-width: 1600px) {
   .swiper-slide-services {
     width: 420px !important;
