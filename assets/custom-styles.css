@@ -137,19 +137,19 @@ figure[class*="logo-img"] img {
 
 /* Wordpress default styles */
 /* blog single post page */
-.entry-content h3 {
+.single .entry-content h3 {
   font-size: 35px;
   font-weight: 600;
   line-height: 42px;
   margin-bottom: 40px;
 }
-.entry-content h4 {
+.single .entry-content h4 {
   font-size: 25px;
   font-weight: 600;
   line-height: 30px;
   margin-bottom: 30px;
 }
-.entry-content p {
+.single .entry-content p {
   margin-left: 30px;
   margin-bottom: 20px;
 }
@@ -157,7 +157,7 @@ figure[class*="logo-img"] img {
   margin-left: 0px;
   margin-bottom: 0px;
 }
-.entry-content ul {
+.single .entry-content ul {
   margin-left: 30px;
   list-style-type: none;
   text-decoration: none;
