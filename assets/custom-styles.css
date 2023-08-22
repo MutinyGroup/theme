@@ -158,10 +158,10 @@ body {
     height: 530px;
   }
 }
-.swiper-slide-services:hover:before,
+/* .swiper-slide-services:hover:before,
 .swiper-slide-services:hover:after {
   opacity: 1;
-}
+} */
 
 /* about us */
 
