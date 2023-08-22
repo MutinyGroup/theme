@@ -143,21 +143,6 @@ figure[class*="logo-img"] img {
 }
 
 /* PAGE ABOUT */
-/* video player */
-/* .wp-block-embed__wrapper {
-  height: 620px;
-}
-@media only screen and (max-width: 480px) {
-  .wp-block-embed__wrapper {
-    height: 320px;
-  }
-}
-@media only screen and (min-width: 1600px) {
-  .wp-block-embed__wrapper {
-    height: 800px;
-  }
-} */
-
 /* sport logos */
 #logos .swiper-wrapper figure img,
 .companies-wrapper-bright figure img,
@@ -204,13 +189,12 @@ figure[class*="logo-img"] img {
   position: relative;
 }
 
-
 /* page contact */
-.author-img img {
+/* .author-img img {
   transform: scale(1);
   transition: none;
   object-position: top;
-}
+} */
 .overlay-author {
   background: linear-gradient(
     360deg,
