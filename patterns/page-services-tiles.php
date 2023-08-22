@@ -89,8 +89,7 @@
                   <div class="wp-block-group img-clip-path-wrapper w-full h-full rounded-tr-[20px] rounded-br-[20px] overflow-hidden absolute left-0 top-0 z-[-1]">
 
                     <!-- wp:image -->
-                    <figure class="wp-block-image h-full group-hover:grayscale transition ease-in-out duration-[400ms] <?php if ($counter == 1) echo "clip-path-url-['#clipped-realizations-1']";
-                                                                                                                        elseif ($counter == $post_query->post_count) echo "clip-path-url-['#clipped-realizations-2']"; ?>">
+                    <figure class="wp-block-image h-full group-hover:grayscale transition ease-in-out duration-[400ms] <?php echo ($counter == 1) ? "clip-path-url-['#clipped-realizations-1']" : (($counter == $post_query->post_count) ? "clip-path-url-['#clipped-realizations-2']" : ''); ?>">
                       <img src="<?php echo $postImageUrl[0]; ?>" alt="services-backgroun-image" />
                     </figure>
                     <!-- /wp:image -->
