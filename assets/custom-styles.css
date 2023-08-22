@@ -70,6 +70,19 @@ body {
     height: 880px;
   }
 }
+.wp-block-embed__wrapper {
+  height: 620px;
+}
+@media only screen and (max-width: 480px) {
+  .wp-block-embed__wrapper {
+    height: 320px;
+  }
+}
+@media only screen and (min-width: 1600px) {
+  .wp-block-embed__wrapper {
+    height: 800px;
+  }
+}
 
 /* mobile navbar action */
 
@@ -201,6 +214,45 @@ body {
   opacity: 100%;
 }
 
+/* page services-marketing */
+
+.inactive {
+  max-height: 0px;
+  opacity: 0%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  z-index: -1;
+  position: relative;
+}
+.active {
+  max-height: 280px;
+  opacity: 100%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  z-index: 0;
+  position: relative;
+}
+
+
+/* page contact */
+
+.author-img img {
+  transform: scale(1);
+  transition: none;
+  object-position: top;
+}
+.overlay-author {
+  background: linear-gradient(
+    360deg,
+    rgba(0, 0, 0, 0.5) 0%,
+    rgba(0, 0, 0, 0) 65%
+  );
+  background-blend-mode: hard-light, normal;
+}
+
+/* ----------------------------------------------------------------------------------- */
+
+/* Wordpress default styles */
 /* blog single post page */
 
 .entry-content h3 {
@@ -269,38 +321,11 @@ body {
   }
 }
 
-/* page services-marketing */
-
-.inactive {
-  max-height: 0px;
-  opacity: 0%;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  z-index: -1;
-  position: relative;
-}
-.active {
-  max-height: 280px;
-  opacity: 100%;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  z-index: 0;
-  position: relative;
-}
-.marketing-gallery img {
-  width: 100%;
-}
-.swiperMarketing2 figure img {
-  height: 100%;
-  object-fit: cover;
-}
-
 /* navigation menu */
 
 .wp-block-navigation__responsive-container-open {
   display: none;
 }
-
 .wp-block-navigation__responsive-close {
   max-width: fit-content;
 }
@@ -336,35 +361,4 @@ body {
   background-color: white;
   color: black;
   border-color: white;
-}
-/* video player */
-
-.wp-block-embed__wrapper {
-  height: 620px;
-}
-@media only screen and (max-width: 480px) {
-  .wp-block-embed__wrapper {
-    height: 320px;
-  }
-}
-@media only screen and (min-width: 1600px) {
-  .wp-block-embed__wrapper {
-    height: 800px;
-  }
-}
-
-/* page contact */
-
-.author-img img {
-  transform: scale(1);
-  transition: none;
-  object-position: top;
-}
-.overlay-author {
-  background: linear-gradient(
-    360deg,
-    rgba(0, 0, 0, 0.5) 0%,
-    rgba(0, 0, 0, 0) 65%
-  );
-  background-blend-mode: hard-light, normal;
 }
