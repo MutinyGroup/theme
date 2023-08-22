@@ -94,7 +94,7 @@
               <li class="wp-block-group smaller swiper-slide relative group w-full desktop:w-[444px] wide:w-[490px] h-fit desktop:h-[675px] <?php echo (!($counter % 2)) ? 'desktop:translate-y-[120px]' : ''; ?>">
                 <a href="<?php the_permalink(); ?>">
                   <!-- wp:group -->
-                  <div class="wp-block-group h-full mb-[20px]">
+                  <div class="wp-block-group h-fit mb-[20px]">
                     <!-- wp:group -->
                     <div class="wp-block-group h-full desktop:h-auto overflow-hidden rounded-[20px]">
                       <!-- wp:image -->
