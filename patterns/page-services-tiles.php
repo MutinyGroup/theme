@@ -84,8 +84,7 @@
               <!-- wp:list-item -->
               <li class="wp-block-group swiper-slide relative group desktop:w-[545px] w-[100%] desktop:h-[600px] h-[320px] <?php echo (($counter % 2)) ? "" : 'desktop:translate-y-[50px]'; ?>">
                 <!-- wp:group -->
-                <div class="wp-block-group group relative gallery-tile w-full <?php if ($counter == 1) echo "clip-path-url-['#clipped-realizations-1'] tile-services-1";
-                                                                              elseif ($counter == $post_query->post_count) echo "clip-path-url-['#clipped-realizations-2'] tile-services-2"; ?>  z-[1] group desktop:p-[25px] desktop:h-[600px] h-[320px] overflow-hidden rounded-[20px] transition ease-out duration-300 mr-[8px] mb-[30px]">
+                <div class="wp-block-group group relative gallery-tile w-full <?php echo ($counter == 1) ? "clip-path-url-['#clipped-realizations-1'] tile-services-1" : (($counter == $post_query->post_count) ? "clip-path-url-['#clipped-realizations-2'] tile-services-2" : ''); ?>  z-[1] group desktop:p-[25px] desktop:h-[600px] h-[320px] overflow-hidden rounded-[20px] transition ease-out duration-300 mr-[8px] mb-[30px]">
                   <!-- wp:group -->
                   <div class="wp-block-group img-clip-path-wrapper w-full h-full rounded-tr-[20px] rounded-br-[20px] overflow-hidden absolute left-0 top-0 z-[-1]">
 
