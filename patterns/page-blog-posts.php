@@ -140,7 +140,14 @@
           <div class="wp-block-group nav-previous alignleft"><?php next_posts_link('Older posts'); ?></div>
           <!-- /wp:group -->
           <!-- wp:group -->
-          <div class="wp-block-group nav-next alignright"><?php previous_posts_link('Newer posts'); ?></div>
+          <div class="wp-block-group nav-next alignright">
+            <!-- wp:paragraph -->
+            <p>
+              <?php previous_posts_link('Newer posts'); ?>
+            </p>
+            <!-- /wp:paragraph -->
+          </div>
+
           <!-- /wp:group -->
           <!-- wp:group -->
           <div class="wp-block-group nav-next alignright"><?php the_posts_pagination(); ?></div>
