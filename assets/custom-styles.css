@@ -145,7 +145,7 @@ figure[class*="logo-img"] img {
 /* PAGE ABOUT */
 /* video player */
 
-@media only screen and (max-width: 480px) {
+/* @media only screen and (max-width: 480px) {
   .video-player-wrapper::after {
     height: 320px;
   }
@@ -154,7 +154,7 @@ figure[class*="logo-img"] img {
   .video-player-wrapper::after {
     height: 880px;
   }
-}
+} */
 .wp-block-embed__wrapper {
   height: 620px;
 }
