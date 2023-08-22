@@ -3,9 +3,13 @@
 @tailwind utilities;
 
 /* general */
-a {
-  text-decoration: none;
+html {
+  scroll-behavior: smooth;
 }
+body {
+  font-family: "Urbanist", sans-serif;
+}
+/* images */
 figure[class*="clip-path-url"] img,
 figure[class*="meet-us-gallery"] img,
 figure[class*="post-img"] img,
@@ -18,15 +22,17 @@ figure[class*="logo-img"] img {
   height: 50px;
   object-fit: contain;
 }
+.blog-first-img-hover img {
+  transition: all 0.6s ease-out;
+  transform: scale(1.17);
+}
+.swiperBlog .swiper-slide:hover .blog-first-img-hover > img {
+  transform: scale(1.11);
+}
 .wp-block-image{
   margin: 0!important;
 }
-html {
-  scroll-behavior: smooth;
-}
-body {
-  font-family: "Urbanist", sans-serif;
-}
+
 /* bright subpages */
 .page,
 .single,
@@ -36,56 +42,7 @@ body {
   color: black;
 }
 
-.blog-first-img-hover img {
-  transition: all 0.6s ease-out;
-  transform: scale(1.17);
-}
-.swiperBlog .swiper-slide:hover .blog-first-img-hover > img {
-  transform: scale(1.11);
-}
-
-/* Video player */
-
-.video-player-wrapper::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 1;
-  width: 100%;
-  height: 700px;
-  background: url("https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-about/about-video.jpg");
-  background-position: center center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  transition: all 0.3s ease-out;
-}
-@media only screen and (max-width: 480px) {
-  .video-player-wrapper::after {
-    height: 320px;
-  }
-}
-@media only screen and (min-width: 1600px) {
-  .video-player-wrapper::after {
-    height: 880px;
-  }
-}
-.wp-block-embed__wrapper {
-  height: 620px;
-}
-@media only screen and (max-width: 480px) {
-  .wp-block-embed__wrapper {
-    height: 320px;
-  }
-}
-@media only screen and (min-width: 1600px) {
-  .wp-block-embed__wrapper {
-    height: 800px;
-  }
-}
-
 /* mobile navbar action */
-
 .hamburger-btn-line:nth-child(1) {
   transform-origin: left;
   transform: rotate(0);
@@ -111,8 +68,8 @@ body {
   transform: rotate(-43deg);
 }
 
+/* FRONTPAGE */
 /* services */
-
 .swiper-slide-services::before {
   opacity: 0;
   content: "";
@@ -170,8 +127,62 @@ body {
   opacity: 1;
 }
 
-/* page about sport logos */
+/* swiper opinions */
+.swiperOpinions .swiper-wrapper .swiper-slide {
+  transition: opacity 0.3s ease-out;
+  opacity: 0%;
+}
+.swiperOpinions .swiper-wrapper .swiper-slide-prev {
+  opacity: 0;
+}
+.swiperOpinions .swiper-wrapper .swiper-slide-next {
+  opacity: 20%;
+}
+.swiperOpinions .swiper-wrapper .swiper-slide-active {
+  opacity: 100%;
+}
 
+/* PAGE ABOUT */
+/* video player */
+.video-player-wrapper::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  height: 700px;
+  background: url("https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/page-about/about-video.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: all 0.3s ease-out;
+}
+@media only screen and (max-width: 480px) {
+  .video-player-wrapper::after {
+    height: 320px;
+  }
+}
+@media only screen and (min-width: 1600px) {
+  .video-player-wrapper::after {
+    height: 880px;
+  }
+}
+.wp-block-embed__wrapper {
+  height: 620px;
+}
+@media only screen and (max-width: 480px) {
+  .wp-block-embed__wrapper {
+    height: 320px;
+  }
+}
+@media only screen and (min-width: 1600px) {
+  .wp-block-embed__wrapper {
+    height: 800px;
+  }
+}
+
+/* sport logos */
 #logos .swiper-wrapper figure img,
 .companies-wrapper-bright figure img,
 .companies-wrapper-dark figure img {
@@ -179,8 +190,7 @@ body {
   margin-right: auto;
 }
 
-
-/* page services gallery tiles */
+/* services block gallery tiles */
 .gallery-tile::before {
   opacity: 1;
   content: "";
@@ -199,23 +209,8 @@ body {
   transition: all 0.3s ease-out;
 }
 
-/* swiper opinions */
-.swiperOpinions .swiper-wrapper .swiper-slide {
-  transition: opacity 0.3s ease-out;
-  opacity: 0%;
-}
-.swiperOpinions .swiper-wrapper .swiper-slide-prev {
-  opacity: 0;
-}
-.swiperOpinions .swiper-wrapper .swiper-slide-next {
-  opacity: 20%;
-}
-.swiperOpinions .swiper-wrapper .swiper-slide-active {
-  opacity: 100%;
-}
 
-/* page services-marketing */
-
+/* block services-marketing */
 .inactive {
   max-height: 0px;
   opacity: 0%;
@@ -235,7 +230,6 @@ body {
 
 
 /* page contact */
-
 .author-img img {
   transform: scale(1);
   transition: none;
@@ -254,7 +248,6 @@ body {
 
 /* Wordpress default styles */
 /* blog single post page */
-
 .entry-content h3 {
   font-size: 35px;
   font-weight: 600;
@@ -322,7 +315,6 @@ body {
 }
 
 /* navigation menu */
-
 .wp-block-navigation__responsive-container-open {
   display: none;
 }
