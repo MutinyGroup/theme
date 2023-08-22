@@ -3,10 +3,7 @@
 	"version": 2,
 	"customTemplates": [],
 	"settings": {
-		"layout": {
-			"contentSize": "1440px",
-			"wideSize": "1440px"
-		}
+
 	},
 	"templateParts": [
 		{
