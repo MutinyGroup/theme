@@ -166,8 +166,8 @@
       endif;
       ?>
 
-      <!-- wp:group -->
-      <div class="wp-block-group pagepagination block">
+      <!-- wp:list -->
+      <ul class="wp-block-list pagepagination block">
         <?php
 
         $arr_posts_page = $arr_posts->max_num_pages;
@@ -175,8 +175,8 @@
 
           $current_page = max(1, get_query_var('paged'));
         ?>
-          <!-- wp:paragraph -->
-          <p>
+          <!-- wp:list-item -->
+          <li>
             <?php
             echo paginate_links(array(
               'base' => get_pagenum_link(1) . '%_%',
@@ -187,13 +187,13 @@
               'next_text'    => __('>'),
             ));
             ?>
-          </p>
-          <!-- wp:paragraph -->
+          </li>
+          <!-- /wp:list-item -->
         <?php
         }
         ?>
-      </div>
-      <!-- /wp:group -->
+      </ul>
+      <!-- /wp:list -->
 
 
     </div>
