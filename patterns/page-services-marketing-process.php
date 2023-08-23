@@ -94,7 +94,7 @@
               <!-- wp:group -->
               <div class="wp-block-group h-full w-full overflow-hidden rounded-[20px]">
                 <!-- wp:image -->
-                <figure class="wp-block-image h-full w-full clipped-blog">
+                <figure class="wp-block-image h-full w-full clip-path-url-['#clipped-blog']">
                   <img src="<?php echo home_url() . '/wp-content/themes/mutiny/assets/img/page-marketing/process-img.jpg'; ?>" alt="column-img">
                 </figure>
                 <!-- /wp:image -->
