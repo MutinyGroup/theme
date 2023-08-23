@@ -44,18 +44,6 @@
       <img src="<?php echo home_url() . '/wp-content/themes/mutiny/assets/img/page-marketing/marketing-banner.jpg'; ?>" alt="bg-image" />
     </figure>
     <!-- /wp:image -->
-    <!-- wp:buttons -->
-    <div class="wp-block-buttons desktop:w-[175px] w-[140px] desktop:h-[175px] h-[140px] mx-0 text-center rounded-full desktop:border-[4px] border-[3px] border-[#AAAAAA] absolute desktop:top-[-130px] top-[350px] desktop:left-[85%] left-[50%] translate-x-[-50%] hover:border-none hover:bg-primaryYellow hover:text-white transition ease-out duration-300 flex flex-col justify-center items-center gap-y-0 cursor-pointer">
-      <!-- wp:paragraph -->
-      <p>
-        <a href="#O nas">
-          <span class="font-bold block">Zobacz</span>
-          <span class="font-bold block text-[25px]">WIĘCEJ</span>
-        </a>
-      </p>
-      <!-- /wp:paragraph -->
-    </div>
-    <!-- /wp:buttons -->
   </div>
   <!-- /wp:group -->
 
@@ -77,5 +65,18 @@
     <!-- /wp:group -->
   </div>
   <!-- /wp:group -->
+
+  <!-- wp:buttons -->
+  <div class="wp-block-buttons desktop:w-[175px] w-[140px] desktop:h-[175px] h-[140px] mx-0 text-center rounded-full desktop:border-[4px] border-[3px] border-[#AAAAAA] absolute desktop:top-[-130px] top-[350px] desktop:left-[85%] left-[50%] translate-x-[-50%] hover:border-none hover:bg-primaryYellow hover:text-white transition ease-out duration-300 flex flex-col justify-center items-center gap-y-0 cursor-pointer">
+    <!-- wp:paragraph -->
+    <p>
+      <a href="#O nas">
+        <span class="font-bold block">Zobacz</span>
+        <span class="font-bold block text-[25px]">WIĘCEJ</span>
+      </a>
+    </p>
+    <!-- /wp:paragraph -->
+  </div>
+  <!-- /wp:buttons -->
 </div>
 <!-- /wp:group -->
