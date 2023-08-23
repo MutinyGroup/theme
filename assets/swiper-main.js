@@ -76,10 +76,10 @@ document.addEventListener("DOMContentLoaded", function(event) {
     slidesPerView: 2,
     slidesPerGroup: 2,
     spaceBetween: 20,
-    autoplay: {
-      delay: 2000,
-      disableOnInteraction: false,
-    },
+    // autoplay: {
+    //   delay: 2000,
+    //   disableOnInteraction: false,
+    // },
     breakpoints: {
       768: {
         slidesPerView: 4,
