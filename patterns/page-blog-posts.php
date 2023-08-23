@@ -141,43 +141,52 @@
       </ul>
       <!-- /wp:list -->
 
-      <?php
+      <?php $paged = (get_query_var('paged')) ? absint(get_query_var('paged')) : 1;
+
       $args = array(
         'post_type' => 'post',
-        'posts_per_page' => 5,
-        'paged' => (get_query_var('paged') ? get_query_var('paged') : 1),
+        'post_status' => 'publish',
+        'posts_per_page' => 10,
+        'order' => 'ASC',
+        'paged' => $paged,
       );
-      $query = new WP_Query($args);
+
+      $arr_posts = new WP_Query($args);
+
+      if ($arr_posts->have_posts()) :
+        while ($arr_posts->have_posts()) :
+          $arr_posts->the_post();
       ?>
-      <table>
-        <thead>
-          <tr>
 
-            <th>header</th>
-            <th>header</th>
-            <th>header</th>
-            <th>header</th>
+          <h3 class="entry-title"><?php the_title(); ?></h3>
 
-          </tr>
-        </thead>
-        <tbody>
+      <?php
+        endwhile;
+      endif;
+      ?>
 
-          <?php while ($query->have_posts()) : $query->the_post(); ?>
-            <tr>
 
-              <td><?php echo get_post_meta($post->ID, 'metakey', true); ?></td>
-              <td><?php echo get_post_meta($post->ID, 'metakey', true); ?></td>
-              <td><?php echo get_post_meta($post->ID, 'metakey', true); ?></td>
-              <td><?php echo get_post_meta($post->ID, 'metakey', true); ?></td>
+      <div class="pagepagination">
+        <?php
 
-            </tr>
-          <?php
-          endwhile;
-          wp_reset_postdata();
-          ?>
+        $arr_posts_page = $arr_posts->max_num_pages;
+        if ($arr_posts_page > 1) {
 
-        </tbody>
-      </table>
+          $current_page = max(1, get_query_var('paged'));
+
+          echo paginate_links(array(
+            'base' => get_pagenum_link(1) . '%_%',
+            'format' => 'page/%#%',
+            'current' => $current_page,
+            'total' => $arr_posts_page,
+            'prev_text'    => __('<'),
+            'next_text'    => __('>'),
+          ));
+        }
+        ?>
+      </div>
+
+
     </div>
     <!-- /wp:group -->
 
