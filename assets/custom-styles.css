@@ -91,7 +91,7 @@ figure[class*="logo-img"] img {
 
 /* services block gallery tiles */
 .gallery-tile::before {
-  background: linear-gradient(0deg, #fff 0%, rgba(255, 255, 255, 0) 200%);
+  /* background: linear-gradient(0deg, #fff 0%, rgba(255, 255, 255, 0) 200%); */
 }
 
 /* block services-marketing */
