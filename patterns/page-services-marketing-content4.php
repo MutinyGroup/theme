@@ -69,6 +69,15 @@
       <!-- wp:group -->
       <div class=" wp-block-group col2 relative basis-[60%]">
         <!-- wp:paragraph -->
+        <p>
+          <svg class="z-[0] absolute top-[-50px] left-[50px]" width="236" height="317" viewBox="0 0 236 317" fill="none">
+            <g style="mix-blend-mode:color-dodge" opacity="0.6">
+              <path d="M234.242 314.923L1.62109 236.649V1.91697L234.242 80.1914V314.923Z" stroke="white" stroke-width="2" />
+            </g>
+          </svg>
+        </p>
+        <!-- /wp:paragraph -->
+        <!-- wp:paragraph -->
         <p class="desktop:text-[20px] text-[18px] desktop:leading-[30px] leading-[26px] pb-[50px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
         <!-- /wp:paragraph -->
         <!-- wp:paragraph -->
