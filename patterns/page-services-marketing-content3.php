@@ -18,7 +18,7 @@
       <div class="wp-block-group title-wrapper relative desktop:flex">
         <!-- wp:paragraph -->
         <p>
-          <svg class="flash desktop:scale-[1] scale-[0.4] absolute desktop:top-[-330px] top-[-360px] desktop:left-[-140px] right-[-100px] z-[-1]" xmlns="http://www.w3.org/2000/svg" width="688" height="801" viewBox="0 0 688 801" fill="none">
+          <svg class="flash desktop:scale-[1] scale-[0.4] absolute desktop:top-[-330px] top-[-360px] desktop:left-[-140px] right-[-100px] z-[0]" xmlns="http://www.w3.org/2000/svg" width="688" height="801" viewBox="0 0 688 801" fill="none">
             <g filter="url(#filter0_f_1787_1988)">
               <circle cx="287.132" cy="400.132" r="150" transform="rotate(-45 287.132 400.132)" fill="url(#paint0_linear_1787_1988)" fill-opacity="0.5" />
             </g>
@@ -63,7 +63,7 @@
       <!-- wp:group -->
       <div class="wp-block-group col1 relative desktop:pl-[155px] basis-[40%]">
         <!-- wp:paragraph -->
-        <svg class="z-[-1] absolute top-[-20px] left-[130px]" xmlns="http://www.w3.org/2000/svg" width="236" height="317" viewBox="0 0 236 317" fill="none">
+        <svg class="bg-shape z-[0] absolute top-[-20px] left-[130px]" xmlns="http://www.w3.org/2000/svg" width="236" height="317" viewBox="0 0 236 317" fill="none">
           <path d="M234.242 314.923L1.62109 236.649V1.91697L234.242 80.1914V314.923Z" stroke="white" stroke-width="2" />
         </svg>
         <!-- /wp:paragraph -->
@@ -76,7 +76,7 @@
       <div class="wp-block-group col2 relative basis-[60%]">
         <!-- wp:paragraph -->
         <p>
-          <svg class="z-[-1] absolute top-[-250px] right-[20px]" xmlns="http://www.w3.org/2000/svg" width="470" height="396" viewBox="0 0 470 396" fill="none">
+          <svg class="bg-shape z-[0] absolute top-[-250px] right-[20px]" xmlns="http://www.w3.org/2000/svg" width="470" height="396" viewBox="0 0 470 396" fill="none">
             <path d="M0.999573 393.923L468.242 236.702V1.96971L0.999573 159.191V393.923Z" stroke="white" stroke-width="2" />
           </svg>
         </p>
