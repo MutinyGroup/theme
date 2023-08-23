@@ -163,6 +163,7 @@
 
       <?php
         endwhile;
+        wp_reset_query();
       endif;
       ?>
 
