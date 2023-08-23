@@ -143,60 +143,41 @@
 
       <?php
       $args = array(
-        'post_type' => 'post',
-        'posts_per_page' => 2,
-        'paged' => (get_query_var('page') ? get_query_var('page') : 1),
-        'order' => 'DESC'
+        'post_type' => 'custom_post_type',
+        'posts_per_page' => 5,
+        'paged' => (get_query_var('paged') ? get_query_var('paged') : 1),
       );
-      $post_query = new WP_Query($args);
-
-      if ($post_query->have_posts()) {
+      $query = new WP_Query($args);
       ?>
-        <!-- wp:group -->
-        <div class="wp-block-group nav-previous alignleft"><?php next_posts_link('Older posts'); ?></div>
-        <!-- /wp:group -->
-        <!-- wp:group -->
-        <div class="wp-block-group nav-next alignright"><?php previous_posts_link('Newer posts'); ?></div>
-        <!-- /wp:group -->
-        <?php
+      <table>
+        <thead>
+          <tr>
 
-        while ($post_query->have_posts()) {
-          $post_query->the_post();
+            <th>header</th>
+            <th>header</th>
+            <th>header</th>
+            <th>header</th>
 
-        ?>
+          </tr>
+        </thead>
+        <tbody>
 
+          <?php while ($query->have_posts()) : $query->the_post(); ?>
+            <tr>
 
+              <td><?php echo get_post_meta($post->ID, 'metakey', true); ?></td>
+              <td><?php echo get_post_meta($post->ID, 'metakey', true); ?></td>
+              <td><?php echo get_post_meta($post->ID, 'metakey', true); ?></td>
+              <td><?php echo get_post_meta($post->ID, 'metakey', true); ?></td>
 
-          <!-- wp:paragraph -->
-          <p><?php the_title(); ?></p>
-          <!-- /wp:paragraph -->
-        <?php }; ?>
-        <!-- wp:group -->
-        <div class="wp-block-group nav-previous alignleft"><?php next_posts_link('Older posts'); ?></div>
-        <!-- /wp:group -->
-        <!-- wp:group -->
-        <div class="wp-block-group nav-next alignright">
-          <!-- wp:paragraph -->
-          <p>
-            <?php previous_posts_link('Newer posts'); ?>
-            <?php the_posts_pagination(); ?>
-            <?php echo paginate_links(); ?>
-          </p>
-          <!-- /wp:paragraph -->
-        </div>
-        <!-- /wp:group -->
+            </tr>
+          <?php
+          endwhile;
+          wp_reset_postdata();
+          ?>
 
-      <?php } else { ?>
-
-        <?php _e('
-               <!-- wp:paragraph -->
-               <p>error</p>
-               <!-- /wp:paragraph -->
-        '); ?>
-
-      <?php }; ?>
-      <?php wp_reset_postdata(); ?>
-
+        </tbody>
+      </table>
     </div>
     <!-- /wp:group -->
 
