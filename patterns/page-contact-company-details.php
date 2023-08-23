@@ -11,7 +11,7 @@
 <!-- wp:group {"templateLock":"all","lock":{"move":true,"remove":true},"anchor":true} -->
 <div id="O firmie" class="wp-block-group relative page-contact-info desktop::mb-[300px] mb-[100px]">
   <!-- wp:group -->
-  <div class="wp-block-group desktop:block hidden w-[444px] overflow-hidden absolute bottom-[-150px] right-[0px] z-[-1]">
+  <div class="wp-block-group desktop:block hidden w-[444px] overflow-hidden absolute bottom-[-150px] right-[0px] z-[0]">
     <!-- wp:image -->
     <figure class="wp-block-image h-full clip-path-url-['#clipped-contact']">
       <img src="<?php echo home_url() . '/wp-content/themes/mutiny/assets/img/page-contact/page-contact-company-details.jpg'; ?>" alt="image">
@@ -36,11 +36,13 @@
       <!-- wp:group -->
       <div class="wp-block-group col1 relative address text-[20px] leading-[29px]">
         <!-- wp:paragraph -->
-        <svg class="shape scale-[0.6] desktop:scale-[1] z-[-1] absolute desktop:top-[-100px] top-[-50px] desktop:right-[20px] right-[-60px]" xmlns="http://www.w3.org/2000/svg" width="235" height="317" viewBox="0 0 235 317" fill="none">
-          <g style="mix-blend-mode:color-dodge">
-            <path d="M0.999786 314.924L233.621 236.649V1.91746L0.999786 80.1919V314.924Z" stroke="#FFF" stroke-width="2" />
-          </g>
-        </svg>
+        <p>
+          <svg class="shape scale-[0.6] desktop:scale-[1] z-[0] absolute desktop:top-[-100px] top-[-50px] desktop:right-[20px] right-[-60px]" xmlns="http://www.w3.org/2000/svg" width="235" height="317" viewBox="0 0 235 317" fill="none">
+            <g style="mix-blend-mode:color-dodge">
+              <path d="M0.999786 314.924L233.621 236.649V1.91746L0.999786 80.1919V314.924Z" stroke="#FFF" stroke-width="2" />
+            </g>
+          </svg>
+        </p>
         <!-- /wp:paragraph -->
         <!-- wp:paragraph -->
         <svg class="flash desktop:scale-[1] scale-[0.4] absolute desktop:top-[-330px] top-[-360px] desktop:left-[-140px] right-[-100px] z-[-1]" xmlns="http://www.w3.org/2000/svg" width="688" height="801" viewBox="0 0 688 801" fill="none">
