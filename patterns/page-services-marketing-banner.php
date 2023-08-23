@@ -69,12 +69,7 @@
   <!-- wp:buttons -->
   <div class="wp-block-buttons desktop:w-[175px] mx-auto w-[140px] desktop:h-[175px] h-[140px] text-center rounded-full desktop:border-[4px] border-[3px] border-[#AAAAAA] hover:border-none hover:bg-primaryYellow hover:text-white transition ease-out duration-300 flex flex-col justify-center items-center gap-y-0 cursor-pointer">
     <!-- wp:paragraph -->
-    <p>
-      <a href="#O nas">
-        <span class="font-bold block">Zobacz</span>
-        <span class="font-bold block text-[25px]">WIĘCEJ</span>
-      </a>
-    </p>
+    <p><a href="#O nas"><span class="font-bold block">Zobacz</span><span class="font-bold block text-[25px]">WIĘCEJ</span></a></p>
     <!-- /wp:paragraph -->
   </div>
   <!-- /wp:buttons -->
