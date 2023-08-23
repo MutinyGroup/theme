@@ -26,7 +26,7 @@
         <!-- wp:group -->
         <div class="wp-block-group max-w-[75%] uslugi-title uppercase font-medium desktop:text-[60px] text-[30px] desktop:leading-[60px] leading-[30px]">
           <!-- wp:paragraph -->
-          <p>NIE test BOIMY SIĘ</p>
+          <p>NIE BOIMY SIĘ</p>
           <!-- /wp:paragraph -->
           <!-- wp:paragraph -->
           <p class="inline">PRZEKRACZAĆ</p>
