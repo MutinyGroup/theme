@@ -71,15 +71,7 @@ figure[class*="logo-img"] img {
   opacity: 100%;
 }
 
-/* PAGE ABOUT */
-/* sport logos */
-#logos .swiper-wrapper figure img,
-.companies-wrapper-bright figure img,
-.companies-wrapper-dark figure img {
-  /* margin-left: auto;
-  margin-right: auto; */
-}
-
+/* PAGE SERVICES */
 /* services block gallery tiles */
 .gallery-tile::before {
   background: linear-gradient(0deg, #fff 0%, rgba(255, 255, 255, 0) 200%);
