@@ -141,20 +141,35 @@
       </ul>
       <!-- /wp:list -->
 
-      <?php if (have_posts()) : ?>
+      <?php
+      $args = array(
+        'post_type' => 'post',
+        'posts_per_page' => 6,
+        'order' => 'DESC'
+      );
+      $post_query = new WP_Query($args);
 
+      if ($post_query->have_posts()) {
+      ?>
         <!-- wp:group -->
         <div class="wp-block-group nav-previous alignleft"><?php next_posts_link('Older posts'); ?></div>
         <!-- /wp:group -->
         <!-- wp:group -->
         <div class="wp-block-group nav-next alignright"><?php previous_posts_link('Newer posts'); ?></div>
         <!-- /wp:group -->
+        <?php
 
-        <?php while (have_posts()) : the_post();  ?>
+        while ($post_query->have_posts()) {
+          $post_query->the_post();
+
+        ?>
+
+
+
           <!-- wp:paragraph -->
           <p><?php the_title(); ?></p>
           <!-- /wp:paragraph -->
-        <?php endwhile; ?>
+        <?php }; ?>
         <!-- wp:group -->
         <div class="wp-block-group nav-previous alignleft"><?php next_posts_link('Older posts'); ?></div>
         <!-- /wp:group -->
@@ -162,11 +177,11 @@
         <div class="wp-block-group nav-next alignright"><?php previous_posts_link('Newer posts'); ?></div>
         <!-- /wp:group -->
 
-      <?php else : ?>
+      <?php } else { ?>
 
-        <?php _e('Sorry, no posts matched your criteria.'); ?>
+        <?php _e('Sorry, no posts matched your criteria2.'); ?>
 
-      <?php endif; ?>
+      <?php }; ?>
 
     </div>
     <!-- /wp:group -->
