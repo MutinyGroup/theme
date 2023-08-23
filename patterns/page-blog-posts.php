@@ -212,7 +212,12 @@
       );
       $wp_query = new WP_Query($args);
       while ($wp_query->have_posts()) : $wp_query->the_post();
-        get_template_part('templates/content', 'posts');
+      ?>
+        <!-- wp:paragraph -->
+        <p><?php the_title(); ?></p>
+        <!-- /wp:paragraph -->
+
+      <?php
       endwhile;
 
       /*
