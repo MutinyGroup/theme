@@ -106,7 +106,7 @@
             $counter++;
             if (true) { ?>
               <!-- wp:list-item -->
-              <li class="wp-block-group tile-realizacje mb-[30px] desktop:w-[545px] wide:w-[600px] h-[480px] desktop:h-[700px] wide:h-[780px] relative group transition ease-in-out duration-[400ms] group before:content-[''] before:opacity-0 before:absolute before:top-0 before:left-0 before:z-[1] before:w-full before:h-full before:bg-center before:bg-cover before:transition before:duration-[300ms] before:ease-out <?php echo (($counter % 2)) ? "tile-realizacje-1 clip-path-url-['#clipped-realizations-1']" : "tile-realizacje-2 clip-path-url-['#clipped-realizations-2'] desktop:translate-y-[70px]"; ?>">
+              <li class="wp-block-group tile-realizacje mb-[30px] desktop:w-[545px] wide:w-[600px] h-[480px] desktop:h-[700px] wide:h-[780px] relative group transition ease-in-out duration-[400ms] group hover:before:opacity-100 before:content-[''] before:opacity-0 before:absolute before:top-0 before:left-0 before:z-[1] before:w-full before:h-full before:bg-center before:bg-cover before:transition before:duration-[300ms] before:ease-out <?php echo (($counter % 2)) ? "tile-realizacje-1 clip-path-url-['#clipped-realizations-1']" : "tile-realizacje-2 clip-path-url-['#clipped-realizations-2'] desktop:translate-y-[70px]"; ?>">
                 <!-- wp:group -->
                 <div class="wp-block-group <?php echo ($counter == 1) ? "clip-path-url-['#clipped-realizations-1']" : (($counter == $post_query->post_count) ? "clip-path-url-['#clipped-realizations-2']" : ''); ?> gray-overlay w-full h-full bg-[#101010] z-[1] absolute top-0 left-0 opacity-[60%]">
                   <!-- wp:paragraph -->
@@ -117,8 +117,7 @@
                 <!-- wp:group -->
                 <div class="wp-block-group img-clip-path-wrapper w-full h-full rounded-tr-[20px] rounded-br-[20px] overflow-hidden absolute left-0 top-0">
                   <!-- wp:image -->
-                  <figure class="wp-block-image <?php if ($counter == 1) echo "clip-path-url-['#clipped-realizations-1']";
-                                                elseif ($counter == $post_query->post_count) echo "clip-path-url-['#clipped-realizations-2']"; ?> h-full group-hover:grayscale transition ease-in-out duration-[400ms]">
+                  <figure class="wp-block-image <?php echo ($counter == 1) ? "clip-path-url-['#clipped-realizations-1']" : (($counter == $post_query->post_count) ? "clip-path-url-['#clipped-realizations-2']" : ''); ?> h-full group-hover:grayscale transition ease-in-out duration-[400ms]">
                     <img src="<?php echo $postImageUrl[0]; ?>" alt="realizations-backgroun-image">
                   </figure>
                   <!-- /wp:image -->
