@@ -22,9 +22,8 @@ figure[class*="wp-block-image"] img {
   object-fit: cover;
 }
 figure[class*="logo-img"] img {
-  width: 50%;
   height: 50px;
-  object-fit: cover;
+  object-fit: contain;
 }
 .blog-first-img-hover img {
   transition: all 0.6s ease-out;
