@@ -7,7 +7,7 @@
  * Viewport Width: 1280
  */
 ?>
-<!-- wp:group {"templateLock":"all","lock":{"move":true,"remove":true},"anchor":true} -->
+<!-- wp:group {"templateLock":"contentOnly","anchor":true} -->
 <div id="Usługi" class="wp-block-group uslugi desktop:mb-[150px] mb-[80px]">
   <!-- wp:group -->
   <div class="wp-block-group desktop:mb-[150px] mb-[80px] relative overflow-hidden desktop:overflow-visible">

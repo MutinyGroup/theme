@@ -7,7 +7,7 @@
  * Viewport Width: 1280
  */
 ?>
-<!-- wp:group {"templateLock":"all","lock":{"move":true,"remove":true},"anchor":true} -->
+<!-- wp:group {"templateLock":"contentOnly","anchor":true} -->
 <div id="Realizacje" class="wp-block-group realizacje relative desktop:pt-[220px] pt-[180px] desktop:mb-[200px] mb-[60px] overflow-visible">
   <!-- wp:paragraph -->
   <p>
