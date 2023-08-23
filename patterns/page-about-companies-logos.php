@@ -69,14 +69,14 @@
   <!-- wp:group -->
   <div class="wp-block-group sport-logos relative overflow-hidden mt-[100px] w-full h-[120px]">
     <!-- wp:group -->
-    <div class="wp-block-group h-[120px] w-full desktop:px-[50px] px-[20px] bg-white flex items-center absolute bottom-0 desktop:left-[11%] left-[20px] is-layout-flow">
+    <div class="wp-block-group h-[120px] w-full px-[20px] py-[20px] desktop:px-[100px] bg-white flex items-center absolute bottom-0 desktop:left-0 left-[20px] is-layout-flow">
       <!-- wp:paragraph -->
       <p class="desktop:text-[22px] text-[18px] leading-[22px] font-medium">Dumnie wspieramy lokalny sport</p>
       <!-- /wp:paragraph -->
       <!-- wp:group -->
-      <div class="wp-block-group logos-sport-wrapper flex items-center desktop:gap-[100px]">
+      <div class="wp-block-group logos-sport-wrapper h-full flex items-center desktop:gap-[100px]">
         <!-- wp:image -->
-        <figure class="wp-block-image h-[80px]">
+        <figure class="wp-block-image h-full">
           <img src="<?php echo home_url() . '/wp-content/themes/mutiny/assets/img/page-about/logos-companies/logo-leniwce.png'; ?>" alt="leniwce-logo">
         </figure>
         <!-- /wp:image -->
