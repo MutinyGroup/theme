@@ -69,13 +69,6 @@ figure[class*="logo-img"] img {
 }
 
 /* FRONTPAGE */
-/* services */
-/* .swiper-slide-services::before {
-  background: linear-gradient(0deg, #000000 0%, rgba(0, 0, 0, 0) 50%),
-    linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(48, 37, 28, 0.2));
-} */
-
-
 /* swiper opinions */
 .swiperOpinions .swiper-wrapper .swiper-slide {
   transition: opacity 0.3s ease-out;
