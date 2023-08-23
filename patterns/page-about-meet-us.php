@@ -55,7 +55,7 @@
     <!-- /wp:group -->
 
     <!-- wp:group -->
-    <div class="wp-block-group text-cols-wrapper flex desktop:gap-[0px] gap-[20px] basis desktop:mb-[100px] mb-[50px] z-[1]">
+    <div class="wp-block-group text-cols-wrapper flex desktop:gap-[0px] gap-[20px] basis desktop:mb-[100px] mb-[50px] relative z-[1]">
       <!-- wp:group -->
       <div class="wp-block-group col1 desktop:pl-[155px] basis-[40%]">
         <!-- wp:paragraph -->
