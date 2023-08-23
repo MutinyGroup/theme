@@ -76,8 +76,8 @@ figure[class*="logo-img"] img {
 #logos .swiper-wrapper figure img,
 .companies-wrapper-bright figure img,
 .companies-wrapper-dark figure img {
-  margin-left: auto;
-  margin-right: auto;
+  /* margin-left: auto;
+  margin-right: auto; */
 }
 
 /* services block gallery tiles */
