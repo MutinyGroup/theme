@@ -31,7 +31,7 @@
         <?php
         $args = array(
           'post_type' => 'post',
-          'posts_per_page' => 2,
+          'posts_per_page' => 6,
           'order' => 'DESC'
         );
         $post_query = new WP_Query($args);
