@@ -165,8 +165,8 @@
         endwhile;
         ?>
         <div id="pagination" class="clearfix">
-          <?php next_posts_link('Older Entries', $loop->max_num_pages);
-          previous_posts_link('Newer Entries'); //posts_nav_link(); 
+          <?php next_posts_link('Older Entries');
+          previous_posts_link('Newer Entries');
           ?>
         </div>
       <?php
