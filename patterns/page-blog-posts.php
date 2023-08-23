@@ -146,7 +146,7 @@
       $args = array(
         'post_type' => 'post',
         'post_status' => 'publish',
-        'posts_per_page' => 3,
+        'posts_per_page' => 4,
         'order' => 'ASC',
         'paged' => $paged,
       );
@@ -163,8 +163,8 @@
 
       <?php
         endwhile;
-        wp_reset_query();
       endif;
+      wp_reset_postdata();
       ?>
 
       <!-- wp:list -->
