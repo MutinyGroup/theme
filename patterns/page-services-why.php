@@ -48,7 +48,7 @@
     <!-- /wp:group -->
 
     <!-- wp:list -->
-    <ul class="wp-block-list why-list-wrapper">
+    <ul class="wp-block-list why-list-wrapper z-[1]">
       <!-- wp:list-item -->
       <li>
         <!-- wp:group -->
