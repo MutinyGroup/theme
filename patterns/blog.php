@@ -173,32 +173,6 @@
           </div>
           <!-- /wp:group -->
 
-          <?php if (have_posts()) : ?>
-
-            <!-- Start the pagination functions before the loop. -->
-            <div class="nav-previous alignleft"><?php next_posts_link('Older posts'); ?></div>
-            <div class="nav-next alignright"><?php previous_posts_link('Newer posts'); ?></div>
-            <!-- End the pagination functions before the loop. -->
-
-            <!-- Start of the main loop. -->
-            <?php while (have_posts()) : the_post();  ?>
-
-              <!-- the rest of your theme's main loop -->
-
-            <?php endwhile; ?>
-            <!-- End of the main loop -->
-
-            <!-- Start the pagination functions after the loop. -->
-            <div class="nav-previous alignleft"><?php next_posts_link('Older posts'); ?></div>
-            <div class="nav-next alignright"><?php previous_posts_link('Newer posts'); ?></div>
-            <!-- End the pagination functions after the loop. -->
-
-          <?php else : ?>
-
-            <?php _e('Sorry, no posts matched your criteria.'); ?>
-
-          <?php endif; ?>
-
           <!-- wp:group -->
           <div class="wp-block-group swiper-nav-container desktop:block hidden absolute desktop:top-[30px] top-[35px] desktop:right-[150px]">
             <!-- wp:group -->
