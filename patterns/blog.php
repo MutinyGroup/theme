@@ -178,7 +178,7 @@
             <!-- wp:group -->
             <div class="wp-block-group swiper-nav-wrapper w-[155px] h-[80px] flex justify-center items-center">
               <!-- wp:group -->
-              <div id="blog-prev" class="wp-block-group group swiper-button-prev desktop:inline-block hidden w-[56px] h-[56px] ">
+              <div id="blog-prev" class="wp-block-group group swiper-button-prev desktop:inline-block hidden w-[56px] h-[56px] after:hidden">
                 <!-- wp:paragraph -->
                 <p>
                   <svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 56 56" fill="none" class="group rotate-180 fill-transparent group-hover:fill-white">
@@ -191,7 +191,7 @@
               </div>
               <!-- /wp:group -->
               <!-- wp:group -->
-              <div id="blog-next" class="wp-block-group group swiper-button-next desktop:inline-block hidden w-[56px] h-[56px]">
+              <div id="blog-next" class="wp-block-group group swiper-button-next desktop:inline-block hidden w-[56px] h-[56px] after:hidden">
                 <!-- wp:paragraph -->
                 <p>
                   <svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 56 56" fill="none" class="group fill-transparent group-hover:fill-white">
