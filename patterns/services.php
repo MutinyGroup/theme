@@ -10,7 +10,7 @@
 <!-- wp:group {"templateLock":"all","lock":{"move":true,"remove":true},"anchor":true} -->
 <div id="Usługi" class="wp-block-group uslugi desktop:mb-[150px] mb-[80px]">
   <!-- wp:group -->
-  <div class="wp-block-group desktop:mb-[150px] mb-[80px] relative overflow-y-visible desktop:overflow-visible">
+  <div class="wp-block-group desktop:mb-[150px] mb-[80px] relative overflow-hidden desktop:overflow-visible">
     <!-- wp:group -->
     <div class="wp-block-group title-wrapper relative container mx-auto desktop:px-0 px-[20px] desktop:mb-[80px] mb-[50px] desktop:mt-0 flex gap-[20px]">
       <!-- wp:group -->
