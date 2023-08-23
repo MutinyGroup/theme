@@ -206,7 +206,7 @@
 
       <?php
       $args = array(
-        'posts_per_page' => 10,
+        'posts_per_page' => 2,
         'post_type'      => 'post',
         'paged'          => get_query_var('paged'),
       );
