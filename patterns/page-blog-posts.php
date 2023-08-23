@@ -224,20 +224,15 @@
   PAGINATION
 */
       ?>
-
-      <div id="pagination" class="clearfix">
+      <!-- wp:group -->
+      <div id="pagination" class="wp-block-group clearfix">
         <?php next_posts_link('Older Entries');
         previous_posts_link('Newer Entries');
         ?>
       </div>
+      <!-- wp:group -->
       <?php
-      if (function_exists('page_navi')) {
-      ?>
 
-        <div id="pagination">
-          <?php page_navi(); ?>
-        </div>
-      <?php }
       wp_reset_query(); ?>
 
 
