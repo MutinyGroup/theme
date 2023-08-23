@@ -16,10 +16,8 @@
     <div class="wp-block-group title-wrapper relative desktop:mb-[58px] mb-[40px]">
       <!-- wp:paragraph -->
       <p>
-        <svg class="flash desktop:scale-[1] scale-[0.4] absolute desktop:top-[-330px] top-[-360px] desktop:left-[-140px] right-[-100px] z-[-1]" xmlns="http://www.w3.org/2000/svg" width="688" height="801" viewBox="0 0 688 801" fill="none">
-          <g filter="url(#filter0_f_1787_1988)">
-            <circle cx="287.132" cy="400.132" r="150" transform="rotate(-45 287.132 400.132)" fill="url(#paint0_linear_1787_1988)" fill-opacity="0.5" />
-          </g>
+        <svg class="flash desktop:scale-[1] scale-[0.4] absolute desktop:top-[-330px] top-[-360px] desktop:left-[-140px] right-[-100px] z-[0]" xmlns="http://www.w3.org/2000/svg" width="688" height="801" viewBox="0 0 688 801" fill="none">
+          <circle cx="287.132" cy="400.132" r="150" transform="rotate(-45 287.132 400.132)" fill="url(#paint0_linear_1787_1988)" fill-opacity="0.5" />
           <defs>
             <filter id="filter0_f_1787_1988" x="-112.868" y="0.131836" width="800" height="800" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
               <feFlood flood-opacity="0" result="BackgroundImageFix" />
@@ -61,7 +59,7 @@
     <div class="wp-block-group paragrapth-wrapper relative mb-[50px] flex justify-end">
       <!-- wp:paragraph -->
       <p>
-        <svg class="shape opacity-[60%] scale-[0.6] desktop:scale-[1] z-[-1] absolute desktop:top-[-70px] top-[-120px] desktop:right-[-120px] right-[-60px]" xmlns="http://www.w3.org/2000/svg" width="470" height="395" viewBox="0 0 470 395" fill="none">
+        <svg class="shape opacity-[60%] scale-[0.6] desktop:scale-[1] z-[0] absolute desktop:top-[-70px] top-[-120px] desktop:right-[-120px] right-[-60px]" xmlns="http://www.w3.org/2000/svg" width="470" height="395" viewBox="0 0 470 395" fill="none">
           <path d="M468.243 393.924L1 236.702V1.9702L468.243 159.192V393.924Z" stroke="white" stroke-width="2" />
         </svg>
       </p>
