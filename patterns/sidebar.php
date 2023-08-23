@@ -7,7 +7,7 @@
  * Viewport Width: 1280
  */
 ?>
-<!-- wp:group {"templateLock":"contentOnly","anchor":true} -->
+<!-- wp:list {"templateLock":"contentOnly","anchor":true} -->
 <ul class="wp-block-list w-[80px] py-[30px] fixed left-0 top-0 h-screen text-[12px] font-medium font-[Poppins] hidden desktop:flex flex-col justify-between items-center z-[3]">
   <!-- wp:list-item -->
   <li class="hidden empty desktop:block mb-[10px] w-[30px] h-[27px]"></li>
