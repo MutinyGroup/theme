@@ -157,34 +157,43 @@
         while ($arr_posts->have_posts()) :
           $arr_posts->the_post();
       ?>
-
-          <h3 class="entry-title"><?php the_title(); ?></h3>
+          <!-- wp:paragraph -->
+          <p><?php the_title(); ?></p>
+          <!-- /wp:paragraph -->
 
       <?php
         endwhile;
       endif;
       ?>
 
-
-      <div class="pagepagination">
+      <!-- wp:group -->
+      <div class="wp-block-group pagepagination block">
         <?php
 
         $arr_posts_page = $arr_posts->max_num_pages;
         if ($arr_posts_page > 1) {
 
           $current_page = max(1, get_query_var('paged'));
-
-          echo paginate_links(array(
-            'base' => get_pagenum_link(1) . '%_%',
-            'format' => 'page/%#%',
-            'current' => $current_page,
-            'total' => $arr_posts_page,
-            'prev_text'    => __('<'),
-            'next_text'    => __('>'),
-          ));
+        ?>
+          <!-- wp:paragraph -->
+          <p>
+            <?php
+            echo paginate_links(array(
+              'base' => get_pagenum_link(1) . '%_%',
+              'format' => 'page/%#%',
+              'current' => $current_page,
+              'total' => $arr_posts_page,
+              'prev_text'    => __('<'),
+              'next_text'    => __('>'),
+            ));
+            ?>
+          </p>
+          <!-- wp:paragraph -->
+        <?php
         }
         ?>
       </div>
+      <!-- /wp:group -->
 
 
     </div>
