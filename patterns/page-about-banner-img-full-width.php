@@ -46,9 +46,9 @@
   </div>
   <!-- /wp:group -->
   <!-- wp:group -->
-  <div class="wp-block-group about-banner-img relative h-[500px]">
+  <div class="wp-block-group about-banner-img relative h-[500px] desktop:h-auto">
     <!-- wp:group -->
-    <div class="wp-block-group overflow-hidden w-full h-full">
+    <div class="wp-block-group overflow-hidden w-full h-[350px] desktop:h-[500px]">
       <!-- wp:image -->
       <figure class="wp-block-image h-full w-[920px] desktop:w-auto">
         <img src="<?php echo home_url() . '/wp-content/themes/mutiny/assets/img/page-about/about-banner-bg.jpg'; ?>" alt="bg-image" />
