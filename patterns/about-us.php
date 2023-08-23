@@ -9,7 +9,7 @@
 ?>
 
 <!-- wp:group {"templateLock":"all","lock":{"move":true,"remove":true},"anchor":true} -->
-<div id="O nas" class="wp-block-group o-nas pt-[100px] mb-[200px] desktop:mb-[150px] wide:mb-[220px] ">
+<div id="O nas" class="wp-block-group o-nas pt-[100px] mb-[50px] desktop:mb-[150px] wide:mb-[220px] ">
   <!-- wp:group -->
   <div class="wp-block-group relative px-[20px] desktop:px-0">
     <!-- wp:group -->
