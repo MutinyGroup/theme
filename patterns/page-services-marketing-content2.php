@@ -9,10 +9,10 @@
 ?>
 
 <!-- wp:group {"templateLock":"contentOnly","anchor":true} -->
-<div id="Galeria Swiper" class="wp-block-group page-marketing-info mb-[100px] overflow-x-hidden">
+<div id="Galeria Swiper" class="wp-block-group page-marketing-info mb-[100px] relative overflow-x-hidden">
   <!-- wp:paragraph -->
   <p>
-    <svg class="z-[0] absolute top-[0px] left-[100px]" xmlns="http://www.w3.org/2000/svg" width="1051" height="810" viewBox="0 0 1051 810" fill="none">
+    <svg class="z-[0] absolute top-0 right-0" xmlns="http://www.w3.org/2000/svg" width="1051" height="810" viewBox="0 0 1051 810" fill="none">
       <path d="M1 1.45224L938.266 329.349L938.596 329.465L938.927 329.349L1406.89 165.633V409.787L938.596 573.618L234.979 327.462L233.649 326.996V328.405V807.609L1 726.219V1.45224Z" stroke="white" stroke-width="2" />
     </svg>
   </p>
