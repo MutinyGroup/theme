@@ -9,7 +9,7 @@
 ?>
 
 <!-- wp:group {"templateLock":"contentOnly","anchor":true} -->
-<div id="Wpis" class="wp-block-group single-page-post mt-[80px] mb-[150px] overflow-hidden">
+<div id="Wpis" class="wp-block-group single-page-post mt-[60px] mb-[150px] overflow-hidden">
   <!-- wp:group -->
   <div class="wp-block-group relative">
     <!-- wp:group -->
