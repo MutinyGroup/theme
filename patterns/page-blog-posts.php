@@ -161,8 +161,15 @@
           <p><?php the_title(); ?></p>
           <!-- /wp:paragraph -->
 
-      <?php
+        <?php
         endwhile;
+        ?>
+        <div id="pagination" class="clearfix">
+          <?php next_posts_link('Older Entries', $loop->max_num_pages);
+          previous_posts_link('Newer Entries'); //posts_nav_link(); 
+          ?>
+        </div>
+      <?php
       endif;
       wp_reset_postdata();
       ?>
