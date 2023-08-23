@@ -142,9 +142,11 @@
       <!-- /wp:list -->
 
       <?php
+      $paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
       $args = array(
         'post_type' => 'post',
         'posts_per_page' => 2,
+        'paged'          => $paged,
         'order' => 'DESC'
       );
       $post_query = new WP_Query($args);
