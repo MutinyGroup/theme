@@ -1,13 +1,14 @@
 <?php
 
-/**
+/*
  * Title: header
  * Slug: header
  * Categories: header
  * Viewport Width: 1280
  */
 ?>
-<!-- wp:group {"templateLock":"contentOnly","anchor":true} -->
+
+<!-- wp:list {"templateLock":"contentOnly","anchor":true} -->
 <ul id="Desktop" class="wp-block-list nav-desktop h-[60px] desktop:h-[90px] hidden desktop:flex justify-center items-center relative z-[3]">
   <!-- wp:list-item -->
   <li>
