@@ -179,7 +179,11 @@
 
       <?php } else { ?>
 
-        <?php _e('2Sorry, no posts matched your criteria2.'); ?>
+        <?php _e('
+               <!-- wp:paragraph -->
+               <p>error</p>
+               <!-- /wp:paragraph -->
+        '); ?>
 
       <?php }; ?>
 
