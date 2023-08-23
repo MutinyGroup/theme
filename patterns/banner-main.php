@@ -8,7 +8,7 @@
  */
 ?>
 
-<!-- wp:group {"templateLock":"all","lock":{"move":true,"remove":true},"anchor":true} -->
+<!-- wp:group {"templateLock":"contentOnly","anchor":true} -->
 <div id="Banner" class="wp-block-group banner group relative mb-0 pt-[110px] desktop:pt-[80px] h-fit desktop:h-auto overflow-hidden desktop:overflow-visible">
   <!-- wp:group -->
   <div class="wp-block-group bg-shape z-[0] scale-[0.7] desktop:scale-[1] opacity-[10%] absolute top-[-200px] desktop:top-[120px] left-[-350px] desktop:left-[-80px]">
