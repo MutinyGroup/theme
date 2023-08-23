@@ -76,17 +76,17 @@
       <!-- wp:group -->
       <div class="wp-block-group logos-sport-wrapper h-full flex items-center desktop:gap-[100px]">
         <!-- wp:image -->
-        <figure class="wp-block-image h-full">
+        <figure class="wp-block-image w-full h-full">
           <img src="<?php echo home_url() . '/wp-content/themes/mutiny/assets/img/page-about/logos-companies/logo-leniwce.png'; ?>" alt="leniwce-logo">
         </figure>
         <!-- /wp:image -->
         <!-- wp:image -->
-        <figure class="wp-block-image h-[80px]">
+        <figure class="wp-block-image w-full h-[80px]">
           <img src="<?php echo home_url() . '/wp-content/themes/mutiny/assets/img/page-about/logos-companies/logo-sport.png'; ?>" alt="company-logo">
         </figure>
         <!-- /wp:image -->
         <!-- wp:image -->
-        <figure class="wp-block-image h-[80px]">
+        <figure class="wp-block-image w-full h-[80px]">
           <img src="<?php echo home_url() . '/wp-content/themes/mutiny/assets/img/page-about/logos-companies/logo-leniwce.png'; ?>" alt="leniwce-logo">
         </figure>
         <!-- /wp:image -->
