@@ -11,59 +11,18 @@
 <div id="Wpis" class="wp-block-group single-page-post mb-[150px] overflow-hidden">
   <!-- wp:group -->
   <div class="wp-block-group container mx-auto relative desktop:px-0 px-[20px]">
-    <!-- wp:group -->
-    <div class="hidden loop-test wp-block-group">
-      <!-- wp:paragraph -->
-      <p>php loop test</p>
-      <!-- /wp:paragraph -->
-      <?php
-      $args = array(
-        'post_type' => 'post'
-      );
-
-      $post_query = new WP_Query($args);
-
-      if ($post_query->have_posts()) {
-        while ($post_query->have_posts()) {
-          $post_query->the_post();
-      ?>
-          <!-- wp:paragraph -->
-          <p><?php the_title(); ?></p>
-          <!-- /wp:paragraph -->
-          <!-- wp:paragraph -->
-          <p><?php the_time('m/d/Y') ?></p>
-          <!-- /wp:paragraph -->
-      <?php
-        }
-      }
-      ?>
-    </div>
-    <!-- /wp:group -->
-
-    <!-- wp:group -->
-    <div class="hidden loop-test wp-block-group">
-      <!-- wp:paragraph -->
-      <p>php loop test2</p>
-      <!-- /wp:paragraph -->
-      <?php while (have_posts()) : the_post(); ?>
-        <!-- wp:paragraph -->
-        <p><?php the_title(); ?></p>
-        <?php echo 'test'; ?>
-        <!-- /wp:paragraph -->
-      <?php endwhile; ?>
-    </div>
-    <!-- /wp:group -->
-
     <!-- wp:paragraph -->
     <a href="/blog/" class="group mt-[60px] mb-[40px] w-fit font-semibold flex items-center gap-[8px]">
       <!-- wp:group -->
       <div class="wp-block-group group w-[56px] h-[56px]">
         <!-- wp:paragraph -->
-        <svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 56 56" fill="none" class="rotate-180 scale-[0.65] fill-transparent group-hover:fill-[#FEC400]">
-          <rect x="1.5" y="1.5" width="53" height="53" rx="26.5" stroke="#AAAAAA" stroke-width="3" class="group-hover:fill-[#FEC400] group-hover:stroke-primaryYellow transition-stroke ease-out duration-500" />
-          <path d="M28 35L35 28.0189L28.0379 21" stroke="black" stroke-width="1.5" class="group-hover:stroke-black transition-stroke ease-out duration-500" />
-          <path d="M20 28L31 28" stroke="black" stroke-width="1.5" class="group-hover:stroke-black transition-stroke ease-out duration-500" />
-        </svg>
+        <p>
+          <svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 56 56" fill="none" class="rotate-180 scale-[0.65] fill-transparent group-hover:fill-[#FEC400]">
+            <rect x="1.5" y="1.5" width="53" height="53" rx="26.5" stroke="#AAAAAA" stroke-width="3" class="group-hover:fill-[#FEC400] group-hover:stroke-primaryYellow transition-stroke ease-out duration-500" />
+            <path d="M28 35L35 28.0189L28.0379 21" stroke="black" stroke-width="1.5" class="group-hover:stroke-black transition-stroke ease-out duration-500" />
+            <path d="M20 28L31 28" stroke="black" stroke-width="1.5" class="group-hover:stroke-black transition-stroke ease-out duration-500" />
+          </svg>
+        </p>
         <!-- /wp:paragraph -->
       </div>
       <!-- /wp:group -->
@@ -72,7 +31,6 @@
       <!-- /wp:paragraph -->
     </a>
     <!-- /wp:paragraph -->
-
 
     <!-- wp:group -->
     <div class="wp-block-group above-img-banner mb-[50px] desktop:flex gap-[50px]">

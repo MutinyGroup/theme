@@ -36,11 +36,11 @@ figure[class*="logo-img"] img {
 /* bright subpages */
 /* .page, */
 /* .single, */
-.error404,
+/* .error404,
 .archive {
   background-color: #f2f2f2;
   color: black;
-}
+} */
 
 /* mobile navbar action */
 .hamburger-btn-line:nth-child(1) {
