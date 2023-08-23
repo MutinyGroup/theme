@@ -37,7 +37,7 @@
           <!-- wp:group -->
           <div class="wp-block-group nav-wrapper w-[155px] h-[80px] flex justify-center items-center absolute top-[0px] desktop:top-[0px] left-[130px] desktop:left-[190px] wide:left-[180px]">
             <!-- wp:group -->
-            <div id="opinions-prev" class="wp-block-group group swiper-button-prev w-[56px] h-[56px] ">
+            <div id="opinions-prev" class="wp-block-group group swiper-button-prev w-[56px] h-[56px] after:hidden">
               <!-- wp:paragraph -->
               <p>
                 <svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 56 56" fill="none" class="rotate-180 group fill-transparent group-hover:fill-[#FEC400]">
@@ -51,7 +51,7 @@
             <!-- /wp:group -->
 
             <!-- wp:group -->
-            <div id="opinions-next" class="wp-block-group group swiper-button-next w-[56px] h-[56px]">
+            <div id="opinions-next" class="wp-block-group group swiper-button-next w-[56px] h-[56px] after:hidden">
               <!-- wp:paragraph -->
               <p>
                 <svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 56 56" fill="none" class="group fill-transparent group-hover:fill-primaryYellow">
