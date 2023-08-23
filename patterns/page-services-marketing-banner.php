@@ -51,13 +51,13 @@
   <div class="wp-block-group paragraph-wrapper container mx-auto desktop:px-0 px-[20px] relative w-full desktop:mb-[150px] mb-[50px] desktop:pt-[100px] pt-[50px]">
     <!-- wp:paragraph -->
     <p>
-      <svg class="shape scale-[0.6] desktop:scale-[1] z-[-1] absolute top-0 desktop:right-[0px] right-auto left-[-40px] desktop:left-auto" xmlns="http://www.w3.org/2000/svg" width="470" height="396" viewBox="0 0 470 396" fill="none">
+      <svg class="shape scale-[0.6] desktop:scale-[1] z-[0] absolute top-0 desktop:right-[0px] right-auto left-[-40px] desktop:left-auto" xmlns="http://www.w3.org/2000/svg" width="470" height="396" viewBox="0 0 470 396" fill="none">
         <path d="M468.243 393.924L1 236.702V1.9702L468.243 159.192V393.924Z" stroke="#FFFFFF" stroke-width="2" />
       </svg>
     </p>
     <!-- /wp:paragraph -->
     <!-- wp:group -->
-    <div class="wp-block-group paragraph-wrapper desktop:px-0 px-[20px] desktop:ml-[145px]">
+    <div class="wp-block-group paragraph-wrapper desktop:px-0 px-[20px] desktop:ml-[145px] relative">
       <!-- wp:paragraph -->
       <p class="desktop:text-[35px] text-[22px] font-medium desktop:leading-[42px] leading-[32px] desktop:w-[897px]">Jesteśmy ekspertami od komunikacji i marketingu. Pracujemy dla topowych firm, stawiających przed nami duże wyzwania.</p>
       <!-- /wp:paragraph -->
