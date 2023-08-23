@@ -179,7 +179,7 @@
 
       <?php } else { ?>
 
-        <?php _e('Sorry, no posts matched your criteria2.'); ?>
+        <?php _e('2Sorry, no posts matched your criteria2.'); ?>
 
       <?php }; ?>
 
