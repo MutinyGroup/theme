@@ -110,7 +110,7 @@
             <!-- wp:group -->
             <div class="wp-block-group overflow-hidden ">
               <!-- wp:image -->
-              <figure class="wp-block-image clipped-meet-us-gallery h-full">
+              <figure class="wp-block-image clip-path-url-['#clipped-meet-us-gallery'] h-full">
                 <img src="<?php echo home_url() . '/wp-content/themes/mutiny/assets/img/page-marketing/gallery2.jpg'; ?>" alt="image">
               </figure>
               <!-- /wp:image -->
