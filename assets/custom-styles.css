@@ -22,6 +22,7 @@ figure[class*="wp-block-image"] img {
   object-fit: cover;
 }
 figure[class*="logo-img"] img {
+  width: 50%;
   height: 50px;
   object-fit: contain;
 }
