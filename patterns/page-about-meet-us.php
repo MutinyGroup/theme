@@ -11,9 +11,9 @@
 <!-- wp:group {"templateLock":"all","lock":{"move":true,"remove":true},"anchor":true} -->
 <div id="Poznaj nas" class="wp-block-group meet-us">
   <!-- wp:group -->
-  <div class="wp-block-group container mx-auto relative desktop:px-0 px-[20px] z-[1]">
+  <div class="wp-block-group container mx-auto relative desktop:px-0 px-[20px]">
     <!-- wp:group -->
-    <div class="wp-block-group title-wrapper relative container mx-auto desktop:mb-[100px] mb-[60px] flex">
+    <div class="wp-block-group title-wrapper relative container mx-auto desktop:mb-[100px] mb-[60px] flex z-[1]">
       <!-- wp:paragraph -->
       <p>
         <svg class="flash desktop:scale-[1] scale-[0.4] absolute desktop:top-[-330px] top-[-360px] desktop:left-[-140px] right-[-100px] z-[0]" xmlns="http://www.w3.org/2000/svg" width="688" height="801" viewBox="0 0 688 801" fill="none">
@@ -55,7 +55,7 @@
     <!-- /wp:group -->
 
     <!-- wp:group -->
-    <div class="wp-block-group text-cols-wrapper flex desktop:gap-[0px] gap-[20px] basis desktop:mb-[100px] mb-[50px]">
+    <div class="wp-block-group text-cols-wrapper flex desktop:gap-[0px] gap-[20px] basis desktop:mb-[100px] mb-[50px] z-[1]">
       <!-- wp:group -->
       <div class="wp-block-group col1 desktop:pl-[155px] basis-[40%]">
         <!-- wp:paragraph -->
