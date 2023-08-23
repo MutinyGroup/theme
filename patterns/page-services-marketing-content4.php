@@ -151,7 +151,7 @@
                   <!-- wp:group -->
                   <div class="wp-block-group counter-index-wrapper min-w-[95px] inline relative">
                     <!-- wp:group -->
-                    <div class="wp-block-group circle-counter-index hidden display:block z-[-1] w-[80px] h-[80px] absolute desktop:top-[-50px] top-[-50px] desktop:left-[30px] right-[30px]">
+                    <div class="wp-block-group circle-counter-index hidden desktop:block z-[-1] w-[80px] h-[80px] absolute desktop:top-[-50px] top-[-50px] desktop:left-[30px] right-[30px]">
                       <!-- wp:paragraph -->
                       <p>
                         <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80" fill="none">
