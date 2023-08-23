@@ -143,7 +143,7 @@
 
       <?php
       $args = array(
-        'post_type' => 'custom_post_type',
+        'post_type' => 'post',
         'posts_per_page' => 5,
         'paged' => (get_query_var('paged') ? get_query_var('paged') : 1),
       );
