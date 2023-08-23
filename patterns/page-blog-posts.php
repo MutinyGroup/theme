@@ -150,18 +150,17 @@
         <div class="wp-block-group nav-next alignright"><?php previous_posts_link('Newer posts'); ?></div>
         <!-- /wp:group -->
 
-        <!-- Start of the main loop. -->
         <?php while (have_posts()) : the_post();  ?>
-
-          <!-- the rest of your theme's main loop -->
-
+          <!-- wp:paragraph -->
+          <p><?php the_title(); ?></p>
+          <!-- /wp:paragraph -->
         <?php endwhile; ?>
-        <!-- End of the main loop -->
-
-        <!-- Start the pagination functions after the loop. -->
+        <!-- wp:group -->
         <div class="wp-block-group nav-previous alignleft"><?php next_posts_link('Older posts'); ?></div>
+        <!-- /wp:group -->
+        <!-- wp:group -->
         <div class="wp-block-group nav-next alignright"><?php previous_posts_link('Newer posts'); ?></div>
-        <!-- End the pagination functions after the loop. -->
+        <!-- /wp:group -->
 
       <?php else : ?>
 
