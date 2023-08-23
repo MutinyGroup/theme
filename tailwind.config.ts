@@ -20,7 +20,9 @@ module.exports = {
 				primaryYellow: '#FEC400',
 				secondary: '#FFBE34',
 				textgray: '#4D5053',
+				gradientBlack: 'linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(48, 37, 28, 0.2))'
 			},
+			
 		},
 		screens: {
 			mobile: '480px',
