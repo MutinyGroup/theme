@@ -94,7 +94,7 @@
           <!-- wp:group -->
           <div id="marketing2" class="wp-block-group swiper swiperMarketing2 desktop:pt-[60px] relative top-0 desktop:left-[150px] left-[20px]">
             <!-- wp:group -->
-            <div id="marketing2-prev" class="wp-block-group group swiper-button-prev w-[56px] h-[56px] absolute top-[50%] desktop:right-[100px] translate-y-[50%] rotate-180">
+            <div id="marketing2-prev" class="wp-block-group group swiper-button-prev w-[56px] h-[56px] absolute top-[50%] desktop:right-[100px] translate-y-[50%] rotate-180 after:hidden">
               <!-- wp:paragraph -->
               <p>
                 <svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 56 56" fill="#FEC400" class="group fill-primaryYellow">
@@ -108,7 +108,7 @@
             <!-- /wp:group -->
 
             <!-- wp:group -->
-            <div id="marketing2-next" class="wp-block-group group swiper-button-next w-[56px] h-[56px] absolute top-[50%] desktop:right-[100px] translate-y-[50%]">
+            <div id="marketing2-next" class="wp-block-group group swiper-button-next w-[56px] h-[56px] absolute top-[50%] desktop:right-[100px] translate-y-[50%] after:hidden">
               <!-- wp:paragraph -->
               <p>
                 <svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 56 56" fill="none" class="group fill-primaryYellow">
@@ -128,7 +128,7 @@
                 <!-- wp:group -->
                 <div class="wp-block-group desktop:w-[50%] h-full rounded-[20px] overflow-hidden">
                   <!-- wp:image -->
-                  <figure class="wp-block-image clipped-content4 h-full">
+                  <figure class="wp-block-image clip-path-url-['#clipped-content4'] h-full">
                     <img src="<?php echo home_url() . '/wp-content/themes/mutiny/assets/img/page-marketing/swiper/swiper2-1.jpg'; ?>" alt="marketing-backgroun-image">
                   </figure>
                   <!-- /wp:image -->
@@ -183,7 +183,7 @@
                 <!-- wp:group -->
                 <div class="wp-block-group desktop:w-[50%] h-full rounded-[20px] overflow-hidden">
                   <!-- wp:image -->
-                  <figure class="wp-block-image clipped-content4 h-full">
+                  <figure class="wp-block-image clip-path-url-['#clipped-content4'] h-full">
                     <img src="<?php echo home_url() . '/wp-content/themes/mutiny/assets/img/page-marketing/swiper/swiper2-1.jpg'; ?>" alt="marketing-backgroun-image">
                   </figure>
                   <!-- /wp:image -->
@@ -243,7 +243,7 @@
                 <!-- wp:group -->
                 <div class="wp-block-group desktop:w-[50%] h-full rounded-[20px] overflow-hidden">
                   <!-- wp:image -->
-                  <figure class="wp-block-image clipped-content4 h-full">
+                  <figure class="wp-block-image clip-path-url-['#clipped-content4'] h-full">
                     <img src="<?php echo home_url() . '/wp-content/themes/mutiny/assets/img/page-marketing/swiper/swiper2-1.jpg'; ?>" alt="marketing-backgroun-image">
                   </figure>
                   <!-- /wp:image -->
