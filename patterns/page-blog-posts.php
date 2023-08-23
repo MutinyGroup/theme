@@ -204,6 +204,38 @@
       <!-- /wp:list -->
 
 
+      <?php
+      $args = array(
+        'posts_per_page' => 10,
+        'post_type'      => 'post',
+        'paged'          => get_query_var('paged'),
+      );
+      $wp_query = new WP_Query($args);
+      while ($wp_query->have_posts()) : $wp_query->the_post();
+        get_template_part('templates/content', 'posts');
+      endwhile;
+
+      /*
+  PAGINATION
+*/
+      ?>
+
+      <div id="pagination" class="clearfix">
+        <?php next_posts_link('Older Entries');
+        previous_posts_link('Newer Entries');
+        ?>
+      </div>
+      <?php
+      if (function_exists('page_navi')) {
+      ?>
+
+        <div id="pagination">
+          <?php page_navi(); ?>
+        </div>
+      <?php }
+      wp_reset_query(); ?>
+
+
     </div>
     <!-- /wp:group -->
 
