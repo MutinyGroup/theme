@@ -20,8 +20,8 @@ module.exports = {
 				primaryYellow: '#FEC400',
 				secondary: '#FFBE34',
 				textgray: '#4D5053',
-				darkBlack: '#101010'
-				brightWhite: '#F2F2F2'
+				darkBlack: '#101010',
+				brightWhite: '#F2F2F2',
 			},
 			
 		},

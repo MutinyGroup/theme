@@ -10,6 +10,9 @@ body {
   font-family: "Urbanist", sans-serif;
 }
 /* images */
+.wp-block-image{
+  margin: 0!important;
+}
 figure[class*="clip-path-url"] img,
 figure[class*="meet-us-gallery"] img,
 figure[class*="post-img"] img,
@@ -28,9 +31,6 @@ figure[class*="logo-img"] img {
 }
 .swiperBlog .swiper-slide:hover .blog-first-img-hover > img {
   transform: scale(1.11);
-}
-.wp-block-image{
-  margin: 0!important;
 }
 
 /* mobile navbar action */
