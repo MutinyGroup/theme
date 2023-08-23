@@ -13,7 +13,7 @@
   <!-- wp:group -->
   <div class="wp-block-group container mx-auto relative desktop:px-0 px-[20px]">
     <!-- wp:group -->
-    <div class="wp-block-group title-wrapper relative container mx-auto desktop:mb-[120px] mb-[60px] flex">
+    <div class="wp-block-group title-wrapper relative container mx-auto desktop:mb-[120px] mb-[60px] flex z-[1]">
       <!-- wp:paragraph -->
       <p>
         <svg class="flash desktop:scale-[1] scale-[0.4] absolute desktop:top-[-330px] top-[-360px] desktop:left-[-140px] right-[-100px] z-[-1]" xmlns="http://www.w3.org/2000/svg" width="688" height="801" viewBox="0 0 688 801" fill="none">
@@ -140,7 +140,7 @@
 
             <!-- wp:paragraph -->
             <p>
-              <svg xmlns="http://www.w3.org/2000/svg" width="236" height="317" viewBox="0 0 236 317" fill="none" class="z-[-1] absolute top-[190px] left-[30px] opacity-[80%]">
+              <svg xmlns="http://www.w3.org/2000/svg" width="236" height="317" viewBox="0 0 236 317" fill="none" class="z-[0] absolute top-[190px] left-[30px] opacity-[80%]">
                 <path d="M1.62088 314.924L234.242 236.649V1.91746L1.62088 80.1919V314.924Z" stroke="white" stroke-width="2" />
               </svg>
             </p>
@@ -219,7 +219,7 @@
 
             <!-- wp:paragraph -->
             <p>
-              <svg xmlns="http://www.w3.org/2000/svg" width="290" height="335" viewBox="0 0 290 335" fill="none" class="z-[-1] absolute top-[190px] left-[30px] opacity-[80%]">
+              <svg xmlns="http://www.w3.org/2000/svg" width="290" height="335" viewBox="0 0 290 335" fill="none" class="z-[0] absolute top-[190px] left-[30px] opacity-[80%]">
                 <path d="M1.62094 1.8927L288.5 98.6655V333.397L1.62094 236.624V1.8927Z" stroke="white" stroke-width="2" />
               </svg>
             </p>
