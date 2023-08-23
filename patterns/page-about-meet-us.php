@@ -36,7 +36,7 @@
       <!-- /wp:paragraph -->
       <!-- wp:paragraph -->
       <p>
-        <svg class="shape opacity-[60%] scale-[0.6] desktop:scale-[1] z-[0] absolute desktop:top-0 top-[-50px] desktop:right-[0px] right-[-60px]" xmlns="http://www.w3.org/2000/svg" width="470" height="396" viewBox="0 0 470 396" fill="none">
+        <svg class="shape opacity-[60%] scale-[0.6] desktop:scale-[1] z-[-1] absolute desktop:top-0 top-[-50px] desktop:right-[0px] right-[-60px]" xmlns="http://www.w3.org/2000/svg" width="470" height="396" viewBox="0 0 470 396" fill="none">
           <path d="M468.243 393.924L1 236.702V1.9702L468.243 159.192V393.924Z" stroke="#FFFFFF" stroke-width="2" />
         </svg>
       </p>
