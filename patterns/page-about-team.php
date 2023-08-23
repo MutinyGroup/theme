@@ -104,9 +104,9 @@
               </p>
               <!-- /wp:paragraph -->
               <!-- wp:group -->
-              <div class="wp-block-group text-content text-white absolute desktop:bottom-[30px] bottom-[10px] desktop:left-[30px] left-[10px] leading-[30px] z-[2]">
+              <div class="wp-block-group text-content mb-[10px] text-white absolute desktop:bottom-[30px] bottom-[10px] desktop:left-[30px] left-[10px] leading-[30px] z-[2]">
                 <!-- wp:paragraph -->
-                <p class="name mb-[10px] text-[20px] desktop:text-[25px] font-medium">Olga Anusiewicz</p>
+                <p class="name text-[20px] desktop:text-[25px] font-medium">Olga Anusiewicz</p>
                 <!-- /wp:paragraph -->
                 <!-- wp:paragraph -->
                 <p class="text-[16px] font-light">Founder & CEO</p>
@@ -130,9 +130,9 @@
               </figure>
               <!-- /wp:image -->
               <!-- wp:group -->
-              <div class="wp-block-group text-content text-white absolute desktop:bottom-[30px] bottom-[10px] desktop:left-[30px] left-[10px] leading-[30px] z-[2]">
+              <div class="wp-block-group text-content mb-[10px] text-white absolute desktop:bottom-[30px] bottom-[10px] desktop:left-[30px] left-[10px] leading-[30px] z-[2]">
                 <!-- wp:paragraph -->
-                <p class="name mb-[10px] text-[20px] desktop:text-[25px] font-medium">Olga Anusiewicz</p>
+                <p class="name text-[20px] desktop:text-[25px] font-medium">Olga Anusiewicz</p>
                 <!-- /wp:paragraph -->
                 <!-- wp:paragraph -->
                 <p class="text-[16px] font-light">Founder & CEO</p>
@@ -160,9 +160,9 @@
               </figure>
               <!-- /wp:image -->
               <!-- wp:group -->
-              <div class="wp-block-group text-content text-white absolute desktop:bottom-[30px] bottom-[10px] desktop:left-[30px] left-[10px] leading-[30px] z-[2]">
+              <div class="wp-block-group text-content mb-[10px] text-white absolute desktop:bottom-[30px] bottom-[10px] desktop:left-[30px] left-[10px] leading-[30px] z-[2]">
                 <!-- wp:paragraph -->
-                <p class="name mb-[10px] text-[20px] desktop:text-[25px] font-medium">Olga Anusiewicz</p>
+                <p class="name text-[20px] desktop:text-[25px] font-medium">Olga Anusiewicz</p>
                 <!-- /wp:paragraph -->
                 <!-- wp:paragraph -->
                 <p class="text-[16px] font-light">Founder & CEO</p>
@@ -198,9 +198,9 @@
               <!-- /wp:paragraph -->
 
               <!-- wp:group -->
-              <div class="wp-block-group text-content text-white absolute desktop:bottom-[30px] bottom-[10px] desktop:left-[30px] left-[10px] leading-[30px] z-[2]">
+              <div class="wp-block-group text-content mb-[10px] text-white absolute desktop:bottom-[30px] bottom-[10px] desktop:left-[30px] left-[10px] leading-[30px] z-[2]">
                 <!-- wp:paragraph -->
-                <p class="name mb-[10px] text-[20px] desktop:text-[25px] font-medium">Olga Anusiewicz</p>
+                <p class="name text-[20px] desktop:text-[25px] font-medium">Olga Anusiewicz</p>
                 <!-- /wp:paragraph -->
                 <!-- wp:paragraph -->
                 <p class="text-[16px] font-light">Founder & CEO</p>
