@@ -7,7 +7,8 @@
  * Viewport Width: 1280
  */
 ?>
-<!-- wp:group {"templateLock":"all","lock":{"move":true,"remove":true},"anchor":true} -->
+
+<!-- wp:group {"templateLock":"contentOnly","anchor":true} -->
 <div id="Wpis" class="wp-block-group single-page-post mt-[80px] mb-[150px] overflow-hidden">
   <!-- wp:group -->
   <div class="wp-block-group relative">
