@@ -13,7 +13,7 @@
   <!-- wp:group -->
   <div class="wp-block-group container mx-auto relative desktop:px-0 px-[20px]">
     <!-- wp:group -->
-    <div class="wp-block-group new gallery-cols relative flex justify-between desktop:pb-[150px] pb-[80px]">
+    <div class="wp-block-group new gallery-cols relative fleex justify-between desktop:pb-[150px] pb-[80px]">
       <!-- wp:paragraph -->
       <p>
         <svg class="bg-shape z-[0] absolute top-[0px] right-[0px]" xmlns="http://www.w3.org/2000/svg" width="470" height="396" viewBox="0 0 470 396" fill="none">
