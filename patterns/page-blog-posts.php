@@ -180,6 +180,8 @@
           <!-- wp:paragraph -->
           <p>
             <?php previous_posts_link('Newer posts'); ?>
+            <?php the_posts_pagination(); ?>
+            <?php echo paginate_links(); ?>
           </p>
           <!-- /wp:paragraph -->
         </div>
