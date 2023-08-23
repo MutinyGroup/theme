@@ -11,7 +11,7 @@
 <div id="CTA" class="wp-block-group relative cta-bright1 mb-[150px]">
   <!-- wp:paragraph -->
   <p class="scale-[0.3] desktop:scale-[1] absolute left-0">
-    <svg class="bg-shape z-[0] opacity-[0.1] absolute top-[-145px] left-[-80px]" width="1201" height="917" viewBox="0 0 1201 917" fill="none">
+    <svg class="bg-shape z-[0] absolute top-[-145px] left-[-80px]" width="1201" height="917" viewBox="0 0 1201 917" fill="none">
       <path d="M-91 2.02805L553.6 283.595L554 283.77L554.4 283.595L751.232 197.617L876 191.674V352.568L554 493.221L69.9003 281.762L68.5 281.15V282.678V711.805L-91 642.134V2.02805Z" stroke="white" stroke-width="2" />
       <path d="M1040.07 494.916L1040.67 494.654V494L1040.67 262.321L1200 192.695L1200 634.346L1039.27 704.584L555.667 915.909L234 775.346V566.028L555.266 706.416L555.667 706.591L556.067 706.416L1040.07 494.916Z" stroke="white" stroke-width="2" />
     </svg>
@@ -69,7 +69,7 @@
     <!-- /wp:group -->
 
     <!-- wp:group -->
-    <div class="wp-block-group desktop:w-[175px] w-[140px] desktop:h-[175px] h-[140px] desktop:ml-[120px] mx-auto text-center rounded-full border-[4px] border-[#D5D5D5] group-hover:border-none group-hover:bg-primaryYellow group-hover:text-white transition ease-out duration-300 flex flex-col justify-center items-center gap-y-0 cursor-pointer">
+    <div class="wp-block-group relative desktop:w-[175px] w-[140px] desktop:h-[175px] h-[140px] desktop:ml-[120px] mx-auto text-center rounded-full border-[4px] border-[#D5D5D5] group-hover:border-none group-hover:bg-primaryYellow group-hover:text-white transition ease-out duration-300 flex flex-col justify-center items-center gap-y-0 cursor-pointer">
       <!-- wp:paragraph -->
       <p>
         <a href="<?php echo get_home_url() . '/contact'; ?>">
