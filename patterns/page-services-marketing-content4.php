@@ -70,7 +70,7 @@
       <div class=" wp-block-group col2 relative basis-[60%]">
         <!-- wp:paragraph -->
         <p>
-          <svg class="z-[0] absolute top-[-50px] left-[50px]" width="236" height="317" viewBox="0 0 236 317" fill="none">
+          <svg class="z-[0] absolute top-[-50px] left-[-50px]" width="236" height="317" viewBox="0 0 236 317" fill="none">
             <g style="mix-blend-mode:color-dodge" opacity="0.6">
               <path d="M234.242 314.923L1.62109 236.649V1.91697L234.242 80.1914V314.923Z" stroke="white" stroke-width="2" />
             </g>
