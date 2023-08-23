@@ -100,13 +100,13 @@
         <!-- wp:group -->
         <div class="wp-block-group gallery desktop:mb-[240px] relative mb-[100px] flex gap-[8px]">
           <!-- wp:image -->
-          <figure class="wp-block-image w-[50%] overflow-hidden rounded-tl-[22px] rounded-bl-[22px]">
+          <figure class="wp-block-image w-[49%] overflow-hidden rounded-tl-[22px] rounded-bl-[22px]">
             <img src="<?php echo home_url() . '/wp-content/themes/mutiny/assets/img/page-marketing/gallery1.jpg'; ?>" alt="image" />
           </figure>
           <!-- /wp:image -->
 
           <!-- wp:group -->
-          <div class="wp-block-group mb-[20px] w-[50%] absolute top-[60px] right-[0px]">
+          <div class="wp-block-group mb-[20px] w-[49%] absolute top-[60px] right-[0px]">
             <!-- wp:group -->
             <div class="wp-block-group overflow-hidden ">
               <!-- wp:image -->
@@ -125,7 +125,6 @@
               <!-- /wp:paragraph -->
             </div>
             <!-- /wp:group -->
-
           </div>
           <!-- /wp:group -->
         </div>
