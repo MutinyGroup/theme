@@ -175,9 +175,13 @@
                 </div>
                 <!-- /wp:buttons -->
 
-                <!-- wp:paragraph -->
-                <p class="hover-text mt-[370px] wide:mt-[350px] opacity-[0%] group-hover:opacity-[100%] group-hover:mt-[120px] desktop:group-hover:mt-[220px] wide:group-hover:mt-[270px] transition-all ease-out duration-500 text-[15px] font-light z-[2]"><?php (the_excerpt()) ? the_excerpt() : 'Uzupełnij zajawkę'; ?></p>
-                <!-- /wp:paragraph -->
+                <!-- wp:group -->
+                <div class="wp-block-group hover-text mt-[370px] wide:mt-[350px] opacity-[0%] group-hover:opacity-[100%] group-hover:mt-[120px] desktop:group-hover:mt-[220px] wide:group-hover:mt-[270px] transition-all ease-out duration-500 text-[15px] font-light z-[2]">
+                  <!-- wp:paragraph -->
+                  <?php (the_excerpt()) ? the_excerpt() : 'Uzupełnij zajawkę'; ?>
+                  <!-- /wp:paragraph -->
+                </div>
+                <!-- /wp:group -->
               </div>
               <!-- /wp:group -->
           <?php
