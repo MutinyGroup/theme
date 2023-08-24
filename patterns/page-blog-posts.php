@@ -50,7 +50,7 @@
             $postImageUrl = wp_get_attachment_image_src(get_post_thumbnail_id(), 'portrait');
             $counter++;
             if ($tab[$i] == 0) {
-              array_push($tab, (int)rand(0, 1)) ?>
+              $tab = $tab + rand(0, 1) ?>
               <!-- wp:list-item -->
               <li class="wp-block-group bigger swiper-slide relative group w-full desktop:w-[535px] wide:w-[580px] h-fit desktop:h-[545px] wide:h-[650px] <?php echo (!($counter % 2)) ? 'desktop:translate-y-[120px]' : ''; ?>">
                 <a href="<?php the_permalink(); ?>">
@@ -95,8 +95,7 @@
               <!-- /wp:list-item -->
             <?php
               $i++;
-            } else {
-              array_push($tab, rand(0, 1)) ?>
+            } else { ?>
               <!-- wp:list-item -->
               <li class="wp-block-group smaller swiper-slide relative group w-full desktop:w-[444px] wide:w-[490px] h-fit desktop:h-[500px] <?php echo (!($counter % 2)) ? 'desktop:translate-y-[120px]' : ''; ?>">
                 <a href="<?php the_permalink(); ?>">
