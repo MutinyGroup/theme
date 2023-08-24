@@ -203,7 +203,7 @@
   </ul>
   <!-- /wp:list -->
   <?php
-  $currentUrl = substr("http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]", 36, 1);
+  $currentUrl = substr("http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]", 30, 2);
   ?>
   <!-- wp:paragraph -->
   <p><?php echo $currentUrl; ?></p>
