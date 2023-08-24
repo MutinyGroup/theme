@@ -400,3 +400,13 @@ function wpdocs_theme_add_editor_styles_editor()
 	add_editor_style('assets/editor.css');
 }
 add_action('admin_init', 'wpdocs_theme_add_editor_styles_editor');
+
+
+
+
+add_filter('query_vars', 'add_my_var');
+function add_my_var($public_query_vars)
+{
+	$public_query_vars[] = 'some_unique_identifier_for_your_var';
+	return $public_query_vars;
+}
