@@ -167,12 +167,12 @@
               ?>
             </li>
             <!-- /wp:list-item -->
-
-          <?php
-        };
-          ?>
           </ul>
           <!-- /wp:list -->
+        <?php
+        };
+        ?>
+
       </ul>
       <!-- /wp:list -->
 
