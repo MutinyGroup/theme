@@ -193,7 +193,7 @@
     'mid_size'     => 1,
     'prev_next'    => true,
     'prev_text'    => 'Poprzednie',
-    'next_text'    => 'Pokaż więcej',
+    'next_text'    => 'Pokaż więcej2',
     'add_args'     => false,
   )); ?>
   <!-- /wp:list -->
