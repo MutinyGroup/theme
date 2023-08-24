@@ -145,7 +145,7 @@
 
 
       <!-- wp:group -->
-      <div class="wp-block-group pagination4">
+      <div class="wp-block-group pagination42">
         <?php
         if (get_query_var('paged')) {
           $paged = get_query_var('paged');
