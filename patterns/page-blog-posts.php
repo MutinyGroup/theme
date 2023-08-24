@@ -42,6 +42,7 @@
         $counter = 0;
         $tab = [0, 1, 1, 0, 0, 1, 0, 1, 1, 0, 0, 1, 0, 1, 1, 0, 0, 1, 0, 1, 1, 0, 0, 1];
         $i = 0;
+        echo rand(0, 1);
 
         if ($post_query->have_posts()) {
           while ($post_query->have_posts()) {
