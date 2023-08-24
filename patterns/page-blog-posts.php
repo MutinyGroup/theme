@@ -140,7 +140,7 @@
         ?>
       </ul>
       <!-- /wp:list -->
-      the_posts_navigation();
+
 
       <?php $paged = (get_query_var('paged')) ? absint(get_query_var('paged')) : 1;
 
@@ -164,6 +164,7 @@
 
         <?php
         endwhile;
+        the_posts_navigation();
         ?>
         <div id="pagination" class="clearfix">
           <?php next_posts_link('Older Entries');
@@ -220,6 +221,7 @@
 
       <?php
       endwhile;
+      the_posts_navigation();
 
       /*
 PAGINATION
