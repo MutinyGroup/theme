@@ -138,7 +138,6 @@
               $i++;
             };
           };
-          wp_reset_query();
           ?>
           <!-- wp:group -->
           <div class="wp-block-group pagination absolute bottom-0 z-[10]">
@@ -158,6 +157,7 @@
               'add_args'     => false,
               'add_fragment' => '',
             ));
+            wp_reset_query();
             ?>
           </div>
           <!-- /wp:group -->
