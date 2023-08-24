@@ -175,10 +175,17 @@
           <ul class="wp-block-list">
             <!-- wp:list-item -->
             <li>
-              <?php the_post_navigation(array(
-                'prev_text'           => __('prev chapter'),
-                'next_text'           => __('next chapter'),
-              )); ?>
+              <?php
+              $args = array(
+                'prev_text' => sprintf(esc_html__('%s Older', 'wpdocs_blankslate'), '<span class="meta-nav"> < </span>'),
+                'next_text' => sprintf(esc_html__('Newer %s', 'wpdocs_blankslate'), '<span class="meta-nav"> > </span>')
+              );
+              $navigation = get_the_post_navigation($args);
+              if ($navigation) :
+                echo '<h4>View More</h4>';
+                echo $navigation;
+              endif;
+              ?>
 
             </li>
             <!-- /wp:list-item -->
@@ -188,7 +195,7 @@
         <?php else : ?>
 
           <?php  ?>
-          <?php wp_reset_query(); // add this 
+          <?php wp_reset_query();
           ?>
         <?php endif; ?>
 
