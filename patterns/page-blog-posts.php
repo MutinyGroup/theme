@@ -172,15 +172,20 @@
         <!-- wp:paragraph -->
         <p><a class="min-w-fit ml-[0px] p-[15px_30px] font-bold uppercase border-[2px] border-[#D5D5D5] rounded-full hover:border-primaryYellow hover:text-black transition ease-out duration-300 cursor-pointer" href="<?php echo home_url() . '/blog/page/' . ($currentPageID + 1) ?>" class="uppercase text-[14px] font-bold">Pokaz następne</a></p>
         <!-- /wp:paragraph -->
+
+        <?php
+        if ($currentPageID > 1) {
+        ?>
+          <!-- wp:paragraph -->
+          <p><a class="min-w-fit ml-[0px] p-[15px_30px] font-bold uppercase border-[2px] border-[#D5D5D5] rounded-full hover:border-primaryYellow hover:text-black transition ease-out duration-300 cursor-pointer" href="<?php echo home_url() . '/blog/page/' . ($currentPageID - 1) ?>" class="uppercase text-[14px] font-bold">Pokaz poprzednie</a></p>
+          <!-- /wp:paragraph -->
+        <?php
+        };
+        ?>
       <?php
       } elseif ($currentPageID != 1) {
       ?>
-        <!-- wp:paragraph -->
-        <p><a class="min-w-fit ml-[0px] p-[15px_30px] font-bold uppercase border-[2px] border-[#D5D5D5] rounded-full hover:border-primaryYellow hover:text-black transition ease-out duration-300 cursor-pointer" href="<?php echo home_url() . '/blog/page/' . ($currentPageID - 1) ?>" class="uppercase text-[14px] font-bold">Pokaz poprzednie</a></p>
-        <!-- /wp:paragraph -->
-        <!-- wp:paragraph -->
-        <p><a class="min-w-fit ml-[0px] p-[15px_30px] font-bold uppercase border-[2px] border-[#D5D5D5] rounded-full hover:border-primaryYellow hover:text-black transition ease-out duration-300 cursor-pointer" href="<?php echo home_url() . '/blog/page/' . ($currentPageID + 1) ?>" class="uppercase text-[14px] font-bold">Pokaz następne</a></p>
-        <!-- /wp:paragraph -->
+
       <?php
       };
       ?>
