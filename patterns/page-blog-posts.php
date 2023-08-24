@@ -29,11 +29,10 @@
       <!-- wp:list -->
       <ul class="wp-block-list blog-posts-wrapper flex flex-wrap desktop:justify-center desktop:gap-x-[100px] wide:gap-x-[100px] gap-y-[40px] desktop:gap-y-[200px]">
         <?php
-        global $paged;
-        // $paged = (get_query_var('page')) ? get_query_var('page') : 1;
+        $paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
         $args = array(
           'post_type' => 'post',
-          'posts_per_page' => 2,
+          'posts_per_page' => 4,
           'paged' => $paged,
           'order' => 'DESC'
         );
@@ -179,12 +178,6 @@
             </li>
             <!-- /wp:list-item -->
           <?php
-          echo get_permalink();
-
-          global $wp;
-          echo home_url($wp->request);
-          get_permalink(get_the_ID());
-          $current_url = home_url($_SERVER['REQUEST_URI']);
         };
           ?>
           </ul>
