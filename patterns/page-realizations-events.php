@@ -157,13 +157,38 @@
       </div>
       <!-- /wp:group -->
 
-      <!-- wp:buttons -->
-      <div class="wp-block-buttons btn-more min-w-fit ml-[0px] p-[15px_30px] uppercase border-[2px] border-[#D5D5D5] rounded-full hover:border-primaryYellow hover:text-black transition ease-out duration-300">
-        <!-- wp:paragraph -->
-        <p><a href="#" class="uppercase text-[14px] font-bold">Pokaż więcej</a></p>
-        <!-- /wp:paragraph -->
+      <!-- wp:group -->
+      <div class="wp-block-group btn-more min-w-fit flex gap-[20px]">
+        <?php
+        $currentPageID = (int)substr("http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]", 36, 1) ? (int)substr("http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]", 36, 1) : 1;
+        if ($currentPageID < ($post_query->max_num_pages)) {
+        ?>
+          <?php
+          if ($currentPageID > 1) {
+          ?>
+            <!-- wp:paragraph -->
+            <p><a href="<?php echo home_url() . '/blog/page/' . ($currentPageID - 1) ?>" class="min-w-fit ml-[0px] p-[15px_30px] font-bold uppercase border-[2px] border-[#D5D5D5] rounded-full hover:border-primaryYellow hover:text-black transition ease-out duration-300 cursor-pointer text-[14px]">Pokaz poprzednie</a></p>
+            <!-- /wp:paragraph -->
+          <?php
+          };
+          ?>
+
+          <!-- wp:paragraph -->
+          <p><a href="<?php echo home_url() . '/blog/page/' . ($currentPageID + 1) ?>" class="min-w-fit ml-[0px] p-[15px_30px] font-bold uppercase border-[2px] border-[#D5D5D5] rounded-full hover:border-primaryYellow hover:text-black transition ease-out duration-300 cursor-pointer text-[14px]">Pokaz następne</a></p>
+          <!-- /wp:paragraph -->
+
+
+        <?php
+        } elseif ($currentPageID = $post_query->max_num_pages) {
+        ?>
+          <!-- wp:paragraph -->
+          <p><a class="min-w-fit ml-[0px] p-[15px_30px] font-bold uppercase border-[2px] border-[#D5D5D5] rounded-full hover:border-primaryYellow hover:text-black transition ease-out duration-300 cursor-pointer" href="<?php echo home_url() . '/blog/page/' . ($currentPageID - 1) ?>" class="uppercase text-[14px] font-bold">Pokaz poprzednie</a></p>
+          <!-- /wp:paragraph -->
+        <?php
+        };
+        ?>
       </div>
-      <!-- /wp:buttons -->
+      <!-- /wp:group -->
 
       <!-- wp:group -->
       <div class="wp-block-group gray-border hidden desktop:inline-block w-full h-[2px] bg-[#808080] opacity-[15%]">
