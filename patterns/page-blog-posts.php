@@ -33,7 +33,7 @@
         $args = array(
           'post_type' => 'post',
           'posts_per_page' => 2,
-          'paged' => $paged,
+          'paged' => 2,
           'order' => 'DESC'
         );
         $post_query = new WP_Query($args);
