@@ -177,11 +177,8 @@
         <p><a href="<?php echo home_url() . '/blog/page/' . ($currentPageID - 1) ?>" class="uppercase text-[14px] font-bold">Pokaz poprzednie</p>
         <!-- /wp:paragraph -->
       <?php
-      }
+      };
       ?>
-      <!-- wp:paragraph -->
-      <p><a href="<?php echo home_url() . '/blog/page/' . ($currentPageID + 1) ?>" class="uppercase text-[14px] font-bold"><?php echo ($currentPageID < ($post_query->max_num_pages)) ?  'Pokaż więcej' :  'Pokaż poprzednie'; ?></a></p>
-      <!-- /wp:paragraph -->
     </div>
     <!-- /wp:buttons -->
 
