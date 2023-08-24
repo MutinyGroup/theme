@@ -146,11 +146,11 @@
           wp_reset_query();
           echo $paged;
           ?>
-          <?php $paged = get_query_var('paged', 1); ?>
+          <?php $paged = get_query_var('paged'); ?>
 
           <h1><?php printf(esc_html__('Currently browsing page %s', 'textdomain'), $paged); ?></h1>
 
-          <?php $page = get_query_var('page', 1);  ?>
+          <?php $page = get_query_var('page');  ?>
           <h1><?php printf(esc_html__('Currently browsing page %s on a static front page', 'textdomain'), $page); ?></h1>
 
           <!-- wp:list -->
