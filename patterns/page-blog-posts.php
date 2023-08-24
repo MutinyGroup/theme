@@ -33,7 +33,7 @@
         $args = array(
           'post_type' => 'post',
           'posts_per_page' => 4,
-          'paged' => $paged,
+          'paged' => $currentUrl,
           'order' => 'DESC'
         );
         $post_query = new WP_Query($args);
@@ -203,7 +203,7 @@
   </ul>
   <!-- /wp:list -->
   <?php
-  $currentUrl = substr("http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]", 30, 2);
+  $currentUrl = (int)substr("http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]", 36, 1);
   ?>
   <!-- wp:paragraph -->
   <p><?php echo $currentUrl; ?></p>
