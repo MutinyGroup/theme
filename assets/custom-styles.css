@@ -174,14 +174,14 @@ figure[class*="logo-img"] img {
 
 /* Posts pagination links */
 
-#Posty > ul > li:nth-child(2){
-  display: none!important;
+#Posty > ul > li{
+  display: none;
 }
 
-ul > .page-numbers:first-child{
+#Posty > ul > li:first-child{
   display: block;
 }
-ul > .page-numbers:last-child{
+#Posty > ul > li:last-child{
   display: block;
 }
 /* navigation menu */
