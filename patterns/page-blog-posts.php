@@ -193,9 +193,16 @@
     'mid_size'     => 1,
     'prev_next'    => true,
     'prev_text'    => 'Poprzednie',
-    'next_text'    => 'Pokaż więcej2',
+    'next_text'    => '
+      <!-- wp:buttons -->
+      <div class="wp-block-buttons btn-more min-w-fit ml-[0px] p-[15px_30px] uppercase border-[2px] border-[#D5D5D5] rounded-full hover:border-primaryYellow hover:text-black transition ease-out duration-300 cursor-pointer">
+        <!-- wp:paragraph -->
+        <p>Pokaż więcej</p>
+        <!-- /wp:paragraph -->
+      </div>
+      <!-- /wp:buttons -->
+    ',
     'add_args'     => false,
-    'add_fragment' => 'test1',
     'before_page_number' => 'test2',
     'after_page_number' => 'test3'
   )); ?>
