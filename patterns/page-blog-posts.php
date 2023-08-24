@@ -138,7 +138,8 @@
               $i++;
             };
           };
-          wp_reset_postdata();
+          wp_reset_query();
+
           ?>
           <!-- wp:list -->
           <ul class="wp-block-list">
@@ -166,7 +167,7 @@
             <!-- /wp:list-item -->
           <?php
         };
-
+        wp_reset_query();
           ?>
           </ul>
           <!-- /wp:list -->
