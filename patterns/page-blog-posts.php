@@ -199,7 +199,9 @@
         'add_args'     => false,
         'add_fragment' => '',
       ));
+      echo next_posts_link('next2');
       ?>
+
     </li>
     <!-- /wp:list-item -->
   </ul>
