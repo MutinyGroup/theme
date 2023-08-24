@@ -29,7 +29,7 @@
       <!-- wp:list -->
       <ul class="wp-block-list blog-posts-wrapper flex flex-wrap desktop:justify-center desktop:gap-x-[100px] wide:gap-x-[100px] gap-y-[40px] desktop:gap-y-[200px]">
         <?php
-        $currentPageID = (int)substr("http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]", 36, 1);
+        $currentPageID = (int)substr("http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]", 36, 1) ? (int)substr("http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]", 36, 1) : 1;
 
         $paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
         $args = array(
@@ -165,7 +165,7 @@
     <!-- wp:buttons -->
     <div class="wp-block-buttons btn-more min-w-fit ml-[0px] p-[15px_30px] uppercase border-[2px] border-[#D5D5D5] rounded-full hover:border-primaryYellow hover:text-black transition ease-out duration-300 cursor-pointer">
       <!-- wp:paragraph -->
-      <p><a href="<?php echo home_url() . '/blog/page/' ?>" class="uppercase text-[14px] font-bold">Pokaż więcej</a></p>
+      <p><a href="<?php echo home_url() . '/blog/page/' . $currentPageID ?>" class="uppercase text-[14px] font-bold">Pokaż więcej</a></p>
       <!-- /wp:paragraph -->
     </div>
     <!-- /wp:buttons -->
