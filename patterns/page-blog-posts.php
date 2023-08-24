@@ -179,7 +179,8 @@
     <!-- /wp:group -->
   </div>
   <!-- /wp:group -->
-  <!-- wp:list {"className":"is-style-jace-text-shadow","fontSize":"x-large"} -->
+
+  <!-- wp:list -->
   <?php
   echo paginate_links(array(
     'base'         => str_replace(999999999, '%#%', esc_url(get_pagenum_link(999999999))),
