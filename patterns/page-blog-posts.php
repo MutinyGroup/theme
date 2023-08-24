@@ -165,7 +165,7 @@
     <!-- wp:buttons -->
     <div class="wp-block-buttons btn-more min-w-fit ml-[0px] p-[15px_30px] uppercase border-[2px] border-[#D5D5D5] rounded-full hover:border-primaryYellow hover:text-black transition ease-out duration-300 cursor-pointer">
       <!-- wp:paragraph -->
-      <p><a href="#" class="uppercase text-[14px] font-bold">Pokaż więcej</a></p>
+      <p><a href="<?php echo get_pagenum_link() . 'page/' . $currentPageID + 1 . '/' ?>" class="uppercase text-[14px] font-bold">Pokaż więcej</a></p>
       <!-- /wp:paragraph -->
     </div>
     <!-- /wp:buttons -->
@@ -200,12 +200,6 @@
   <!-- /wp:list -->
   <?php
   $currentPageID = (int)substr("http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]", 36, 1);
-  echo 'esc url empty ' . esc_url(1);
-  echo '<br>';
-  echo 'esc url ' . esc_url(get_pagenum_link());
-  echo '<br>';
-  echo 'get pagenum link ' . get_pagenum_link();
-  echo '<br>';
   ?>
   <!-- wp:paragraph -->
   <p><?php echo $currentPageID; ?></p>
