@@ -29,7 +29,7 @@
       <!-- wp:list -->
       <ul class="wp-block-list blog-posts-wrapper flex flex-wrap desktop:justify-center desktop:gap-x-[100px] wide:gap-x-[100px] gap-y-[40px] desktop:gap-y-[200px]">
         <?php
-        $paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
+        $paged = (get_query_var('page')) ? get_query_var('page') : 1;
         $args = array(
           'post_type' => 'post',
           'posts_per_page' => 4,
@@ -148,7 +148,7 @@
               echo paginate_links(array(
                 'base'         => str_replace(999999999, '%#%', esc_url(get_pagenum_link(999999999))),
                 'total'        => $post_query->max_num_pages,
-                'current'      => max(1, get_query_var('paged')),
+                'current'      => max(1, get_query_var('page')),
                 'format'       => '?paged=%#%',
                 'show_all'     => false,
                 'type'         => 'plain',
