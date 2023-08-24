@@ -168,13 +168,13 @@
       if ($currentPageID < ($post_query->max_num_pages)) {
       ?>
         <!-- wp:paragraph -->
-        <p><a href="<?php echo home_url() . '/blog/page/' . ($currentPageID + 1) ?>" class="uppercase text-[14px] font-bold">Pokaz więcej</p>
+        <p><a href="<?php echo home_url() . '/blog/page/' . ($currentPageID + 1) ?>" class="uppercase text-[14px] font-bold">Pokaz więcej</a></p>
         <!-- /wp:paragraph -->
       <?php
       } else {
       ?>
         <!-- wp:paragraph -->
-        <p><a href="<?php echo home_url() . '/blog/page/' . ($currentPageID - 1) ?>" class="uppercase text-[14px] font-bold">Pokaz poprzednie</p>
+        <p><a href="<?php echo home_url() . '/blog/page/' . ($currentPageID - 1) ?>" class="uppercase text-[14px] font-bold">Pokaz poprzednie</a></p>
         <!-- /wp:paragraph -->
       <?php
       };
