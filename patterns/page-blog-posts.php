@@ -43,7 +43,7 @@
         $i = 0;
 
         echo $paged;
-        echo get_permalink();
+
 
 
         if ($post_query->have_posts()) {
@@ -147,11 +147,11 @@
           wp_reset_query();
           echo $paged;
           ?>
-          <?php $paged = get_query_var('paged'); ?>
+          <?php $paged = get_query_var('paged', 1); ?>
 
           <h1><?php printf(esc_html__('Currently browsing page %s', 'textdomain'), $paged); ?></h1>
 
-          <?php $page = get_query_var('page');  ?>
+          <?php $page = get_query_var('page', 1);  ?>
           <h1><?php printf(esc_html__('Currently browsing page %s on a static front page', 'textdomain'), $page); ?></h1>
 
           <!-- wp:list -->
@@ -179,6 +179,10 @@
             </li>
             <!-- /wp:list-item -->
           <?php
+          echo get_permalink();
+
+          global $wp;
+          echo home_url($wp->request);
         };
           ?>
           </ul>
