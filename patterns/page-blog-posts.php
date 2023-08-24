@@ -151,7 +151,7 @@
                 'total'        => $post_query->max_num_pages,
                 'current'      => max(1, get_query_var('paged')),
                 'format'       => '?paged=%#%',
-                'show_all'     => false,
+                'show_all'     => true,
                 'type'         => 'plain',
                 'end_size'     => 2,
                 'mid_size'     => 1,
