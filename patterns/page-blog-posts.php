@@ -163,7 +163,7 @@
     <!-- /wp:group -->
 
     <!-- wp:buttons -->
-    <div class="wp-block-buttons btn-more min-w-fit ml-[0px] p-[15px_30px] uppercase border-[2px] border-[#D5D5D5] rounded-full hover:border-primaryYellow hover:text-black transition ease-out duration-300">
+    <div class="wp-block-buttons btn-more min-w-fit ml-[0px] p-[15px_30px] uppercase border-[2px] border-[#D5D5D5] rounded-full hover:border-primaryYellow hover:text-black transition ease-out duration-300 cursor-pointer">
       <!-- wp:paragraph -->
       <p><a href="#" class="uppercase text-[14px] font-bold">Pokaż więcej</a></p>
       <!-- /wp:paragraph -->
