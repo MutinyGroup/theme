@@ -189,27 +189,17 @@
         'total'        => $post_query->max_num_pages,
         'current'      => $currentPageID,
         'format'       => '?paged=%#%',
-        'show_all'     => true,
-        'type'         => 'plain',
+        'show_all'     => false,
+        'type'         => 'list',
         'end_size'     => 2,
         'mid_size'     => 1,
         'prev_next'    => true,
-        'prev_text'    => 'prev',
-        'next_text'    => 'next',
+        'prev_text'    => 'Poprzednie',
+        'next_text'    => 'Pokaż więcej',
         'add_args'     => false,
-        'add_fragment' => '',
       ));
-      echo '<br>';
-      echo 'next post link' . next_posts_link('Older Entries');
-      echo '<br>';
-      echo 'get post permalink' . get_post_permalink();
-      echo '<br>';
-      echo 'get next' . get_next_posts_page_link();
-      echo '<br>';
-      echo 'get prev' . get_previous_posts_page_link();
-      echo '<br>';
-
-      next_posts_link(__('Older Entries2', 'textdomain'), $post_query->max_num_pages);
+      echo 'esc url ' . esc_url(get_pagenum_link(999999999));
+      echo 'get pagenum link ' . get_pagenum_link(999999999);
       ?>
     </li>
     <!-- /wp:list-item -->
