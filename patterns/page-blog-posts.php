@@ -142,106 +142,7 @@
       <!-- /wp:list -->
 
 
-      <?php $paged = (get_query_var('paged')) ? absint(get_query_var('paged')) : 1;
 
-      $args = array(
-        'post_type' => 'post',
-        'post_status' => 'publish',
-        'posts_per_page' => 4,
-        'order' => 'ASC',
-        'paged' => $paged,
-      );
-
-      $arr_posts = new WP_Query($args);
-
-      if ($arr_posts->have_posts()) :
-        while ($arr_posts->have_posts()) :
-          $arr_posts->the_post();
-      ?>
-          <!-- wp:paragraph -->
-          <p><?php the_title(); ?></p>
-          <!-- /wp:paragraph -->
-
-        <?php
-        endwhile;
-        the_posts_navigation();
-        ?>
-        <div id="pagination1" class="pagination1">
-          <?php next_posts_link('Older Entries');
-          previous_posts_link('Newer Entries');
-          ?>
-        </div>
-      <?php
-      endif;
-      wp_reset_query();
-      ?>
-
-      <!-- wp:list -->
-      <ul class="wp-block-list pagepagination2 block">
-        <?php
-
-        $arr_posts_page = $arr_posts->max_num_pages;
-        if ($arr_posts_page > 1) {
-
-          $current_page = max(1, get_query_var('paged'));
-        ?>
-          <!-- wp:list-item -->
-          <li>
-            <?php
-            echo paginate_links(array(
-              'base' => get_pagenum_link(1) . '%_%',
-              'format' => 'page/%#%',
-              'current' => $current_page,
-              'total' => $arr_posts_page,
-              'prev_text'    => __('<'),
-              'next_text'    => __('>'),
-            ));
-            ?>
-          </li>
-          <!-- /wp:list-item -->
-        <?php
-        }
-        ?>
-      </ul>
-      <!-- /wp:list -->
-
-
-      <?php
-      $args = array(
-        'posts_per_page' => 2,
-        'post_type'      => 'post',
-        'paged'          => get_query_var('paged'),
-      );
-      $wp_query = new WP_Query($args);
-      while ($wp_query->have_posts()) : $wp_query->the_post();
-      ?>
-        <!-- wp:paragraph -->
-        <p><?php the_title(); ?></p>
-        <!-- /wp:paragraph -->
-
-      <?php
-      endwhile;
-      the_posts_navigation();
-      echo next_posts_link();
-      echo previous_posts_link();
-      echo next_posts_link('next');
-      echo previous_posts_link('prev');
-
-      /*
-PAGINATION
-*/
-      ?>
-      <!-- wp:group -->
-      <div id="pagination3" class="wp-block-group pagination3">
-        <?php
-        next_posts_link('Older Entries');
-        previous_posts_link('Newer Entries');
-        ?>
-      </div>
-      <!-- /wp:group -->
-      <?php
-
-      wp_reset_query(); ?>
 
       <!-- wp:group -->
       <div class="wp-block-group pagination4">
@@ -270,11 +171,16 @@ PAGINATION
 
           <?php endwhile; ?>
 
-          <!-- wp:paragraph -->
-          <p>
-            <?php the_posts_navigation(); ?>
-          </p>
-          <!-- /wp:paragraph -->
+          <!-- wp:list -->
+          <ul class="wp-block-list">
+            <!-- wplist-item -->
+            <li>
+              <?php the_posts_navigation(); ?>
+
+            </li>
+            <!-- /wplist-item -->
+          </ul>
+          <!-- /wp:list -->
 
         <?php else : ?>
 
