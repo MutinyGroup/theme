@@ -179,7 +179,11 @@
                 <div class="wp-block-group hover-text mt-[370px] wide:mt-[350px] opacity-[0%] group-hover:opacity-[100%] group-hover:mt-[120px] desktop:group-hover:mt-[220px] wide:group-hover:mt-[270px] transition-all ease-out duration-500 text-[15px] font-light z-[2]">
                   <!-- wp:paragraph -->
                   <?php
-                  if (the_excerpt() == false) {
+                  if (get_the_excerpt() == true) {
+                    echo 'true';
+                    the_excerpt();
+                  } else {
+                    echo 'false';
                     echo 'Uzupełnij zajawkę w oknie edycji wpisu Usługi';
                   };
                   ?>
