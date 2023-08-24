@@ -195,7 +195,7 @@
     'next_text'    => 'Pokaż więcej',
     'add_args'     => false,
   ));
-  echo 'esc url empty ' . esc_url();
+  echo 'esc url empty ' . esc_url(1);
   echo '<br>';
   echo 'esc url ' . esc_url(get_pagenum_link());
   echo '<br>';
