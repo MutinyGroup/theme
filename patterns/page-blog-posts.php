@@ -188,7 +188,7 @@
     'current'      => $currentPageID,
     'format'       => '?paged=%#%',
     'show_all'     => true,
-    'type'         => 'list',
+    'type'         => 'plain',
     'end_size'     => 2,
     'mid_size'     => 1,
     'prev_next'    => true,
@@ -196,22 +196,14 @@
     'next_text'    => 'Pokaż więcej',
     'add_args'     => false,
   )); ?>
-  <!-- wp:list-item -->
-  <li>
-    <?php echo paginate_links('next'); ?>
-  </li>
-  <!-- wp:list-item -->
-  <!-- wp:list-item -->
-  <li>
-    <?php echo next_posts_link('next'); ?>
-  </li>
-  <!-- wp:list-item -->
   <!-- /wp:list -->
   <?php
   $currentPageID = (int)substr("http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]", 36, 1);
   ?>
   <!-- wp:paragraph -->
   <p><?php echo $currentPageID; ?></p>
+  <p><?php echo next_posts_link('next'); ?></p>
+  <p><?php echo paginate_links('next'); ?></p>
   <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
