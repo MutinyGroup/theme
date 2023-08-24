@@ -98,11 +98,11 @@
               <li class="wp-block-group smaller swiper-slide relative group w-full desktop:w-[444px] wide:w-[490px] h-fit desktop:h-[500px] <?php echo (!($counter % 2)) ? 'desktop:translate-y-[120px]' : ''; ?>">
                 <a href="<?php the_permalink(); ?>">
                   <!-- wp:group -->
-                  <div class="wp-block-group h-fit mb-[20px]">
+                  <div class="wp-block-group h-full mb-[20px]">
                     <!-- wp:group -->
                     <div class="wp-block-group h-full desktop:h-auto overflow-hidden rounded-[20px]">
                       <!-- wp:image -->
-                      <figure class="wp-block-image post-img clip-path-url-['#clipped-blog']">
+                      <figure class="wp-block-image post-img h-full clip-path-url-['#clipped-blog']">
                         <img src="<?php echo $postImageUrl[0]; ?>" alt="post-image">
                       </figure>
                       <!-- /wp:image -->
