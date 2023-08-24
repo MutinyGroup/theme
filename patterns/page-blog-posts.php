@@ -183,7 +183,7 @@
               $navigation = get_the_post_navigation($args);
               if ($navigation) :
                 echo '<h4>View More</h4>';
-                echo $navigation;
+                echo the_posts_pagination();
               endif;
               ?>
 
