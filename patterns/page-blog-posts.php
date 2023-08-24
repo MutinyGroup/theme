@@ -173,12 +173,12 @@
 
           <!-- wp:list -->
           <ul class="wp-block-list">
-            <!-- wplist-item -->
+            <!-- wp:list-item -->
             <li>
               <?php the_posts_navigation(); ?>
 
             </li>
-            <!-- /wplist-item -->
+            <!-- /wp:list-item -->
           </ul>
           <!-- /wp:list -->
 
