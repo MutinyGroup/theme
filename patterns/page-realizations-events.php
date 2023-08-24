@@ -160,7 +160,7 @@
       <!-- wp:group -->
       <div class="wp-block-group btn-more min-w-fit flex gap-[20px]">
         <?php
-        $currentPageID = substr("http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]", 38, 1);
+        $currentPageID = substr("http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]", 43, 1);
         echo $currentPageID;
         if ($currentPageID < ($post_query->max_num_pages)) {
         ?>
