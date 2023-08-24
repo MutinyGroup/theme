@@ -137,7 +137,6 @@
           <?php
               $i++;
             };
-            echo $paged;
           };
           wp_reset_query();
           $currentUrl = str_replace('/', '', substr("http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]", 39, 30));
