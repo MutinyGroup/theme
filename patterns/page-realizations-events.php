@@ -161,14 +161,14 @@
       <!-- wp:group -->
       <div class="wp-block-group btn-more min-w-fit flex gap-[20px]">
         <?php
-        $currentPageID = substr("http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]", 44, 1);
+        $currentPageID = substr("http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]", 20, 1);
 
         ?>
         <!-- wp:paragraph -->
-        <p class="hidden"><?php echo $currentPageID; ?></p>
+        <p class=""><?php echo $currentPageID; ?></p>
         <!-- /wp:paragraph -->
         <!-- wp:paragraph -->
-        <p class="hidden"><?php echo $post_query->max_num_pages; ?></p>
+        <p class=""><?php echo $post_query->max_num_pages; ?></p>
         <!-- /wp:paragraph -->
         <?php
 
