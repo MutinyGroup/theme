@@ -138,6 +138,7 @@
           };
           the_posts_navigation();
         };
+        wp_reset_query();
         ?>
       </ul>
       <!-- /wp:list -->
