@@ -165,7 +165,7 @@
     <!-- wp:buttons -->
     <div class="wp-block-buttons btn-more min-w-fit ml-[0px] p-[15px_30px] uppercase border-[2px] border-[#D5D5D5] rounded-full hover:border-primaryYellow hover:text-black transition ease-out duration-300 cursor-pointer">
       <!-- wp:paragraph -->
-      <p><a href="<?php echo get_pagenum_link() . 'page/' .  ($currentPageID = 0) ?  '2' : $currentPageID + 1 . '/' ?>" class="uppercase text-[14px] font-bold">Pokaż więcej</a></p>
+      <p><a href="<?php echo home_url() . 'blog/page/' .  ($currentPageID = 0) ?  '2' : $currentPageID + 1 . '/' ?>" class="uppercase text-[14px] font-bold">Pokaż więcej</a></p>
       <!-- /wp:paragraph -->
     </div>
     <!-- /wp:buttons -->
