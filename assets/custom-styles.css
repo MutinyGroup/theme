@@ -172,6 +172,21 @@ figure[class*="logo-img"] img {
   }
 }
 
+/* Posts pagination links */
+.next .page-numbers{
+  min-width: fit-content;
+  margin-left: 0;
+  padding: 15px 30px;
+  text-transform: uppercase;
+  border: 2px #D5D5D5 solid;
+  border-radius: 100%;
+  transition: all 0.3s ease-out;
+  cursor: pointer;
+}
+.next .page-numbers:hover{
+  border:#FEC400;
+  color: black;
+}
 /* navigation menu */
 .wp-block-navigation__responsive-container-open {
   display: none;
