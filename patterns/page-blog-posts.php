@@ -158,7 +158,7 @@
         query_posts(array(
           'post_type'      => 'post', // You can add a custom post type if you like
           'paged'          => $paged,
-          'posts_per_page' => 3
+          'posts_per_page' => 2
         ));
 
         if (have_posts()) : ?>
@@ -195,8 +195,7 @@
         <?php else : ?>
 
           <?php  ?>
-          <?php wp_reset_query();
-          ?>
+
         <?php endif; ?>
 
 
