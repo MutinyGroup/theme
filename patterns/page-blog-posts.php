@@ -199,6 +199,7 @@
         'add_args'     => false,
         'add_fragment' => '',
       ));
+      next_posts_link('Older Entries');
       ?>
     </li>
     <!-- /wp:list-item -->
