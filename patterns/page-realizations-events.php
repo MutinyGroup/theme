@@ -164,14 +164,6 @@
       <div class="wp-block-group btn-more min-w-fit flex gap-[20px]">
         <?php
         $currentPageID = (int)substr("http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]", 44, 1) ? (int)substr("http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]", 44, 1) : 1;
-        ?>
-        <!-- wp:paragraph -->
-        <p class=""><?php echo $currentPageID; ?></p>
-        <!-- /wp:paragraph -->
-        <!-- wp:paragraph -->
-        <p class=""><?php echo $post_query->max_num_pages; ?></p>
-        <!-- /wp:paragraph -->
-        <?php
 
         if ($currentPageID < ($post_query->max_num_pages)) {
         ?>
