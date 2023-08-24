@@ -41,10 +41,6 @@
         $tab = [0, 1, 1, 0, 0, 1, 0, 1, 1, 0, 0, 1, 0, 1, 1, 0, 0, 1, 0, 1, 1, 0, 0, 1];
         $i = 0;
 
-        echo $paged;
-
-
-
         if ($post_query->have_posts()) {
           while ($post_query->have_posts()) {
             $post_query->the_post();
@@ -144,7 +140,6 @@
             echo $paged;
           };
           wp_reset_query();
-          echo $paged;
           ?>
           <?php $paged = get_query_var('paged', 1); ?>
 
@@ -158,7 +153,6 @@
             <!-- wp:list-item -->
             <li class="wp-block-group pagination absolute bottom-0 z-[10]">
               <?php
-              echo $paged;
               echo paginate_links(array(
                 'base'         => str_replace(999999999, '%#%', esc_url(get_pagenum_link(999999999))),
                 'total'        => $post_query->max_num_pages,
