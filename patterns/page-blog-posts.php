@@ -140,9 +140,9 @@
           <?php
               $i++;
               array_push($tab, rand(0, 1));
-              echo '<pre>';
-              print_r($tab);
-              echo '</pre>';
+              // echo '<pre>';
+              // print_r($tab);
+              // echo '</pre>';
             };
           };
           wp_reset_query();
