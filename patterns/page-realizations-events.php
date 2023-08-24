@@ -185,7 +185,7 @@
         } elseif ($currentPageID = $post_query->max_num_pages) {
         ?>
           <!-- wp:paragraph -->
-          <p><a class="min-w-fit ml-[0px] p-[15px_30px] font-bold uppercase border-[2px] border-[#D5D5D5] rounded-full hover:border-primaryYellow hover:text-black transition ease-out duration-300 cursor-pointer" href="<?php echo home_url() . '/realizations/page/' . ($currentPageID - 1) ?>" class="uppercase text-[14px] font-bold">Pokaż poprzednie</a></p>
+          <p><a href="<?php echo home_url() . '/realizations/page/' . ($currentPageID - 1) ?>" class="uppercase text-[14px] font-bold min-w-fit ml-[0px] p-[15px_30px] border-[2px] border-[#D5D5D5] rounded-full hover:border-primaryYellow hover:text-black transition ease-out duration-300 cursor-pointer">Pokaż poprzednie</a></p>
           <!-- /wp:paragraph -->
 
 
