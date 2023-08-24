@@ -13,7 +13,7 @@
   <!-- wp:group -->
   <div class="wp-block-group container mx-auto relative desktop:px-0 px-[20px]">
     <!-- wp:group -->
-    <div class="wp-block-group new gallery-cols relative fleex justify-between desktop:pb-[150px] pb-[80px]">
+    <div class="wp-block-group new gallery-cols relative flex justify-between desktop:pb-[150px] pb-[80px]">
       <!-- wp:paragraph -->
       <p>
         <svg class="bg-shape z-[0] absolute top-[0px] right-[0px]" xmlns="http://www.w3.org/2000/svg" width="470" height="396" viewBox="0 0 470 396" fill="none">
@@ -27,7 +27,7 @@
       </svg>
       <!-- /wp:paragraph -->
       <!-- wp:list -->
-      <ul class="wp-block-list blog-posts-wrapper hidden flex-wrap desktop:justify-center desktop:gap-x-[100px] wide:gap-x-[100px] gap-y-[40px] desktop:gap-y-[200px]">
+      <ul class="wp-block-list blog-posts-wrapper flex flex-wrap desktop:justify-center desktop:gap-x-[100px] wide:gap-x-[100px] gap-y-[40px] desktop:gap-y-[200px]">
         <?php
         $args = array(
           'post_type' => 'post',
@@ -144,99 +144,44 @@
 
 
 
-      <!-- wp:group -->
-      <div class="wp-block-group pagination42">
-        <?php
-        if (get_query_var('paged')) {
-          $paged = get_query_var('paged');
-        } elseif (get_query_var('page')) {
-          $paged = get_query_var('page');
-        } else {
-          $paged = 1;
-        }
-
-        query_posts(array(
-          'post_type'      => 'post', // You can add a custom post type if you like
-          'paged'          => $paged,
-          'posts_per_page' => 2
-        ));
-
-        if (have_posts()) : ?>
-
-          <?php while (have_posts()) : the_post(); ?>
-
-            <!-- wp:paragraph -->
-            <p><?php the_title(); ?></p>
-            <!-- /wp:paragraph -->
-
-          <?php endwhile; ?>
-
-          <!-- wp:list -->
-          <ul class="wp-block-list">
-            <!-- wp:list-item -->
-            <li>
-              <?php
-              $args = array(
-                'prev_text' => 'older',
-                'next_text' => 'new'
-              );
-              $navigation = get_the_post_navigation($args);
-              if ($navigation) :
-                echo '<h4>View More</h4>';
-                echo the_posts_pagination();
-              endif;
-              ?>
-
-            </li>
-            <!-- /wp:list-item -->
-          </ul>
-          <!-- /wp:list -->
-
-        <?php else : ?>
-
-          <?php  ?>
-
-        <?php endif; ?>
-
-
-      </div>
-      <!-- /wp:group -->
-
-
-
-
-
     </div>
     <!-- /wp:group -->
 
+
+
+
+
+  </div>
+  <!-- /wp:group -->
+
+  <!-- wp:group -->
+  <div class="wp-block-group button-wrapper desktop:mt-[80px] mt-[40px] flex items-center justify-center gap-[64px] cursor-pointer">
     <!-- wp:group -->
-    <div class="wp-block-group button-wrapper desktop:mt-[80px] mt-[40px] flex items-center justify-center gap-[64px] cursor-pointer">
-      <!-- wp:group -->
-      <div class="wp-block-group gray-border hidden desktop:inline-block w-full h-[2px] bg-[#808080] opacity-[15%]">
-        <!-- wp:paragraph -->
-        <p class="hidden">gray separator</p>
-        <!-- /wp:paragraph -->
-      </div>
-      <!-- /wp:group -->
+    <div class="wp-block-group gray-border hidden desktop:inline-block w-full h-[2px] bg-[#808080] opacity-[15%]">
+      <!-- wp:paragraph -->
+      <p class="hidden">gray separator</p>
+      <!-- /wp:paragraph -->
+    </div>
+    <!-- /wp:group -->
 
-      <!-- wp:buttons -->
-      <div class="wp-block-buttons btn-more min-w-fit ml-[0px] p-[15px_30px] uppercase border-[2px] border-[#D5D5D5] rounded-full hover:border-primaryYellow hover:text-black transition ease-out duration-300">
-        <!-- wp:paragraph -->
-        <p><a href="#" class="uppercase text-[14px] font-bold">Pokaż więcej</a></p>
-        <!-- /wp:paragraph -->
-      </div>
-      <!-- /wp:buttons -->
+    <!-- wp:buttons -->
+    <div class="wp-block-buttons btn-more min-w-fit ml-[0px] p-[15px_30px] uppercase border-[2px] border-[#D5D5D5] rounded-full hover:border-primaryYellow hover:text-black transition ease-out duration-300">
+      <!-- wp:paragraph -->
+      <p><a href="#" class="uppercase text-[14px] font-bold">Pokaż więcej</a></p>
+      <!-- /wp:paragraph -->
+    </div>
+    <!-- /wp:buttons -->
 
-      <!-- wp:group -->
-      <div class="wp-block-group gray-border hidden desktop:inline-block w-full h-[2px] bg-[#808080] opacity-[15%]">
-        <!-- wp:paragraph -->
-        <p class="hidden">gray separator</p>
-        <!-- /wp:paragraph -->
-      </div>
-      <!-- /wp:group -->
+    <!-- wp:group -->
+    <div class="wp-block-group gray-border hidden desktop:inline-block w-full h-[2px] bg-[#808080] opacity-[15%]">
+      <!-- wp:paragraph -->
+      <p class="hidden">gray separator</p>
+      <!-- /wp:paragraph -->
     </div>
     <!-- /wp:group -->
   </div>
   <!-- /wp:group -->
+</div>
+<!-- /wp:group -->
 </div>
 <!-- /wp:group -->
