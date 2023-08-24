@@ -201,6 +201,7 @@
       ));
       echo '<br>';
       echo next_posts_link('Older Entries');
+      echo get_next_posts_page_link();
       ?>
     </li>
     <!-- /wp:list-item -->
