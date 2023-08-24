@@ -165,7 +165,7 @@
     <!-- wp:buttons -->
     <div class="wp-block-buttons btn-more min-w-fit ml-[0px] p-[15px_30px] uppercase border-[2px] border-[#D5D5D5] rounded-full hover:border-primaryYellow hover:text-black transition ease-out duration-300 cursor-pointer">
       <!-- wp:paragraph -->
-      <p><a href="<?php echo home_url() . '/blog/page/' . ($currentPageID + 1) ?>" class="uppercase text-[14px] font-bold">Pokaż więcej</a></p>
+      <p><a href="<?php echo home_url() . '/blog/page/' . ($currentPageID + 1) ?>" class="uppercase text-[14px] font-bold"><?php echo ($currentPageID < ($post_query->max_num_pages)) ?  'Pokaż więcej' :  'Pokaż poprzednie'; ?></a></p>
       <!-- /wp:paragraph -->
     </div>
     <!-- /wp:buttons -->
@@ -195,7 +195,7 @@
     'prev_text'    => 'Poprzednie',
     'next_text'    => '
       <!-- wp:buttons -->
-      <div class="wp-block-buttons btn-more min-w-fit ml-[0px] p-[15px_30px] uppercase border-[2px] border-[#D5D5D5] rounded-full hover:border-primaryYellow hover:text-black transition ease-out duration-300 cursor-pointer">
+      <div class="wp-block-buttons btn-more max-w-fit ml-[0px] p-[15px_30px] uppercase font-bold border-[2px] border-[#D5D5D5] rounded-full hover:border-primaryYellow hover:text-black transition ease-out duration-300 cursor-pointer">
         <!-- wp:paragraph -->
         <p>Pokaż więcej</p>
         <!-- /wp:paragraph -->
