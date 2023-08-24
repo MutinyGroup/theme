@@ -25,14 +25,19 @@ figure[class*="logo-img"] img {
   height: 50px;
   object-fit: contain;
 }
-.blog-first-img-hover img,
-.post-img img {
+.blog-first-img-hover img{
   transition: all 0.6s ease-out;
   transform: scale(1.17);
 }
-.swiperBlog .swiper-slide:hover .blog-first-img-hover > img,
-.post-img img {
+.swiperBlog .swiper-slide:hover .blog-first-img-hover > img{
   transform: scale(1.11);
+}
+.post-img img {
+  transform: scale(1.12);
+  transition: all 0.6s ease-out;
+}
+.blog-posts-wrapper .swiper-slide:hover .post-img{
+  transform: scale(1.06);
 }
 
 /* mobile navbar action */
