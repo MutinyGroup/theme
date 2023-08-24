@@ -36,7 +36,7 @@
         } elseif (get_query_var('page')) {
           $paged = get_query_var('page');
         } else {
-          $paged = 1;
+          $paged = 2;
         }
 
         $args = array(
