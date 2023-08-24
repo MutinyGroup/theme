@@ -180,8 +180,10 @@
                   <!-- wp:paragraph -->
                   <?php
                   if (the_excerpt() == true) {
+                    echo 'true';
                     the_excerpt();
                   } else {
+                    echo 'false';
                     echo 'Uzupełnij zajawkę w oknie edycji wpisu Usługi';
                   };
                   ?>
