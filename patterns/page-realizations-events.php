@@ -25,6 +25,7 @@
       $args = array(
         'taxonomy' => 'category',
         'orderby' => 'name',
+        'paged' => $currentPageID,
         'order'   => 'ASC'
       );
       $cats = get_categories($args);
