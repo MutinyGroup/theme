@@ -205,7 +205,7 @@
   <!-- /wp:group -->
 
   <?php
-  echo paginate_links(array(
+  paginate_links(array(
     'base'         => str_replace(999999999, '%#%', esc_url(get_pagenum_link(999999999))),
     'total'        => $post_query->max_num_pages,
     'current'      => $currentPageID,
