@@ -140,7 +140,11 @@
             echo $paged;
           };
           wp_reset_query();
+          $currentUrl = str_replace('/', '', substr("http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]", 39, 30));
+          echo $currentUrl;
+
           ?>
+
           <?php $paged = get_query_var('paged', 1); ?>
 
           <h1><?php printf(esc_html__('Currently browsing page %s', 'textdomain'), $paged); ?></h1>
@@ -171,6 +175,7 @@
               ?>
             </li>
             <!-- /wp:list-item -->
+
           <?php
         };
           ?>
