@@ -177,8 +177,8 @@
             <li>
               <?php
               $args = array(
-                'prev_text' => sprintf(esc_html__('%s Older', 'wpdocs_blankslate'), '<span class="meta-nav"> < </span>'),
-                'next_text' => sprintf(esc_html__('Newer %s', 'wpdocs_blankslate'), '<span class="meta-nav"> > </span>')
+                'prev_text' => 'older',
+                'next_text' => 'new'
               );
               $navigation = get_the_post_navigation($args);
               if ($navigation) :
