@@ -212,7 +212,6 @@
   ?>
   <!-- wp:paragraph -->
   <p><?php echo $currentPageID; ?></p>
-  <p><?php echo str_replace(999999999, '%#%', esc_url(get_pagenum_link(999999999))); ?></p>
   <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
