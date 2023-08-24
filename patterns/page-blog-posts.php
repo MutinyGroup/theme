@@ -203,8 +203,8 @@
       <!-- /wp:buttons -->
     ',
     'add_args'     => false,
-    'before_page_number' => 'test2',
-    'after_page_number' => 'test3'
+    'before_page_number' => '',
+    'after_page_number' => ''
   )); ?>
   <!-- /wp:list -->
   <?php
