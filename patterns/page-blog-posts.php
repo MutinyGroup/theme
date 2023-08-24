@@ -195,16 +195,17 @@
     'next_text'    => 'Pokaż więcej',
     'add_args'     => false,
   ));
+
+  ?>
+  <!-- /wp:list -->
+  <?php
+  $currentPageID = (int)substr("http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]", 36, 1);
   echo 'esc url empty ' . esc_url(1);
   echo '<br>';
   echo 'esc url ' . esc_url(get_pagenum_link());
   echo '<br>';
   echo 'get pagenum link ' . get_pagenum_link();
   echo '<br>';
-  ?>
-  <!-- /wp:list -->
-  <?php
-  $currentPageID = (int)substr("http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]", 36, 1);
   ?>
   <!-- wp:paragraph -->
   <p><?php echo $currentPageID; ?></p>
