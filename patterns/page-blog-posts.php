@@ -166,7 +166,7 @@
         endwhile;
         the_posts_navigation();
         ?>
-        <div id="pagination" class="clearfix">
+        <div id="pagination1" class="pagination1">
           <?php next_posts_link('Older Entries');
           previous_posts_link('Newer Entries');
           ?>
@@ -177,7 +177,7 @@
       ?>
 
       <!-- wp:list -->
-      <ul class="wp-block-list pagepagination block">
+      <ul class="wp-block-list pagepagination2 block">
         <?php
 
         $arr_posts_page = $arr_posts->max_num_pages;
@@ -232,17 +232,19 @@ PAGINATION
 */
       ?>
       <!-- wp:group -->
-      <div id="pagination" class="wp-block-group clearfix">
-        <?php next_posts_link('Older Entries');
+      <div id="pagination3" class="wp-block-group pagination3">
+        <?php
+        next_posts_link('Older Entries');
         previous_posts_link('Newer Entries');
         ?>
       </div>
-      <!-- wp:group -->
+      <!-- /wp:group -->
       <?php
 
       wp_reset_query(); ?>
 
-      <div class="pagination">
+      <!-- wp:group -->
+      <div class="wp-block-group pagination4">
         <?php
         if (get_query_var('paged')) {
           $paged = get_query_var('paged');
@@ -262,11 +264,17 @@ PAGINATION
 
           <?php while (have_posts()) : the_post(); ?>
 
-            <?php get_template_part('catalog', get_post_format()); ?> // added template part here and voila it works
+            <!-- wp:paragraph -->
+            <p><?php the_title(); ?></p>
+            <!-- /wp:paragraph -->
 
           <?php endwhile; ?>
 
-          <?php the_posts_navigation(); ?>
+          <!-- wp:paragraph -->
+          <p>
+            <?php the_posts_navigation(); ?>
+          </p>
+          <!-- /wp:paragraph -->
 
         <?php else : ?>
 
@@ -277,6 +285,7 @@ PAGINATION
 
 
       </div>
+      <!-- /wp:group -->
 
 
 
