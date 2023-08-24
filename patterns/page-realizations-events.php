@@ -158,7 +158,26 @@
       </div>
       <!-- /wp:group -->
 
+      <!-- wp:group -->
+      <div class="wp-block-group btn-more min-w-fit flex gap-[20px]">
+        <?php
+        $currentPageID = substr("http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]", 44, 1);
+        echo $currentPageID;
+        if ($currentPageID < ($post_query->max_num_pages)) {
+        ?>
+          <?php
+          if ($currentPageID > 1) {
+          ?>
+            <!-- wp:paragraph -->
+            <p><a href="<?php echo home_url() . '/realizations/page/' . ($currentPageID - 1) ?>" class="min-w-fit ml-[0px] p-[15px_30px] font-bold uppercase border-[2px] border-[#D5D5D5] rounded-full hover:border-primaryYellow hover:text-black transition ease-out duration-300 cursor-pointer text-[14px]">Pokaz poprzednie</a></p>
+            <!-- /wp:paragraph -->
+          <?php
+          };
+          ?>
 
+        ?>
+      </div>
+      <!-- /wp:group -->
 
       <!-- wp:group -->
       <div class="wp-block-group gray-border hidden desktop:inline-block w-full h-[2px] bg-[#808080] opacity-[15%]">
