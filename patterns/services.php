@@ -178,7 +178,7 @@
                 <!-- wp:group -->
                 <div class="wp-block-group hover-text mt-[370px] wide:mt-[350px] opacity-[0%] group-hover:opacity-[100%] group-hover:mt-[120px] desktop:group-hover:mt-[230px] wide:group-hover:mt-[270px] transition-all ease-out duration-500 text-[15px] font-light z-[2]">
                   <!-- wp:paragraph -->
-                  <?php (get_the_excerpt() == true) ? the_excerpt() :  'Uzupełnij zajawkę w oknie edycji wpisu Usługi'; ?>
+                  <?php (get_the_excerpt() == true) ? wp_trim_words(the_excerpt(), 80) :  'Uzupełnij zajawkę w oknie edycji wpisu Usługi'; ?>
                   <!-- /wp:paragraph -->
                 </div>
                 <!-- /wp:group -->
