@@ -222,6 +222,10 @@
       <?php
       endwhile;
       the_posts_navigation();
+      echo next_posts_link();
+      echo previous_posts_link();
+      echo next_posts_link('next');
+      echo previous_posts_link('prev');
 
       /*
 PAGINATION
