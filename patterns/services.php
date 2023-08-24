@@ -220,7 +220,7 @@
     <!-- /wp:group -->
 
     <!-- wp:group -->
-    <div class="wp-block-group button-wrapper container mx-auto mt-[50px] flex items-center justify-center gap-[64px]">
+    <div class="wp-block-group button-wrapper container mx-auto mt-[50px] wide:mt-[120px] flex items-center justify-center gap-[64px]">
       <!-- wp:group -->
       <div class="wp-block-group gray-border hidden desktop:inline-block w-full h-[2px] bg-[#808080] opacity-[15%]">
         <!-- wp:paragraph -->
