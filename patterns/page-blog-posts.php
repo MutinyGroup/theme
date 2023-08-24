@@ -171,7 +171,7 @@
         <p><a href="<?php echo home_url() . '/blog/page/' . ($currentPageID + 1) ?>" class="uppercase text-[14px] font-bold">Pokaz więcej</a></p>
         <!-- /wp:paragraph -->
       <?php
-      } else {
+      } elseif ($currentPageID != 1) {
       ?>
         <!-- wp:paragraph -->
         <p><a href="<?php echo home_url() . '/blog/page/' . ($currentPageID - 1) ?>" class="uppercase text-[14px] font-bold">Pokaz poprzednie</a></p>
