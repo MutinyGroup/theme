@@ -201,7 +201,6 @@
       ));
       echo '<br>';
       echo next_posts_link('Older Entries');
-      echo get_posts_page_link($currentPageID);
       echo get_post_permalink($currentPageID);
       echo get_page_uri();
       echo get_next_posts_page_link($currentPageID);
