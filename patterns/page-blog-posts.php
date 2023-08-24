@@ -238,6 +238,42 @@ PAGINATION
 
       wp_reset_query(); ?>
 
+      <div class="pagination">
+        <?php
+        if (get_query_var('paged')) {
+          $paged = get_query_var('paged');
+        } elseif (get_query_var('page')) {
+          $paged = get_query_var('page');
+        } else {
+          $paged = 1;
+        }
+
+        query_posts(array(
+          'post_type'      => 'post', // You can add a custom post type if you like
+          'paged'          => $paged,
+          'posts_per_page' => 2
+        ));
+
+        if (have_posts()) : ?>
+
+          <?php while (have_posts()) : the_post(); ?>
+
+            <?php get_template_part('catalog', get_post_format()); ?> // added template part here and voila it works
+
+          <?php endwhile; ?>
+
+          <?php the_posts_navigation(); ?>
+
+        <?php else : ?>
+
+          <?php  ?>
+          <?php wp_reset_query(); // add this 
+          ?>
+        <?php endif; ?>
+
+
+      </div>
+
 
 
 
