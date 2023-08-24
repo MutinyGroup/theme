@@ -171,9 +171,10 @@
             <!-- wp:paragraph -->
             <p><a href="<?php echo home_url() . '/realizations/page/' . ($currentPageID - 1) ?>" class="min-w-fit ml-[0px] p-[15px_30px] font-bold uppercase border-[2px] border-[#D5D5D5] rounded-full hover:border-primaryYellow hover:text-black transition ease-out duration-300 cursor-pointer text-[14px]">Pokaz poprzednie</a></p>
             <!-- /wp:paragraph -->
-          <?php
+        <?php
           };
-          ?>
+        };
+
 
         ?>
       </div>
