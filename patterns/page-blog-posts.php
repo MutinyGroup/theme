@@ -29,9 +29,11 @@
       <!-- wp:list -->
       <ul class="wp-block-list blog-posts-wrapper flex flex-wrap desktop:justify-center desktop:gap-x-[100px] wide:gap-x-[100px] gap-y-[40px] desktop:gap-y-[200px]">
         <?php
+        $paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
         $args = array(
           'post_type' => 'post',
           'posts_per_page' => 3,
+          'paged' => $paged,
           'order' => 'DESC'
         );
         $post_query = new WP_Query($args);
@@ -132,16 +134,33 @@
                 </a>
               </li>
               <!-- /wp:list-item -->
-        <?php
+          <?php
               $i++;
             };
           };
-          the_posts_navigation();
-          the_posts_navigation();
-          echo next_posts_link();
-          echo previous_posts_link();
-          echo next_posts_link('next');
-          echo previous_posts_link('prev');
+          ?>
+          <!-- wp:group -->
+          <div class="wp-block-group pagination">
+            <?php
+            echo paginate_links(array(
+              'base'         => str_replace(999999999, '%#%', esc_url(get_pagenum_link(999999999))),
+              'total'        => $query->max_num_pages,
+              'current'      => max(1, get_query_var('paged')),
+              'format'       => '?paged=%#%',
+              'show_all'     => false,
+              'type'         => 'plain',
+              'end_size'     => 2,
+              'mid_size'     => 1,
+              'prev_next'    => true,
+              'prev_text'    => sprintf('<i></i> %1$s', __('Newer Posts', 'text-domain')),
+              'next_text'    => sprintf('%1$s <i></i>', __('Older Posts', 'text-domain')),
+              'add_args'     => false,
+              'add_fragment' => '',
+            ));
+            ?>
+          </div>
+          <!-- /wp:group -->
+        <?php
         };
         wp_reset_query();
         ?>
