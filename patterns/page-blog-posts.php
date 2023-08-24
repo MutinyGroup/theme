@@ -145,31 +145,6 @@
         ?>
       </ul>
       <!-- /wp:list -->
-      <!-- wp:list -->
-      <ul class="wp-block-list">
-        <!-- wp:list-item -->
-        <li class="pagination absolute bottom-0 z-[10]">
-          <?php
-          echo paginate_links(array(
-            'base'         => str_replace(999999999, '%#%', esc_url(get_pagenum_link(999999999))),
-            'total'        => $post_query->max_num_pages,
-            'current'      => max(1, get_query_var('paged')),
-            'format'       => '?paged=%#%',
-            'show_all'     => true,
-            'type'         => 'plain',
-            'end_size'     => 2,
-            'mid_size'     => 1,
-            'prev_next'    => true,
-            'prev_text'    => 'prev',
-            'next_text'    => 'next',
-            'add_args'     => false,
-            'add_fragment' => '',
-          ));
-          ?>
-        </li>
-        <!-- /wp:list-item -->
-      </ul>
-      <!-- /wp:list -->
     </div>
     <!-- /wp:group -->
   </div>
@@ -202,13 +177,36 @@
     <!-- /wp:group -->
   </div>
   <!-- /wp:group -->
+  <!-- wp:list -->
+  <ul class="wp-block-list pagination relative z-[10]">
+    <!-- wp:list-item -->
+    <li>
+      <?php
+      echo paginate_links(array(
+        'base'         => str_replace(999999999, '%#%', esc_url(get_pagenum_link(999999999))),
+        'total'        => $post_query->max_num_pages,
+        'current'      => max(1, get_query_var('paged')),
+        'format'       => '?paged=%#%',
+        'show_all'     => true,
+        'type'         => 'plain',
+        'end_size'     => 2,
+        'mid_size'     => 1,
+        'prev_next'    => true,
+        'prev_text'    => 'prev',
+        'next_text'    => 'next',
+        'add_args'     => false,
+        'add_fragment' => '',
+      ));
+      ?>
+    </li>
+    <!-- /wp:list-item -->
+  </ul>
+  <!-- /wp:list -->
   <?php
-  $currentUrl = str_replace('/', '', substr("http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]", 3, 30));
+  $currentUrl = str_replace('/', '', substr("http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]", 31, 1));
   ?>
   <!-- wp:paragraph -->
-  <p>
-    <?php echo $currentUrl; ?>
-  </p>
+  <p><?php echo $currentUrl; ?></p>
   <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
