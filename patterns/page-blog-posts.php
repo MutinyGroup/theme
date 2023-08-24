@@ -239,13 +239,5 @@
     'after_page_number' => ''
   )); ?>
   <!-- /wp:list -->
-  <?php
-  $currentPageID = (int)substr("http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]", 36, 1);
-  ?>
-  <!-- wp:paragraph -->
-  <p><?php echo $currentPageID; ?></p>
-  <p><?php echo next_posts_link('next'); ?></p>
-  <p><?php echo paginate_links('next'); ?></p>
-  <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
