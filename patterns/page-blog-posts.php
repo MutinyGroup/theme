@@ -200,7 +200,7 @@
     'current'      => $currentPageID,
     'format'       => '?paged=%#%',
     'show_all'     => true,
-    'type'         => 'plain',
+    'type'         => 'list',
     'end_size'     => 2,
     'mid_size'     => 1,
     'prev_next'    => true,
