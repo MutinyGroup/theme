@@ -141,7 +141,9 @@
               <!-- /wp:list-item -->
           <?php
               $i++;
-              echo $tab;
+              echo '<pre>';
+              print_r($tab2);
+              echo '</pre>';
             };
           };
           wp_reset_query();
