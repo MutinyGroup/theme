@@ -189,7 +189,7 @@
         'total'        => $post_query->max_num_pages,
         'current'      => $currentPageID,
         'format'       => '?paged=%#%',
-        'show_all'     => true,
+        'show_all'     => false,
         'type'         => 'plain',
         'end_size'     => 2,
         'mid_size'     => 1,
