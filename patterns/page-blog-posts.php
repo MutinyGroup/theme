@@ -40,7 +40,7 @@
         );
         $post_query = new WP_Query($args);
         $counter = 0;
-        $tab = [0, 1, 1, 0, 0, 1];
+        $tab = [0, 1, 1, 0, 0, 1, 0, 1, 1, 0, 0, 1];
         $i = 0;
 
         if ($post_query->have_posts()) {
