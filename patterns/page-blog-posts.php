@@ -13,7 +13,7 @@
   <!-- wp:group -->
   <div class="wp-block-group container mx-auto relative desktop:px-0 px-[20px]">
     <!-- wp:group -->
-    <div class="wp-block-group new gallery-cols relative flex justify-between desktop:pb-[150px] pb-[80px]">
+    <div class="wp-block-group new gallery-cols relative fleex justify-between desktop:pb-[150px] pb-[80px]">
       <!-- wp:paragraph -->
       <p>
         <svg class="bg-shape z-[0] absolute top-[0px] right-[0px]" xmlns="http://www.w3.org/2000/svg" width="470" height="396" viewBox="0 0 470 396" fill="none">
@@ -27,7 +27,7 @@
       </svg>
       <!-- /wp:paragraph -->
       <!-- wp:list -->
-      <ul class="wp-block-list blog-posts-wrapper flex flex-wrap desktop:justify-center desktop:gap-x-[100px] wide:gap-x-[100px] gap-y-[40px] desktop:gap-y-[200px]">
+      <ul class="wp-block-list blog-posts-wrapper hidden flex-wrap desktop:justify-center desktop:gap-x-[100px] wide:gap-x-[100px] gap-y-[40px] desktop:gap-y-[200px]">
         <?php
         $args = array(
           'post_type' => 'post',
@@ -140,6 +140,102 @@
         ?>
       </ul>
       <!-- /wp:list -->
+      the_posts_navigation();
+
+      <?php $paged = (get_query_var('paged')) ? absint(get_query_var('paged')) : 1;
+
+      $args = array(
+        'post_type' => 'post',
+        'post_status' => 'publish',
+        'posts_per_page' => 4,
+        'order' => 'ASC',
+        'paged' => $paged,
+      );
+
+      $arr_posts = new WP_Query($args);
+
+      if ($arr_posts->have_posts()) :
+        while ($arr_posts->have_posts()) :
+          $arr_posts->the_post();
+      ?>
+          <!-- wp:paragraph -->
+          <p><?php the_title(); ?></p>
+          <!-- /wp:paragraph -->
+
+        <?php
+        endwhile;
+        ?>
+        <div id="pagination" class="clearfix">
+          <?php next_posts_link('Older Entries');
+          previous_posts_link('Newer Entries');
+          ?>
+        </div>
+      <?php
+      endif;
+      wp_reset_query();
+      ?>
+
+      <!-- wp:list -->
+      <ul class="wp-block-list pagepagination block">
+        <?php
+
+        $arr_posts_page = $arr_posts->max_num_pages;
+        if ($arr_posts_page > 1) {
+
+          $current_page = max(1, get_query_var('paged'));
+        ?>
+          <!-- wp:list-item -->
+          <li>
+            <?php
+            echo paginate_links(array(
+              'base' => get_pagenum_link(1) . '%_%',
+              'format' => 'page/%#%',
+              'current' => $current_page,
+              'total' => $arr_posts_page,
+              'prev_text'    => __('<'),
+              'next_text'    => __('>'),
+            ));
+            ?>
+          </li>
+          <!-- /wp:list-item -->
+        <?php
+        }
+        ?>
+      </ul>
+      <!-- /wp:list -->
+
+
+      <?php
+      $args = array(
+        'posts_per_page' => 2,
+        'post_type'      => 'post',
+        'paged'          => get_query_var('paged'),
+      );
+      $wp_query = new WP_Query($args);
+      while ($wp_query->have_posts()) : $wp_query->the_post();
+      ?>
+        <!-- wp:paragraph -->
+        <p><?php the_title(); ?></p>
+        <!-- /wp:paragraph -->
+
+      <?php
+      endwhile;
+
+      /*
+PAGINATION
+*/
+      ?>
+      <!-- wp:group -->
+      <div id="pagination" class="wp-block-group clearfix">
+        <?php next_posts_link('Older Entries');
+        previous_posts_link('Newer Entries');
+        ?>
+      </div>
+      <!-- wp:group -->
+      <?php
+
+      wp_reset_query(); ?>
+
 
 
 
