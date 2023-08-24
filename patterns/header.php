@@ -27,8 +27,8 @@
   <!-- wp:list-item -->
   <li class="wp-block-group lang-btn group h-fit hidden desktop:flex flex-col gap-y-[15px] p-[10px_20px] uppercase font-medium border-[2px] border-[#AAAAAA] rounded-full hover:rounded-[20px] absolute top-[20px] right-[20px] cursor-pointer hover:bg-white hover:border-white hover:text-black transition ease-out duration-300">
     <a href="https://mutiny.webo.design/se/">PL</a>
-    <a class="min-h-0 opacity-0 group-hover:opacity-100 group-hover:min-h-fit transition ease-out duration-300" href="https://mutiny.webo.design/eng/">ENG</a>
-    <a class="min-h-0 opacity-0 group-hover:opacity-100 group-hover:min-h-fit transition ease-out duration-300" href="https://mutiny.webo.design/se/">SE</a>
+    <a class="max-h-0 opacity-0 group-hover:opacity-100 group-hover:max-h-fit transition ease-out duration-300" href="https://mutiny.webo.design/eng/">ENG</a>
+    <a class="max-h-0 opacity-0 group-hover:opacity-100 group-hover:max-h-fit transition ease-out duration-300" href="https://mutiny.webo.design/se/">SE</a>
   </li>
   <!-- /wp:list-item -->
 </ul>
