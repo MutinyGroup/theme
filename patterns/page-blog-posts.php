@@ -43,6 +43,7 @@
         $i = 0;
 
         echo $paged;
+        echo get_permalink();
 
 
         if ($post_query->have_posts()) {
