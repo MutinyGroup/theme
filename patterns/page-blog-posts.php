@@ -139,19 +139,23 @@
             };
           };
           ?>
-          <!-- wp:group -->
-          <div class="wp-block-group pagination absolute bottom-0 z-[10]">
-            <?php
-            echo paginate_links();
-            wp_reset_query();
-            ?>
-          </div>
-          <!-- /wp:group -->
-        <?php
+          <!-- wp:list -->
+          <ul class="wp-block-list">
+            <!-- wp:list-item -->
+            <li class="wp-block-group pagination absolute bottom-0 z-[10]">
+              <?php
+              echo paginate_links();
+              wp_reset_query();
+              ?>
+            </li>
+            <!-- /wp:list-item -->
+          <?php
           wp_reset_postdata();
         };
 
-        ?>
+          ?>
+          </ul>
+          <!-- /wp:list -->
       </ul>
       <!-- /wp:list -->
 
