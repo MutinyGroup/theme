@@ -179,31 +179,29 @@
     <!-- /wp:group -->
   </div>
   <!-- /wp:group -->
-  <!-- wp:list -->
-  <ul class="wp-block-list pagination relative z-[10] flex gap-[15px] text-[20px]">
-    <?php
-    echo paginate_links(array(
-      'base'         => str_replace(999999999, '%#%', esc_url(get_pagenum_link(999999999))),
-      'total'        => $post_query->max_num_pages,
-      'current'      => $currentPageID,
-      'format'       => '?paged=%#%',
-      'show_all'     => false,
-      'type'         => 'list',
-      'end_size'     => 2,
-      'mid_size'     => 1,
-      'prev_next'    => true,
-      'prev_text'    => 'Poprzednie',
-      'next_text'    => 'Pokaż więcej',
-      'add_args'     => false,
-    ));
-    echo 'esc url empty ' . esc_url();
-    echo '<br>';
-    echo 'esc url ' . esc_url(get_pagenum_link());
-    echo '<br>';
-    echo 'get pagenum link ' . get_pagenum_link();
-    echo '<br>';
-    ?>
-  </ul>
+  <!-- wp:list {"className":"test"} -->
+  <?php
+  echo paginate_links(array(
+    'base'         => str_replace(999999999, '%#%', esc_url(get_pagenum_link(999999999))),
+    'total'        => $post_query->max_num_pages,
+    'current'      => $currentPageID,
+    'format'       => '?paged=%#%',
+    'show_all'     => false,
+    'type'         => 'list',
+    'end_size'     => 2,
+    'mid_size'     => 1,
+    'prev_next'    => true,
+    'prev_text'    => 'Poprzednie',
+    'next_text'    => 'Pokaż więcej',
+    'add_args'     => false,
+  ));
+  echo 'esc url empty ' . esc_url();
+  echo '<br>';
+  echo 'esc url ' . esc_url(get_pagenum_link());
+  echo '<br>';
+  echo 'get pagenum link ' . get_pagenum_link();
+  echo '<br>';
+  ?>
   <!-- /wp:list -->
   <?php
   $currentPageID = (int)substr("http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]", 36, 1);
