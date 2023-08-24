@@ -149,7 +149,7 @@
     <!-- /wp:list -->
 
     <!-- wp:group -->
-    <div class="wp-block-group button-wrapper h-[80px] desktop:mt-[80px] mt-[40px] flex items-center justify-center gap-[64px] cursor-pointer">
+    <div class="wp-block-group button-wrapper h-[80px] desktop:mt-[80px] mt-[40px] flex items-center justify-center gap-[64px]">
       <!-- wp:group -->
       <div class="wp-block-group gray-border hidden desktop:inline-block w-full h-[2px] bg-[#808080] opacity-[15%]">
         <!-- wp:paragraph -->
@@ -162,7 +162,16 @@
       <div class="wp-block-group btn-more min-w-fit flex gap-[20px]">
         <?php
         $currentPageID = substr("http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]", 44, 1);
-        echo $currentPageID;
+
+        ?>
+        <!-- wp:paragraph -->
+        <p class="hidden"><?php echo $currentPageID; ?></p>
+        <!-- /wp:paragraph -->
+        <!-- wp:paragraph -->
+        <p class="hidden"><?php echo $post_query->max_num_pages; ?></p>
+        <!-- /wp:paragraph -->
+        <?php
+
         if ($currentPageID < ($post_query->max_num_pages)) {
         ?>
           <?php
