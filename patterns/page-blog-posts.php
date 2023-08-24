@@ -195,6 +195,9 @@
     'prev_text'    => 'Poprzednie',
     'next_text'    => 'Pokaż więcej2',
     'add_args'     => false,
+    'add_fragment' => 'test1',
+    'before_page_number' => 'test2',
+    'after_page_number' => 'test3'
   )); ?>
   <!-- /wp:list -->
   <?php
