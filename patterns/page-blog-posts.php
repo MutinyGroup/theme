@@ -29,13 +29,13 @@
       <!-- wp:list -->
       <ul class="wp-block-list blog-posts-wrapper flex flex-wrap desktop:justify-center desktop:gap-x-[100px] wide:gap-x-[100px] gap-y-[40px] desktop:gap-y-[200px]">
         <?php
-        $currentUrl = (int)substr("http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]", 36, 1);
+        $currentPageID = (int)substr("http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]", 36, 1);
 
         $paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
         $args = array(
           'post_type' => 'post',
           'posts_per_page' => 2,
-          'paged' => $currentUrl,
+          'paged' => $currentPageID,
           'order' => 'DESC'
         );
         $post_query = new WP_Query($args);
@@ -201,17 +201,17 @@
       ));
       echo '<br>';
       echo next_posts_link('Older Entries');
-      echo get_next_posts_page_link();
+      echo get_next_posts_page_link($currentPageID);
       ?>
     </li>
     <!-- /wp:list-item -->
   </ul>
   <!-- /wp:list -->
   <?php
-  $currentUrl = (int)substr("http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]", 36, 1);
+  $currentPageID = (int)substr("http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]", 36, 1);
   ?>
   <!-- wp:paragraph -->
-  <p><?php echo $currentUrl; ?></p>
+  <p><?php echo $currentPageID; ?></p>
   <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
