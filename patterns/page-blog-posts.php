@@ -29,7 +29,16 @@
       <!-- wp:list -->
       <ul class="wp-block-list blog-posts-wrapper flex flex-wrap desktop:justify-center desktop:gap-x-[100px] wide:gap-x-[100px] gap-y-[40px] desktop:gap-y-[200px]">
         <?php
-        $paged = (get_query_var('page')) ? get_query_var('page') : 1;
+        global $paged;
+
+        if (get_query_var('paged')) {
+          $paged = get_query_var('paged');
+        } elseif (get_query_var('page')) {
+          $paged = get_query_var('page');
+        } else {
+          $paged = 1;
+        }
+
         $args = array(
           'post_type' => 'post',
           'posts_per_page' => 4,
