@@ -166,7 +166,6 @@
     <div class="wp-block-group btn-more min-w-fit flex gap-[20px]">
       <?php
       if ($currentPageID < ($post_query->max_num_pages)) {
-        echo $post_query->max_num_pages;
       ?>
         <?php
         if ($currentPageID > 1) {
