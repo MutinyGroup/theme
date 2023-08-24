@@ -139,7 +139,7 @@
             };
             echo $paged;
           };
-          wp_reset_query();
+          // wp_reset_query();
           echo $paged;
           ?>
           <?php $paged = get_query_var('paged', 1); ?>
