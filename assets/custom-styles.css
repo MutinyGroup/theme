@@ -25,11 +25,13 @@ figure[class*="logo-img"] img {
   height: 50px;
   object-fit: contain;
 }
-.blog-first-img-hover img {
+.blog-first-img-hover img,
+.post-img img {
   transition: all 0.6s ease-out;
   transform: scale(1.17);
 }
-.swiperBlog .swiper-slide:hover .blog-first-img-hover > img {
+.swiperBlog .swiper-slide:hover .blog-first-img-hover > img,
+.post-img img {
   transform: scale(1.11);
 }
 
