@@ -173,7 +173,7 @@ figure[class*="logo-img"] img {
 }
 
 /* Posts pagination links */
-.next .page-numbers{
+a .next .page-numbers{
   min-width: fit-content;
   margin-left: 0;
   padding: 15px 30px;
