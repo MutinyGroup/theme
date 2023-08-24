@@ -162,6 +162,7 @@
           </div>
           <!-- /wp:group -->
         <?php
+          wp_reset_postdata();
         };
 
         ?>
