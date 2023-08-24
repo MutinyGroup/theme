@@ -27,6 +27,8 @@
   <!-- wp:list-item -->
   <li class="wp-block-group lang-btn hidden desktop:block p-[10px_20px] uppercase font-medium border-[2px] border-[#AAAAAA] rounded-full absolute top-[20px] right-[20px] cursor-pointer hover:bg-white hover:border-white hover:text-black transition ease-out duration-300">
     <a href="https://mutiny.webo.design/se/">PL</a>
+    <a href="https://mutiny.webo.design/eng/">ENG</a>
+    <a href="https://mutiny.webo.design/se/">SE</a>
   </li>
   <!-- /wp:list-item -->
 </ul>
