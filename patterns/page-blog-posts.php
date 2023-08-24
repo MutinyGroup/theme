@@ -192,7 +192,15 @@
     'end_size'     => 2,
     'mid_size'     => 1,
     'prev_next'    => true,
-    'prev_text'    => 'Poprzednie',
+    'prev_text'    => '
+      <!-- wp:buttons -->
+      <div class="wp-block-buttons btn-more max-w-fit ml-[0px] p-[15px_30px] uppercase font-bold border-[2px] border-[#D5D5D5] rounded-full hover:border-primaryYellow hover:text-black transition ease-out duration-300 cursor-pointer">
+        <!-- wp:paragraph -->
+        <p>Poprzednie</p>
+        <!-- /wp:paragraph -->
+      </div>
+      <!-- /wp:buttons -->
+    ',
     'next_text'    => '
       <!-- wp:buttons -->
       <div class="wp-block-buttons btn-more max-w-fit ml-[0px] p-[15px_30px] uppercase font-bold border-[2px] border-[#D5D5D5] rounded-full hover:border-primaryYellow hover:text-black transition ease-out duration-300 cursor-pointer">
