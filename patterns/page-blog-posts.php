@@ -204,7 +204,6 @@
   </div>
   <!-- /wp:group -->
 
-  <!-- wp:list -->
   <?php
   echo paginate_links(array(
     'base'         => str_replace(999999999, '%#%', esc_url(get_pagenum_link(999999999))),
@@ -238,6 +237,5 @@
     'before_page_number' => '',
     'after_page_number' => ''
   )); ?>
-  <!-- /wp:list -->
 </div>
 <!-- /wp:group -->
