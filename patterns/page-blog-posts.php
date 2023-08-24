@@ -148,34 +148,10 @@
           wp_reset_query();
           ?>
 
-          <!-- wp:list -->
-          <ul class="wp-block-list">
-            <!-- wp:list-item -->
-            <li class="pagination absolute bottom-0 z-[10]">
-              <?php
-              echo paginate_links(array(
-                'base'         => str_replace(999999999, '%#%', esc_url(get_pagenum_link(999999999))),
-                'total'        => $post_query->max_num_pages,
-                'current'      => max(1, get_query_var('paged')),
-                'format'       => '?paged=%#%',
-                'show_all'     => true,
-                'type'         => 'plain',
-                'end_size'     => 2,
-                'mid_size'     => 1,
-                'prev_next'    => true,
-                'prev_text'    => 'prev',
-                'next_text'    => 'next',
-                'add_args'     => false,
-                'add_fragment' => '',
-              ));
-              ?>
-            </li>
-            <!-- /wp:list-item -->
-          </ul>
-          <!-- /wp:list -->
+
+
         <?php
         };
-
         ?>
 
       </ul>
