@@ -138,6 +138,7 @@
               $i++;
             };
           };
+          wp_reset_postdata();
           ?>
           <!-- wp:list -->
           <ul class="wp-block-list">
@@ -164,7 +165,6 @@
             </li>
             <!-- /wp:list-item -->
           <?php
-          wp_reset_postdata();
         };
 
           ?>
