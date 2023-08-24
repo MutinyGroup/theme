@@ -184,7 +184,7 @@
           global $wp;
           echo home_url($wp->request);
           get_permalink(get_the_ID());
-          $current_url = home_url($_SERVER['REQUEST_URI'])
+          $current_url = home_url($_SERVER['REQUEST_URI']);
         };
           ?>
           </ul>
