@@ -201,10 +201,14 @@
       ));
       echo '<br>';
       echo next_posts_link('Older Entries');
+      echo '<br>';
       echo get_post_permalink($currentPageID);
+      echo '<br>';
       echo get_page_uri();
+      echo '<br>';
       echo get_next_posts_page_link($currentPageID);
-      echo get_previous_posts_page_link($currentPageID)
+      echo '<br>';
+      echo get_previous_posts_page_link($currentPageID);
       echo '<br>';
 
       next_posts_link(__('Older Entries2', 'textdomain'), $post_query->max_num_pages);
