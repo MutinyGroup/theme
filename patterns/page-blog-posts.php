@@ -138,14 +138,16 @@
               $i++;
             };
           };
+          echo $paged;
           wp_reset_query();
-
+          echo $paged;
           ?>
           <!-- wp:list -->
           <ul class="wp-block-list">
             <!-- wp:list-item -->
             <li class="wp-block-group pagination absolute bottom-0 z-[10]">
               <?php
+              echo $paged;
               echo paginate_links(array(
                 'base'         => str_replace(999999999, '%#%', esc_url(get_pagenum_link(999999999))),
                 'total'        => $post_query->max_num_pages,
