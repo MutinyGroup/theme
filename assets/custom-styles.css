@@ -174,8 +174,8 @@ figure[class*="logo-img"] img {
 
 /* Posts pagination links */
 
-ul > .page-numbers li{
-  display: none;
+#Posty > ul > li:nth-child(2){
+  display: none!important;
 }
 
 ul > .page-numbers:first-child{
