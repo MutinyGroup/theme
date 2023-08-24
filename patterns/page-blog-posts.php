@@ -41,6 +41,13 @@
         $tab = [0, 1, 1, 0, 0, 1, 0, 1, 1, 0, 0, 1, 0, 1, 1, 0, 0, 1, 0, 1, 1, 0, 0, 1];
         $i = 0;
 
+        $currentUrl = str_replace('/', '', substr("http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]", 3, 30)); ?>
+        <!-- wp:paragraph -->
+        <p>
+          <?php echo $currentUrl; ?>
+        </p>
+        <!-- /wp:paragraph -->
+        <?php
         if ($post_query->have_posts()) {
           while ($post_query->have_posts()) {
             $post_query->the_post();
@@ -138,14 +145,13 @@
               $i++;
             };
           };
-
-
+          wp_reset_query();
           ?>
 
           <!-- wp:list -->
           <ul class="wp-block-list">
             <!-- wp:list-item -->
-            <li class="wp-block-group pagination absolute bottom-0 z-[10]">
+            <li class="pagination absolute bottom-0 z-[10]">
               <?php
               echo paginate_links(array(
                 'base'         => str_replace(999999999, '%#%', esc_url(get_pagenum_link(999999999))),
@@ -169,24 +175,13 @@
           <!-- /wp:list -->
         <?php
         };
-        wp_reset_query();
-        $currentUrl = str_replace('/', '', substr("http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]", 39, 30));
-        echo $currentUrl;
+
         ?>
 
       </ul>
       <!-- /wp:list -->
-
-
-
-
     </div>
     <!-- /wp:group -->
-
-
-
-
-
   </div>
   <!-- /wp:group -->
 
