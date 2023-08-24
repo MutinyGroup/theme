@@ -38,7 +38,7 @@
         );
         $post_query = new WP_Query($args);
         $counter = 0;
-        $tab = [0, 1, 1, 0, 0, 1];
+        $tab = [0, 1, 1, 0, 0, 1, 0, 1, 1, 0, 0, 1, 0, 1, 1, 0, 0, 1, 0, 1, 1, 0, 0, 1];
         $i = 0;
 
         if ($post_query->have_posts()) {
@@ -149,7 +149,7 @@
               echo paginate_links(array(
                 'base'         => str_replace(999999999, '%#%', esc_url(get_pagenum_link(999999999))),
                 'total'        => $post_query->max_num_pages,
-                'current'      => max(1, get_query_var('page')),
+                'current'      => max(1, get_query_var('paged')),
                 'format'       => '?paged=%#%',
                 'show_all'     => false,
                 'type'         => 'plain',
