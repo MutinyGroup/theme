@@ -152,13 +152,13 @@
         } elseif (get_query_var('page')) {
           $paged = get_query_var('page');
         } else {
-          $paged = 2;
+          $paged = 1;
         }
 
         query_posts(array(
           'post_type'      => 'post', // You can add a custom post type if you like
           'paged'          => $paged,
-          'posts_per_page' => 2
+          'posts_per_page' => 3
         ));
 
         if (have_posts()) : ?>
@@ -175,7 +175,13 @@
           <ul class="wp-block-list">
             <!-- wp:list-item -->
             <li>
-              <?php the_posts_navigation(); ?>
+              <?php the_post_navigation(array(
+                'prev_text'           => __('prev chapter: %title'),
+                'next_text'           => __('next chapter: %title'),
+                'in_same_term'         => true,
+                'taxonomy'           => __('post_tag'),
+                'screen_reader_text' => __('Continue Reading'),
+              )); ?>
 
             </li>
             <!-- /wp:list-item -->
