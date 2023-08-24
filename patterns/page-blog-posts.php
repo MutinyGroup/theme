@@ -161,13 +161,11 @@
                 'add_args'     => false,
                 'add_fragment' => '',
               ));
-              wp_reset_query();
               ?>
             </li>
             <!-- /wp:list-item -->
           <?php
         };
-        wp_reset_query();
           ?>
           </ul>
           <!-- /wp:list -->
