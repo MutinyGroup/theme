@@ -29,7 +29,8 @@
       <!-- wp:list -->
       <ul class="wp-block-list blog-posts-wrapper flex flex-wrap desktop:justify-center desktop:gap-x-[100px] wide:gap-x-[100px] gap-y-[40px] desktop:gap-y-[200px]">
         <?php
-        $paged = (get_query_var('page')) ? get_query_var('page') : 1;
+        global $paged;
+        // $paged = (get_query_var('page')) ? get_query_var('page') : 1;
         $args = array(
           'post_type' => 'post',
           'posts_per_page' => 2,
@@ -40,6 +41,9 @@
         $counter = 0;
         $tab = [0, 1, 1, 0, 0, 1, 0, 1, 1, 0, 0, 1, 0, 1, 1, 0, 0, 1, 0, 1, 1, 0, 0, 1];
         $i = 0;
+
+        echo $paged;
+
 
         if ($post_query->have_posts()) {
           while ($post_query->have_posts()) {
@@ -139,7 +143,7 @@
             };
             echo $paged;
           };
-          // wp_reset_query();
+          wp_reset_query();
           echo $paged;
           ?>
           <?php $paged = get_query_var('paged', 1); ?>
