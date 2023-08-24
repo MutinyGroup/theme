@@ -55,9 +55,11 @@
     <!-- wp:list -->
     <ul id="Eventy" class="wp-block-list events-list mb-[150px]">
       <?php
+      $currentPageID = (int)substr("http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]", 44, 1) ? (int)substr("http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]", 44, 1) : 1;
       $args = array(
         'post_type' => 'realizacje',
         'posts_per_page' => 2,
+        'paged' => $currentPageID,
         'order' => 'DESC'
       );
       $post_query = new WP_Query($args);
@@ -161,8 +163,7 @@
       <!-- wp:group -->
       <div class="wp-block-group btn-more min-w-fit flex gap-[20px]">
         <?php
-        $currentPageID = (int)substr("http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]", 44, 1);
-
+        $currentPageID = (int)substr("http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]", 44, 1) ? (int)substr("http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]", 44, 1) : 1;
         ?>
         <!-- wp:paragraph -->
         <p class=""><?php echo $currentPageID; ?></p>
