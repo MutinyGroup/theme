@@ -136,6 +136,7 @@
               $i++;
             };
           };
+          the_posts_navigation();
         };
         ?>
       </ul>
