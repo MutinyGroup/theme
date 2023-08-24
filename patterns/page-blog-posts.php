@@ -202,6 +202,7 @@
       echo '<br>';
       echo next_posts_link('Older Entries');
       echo get_next_posts_page_link($currentPageID);
+      next_posts_link(__('Older Entries2', 'textdomain'), $post_query->max_num_pages);
       ?>
     </li>
     <!-- /wp:list-item -->
