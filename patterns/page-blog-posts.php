@@ -176,11 +176,8 @@
             <!-- wp:list-item -->
             <li>
               <?php the_post_navigation(array(
-                'prev_text'           => __('prev chapter: %title'),
-                'next_text'           => __('next chapter: %title'),
-                'in_same_term'         => true,
-                'taxonomy'           => __('post_tag'),
-                'screen_reader_text' => __('Continue Reading'),
+                'prev_text'           => __('prev chapter'),
+                'next_text'           => __('next chapter'),
               )); ?>
 
             </li>
