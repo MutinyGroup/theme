@@ -29,12 +29,10 @@
       <!-- wp:list -->
       <ul class="wp-block-list blog-posts-wrapper flex flex-wrap desktop:justify-center desktop:gap-x-[100px] wide:gap-x-[100px] gap-y-[40px] desktop:gap-y-[200px]">
         <?php
-        $currentUrl = (int)substr("http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]", 36, 1);
-
         $paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
         $args = array(
           'post_type' => 'post',
-          'posts_per_page' => 2,
+          'posts_per_page' => 4,
           'paged' => $currentUrl,
           'order' => 'DESC'
         );
@@ -199,9 +197,7 @@
         'add_args'     => false,
         'add_fragment' => '',
       ));
-      echo next_posts_link('next2');
       ?>
-
     </li>
     <!-- /wp:list-item -->
   </ul>
