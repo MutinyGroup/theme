@@ -137,8 +137,8 @@
           <?php
               $i++;
             };
+            echo $paged;
           };
-          echo $paged;
           wp_reset_query();
           echo $paged;
           ?>
