@@ -55,14 +55,13 @@ window.addEventListener("load", function () {
 });
 
 // ANIMATIONS
-let scrollStarted = false;
 function scrollPage() {
   const scrollPos = window.scrollY;
 
-  if (scrollPos > 500 && !scrollStarted) {
+  if (scrollPos > 500) {
     console.log('>500');
     scrollStarted = true;
-  } else if (scrollPos < 500 && scrollStarted) {
+  } else if (scrollPos < 500) {
     console.log('<500');
     scrollStarted = false;
   }
