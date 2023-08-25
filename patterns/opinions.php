@@ -19,7 +19,7 @@
       <!-- wp:group -->
       <div class="wp-block-group uslugi-title is-layout-flow">
         <!-- wp:paragraph -->
-        <p data-aos="fade-up" class="uppercase inline desktop:text-[50px] text-[24px] desktop:leading-[55px] leading-[30px]">Co mówią nasi klienci?</p>
+        <p data-aos="fade-up" class="uppercase inline-block desktop:text-[50px] text-[24px] desktop:leading-[55px] leading-[30px]">Co mówią nasi klienci?</p>
         <!-- /wp:paragraph -->
       </div>
       <!-- /wp:group -->

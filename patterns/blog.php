@@ -97,7 +97,7 @@
                   <!-- wp:group -->
                   <div class="wp-block-group swiper-slide desktop:mr-[80px] mr-[20px] relative group desktop:w-[535px] w-[300px] h-[500px] desktop:h-[675px] ">
                     <!-- wp:group -->
-                    <div class="wp-block-group">
+                    <div data-aos="fade-left" class="wp-block-group">
                       <!-- wp:group -->
                       <div class="wp-block-group mb-[20px]">
                         <!-- wp:group -->
