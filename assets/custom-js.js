@@ -7,10 +7,10 @@ window.addEventListener("load", function () {
 
         if (scrollPos > 1000)  {
           console.log('>1200');
-          for(let i = 0 ; i < servicesTile.length ; i++){
+          for(let i = 0 ; i+1 < servicesTile.length ; i++){
             if (scrollPos > 1000 + ((i*1.5)*150)) {
-            servicesTile[i].classList.add('test02');
-            servicesTile[i].classList.add('opacity-100');
+            servicesTile[i].classList.add('test02', 'opacity-100');
+            servicesTile[i+1].classList.add('test02', 'opacity-100');
             console.log(servicesTile.length);
           };
         };
