@@ -79,15 +79,6 @@
           <!-- /wp:paragraph -->
         </div>
         <!-- /wp:group -->
-
-
-
-        <!-- wp:paragraph -->
-        <p class="uppercase">Poznaj ofertę</p>
-        <!-- /wp:paragraph -->
-        <!-- wp:paragraph -->
-        <p class="relative uppercase italic before:content-[''] before:inline-block before:mr-[-5px] before:bottom-0 before:left-0 desktop:before:w-[120px] before:w-[30px] before:h-[2px] before:bg-black"> Mutiny</p>
-        <!-- /wp:paragraph -->
       </div>
       <!-- /wp:group -->
     </div>
