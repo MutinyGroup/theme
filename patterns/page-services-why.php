@@ -46,9 +46,28 @@
 
 
 
+      <!-- wp:group -->
+      <div class="wp-block-group uslugi-title font-medium">
+        <!-- wp:group -->
+        <div class="wp-block-group overflow-hidden">
+          <!-- wp:paragraph -->
+          <p data-aos="fade-up" data-aos-duration="600" data-aos-offset="130" class="uppercase inline-block desktop:text-[50px] text-[24px] desktop:leading-[55px] leading-[30px]">Dlaczego warto z nami</p>
+          <!-- /wp:paragraph -->
+        </div>
+        <!-- /wp:group -->
+        <!-- wp:group -->
+        <div class="wp-block-group overflow-hidden">
+          <!-- wp:paragraph {"templateLock":"contentOnly"} -->
+          <p data-aos="fade-up" data-aos-duration="600" data-aos-offset="85" class="relative ml-[12px] desktop:text-[50px] text-[24px] desktop:leading-[55px] leading-[30px] inline-block uppercase italic before:content-[''] before:inline-block desktop:before:mr-[18px] before:mr-[8px] before:bottom-0 before:left-0 desktop:before:w-[90px] before:w-[30px] desktop:before:h-[3px] before:h-[2px] before:bg-black">współpracować</p>
+          <!-- /wp:paragraph -->
+        </div>
+        <!-- /wp:group -->
+      </div>
+      <!-- /wp:group -->
+
 
       <!-- wp:group -->
-      <div class="wp-block-group uslugi-title">
+      <div class="hidden wp-block-group uslugi-title">
         <!-- wp:paragraph -->
         <p class="uppercase desktop:text-[50px] text-[24px] desktop:leading-[55px] leading-[30px]">Dlaczego warto z nami <br><span class="relative desktop:text-[50px] text-[24px] uppercase italic before:content-[''] before:inline-block desktop:before:mr-[8px] before:mr-[4px] before:bottom-0 before:left-0 desktop:before:w-[90px] before:w-[30px] desktop:before:h-[3px] before:h-[2px] before:bg-black">współpracować</span></p>
         <!-- /wp:paragraph -->
