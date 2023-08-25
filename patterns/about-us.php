@@ -236,7 +236,7 @@
 
 
             <!-- wp:paragraph -->
-            <p><a href="<?php echo get_home_url() . '/about'; ?>" class="uppercase group bg-darkBlack text-white text-[14px] font-bold min-w-[225px] flex justify-center items-center px-[20px] btn-more ml-[0px] p-[15px_30px] border-[2px] border-black rounded-full  transition ease-out duration-300 overflow-hidden">
+            <p><a href="<?php echo get_home_url() . '/about'; ?>" class="uppercase group bg-darkBlack text-white text-[14px] font-bold min-w-[225px] flex justify-center items-center px-[20px] btn-more ml-[0px] p-[15px_30px] border-[2px] rounded-full  transition ease-out duration-300 overflow-hidden">
                 <!-- wp:group -->
                 <div class="wp-block-group overflow-hidden h-[15px]">
                   <!-- wp:group -->
