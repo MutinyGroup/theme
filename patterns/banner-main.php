@@ -72,7 +72,11 @@
           <!-- /wp:paragraph -->
 
           <!-- wp:paragraph -->
-          <p class="font-medium">Wchodzimy</p>
+          <p class="font-medium company-title ">
+            <span class="block 1translate-y-[100%] 1group-hover:translate-y-0 transition ease-out duration-300">
+              Wchodzimy
+            </span>
+          </p>
           <!-- /wp:paragraph -->
 
           <!-- wp:paragraph -->
