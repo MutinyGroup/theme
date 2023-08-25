@@ -88,7 +88,7 @@
           <!-- /wp:paragraph -->
 
           <!-- wp:group -->
-          <div class="wp-block-group relative italic font-medium  company-title overflow-hidden">
+          <div data-aos="fade-right" class="wp-block-group relative italic font-medium  company-title overflow-hidden">
             <!-- wp:group -->
             <div class="wp-block-group test01 flex transition ease-out 1duration-300">
               <!-- wp:group -->
