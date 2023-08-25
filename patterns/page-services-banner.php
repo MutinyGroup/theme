@@ -44,7 +44,7 @@
           <!-- wp:group -->
           <div class="wp-block-group overflow-hidden">
             <!-- wp:paragraph -->
-            <p class="uppercase test01 inline-block ">CI<span class="test01 relative ml-[12px] inline-block uppercase italic before:content-[''] before:inline-block desktop:before:mr-[18px] before:mr-[8px] before:bottom-0 before:left-0 desktop:before:w-[90px] before:w-[30px] desktop:before:h-[3px] before:h-[2px] before:bg-black">POMÓC</span></p>
+            <p class="uppercase test01 inline-block ">CI<span class="relative ml-[12px] inline-block uppercase italic before:content-[''] before:inline-block desktop:before:mr-[18px] before:mr-[8px] before:bottom-0 before:left-0 desktop:before:w-[90px] before:w-[30px] desktop:before:h-[3px] before:h-[2px] before:bg-black">POMÓC</span></p>
             <!-- /wp:paragraph -->
           </div>
           <!-- /wp:group -->
