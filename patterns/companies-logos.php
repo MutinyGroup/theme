@@ -11,9 +11,14 @@
 <div id="Zaufali" class="wp-block-group zaufali-nam desktop:mb-[150px]">
   <!-- wp:group -->
   <div class="wp-block-group container mx-auto desktop:px-0 px-[20px]">
-    <!-- wp:paragraph -->
-    <p data-aos="fade-up" class="uppercase mb-[82px] text-[40px] font-medium text-center">Zaufali nam</p>
-    <!-- /wp:paragraph -->
+    <!-- wp:group -->
+    <div class="wp-block-group overflow-hidden">
+      <!-- wp:paragraph -->
+      <p data-aos="fade-up" class="uppercase mb-[82px] text-[40px] font-medium text-center">Zaufali nam</p>
+      <!-- /wp:paragraph -->
+    </div>
+    <!-- /wp:group -->
+
 
     <!-- wp:group -->
     <div id="logos" class="wp-block-group swiper">
