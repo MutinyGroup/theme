@@ -56,7 +56,6 @@ window.addEventListener("load", function () {
     // ANIMATIONS
     const servicesTile = document.querySelector('.servicesTile');
 
-    fadeLeft
     function scrollPage() {
       let scrollPos = window.scrollY;
     
