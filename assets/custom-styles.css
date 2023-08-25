@@ -262,6 +262,7 @@ figure[class*="logo-img"] img {
 .wp-block-navigation__container li:last-child:hover .wp-block-navigation-item__label{
   transition: all 0.3s ease-out!important;
   text-decoration: underline;
+  border-bottom: 2px #FEC400 solid;
   text-decoration-color: #FEC400;
 }
 
