@@ -72,7 +72,7 @@ figure[class*="logo-img"] img {
   transform-style: preserve-3d;
 }
 .title-text-wrapper .company-title span{
-  animation: fadeInUp 0.6s cubic-bezier(0, 0, 0.25, 0.98)t;
+  animation: fadeInUp 0.6s ease-out;
 }
 
 @keyframes fadeInUp {
