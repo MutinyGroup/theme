@@ -94,9 +94,7 @@
         <ul class="wp-block-list swiper-wrapper">
           <!-- wp:list-item -->
           <li class="swiper-slide relative z-[2] group desktop:max-w-[444px] max-w-[80%] desktop:h-[430px] max-h-[530px] mr-[40px] desktop:mr-[90px]">
-            <!-- wp:paragraph -->
-            <p data-aos="fade-left">
-              <!-- wp:group -->
+            <!-- wp:group -->
             <div class="wp-block-group quote-sign desktop:mb-[35px] mb-[20px] desktop:mt-0 mt-[40px]">
               <!-- wp:paragraph -->
               <p>
@@ -107,14 +105,10 @@
               <!-- /wp:paragraph -->
             </div>
             <!-- /wp:group -->
-            <!-- wp:group -->
-            <div class="wp-block-group">
-              <!-- wp:paragraph -->
-              <p class="opinion-text desktop:text-[20px] text-[18px] font-light mb-[50px] desktop:mt-0 mt-[30px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-              </p>
-              <!-- /wp:paragraph -->
-            </div>
-            <!-- /wp:group -->
+            <!-- wp:paragraph -->
+            <p class="opinion-text desktop:text-[20px] text-[18px] font-light mb-[50px] desktop:mt-0 mt-[30px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+            </p>
+            <!-- /wp:paragraph -->
             <!-- wp:group -->
             <div class="wp-block-group opinion-author my-[50px] flex gap-[20px]">
               <!-- wp:image -->
@@ -134,8 +128,6 @@
               <!-- /wp:group -->
             </div>
             <!-- /wp:group -->
-            </p>
-            <!-- /wp:paragraph -->
           </li>
           <!-- /wp:list-item -->
           <!-- wp:list-item -->
