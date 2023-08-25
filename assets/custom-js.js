@@ -1,4 +1,29 @@
 window.addEventListener("load", function () {
+      // ANIMATIONS
+      const servicesTile = document.querySelector('.servicesTile');
+
+      function scrollPage() {
+        let scrollPos = window.scrollY;
+      
+        if (scrollPos > 1200) {
+          servicesTile.classList.add('test01')
+          console.log('>1200');
+          scrollStarted = true;
+        } else if (window.scrollY < 500) {
+          console.log('<500');
+          scrollStarted = false;
+        }else{
+          console.log('error');
+        }
+      }
+    document.addEventListener("scroll", (event) => {
+      scrollPage();
+      console.log('ok1');
+      scrollPage;
+      console.log('ok2');
+    });
+
+    
   // navbar mobile handling
   const btnOpenMenu = document.querySelector(".btn-open-menu");
   const mainNavMenu = document.querySelector(".mobile-nav-menu");
@@ -53,28 +78,6 @@ window.addEventListener("load", function () {
     },300);
   });
 
-    // ANIMATIONS
-    const servicesTile = document.querySelector('.servicesTile');
 
-    function scrollPage() {
-      let scrollPos = window.scrollY;
-    
-      if (scrollPos > 1200) {
-        servicesTile.classList.add('test01')
-        console.log('>1200');
-        scrollStarted = true;
-      } else if (window.scrollY < 500) {
-        console.log('<500');
-        scrollStarted = false;
-      }else{
-        console.log('error');
-      }
-    }
-  document.addEventListener("scroll", (event) => {
-    scrollPage();
-    console.log('ok1');
-    scrollPage;
-    console.log('ok2');
-  });
 });
 
