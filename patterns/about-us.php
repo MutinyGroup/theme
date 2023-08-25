@@ -227,7 +227,7 @@
         <!-- /wp:list -->
 
         <!-- wp:group -->
-        <div class="wp-block-group button-wrapper flex justify-center items-center gap-[64px]">
+        <div class="wp-block-group button-wrapper max-w-[535px] flex justify-center items-center gap-[64px]">
           <!-- wp:list -->
           <ul class="wp-block-list">
             <!-- wp:list-item -->
