@@ -54,7 +54,7 @@
 
 
       <!-- wp:group -->
-      <div class="wp-block-group uslugi-title">
+      <div class="wp-block-group uslugi-title desktop:text-[50px] text-[24px] desktop:leading-[55px] leading-[30px]">
         <!-- wp:group -->
         <div class="wp-block-group overflow-hidden">
           <!-- wp:paragraph -->
@@ -72,7 +72,7 @@
 
 
           <!-- wp:paragraph -->
-          <p data-aos="fade-up" data-aos-duration="600" data-aos-offset="130" class="uppercase desktop:text-[50px] text-[24px] desktop:leading-[55px] leading-[30px]">jesteś<span data-aos="fade-up" data-aos-duration="600" data-aos-offset="130" class="relative desktop:text-[50px] text-[24px] uppercase italic before:content-[''] before:inline-block desktop:before:mr-[8px] before:mr-[4px] before:bottom-0 before:left-0 desktop:before:w-[90px] before:w-[30px] desktop:before:h-[3px] before:h-[2px] before:bg-black">zainteresowany</span></p>
+          <p data-aos="fade-up" data-aos-duration="600" data-aos-offset="130" class="uppercase "> <br />jesteś<span data-aos="fade-up" data-aos-duration="600" data-aos-offset="130" class="relative  uppercase italic before:content-[''] before:inline-block desktop:before:mr-[8px] before:mr-[4px] before:bottom-0 before:left-0 desktop:before:w-[90px] before:w-[30px] desktop:before:h-[3px] before:h-[2px] before:bg-black">zainteresowany</span></p>
           <!-- /wp:paragraph -->
         </div>
         <!-- /wp:group -->
