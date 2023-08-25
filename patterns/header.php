@@ -131,5 +131,6 @@
 
 
 <?php
-echo substr(home_url(), 27, 3);
+$url = home_url();
+echo substr($url, 27, 3);
 ?>
