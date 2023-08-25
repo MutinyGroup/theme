@@ -261,11 +261,9 @@ figure[class*="logo-img"] img {
 }
 .wp-block-navigation__container li:last-child:hover .wp-block-navigation-item__label{
   transition: all 0.3s ease-out;
+  text-decoration: underline;
 }
-.wp-block-navigation-item__label:hover{
-  transform: scale(1.2)!important;
-  transition: all 0.3s ease-out;
-}
+
 #modal-1-content > ul > li.wp-block-navigation-item.contact-from-wp-panel.p-\[10px_20px\].uppercase.border-\[2px\].border-\[\#AAAAAA\].rounded-full.cursor-pointer.hover\:bg-white.hover\:text-black.hover\:border-white.transition.ease-out.duration-300.wp-block-navigation-link > a{
   overflow:hidden;
 }
