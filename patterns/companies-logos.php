@@ -12,7 +12,7 @@
   <!-- wp:group -->
   <div class="wp-block-group container mx-auto desktop:px-0 px-[20px]">
     <!-- wp:paragraph -->
-    <p data-aos="fade-up" class="uppercase mb-[82px] text-[40px] font-medium text-center">Zaufali nam</p>
+    <p data-aos="fade-up" class="uppercase inline-block mb-[82px] text-[40px] font-medium text-center">Zaufali nam</p>
     <!-- /wp:paragraph -->
 
     <!-- wp:group -->
