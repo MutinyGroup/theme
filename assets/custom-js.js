@@ -9,8 +9,8 @@ window.addEventListener("load", function () {
           console.log('>1200');
           for(let i = 0 ; i < servicesTile.length ; i++){
             if (scrollPos > 1000 + ((i*1.8)*200)) {
-            servicesTile[i].classList.add('test02', 'opacity-100');
-            servicesTile[i+1].classList.add('test02', 'opacity-100');
+            servicesTile[i].classList.add('test02');
+            servicesTile[i+1].classList.add('test02');
             i=i+1;
             };
           };
