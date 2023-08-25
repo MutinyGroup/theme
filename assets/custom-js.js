@@ -55,4 +55,4 @@ window.addEventListener("load", function () {
 });
 
 // ANIMATIONS
-  AOS.init();
+  Aos.init();
