@@ -92,7 +92,7 @@
             <!-- wp:group -->
             <div class="wp-block-group test01 flex transition ease-out 1duration-300">
               <!-- wp:group -->
-              <div class="wp-block-group self-end 1content-[''] desktop:mr-[70px] mr-[5px]  desktop:w-[280px] w-[30px] desktop:h-[6px] h-[2px] bg-white">
+              <div class="wp-block-group self-end mb-[5px] desktop:mr-[70px] mr-[5px]  desktop:w-[280px] w-[30px] desktop:h-[6px] h-[2px] bg-white">
                 <!-- wp:paragraph -->
                 <p class="hidden">separator</p>
                 <!-- /wp:paragraph -->
