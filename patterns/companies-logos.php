@@ -12,7 +12,7 @@
   <!-- wp:group -->
   <div class="wp-block-group container mx-auto desktop:px-0 px-[20px]">
     <!-- wp:group -->
-    <div class="wp-block-group overflow-hidden">
+    <div class="wp-block-group h-fit overflow-hidden">
       <!-- wp:paragraph -->
       <p data-aos="fade-up" data-aos-duration="600" data-aos-offset="85" class="uppercase mb-[82px] text-[40px] font-medium text-center">Zaufali nam</p>
       <!-- /wp:paragraph -->
