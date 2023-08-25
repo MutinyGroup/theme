@@ -243,7 +243,7 @@
                   <!-- wp:group -->
                   <div class="wp-block-group overflow-hidden transition ease duration-[300ms]">
                     <!-- wp:paragraph -->
-                    <p class="translate-y-0 group-hover:translate-y-[-22px">
+                    <p class="translate-y-0 group-hover:translate-y-[-22px]">
                       Dowiedz się więcej
                     </p>
                     <!-- /wp:paragraph -->
