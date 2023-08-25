@@ -241,10 +241,10 @@
                 <div class="wp-block-group overflow-hidden h-[15px]">
                   <!-- wp:group -->
                   <div class="wp-block-group translate-y-0 gro">
-                    <span class="translate-y-0 group-hover:translate-y-[100px] transition ease-out duration-300 overflow-hidden">
+                    <span class="block translate-y-0 group-hover:translate-y-[100px] transition ease-out duration-300 overflow-hidden">
                       Dowiedz się więcej
                     </span>
-                    <span class="translate-y-0 group-hover:translate-y-[100px] transition ease-out duration-300 overflow-hidden">
+                    <span class="block translate-y-0 group-hover:translate-y-[100px] transition ease-out duration-300 overflow-hidden">
                       Dowiedz się więcej
                     </span>
                   </div>
