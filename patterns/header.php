@@ -132,7 +132,8 @@
 
 <?php
 global $wp;
-echo home_url($wp->request);
-echo '<br>';
+
 echo home_url();
+echo '<br>';
+echo get_main_site_id()
 ?>
