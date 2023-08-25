@@ -14,7 +14,7 @@
     <!-- wp:group -->
     <div class="wp-block-group title-wrapper relative container mx-auto desktop:ml-[120px] ml-0 desktop:pt-[100px] desktop:mt-0 mt-[60px] desktop:mb-[80px] flex gap-[20px]">
       <!-- wp:group -->
-      <div class="wp-block-group overflow-hidden">
+      <div class="wp-block-group h-fit overflow-hidden">
         <!-- wp:paragraph -->
         <p data-aos="fade-up" data-aos-duration="600" data-aos-offset="130" class="section-title uppercase text-primaryYellow">Opinie</p>
         <!-- /wp:paragraph -->
