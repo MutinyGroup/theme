@@ -22,7 +22,9 @@
   <!-- /wp:list-item -->
 
   <!-- wp:navigation /-->
-
+  <?php
+  echo $wpdb->prefix;
+  ?>
   <!-- wp:list-item -->
   <li class="wp-block-group lang-btn group h-[48px] hover:h-[120px] hidden desktop:block p-[10px_20px] text-center uppercase font-medium border-[2px] border-[#AAAAAA] rounded-[50px] hover:rounded-[20px] absolute top-[20px] right-[20px] cursor-pointer hover:bg-white hover:border-white hover:text-black transition-height ease-out duration-300">
     <a class="block hover:text-primaryYellow group-hover:mb-[10px]" href="https://mutiny.webo.design/se/">PL</a>
