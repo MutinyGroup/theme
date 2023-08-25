@@ -235,20 +235,20 @@
             <!-- /wp:paragraph -->
 
 
-            <!-- wp:group -->
-            <div class="wp-block-group">
+            <!-- wp:paragraph -->
+            <p>
               <a href="<?php echo get_home_url() . '/about'; ?>" class="uppercase group bg-darkBlack text-white text-[14px] font-bold min-w-[225px] flex justify-center items-center px-[20px] btn-more ml-[0px] p-[15px_30px] border-[2px] rounded-full  transition ease-out duration-300 overflow-hidden">
                 <!-- wp:group -->
                 <div class="wp-block-group overflow-hidden h-[18px]">
                   <!-- wp:group -->
                   <div class="wp-block-group translate-y-0 gro">
                     <!-- wp:paragraph -->
-                    <p class=" translate-y-0 group-hover:translate-y-[-12px] transition ease-out duration-300 overflow-hidden">
+                    <p class=" translate-y-0 group-hover:translate-y-[-20px] transition ease-out duration-300 overflow-hidden">
                       Dowiedz się więcej
                     </p>
                     <!-- /wp:paragraph -->
                     <!-- wp:paragraph -->
-                    <p class=" translate-y-0 group-hover:translate-y-[-12px] transition ease-out duration-300 overflow-hidden">
+                    <p class=" translate-y-0 group-hover:translate-y-[-20px] transition ease-out duration-300 overflow-hidden">
                       Dowiedz się więcej
                     </p>
                     <!-- /wp:paragraph -->
@@ -257,8 +257,8 @@
                 </div>
                 <!-- /wp:group -->
               </a>
-            </div>
-            <!-- /wp:group -->
+            </p>
+            <!-- /wp:paragraph -->
           </div>
           <!-- /wp:buttons -->
 
