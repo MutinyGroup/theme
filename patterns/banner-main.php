@@ -64,8 +64,8 @@
         <!-- wp:group -->
         <div class="wp-block-group group title-text-wrapper mb-[100px] desktop:mb-[70px] uppercase relative z-[1]">
           <!-- wp:paragraph -->
-          <p class="company-title group font-normal text-[16px] leading-[125%] overflow-hidden">
-            <span class="block 1translate-y-[100%] 1group-hover:translate-y-0 transition ease-out 1duration-300">
+          <p data-test class="company-title group font-normal text-[16px] leading-[125%] overflow-hidden">
+            <span data-test class="block 1translate-y-[100%] 1group-hover:translate-y-0 transition ease-out 1duration-300">
               Mutiny Group
             </span>
           </p>
@@ -80,7 +80,19 @@
           <!-- /wp:paragraph -->
 
           <!-- wp:paragraph -->
-          <p class="font-medium">na rynek z mocnym</p>
+          <p class="company-title group font-medium overflow-hidden">
+            <span class="block 1translate-y-[100%] 1group-hover:translate-y-0 transition ease-out 1duration-300">
+              NA RYNEK Z MOCNYM
+            </span>
+          </p>
+          <!-- /wp:paragraph -->
+
+          <!-- wp:paragraph -->
+          <p class="relative italic font-medium before:content-[''] before:inline-block desktop:before:mr-[70px] before:mr-[5px] before:bottom-0 before:left-0 desktop:before:w-[280px] before:w-[30px] desktop:before:h-[6px] before:h-[2px] before:bg-white company-title group overflow-hidden">
+            <span class="block 1translate-y-[100%] 1group-hover:translate-y-0 transition ease-out 1duration-300">
+              UDERZENIEM.
+            </span>
+          </p>
           <!-- /wp:paragraph -->
 
           <!-- wp:paragraph {"templateLock":"contentOnly", "classname":"wp-class2"} -->
