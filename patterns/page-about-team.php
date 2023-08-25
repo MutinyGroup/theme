@@ -58,7 +58,7 @@
     <!-- wp:group -->
     <div class="wp-block-group cols desktop:flex">
       <!-- wp:group -->
-      <div class="wp-block-group col1 relative desktop:pl-[150px] mb-[50px] desktop:w-[45%]">
+      <div class="wp-block-group col1 relative desktop:pl-[150px] mb-[50px] desktop:w-[45%] wide:w-[38%]">
         <!-- wp:paragraph -->
         <p>
           <svg class="shape opacity-[60%] absolute top-[270px] left-[30px] z-[0]" xmlns="http://www.w3.org/2000/svg" width="235" height="317" viewBox="0 0 235 317" fill="none">
