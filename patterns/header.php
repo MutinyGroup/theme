@@ -26,7 +26,6 @@
 
   <?php
   $url = substr(home_url(), 27, 3);;
-  echo $url;
   if ($url == '') {
   ?>
     <!-- wp:list-item -->
@@ -59,8 +58,6 @@
   <?php
   };
   ?>
-
-
 </ul>
 <!-- /wp:list -->
 
