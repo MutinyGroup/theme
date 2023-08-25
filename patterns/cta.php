@@ -56,7 +56,7 @@
       <!-- wp:group -->
       <div class="wp-block-group overflow-hidden">
         <!-- wp:paragraph -->
-        <p data-aos="fade-up" data-aos-offset="155" class="section-title text-[20px] text-primaryYellow">Wymagaj więcej</p>
+        <p data-aos="fade-up" data-aos-duration="600" data-aos-offset="155" class="section-title text-[20px] text-primaryYellow">Wymagaj więcej</p>
         <!-- /wp:paragraph -->
       </div>
       <!-- /wp:group -->
@@ -67,21 +67,21 @@
         <!-- wp:group -->
         <div class="wp-block-group overflow-hidden">
           <!-- wp:paragraph -->
-          <p data-aos="fade-up" data-aos-offset="155" class="uppercase">Porozmawiajmy</p>
+          <p data-aos="fade-up" data-aos-duration="600" data-aos-offset="155" class="uppercase">Porozmawiajmy</p>
           <!-- /wp:paragraph -->
         </div>
         <!-- /wp:group -->
         <!-- wp:group -->
         <div class="wp-block-group overflow-hidden">
           <!-- wp:paragraph -->
-          <p data-aos="fade-up" data-aos-offset="130" class="uppercase">o potrzebach</p>
+          <p data-aos="fade-up" data-aos-duration="600" data-aos-offset="130" class="uppercase">o potrzebach</p>
           <!-- /wp:paragraph -->
         </div>
         <!-- /wp:group -->
         <!-- wp:group -->
         <div class="wp-block-group overflow-hidden">
           <!-- wp:paragraph {"templateLock":"contentOnly"} -->
-          <p data-aos="fade-up" data-aos-offset="85" class="relative ml-[12px] inline-block uppercase italic before:content-[''] before:inline-block desktop:before:mr-[18px] before:mr-[8px] before:bottom-0 before:left-0 desktop:before:w-[130px] before:w-[30px] desktop:before:h-[3px] before:h-[2px] before:bg-white">Twojej marki</p>
+          <p data-aos="fade-up" data-aos-duration="600" data-aos-offset="85" class="relative ml-[12px] inline-block uppercase italic before:content-[''] before:inline-block desktop:before:mr-[18px] before:mr-[8px] before:bottom-0 before:left-0 desktop:before:w-[130px] before:w-[30px] desktop:before:h-[3px] before:h-[2px] before:bg-white">Twojej marki</p>
           <!-- /wp:paragraph -->
         </div>
         <!-- /wp:group -->
