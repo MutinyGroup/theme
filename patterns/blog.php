@@ -55,15 +55,15 @@
       </figure>
       <!-- /wp:image -->
       <!-- wp:paragraph -->
-      <p class="section-title uppercase text-primaryYellow">Aktualności</p>
+      <p data-aos="fade-up" class="section-title uppercase text-primaryYellow">Aktualności</p>
       <!-- /wp:paragraph -->
       <!-- wp:group -->
       <div class="wp-block-group blog-title z-[1]">
         <!-- wp:paragraph -->
-        <p class="uppercase inline desktop:text-[50px] text-[24px] desktop:leading-[55px] leading-[30px]">Aktualności i wydarzenia</p>
+        <p data-aos="fade-up" class="uppercase inline-block desktop:text-[50px] text-[24px] desktop:leading-[55px] leading-[30px]">Aktualności i wydarzenia</p>
         <!-- /wp:paragraph -->
         <!-- wp:paragraph {"templateLock":"contentOnly"} -->
-        <p class="relative ml-[12px] desktop:text-[50px] text-[24px] desktop:leading-[55px] leading-[30px] inline-block uppercase italic before:content-[''] before:inline-block desktop:before:mr-[18px] before:mr-[8px] before:bottom-0 before:left-0 desktop:before:w-[90px] before:w-[30px] desktop:before:h-[3px] before:h-[2px] before:bg-white">z Mutiny Group</p>
+        <p data-aos="fade-up" class="relative ml-[12px] desktop:text-[50px] text-[24px] desktop:leading-[55px] leading-[30px] inline-block uppercase italic before:content-[''] before:inline-block desktop:before:mr-[18px] before:mr-[8px] before:bottom-0 before:left-0 desktop:before:w-[90px] before:w-[30px] desktop:before:h-[3px] before:h-[2px] before:bg-white">z Mutiny Group</p>
         <!-- /wp:paragraph -->
       </div>
       <!-- /wp:group -->

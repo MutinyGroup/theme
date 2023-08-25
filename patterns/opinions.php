@@ -14,12 +14,12 @@
     <!-- wp:group -->
     <div class="wp-block-group title-wrapper relative container mx-auto desktop:ml-[120px] ml-0 desktop:pt-[100px] desktop:mt-0 mt-[60px] desktop:mb-[80px] flex gap-[20px]">
       <!-- wp:paragraph -->
-      <p class="section-title uppercase text-primaryYellow">Opinie</p>
+      <p data-aos="fade-up" class="section-title uppercase text-primaryYellow">Opinie</p>
       <!-- /wp:paragraph -->
       <!-- wp:group -->
       <div class="wp-block-group uslugi-title is-layout-flow">
         <!-- wp:paragraph -->
-        <p class="uppercase inline desktop:text-[50px] text-[24px] desktop:leading-[55px] leading-[30px]">Co mówią nasi klienci?</p>
+        <p data-aos="fade-up" class="uppercase inline desktop:text-[50px] text-[24px] desktop:leading-[55px] leading-[30px]">Co mówią nasi klienci?</p>
         <!-- /wp:paragraph -->
       </div>
       <!-- /wp:group -->

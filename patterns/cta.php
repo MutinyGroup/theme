@@ -54,18 +54,18 @@
       <!-- /wp:group -->
 
       <!-- wp:paragraph -->
-      <p class="section-title text-[20px] text-primaryYellow">Wymagaj więcej</p>
+      <p data-aos="fade-up" class="section-title text-[20px] text-primaryYellow">Wymagaj więcej</p>
       <!-- /wp:paragraph -->
       <!-- wp:group -->
       <div class="wp-block-group font-normal desktop:text-[65px] text-[32px] desktop:leading-[70px] leading-[36px] relative z-[1]">
         <!-- wp:paragraph -->
-        <p class="uppercase">Porozmawiajmy</p>
+        <p data-aos="fade-up" class="uppercase">Porozmawiajmy</p>
         <!-- /wp:paragraph -->
         <!-- wp:paragraph -->
-        <p class="uppercase">o potrzebach</p>
+        <p data-aos="fade-up" class="uppercase">o potrzebach</p>
         <!-- /wp:paragraph -->
         <!-- wp:paragraph {"templateLock":"contentOnly"} -->
-        <p class="relative ml-[12px] inline-block uppercase italic before:content-[''] before:inline-block desktop:before:mr-[18px] before:mr-[8px] before:bottom-0 before:left-0 desktop:before:w-[130px] before:w-[30px] desktop:before:h-[3px] before:h-[2px] before:bg-white">Twojej marki</p>
+        <p data-aos="fade-up" class="relative ml-[12px] inline-block uppercase italic before:content-[''] before:inline-block desktop:before:mr-[18px] before:mr-[8px] before:bottom-0 before:left-0 desktop:before:w-[130px] before:w-[30px] desktop:before:h-[3px] before:h-[2px] before:bg-white">Twojej marki</p>
         <!-- /wp:paragraph -->
       </div>
       <!-- /wp:group -->
