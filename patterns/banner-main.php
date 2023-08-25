@@ -64,8 +64,8 @@
         <!-- wp:group -->
         <div class="wp-block-group title-text-wrapper mb-[100px] desktop:mb-[70px] uppercase relative z-[1]">
           <!-- wp:paragraph -->
-          <p data-test class="company-title font-normal text-[16px] leading-[125%] overflow-hidden">
-            <span data-test class="block">
+          <p class="company-title font-normal text-[16px] leading-[125%] overflow-hidden">
+            <span class="block">
               Mutiny Group
             </span>
           </p>
@@ -110,7 +110,7 @@
         <!-- /wp:group -->
 
         <!-- wp:paragraph -->
-        <p data-aos="fade-right" class="banner-paragraph desktop:ml-[45px] ml-[20px] mb-[40px] desktop:w-[264px] max-w-[300px] desktop:text-[18px] text-[18px] font-light leading-[22px] relative z-[1]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore <span class="text-primaryYellow">magna aliqua.</span></p>
+        <p class="banner-paragraph desktop:ml-[45px] ml-[20px] mb-[40px] desktop:w-[264px] max-w-[300px] desktop:text-[18px] text-[18px] font-light leading-[22px] relative z-[1]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore <span class="text-primaryYellow">magna aliqua.</span></p>
         <!-- /wp:paragraph -->
       </div>
       <!-- /wp:group -->
@@ -156,7 +156,7 @@
       <!-- /wp:group -->
 
       <!-- wp:paragraph -->
-      <p data-aos="fade-up" class="z-[2] text-white group-hover:text-black transition ease-in-out duration-[550ms]">
+      <p class="z-[2] text-white group-hover:text-black transition ease-in-out duration-[550ms]">
         <a href="#O nas" class="">
           <span class="font-bold block">Zobacz</span>
           <span class="font-bold block text-[25px]">WIĘCEJ</span>
