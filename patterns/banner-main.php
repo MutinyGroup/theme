@@ -90,9 +90,18 @@
           <!-- wp:group -->
           <div class="wp-block-group relative italic font-medium  company-title group overflow-hidden">
             <!-- wp:group -->
-            <div class="wp-block-group test01  transition ease-out 1duration-300">
-              <span class="1content-[''] inline-block desktop:mr-[70px] mr-[5px]  desktop:w-[280px] w-[30px] desktop:h-[6px] h-[2px] bg-white"></span>
-              UDERZENIEM.
+            <div class="wp-block-group test01 flex transition ease-out 1duration-300">
+              <!-- wp:group -->
+              <div class="wp-block-group 1content-[''] desktop:mr-[70px] mr-[5px]  desktop:w-[280px] w-[30px] desktop:h-[6px] h-[2px] bg-white">
+                <!-- wp:paragraph -->
+                <p class="hidden">separator</p>
+                <!-- /wp:paragraph -->
+              </div>
+              <!-- /wp:group -->
+
+              <!-- wp:paragraph -->
+              <p>UDERZENIEM</p>
+              <!-- /wp:paragraph -->
             </div>
             <!-- /wp:group -->
           </div>
