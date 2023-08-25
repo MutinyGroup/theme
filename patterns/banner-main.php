@@ -91,7 +91,7 @@
           <div class="wp-block-group relative italic font-medium  company-title group overflow-hidden">
             <!-- wp:paragraph -->
             <p class="test01  transition ease-out 1duration-300">
-              <span class="before:content-[''] before:inline-block desktop:before:mr-[70px] before:mr-[5px]  desktop:before:w-[280px] before:w-[30px] desktop:before:h-[6px] before:h-[2px] before:bg-white"></span>
+              <span class="1content-[''] inline-block desktop:mr-[70px] mr-[5px]  desktop:w-[280px] w-[30px] desktop:h-[6px] h-[2px] bg-white"></span>
               UDERZENIEM.
             </p>
             <!-- /wp:paragraph -->
