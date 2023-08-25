@@ -61,9 +61,6 @@
       </div>
       <!-- /wp:group -->
 
-      <!-- wp:paragraph -->
-      <p class="section-title text-[20px] text-primaryYellow z-[1] relative">Szukasz wsparcia w marketingu?</p>
-      <!-- /wp:paragraph -->
       <!-- wp:group -->
       <div class="wp-block-group cta-title font-normal desktop:text-[65px] text-[32px] desktop:leading-[70px] leading-[36px] z-[1] relative">
 
