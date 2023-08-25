@@ -251,15 +251,6 @@
         <!-- /wp:list-item -->
       </ul>
       <!-- /wp:list -->
-
-
-      <!-- wp:buttons -->
-      <div class="wp-block-buttons min-w-fit flex justify-center items-center px-[20px] btn-more ml-[0px] p-[15px_30px] uppercase border-[2px] border-white rounded-full hover:bg-white hover:text-black transition ease-out duration-300">
-        <!-- wp:paragraph -->
-        <p><a href="<?php echo get_home_url() . '/blog'; ?>" class="uppercase text-[14px] font-bold">Zobacz wszystkie newsy</a></p>
-        <!-- /wp:paragraph -->
-      </div>
-      <!-- /wp:buttons -->
     </div>
     <!-- /wp:group -->
   </div>
