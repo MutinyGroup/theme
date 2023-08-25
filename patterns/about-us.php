@@ -228,10 +228,10 @@
 
         <!-- wp:group -->
         <div class="wp-block-group button-wrapper flex justify-center items-center gap-[64px]">
-          <!-- wp:group -->
-          <div class="wp-block-group">
-            <!-- wp:group -->
-            <div class="wp-block-group">
+          <!-- wp:list -->
+          <ul class="wp-block-list">
+            <!-- wp:list-item -->
+            <li class="wp-block-group">
               <a href="<?php echo get_home_url() . '/about'; ?>" class="uppercase group bg-white text-black text-[14px] font-bold min-w-[225px] flex justify-center items-center px-[20px] btn-more ml-[0px] p-[15px_30px] border-[2px] rounded-full  ">
                 <!-- wp:group -->
                 <div class="wp-block-group overflow-hidden h-[18px]">
@@ -248,10 +248,10 @@
                 </div>
                 <!-- /wp:group -->
               </a>
-            </div>
-            <!-- /wp:group -->
-          </div>
-          <!-- /wp:group -->
+            </li>
+            <!-- /wp:list-item -->
+          </ul>
+          <!-- /wp:list -->
 
           <!-- wp:group -->
           <div class="new wp-block-group gray-border hidden desktop:inline-block w-[285px] h-[2px] bg-[#808080] opacity-[15%]">
