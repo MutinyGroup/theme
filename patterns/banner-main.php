@@ -65,7 +65,7 @@
         <div class="wp-block-group title-text-wrapper mb-[100px] desktop:mb-[70px] uppercase relative z-[1]">
           <!-- wp:paragraph -->
           <p data-test class="company-title font-normal text-[16px] leading-[125%] overflow-hidden">
-            <span data-test class="block transition ease-out 1duration-300">
+            <span data-test class="block">
               Mutiny Group
             </span>
           </p>
@@ -73,7 +73,7 @@
 
           <!-- wp:paragraph -->
           <p class="company-title font-medium overflow-hidden">
-            <span class="block transition ease-out 1duration-300">
+            <span class="block">
               Wchodzimy
             </span>
           </p>
@@ -81,7 +81,7 @@
 
           <!-- wp:paragraph -->
           <p class="company-title font-medium overflow-hidden">
-            <span class="block transition ease-out 1duration-300">
+            <span class="block">
               NA RYNEK Z MOCNYM
             </span>
           </p>
