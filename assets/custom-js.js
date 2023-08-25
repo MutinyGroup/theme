@@ -32,6 +32,7 @@ window.addEventListener("load", function () {
         //   servicesTile[2].classList.add('test01');
         //   servicesTile[2].classList.replace('opacity-0', 'opacity-100');
         // };
+        };
       };
     document.addEventListener("scroll", (event) => {
       scrollPage();
