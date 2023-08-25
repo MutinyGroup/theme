@@ -103,7 +103,7 @@ figure[class*="logo-img"] img {
     transform: translateY(0);
   }
 }
-@keyframes fadeInRught {
+@keyframes fadeInRight {
   0% {
     opacity: 0;
     transform: translateX(80px);
