@@ -46,7 +46,7 @@
       <p class="block hover:text-primaryYellow group-hover:mb-[10px]">ENG</p>
       <!-- /wp:paragraph -->
       <a class="block hover:text-primaryYellow group-hover:mb-[10px] opacity-0 group-hover:opacity-100 transition ease-out duration-300" href="mutiny.webo.design/">PL</a>
-      <a class="block hover:text-primaryYellow opacity-0 group-hover:opacity-100 transition ease-out duration-300" href="mutiny.webo.design/se/">SE</a>
+      <a class="block hover:text-primaryYellow opacity-0 group-hover:opacity-100 transition ease-out duration-300" href="/se/">SE</a>
     </li>
     <!-- /wp:list-item -->
   <?php
