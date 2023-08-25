@@ -115,6 +115,6 @@
 <!-- /wp:group -->
 
 <?php
-global $wpdb;
-echo get_blog_prefix();
+global $wp;
+$current_url = home_url(add_query_arg(array(), $wp->request));
 ?>
