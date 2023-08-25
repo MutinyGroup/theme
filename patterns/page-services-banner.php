@@ -9,7 +9,7 @@
 ?>
 
 <!-- wp:group {"templateLock":"contentOnly","anchor":true} -->
-<div id="Banner" class="wp-block-group services-banner group desktop:mb-[150px] pt-[80px] desktop:pt-0">
+<div id="Banner" class="wp-block-group services-banner desktop:mb-[150px] pt-[80px] desktop:pt-0">
   <!-- wp:group -->
   <div class="wp-block-group container relative mx-auto desktop:px-0 px-[20px]">
     <!-- wp:group -->
@@ -77,21 +77,6 @@
 
       <!-- wp:paragraph -->
       <p class="z-[2] text-white group-hover:text-black transition ease-in-out duration-[550ms]">
-        <a href="##Poznaj nas">
-          <span class="font-bold block">Zobacz</span>
-          <span class="font-bold block text-[25px]">WIĘCEJ</span>
-        </a>
-      </p>
-      <!-- /wp:paragraph -->
-    </div>
-    <!-- /wp:group -->
-
-
-
-    <!-- wp:group -->
-    <div class="hidden wp-block-group desktop:w-[175px] w-[140px] desktop:h-[175px] h-[140px] mx-0 text-center rounded-full desktop:border-[4px] border-[3px] border-[#AAAAAA] absolute desktop:top-[-130px] top-[320px] wide:left-[70%] desktop:left-[85%] left-[50%] translate-x-[-50%] group-hover:border-none group-hover:bg-primaryYellow group-hover:text-white transition ease-out duration-300 flex flex-col justify-center items-center gap-y-0 cursor-pointer">
-      <!-- wp:paragraph -->
-      <p>
         <a href="#Kafelki">
           <span class="font-bold block">Zobacz</span>
           <span class="font-bold block text-[25px]">WIĘCEJ</span>
