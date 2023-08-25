@@ -15,7 +15,7 @@
     <!-- wp:group -->
     <div class="wp-block-group title-wrapper container mx-auto relative desktop:mb-[110px] mb-[80px] flex gap-[20px]">
       <!-- wp:paragraph -->
-      <p data-aos="fade-up" class="section-title min-w-fit uppercase text-primaryYellow">O nas</p>
+      <p data-aos="fade-up" class="aos-init aos-animate section-title min-w-fit uppercase text-primaryYellow">O nas</p>
       <!-- /wp:paragraph -->
       <!-- wp:group -->
       <div class="wp-block-group uslugi-title is-layout-flow">
