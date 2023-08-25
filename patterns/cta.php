@@ -92,7 +92,7 @@
 
       <!-- wp:paragraph -->
       <p class="z-[2] text-white group-hover:text-black transition ease-in-out duration-[550ms]">
-        <a href="#O nas" class="">
+        <a href="#<?php echo get_home_url() . '/contact'; ?>" class="">
           <span class="font-bold block">Skontaktuj się</span>
           <span class="font-bold block text-[25px]">TERAZ</span>
         </a>
@@ -102,17 +102,6 @@
     <!-- /wp:group -->
   </div>
   <!-- /wp:group -->
-
-
-
-
-
-
-
-
-
-
-
 
   <!-- wp:group -->
   <div class="wp-block-group img-clip-path-wrapper w-[58%] h-full rounded-tl-[20px] overflow-hidden absolute right-0 desktop:top-0 top-[-40px] z-[0]">
