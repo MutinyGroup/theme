@@ -5,7 +5,7 @@ window.addEventListener("load", function () {
       function scrollPage() {
         let scrollPos = window.scrollY;
       
-        if (scrollPos > 1200) {
+        if (scrollPos > 1000) {
           console.log('>1200');
           // for(let i = 0 ; i < 10 ; i++){
           //   servicesTile[i].classList.add('test01');
@@ -23,7 +23,7 @@ window.addEventListener("load", function () {
           servicesTile[1].classList.add('test01');
           servicesTile[1].classList.replace('opacity-0', 'opacity-100');
         }
-        if (window.scrollY > 1400) {
+        if (window.scrollY > 1600) {
           console.log('>1400');
 
           servicesTile[2].classList.add('test01');
