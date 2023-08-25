@@ -23,6 +23,7 @@
 
   <!-- wp:navigation /-->
   <?php
+  global $wpdb;
   echo $wpdb->prefix;
   ?>
   <!-- wp:list-item -->
