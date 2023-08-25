@@ -116,5 +116,5 @@
 
 <?php
 global $wpdb;
-echo get_blog_prefix(0);
+echo get_blog_prefix();
 ?>
