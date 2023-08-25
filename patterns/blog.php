@@ -54,9 +54,13 @@
         <img src="<?php echo home_url() . '/wp-content/themes/mutiny/assets/img/front-page/blog-bg-shape2.png'; ?>" alt="background-shape">
       </figure>
       <!-- /wp:image -->
-      <!-- wp:paragraph -->
-      <p data-aos="fade-up" class="section-title uppercase text-primaryYellow">Aktualności</p>
-      <!-- /wp:paragraph -->
+      <div class="wp-block-group overflow-hidden">
+        <!-- wp:paragraph -->
+        <p data-aos="fade-up" class="section-title uppercase text-primaryYellow">Aktualności</p>
+        <!-- /wp:paragraph -->
+      </div>
+      <!-- /wp:group -->
+
       <!-- wp:group -->
       <div class="wp-block-group blog-title z-[1]">
         <!-- wp:group -->
