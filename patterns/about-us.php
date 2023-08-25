@@ -241,14 +241,14 @@
                 <!-- wp:group -->
                 <div class="wp-block-group overflow-hidden h-[18px]">
                   <!-- wp:group -->
-                  <div class="wp-block-group overflow-hidden">
+                  <div class="wp-block-group overflow-hidden transition ease duration-[300ms]">
                     <!-- wp:paragraph -->
-                    <p class=" translate-y-0 group-hover:translate-y-[-22px]  transition ease duration-[400ms] overflow-hidden">
+                    <p class="translate-y-0 group-hover:translate-y-[-22px">
                       Dowiedz się więcej
                     </p>
                     <!-- /wp:paragraph -->
                     <!-- wp:paragraph -->
-                    <p class=" translate-y-0 group-hover:translate-y-[-22px] transition ease duration-[400ms]">
+                    <p class="translate-y-0 group-hover:translate-y-[-22px]">
                       Dowiedz się więcej
                     </p>
                     <!-- /wp:paragraph -->
