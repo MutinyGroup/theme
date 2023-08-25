@@ -115,7 +115,7 @@
     </li>
     <!-- /wp:list-item -->
     <!-- wp:list-item -->
-    <li class="group desktop:mr-[25px] p-[10px_20px] text-center uppercase font-medium border-[2px] border-white rounded-full cursor-pointer hover:bg-white hover:text-black transition ease-out duration-300">
+    <li class="lang-btn group h-[48px] hover:h-[120px] blockp-[10px_20px] text-center uppercase font-medium border-[2px] border-[#AAAAAA] rounded-[50px] hover:rounded-[20px] cursor-pointer hover:bg-white hover:border-white hover:text-black transition-height ease-out duration-300">
       <!-- wp:paragraph -->
       <p class="block hover:text-primaryYellow group-hover:mb-[10px]" href="https://mutiny.webo.design/se/">LANG</p>
       <!-- wp:paragraph -->
