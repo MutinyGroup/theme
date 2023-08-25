@@ -51,9 +51,14 @@
         <!-- /wp:paragraph -->
       </div>
       <!-- /wp:group -->
-      <!-- wp:paragraph -->
-      <p data-aos="fade-up" data-aos-duration="600" class="section-title uppercase text-primaryYellow">Usługi</p>
-      <!-- /wp:paragraph -->
+      <!-- wp:group -->
+      <div class="wp-block-group overflow-hidden">
+        <!-- wp:paragraph -->
+        <p data-aos="fade-up" data-aos-duration="600" class="section-title uppercase text-primaryYellow">Usługi</p>
+        <!-- /wp:paragraph -->
+      </div>
+      <!-- /wp:group -->
+
       <!-- wp:group -->
       <div class="wp-block-group uslugi-title z-[1]">
         <!-- wp:group -->
