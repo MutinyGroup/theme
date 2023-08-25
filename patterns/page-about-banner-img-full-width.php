@@ -25,13 +25,16 @@
         <!-- /wp:group -->
         <!-- wp:group -->
         <div class="wp-block-group max-w-[75%] uslugi-title uppercase font-medium desktop:text-[60px] text-[30px] desktop:leading-[60px] leading-[30px]">
-          <!-- wp:paragraph -->
-          <p class="test01 company-title font-medium overflow-hidden">
-            <span class="block">
-              NIE BOIMY SIĘ
-            </span>
-          </p>
-          <!-- /wp:paragraph -->
+          <!-- wp:group -->
+          <div class="wp-block-group overflow-hidden">
+            <!-- wp:paragraph -->
+            <p class="test01 company-title font-medium overflow-hidden">
+              <span class="block">
+                NIE BOIMY SIĘ
+              </span>
+            </p>
+            <!-- /wp:paragraph -->
+          </div>
 
           <!-- wp:group -->
           <div class="wp-block-group overflow-hidden">
