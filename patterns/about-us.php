@@ -243,12 +243,12 @@
                   <!-- wp:group -->
                   <div class="wp-block-group translate-y-0 gro">
                     <!-- wp:paragraph -->
-                    <p class=" translate-y-0 group-hover:translate-y-[-20px] transition ease-out duration-300 overflow-hidden">
+                    <p class=" translate-y-0 group-hover:translate-y-[-20px] transition ease duration-[400ms] overflow-hidden">
                       Dowiedz się więcej
                     </p>
                     <!-- /wp:paragraph -->
                     <!-- wp:paragraph -->
-                    <p class=" translate-y-0 group-hover:translate-y-[-20px] transition ease-out duration-300 overflow-hidden">
+                    <p class=" translate-y-0 group-hover:translate-y-[-20px] transition ease duration-[400ms] overflow-hidden">
                       Dowiedz się więcej
                     </p>
                     <!-- /wp:paragraph -->
