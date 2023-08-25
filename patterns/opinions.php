@@ -18,9 +18,13 @@
       <!-- /wp:paragraph -->
       <!-- wp:group -->
       <div class="wp-block-group uslugi-title is-layout-flow">
-        <!-- wp:paragraph -->
-        <p data-aos="fade-up" class="uppercase inline-block desktop:text-[50px] text-[24px] desktop:leading-[55px] leading-[30px]">Co mówią nasi klienci?</p>
-        <!-- /wp:paragraph -->
+        <!-- wp:group -->
+        <div class="wp-block-group overflow-hidden">
+          <!-- wp:paragraph -->
+          <p data-aos="fade-up" class="uppercase inline-block desktop:text-[50px] text-[24px] desktop:leading-[55px] leading-[30px]">Co mówią nasi klienci?</p>
+          <!-- /wp:paragraph -->
+        </div>
+        <!-- /wp:group -->
       </div>
       <!-- /wp:group -->
     </div>
