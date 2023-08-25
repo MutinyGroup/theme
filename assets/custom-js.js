@@ -55,8 +55,11 @@ window.addEventListener("load", function () {
 });
 
 // ANIMATIONS
+document.addEventListener("scroll", (event) => {
+  scrollPage;
+});
 function scrollPage() {
-  const scrollPos = window.scrollY;
+  let scrollPos = window.scrollY;
 
   if (scrollPos > 500) {
     console.log('>500');
