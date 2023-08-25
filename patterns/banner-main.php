@@ -72,7 +72,7 @@
           <!-- /wp:paragraph -->
 
           <!-- wp:paragraph -->
-          <p class="company-title group font-medium text-[16px] leading-[125%] overflow-hidden">
+          <p class="company-title group font-medium overflow-hidden">
             <span class="block 1translate-y-[100%] 1group-hover:translate-y-0 transition ease-out 1duration-300">
               Wchodzimy
             </span>
