@@ -1,12 +1,12 @@
 window.addEventListener("load", function () {
       // ANIMATIONS
-      const servicesTile = document.querySelectorAll('.servicesTile');
+      const servicesTile = document.querySelector('.servicesTile');
 
       function scrollPage() {
         let scrollPos = window.scrollY;
       
         if (scrollPos > 1200) {
-          console.log(servicesTile[1]);
+          console.log(servicesTile);
           console.log('>1200');
           // for(let i = 0 ; i < 10 ; i++){
           //   servicesTile[i].classList.add('test01');
