@@ -54,7 +54,7 @@
       <!-- wp:group -->
       <div class="wp-block-group overflow-hidden">
         <!-- wp:paragraph -->
-        <p data-aos="fade-up" data-aos-duration="600" data-aos-offset="100" class="section-title uppercase text-primaryYellow">Usługi</p>
+        <p data-aos="fade-up" data-aos-duration="600" data-aos-offset="130" class="section-title uppercase text-primaryYellow">Usługi</p>
         <!-- /wp:paragraph -->
       </div>
       <!-- /wp:group -->
@@ -64,7 +64,7 @@
         <!-- wp:group -->
         <div class="wp-block-group overflow-hidden">
           <!-- wp:paragraph -->
-          <p data-aos="fade-up" data-aos-duration="600" data-aos-offset="100" class="uppercase inline-block desktop:text-[50px] text-[24px] desktop:leading-[55px] leading-[30px]">KAMPANIE REALIZUJEMY</p>
+          <p data-aos="fade-up" data-aos-duration="600" data-aos-offset="130" class="uppercase inline-block desktop:text-[50px] text-[24px] desktop:leading-[55px] leading-[30px]">KAMPANIE REALIZUJEMY</p>
           <!-- /wp:paragraph -->
         </div>
         <!-- /wp:group -->
