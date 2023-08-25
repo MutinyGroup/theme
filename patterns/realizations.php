@@ -88,7 +88,7 @@
     <!-- wp:group -->
     <div class="wp-block-group gallery-cols wide:max-w-[1260px] mx-auto relative pb-[30px]">
       <!-- wp:list -->
-      <ul class="wp-block-list w-[100%] desktop:flex flex-wrap justify-between gap-x-[8px] gap-y-[30px]">
+      <ul class="wp-block-list w-[100%] desktop:flex flex-wrap justify-center gap-x-[8px] gap-y-[30px]">
         <?php
         $args = array(
           'post_type' => 'realizacje',
