@@ -113,7 +113,7 @@
             $counter++;
             if (true) { ?>
               <!-- wp:list-item -->
-              <li class="wp-block-group swiper-slide servicesTile relative group desktop:w-[545px] w-[100%] desktop:h-[600px] h-[320px] transition duration-[300ms] ease-out <?php echo (($counter % 2)) ? "" : 'desktop:pt-[50px]'; ?>">
+              <li class="wp-block-group swiper-slide servicesTile opacity-0 relative group desktop:w-[545px] w-[100%] desktop:h-[600px] h-[320px] transition duration-[300ms] ease-out <?php echo (($counter % 2)) ? "" : 'desktop:pt-[50px]'; ?>">
                 <!-- wp:group -->
                 <div class="wp-block-group group relative gallery-tile w-full before:content-[''] before:opacity-100 before:absolute before:top-0 before:left-0 before:z-[0] before:w-full before:h-full  before:bg-center before:bg-cover before:transition before:duration-[300ms] before:ease-out <?php echo ($counter == 1) ? "clip-path-url-['#clipped-realizations-1'] tile-services-1" : (($counter == $post_query->post_count) ? "clip-path-url-['#clipped-realizations-2'] tile-services-2" : ''); ?>  z-[1] group desktop:p-[25px] desktop:h-[600px] h-[320px] overflow-hidden rounded-[20px] transition ease-out duration-300 mr-[8px] mb-[30px]">
                   <!-- wp:group -->
