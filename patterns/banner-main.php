@@ -9,7 +9,7 @@
 ?>
 
 <!-- wp:group {"templateLock":"contentOnly","anchor":true} -->
-<div id="Banner" class="wp-block-group banner group relative mb-0 pt-[110px] desktop:pt-[80px] h-fit desktop:h-auto overflow-hidden desktop:overflow-visible">
+<div id="Banner" class="wp-block-group banner relative mb-0 pt-[110px] desktop:pt-[80px] h-fit desktop:h-auto overflow-hidden desktop:overflow-visible">
   <!-- wp:group -->
   <div class="wp-block-group bg-shape z-[0] scale-[0.7] desktop:scale-[1] opacity-[10%] absolute top-[-200px] desktop:top-[120px] left-[-350px] desktop:left-[-80px]">
     <!-- wp:paragraph -->
@@ -62,33 +62,33 @@
 
 
         <!-- wp:group -->
-        <div class="wp-block-group group title-text-wrapper mb-[100px] desktop:mb-[70px] uppercase relative z-[1]">
+        <div class="wp-block-group title-text-wrapper mb-[100px] desktop:mb-[70px] uppercase relative z-[1]">
           <!-- wp:paragraph -->
-          <p data-test class="company-title group font-normal text-[16px] leading-[125%] overflow-hidden">
-            <span data-test class="block 1translate-y-[100%] 1group-hover:translate-y-0 transition ease-out 1duration-300">
+          <p data-test class="company-title font-normal text-[16px] leading-[125%] overflow-hidden">
+            <span data-test class="block transition ease-out 1duration-300">
               Mutiny Group
             </span>
           </p>
           <!-- /wp:paragraph -->
 
           <!-- wp:paragraph -->
-          <p class="company-title group font-medium overflow-hidden">
-            <span class="block 1translate-y-[100%] 1group-hover:translate-y-0 transition ease-out 1duration-300">
+          <p class="company-title font-medium overflow-hidden">
+            <span class="block transition ease-out 1duration-300">
               Wchodzimy
             </span>
           </p>
           <!-- /wp:paragraph -->
 
           <!-- wp:paragraph -->
-          <p class="company-title group font-medium overflow-hidden">
-            <span class="block 1translate-y-[100%] 1group-hover:translate-y-0 transition ease-out 1duration-300">
+          <p class="company-title font-medium overflow-hidden">
+            <span class="block transition ease-out 1duration-300">
               NA RYNEK Z MOCNYM
             </span>
           </p>
           <!-- /wp:paragraph -->
 
           <!-- wp:group -->
-          <div class="wp-block-group relative italic font-medium  company-title group overflow-hidden">
+          <div class="wp-block-group relative italic font-medium  company-title overflow-hidden">
             <!-- wp:group -->
             <div class="wp-block-group test01 flex transition ease-out 1duration-300">
               <!-- wp:group -->
@@ -145,7 +145,7 @@
     <!-- wp:group -->
     <div class="wp-block-group btn-more group desktop:w-[175px] w-[140px] desktop:h-[175px] h-[140px] mx-auto text-center rounded-full z-[1] relative desktop:absolute  desktop:bottom-auto desktop:top-[58%] wide:top-[65%] desktop:left-[56%] desktop:translate-x-[-50%] transition ease-out duration-300 flex flex-col justify-center items-center gap-y-0 cursor-pointer overflow-hidden">
       <!-- wp-group -->
-      <div class="wp-block-group yellow w-full h-full bg-primaryYellow scale-100 group-hover:scale-0 transition ease-out duration-300"></div>
+      <div class="wp-block-group yellow w-full h-full roudned-full bg-primaryYellow scale-100 group-hover:scale-0 transition ease-out duration-300"></div>
       <!-- /wp-group -->
       <!-- wp:paragraph -->
       <p>
