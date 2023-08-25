@@ -35,6 +35,7 @@
             </p>
             <!-- /wp:paragraph -->
           </div>
+          <!-- /wp:group -->
 
           <!-- wp:group -->
           <div class="wp-block-group overflow-hidden">
