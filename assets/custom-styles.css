@@ -259,8 +259,10 @@ figure[class*="logo-img"] img {
   color: black;
   border-color: white;
 }
-.wp-block-navigation__container li:last-child:hover .wp-block-navigation__container li:last-child a span{
+.wp-block-navigation__container li:last-child:hover .wp-block-navigation__container > li:last-child > a > span{
   color:red;
+  animation: textScroll 0.6s ease-out;
+  
 }
 
 @keyframes textScroll {
@@ -276,8 +278,8 @@ figure[class*="logo-img"] img {
     transform: translateY(-80px);
     opacity: 0;
   }
-  60% {
-    transform: translateY(-80px);
-    opacity: 0;
+  100% {
+    transform: translateY(0px);
+    opacity: 1;
   }
 }
