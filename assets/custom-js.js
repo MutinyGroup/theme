@@ -11,7 +11,7 @@ window.addEventListener("load", function () {
             if (scrollPos > 1000 + ((i*1.8)*200)) {
             servicesTile[i].classList.add('test02', 'opacity-100');
             servicesTile[i+1].classList.add('test02', 'opacity-100');
-            console.log(i);
+            i+1;
             };
           };
         };
