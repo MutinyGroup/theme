@@ -50,10 +50,6 @@
       </div>
       <!-- /wp:group -->
 
-      <!-- wp:paragraph -->
-      <p class="hidden section-title desktop:basis-auto desktop:w-[145px] basis-[20%] gap-[15px] uppercase text-primaryYellow ">Team Mutiny</p>
-      <!-- /wp:paragraph -->
-
 
       <!-- wp:group -->
       <div class="wp-block-group uslugi-title desktop:text-[50px] text-[24px] desktop:leading-[55px] leading-[30px]">
