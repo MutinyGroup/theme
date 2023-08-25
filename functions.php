@@ -411,4 +411,4 @@ function custom_javascript_aos()
 	</script>
 <?php
 }
-add_action('wp_head', 'ti_custom_javascript');
+add_action('wp_head', 'custom_javascript_aos');
