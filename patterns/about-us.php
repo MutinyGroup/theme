@@ -236,7 +236,23 @@
 
 
             <!-- wp:paragraph -->
-            <p><a href="<?php echo get_home_url() . '/about'; ?>" class="uppercase text-[14px] font-bold min-w-[225px] flex justify-center items-center px-[20px] btn-more ml-[0px] p-[15px_30px] border-[2px] border-white rounded-full hover:bg-white hover:text-black transition ease-out duration-300">Dowiedz się więcej</a></p>
+            <p><a href="<?php echo get_home_url() . '/about'; ?>" class="uppercase group text-[14px] font-bold min-w-[225px] flex justify-center items-center px-[20px] btn-more ml-[0px] p-[15px_30px] border-[2px] border-white rounded-full hover:bg-white hover:text-black transition ease-out duration-300 overflow-hidden">
+                <!-- wp:group -->
+                <div class="wp-block-group overflow-hidden h-[15px]">
+                  <!-- wp:group -->
+                  <div class="wp-block-group translate-y-0 gro">
+                    <span class="translate-y-0 group-hover:translate-y-[100px] transition ease-out duration-300 overflow-hidden">
+                      Dowiedz się więcej
+                    </span>
+                    <span class="translate-y-0 group-hover:translate-y-[100px] transition ease-out duration-300 overflow-hidden">
+                      Dowiedz się więcej
+                    </span>
+                  </div>
+                  <!-- wp:group -->
+                </div>
+                <!-- /wp:group -->
+              </a>
+            </p>
             <!-- /wp:paragraph -->
           </div>
           <!-- /wp:buttons -->
