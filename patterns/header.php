@@ -115,10 +115,11 @@
     </li>
     <!-- /wp:list-item -->
     <!-- wp:list-item -->
-    <li class="lang-btn group w-[90px] h-[48px] hover:h-[120px] blockp-[10px_20px] text-center uppercase font-medium border-[2px] border-[#AAAAAA] rounded-[50px] hover:rounded-[20px] cursor-pointer hover:bg-white hover:border-white hover:text-black transition-height ease-out duration-300">
+    <li class="lang-btn group w-[90px] h-[48px] hover:h-[160px] blockp-[10px_20px] text-center uppercase font-medium border-[2px] border-[#AAAAAA] rounded-[50px] hover:rounded-[20px] cursor-pointer hover:bg-white hover:border-white hover:text-black transition-height ease-out duration-300">
       <!-- wp:paragraph -->
       <p class="block hover:text-primaryYellow group-hover:mb-[10px]" href="https://mutiny.webo.design/se/">LANG</p>
       <!-- /wp:paragraph -->
+      <a class="block hover:text-primaryYellow group-hover:mb-[10px] max-h-0 opacity-0 group-hover:opacity-100 group-hover:max-h-fit transition ease-out duration-300" href="https://mutiny.webo.design/eng/">PL</a>
       <a class="block hover:text-primaryYellow group-hover:mb-[10px] max-h-0 opacity-0 group-hover:opacity-100 group-hover:max-h-fit transition ease-out duration-300" href="https://mutiny.webo.design/eng/">ENG</a>
       <a class="block hover:text-primaryYellow max-h-0 opacity-0 group-hover:opacity-100 group-hover:max-h-fit transition ease-out duration-300" href="https://mutiny.webo.design/se/">SE</a>
     </li>
