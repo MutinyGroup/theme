@@ -15,28 +15,39 @@
     <!-- wp:group -->
     <div class="wp-block-group title-wrapper relative desktop:mb-[40px] mb-[20px] desktop:mt-[90px]">
       <!-- wp:group -->
-      <div class="wp-block-group title-wrapper relative container mx-auto flex">
+      <div class="wp-block-group relative container mx-auto flex">
         <!-- wp:group -->
         <div class="wp-block-group section-title grid desktop:w-[145px] w-[90px] uppercase text-primaryYellow">
-          <!-- wp:paragraph -->
-          <p class="justify-self-end pt-[3px] pr-[15px]">USŁUGI</p>
-          <!-- /wp:paragraph -->
+          <!-- wp:group -->
+          <div class="wp-block-group h-fit overflow-hidden flex justify-end">
+            <!-- wp:paragraph -->
+            <p class="test01 justify-self-end pt-[3px] pr-[15px]">USŁUGI</p>
+            <!-- /wp:paragraph -->
+          </div>
+          <!-- /wp:group -->
         </div>
         <!-- /wp:group -->
         <!-- wp:group -->
         <div class="wp-block-group max-w-[75%] uslugi-title uppercase font-medium desktop:text-[60px] text-[30px] desktop:leading-[60px] leading-[30px]">
-          <!-- wp:paragraph -->
-          <p>JAK MOŻEMY</p>
-          <!-- /wp:paragraph -->
-          <!-- wp:paragraph -->
-          <p class="inline">Ci</p>
-          <!-- /wp:paragraph -->
-          <!-- wp:paragraph {"templateLock":"contentOnly"} -->
-          <p class="relative inline-block uppercase italic before:content-[''] before:inline-block desktop:before:mr-[8px] before:mr-[4px] before:bottom-0 before:left-0 desktop:before:w-[90px] before:w-[30px] desktop:before:h-[3px] before:h-[2px] before:bg-black">POMÓC</p>
-          <!-- /wp:paragraph -->
-          <!-- wp:paragraph -->
-          <span class="ml-[-8px] desktop:ml-[-16px] desktop:text-[100px] text-[70px] leading-[1px] desktop:leading-auto">.</span>
-          <!-- /wp:paragraph -->
+          <!-- wp:group -->
+          <div class="wp-block-group overflow-hidden">
+            <!-- wp:paragraph -->
+            <p class="test01 company-title font-medium overflow-hidden">
+              <span class="block">
+                JAK MOŻEMY
+              </span>
+            </p>
+            <!-- /wp:paragraph -->
+          </div>
+          <!-- /wp:group -->
+
+          <!-- wp:group -->
+          <div class="wp-block-group overflow-hidden">
+            <!-- wp:paragraph -->
+            <p class="uppercase test01 inline-block ">CI<span class="test01 relative ml-[12px] inline-block uppercase italic before:content-[''] before:inline-block desktop:before:mr-[18px] before:mr-[8px] before:bottom-0 before:left-0 desktop:before:w-[90px] before:w-[30px] desktop:before:h-[3px] before:h-[2px] before:bg-black">POMÓC</span></p>
+            <!-- /wp:paragraph -->
+          </div>
+          <!-- /wp:group -->
         </div>
         <!-- /wp:group -->
       </div>
