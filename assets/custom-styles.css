@@ -77,9 +77,7 @@ figure[class*="logo-img"] img {
   animation: forwards fadeInUp2 0.8s ease-out;
 }
 
-.servicesTile{
-  opacity: 0;
-}
+
 
 
 @keyframes fadeInUp {
