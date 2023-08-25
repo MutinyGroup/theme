@@ -258,7 +258,7 @@
                 <!-- /wp:group -->
               </a>
             </div>
-            <!-- /wp:paragraph -->
+            <!-- /wp:group -->
           </div>
           <!-- /wp:buttons -->
 
