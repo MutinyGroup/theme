@@ -19,7 +19,7 @@
   <!-- /wp:paragraph -->
 
   <!-- wp:group -->
-  <div class="wp-block-group container group mx-auto desktop:px-0 px-[20px] desktop:mt-0 mt-[120px] desktop:p-[110px] h-[300px] desktop:h-[700px] wide:h-[940px] ">
+  <div class="wp-block-group container mx-auto desktop:px-0 px-[20px] desktop:mt-0 mt-[120px] desktop:p-[110px] h-[300px] desktop:h-[700px] wide:h-[940px] ">
     <!-- wp:group -->
     <div class="wp-block-group title-wrapper relative desktop:mb-[80px] mb-[60px]">
       <!-- wp:group -->
