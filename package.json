@@ -45,6 +45,7 @@
     "@tailwindcss/line-clamp": "^0.4.4",
     "@tailwindcss/typography": "^0.5.9",
     "@wordpress/prettier-config": "^2.23.0",
+    "aos": "^2.3.4",
     "autoprefixer": "^10.4.15",
     "browser-sync": "2.29.3",
     "concurrently": "^8.2.0",
