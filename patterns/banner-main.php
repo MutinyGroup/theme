@@ -90,7 +90,7 @@
           <!-- wp:group -->
           <div data-aos="fade-right" class="wp-block-group relative italic font-medium  company-title overflow-hidden">
             <!-- wp:group -->
-            <div class="wp-block-group test01 flex transition ease-out 1duration-300">
+            <div class="wp-block-group test01 flex transition ease-out duration-300">
               <!-- wp:group -->
               <div class="wp-block-group self-end mb-[5px] desktop:mr-[70px] mr-[5px]  desktop:w-[280px] w-[30px] desktop:h-[6px] h-[2px] bg-white">
                 <!-- wp:paragraph -->

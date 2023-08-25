@@ -55,6 +55,3 @@ window.addEventListener("load", function () {
 });
 
 // ANIMATIONS
-
-
-
