@@ -115,9 +115,9 @@
     </li>
     <!-- /wp:list-item -->
     <!-- wp:list-item -->
-    <li class="desktop:mr-[25px] p-[10px_20px] text-center uppercase font-medium border-[2px] border-white rounded-full cursor-pointer hover:bg-white hover:text-black transition ease-out duration-300">
+    <li class="group desktop:mr-[25px] p-[10px_20px] text-center uppercase font-medium border-[2px] border-white rounded-full cursor-pointer hover:bg-white hover:text-black transition ease-out duration-300">
       <!-- wp:paragraph -->
-      <p class="block hover:text-primaryYellow group-hover:mb-[10px]" href="https://mutiny.webo.design/se/">Język</p>
+      <p class="block hover:text-primaryYellow group-hover:mb-[10px]" href="https://mutiny.webo.design/se/">LANG</p>
       <!-- wp:paragraph -->
       <a class="block hover:text-primaryYellow group-hover:mb-[10px] max-h-0 opacity-0 group-hover:opacity-100 group-hover:max-h-fit transition ease-out duration-300" href="https://mutiny.webo.design/eng/">ENG</a>
       <a class="block hover:text-primaryYellow max-h-0 opacity-0 group-hover:opacity-100 group-hover:max-h-fit transition ease-out duration-300" href="https://mutiny.webo.design/se/">SE</a>
