@@ -55,7 +55,7 @@
       <!-- /wp:group -->
 
       <!-- wp:paragraph -->
-      <p data-aos="fade-up" class="section-title uppercase text-primaryYellow">Realizacje</p>
+      <p data-aos="fade-up" data-aos-duration="600" class="section-title uppercase text-primaryYellow">Realizacje</p>
       <!-- /wp:paragraph -->
 
       <!-- wp:group -->
@@ -63,14 +63,14 @@
         <!-- wp:group -->
         <div class="wp-block-group overflow-hidden">
           <!-- wp:paragraph -->
-          <p data-aos="fade-up" class="uppercase desktop:text-[50px] text-[24px] desktop:leading-[55px] leading-[30px]">Zobacz efekty</p>
+          <p data-aos="fade-up" data-aos-duration="600" class="uppercase desktop:text-[50px] text-[24px] desktop:leading-[55px] leading-[30px]">Zobacz efekty</p>
           <!-- /wp:paragraph -->
         </div>
         <!-- /wp:group -->
         <!-- wp:group -->
         <div class="wp-block-group overflow-hidden">
           <!-- wp:paragraph {"templateLock":"contentOnly"} -->
-          <p data-aos="fade-up" class="relative ml-[12px] desktop:text-[50px] text-[24px] desktop:leading-[55px] leading-[30px] inline-block uppercase italic before:content-[''] before:inline-block desktop:before:mr-[18px] before:mr-[8px] before:bottom-0 before:left-0 desktop:before:w-[90px] before:w-[30px] desktop:before:h-[3px] before:h-[2px] before:bg-white">naszej pracy</p>
+          <p data-aos="fade-up" data-aos-duration="600" class="relative ml-[12px] desktop:text-[50px] text-[24px] desktop:leading-[55px] leading-[30px] inline-block uppercase italic before:content-[''] before:inline-block desktop:before:mr-[18px] before:mr-[8px] before:bottom-0 before:left-0 desktop:before:w-[90px] before:w-[30px] desktop:before:h-[3px] before:h-[2px] before:bg-white">naszej pracy</p>
           <!-- /wp:paragraph -->
         </div>
         <!-- /wp:group -->
