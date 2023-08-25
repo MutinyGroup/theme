@@ -54,11 +54,15 @@ window.addEventListener("load", function () {
   });
 
     // ANIMATIONS
+    const servicesTile = document.querySelector('.servicesTile');
+
+    fadeLeft
     function scrollPage() {
       let scrollPos = window.scrollY;
     
-      if (scrollPos > 500) {
-        console.log('>500');
+      if (scrollPos > 1200) {
+        servicesTile.classList.add('test01')
+        console.log('>1200');
         scrollStarted = true;
       } else if (window.scrollY < 500) {
         console.log('<500');
