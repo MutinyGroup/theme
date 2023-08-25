@@ -7,8 +7,8 @@ window.addEventListener("load", function () {
       
         if (scrollPos > 1200) {
           for(let i = 0 ; i < 10 ; i++){
-            servicesTile[i].classList.add('test01')
-            servicesTile[i].classList.replace('opacity-0', 'opacity-100')
+            servicesTile[i].classList.add('test01');
+            servicesTile[i].classList.replace('opacity-0', 'opacity-100');
             console.log(i);
           };
           console.log('>1200');
