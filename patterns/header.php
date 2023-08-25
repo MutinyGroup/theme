@@ -29,7 +29,7 @@
   if ($url == '') {
   ?>
     <!-- wp:list-item -->
-    <li class="wp-block-group lang-btn group h-[48px] hover:h-[120px] hidden desktop:block p-[10px_12px] text-center uppercase font-medium border-[2px] border-[#AAAAAA] rounded-[50px] hover:rounded-[20px] absolute top-[20px] right-[20px] hover:bg-white hover:border-white hover:text-black transition-height ease-out duration-300">
+    <li class="lang-btn group h-[48px] hover:h-[120px] hidden desktop:block p-[10px_12px] text-center uppercase font-medium border-[2px] border-[#AAAAAA] rounded-[50px] hover:rounded-[20px] absolute top-[20px] right-[20px] hover:bg-white hover:border-white hover:text-black transition-height ease-out duration-300">
       <!-- wp:paragraph -->
       <p class="block hover:text-primaryYellow group-hover:mb-[10px]">PL</p>
       <!-- /wp:paragraph -->
@@ -41,7 +41,7 @@
   } elseif ($url == 'eng') {
   ?>
     <!-- wp:list-item -->
-    <li class="wp-block-group lang-btn group h-[48px] hover:h-[120px] hidden desktop:block p-[10px_12px] text-center uppercase font-medium border-[2px] border-[#AAAAAA] rounded-[50px] hover:rounded-[20px] absolute top-[20px] right-[20px] hover:bg-white hover:border-white hover:text-black transition-height ease-out duration-300">
+    <li class="lang-btn group h-[48px] hover:h-[120px] hidden desktop:block p-[10px_12px] text-center uppercase font-medium border-[2px] border-[#AAAAAA] rounded-[50px] hover:rounded-[20px] absolute top-[20px] right-[20px] hover:bg-white hover:border-white hover:text-black transition-height ease-out duration-300">
       <!-- wp:paragraph -->
       <p class="block hover:text-primaryYellow group-hover:mb-[10px]">ENG</p>
       <!-- /wp:paragraph -->
@@ -53,7 +53,7 @@
   } elseif ($url == 'se') {
   ?>
     <!-- wp:list-item -->
-    <li class="wp-block-group lang-btn group h-[48px] hover:h-[120px] hidden desktop:block p-[10px_12px] text-center uppercase font-medium border-[2px] border-[#AAAAAA] rounded-[50px] hover:rounded-[20px] absolute top-[20px] right-[20px] hover:bg-white hover:border-white hover:text-black transition-height ease-out duration-300">
+    <li class="lang-btn group h-[48px] hover:h-[120px] hidden desktop:block p-[10px_12px] text-center uppercase font-medium border-[2px] border-[#AAAAAA] rounded-[50px] hover:rounded-[20px] absolute top-[20px] right-[20px] hover:bg-white hover:border-white hover:text-black transition-height ease-out duration-300">
       <!-- wp:paragraph -->
       <p class="block hover:text-primaryYellow group-hover:mb-[10px]">SE</p>
       <!-- /wp:paragraph -->
