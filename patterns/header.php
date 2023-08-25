@@ -33,8 +33,8 @@
       <!-- wp:paragraph -->
       <p class="block hover:text-primaryYellow group-hover:mb-[10px]">PL</p>
       <!-- /wp:paragraph -->
-      <a class="block hover:text-primaryYellow group-hover:mb-[10px] opacity-0 group-hover:opacity-100 transition ease-out duration-300" href="http://mutiny.webo.design/eng/">ENG</a>
-      <a class="block hover:text-primaryYellow opacity-0 group-hover:opacity-100 transition ease-out duration-300" href="http://mutiny.webo.design/se/">SE</a>
+      <a class="block hover:text-primaryYellow group-hover:mb-[10px] opacity-0 group-hover:opacity-100 transition ease-out duration-300" href="https://mutiny.webo.design/eng/">ENG</a>
+      <a class="block hover:text-primaryYellow opacity-0 group-hover:opacity-100 transition ease-out duration-300" href="https://mutiny.webo.design/se/">SE</a>
     </li>
     <!-- /wp:list-item -->
   <?php
