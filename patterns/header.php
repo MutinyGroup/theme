@@ -25,7 +25,7 @@
   <!-- wp:navigation /-->
 
   <?php
-  $url = substr($home_url(), 27, 3);;
+  $url = substr(home_url(), 27, 3);;
   echo $url;
   if ($url == '') {
   ?>
