@@ -145,14 +145,14 @@
     <!-- wp:group -->
     <div class="wp-block-group btn-more group desktop:w-[175px] w-[140px] desktop:h-[175px] h-[140px] mx-auto text-center rounded-full z-[1] relative desktop:absolute  desktop:bottom-auto desktop:top-[58%] wide:top-[65%] desktop:left-[56%] desktop:translate-x-[-50%] transition ease-out duration-300 flex flex-col justify-center items-center gap-y-0 cursor-pointer overflow-hidden">
       <!-- wp:group -->
-      <div class="wp-block-group yellow-bg w-full h-full  bg-primaryYellow scale-100 group-hover:scale-0 absolute transition ease-out duration-[550ms] rounded-full z-0">
+      <div class="wp-block-group yellow-bg w-full h-full rounded-full bg-primaryYellow scale-100 group-hover:scale-0 absolute transition ease-out duration-[550ms] z-0">
         <!-- wp:paragraph -->
         <p class="hidden">yellow bg</p>
         <!-- /wp:paragraph -->
       </div>
       <!-- /wp:group -->
       <!-- wp:group -->
-      <div class="wp-block-group white-bg w-full h-full  bg-white scale-0 group-hover:scale-1 absolute transition ease-out duration-[550ms] rounded-full z-[1]">
+      <div class="wp-block-group white-bg w-full h-full rounded-full bg-white scale-0 group-hover:scale-1 absolute transition ease-out duration-[550ms] z-[1]">
         <!-- wp:paragraph -->
         <p class="hidden">yellow bg</p>
         <!-- /wp:paragraph -->
@@ -160,7 +160,7 @@
       <!-- /wp:group -->
 
       <!-- wp:paragraph -->
-      <p class="z-[2]">
+      <p class="z-[2] text-black">
         <a href="#O nas" class="">
           <span class="font-bold block">Zobacz</span>
           <span class="font-bold block text-[25px]">WIĘCEJ</span>
