@@ -53,12 +53,14 @@
       <!-- wp:paragraph -->
       <p class="hidden section-title desktop:basis-auto desktop:w-[145px] basis-[20%] gap-[15px] uppercase text-primaryYellow ">Team Mutiny</p>
       <!-- /wp:paragraph -->
+
+
       <!-- wp:group -->
       <div class="wp-block-group uslugi-title desktop:text-[50px] text-[24px] desktop:leading-[55px] leading-[30px]">
         <!-- wp:group -->
         <div class="wp-block-group overflow-hidden">
           <!-- wp:paragraph -->
-          <p class="test01 company-title font-medium overflow-hidden">
+          <p data-aos="fade-up" data-aos-duration="600" data-aos-offset="130" class="company-title overflow-hidden">
             <span class="block">
               ZGRANY ZESPÓŁ
             </span>
@@ -70,7 +72,7 @@
         <!-- wp:group -->
         <div class="wp-block-group overflow-hidden">
           <!-- wp:paragraph -->
-          <p class="uppercase test01 inline-block ">TO<span class="test01 relative ml-[12px] inline-block uppercase italic before:content-[''] before:inline-block desktop:before:mr-[18px] before:mr-[8px] before:bottom-0 before:left-0 desktop:before:w-[90px] before:w-[30px] desktop:before:h-[3px] before:h-[2px] before:bg-black">PODSTAWA</span></p>
+          <p data-aos="fade-up" data-aos-duration="600" data-aos-offset="85" class="uppercase test01 inline-block ">TO<span data-aos="fade-up" data-aos-duration="600" data-aos-offset="85" class="relative ml-[12px] inline-block uppercase italic before:content-[''] before:inline-block desktop:before:mr-[18px] before:mr-[8px] before:bottom-0 before:left-0 desktop:before:w-[90px] before:w-[30px] desktop:before:h-[3px] before:h-[2px] before:bg-black">PODSTAWA</span></p>
           <!-- /wp:paragraph -->
         </div>
         <!-- /wp:group -->
