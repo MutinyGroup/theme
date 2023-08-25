@@ -7,6 +7,7 @@ window.addEventListener("load", function () {
       
         if (scrollPos > 1200) {
           servicesTile.classList.add('test01')
+          servicesTile.classList.replace('opacity-0', 'opacity-100')
           console.log('>1200');
           scrollStarted = true;
         } else if (window.scrollY < 500) {
@@ -23,7 +24,7 @@ window.addEventListener("load", function () {
       console.log('ok2');
     });
 
-    
+
   // navbar mobile handling
   const btnOpenMenu = document.querySelector(".btn-open-menu");
   const mainNavMenu = document.querySelector(".mobile-nav-menu");
