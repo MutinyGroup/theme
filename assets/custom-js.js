@@ -7,33 +7,13 @@ window.addEventListener("load", function () {
 
         if (scrollPos > 1000)  {
           console.log('>1200');
-          for(let i = 0 ; i+1 < servicesTile.length ; i++){
+          for(let i = 0 ; i < servicesTile.length ; i++){
             if (scrollPos > 1000 + ((i*1.7)*200)) {
             servicesTile[i].classList.add('test02', 'opacity-100');
             servicesTile[i+1].classList.add('test02', 'opacity-100');
-            console.log(servicesTile.length);
+            console.log(i);
+            };
           };
-        };
-      
-        // if (scrollPos > 1000) {
-        //   console.log('>1200');
-        //   servicesTile[0].classList.add('test01');
-        //   servicesTile[0].classList.replace('opacity-0', 'opacity-100');
-        //   console.log('>1200');
-        //   scrollStarted = true;
-        // } ;
-        // if (scrollPos > 1300) {
-        //   console.log('>1300');
-
-        //   servicesTile[1].classList.add('test01');
-        //   servicesTile[1].classList.replace('opacity-0', 'opacity-100');
-        // };
-        // if (window.scrollY > 1600) {
-        //   console.log('>1400');
-
-        //   servicesTile[2].classList.add('test01');
-        //   servicesTile[2].classList.replace('opacity-0', 'opacity-100');
-        // };
         };
       };
     document.addEventListener("scroll", (event) => {
