@@ -131,9 +131,5 @@
 
 
 <?php
-global $wp;
-
-echo home_url();
-echo '<br>';
-echo get_main_site_id()
+echo substr(home_url(), 27, 3);
 ?>
