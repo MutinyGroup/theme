@@ -21,7 +21,7 @@
           <!-- wp:group -->
           <div class="wp-block-group h-fit overflow-hidden flex justify-end">
             <!-- wp:paragraph -->
-            <p data-aos="fade-up" data-aos-duration="600" data-aos-offset="130" class="justify-self-end pt-[3px] pr-[15px]">O nas</p>
+            <p class="test01 justify-self-end pt-[3px] pr-[15px]">O nas</p>
             <!-- /wp:paragraph -->
           </div>
           <!-- /wp:group -->
