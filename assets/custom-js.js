@@ -1,24 +1,4 @@
 window.addEventListener("load", function () {
-  // ANIMATIONS
-  function scrollPage() {
-    let scrollPos = window.scrollY;
-  
-    if (scrollPos > 500) {
-      console.log('>500');
-      scrollStarted = true;
-    } else if (window.scrollY < 500) {
-      console.log('<500');
-      scrollStarted = false;
-    }else{
-      console.log('error');
-    }
-  }
-document.addEventListener("scroll", (event) => {
-  scrollPage();
-  scrollPage;
-  console.log('ok');
-});
-
   // navbar mobile handling
   const btnOpenMenu = document.querySelector(".btn-open-menu");
   const mainNavMenu = document.querySelector(".mobile-nav-menu");
@@ -71,6 +51,27 @@ document.addEventListener("scroll", (event) => {
       videoWrapper.classList.replace('after:z-[1]', 'after:z-[-1]');
       videoBtn.classList.replace('z-[2]', 'z-[-1]');
     },300);
+  });
+
+    // ANIMATIONS
+    function scrollPage() {
+      let scrollPos = window.scrollY;
+    
+      if (scrollPos > 500) {
+        console.log('>500');
+        scrollStarted = true;
+      } else if (window.scrollY < 500) {
+        console.log('<500');
+        scrollStarted = false;
+      }else{
+        console.log('error');
+      }
+    }
+  document.addEventListener("scroll", (event) => {
+    scrollPage();
+    console.log('ok1');
+    scrollPage;
+    console.log('ok2');
   });
 });
 
