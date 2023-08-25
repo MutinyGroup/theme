@@ -229,14 +229,19 @@
         <!-- wp:group -->
         <div class="wp-block-group button-wrapper flex justify-center items-center gap-[64px]">
           <!-- wp:buttons -->
-          <div class="wp-block-buttons ">
+          <div class="wp-block-buttons">
+            <!-- wp:paragraph -->
+            <p class="old hidden "><a href="<?php echo get_home_url() . '/about'; ?>" class="uppercase text-[14px] font-bold min-w-[225px] flex justify-center items-center px-[20px] btn-more ml-[0px] p-[15px_30px] border-[2px] border-white rounded-full hover:bg-white hover:text-black transition ease-out duration-300">Dowiedz się więcej</a></p>
+            <!-- /wp:paragraph -->
+
+
             <!-- wp:paragraph -->
             <p><a href="<?php echo get_home_url() . '/about'; ?>" class="uppercase text-[14px] font-bold min-w-[225px] flex justify-center items-center px-[20px] btn-more ml-[0px] p-[15px_30px] border-[2px] border-white rounded-full hover:bg-white hover:text-black transition ease-out duration-300">Dowiedz się więcej</a></p>
             <!-- /wp:paragraph -->
           </div>
           <!-- /wp:buttons -->
           <!-- wp:group -->
-          <div class="wp-block-group gray-border hidden desktop:inline-block w-[285px] h-[2px] bg-[#808080] opacity-[15%]">
+          <div class="new wp-block-group gray-border hidden desktop:inline-block w-[285px] h-[2px] bg-[#808080] opacity-[15%]">
             <!-- wp:paragraph -->
             <p class="hidden">gray separator</p>
             <!-- /wp:paragraph -->
