@@ -18,9 +18,13 @@
       <div class="wp-block-group title-wrapper relative container mx-auto flex">
         <!-- wp:group -->
         <div class="wp-block-group section-title grid desktop:w-[145px] w-[90px] uppercase text-primaryYellow">
-          <!-- wp:paragraph -->
-          <p class="justify-self-end pt-[3px] pr-[15px]">O nas</p>
-          <!-- /wp:paragraph -->
+          <!-- wp:group -->
+          <div class="wp-block-group h-fit overflow-hidden">
+            <!-- wp:paragraph -->
+            <p data-aos="fade-up" data-aos-duration="600" data-aos-offset="130" class="justify-self-end pt-[3px] pr-[15px]">O nas</p>
+            <!-- /wp:paragraph -->
+          </div>
+          <!-- /wp:group -->
         </div>
         <!-- /wp:group -->
         <!-- wp:group -->
