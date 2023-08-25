@@ -134,7 +134,7 @@
     <!-- /wp:group -->
 
     <!-- wp:group -->
-    <div class="wp-block-group btn-more desktop:w-[175px] w-[140px] desktop:h-[175px] h-[140px] mx-auto text-center rounded-full desktop:border-[4px] border-[3px] border-[#D5D5D5] z-[1] relative desktop:absolute  desktop:bottom-auto desktop:top-[58%] wide:top-[65%] desktop:left-[56%] desktop:translate-x-[-50%] group-hover:border-none group-hover:bg-primaryYellow group-hover:text-white transition ease-out duration-300 flex flex-col justify-center items-center gap-y-0 cursor-pointer">
+    <div class="wp-block-group btn-more bg-primaryYellow desktop:w-[175px] w-[140px] desktop:h-[175px] h-[140px] mx-auto text-center rounded-full z-[1] relative desktop:absolute  desktop:bottom-auto desktop:top-[58%] wide:top-[65%] desktop:left-[56%] desktop:translate-x-[-50%] transition ease-out duration-300 flex flex-col justify-center items-center gap-y-0 cursor-pointer">
       <!-- wp:paragraph -->
       <p>
         <a href="#O nas" class="">
