@@ -216,12 +216,8 @@
       </div>
       <!-- /wp:group -->
 
-
-
-
-
       <!-- wp:list -->
-      <ul class="wp-block-list">
+      <ul class="wp-block-list min-w-fit">
         <!-- wp:list-item -->
         <li class="wp-block-group">
           <a href="<?php echo get_home_url() . '/realizations'; ?>" class="uppercase group bg-white text-black text-[14px] font-bold min-w-fit flex justify-center items-center px-[20px] btn-more ml-[0px] p-[15px_30px] border-[2px] rounded-full  ">
@@ -244,8 +240,6 @@
         <!-- /wp:list-item -->
       </ul>
       <!-- /wp:list -->
-
-
     </div>
     <!-- /wp:group -->
   </div>
