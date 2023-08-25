@@ -237,26 +237,22 @@
 
             <!-- wp:group -->
             <div class="wp-block-group">
-              <!-- wp-paragraph -->
-              <p>
-                <a href="<?php echo get_home_url() . '/about'; ?>" class="uppercase group bg-white text-black text-[14px] font-bold min-w-[225px] flex justify-center items-center px-[20px] btn-more ml-[0px] p-[15px_30px] border-[2px] rounded-full  ">
+              <a href="<?php echo get_home_url() . '/about'; ?>" class="uppercase group bg-white text-black text-[14px] font-bold min-w-[225px] flex justify-center items-center px-[20px] btn-more ml-[0px] p-[15px_30px] border-[2px] rounded-full  ">
+                <!-- wp:group -->
+                <div class="wp-block-group overflow-hidden h-[18px]">
                   <!-- wp:group -->
-                  <div class="wp-block-group overflow-hidden h-[18px]">
-                    <!-- wp:group -->
-                    <div class="wp-block-group overflow-hidden">
-                      <!-- wp:paragraph -->
-                      <p class="translate-y-0 group-hover:translate-y-[-22px] transition ease duration-[300ms]">Dowiedz się więcej</p>
-                      <!-- /wp:paragraph -->
-                      <!-- wp:paragraph -->
-                      <p class="translate-y-0 group-hover:translate-y-[-22px] transition ease duration-[300ms]">Dowiedz się więcej</p>
-                      <!-- /wp:paragraph -->
-                    </div>
-                    <!-- /wp:group -->
+                  <div class="wp-block-group overflow-hidden">
+                    <!-- wp:paragraph -->
+                    <p class="translate-y-0 group-hover:translate-y-[-22px] transition ease duration-[300ms]">Dowiedz się więcej</p>
+                    <!-- /wp:paragraph -->
+                    <!-- wp:paragraph -->
+                    <p class="translate-y-0 group-hover:translate-y-[-22px] transition ease duration-[300ms]">Dowiedz się więcej</p>
+                    <!-- /wp:paragraph -->
                   </div>
                   <!-- /wp:group -->
-                </a>
-              </p>
-              <!-- /wp:paragraph -->
+                </div>
+                <!-- /wp:group -->
+              </a>
             </div>
             <!-- /wp:group -->
 
