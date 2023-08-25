@@ -16,10 +16,14 @@ window.addEventListener("load", function () {
           servicesTile[0].classList.replace('opacity-0', 'opacity-100');
           console.log('>1200');
           scrollStarted = true;
-        } else if (window.scrollY > 1300) {
+        } else if (scrollPos > 1300) {
+          console.log('>1300');
+
           servicesTile[1].classList.add('test01');
           servicesTile[1].classList.replace('opacity-0', 'opacity-100');
         }else if (window.scrollY > 1400) {
+          console.log('>1400');
+
           servicesTile[2].classList.add('test01');
           servicesTile[2].classList.replace('opacity-0', 'opacity-100');
         }
