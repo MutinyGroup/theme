@@ -113,9 +113,3 @@
   <!-- /wp:list -->
 </div>
 <!-- /wp:group -->
-
-<?php
-global $wp;
-$current_url = home_url(add_query_arg(array(), $wp->request));
-echo $current_url;
-?>
