@@ -119,9 +119,9 @@
       <!-- wp:paragraph -->
       <p class="block pt-[6px] hover:text-primaryYellow group-hover:mb-[10px]" href="https://mutiny.webo.design/se/">LANG</p>
       <!-- /wp:paragraph -->
-      <a class="block hover:text-primaryYellow group-hover:mb-[10px] max-h-0 opacity-0 group-hover:opacity-100 group-hover:max-h-fit transition ease-out duration-300" href="https://mutiny.webo.design/eng/">PL</a>
-      <a class="block hover:text-primaryYellow group-hover:mb-[10px] max-h-0 opacity-0 group-hover:opacity-100 group-hover:max-h-fit transition ease-out duration-300" href="https://mutiny.webo.design/eng/">ENG</a>
-      <a class="block hover:text-primaryYellow max-h-0 opacity-0 group-hover:opacity-100 group-hover:max-h-fit transition ease-out duration-300" href="https://mutiny.webo.design/se/">SE</a>
+      <a class="block hover:text-primaryYellow group-hover:mb-[10px]  opacity-0 group-hover:opacity-100  transition ease-out duration-300" href="https://mutiny.webo.design/eng/">PL</a>
+      <a class="block hover:text-primaryYellow group-hover:mb-[10px]  opacity-0 group-hover:opacity-100  transition ease-out duration-300" href="https://mutiny.webo.design/eng/">ENG</a>
+      <a class="block hover:text-primaryYellow  opacity-0 group-hover:opacity-100  transition ease-out duration-300" href="https://mutiny.webo.design/se/">SE</a>
     </li>
     <!-- /wp:list-item -->
   </ul>
