@@ -260,8 +260,9 @@ figure[class*="logo-img"] img {
   border-color: white;
 }
 .wp-block-navigation__container li:last-child:hover .wp-block-navigation-item__label{
-  transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out!important;
   text-decoration: underline;
+  text-decoration-color: #FEC400;
 }
 
 #modal-1-content > ul > li.wp-block-navigation-item.contact-from-wp-panel.p-\[10px_20px\].uppercase.border-\[2px\].border-\[\#AAAAAA\].rounded-full.cursor-pointer.hover\:bg-white.hover\:text-black.hover\:border-white.transition.ease-out.duration-300.wp-block-navigation-link > a{
