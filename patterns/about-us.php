@@ -253,7 +253,8 @@
                     <!-- /wp:group -->
                   </div>
                   <!-- /wp:group -->
-                </a></p>
+                </a>
+              </p>
               <!-- /wp:paragraph -->
             </div>
             <!-- /wp:group -->
