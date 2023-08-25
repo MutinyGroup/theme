@@ -89,7 +89,7 @@
 
           <!-- wp:paragraph -->
           <p class="relative italic font-medium  company-title group overflow-hidden">
-            <span class="block 1translate-y-[100%] 1group-hover:translate-y-0 before:content-[''] before:inline-flex desktop:before:mr-[70px] before:mr-[5px]  desktop:before:w-[280px] before:w-[30px] desktop:before:h-[6px] before:h-[2px] before:bg-white transition ease-out 1duration-300">
+            <span class="block 1translate-y-[100%] 1group-hover:translate-y-0 before:content-[''] before:inline-block desktop:before:mr-[70px] before:mr-[5px]  desktop:before:w-[280px] before:w-[30px] desktop:before:h-[6px] before:h-[2px] before:bg-white transition ease-out 1duration-300">
               UDERZENIEM.
             </span>
           </p>
