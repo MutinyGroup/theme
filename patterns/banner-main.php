@@ -65,7 +65,7 @@
         <div class="wp-block-group group title-text-wrapper mb-[100px] desktop:mb-[70px] uppercase relative z-[1]">
           <!-- wp:paragraph -->
           <p class="company-title group font-normal text-[16px] leading-[125%] overflow-hidden">
-            <span class="block translate-y-[100%] group-hover:translate-y-0 transition ease-out duration-300 ">
+            <span class="block 1translate-y-[100%] 1group-hover:translate-y-0 transition ease-out duration-300">
               Mutiny Group
             </span>
           </p>
