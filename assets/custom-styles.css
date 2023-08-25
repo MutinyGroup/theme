@@ -263,7 +263,6 @@ figure[class*="logo-img"] img {
   transition: all 0.3s ease-out;
 }
 .wp-block-navigation-item__label:hover{
-  color: red;
   transform: scale(1.2)!important;
   transition: all 0.3s ease-out;
 }
