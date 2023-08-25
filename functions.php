@@ -410,5 +410,5 @@ function custom_javascript_aos()
 		AOS.init();
 	</script>
 <?php
-}
+};
 add_action('wp_head', 'custom_javascript_aos');
