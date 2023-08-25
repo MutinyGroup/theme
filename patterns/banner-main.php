@@ -160,7 +160,7 @@
       <!-- /wp:group -->
 
       <!-- wp:paragraph -->
-      <p class="z-[2] text-black">
+      <p class="z-[2] text-white group-hover:text-black">
         <a href="#O nas" class="">
           <span class="font-bold block">Zobacz</span>
           <span class="font-bold block text-[25px]">WIĘCEJ</span>
