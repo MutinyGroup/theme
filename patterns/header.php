@@ -129,13 +129,10 @@
 </div>
 <!-- /wp:group -->
 
-<?php
-global $wp;
-$current_url = home_url(add_query_arg(array(), $wp->request));
-echo $current_url;
-?>
 
 <?php
 global $wp;
-echo home_url($wp->request)
+echo home_url($wp->request);
+echo '<br>';
+echo home_url();
 ?>
