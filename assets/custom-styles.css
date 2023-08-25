@@ -74,7 +74,6 @@ figure[class*="logo-img"] img {
   animation: fadeInUp 0.6s ease-out;
 }
 
-c-button-circle c-button-circle--large c-button-circle--purple
 
 @keyframes fadeInUp {
   0% {
