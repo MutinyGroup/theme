@@ -1,13 +1,15 @@
 window.addEventListener("load", function () {
       // ANIMATIONS
-      const servicesTile = document.querySelector('.servicesTile');
+      const servicesTile = document.querySelectorAll('.servicesTile');
 
       function scrollPage() {
         let scrollPos = window.scrollY;
       
         if (scrollPos > 1200) {
-          servicesTile.classList.add('test01')
-          servicesTile.classList.replace('opacity-0', 'opacity-100')
+          for(let i = 0 ; i < 10 ; i++){
+            servicesTile[i].classList.add('test01')
+            servicesTile[i].classList.replace('opacity-0', 'opacity-100')
+          }
           console.log('>1200');
           scrollStarted = true;
         } else if (window.scrollY < 500) {
@@ -18,10 +20,7 @@ window.addEventListener("load", function () {
         }
       }
     document.addEventListener("scroll", (event) => {
-      scrollPage();
-      console.log('ok1');
       scrollPage;
-      console.log('ok2');
     });
 
 
