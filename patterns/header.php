@@ -160,9 +160,3 @@
   <!-- /wp:list -->
 </div>
 <!-- /wp:group -->
-
-
-<?php
-$url = home_url();
-echo substr($url, 27, 3);
-?>
