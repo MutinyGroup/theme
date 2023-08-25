@@ -402,13 +402,3 @@ function wpdocs_theme_add_editor_styles_editor()
 	add_editor_style('assets/editor.css');
 }
 add_action('admin_init', 'wpdocs_theme_add_editor_styles_editor');
-
-function custom_javascript_aos()
-{
-?>
-	<script>
-		AOS.init();
-	</script>
-<?php
-};
-add_action('wp_head', 'custom_javascript_aos');
