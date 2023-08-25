@@ -152,7 +152,7 @@
       </div>
       <!-- /wp:group -->
       <!-- wp:group -->
-      <div class="wp-block-group white-bg w-full h-full rounded-full bg-white scale-0 group-hover:scale-1 absolute transition ease-out duration-[550ms] z-[1]">
+      <div class="wp-block-group white-bg w-full h-full rounded-full bg-white scale-0 group-hover:scale-100 absolute transition ease-out duration-[550ms] z-[1]">
         <!-- wp:paragraph -->
         <p class="hidden">yellow bg</p>
         <!-- /wp:paragraph -->
