@@ -67,5 +67,7 @@ function scrollPage() {
   } else if (scrollPos < 500) {
     console.log('<500');
     scrollStarted = false;
+  }else{
+    console.log('error');
   }
 }
