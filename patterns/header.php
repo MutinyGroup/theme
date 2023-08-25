@@ -22,16 +22,6 @@
   </li>
   <!-- /wp:list-item -->
 
-  <!-- wp:navigation -->
-  <!-- wp:navigation-link {"label":"O NAS","type":"page","id":99,"url":"https://mutiny.webo.design/about/","kind":"post-type"} /-->
-
-  <!-- wp:navigation-link {"label":"USŁUGI","type":"page","id":101,"url":"https://mutiny.webo.design/services/","kind":"post-type"} /-->
-
-  <!-- wp:navigation-link {"label":"REALIZACJE","type":"page","id":110,"url":"https://mutiny.webo.design/realizations/","kind":"post-type"} /-->
-
-  <!-- wp:navigation-link {"label":"AKTUALNOŚĆI","type":"page","id":112,"url":"https://mutiny.webo.design/blog/","kind":"post-type"} /-->
-
-  <!-- wp:navigation-link {"label":"KONTAKT  KONTAKT2","type":"page","id":114,"url":"https://mutiny.webo.design/contact/","kind":"post-type","className":"contact-from-wp-panel p-[10px_20px] uppercase border-[2px] border-[#AAAAAA] rounded-full cursor-pointer hover:bg-white hover:text-black hover:border-white transition ease-out duration-300"} /-->
   <!-- wp:navigation /-->
 
   <?php
