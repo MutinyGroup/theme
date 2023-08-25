@@ -89,6 +89,7 @@ figure[class*="logo-img"] img {
   animation: fadeInLeft 0.7s ease-in-out;
 }
 .smaller{
+  transition: all 0.7s ease-in-out;
   animation: fadeInRight 0.7s ease-in-out;
 }
 
