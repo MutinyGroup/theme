@@ -89,12 +89,12 @@
 
           <!-- wp:group -->
           <div class="wp-block-group relative italic font-medium  company-title group overflow-hidden">
-            <!-- wp:paragraph -->
-            <p class="test01  transition ease-out 1duration-300">
+            <!-- wp:group -->
+            <div class="wp-block-group test01  transition ease-out 1duration-300">
               <span class="1content-[''] inline-block desktop:mr-[70px] mr-[5px]  desktop:w-[280px] w-[30px] desktop:h-[6px] h-[2px] bg-white"></span>
               UDERZENIEM.
-            </p>
-            <!-- /wp:paragraph -->
+            </div>
+            <!-- /wp:group -->
           </div>
           <!-- /wp:group -->
 
