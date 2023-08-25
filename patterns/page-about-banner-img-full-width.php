@@ -58,6 +58,34 @@
     <!-- /wp:group -->
 
     <!-- wp:group -->
+    <div class="wp-block-group btn-more group desktop:w-[175px] w-[140px] desktop:h-[175px] h-[140px] mx-auto text-center rounded-full z-[1]  absolute desktop:top-[-130px] top-[320px] wide:left-[70%] desktop:left-[85%] left-[50%] translate-x-[-50%] transition ease-out duration-300 flex flex-col justify-center items-center gap-y-0 cursor-pointer  overflow-hidden">
+      <!-- wp:group -->
+      <div class="wp-block-group yellow-bg w-full h-full rounded-full bg-primaryYellow scale-100 group-hover:scale-[85%] absolute transition ease-in-out duration-[700ms] z-0">
+        <!-- wp:paragraph -->
+        <p class="hidden">yellow bg</p>
+        <!-- /wp:paragraph -->
+      </div>
+      <!-- /wp:group -->
+      <!-- wp:group -->
+      <div class="wp-block-group white-bg w-full h-full rounded-full bg-white scale-0 group-hover:scale-[85%] absolute transition ease-in-out duration-[500ms] z-[1]">
+        <!-- wp:paragraph -->
+        <p class="hidden">white bg</p>
+        <!-- /wp:paragraph -->
+      </div>
+      <!-- /wp:group -->
+
+      <!-- wp:paragraph -->
+      <p class="z-[2] text-white group-hover:text-black transition ease-in-out duration-[550ms]">
+        <a href="#O nas" class="">
+          <span class="font-bold block">Zobacz</span>
+          <span class="font-bold block text-[25px]">WIĘCEJ</span>
+        </a>
+      </p>
+      <!-- /wp:paragraph -->
+    </div>
+    <!-- /wp:group -->
+
+    <!-- wp:group -->
     <div class="wp-block-group desktop:w-[175px] w-[140px] desktop:h-[175px] h-[140px] mx-0 text-center rounded-full desktop:border-[4px] border-[3px] border-[#AAAAAA] absolute desktop:top-[-130px] top-[320px] wide:left-[70%] desktop:left-[85%] left-[50%] translate-x-[-50%] group-hover:border-none group-hover:bg-primaryYellow group-hover:text-white transition ease-out duration-300 flex flex-col justify-center items-center gap-y-0 cursor-pointer">
       <!-- wp:paragraph -->
       <p>
