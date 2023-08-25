@@ -57,7 +57,7 @@
         <div class="wp-block-group overflow-hidden">
           <!-- wp:paragraph -->
           <p data-aos="fade-up" data-aos-duration="600" data-aos-offset="130" class="company-title overflow-hidden">
-            <span class="block">
+            <span class="block uppercase">
               ZGRANY ZESPÓŁ
             </span>
           </p>
