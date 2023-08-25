@@ -106,10 +106,6 @@
             <!-- /wp:group -->
           </div>
           <!-- /wp:group -->
-
-          <!-- wp:paragraph {"templateLock":"contentOnly", "classname":"wp-class2"} -->
-          <p class="hidden relative italic font-medium before:content-[''] before:inline-block desktop:before:mr-[70px] before:mr-[5px] before:bottom-0 before:left-0 desktop:before:w-[280px] before:w-[30px] desktop:before:h-[6px] before:h-[2px] before:bg-white">UDERZENIEM.</p>
-          <!-- /wp:paragraph -->
         </div>
         <!-- /wp:group -->
 
