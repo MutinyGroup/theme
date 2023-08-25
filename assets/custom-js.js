@@ -1,21 +1,21 @@
 window.addEventListener("load", function () {
   // ANIMATIONS
+  function scrollPage() {
+    let scrollPos = window.scrollY;
+  
+    if (scrollPos > 500) {
+      console.log('>500');
+      scrollStarted = true;
+    } else if (scrollPos < 500) {
+      console.log('<500');
+      scrollStarted = false;
+    }else{
+      console.log('error');
+    }
+  }
 document.addEventListener("scroll", (event) => {
   scrollPage;
 });
-function scrollPage() {
-  let scrollPos = window.scrollY;
-
-  if (scrollPos > 500) {
-    console.log('>500');
-    scrollStarted = true;
-  } else if (scrollPos < 500) {
-    console.log('<500');
-    scrollStarted = false;
-  }else{
-    console.log('error');
-  }
-}
 
   // navbar mobile handling
   const btnOpenMenu = document.querySelector(".btn-open-menu");
