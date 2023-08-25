@@ -90,8 +90,7 @@
           <!-- wp:paragraph -->
           <p class="relative italic font-medium  company-title group overflow-hidden">
             <!-- wp:paragraph -->
-          <p><span class="before:content-[''] before:inline-block desktop:before:mr-[70px] before:mr-[5px]  desktop:before:w-[280px] before:w-[30px] desktop:before:h-[6px] before:h-[2px] before:bg-white transition ease-out 1duration-300">UDERZENIEM.</span>
-          </p>
+          <p class="test01 before:content-[''] before:inline-block desktop:before:mr-[70px] before:mr-[5px]  desktop:before:w-[280px] before:w-[30px] desktop:before:h-[6px] before:h-[2px] before:bg-white transition ease-out 1duration-300">UDERZENIEM.</p>
           <!-- /wp:paragraph -->
           </p>
           <!-- /wp:paragraph -->
