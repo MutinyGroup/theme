@@ -62,7 +62,7 @@
 
 
         <!-- wp:group -->
-        <div class="wp-block-group group title-text-wrapper mb-[100px] desktop:mb-[70px] uppercase relative z-[1]">
+        <div class="wp-block-group group title-text-wrapper overflow-y-hidden mb-[100px] desktop:mb-[70px] uppercase relative z-[1]">
           <!-- wp:paragraph -->
           <p data-test class="company-title group font-normal text-[16px] leading-[125%] overflow-hidden">
             <span data-test class="block 1translate-y-[100%] 1group-hover:translate-y-0 transition ease-out 1duration-300">
@@ -87,13 +87,15 @@
           </p>
           <!-- /wp:paragraph -->
 
-          <!-- wp:paragraph -->
-          <p class="relative italic font-medium  company-title group overflow-hidden">
+          <!-- wp:group -->
+          <div class="wp-block-group relative italic font-medium  company-title group overflow-hidden">
             <!-- wp:paragraph -->
-          <p class="test01 before:content-[''] before:inline-block desktop:before:mr-[70px] before:mr-[5px]  desktop:before:w-[280px] before:w-[30px] desktop:before:h-[6px] before:h-[2px] before:bg-white transition ease-out 1duration-300">UDERZENIEM.</p>
-          <!-- /wp:paragraph -->
-          </p>
-          <!-- /wp:paragraph -->
+            <p class="test01 before:content-[''] before:inline-block desktop:before:mr-[70px] before:mr-[5px]  desktop:before:w-[280px] before:w-[30px] desktop:before:h-[6px] before:h-[2px] before:bg-white transition ease-out 1duration-300">
+              UDERZENIEM.
+            </p>
+            <!-- /wp:paragraph -->
+          </div>
+          <!-- /wp:group -->
 
           <!-- wp:paragraph {"templateLock":"contentOnly", "classname":"wp-class2"} -->
           <p class="hidden relative italic font-medium before:content-[''] before:inline-block desktop:before:mr-[70px] before:mr-[5px] before:bottom-0 before:left-0 desktop:before:w-[280px] before:w-[30px] desktop:before:h-[6px] before:h-[2px] before:bg-white">UDERZENIEM.</p>
