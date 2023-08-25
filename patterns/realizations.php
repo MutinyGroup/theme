@@ -60,12 +60,22 @@
 
       <!-- wp:group -->
       <div class="wp-block-group realizations-title z-[1] relative">
-        <!-- wp:paragraph -->
-        <p data-aos="fade-up" class="uppercase desktop:text-[50px] text-[24px] desktop:leading-[55px] leading-[30px]">Zobacz efekty</p>
-        <!-- /wp:paragraph -->
-        <!-- wp:paragraph {"templateLock":"contentOnly"} -->
-        <p data-aos="fade-up" class="relative ml-[12px] desktop:text-[50px] text-[24px] desktop:leading-[55px] leading-[30px] inline-block uppercase italic before:content-[''] before:inline-block desktop:before:mr-[18px] before:mr-[8px] before:bottom-0 before:left-0 desktop:before:w-[90px] before:w-[30px] desktop:before:h-[3px] before:h-[2px] before:bg-white">naszej pracy</p>
-        <!-- /wp:paragraph -->
+        <!-- wp:group -->
+        <div class="wp-block-group overflow-hidden">
+          <!-- wp:paragraph -->
+          <p data-aos="fade-up" class="uppercase desktop:text-[50px] text-[24px] desktop:leading-[55px] leading-[30px]">Zobacz efekty</p>
+          <!-- /wp:paragraph -->
+        </div>
+        <!-- /wp:group -->
+        <!-- wp:group -->
+        <div class="wp-block-group overflow-hidden">
+          <!-- wp:paragraph {"templateLock":"contentOnly"} -->
+          <p data-aos="fade-up" class="relative ml-[12px] desktop:text-[50px] text-[24px] desktop:leading-[55px] leading-[30px] inline-block uppercase italic before:content-[''] before:inline-block desktop:before:mr-[18px] before:mr-[8px] before:bottom-0 before:left-0 desktop:before:w-[90px] before:w-[30px] desktop:before:h-[3px] before:h-[2px] before:bg-white">naszej pracy</p>
+          <!-- /wp:paragraph -->
+        </div>
+        <!-- /wp:group -->
+
+
       </div>
       <!-- /wp:group -->
     </div>
