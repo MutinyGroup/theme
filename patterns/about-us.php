@@ -260,7 +260,7 @@
                   <!-- /wp:group -->
                 </a>
               </p>
-              <!-- wp:paragraph -->
+              <!-- /wp:paragraph -->
             </div>
             <!-- /wp:group -->
           </div>
