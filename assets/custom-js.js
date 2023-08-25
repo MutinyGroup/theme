@@ -6,7 +6,7 @@ window.addEventListener("load", function () {
     if (scrollPos > 500) {
       console.log('>500');
       scrollStarted = true;
-    } else if (scrollPos < 500) {
+    } else if (window.scrollY < 500) {
       console.log('<500');
       scrollStarted = false;
     }else{
@@ -14,7 +14,8 @@ window.addEventListener("load", function () {
     }
   }
 document.addEventListener("scroll", (event) => {
-  scrollPage;
+  scrollPage();
+  console.log('ok');
 });
 
   // navbar mobile handling
