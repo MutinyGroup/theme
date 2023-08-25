@@ -23,7 +23,7 @@ window.addEventListener("load", function () {
         }
       }
     document.addEventListener("scroll", (event) => {
-      scrollPage;
+      scrollPage();
     });
 
 
