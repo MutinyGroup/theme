@@ -64,7 +64,11 @@
         <!-- wp:group -->
         <div class="wp-block-group title-text-wrapper mb-[100px] desktop:mb-[70px] uppercase relative z-[1]">
           <!-- wp:paragraph -->
-          <p class="company-title font-normal text-[16px] leading-[125%]">Mutiny Group</p>
+          <p class="company-title group font-normal text-[16px] leading-[125%] overflow-hidden">
+            <span class="translate-y-[100%] group-hover:translate-y-0">
+              Mutiny Group
+            </span>
+          </p>
           <!-- /wp:paragraph -->
 
           <!-- wp:paragraph -->
