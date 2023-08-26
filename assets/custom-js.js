@@ -30,12 +30,12 @@ window.addEventListener("load", function () {
       };
     };
     if (eventTile && scrollPos >= 0)  {
-      for(let i ; i < eventTile.length ; i++){
+      for(let i = 0 ; i < eventTile.length ; i++){
         if (scrollPos >= 0 + (i*270)) {
         eventTile[i].classList.add('test02');
         eventTile[i].classList.remove('opacity-0');
         i++;
-        console.log('1i ',i);
+        console.log('3i ',i);
         console.log('i*270',i*270);
         };
       };
