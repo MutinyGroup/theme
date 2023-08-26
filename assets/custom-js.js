@@ -7,7 +7,6 @@ window.addEventListener("load", function () {
   if(document.body.classList.contains('page-id-99')){
     console.log('page about');
   }else console.log('error');
-  console.log(page-id-99);
 
   function scrollPage() {
     let scrollPos = window.scrollY;
@@ -89,21 +88,22 @@ window.addEventListener("load", function () {
   })
 
   // video background image
-  const videoWrapper = document.querySelector('.js-videoWrapper');
-  const videoBtn = document.querySelector('.js-videoBtn');
-  const videoYt = document.querySelector('.video-yt');
+  if(document.body.classList.contains('page-id-99')){
+    const videoWrapper = document.querySelector('.js-videoWrapper');
+    const videoBtn = document.querySelector('.js-videoBtn');
+    const videoYt = document.querySelector('.video-yt');
 
-  
-  videoBtn.addEventListener('click', () =>{
-    videoYt.classList.replace('opacity-0', 'opacity-1');
-    videoWrapper.classList.add('after:opacity-0');
-    videoBtn.classList.add('opacity-0');
-    setTimeout(() => {
-      videoWrapper.classList.replace('after:z-[1]', 'after:z-[-1]');
-      videoBtn.classList.replace('z-[2]', 'z-[-1]');
-    },300);
-  });
-
+    
+    videoBtn.addEventListener('click', () =>{
+      videoYt.classList.replace('opacity-0', 'opacity-1');
+      videoWrapper.classList.add('after:opacity-0');
+      videoBtn.classList.add('opacity-0');
+      setTimeout(() => {
+        videoWrapper.classList.replace('after:z-[1]', 'after:z-[-1]');
+        videoBtn.classList.replace('z-[2]', 'z-[-1]');
+      },300);
+    });
+  };
 
 });
 
