@@ -3,7 +3,8 @@ window.addEventListener("load", function () {
   const servicesTile = document.querySelectorAll('.servicesTile');
   const slideBlog = document.querySelectorAll('.slideBlog');
   const eventTile = document.querySelectorAll('.event-tile');
-  if(body.classList.contains('page-id-99')){
+
+  if(window.body.classList.contains('page-id-99')){
     console.log('page about');
   }else console.log('error');
   console.log(page-id-99);
