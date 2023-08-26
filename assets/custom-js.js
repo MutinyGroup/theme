@@ -7,7 +7,6 @@ window.addEventListener("load", function () {
     let scrollPos = window.scrollY;
 
     if (servicesTile && scrollPos > 1000)  {
-      console.log('>1200');
       for(let i = 0 ; i < servicesTile.length ; i++){
         if (scrollPos > 1000 + ((i*1.5)*120)) {
         servicesTile[i].classList.add('test02');
@@ -19,7 +18,6 @@ window.addEventListener("load", function () {
       };
     };
     if (slideBlog && scrollPos >= 0)  {
-      console.log('>1200');
       for(let i = 0 ; i < slideBlog.length ; i++){
         if (scrollPos >= 0 + ((i*1.5)*150)) {
         slideBlog[i].classList.add('test02');
