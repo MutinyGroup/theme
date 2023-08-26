@@ -31,11 +31,11 @@ window.addEventListener("load", function () {
     };
     if (eventTile && scrollPos >= 0)  {
       for(let i = 0 ; i < eventTile.length ; i++){
-        if (scrollPos >= 0 + (i !=0 ? (150+(i*1.5)*150) : i)) {
+        if (scrollPos >= 0 + ( i = 0 ? ((i*1.5)*150) : i*270)) {
         eventTile[i].classList.add('test02');
         eventTile[i].classList.remove('opacity-0');
         console.log('i ',i);
-        console.log('i*270',150+(i*1.5)*150);
+        console.log('cal ',(i*0.8)*400);
         };
       };
     };
