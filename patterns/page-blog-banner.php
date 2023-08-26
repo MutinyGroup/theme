@@ -22,7 +22,7 @@
         <div class="wp-block-group section-title grid desktop:w-[145px] desktop:basis-auto uppercase text-primaryYellow">
 
           <!-- wp:group -->
-          <div class="wp-block-group overflow-hidden">
+          <div class="wp-block-group h-fit overflow-hidden">
             <!-- wp:paragraph -->
             <p class="test01 company-title font-medium overflow-hidden">
               <span class="block">
