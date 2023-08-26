@@ -113,7 +113,7 @@
     <!-- /wp:group -->
 
     <!-- wp:group -->
-    <div class="hidden wp-block-group desktop:w-[175px] w-[140px] desktop:h-[175px] h-[140px] desktop:mx-0 mb-[80px] dekstop:mb-0 text-center rounded-full desktop:border-[4px] border-[3px] border-[#AAAAAA] mx-auto desktop:absolute desktop:top-[-130px] top-[310px] wide:left-[70%] desktop:left-[85%] left-[50%] desktop:translate-x-[-50%] group-hover:border-none group-hover:bg-primaryYellow group-hover:text-white transition ease-out duration-300 flex flex-col justify-center items-center gap-y-0 cursor-pointer">
+    <div class="hidden wp-block-group desktop:w-[175px] w-[140px] desktop:h-[175px] h-[140px] desktop:mx-0 mb-[80px] dekstop:mb-0 text-center rounded-full desktop:border-[4px] border-[3px] border-[#AAAAAA] mx-auto desktop:absolute desktop:top-[-130px] top-[310px] wide:left-[70%] desktop:left-[85%] left-[50%] desktop:translate-x-[-50%] group-hover:border-none group-hover:bg-primaryYellow group-hover:text-white transition ease-out duration-300 fleex flex-col justify-center items-center gap-y-0 cursor-pointer">
       <!-- wp:paragraph -->
       <p>
         <a href="#Eventy">
