@@ -68,7 +68,7 @@
           $postImageUrl = wp_get_attachment_image_src(get_post_thumbnail_id(), 'portrait');
           if (true) { ?>
             <!-- wp:list-item -->
-            <li class="event-tile group desktop:flex gap-[75px] mb-[50px]">
+            <li class="event-tile group desktop:flex gap-[75px] mb-[50px] opacity-0 transition duration-[800ms]">
               <!-- wp:group -->
               <div class="wp-block-group event-image-wrapper desktop:mb-0 mb-[20px] max-h-[400px] overflow-hidden w-full rounded-[20px]">
                 <!-- wp:image -->
