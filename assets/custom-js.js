@@ -1,39 +1,41 @@
 window.addEventListener("load", function () {
-      // ANIMATIONS
-      const servicesTile = document.querySelectorAll('.servicesTile');
-      const slideBlog = document.querySelectorAll('.slideBlog');
+  // ANIMATIONS
+  const servicesTile = document.querySelectorAll('.servicesTile');
+  const slideBlog = document.querySelectorAll('.slideBlog');
 
-      function scrollPage() {
-        let scrollPos = window.scrollY;
+  function scrollPage() {
+    let scrollPos = window.scrollY;
 
-        if (servicesTile && scrollPos > 1000)  {
-          console.log('>1200');
-          for(let i = 0 ; i < servicesTile.length ; i++){
-            if (scrollPos > 1000 + ((i*1.8)*150)) {
-            servicesTile[i].classList.add('test02');
-            servicesTile[i].classList.remove('opacity-0');
-            servicesTile[i+1].classList.add('test02');
-            servicesTile[i+1].classList.remove('opacity-0');
-            i=i+1;
-            };
-          };
-        };
-        if (slideBlog && scrollPos >= 0)  {
-          console.log('>1200');
-          for(let i = 0 ; i < slideBlog.length ; i++){
-            if (scrollPos >= 0 + ((i*1.8)*200)) {
-            slideBlog[i].classList.add('test02');
-            slideBlog[i].classList.remove('opacity-0');
-            slideBlog[i+1].classList.add('test02');
-            slideBlog[i+1].classList.remove('opacity-0');
-            i=i+1;
-            };
-          };
+    if (servicesTile && scrollPos > 1000)  {
+      console.log('>1200');
+      for(let i = 0 ; i < servicesTile.length ; i++){
+        if (scrollPos > 1000 + ((i*1.7)*150)) {
+        servicesTile[i].classList.add('test02');
+        servicesTile[i].classList.remove('opacity-0');
+        servicesTile[i+1].classList.add('test02');
+        servicesTile[i+1].classList.remove('opacity-0');
+        i=i+1;
         };
       };
-    document.addEventListener("scroll", (event) => {
-      scrollPage();
-    });
+    };
+    if (slideBlog && scrollPos >= 0)  {
+      console.log('>1200');
+      for(let i = 0 ; i < slideBlog.length ; i++){
+        if (scrollPos >= 0 + ((i*1.8)*200)) {
+        slideBlog[i].classList.add('test02');
+        slideBlog[i].classList.remove('opacity-0');
+        slideBlog[i+1].classList.add('test02');
+        slideBlog[i+1].classList.remove('opacity-0');
+        i=i+1;
+        };
+      };
+    };
+  };
+  scrollPage();
+
+  document.addEventListener("scroll", (event) => {
+  scrollPage();
+  });
 
 
   // navbar mobile handling
