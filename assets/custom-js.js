@@ -35,7 +35,7 @@ window.addEventListener("load", function () {
         eventTile[i].classList.add('test02');
         eventTile[i].classList.remove('opacity-0');
         console.log('i ',i);
-        console.log('i*270',i*270);
+        console.log('i*270',150+(i*1.5)*150);
         };
       };
     };
