@@ -2,6 +2,7 @@ window.addEventListener("load", function () {
   // ANIMATIONS
   const servicesTile = document.querySelectorAll('.servicesTile');
   const slideBlog = document.querySelectorAll('.slideBlog');
+  const eventTile = document.querySelectorAll('.event-tile');
 
   function scrollPage() {
     let scrollPos = window.scrollY;
@@ -24,6 +25,17 @@ window.addEventListener("load", function () {
         slideBlog[i].classList.remove('opacity-0');
         slideBlog[i+1].classList.add('test02');
         slideBlog[i+1].classList.remove('opacity-0');
+        i=i+1;
+        };
+      };
+    };
+    if (eventTile && scrollPos >= 0)  {
+      for(let i = 0 ; i < eventTile.length ; i++){
+        if (scrollPos >= 0 + ((i*1.5)*150)) {
+        eventTile[i].classList.add('test02');
+        eventTile[i].classList.remove('opacity-0');
+        eventTile[i+1].classList.add('test02');
+        eventTile[i+1].classList.remove('opacity-0');
         i=i+1;
         };
       };

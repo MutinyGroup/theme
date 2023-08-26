@@ -70,7 +70,7 @@
           $counter++;
           if (true) { ?>
             <!-- wp:list-item -->
-            <li class="event-tile group">
+            <li class="event-tile group opacity-0 transition duration-[800ms]">
               <!-- wp:group -->
               <div class="wp-block-group tile-container desktop:flex gap-[75px] mb-[50px]">
                 <!-- wp:group -->
