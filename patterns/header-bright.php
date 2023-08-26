@@ -75,7 +75,7 @@
 <!-- /wp:list -->
 
 <!-- wp:group -->
-<div id="Menu-mobile" class="wp-block-group nav-mobile h-[60px] desktop:hidden block container mx-auto px-[20px] bg-[#F2F2F2] z-[2] fixed top-0 left-0 transition ease-out duration-300">
+<div id="Menu-mobile" class="wp-block-group nav-mobile h-[60px] desktop:hidden block container mx-auto px-[20px] bg-[#F2F2F2] z-[4] fixed top-0 left-0 transition ease-out duration-300">
   <!-- wp:list -->
   <ul class="wp-block-list h-full flex justify-between items-center">
     <!-- wp:list-item -->
