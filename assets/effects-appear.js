@@ -40,12 +40,10 @@ window.addEventListener("load", function () {
   scrollPage();
 
   function bannerAppear(){
-    console.log('run');
     console.log(scrollPos);
     if (bannerAbout && scrollPos >= 0)  {
       bannerAbout.classList.add('test03');
       bannerAbout.classList.remove('opacity-0');
-      console.log('if ok');
     };
   }
 
@@ -53,6 +51,5 @@ window.addEventListener("load", function () {
   document.addEventListener("scroll", (event) => {
   scrollPage();
   });
-
 });
 
