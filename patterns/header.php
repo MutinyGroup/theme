@@ -68,7 +68,7 @@
 <!-- /wp:list -->
 
 <!-- wp:group {"templateLock":"all","lock":{"move":true,"remove":true},"anchor":true} -->
-<div id="Mobile" class="wp-block-group nav-mobile h-[60px] desktop:hidden container mx-auto px-[20px] bg-[#101010] z-[2] fixed top-0 left-0 transition ease-out duration-300">
+<div id="Mobile" class="wp-block-group nav-mobile h-[60px] desktop:hidden container mx-auto px-[20px] bg-[#101010] z-[4] fixed top-0 left-0 transition ease-out duration-300">
   <!-- wp:group -->
   <div class="wp-block-group h-full flex justify-between items-center">
     <!-- wp:paragraph -->
