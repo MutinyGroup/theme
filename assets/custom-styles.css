@@ -76,6 +76,9 @@ figure[class*="logo-img"] img {
 .test02{
   animation: forwards fadeInUp2 0.8s ease-out;
 }
+.test02{
+  animation: forwards imgAppear 0.3s ease-out;
+}
 
 
 
@@ -93,6 +96,17 @@ figure[class*="logo-img"] img {
   0% {
     opacity: 0!important;
     transform: translateX(-120px);
+  }
+
+  100% {
+    opacity: 1!important;
+    transform: translateY(0);
+  }
+}
+@keyframes imgAppear {
+  0% {
+    opacity: 0!important;
+    transform: translateX(-60px);
   }
 
   100% {
