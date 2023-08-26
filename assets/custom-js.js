@@ -30,7 +30,7 @@ window.addEventListener("load", function () {
         };
       };
     };
-    if (eventTilej && scrollPos >= 0)  {
+    if (eventTile && scrollPos >= 0)  {
       for(j ; j < eventTile.length ; j++){
         if (scrollPos >= 0 + (i*270)) {
         eventTile[j].classList.add('test02');
