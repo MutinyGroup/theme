@@ -3,7 +3,6 @@ window.addEventListener("load", function () {
   const servicesTile = document.querySelectorAll('.servicesTile');
   const slideBlog = document.querySelectorAll('.slideBlog');
   const eventTile = document.querySelectorAll('.event-tile');
-  let j = 0;
 
   function scrollPage() {
     let scrollPos = window.scrollY;
@@ -31,12 +30,12 @@ window.addEventListener("load", function () {
       };
     };
     if (eventTile && scrollPos >= 0)  {
-      for(j ; j < eventTile.length ; j++){
-        if (scrollPos >= 0 + (i*270)) {
-        eventTile[j].classList.add('test02');
-        eventTile[j].classList.remove('opacity-0');
+      for(let i = 0 ; i < eventTile.length ; i++){
+        if (scrollPos >= 0 + ((i*1.5)*150)) {
+        eventTile[i].classList.add('test02');
+        eventTile[i].classList.remove('opacity-0');
         i++;
-        console.log('3j ',i);
+        console.log('i ',i);
         console.log('i*270',i*270);
         };
       };
@@ -45,7 +44,7 @@ window.addEventListener("load", function () {
   scrollPage();
 
   document.addEventListener("scroll", (event) => {
-  scrollPage(j);
+  scrollPage();
   });
 
 
