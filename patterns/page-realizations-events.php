@@ -3,7 +3,7 @@
 /**
  * Title: page-realizations-events
  * Slug: page-realizations-events
- * Categories: text, banner
+ * Categories: text, śnner
  * Viewport Width: 1280
  */
 ?>
@@ -70,13 +70,13 @@
           $counter++;
           if (true) { ?>
             <!-- wp:list-item -->
-            <li class="event-tile group opacity-0 transition duration-[800ms]">
+            <li class="event-tile group mb-[50px] opacity-0 transition duration-[800ms]">
               <!-- wp:group -->
-              <div class="wp-block-group tile-container desktop:flex gap-[75px] mb-[50px]">
+              <div class="wp-block-group tile-container desktop:flex gap-[75px]">
                 <!-- wp:group -->
-                <div class="wp-block-group event-image-wrapper desktop:mb-0 mb-[20px] max-h-[400px] overflow-hidden w-full rounded-[20px]">
+                <div class="wp-block-group event-image-wrapper desktop:mb-0 mb-[20px] h-[400px] overflow-hidden w-full rounded-[20px]">
                   <!-- wp:image -->
-                  <figure class="wp-block-image event-image grayscale scale-[1] group-hover:scale-[1.04] group-hover:grayscale-0 transition ease-out duration-[500ms]">
+                  <figure class="wp-block-image event-image h-full grayscale scale-[1] group-hover:scale-[1.04] group-hover:grayscale-0 transition ease-out duration-[500ms]">
                     <img src="<?php echo $postImageUrl[0]; ?>" alt="realization-post-img" />
                   </figure>
                   <!-- /wp:image -->
