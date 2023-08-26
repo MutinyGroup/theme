@@ -1,11 +1,12 @@
 window.addEventListener("load", function () {
       // ANIMATIONS
       const servicesTile = document.querySelectorAll('.servicesTile');
+      const slideBlog = document.querySelectorAll('.slideBlog');
 
       function scrollPage() {
         let scrollPos = window.scrollY;
 
-        if (scrollPos > 1000)  {
+        if (servicesTile && scrollPos > 1000)  {
           console.log('>1200');
           for(let i = 0 ; i < servicesTile.length ; i++){
             if (scrollPos > 1000 + ((i*1.8)*200)) {
@@ -13,6 +14,18 @@ window.addEventListener("load", function () {
             servicesTile[i].classList.remove('opacity-0');
             servicesTile[i+1].classList.add('test02');
             servicesTile[i+1].classList.remove('opacity-0');
+            i=i+1;
+            };
+          };
+        };
+        if (slideBlog && scrollPos > 1000)  {
+          console.log('>1200');
+          for(let i = 0 ; i < slideBlog.length ; i++){
+            if (scrollPos > 1000 + ((i*1.8)*200)) {
+            slideBlog[i].classList.add('test02');
+            slideBlog[i].classList.remove('opacity-0');
+            slideBlog[i+1].classList.add('test02');
+            slideBlog[i+1].classList.remove('opacity-0');
             i=i+1;
             };
           };
