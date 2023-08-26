@@ -34,7 +34,7 @@ window.addEventListener("load", function () {
         if (scrollPos >= 0 + (i*270)) {
         eventTile[i].classList.add('test02');
         eventTile[i].classList.remove('opacity-0');
-        // i=i+1;
+        console.log(i*270);
         };
       };
     };
