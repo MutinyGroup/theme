@@ -9,7 +9,7 @@ window.addEventListener("load", function () {
     if (servicesTile && scrollPos > 1000)  {
       console.log('>1200');
       for(let i = 0 ; i < servicesTile.length ; i++){
-        if (scrollPos > 1000 + ((i*1.6)*150)) {
+        if (scrollPos > 1000 + ((i*1.5)*150)) {
         servicesTile[i].classList.add('test02');
         servicesTile[i].classList.remove('opacity-0');
         servicesTile[i+1].classList.add('test02');
