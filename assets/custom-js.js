@@ -18,7 +18,7 @@ window.addEventListener("load", function () {
             };
           };
         };
-        if (slideBlog && scrollPos > 1000)  {
+        if (slideBlog && scrollPos > 0)  {
           console.log('>1200');
           for(let i = 0 ; i < slideBlog.length ; i++){
             if (scrollPos > 1000 + ((i*1.8)*200)) {
