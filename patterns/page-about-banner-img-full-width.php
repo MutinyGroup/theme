@@ -60,7 +60,7 @@
   </div>
   <!-- /wp:group -->
   <!-- wp:group -->
-  <div class="wp-block-group test03 about-banner-img relative h-[500px] desktop:h-auto opacity-0 transition duration-[300ms]">
+  <div class="wp-block-group about-banner-img relative h-[500px] desktop:h-auto opacity-0 transition duration-[300ms]">
     <!-- wp:group -->
     <div class="wp-block-group overflow-hidden w-full h-[350px] desktop:h-[500px]">
       <!-- wp:image -->
