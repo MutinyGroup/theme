@@ -3,12 +3,12 @@ window.addEventListener("load", function () {
   const servicesTile = document.querySelectorAll('.servicesTile');
   const slideBlog = document.querySelectorAll('.slideBlog');
   const eventTile = document.querySelectorAll('.event-tile');
-  let i = 0;
+
   function scrollPage() {
     let scrollPos = window.scrollY;
 
     if (servicesTile && scrollPos > 1000)  {
-      for( i = 0 ; i < servicesTile.length ; i++){
+      for(let i = 0 ; i < servicesTile.length ; i++){
         if (scrollPos > 1000 + ((i*1.5)*120)) {
         servicesTile[i].classList.add('test02');
         servicesTile[i].classList.remove('opacity-0');
@@ -19,7 +19,7 @@ window.addEventListener("load", function () {
       };
     };
     if (slideBlog && scrollPos >= 0)  {
-      for( i = 0 ; i < slideBlog.length ; i++){
+      for(let i = 0 ; i < slideBlog.length ; i++){
         if (scrollPos >= 0 + ((i*1.5)*150)) {
         slideBlog[i].classList.add('test02');
         slideBlog[i].classList.remove('opacity-0');
@@ -30,12 +30,12 @@ window.addEventListener("load", function () {
       };
     };
     if (eventTile && scrollPos >= 0)  {
-      for( i = 0 ; i < eventTile.length ; i++){
+      for(let i ; i < eventTile.length ; i++){
         if (scrollPos >= 0 + (i*270)) {
         eventTile[i].classList.add('test02');
         eventTile[i].classList.remove('opacity-0');
         i++;
-        console.log('2i ',i);
+        console.log('1i ',i);
         console.log('i*270',i*270);
         };
       };
