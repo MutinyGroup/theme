@@ -76,7 +76,7 @@ figure[class*="logo-img"] img {
 .test02{
   animation: forwards fadeInUp2 0.8s ease-out;
 }
-.test02{
+.test03{
   animation: forwards imgAppear 0.3s ease-out;
 }
 

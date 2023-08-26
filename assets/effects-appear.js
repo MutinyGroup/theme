@@ -48,7 +48,7 @@ window.addEventListener("load", function () {
       console.log('if ok');
     };
   }
-  bannerAppear();
+
 
   document.addEventListener("scroll", (event) => {
   scrollPage();
