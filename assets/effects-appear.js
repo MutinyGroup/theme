@@ -1,5 +1,4 @@
 window.addEventListener("load", function () {
-  // ANIMATIONS
   let scrollPos = window.scrollY;
   const servicesTile = document.querySelectorAll('.servicesTile');
   const slideBlog = document.querySelectorAll('.slideBlog');
@@ -42,6 +41,7 @@ window.addEventListener("load", function () {
 
   function bannerAppear(){
     console.log('run');
+    console.log(scrollPos);
     if (bannerAbout && scrollPos == 0)  {
       bannerAbout.classList.add('test02');
       bannerAbout.classList.remove('opacity-0');
