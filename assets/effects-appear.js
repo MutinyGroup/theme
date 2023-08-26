@@ -41,9 +41,11 @@ window.addEventListener("load", function () {
   scrollPage();
 
   function bannerAppear(){
+    console.log('run');
     if (bannerAbout && scrollPos == 0)  {
       bannerAbout.classList.add('test02');
       bannerAbout.classList.remove('opacity-0');
+      console.log('if ok');
     };
   }
   bannerAppear();
