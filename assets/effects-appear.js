@@ -3,7 +3,7 @@ window.addEventListener("load", function () {
   const servicesTile = document.querySelectorAll('.servicesTile');
   const slideBlog = document.querySelectorAll('.slideBlog');
   const eventTile = document.querySelectorAll('.event-tile');
-  const bannerAbout = document.querySelectorAll('.about-banner-img');
+  const bannerAbout = document.querySelector('.about-banner-img');
 
   function scrollPage() {
     let scrollPos = window.scrollY;
@@ -43,12 +43,8 @@ window.addEventListener("load", function () {
 
   function bannerAppear(){
     if (bannerAbout && scrollPos == 0)  {
-      for(let i = 0 ; i < bannerAbout.length ; i++){
-        if (scrollPos >= 0 + (i>1 ? (((i*1.5)*150) + i*130) : ((i*1.5)*150))) {
-        bannerAbout[i].classList.add('test02');
-        bannerAbout[i].classList.remove('opacity-0');
-        };
-      };
+      bannerAbout.classList.add('test02');
+      bannerAbout.classList.remove('opacity-0');
     };
   }
   bannerAppear();
