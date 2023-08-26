@@ -9,7 +9,7 @@
 ?>
 
 <!-- wp:group {"templateLock":"contentOnly","anchor":true} -->
-<div id="Banner" class="wp-block-group archive-banner desktop:mb-[150px]">
+<div id="Banner" class="wp-block-group archive-banner desktop:mb-[250px]">
   <!-- wp:group -->
   <div class="wp-block-group container relative mx-auto desktop:px-0 px-[20px]">
     <!-- wp:group -->
@@ -33,9 +33,6 @@
 
         <!-- wp:group -->
         <div class="wp-block-group uslugi-title uppercase font-medium desktop:text-[60px] text-[30px] desktop:leading-[60px] leading-[30px]">
-
-
-
           <!-- wp:group -->
           <div class="wp-block-group overflow-hidden">
             <!-- wp:paragraph -->
