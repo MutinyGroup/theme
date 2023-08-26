@@ -4,10 +4,6 @@ window.addEventListener("load", function () {
   const slideBlog = document.querySelectorAll('.slideBlog');
   const eventTile = document.querySelectorAll('.event-tile');
 
-  if(document.body.classList.contains('page-id-99')){
-    console.log('page about');
-  }else console.log('error');
-
   function scrollPage() {
     let scrollPos = window.scrollY;
 
@@ -35,7 +31,7 @@ window.addEventListener("load", function () {
     };
     if (eventTile && scrollPos >= 0)  {
       for(let i = 0 ; i < eventTile.length ; i++){
-        if (scrollPos >= 0 + (i>1 ? (((i*1.5)*150) + (i*1.2)*100) : ((i*1.5)*150))) {
+        if (scrollPos >= 0 + (i>1 ? (i*150 + (i*1.2)*100) : ((i*1.5)*150))) {
         eventTile[i].classList.add('test02');
         eventTile[i].classList.remove('opacity-0');
         };
