@@ -21,7 +21,7 @@ window.addEventListener("load", function () {
         if (slideBlog && scrollPos > 0)  {
           console.log('>1200');
           for(let i = 0 ; i < slideBlog.length ; i++){
-            if (scrollPos > 1000 + ((i*1.8)*200)) {
+            if (scrollPos > 0 + ((i*1.8)*200)) {
             slideBlog[i].classList.add('test02');
             slideBlog[i].classList.remove('opacity-0');
             slideBlog[i+1].classList.add('test02');
