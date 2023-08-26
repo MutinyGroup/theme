@@ -105,12 +105,12 @@ figure[class*="logo-img"] img {
 }
 @keyframes imgAppear {
   0% {
-    opacity: 0!important;
+    visibility: hidden;
     transform: translateX(-60px);
   }
 
   100% {
-    opacity: 1!important;
+    visibility: visible;
     transform: translateY(0);
   }
 }
