@@ -29,7 +29,7 @@
       <!-- wp:group -->
       <div class="wp-block-group title-wrapper relative container mx-auto flex">
         <!-- wp:group -->
-        <div class="wp-block-group section-title grid desktop:w-[145px] desktop:basis-[80%] uppercase text-primaryYellow">
+        <div class="wp-block-group section-title grid desktop:w-[145px] desktop:basis-auto uppercase text-primaryYellow">
           <!-- wp:paragraph -->
           <p class="justify-self-end pt-[3px] pr-[15px]">Archiwum</p>
           <!-- /wp:paragraph -->
@@ -55,7 +55,7 @@
           <!-- wp:paragraph -->
           <p class="relative inline-block uppercase italic before:content-[''] before:inline-block desktop:before:mr-[8px] before:mr-[4px] before:bottom-0 before:left-0 desktop:before:w-[90px] before:w-[30px] desktop:before:h-[3px] before:h-[2px] before:bg-black">
             <?php
-            $currentCategory2 = str_replace('/', '', substr("http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]", 39, 30));
+            $currentCategory2 = str_replace('/', '', substr("http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]", 35, 30));
             echo $currentCategory2;
             ?>
           </p>
