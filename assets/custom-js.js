@@ -7,6 +7,7 @@ window.addEventListener("load", function () {
   const bannerAbout = document.querySelector('.about-banner-img');
 
   function scrollPage() {
+    let scrollPos = window.scrollY;
     if (servicesTile && scrollPos > 1000)  {
       for(let i = 0 ; i < servicesTile.length+1 ; i++){
         if (scrollPos > 1100 + ((i*1.3)*180)) {
