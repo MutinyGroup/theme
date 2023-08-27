@@ -46,7 +46,7 @@
       <!-- wp:group -->
       <div class="wp-block-group h-fit overflow-hidden">
         <!-- wp:paragraph -->
-        <p data-aos="fade-up" data-aos-duration="600" data-aos-offset="130" class="section-title desktop:basis-auto desktop:w-[145px] uppercase text-primaryYellow text-right pr-[20px]">Marketing robimy kompleksowo</p>
+        <p data-aos="fade-up" data-aos-duration="600" data-aos-offset="130" class="section-title block desktop:basis-auto desktop:w-[175px] pt-[4px] uppercase text-primaryYellow text-right pr-[20px]">Marketing robimy kompleksowo</p>
         <!-- /wp:paragraph -->
       </div>
       <!-- /wp:group -->
