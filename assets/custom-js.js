@@ -1,45 +1,39 @@
 window.addEventListener("load", function () {
   // ANIMATIONS
-  const servicesTile = document.querySelector('.servicesTile');
-  const servicesTileArr = document.querySelectorAll('.servicesTile');
-  const slideBlog = document.querySelectorAll('.slideBlog');
-  const eventTile = document.querySelectorAll('.event-tile');
-
-  if (servicesTile){
-    console.log('true');
-    console.log(servicesTileArr);
-  }else console.log('false');
+  const servicesTiles = document.querySelectorAll('.servicesTile');
+  const slidesBlog = document.querySelectorAll('.slideBlog');
+  const eventTiles = document.querySelectorAll('.event-tile');
 
   function scrollPage() {
     let scrollPos = window.scrollY;
 
-    if (servicesTile.length>0 && scrollPos > 1000)  {
-      for(let i = 0 ; i < servicesTile.length+1 ; i++){
+    if (servicesTiles.length > 0 && scrollPos > 1000)  {
+      for(let i = 0 ; i < servicesTiles.length+1 ; i++){
         if (scrollPos > 1100 + ((i*1.3)*180)) {
-        servicesTile[i].classList.add('test02');
-        servicesTile[i].classList.remove('opacity-0');
-        servicesTile[i+1].classList.add('test02');
-        servicesTile[i+1].classList.remove('opacity-0');
+        servicesTiles[i].classList.add('test02');
+        servicesTiles[i].classList.remove('opacity-0');
+        servicesTiles[i+1].classList.add('test02');
+        servicesTiles[i+1].classList.remove('opacity-0');
         i=i+1;
         };
       };
     };
-    if (slideBlog && scrollPos >= 0)  {
-      for(let i = 0 ; i < slideBlog.length ; i++){
+    if (slidesBlog.length > 0 && scrollPos >= 0)  {
+      for(let i = 0 ; i < slidesBlog.length ; i++){
         if (scrollPos >= 0 + ((i*1.5)*150)) {
-        slideBlog[i].classList.add('test02');
-        slideBlog[i].classList.remove('opacity-0');
-        slideBlog[i+1].classList.add('test02');
-        slideBlog[i+1].classList.remove('opacity-0');
+        slidesBlog[i].classList.add('test02');
+        slidesBlog[i].classList.remove('opacity-0');
+        slidesBlog[i+1].classList.add('test02');
+        slidesBlog[i+1].classList.remove('opacity-0');
         i=i+1;
         };
       };
     };
-    if (eventTile && scrollPos >= 0)  {
-      for(let i = 0 ; i < eventTile.length ; i++){
+    if (eventTiles.length > 0 && scrollPos >= 0)  {
+      for(let i = 0 ; i < eventTiles.length ; i++){
         if (scrollPos >= 0 + (i>1 ? (((i*1.5)*150) + i*130) : ((i*1.5)*150))) {
-        eventTile[i].classList.add('test02');
-        eventTile[i].classList.remove('opacity-0');
+        eventTiles[i].classList.add('test02');
+        eventTiles[i].classList.remove('opacity-0');
         };
       };
     };
