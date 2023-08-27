@@ -13,7 +13,7 @@ window.addEventListener("load", function () {
   function scrollPage() {
     let scrollPos = window.scrollY;
 
-    if (servicesTile && scrollPos > 1000)  {
+    if (servicesTile.length>0 && scrollPos > 1000)  {
       for(let i = 0 ; i < servicesTile.length+1 ; i++){
         if (scrollPos > 1100 + ((i*1.3)*180)) {
         servicesTile[i].classList.add('test02');
