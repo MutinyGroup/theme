@@ -13,7 +13,7 @@ window.addEventListener("load", function () {
         servicesTile[i].classList.remove('opacity-0');
         servicesTile[i+1].classList.add('test02');
         servicesTile[i+1].classList.remove('opacity-0');
-        i=i+1;
+        // i=i+1;
         };
       };
     };
