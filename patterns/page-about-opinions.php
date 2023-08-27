@@ -93,7 +93,7 @@
         <!-- wp:list -->
         <ul class="wp-block-list swiper-wrapper">
           <!-- wp:list-item -->
-          <li class="swiper-slide relative z-[2] group desktop:max-w-[444px] max-w-[80%] desktop:h-[430px] max-h-[530px] mr-[40px] desktop:mr-[90px]">
+          <li class="swiper-slide relative z-[2] group desktop:max-w-[444px] max-w-[80%] desktop:h-[430px] max-h-[530px] mr-[40px] desktop:mr-[90px] opacity-0 transition duration-[300ms] ease-out">
             <!-- wp:group -->
             <div class="wp-block-group quote-sign desktop:mb-[35px] mb-[20px] desktop:mt-0 mt-[40px]">
               <!-- wp:paragraph -->
@@ -131,7 +131,7 @@
           </li>
           <!-- /wp:list-item -->
           <!-- wp:list-item -->
-          <li class="swiper-slide relative z-[2] group desktop:max-w-[444px] max-w-[80%] desktop:h-[430px] max-h-[530px] mr-[40px] desktop:mr-[90px]">
+          <li class="swiper-slide relative z-[2] group desktop:max-w-[444px] max-w-[80%] desktop:h-[430px] max-h-[530px] mr-[40px] desktop:mr-[90px] opacity-0 transition duration-[300ms] ease-out">
             <!-- wp:group -->
             <div class="wp-block-group quote-sign desktop:mb-[35px] mb-[20px] desktop:mt-0 mt-[40px]">
               <!-- wp:paragraph -->
@@ -169,7 +169,7 @@
           </li>
           <!-- /wp:list-item -->
           <!-- wp:list-item -->
-          <li class="swiper-slide relative z-[2] group desktop:max-w-[444px] max-w-[80%] desktop:h-[430px] max-h-[530px] mr-[40px] desktop:mr-[90px]">
+          <li class="swiper-slide relative z-[2] group desktop:max-w-[444px] max-w-[80%] desktop:h-[430px] max-h-[530px] mr-[40px] desktop:mr-[90px] opacity-0 transition duration-[300ms] ease-out">
             <!-- wp:group -->
             <div class="wp-block-group quote-sign desktop:mb-[35px] mb-[20px] desktop:mt-0 mt-[40px]">
               <!-- wp:paragraph -->
@@ -207,7 +207,7 @@
           </li>
           <!-- /wp:list-item -->
           <!-- wp:list-item -->
-          <li class="swiper-slide relative z-[2] group desktop:max-w-[444px] max-w-[80%] desktop:h-[430px] max-h-[530px] mr-[40px] desktop:mr-[90px]">
+          <li class="swiper-slide relative z-[2] group desktop:max-w-[444px] max-w-[80%] desktop:h-[430px] max-h-[530px] mr-[40px] desktop:mr-[90px] opacity-0 transition duration-[300ms] ease-out">
             <!-- wp:group -->
             <div class="wp-block-group quote-sign desktop:mb-[35px] mb-[20px] desktop:mt-0 mt-[40px]">
               <!-- wp:paragraph -->
