@@ -6,6 +6,7 @@ window.addEventListener("load", function () {
 
   if (servicesTile){
     console.log('true');
+    console.log(servicesTile);
   }else console.log('false');
 
   function scrollPage() {
