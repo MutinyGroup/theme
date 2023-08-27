@@ -1,4 +1,5 @@
 window.addEventListener("load", function () {
+  console.log('new js');
   let scrollPos = window.scrollY;
   const servicesTile = document.querySelectorAll('.servicesTile');
   const slideBlog = document.querySelectorAll('.slideBlog');
