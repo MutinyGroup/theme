@@ -1,6 +1,7 @@
 window.addEventListener("load", function () {
   // ANIMATIONS
-  const servicesTile = document.querySelectorAll('.servicesTile');
+  const servicesTile = document.querySelector('.servicesTile');
+  const servicesTileArr = document.querySelectorAll('.servicesTile');
   const slideBlog = document.querySelectorAll('.slideBlog');
   const eventTile = document.querySelectorAll('.event-tile');
 
