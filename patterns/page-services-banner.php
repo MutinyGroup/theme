@@ -21,7 +21,7 @@
           <!-- wp:group -->
           <div class="wp-block-group h-fit overflow-hidden flex justify-end">
             <!-- wp:paragraph -->
-            <p class="test01 justify-self-end pt-[3px] pr-[15px]">USŁUGI</p>
+            <p class="test01 justify-self-end pt-[4px] pr-[15px]">USŁUGI</p>
             <!-- /wp:paragraph -->
           </div>
           <!-- /wp:group -->
@@ -32,11 +32,7 @@
           <!-- wp:group -->
           <div class="wp-block-group overflow-hidden">
             <!-- wp:paragraph -->
-            <p class="test01 company-title font-medium overflow-hidden">
-              <span class="block">
-                JAK MOŻEMY
-              </span>
-            </p>
+            <p class="test01 company-title font-medium overflow-hidden"><span class="block">JAK MOŻEMY</span></p>
             <!-- /wp:paragraph -->
           </div>
           <!-- /wp:group -->
@@ -90,12 +86,7 @@
       <!-- /wp:group -->
 
       <!-- wp:paragraph -->
-      <p class="z-[2] text-white group-hover:text-black transition ease-in-out duration-[550ms]">
-        <a href="#Kafelki">
-          <span class="font-bold block">Zobacz</span>
-          <span class="font-bold block text-[25px]">WIĘCEJ</span>
-        </a>
-      </p>
+      <p class="z-[2] text-white group-hover:text-black transition ease-in-out duration-[550ms]"><a href="#Kafelki"><span class="font-bold block">Zobacz</span><span class="font-bold block text-[25px]">WIĘCEJ</span></a></p>
       <!-- /wp:paragraph -->
     </div>
     <!-- /wp:group -->
