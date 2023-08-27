@@ -10,7 +10,7 @@
 <!-- wp:group {"templateLock":"contentOnly","anchor":true} -->
 <div id="Usługi" class="wp-block-group uslugi desktop:mb-[150px] mb-[80px]">
   <!-- wp:group -->
-  <div class="wp-block-group desktop:mb-[150px] mb-[80px] relative overflow-hidden desktop:overflow-visible">
+  <div class="wp-block-group desktop:mb-[150px] mb-[80px] pt-[100px] desktop:pt-0 relative overflow-hidden desktop:overflow-visible">
     <!-- wp:group -->
     <div class="wp-block-group title-wrapper relative container mx-auto desktop:px-0 px-[20px] desktop:mb-[80px] mb-[50px] desktop:mt-0 flex gap-[20px]">
       <!-- wp:group -->
@@ -82,7 +82,7 @@
     </div>
     <!-- /wp:group -->
     <!-- wp:group -->
-    <div class="wp-block-group circle-title desktop:w-[120px] desktop:h-[120px] w-[110px] h-[110px] mx-0 text-center leading-[50px] flex items-center justify-center flex-col rounded-full border-[4px] border-[#D5D5D5] absolute desktop:top-[150px] top-[110px] desktop:left-[180px] left-[80px] translate-x-[-50%]">
+    <div class="wp-block-group circle-title desktop:w-[120px] desktop:h-[120px] w-[110px] h-[110px] mt-[80px] desktop:mt-0 mx-0 text-center leading-[50px] flex items-center justify-center flex-col rounded-full border-[4px] border-[#D5D5D5] absolute desktop:top-[150px] top-[180px] desktop:left-[180px] left-[80px] translate-x-[-50%]">
       <!-- wp:paragraph -->
       <p class="self-center leading-[0px] desktop:text-[14px] text-[13px]">Marketing na</p>
       <!-- /wp:paragraph -->
@@ -98,7 +98,7 @@
     <!-- wp:group -->
     <div class="wp-block-group mt-[80px] desktop:mt-[-120px] w-full h-[380px] desktop:h-[660px] wide:h-[720px] overflow-hidden swiper-services-editor">
       <!-- wp:group -->
-      <div id="services" class="wp-block-group swiper swiperServices w-screen desktop:w-[calc(100%-90px)] desktop:pt-[180px] absolute top-[300px] desktop:top-[160px] left-[20px] desktop:left-[90px]">
+      <div id="services" class="wp-block-group swiper swiperServices w-screen desktop:w-[calc(100%-90px)] desktop:pt-[180px] absolute top-[400px] desktop:top-[160px] left-[20px] desktop:left-[90px]">
         <!-- wp:group -->
         <div class="wp-block-group swiper-wrapper desktop:h-[480px] wide:h-[530px]">
           <?php
