@@ -46,11 +46,3 @@ window.addEventListener("load", function () {
   scrollPage();
   });
 });
-
-function bannerAppear(){
-  console.log(scrollPos);
-  if (bannerAbout && scrollPos >= 0)  {
-    bannerAbout.classList.remove('opacity-0');
-  };
-};
-bannerAppear();
