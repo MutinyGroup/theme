@@ -106,7 +106,7 @@
 
       <!-- wp:paragraph -->
       <p class="z-[2] text-white group-hover:text-black transition ease-in-out duration-[550ms]">
-        <a href="#<?php echo get_home_url() . '/contact'; ?>" class="">
+        <a href="<?php echo get_home_url() . '/contact'; ?>" class="">
           <span class="font-bold block">POZNAJ</span>
           <span class="font-bold block text-[25px]">OFERTĘ</span>
         </a>
