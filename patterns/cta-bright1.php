@@ -52,7 +52,6 @@
       </div>
       <!-- /wp:group -->
 
-
       <!-- wp:group -->
       <div class="wp-block-group h-fit overflow-hidden">
         <!-- wp:paragraph -->
@@ -63,7 +62,6 @@
 
       <!-- wp:group -->
       <div class="wp-block-group cta-title font-normal desktop:text-[65px] text-[32px] desktop:leading-[71px] leading-[36px] z-[1] relative">
-
 
         <!-- wp:group -->
         <div class="wp-block-group overflow-hidden">
@@ -83,9 +81,6 @@
       <!-- /wp:group -->
     </div>
     <!-- /wp:group -->
-
-
-
 
     <!-- wp:group -->
     <div class="wp-block-group btn-more group desktop:w-[175px] w-[140px] desktop:h-[175px] h-[140px] mx-auto text-center rounded-full  relative   desktop:ml-[120px] group-hover:bg-primaryYellow group-hover:text-white transition ease-out duration-300 flex flex-col justify-center items-center gap-y-0 cursor-pointer z-[1] overflow-hidden">
