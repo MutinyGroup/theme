@@ -44,7 +44,7 @@
       <!-- wp:group -->
       <div class="wp-block-group h-fit overflow-hidden">
         <!-- wp:paragraph -->
-        <p data-aos="fade-up" data-aos-duration="600" data-aos-offset="130" class="section-title desktop:w-[145px] desktop:basis-auto uppercase text-primaryYellow ">Poznajmy się</p>
+        <p data-aos="fade-up" data-aos-duration="600" data-aos-offset="130" class="section-title desktop:w-[145px] pt-[5px] desktop:basis-auto uppercase text-primaryYellow ">Poznajmy się</p>
         <!-- /wp:paragraph -->
       </div>
       <!-- /wp:group -->

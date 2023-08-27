@@ -62,7 +62,7 @@
       <!-- /wp:group -->
 
       <!-- wp:group -->
-      <div class="wp-block-group cta-title font-normal desktop:text-[65px] text-[32px] desktop:leading-[70px] leading-[36px] z-[1] relative">
+      <div class="wp-block-group cta-title font-normal desktop:text-[65px] text-[32px] desktop:leading-[71px] leading-[36px] z-[1] relative">
 
 
         <!-- wp:group -->
@@ -105,12 +105,7 @@
       <!-- /wp:group -->
 
       <!-- wp:paragraph -->
-      <p class="z-[2] text-white group-hover:text-black transition ease-in-out duration-[550ms]">
-        <a href="<?php echo get_home_url() . '/contact'; ?>" class="">
-          <span class="font-bold block">POZNAJ</span>
-          <span class="font-bold block text-[25px]">OFERTĘ</span>
-        </a>
-      </p>
+      <p class="z-[2] text-white group-hover:text-black transition ease-in-out duration-[550ms]"><a href="<?php echo get_home_url() . '/contact'; ?>"><span class="font-bold block">POZNAJ</span><span class="font-bold block text-[25px]">OFERTĘ</span></a></p>
       <!-- /wp:paragraph -->
     </div>
     <!-- /wp:group -->
