@@ -35,16 +35,13 @@
       </p>
       <!-- /wp:paragraph -->
 
-
       <!-- wp:group -->
       <div class="wp-block-group h-fit overflow-hidden">
         <!-- wp:paragraph -->
-        <p data-aos="fade-up" data-aos-duration="600" data-aos-offset="130" class="section-title desktop:basis-auto desktop:w-[145px] basis-[20%] uppercase text-primaryYellow text-right pr-[20px]">Nasze <br> podejście</p>
+        <p data-aos="fade-up" data-aos-duration="600" data-aos-offset="130" class="section-title desktop:basis-auto desktop:w-[145px] basis-[20%] uppercase text-primaryYellow text-right pt-[4px] pr-[20px]">Nasze <br> podejście</p>
         <!-- /wp:paragraph -->
       </div>
       <!-- /wp:group -->
-
-
 
       <!-- wp:group -->
       <div class="wp-block-group uslugi-title font-medium">
@@ -64,7 +61,6 @@
         <!-- /wp:group -->
       </div>
       <!-- /wp:group -->
-
 
       <!-- wp:group -->
       <div class="hidden wp-block-group uslugi-title">
@@ -128,12 +124,10 @@
               <p class="my-[50px] text-[35px] leading-[42px] font-semibold uppercase relative">Mamy nieszablonowe <br />podejście</p>
               <!-- /wp:paragraph -->
               <!-- wp:paragraph -->
-              <p class="mb-[50px] text-[20px] leading-[30px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, seddo eiusmod tempor incididunt ut labore et dolore magnaaliqua. Ut enim ad minim veniam, quis nostrud exercitationullamco laboris nisi ut aliquip ex ea commodo consequat.
-              </p>
+              <p class="mb-[50px] text-[20px] leading-[30px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, seddo eiusmod tempor incididunt ut labore et dolore magnaaliqua. Ut enim ad minim veniam, quis nostrud exercitationullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
               <!-- /wp:paragraph -->
               <!-- wp:paragraph -->
-              <p class="mb-[50px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, seddo eiusmod tempor incididunt ut labore et dolore magnaaliqua. Ut enim ad minim veniami.
-              </p>
+              <p class="mb-[50px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, seddo eiusmod tempor incididunt ut labore et dolore magnaaliqua. Ut enim ad minim veniami.</p>
               <!-- /wp:paragraph -->
               <!-- wp:list -->
               <ul class="wp-block-list leading-[32px] font-semibold">
