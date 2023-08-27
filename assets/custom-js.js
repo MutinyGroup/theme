@@ -1,8 +1,13 @@
 window.addEventListener("load", function () {
   // ANIMATIONS
+  let scrollPos = window.scrollY;
   const servicesTile = document.querySelectorAll('.servicesTile');
   const slideBlog = document.querySelectorAll('.slideBlog');
   const eventTile = document.querySelectorAll('.event-tile');
+
+  if (servicesTile){
+    console.log('true');
+  }else console.log('false');
 
   function scrollPage() {
     let scrollPos = window.scrollY;
