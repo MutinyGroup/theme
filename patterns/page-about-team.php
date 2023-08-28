@@ -20,7 +20,7 @@
     </p>
     <!-- /wp:paragraph -->
     <!-- wp:group -->
-    <div class="wp-block-group title-wrapper desktop:pt-[20px] desktop:bg-[#f2f2f2] desktop:z-[2] container mx-auto desktop:mb-[120px] mb-[60px] flex">
+    <div class="wp-block-group title-wrapper desktop:pt-[20px] desktop:bg-[#f2f2f2] desktop:z-[2] container mx-auto desktop:mb-[120px] mb-[60px] desktop:flex">
       <!-- wp:paragraph -->
       <p>
         <svg class="flash desktop:scale-[1] scale-[0.4] absolute desktop:top-[-330px] top-[-360px] desktop:left-[-140px] right-[-100px] z-[0]" xmlns="http://www.w3.org/2000/svg" width="688" height="801" viewBox="0 0 688 801" fill="none">
