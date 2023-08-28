@@ -12,6 +12,8 @@ window.addEventListener("load", function () {
     })
   }); 
 
+  let scrollPos = window.scrollY;
+
   document.addEventListener("scroll", (event) => {
     if (scrollPos > 300)  {
       observer.observe(document.querySelector('.swiperServices'));
