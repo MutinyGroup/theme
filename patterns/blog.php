@@ -152,7 +152,7 @@
                       <!-- /wp:group -->
                     </a>
                   </p>
-                  <!-- wp:paragraph -->
+                  <!-- /wp:paragraph -->
                 <?php
                 } else { ?>
                   <!-- wp:group -->
