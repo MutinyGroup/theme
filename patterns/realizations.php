@@ -215,6 +215,7 @@
                 </li>
                 <!-- /wp:list-item -->
               </a>
+              <!-- /wp:paragraph -->
         <?php
             }
           };

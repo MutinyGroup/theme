@@ -202,6 +202,7 @@
                 </div>
                 <!-- /wp:group -->
               </a>
+              <!-- /wp:paragraph -->
           <?php
             };
           };
