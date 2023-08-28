@@ -61,14 +61,6 @@
         <!-- /wp:group -->
       </div>
       <!-- /wp:group -->
-
-      <!-- wp:group -->
-      <div class="hidden wp-block-group uslugi-title">
-        <!-- wp:paragraph -->
-        <p class="uppercase desktop:text-[50px] text-[24px] desktop:leading-[55px] leading-[30px]">Dlaczego warto z nami <br><span class="relative desktop:text-[50px] text-[24px] uppercase italic before:content-[''] before:inline-block desktop:before:mr-[8px] before:mr-[4px] before:bottom-0 before:left-0 desktop:before:w-[90px] before:w-[30px] desktop:before:h-[3px] before:h-[2px] before:bg-black">współpracować</span></p>
-        <!-- /wp:paragraph -->
-      </div>
-      <!-- /wp:group -->
     </div>
     <!-- /wp:group -->
 
@@ -101,12 +93,14 @@
               <div class="wp-block-group h-[250px] w-[800px]">
                 <!-- wp:group -->
                 <div class="wp-block-group img-clip-path-wrapper mb-[50px] w-full h-full rounded-[20px] overflow-hidden">
-                  <!-- wp:image -->
+                  <!-- wp:paragraph -->
+                  <p data-aos="fade-right" data-aos-duration="600" data-aos-offset="85">
+                    <!-- wp:image -->
                   <figure class="wp-block-image h-full clip-path-url-['#clipped-why'] group-hover:grayscale transition ease-in-out duration-[400ms]">
                     <img src="<?php echo home_url() . '/wp-content/themes/mutiny/assets/img/page-services/why-img1.jpg'; ?>" alt="services-background-image" />
                   </figure>
                   <!-- /wp:image -->
-                  <!-- wp:paragraph -->
+
                   <svg x="0px" y="0px" viewBox="0 0 1374.7 1083.6" class="absolute top-0">
                     <defs>
                       <clipPath id="clipped-why" class="scale-[0.0038] scale-x-[0.0013]" clipPathUnits="objectBoundingBox">
@@ -114,6 +108,7 @@
                       </clipPath>
                     </defs>
                   </svg>
+                  </p>
                   <!-- /wp:paragraph -->
                 </div>
                 <!-- /wp:group -->
@@ -137,10 +132,14 @@
                 </li>
                 <!-- /wp:list-item -->
                 <!-- wp:list-item -->
-                <li class="before:content-[''] before:inline-block before:mr-[5px] before:mb-[5px] before:w-[20px] before:h-[2px] before:bg-primaryYellow"><p data-aos="fade-right" data-aos-duration="600" data-aos-offset="85">Consectetur adipiscing elit</p></li>
+                <li class="before:content-[''] before:inline-block before:mr-[5px] before:mb-[5px] before:w-[20px] before:h-[2px] before:bg-primaryYellow">
+                  <p data-aos="fade-right" data-aos-duration="600" data-aos-offset="85">Consectetur adipiscing elit</p>
+                </li>
                 <!-- /wp:list-item -->
                 <!-- wp:list-item -->
-                <li class="before:content-[''] before:inline-block before:mr-[5px] before:mb-[5px] before:w-[20px] before:h-[2px] before:bg-primaryYellow"><p data-aos="fade-right" data-aos-duration="600" data-aos-offset="85">Sed do eiusmod tempor incididunt</p></li>
+                <li class="before:content-[''] before:inline-block before:mr-[5px] before:mb-[5px] before:w-[20px] before:h-[2px] before:bg-primaryYellow">
+                  <p data-aos="fade-right" data-aos-duration="600" data-aos-offset="85">Sed do eiusmod tempor incididunt</p>
+                </li>
                 <!-- /wp:list-item -->
               </ul>
               <!-- /wp:list -->
