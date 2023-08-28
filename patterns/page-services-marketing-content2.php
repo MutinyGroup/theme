@@ -67,11 +67,11 @@
     <!-- /wp:group -->
 
     <!-- wp:group -->
-    <div class="wp-block-group text-cols-wrapper flex desktop:gap-[0px] gap-[20px] basis desktop:mb-[100px] mb-[50px]">
+    <div class="wp-block-group text-cols-wrapper desktop flex desktop:gap-[0px] gap-[20px] basis desktop:mb-[100px] mb-[50px]">
       <!-- wp:group -->
-      <div class="wp-block-group col1 desktop:pl-[155px] basis-[40%]">
+      <div class="wp-block-group col1 desktop:pl-[155px] basis-[40%] mb-[40px]">
         <!-- wp:paragraph -->
-        <p class="max-w-[173px] text-[16px] leading-[21px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+        <p data-aos="fade-right" data-aos-duration="600" data-aos-offset="130" class="max-w-[173px] text-[16px] leading-[21px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
         <!-- /wp:paragraph -->
       </div>
       <!-- /wp:group -->
@@ -85,16 +85,16 @@
         </p>
         <!-- /wp:paragraph -->
         <!-- wp:paragraph -->
-        <p class="desktop:text-[20px] text-[18px] desktop:leading-[30px] leading-[26px] pb-[50px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doeiusmod tempor incididunt ut labore et dolore magna aliqua. Utenim ad minim veniam, quis nostrud exercitation ullamco laborisnisi ut aliquip ex ea commodo consequat.</p>
+        <p data-aos="fade-right" data-aos-duration="600" data-aos-offset="130" class="desktop:text-[20px] text-[18px] desktop:leading-[30px] leading-[26px] pb-[50px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doeiusmod tempor incididunt ut labore et dolore magna aliqua. Utenim ad minim veniam, quis nostrud exercitation ullamco laborisnisi ut aliquip ex ea commodo consequat.</p>
         <!-- /wp:paragraph -->
         <!-- wp:paragraph -->
-        <p class="hidden desktop:block pb-[50px] text-[16px] leading-[21px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <p data-aos="fade-right" data-aos-duration="600" data-aos-offset="130" class="hidden desktop:block pb-[50px] text-[16px] leading-[21px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
         <!-- /wp:paragraph -->
         <!-- wp:paragraph -->
-        <p class="pb-[30px] text-[20px] font-medium">Co dostaniesz w ramach usługi?</p>
+        <p data-aos="fade-right" data-aos-duration="600" data-aos-offset="130" class="pb-[30px] text-[20px] font-medium">Co dostaniesz w ramach usługi?</p>
         <!-- /wp:paragraph -->
         <!-- wp:paragraph -->
-        <p class="desktop:block text-[16px] leading-[21px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <p data-aos="fade-right" data-aos-duration="600" data-aos-offset="130" class="desktop:block text-[16px] leading-[21px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
         <!-- /wp:paragraph -->
       </div>
       <!-- /wp:group -->
