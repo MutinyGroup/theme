@@ -8,8 +8,19 @@
  */
 ?>
 
+<header class="site-header" id="site-header">
+  <h1 class="site-title">Site Title</h1>
+  <nav class="site-nav">
+    <ul class="nav-items">
+      <li class="nav-item">About</li>
+      <li class="nav-item">Contact</li>
+      <li class="nav-item">Search</li>
+    </ul>
+  </nav>
+</header>
+
 <!-- wp:list {"templateLock":"contentOnly","anchor":true} -->
-<ul id="Desktop" class="wp-block-list nav-desktop h-[60px] desktop:h-[90px] fixed top-0 w-[100%] hidden desktop:flex justify-center items-center z-[4]">
+<ul id="Menu-desktop" class="wp-block-list nav-desktop h-[60px] desktop:h-[90px] fixed top-0 w-[100%] hidden desktop:flex justify-center items-center z-[4]">
   <!-- wp:list-item -->
   <li>
     <a href="https://mutiny.webo.design" class="fixed top-[32px] left-[22px] z-[4]">

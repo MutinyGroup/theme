@@ -3,6 +3,61 @@ window.addEventListener("load", function () {
   const servicesTiles = document.querySelectorAll('.servicesTile');
   const slidesBlog = document.querySelectorAll('.slideBlog');
   const eventTiles = document.querySelectorAll('.event-tile');
+  const header = document.querySelectorAll('.Menu-desktop');
+
+// test
+ const siteHeader = document.getElementById('site-header');
+ const siteContent = document.getElementById('content-wrap');
+ let siteHeaderHeight = siteHeader.offsetHeight;
+ 
+ siteHeader.classList.add('header-position-fixed');
+ siteContent.style.paddingTop = siteHeaderHeight + 'px';
+ 
+ 
+ function updateHeaderPadding() {
+     siteHeaderHeight = siteHeader.offsetHeight;
+     siteContent.style.transition = 'padding-top 0.3s ease-in-out';
+     siteContent.style.paddingTop = siteHeaderHeight + 'px';
+ }
+ 
+ setInterval(updateHeaderPadding, 500);
+ 
+ // initial reference offset for header animation -- top of window
+ let refOffset = 0;
+ 
+ const headerAppearsOnScrollUp = () => {
+     // get current offset
+     const newOffset = window.scrollY || window.pageYOffset;
+ 
+     //below bottom of header
+     if(newOffset > siteHeaderHeight) {
+         if(newOffset > refOffset) {
+             // scrolled down; animate header off screen
+             siteHeader.classList.remove('animateIn');
+             siteHeader.classList.add('animateOut');
+         }
+         else {
+             // scrolled up; animate header on screen
+             siteHeader.classList.remove('animateOut');
+             siteHeader.classList.add('animateIn');
+         }
+ 
+         // update offset to current value
+         refOffset = newOffset;
+     }
+ }
+ 
+ window.addEventListener('scroll', headerAppearsOnScrollUp, false); 
+
+//  end test
+ 
+
+
+
+
+
+
+
 
   function scrollPage() {
     let scrollPos = window.scrollY;
