@@ -3,6 +3,16 @@ window.addEventListener("load", function () {
   const servicesTiles = document.querySelectorAll('.servicesTile');
   const slidesBlog = document.querySelectorAll('.slideBlog');
   const eventTiles = document.querySelectorAll('.event-tile');
+  const servicesSwiper = document.querySelectorAll('#services');
+
+  const observer = new IntersectionObserver((entries) => { 
+    entries.forEach((entry) => {
+        console.log(entry.target);
+        console.log('visible');
+    })
+}); 
+
+observer.observe(document.querySelector('.skills__list-item'));
 
   function scrollPage() {
     let scrollPos = window.scrollY;
