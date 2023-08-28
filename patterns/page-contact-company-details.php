@@ -20,7 +20,7 @@
     <!-- wp:paragraph -->
     <svg x="0px" y="0px" viewBox="0 0 1374.7 1083.6" class="absolute top-0">
       <defs>
-        <clipPath id="clipped-contact" class="scale-[0.00133] scale-x-[0.00160]" clipPathUnits="objectBoundingBox">
+        <clipPath id="clipped-contact" class="scale-[0.00160] scale-x-[0.0024]" clipPathUnits="objectBoundingBox">
           <path d="M0.000976562 20C0.000976562 8.95431 8.95528 0 20.001 0H444V553H167.134C159.175 553 151.543 549.838 145.916 544.209L8.78322 407.017C3.15991 401.391 0.000976562 393.762 0.000976562 385.808V20Z" />
         </clipPath>
       </defs>
