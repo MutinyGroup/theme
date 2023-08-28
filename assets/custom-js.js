@@ -42,7 +42,6 @@ window.addEventListener("load", function () {
   function isInViewport(element) {
     if(element!=null){
     const rect = element.getBoundingClientRect();
-    if(rect!=null){
     return (
         rect.top >= 0 &&
         rect.left >= 0 &&
