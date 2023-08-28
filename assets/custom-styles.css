@@ -304,14 +304,6 @@ figure[class*="logo-img"] img {
 
 
 /* animated header */
-*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; border: 0; }
-html { font-size: 100%; line-height: 1.5; }
-main { margin: 1em;}
-p { 
-  max-width: 65ch;
-  margin-bottom: 1em; 
-}
-
 .site-header {
   background-color: lightblue;
   padding: 1em;
@@ -325,11 +317,6 @@ p {
   display: flex;
   list-style-type: none;
 }
-
-.nav-item:not(:first-child) {
-  margin-left: 1em;
-}
-
 
 /***** Animated Header on Scroll *****/
 .animateIn{ transform: translateY(0px); }
