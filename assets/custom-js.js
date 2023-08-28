@@ -40,7 +40,7 @@ window.addEventListener("load", function () {
 
 
   function isInViewport(element) {
-    if(element!=null){
+    if(servicesSwiper!=null){
     const rect = element.getBoundingClientRect();
     return (
         rect.top >= 0 &&
