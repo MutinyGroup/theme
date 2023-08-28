@@ -9,7 +9,7 @@
 ?>
 
 <!-- wp:group {"templateLock":"contentOnly","anchor":true} -->
-<div id="Kafelki" class="wp-block-group page-about-services desktop:mt-[150px]">
+<div id="Kafelki" class="wp-block-group page-about-services desktop:mt-[150px] pt-[80px] desktop:pt-[80px]">
   <!-- wp:group -->
   <div class="wp-block-group container mx-auto relative desktop:px-0 px-[20px]">
     <!-- wp:group -->
