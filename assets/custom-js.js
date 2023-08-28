@@ -9,20 +9,20 @@ window.addEventListener("load", function () {
     let screenWidth = window.innerWidth;
 
 
-    if (servicesTiles.length > 0 && scrollPos > 1000)  {
-      for(let i = 0 ; i < servicesTiles.length+1 ; i++){
-        if (scrollPos > 1100 + ((i*1.2) * 200 )) {
-        servicesTiles[i].classList.add('test02');
-        servicesTiles[i].classList.remove('opacity-0');
-        servicesTiles[i+1].classList.add('test02');
-        servicesTiles[i+1].classList.remove('opacity-0');
+    // if (servicesTiles.length > 0 && scrollPos > 1000)  {
+    //   for(let i = 0 ; i < servicesTiles.length+1 ; i++){
+    //     if (scrollPos > 1100 + ((i*1.2) * 200 )) {
+    //     servicesTiles[i].classList.add('test02');
+    //     servicesTiles[i].classList.remove('opacity-0');
+    //     servicesTiles[i+1].classList.add('test02');
+    //     servicesTiles[i+1].classList.remove('opacity-0');
 
-        i=i+1;
-        // (screenWidth > 500) ? console.log('desktop') : console.log('mobile');
-        // console.log(screenWidth);
-        };
-      };
-    };
+    //     i=i+1;
+    //     // (screenWidth > 500) ? console.log('desktop') : console.log('mobile');
+    //     // console.log(screenWidth);
+    //     };
+    //   };
+    // };
     if (slidesBlog.length > 0 && scrollPos >= 0)  {
       for(let i = 0 ; i < slidesBlog.length ; i++){
         if (scrollPos >= 0 + ((i*1.5)*150)) {
