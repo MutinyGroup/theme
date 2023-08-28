@@ -3,7 +3,7 @@ window.addEventListener("load", function () {
   const servicesTiles = document.querySelectorAll('.servicesTile');
   const slidesBlog = document.querySelectorAll('.slideBlog');
   const eventTiles = document.querySelectorAll('.event-tile');
-  const servicesSwiper = document.querySelectorAll('#services');
+  const servicesSwiper = document.querySelectorAll('.swiperServices');
 
   const observer = new IntersectionObserver((entries) => { 
     entries.forEach((entry) => {
@@ -13,7 +13,7 @@ window.addEventListener("load", function () {
   }); 
 
   document.addEventListener("scroll", (event) => {
-    observer.observe(document.querySelector('#services'));
+    observer.observe(document.querySelector('.swiperServices'));
     });
 
 
