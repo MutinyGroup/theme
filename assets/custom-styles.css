@@ -114,6 +114,7 @@ figure[class*="logo-img"] img {
 @keyframes imgAppear {
   0% {
     transform: translateX(-60px);
+    opacity: 1;
   }
 
   100% {
