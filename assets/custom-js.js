@@ -10,7 +10,7 @@ window.addEventListener("load", function () {
  const siteContent = document.querySelector('#main');
  let siteHeaderHeight = siteHeader.offsetHeight;
  
- siteHeader.classList.add('header-position-fixed', 'bg-darkBlack');
+ siteHeader.classList.add('header-position-fixed');
  siteContent.style.paddingTop = siteHeaderHeight + 'px';
  
  
