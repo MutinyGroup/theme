@@ -25,42 +25,42 @@
       <!-- wp:group -->
       <div class="wp-block-group swiper-wrapper desktop:gap-x-[0px] desktop:gap-y-[40px] desktop:flex-wrap desktop:items-center desktop:justify-center">
         <!-- wp:core/image -->
-        <figure class="swiper-slide logo-img wp-block-image h-auto self-center">
+        <figure class="swiper-slide logo-img wp-block-image h-[80px] desktop:h-auto self-center">
           <img src="<?php echo home_url() . '/wp-content/themes/mutiny/assets/img/page-about/logos-companies/logo-serenada.png'; ?>" alt="logo-serenada">
         </figure>
         <!-- /wp:core/image -->
         <!-- wp:core/image -->
-        <figure class="swiper-slide logo-img wp-block-image h-auto self-center">
+        <figure class="swiper-slide logo-img wp-block-image h-[80px] desktop:h-auto self-center">
           <img src="<?php echo home_url() . '/wp-content/themes/mutiny/assets/img/page-about/logos-companies/logo-westfield.png'; ?>" alt="logo-westfield">
         </figure>
         <!-- /wp:core/image -->
         <!-- wp:core/image -->
-        <figure class="swiper-slide logo-img wp-block-image h-auto self-center">
+        <figure class="swiper-slide logo-img wp-block-image h-[80px] desktop:h-auto self-center">
           <img src="<?php echo home_url() . '/wp-content/themes/mutiny/assets/img/page-about/logos-companies/logo-metropolia.png'; ?>" alt="logo-metropolia">
         </figure>
         <!-- /wp:core/image -->
         <!-- wp:core/image -->
-        <figure class="swiper-slide logo-img wp-block-image h-auto self-center">
+        <figure class="swiper-slide logo-img wp-block-image h-[80px] desktop:h-auto self-center">
           <img src="<?php echo home_url() . '/wp-content/themes/mutiny/assets/img/page-about/logos-companies/logo-efc.png'; ?>" alt="logo-efc">
         </figure>
         <!-- /wp:core/image -->
         <!-- wp:core/image -->
-        <figure class="swiper-slide logo-img wp-block-image h-auto self-center">
+        <figure class="swiper-slide logo-img wp-block-image h-[80px] desktop:h-auto self-center">
           <img src="<?php echo home_url() . '/wp-content/themes/mutiny/assets/img/page-about/logos-companies/logo-navigator.png'; ?>" alt="logo-navigator">
         </figure>
         <!-- /wp:core/image -->
         <!-- wp:core/image -->
-        <figure class="swiper-slide logo-img wp-block-image h-auto self-center">
+        <figure class="swiper-slide logo-img wp-block-image h-[80px] desktop:h-auto self-center">
           <img src="<?php echo home_url() . '/wp-content/themes/mutiny/assets/img/page-about/logos-companies/logo-sfera.png'; ?>" alt="logo-sfera">
         </figure>
         <!-- /wp:core/image -->
         <!-- wp:core/image -->
-        <figure class="swiper-slide logo-img wp-block-image h-auto self-center">
+        <figure class="swiper-slide logo-img wp-block-image h-[80px] desktop:h-auto self-center">
           <img src="<?php echo home_url() . '/wp-content/themes/mutiny/assets/img/page-about/logos-companies/logo-citypark.png'; ?>" alt="logo-citypark">
         </figure>
         <!-- /wp:core/image -->
         <!-- wp:core/image -->
-        <figure class="swiper-slide logo-img wp-block-image h-auto self-center">
+        <figure class="swiper-slide logo-img wp-block-image h-[80px] desktop:h-auto self-center">
           <img src="<?php echo home_url() . '/wp-content/themes/mutiny/assets/img/page-about/logos-companies/logo-gorski.png'; ?>" alt="logo-gorski">
         </figure>
         <!-- /wp:core/image -->
