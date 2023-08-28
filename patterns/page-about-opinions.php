@@ -17,7 +17,7 @@
       <!-- wp:group -->
       <div class="wp-block-group h-fit overflow-hidden">
         <!-- wp:paragraph -->
-        <p data-aos="fade-up" data-aos-duration="600" data-aos-offset="130" class="section-title uppercase text-primaryYellow">Opinie</p>
+        <p data-aos="fade-up" data-aos-duration="600" data-aos-offset="130" class="section-title pr-[2px] uppercase text-primaryYellow">Opinie</p>
         <!-- /wp:paragraph -->
       </div>
       <!-- /wp:group -->
@@ -27,9 +27,7 @@
         <!-- wp:group -->
         <div class="wp-block-group overflow-hidden">
           <!-- wp:paragraph -->
-          <p data-aos="fade-up" data-aos-duration="600" data-aos-offset="130" class="uppercase desktop:text-[35px] text-[26px] font-medium leading-[32px]">
-            Co mówią nasi klienci?
-          </p>
+          <p data-aos="fade-up" data-aos-duration="600" data-aos-offset="130" class="uppercase desktop:text-[35px] text-[26px] font-medium leading-[40px]">Co mówią nasi klienci?</p>
           <!-- /wp:paragraph -->
         </div>
         <!-- /wp:group -->
