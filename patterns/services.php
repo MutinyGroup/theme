@@ -12,7 +12,7 @@
   <!-- wp:group -->
   <div class="wp-block-group desktop:mb-[150px] mb-[80px] pt-[100px] desktop:pt-0 relative overflow-hidden desktop:overflow-visible">
     <!-- wp:group -->
-    <div class="wp-block-group title-wrapper relative container mx-auto desktop:px-0 px-[20px] desktop:mb-[80px] mb-[50px] desktop:mt-0 flex gap-[20px]">
+    <div class="wp-block-group title-wrapper relative container mx-auto desktop:px-0 px-[20px] desktop:mb-[80px] mb-[50px] desktop:mt-0 desktop:flex gap-[20px]">
       <!-- wp:group -->
       <div class="wp-block-group flash-wrapper wide:scale-[1] desktop:scale-[1] scale-[0.5] absolute top-[-340px] desktop:top-[-300px] wide:top-[-270px] left-[-240px] desktop:left-[-200px] wide:left-[-260px] z-[0]">
         <!-- wp:paragraph -->
