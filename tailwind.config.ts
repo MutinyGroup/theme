@@ -29,7 +29,7 @@ module.exports = {
 			mobile: '480px',
 			tablet: '640px',
 			desktop: '1024px',
-			wide: '1496px',
+			wide: '1680px',
 			fullhd: '1920px',
 		},
 	},
