@@ -9,7 +9,7 @@
 ?>
 
 <!-- wp:group {"templateLock":"contentOnly","anchor":true} -->
-<div id="O firmie" class="wp-block-group relative page-contact-info desktop::mb-[300px] mb-[100px]">
+<div id="O firmie" class="wp-block-group relative page-contact-info desktop::mb-[300px] mb-[100px] desktop:mb-[200px]">
   <!-- wp:group -->
   <div class="wp-block-group desktop:block hidden w-[444px] overflow-hidden absolute bottom-[-150px] right-[0px] z-[0]">
     <!-- wp:image -->
