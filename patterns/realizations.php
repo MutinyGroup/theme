@@ -103,8 +103,8 @@
 
     <!-- wp:group -->
     <div class="wp-block-group gallery-cols wide:max-w-[1260px] mx-auto relative pb-[30px]">
-      <!-- wp:list -->
-      <ul class="wp-block-list w-[100%] desktop:flex flex-wrap justify-center gap-x-[8px] gap-y-[30px]">
+      <!-- wp:group -->
+      <div class="wp-block-group w-[100%] desktop:flex flex-wrap justify-center gap-x-[8px] gap-y-[30px]">
         <?php
         $args = array(
           'post_type' => 'realizacje',
@@ -123,8 +123,8 @@
             if (true) { ?>
               <!-- wp:paragraph -->
               <a href="<?php the_permalink(); ?>">
-                <!-- wp:list-item -->
-                <li class="wp-block-group tile-realizacje mb-[30px] desktop:w-[545px] wide:w-[600px] h-[480px] desktop:h-[700px] wide:h-[780px] relative group transition ease-in-out duration-[400ms] group hover:before:opacity-100 before:content-[''] before:opacity-0 before:absolute before:top-0 before:left-0 before:z-[1] before:w-full before:h-full before:bg-gradient-to-t before:from-black before:via-[rgba(0,0,0,0)] before:bg-center before:bg-cover before:transition before:duration-[300ms] before:ease-out <?php echo (($counter % 2)) ? "tile-realizacje-1 clip-path-url-['#clipped-realizations-1']" : "tile-realizacje-2 clip-path-url-['#clipped-realizations-2'] desktop:translate-y-[70px]"; ?>">
+                <!-- wp:group -->
+                <div class="wp-block-group tile-realizacje mb-[30px] desktop:w-[545px] wide:w-[600px] h-[480px] desktop:h-[700px] wide:h-[780px] relative group transition ease-in-out duration-[400ms] group hover:before:opacity-100 before:content-[''] before:opacity-0 before:absolute before:top-0 before:left-0 before:z-[1] before:w-full before:h-full before:bg-gradient-to-t before:from-black before:via-[rgba(0,0,0,0)] before:bg-center before:bg-cover before:transition before:duration-[300ms] before:ease-out <?php echo (($counter % 2)) ? "tile-realizacje-1 clip-path-url-['#clipped-realizations-1']" : "tile-realizacje-2 clip-path-url-['#clipped-realizations-2'] desktop:translate-y-[70px]"; ?>">
                   <!-- wp:group -->
                   <div class="wp-block-group <?php echo ($counter == 1) ? "clip-path-url-['#clipped-realizations-1']" : (($counter == $post_query->post_count) ? "clip-path-url-['#clipped-realizations-2']" : ''); ?> gray-overlay w-full h-full bg-[#101010] z-[1] absolute top-0 left-0 opacity-[60%]">
                     <!-- wp:paragraph -->
@@ -212,8 +212,8 @@
                   <!-- wp:paragraph -->
                   <p class="on-hover-desc pr-[40px] font-light leading-[22px] z-[1] absolute bottom-[90px] desktop:left-[50px] left-[20px] translate-y-[70px] opacity-[0%] group-hover:opacity-[100%] group-hover:translate-y-[8px] transition-all ease-in-out duration-[400ms]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
                   <!-- /wp:paragraph -->
-                </li>
-                <!-- /wp:list-item -->
+                </div>
+                <!-- /wp:group -->
               </a>
               <!-- /wp:paragraph -->
         <?php
@@ -221,8 +221,8 @@
           };
         };
         ?>
-      </ul>
-      <!-- /wp:list -->
+      </div>
+      <!-- /wp:group -->
     </div>
     <!-- /wp:group -->
 
