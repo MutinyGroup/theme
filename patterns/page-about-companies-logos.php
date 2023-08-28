@@ -72,7 +72,7 @@
   <!-- /wp:group -->
 
   <!-- wp:group -->
-  <div class="wp-block-group sport-logos relative overflow-hidden mt-[100px] w-full h-[120px]">
+  <div class="wp-block-group sport-logos relative overflow-hidden mt-[100px] w-full h-[220px] desktop:h-[120px]">
     <!-- wp:group -->
     <div class="wp-block-group h-[220px] desktop:h-[120px] w-full px-[20px] py-[20px] desktop:px-[100px] bg-white desktop:flex items-center gap-0 desktop:gap-[90px] absolute bottom-0 desktop:left-0 left-[20px] is-layout-flow">
       <!-- wp:paragraph -->
