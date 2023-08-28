@@ -108,7 +108,7 @@
                 $counter++;
                 if ($counter == 1) { ?>
                   <!-- wp:paragraph -->
-                  <a href="#" data-aos="fade-left" data-aos-duration="600" data-aos-offset="130">
+                  <a href="<? the_permalink(); ?>" data-aos="fade-left" data-aos-duration="600" data-aos-offset="130">
                     <!-- wp:group -->
                     <div class="wp-block-group swiper-slide desktop:mr-[80px] mr-[20px] relative group desktop:w-[535px] w-[300px] h-[500px] desktop:h-[675px] ">
                       <!-- wp:group -->
@@ -153,35 +153,39 @@
                   <!-- /wp:paragraph -->
                 <?php
                 } else { ?>
-                  <!-- wp:group -->
-                  <div class="wp-block-group swiper-slide desktop:mr-[80px] mr-[20px] relative group desktop:w-[444px] w-[280px] desktop:h-[675px] h-[480px]">
+                  <!-- wp:paragraph -->
+                  <a href="<? the_permalink(); ?>" data-aos="fade-left" data-aos-duration="600" data-aos-offset="130">
                     <!-- wp:group -->
-                    <div class="wp-block-group">
+                    <div class="wp-block-group swiper-slide desktop:mr-[80px] mr-[20px] relative group desktop:w-[444px] w-[280px] desktop:h-[675px] h-[480px]">
                       <!-- wp:group -->
-                      <div class="wp-block-group img-wrapper mb-[20px]">
+                      <div class="wp-block-group">
                         <!-- wp:group -->
-                        <div class="wp-block-group overflow-hidden h-[320px] desktop:h-[500px] wide:h-[500px] rounded-[20px]">
-                          <!-- wp:image -->
-                          <figure class="wp-block-image post-img h-full scale-[1.12] group-hover:scale-[1.06] transition ease-out duration-[600ms]">
-                            <img src="<?php echo $postImageUrl[0]; ?>" alt="post-image">
-                          </figure>
-                          <!-- /wp:image -->
+                        <div class="wp-block-group img-wrapper mb-[20px]">
+                          <!-- wp:group -->
+                          <div class="wp-block-group overflow-hidden h-[320px] desktop:h-[500px] wide:h-[500px] rounded-[20px]">
+                            <!-- wp:image -->
+                            <figure class="wp-block-image post-img h-full scale-[1.12] group-hover:scale-[1.06] transition ease-out duration-[600ms]">
+                              <img src="<?php echo $postImageUrl[0]; ?>" alt="post-image">
+                            </figure>
+                            <!-- /wp:image -->
+                          </div>
+                          <!-- /wp:group -->
                         </div>
                         <!-- /wp:group -->
+
+                        <!-- wp:paragraph -->
+                        <p class="slide-date font-light flex items-center before:content-[''] before:w-[20px] before:h-[1px] before:bg-primaryYellow before:inline-block before:mr-[10px] mb-[20px]"><?php the_time('d / m / Y'); ?></p>
+                        <!-- /wp:paragraph -->
+
+                        <!-- wp:paragraph -->
+                        <p class="subtitle inline text-[23px] font-medium leading-[30px] border-b-[1px] border-transparent group-hover:border-primaryYellow group-hover:text-primaryYellow transition ease-out duration-[800ms]"><?php the_title(); ?></p>
+                        <!-- /wp:paragraph -->
                       </div>
                       <!-- /wp:group -->
-
-                      <!-- wp:paragraph -->
-                      <p class="slide-date font-light flex items-center before:content-[''] before:w-[20px] before:h-[1px] before:bg-primaryYellow before:inline-block before:mr-[10px] mb-[20px]"><?php the_time('d / m / Y'); ?></p>
-                      <!-- /wp:paragraph -->
-
-                      <!-- wp:paragraph -->
-                      <p class="subtitle inline text-[23px] font-medium leading-[30px] border-b-[1px] border-transparent group-hover:border-primaryYellow group-hover:text-primaryYellow transition ease-out duration-[800ms]"><?php the_title(); ?></p>
-                      <!-- /wp:paragraph -->
                     </div>
                     <!-- /wp:group -->
-                  </div>
-                  <!-- /wp:group -->
+                  </a>
+                  <!-- /wp:paragraph -->
             <?php
                 };
               };
