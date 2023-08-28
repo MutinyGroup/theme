@@ -274,9 +274,14 @@ figure[class*="logo-img"] img {
   border-radius: 9999px;
   cursor: pointer;
   transition: all 0.3s ease-out;
+  background-color: #101010;
+  color: white;
+  border-color: white;
+  transition: all 0.3s ease-out;
+}
+.wp-block-navigation__container li:last-child:hover {
   background-color: white;
   color: black;
-  border-color: white;
 }
 .wp-block-navigation__container li:last-child:hover .wp-block-navigation-item__label{
   transition: all 0.3s ease-out!important;
