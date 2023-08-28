@@ -71,7 +71,7 @@
       <!-- wp:list-item -->
       <li>
         <!-- wp:group -->
-        <div class="wp-block-group tile-img-title flex sticky top-0">
+        <div class="wp-block-group tile-img-title flex sticky top-0 z-[1]">
           <!-- wp:group -->
           <div class="pagination-counter w-[40%]">
             <!-- wp:paragraph -->
