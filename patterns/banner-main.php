@@ -105,7 +105,7 @@
       <!-- wp:group -->
       <div class="wp-block-group right-col banner-bg h-[300px] tablet:h-[450px] desktop:h-[775px] wide:h-[950px] desktop:w-[44%] w-[65%] absolute right-0 top-[80px] desktop:top-[50px] z-[0]">
         <!-- wp:group -->
-        <div class="wp-block-group clip-path-url-['#clipped-banner'] opacity-50 z-[1] h-full w-full bg-black absolute top-0 left-0">
+        <div class="wp-block-group clip-path-url-['#clipped-banner'] opacity-[30%] z-[1] h-full w-full bg-black absolute top-0 left-0">
           <!-- wp:paragraph -->
           <p class="hidden">overlay</p>
           <!-- /wp:paragraph -->
