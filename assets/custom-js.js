@@ -17,6 +17,7 @@ window.addEventListener("load", function () {
   document.addEventListener("scroll", (event) => {
     if (scrollPos > 300)  {
       observer.observe(document.querySelector('.swiperServices'));
+      console.log('test');
     }
     });
 
@@ -51,7 +52,9 @@ window.addEventListener("load", function () {
   }
 
   document.addEventListener("scroll", (event) => {
+    if(rect!=null){
     console.log(isInViewport(servicesSwiper));
+    }
 
     });
 
