@@ -49,6 +49,12 @@ window.addEventListener("load", function () {
     console.log(isInViewport(servicesSwiper));
 
     });
+
+
+  const box = document.querySelector('.swiperServices');
+  const rect = box.getBoundingClientRect();
+
+  console.log(rect);
   
 
 
