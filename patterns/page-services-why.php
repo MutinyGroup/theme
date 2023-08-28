@@ -121,7 +121,7 @@
         <!-- /wp:group -->
 
         <!-- wp:group -->
-        <div class="wp-block-group tile-content">
+        <div class="wp-block-group tile-content flex">
           <!-- wp:group -->
           <div class="pagination-counter w-[40%]">
             <!-- wp:paragraph -->
