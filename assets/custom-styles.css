@@ -283,11 +283,6 @@ figure[class*="logo-img"] img {
   background-color: white;
   color: black;
 }
-.wp-block-navigation__container li:last-child:hover .wp-block-navigation-item__label{
-  transition: all 0.3s ease-out!important;
-  border-bottom: 2px #FEC400 solid;
-  transform: translateY(10px);
-}
 
 #modal-1-content > ul > li.wp-block-navigation-item.contact-from-wp-panel.p-\[10px_20px\].uppercase.border-\[2px\].border-\[\#AAAAAA\].rounded-full.cursor-pointer.hover\:bg-white.hover\:text-black.hover\:border-white.transition.ease-out.duration-300.wp-block-navigation-link > a{
   overflow:hidden;
