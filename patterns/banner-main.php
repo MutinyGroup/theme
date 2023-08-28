@@ -105,7 +105,7 @@
       <!-- wp:group -->
       <div class="wp-block-group right-col banner-bg h-[300px] tablet:h-[450px] desktop:h-[775px] wide:h-[950px] desktop:w-[44%] w-[65%] absolute right-0 top-[80px] desktop:top-[50px] z-[0]">
         <!-- wp:group -->
-        <div class="wp-block-group clip-path-url-['#clipped-banner'] opacity-[50%] z-[1] h-full w-full bg-gradient-to-t bg-from-black bg-via-[rgba(0,0,0,0)] absolute top-0 left-0">
+        <div class="wp-block-group clip-path-url-['#clipped-banner'] opacity-[50%] z-[1] h-full w-full bg-gradient-to-t from-black via-[rgba(0,0,0,0)] absolute top-0 left-0">
           <!-- wp:paragraph -->
           <p class="hidden">overlay</p>
           <!-- /wp:paragraph -->
@@ -129,26 +129,6 @@
         <!-- /wp:paragraph -->
       </div>
       <!-- /wp:group -->
-    </div>
-    <!-- /wp:group -->
-    <!-- wp:group -->
-    <div class="wp-block-group test right-col banner-bg h-[300px] tablet:h-[450px] desktop:h-[775px] wide:h-[950px] desktop:w-[44%] w-[65%] absolute right-0 top-[80px] desktop:top-[50px] z-[0]">
-      <!-- wp:image -->
-      <figure class="wp-block-image clip-path-url-['#clipped-banner'] relative h-full ">
-        <img src="<?php echo home_url() . '/wp-content/themes/mutiny/assets/img/front-page/frontpage-banner.jpg'; ?>" alt="background image" />
-      </figure>
-      <!-- /wp:image -->
-      <!-- wp:paragraph -->
-      <p>
-        <svg width="0" height="0">
-          <defs>
-            <clipPath id="clipped-banner" class="scale-[0.5] tablet:scale-[1.1] tablet:scale-y-[0.7] desktop:scale-[1.1] wide:scale-[1.35]">
-              <path d="M0 20C0 8.95432 8.95431 0 20 0H625V700H212.426C204.47 700 196.839 696.839 191.213 691.213L8.78681 508.787C3.16072 503.161 0 495.53 0 487.574V20Z" />
-            </clipPath>
-          </defs>
-        </svg>
-      </p>
-      <!-- /wp:paragraph -->
     </div>
     <!-- /wp:group -->
 
