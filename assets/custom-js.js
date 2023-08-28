@@ -11,26 +11,46 @@ window.addEventListener("load", function () {
         console.log('visible');
     })
   }); 
-  observer.observe(document.querySelector('#services'));
+
+  document.addEventListener("scroll", (event) => {
+    observer.observe(document.querySelector('#services'));
+    });
 
 
-  function update() {
-    let container = document.getElementById("controls");
-    let elem = document.getElementById("#services");
-    let rect = elem.getBoundingClientRect();
+  // function update() {
+  //   let container = document.getElementById("controls");
+  //   let elem = document.getElementById("#services");
+  //   let rect = elem.getBoundingClientRect();
   
-    container.innerHTML = "";
-    for (let key in rect) {
-      if (typeof rect[key] !== "function") {
-        let para = document.createElement("p");
-        para.textContent = `${key} : ${rect[key]}`;
-        container.appendChild(para);
-      }
-    }
-  }
+  //   container.innerHTML = "";
+  //   for (let key in rect) {
+  //     if (typeof rect[key] !== "function") {
+  //       let para = document.createElement("p");
+  //       para.textContent = `${key} : ${rect[key]}`;
+  //       container.appendChild(para);
+  //     }
+  //   }
+  // }
   
   document.addEventListener("scroll", update);
-  update();
+  // update();
+
+  let el = document.getElementById("#services");
+
+  let elementIsVisibleInViewport = (el, partiallyVisible = false) => {
+    const { top, left, bottom, right } = el.getBoundingClientRect();
+    const { innerHeight, innerWidth } = window;
+    return partiallyVisible
+      ? ((top > 0 && top < innerHeight) ||
+          (bottom > 0 && bottom < innerHeight)) &&
+          ((left > 0 && left < innerWidth) || (right > 0 && right < innerWidth))
+      : top >= 0 && left >= 0 && bottom <= innerHeight && right <= innerWidth;
+  };
+
+
+  // e.g. 100x100 viewport and a 10x10px element at position {top: -1, left: 0, bottom: 9, right: 10}
+elementIsVisibleInViewport(el); // false - (not fully visible)
+elementIsVisibleInViewport(el, true); // true - (partially visible)
 
 
 
