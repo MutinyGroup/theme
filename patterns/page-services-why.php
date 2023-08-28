@@ -9,7 +9,7 @@
 ?>
 
 <!-- wp:group {"templateLock":"contentOnly","anchor":true} -->
-<div id="Dlaczego" class="wp-block-group why desktop:pt-[150px] overflow-hidden">
+<div id="Dlaczego" class="wp-block-group why desktop:pt-[150px] ooverflow-hidden">
   <!-- wp:group -->
   <div class="wp-block-group container mx-auto relative desktop:px-0 px-[20px]">
     <!-- wp:group -->
