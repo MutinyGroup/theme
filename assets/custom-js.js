@@ -12,30 +12,13 @@ window.addEventListener("load", function () {
     })
   }); 
 
-  let scrollPos = window.scrollY;
 
   document.addEventListener("scroll", (event) => {
     if (scrollPos > 300)  {
-      observer.observe(document.querySelector('.swiperServices'));
+      observer.observe(document.querySelector(servicesSwiper));
       console.log('test');
     }
     });
-
-
-  function update() {
-    let container = document.getElementById("controls");
-    let elem = document.getElementById("#services");
-    let rect = elem.getBoundingClientRect();
-  
-    container.innerHTML = "";
-    for (let key in rect) {
-      if (typeof rect[key] !== "function") {
-        let para = document.createElement("p");
-        para.textContent = `${key} : ${rect[key]}`;
-        container.appendChild(para);
-      }
-    }
-  }
   
 
 
