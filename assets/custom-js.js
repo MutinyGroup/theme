@@ -46,7 +46,7 @@ window.addEventListener("load", function () {
   }
 
   document.addEventListener("scroll", (event) => {
-    isInViewport(servicesSwiper);
+    console.log(isInViewport(servicesSwiper));
 
     });
   
