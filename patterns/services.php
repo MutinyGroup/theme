@@ -98,9 +98,9 @@
     <!-- wp:group -->
     <div class="wp-block-group mt-[80px] desktop:mt-[-120px] w-full h-[380px] desktop:h-[660px] wide:h-[720px] overflow-hidden swiper-services-editor">
       <!-- wp:group -->
-      <div id="services" class="wp-block-group swiper swiperServices w-screen desktop:w-[calc(100%-90px)] desktop:pt-[180px] absolute top-[400px] desktop:top-[160px] left-[20px] desktop:left-[90px]" data-aos="fade-left" data-aos-duration="600" data-aos-offset="155">
+      <div id="services" class="wp-block-group swiper swiperServices w-screen desktop:w-[calc(100%-90px)] desktop:pt-[180px] absolute top-[400px] desktop:top-[160px] left-[20px] desktop:left-[90px]">
         <!-- wp:group -->
-        <div class="wp-block-group swiper-wrapper desktop:h-[480px] wide:h-[530px]">
+        <div class="wp-block-group swiper-wrapper desktop:h-[480px] wide:h-[530px]" data-aos="fade-left" data-aos-duration="600" data-aos-offset="155">
           <?php
           $args = array(
             'post_type' => 'uslugi',
