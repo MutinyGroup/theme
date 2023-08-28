@@ -33,10 +33,15 @@ window.addEventListener("load", function () {
         return false;
     }
   };
+//   window.addEventListener('scroll', function (event) {
+//     if (isInViewport(theElementToWatch)) {
+//       // update the element display
+//     }
+// }, false);
 
-  document.addEventListener("scroll", (event) => {
-    isInViewport(servicesSwiper);
-    });
+//   document.addEventListener("scroll", (event) => {
+//     isInViewport(servicesSwiper);
+//     });
 
 
 
