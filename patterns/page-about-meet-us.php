@@ -107,7 +107,7 @@
         <!-- wp:group -->
         <div class="wp-block-group counter-index-wrapper min-w-[75px] inline relative">
           <!-- wp:paragraph -->
-          <p data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="target-num text-[60px] font-semibold">01</p>
+          <p data-aos="fade-right" data-aos-duration="600" data-aos-offset="90" class="target-num text-[60px] font-semibold">01</p>
           <!-- /wp:paragraph -->
         </div>
         <!-- /wp:group -->
@@ -115,10 +115,10 @@
         <!-- wp:group -->
         <div class="wp-block-group text-wrapper">
           <!-- wp:paragraph -->
-          <p data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="target-title desktop:mb-[15px] text-[20px] font-semibold">Mamy plan</p>
+          <p data-aos="fade-right" data-aos-duration="600" data-aos-offset="90" class="target-title desktop:mb-[15px] text-[20px] font-semibold">Mamy plan</p>
           <!-- /wp:paragraph -->
           <!-- wp:paragraph -->
-          <p data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="target-paragraph font-light leading-[21px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+          <p data-aos="fade-right" data-aos-duration="600" data-aos-offset="90" class="target-paragraph font-light leading-[21px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
           <!-- /wp:paragraph -->
         </div>
         <!-- /wp:group -->
@@ -129,7 +129,7 @@
         <!-- wp:group -->
         <div class="wp-block-group counter-index-wrapper min-w-[75px] inline relative">
           <!-- wp:paragraph -->
-          <p class="target-num text-[60px] font-semibold">02</p>
+          <p data-aos="fade-right" data-aos-duration="600" data-aos-offset="90" class="target-num text-[60px] font-semibold">02</p>
           <!-- /wp:paragraph -->
         </div>
         <!-- /wp:group -->
@@ -137,10 +137,10 @@
         <!-- wp:group -->
         <div class="wp-block-group text-wrapper">
           <!-- wp:paragraph -->
-          <p class="target-title desktop:mb-[15px] text-[20px] font-semibold">Mamy plan</p>
+          <p data-aos="fade-right" data-aos-duration="600" data-aos-offset="90" class="target-title desktop:mb-[15px] text-[20px] font-semibold">Mamy plan</p>
           <!-- /wp:paragraph -->
           <!-- wp:paragraph -->
-          <p class="target-paragraph font-light leading-[21px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+          <p data-aos="fade-right" data-aos-duration="600" data-aos-offset="90" class="target-paragraph font-light leading-[21px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
           <!-- /wp:paragraph -->
         </div>
         <!-- /wp:group -->
@@ -151,7 +151,7 @@
         <!-- wp:group -->
         <div class="wp-block-group counter-index-wrapper min-w-[75px] inline relative">
           <!-- wp:paragraph -->
-          <p class="target-num text-[60px] font-semibold">03</p>
+          <p data-aos="fade-right" data-aos-duration="600" data-aos-offset="90" class="target-num text-[60px] font-semibold">03</p>
           <!-- /wp:paragraph -->
         </div>
         <!-- /wp:group -->
@@ -159,10 +159,10 @@
         <!-- wp:group -->
         <div class="wp-block-group text-wrapper">
           <!-- wp:paragraph -->
-          <p class="target-title desktop:mb-[15px] text-[20px] font-semibold">Mamy plan</p>
+          <p data-aos="fade-right" data-aos-duration="600" data-aos-offset="90" class="target-title desktop:mb-[15px] text-[20px] font-semibold">Mamy plan</p>
           <!-- /wp:paragraph -->
           <!-- wp:paragraph -->
-          <p class="target-paragraph font-light leading-[21px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+          <p data-aos="fade-right" data-aos-duration="600" data-aos-offset="90" class="target-paragraph font-light leading-[21px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
           <!-- /wp:paragraph -->
         </div>
         <!-- /wp:group -->
@@ -173,7 +173,7 @@
         <!-- wp:group -->
         <div class="wp-block-group counter-index-wrapper min-w-[75px] inline relative">
           <!-- wp:paragraph -->
-          <p class="target-num text-[60px] font-semibold">04</p>
+          <p data-aos="fade-right" data-aos-duration="600" data-aos-offset="90" class="target-num text-[60px] font-semibold">04</p>
           <!-- /wp:paragraph -->
         </div>
         <!-- /wp:group -->
@@ -181,10 +181,10 @@
         <!-- wp:group -->
         <div class="wp-block-group text-wrapper">
           <!-- wp:paragraph -->
-          <p class="target-title desktop:mb-[15px] text-[20px] font-semibold">Mamy plan</p>
+          <p data-aos="fade-right" data-aos-duration="600" data-aos-offset="90" class="target-title desktop:mb-[15px] text-[20px] font-semibold">Mamy plan</p>
           <!-- /wp:paragraph -->
           <!-- wp:paragraph -->
-          <p class="target-paragraph font-light leading-[21px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+          <p data-aos="fade-right" data-aos-duration="600" data-aos-offset="90" class="target-paragraph font-light leading-[21px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
           <!-- /wp:paragraph -->
         </div>
         <!-- /wp:group -->
