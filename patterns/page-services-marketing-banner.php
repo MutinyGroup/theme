@@ -15,7 +15,7 @@
     <!-- wp:group -->
     <div class="wp-block-group title-wrapper relative desktop:mb-[58px] mb-[40px] desktop:pt-[90px]">
       <!-- wp:group -->
-      <div class="wp-block-group title-wrapper relative container mx-auto flex">
+      <div class="wp-block-group title-wrapper relative container mx-auto desktop:flex">
         <!-- wp:group -->
         <div class="wp-block-group section-title grid desktop:basis-auto desktop:w-[145px] uppercase text-primaryYellow">
           <!-- wp:paragraph -->
@@ -59,7 +59,7 @@
     <!-- wp:group -->
     <div class="wp-block-group paragraph-wrapper desktop:px-0 px-[20px] desktop:ml-[145px] relative">
       <!-- wp:paragraph -->
-      <p class="desktop:text-[35px] text-[22px] font-medium desktop:leading-[42px] leading-[32px] desktop:w-[897px]">Jesteśmy ekspertami od komunikacji i marketingu. Pracujemy dla topowych firm, stawiających przed nami duże wyzwania.</p>
+      <p data-aos="fade-right" data-aos-duration="600" data-aos-offset="130" class="desktop:text-[35px] text-[22px] font-medium desktop:leading-[42px] leading-[32px] desktop:w-[897px]">Jesteśmy ekspertami od komunikacji i marketingu. Pracujemy dla topowych firm, stawiających przed nami duże wyzwania.</p>
       <!-- /wp:paragraph -->
     </div>
     <!-- /wp:group -->
