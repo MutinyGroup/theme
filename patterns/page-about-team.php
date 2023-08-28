@@ -101,7 +101,7 @@
           <!-- wp:list -->
           <ul class="wp-block-group inner-col1 w-[49%]">
             <!-- wp:list-item -->
-            <li class="wp-block-group wide:w-[400px] wide:h-[510px] tile-wrapper relative mb-[12px] rounded-[20px] overflow-hidden">
+            <li class="wp-block-group wide:w-[420px] wide:h-[510px] tile-wrapper relative mb-[12px] rounded-[20px] overflow-hidden">
               <!-- wp:group -->
               <div class="wp-block-group overlay-author z-[1] h-full w-full bg-gradient-to-t from-black via-[rgba(0,0,0,0)] opacity-[40%] absolute top-0 left-0 clip-path-url-['#clipped-swiper-serv-1']">
                 <!-- wp:paragraph -->
@@ -138,7 +138,7 @@
             </li>
             <!-- /wp:list-item -->
             <!-- wp:list-item -->
-            <li class="wp-block-group wide:w-[400px] wide:h-[510px] tile-wrapper relative mb-[12px] rounded-[20px] overflow-hidden">
+            <li class="wp-block-group wide:w-[420px] wide:h-[510px] tile-wrapper relative mb-[12px] rounded-[20px] overflow-hidden">
               <!-- wp:group -->
               <div class="wp-block-group overlay-author z-[1] h-full w-full bg-gradient-to-t from-black via-[rgba(0,0,0,0)] opacity-[40%] absolute top-0 left-0">
                 <!-- wp:paragraph -->
@@ -168,7 +168,7 @@
           <!-- wp:list -->
           <ul class="wp-block-list inner-col2 w-[49%] absolute top-[60px] right-0">
             <!-- wp:list-item -->
-            <li class="tile-wrapper relative mb-[12px] rounded-[20px] overflow-hidden">
+            <li class="tile-wrapper wide:w-[420px] wide:h-[510px] relative mb-[12px] rounded-[20px] overflow-hidden">
               <!-- wp:group -->
               <div class="wp-block-group overlay-author z-[1] h-full w-full bg-gradient-to-t from-black via-[rgba(0,0,0,0)] opacity-[40%] absolute top-0 left-0">
                 <!-- wp:paragraph -->
@@ -194,7 +194,7 @@
             </li>
             <!-- /wp:list-item -->
             <!-- wp:list-item -->
-            <li class="tile-wrapper relative mb-[12px] rounded-[20px] overflow-hidden">
+            <li class="tile-wrapperwide:w-[420px] wide:h-[510px] relative mb-[12px] rounded-[20px] overflow-hidden">
               <!-- wp:group -->
               <div class="wp-block-group overlay-author z-[1] h-full w-full bg-gradient-to-t from-black via-[rgba(0,0,0,0)] opacity-[40%] absolute top-0 left-0 clip-path-url-['#clipped-team']">
                 <!-- wp:paragraph -->
