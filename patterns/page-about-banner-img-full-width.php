@@ -32,7 +32,7 @@
           <!-- wp:group -->
           <div class="wp-block-group overflow-hidden">
             <!-- wp:paragraph -->
-            <p class="test01 company-title inline font-medium overflow-hidden"><span class="inline desktop:block">NIE BOIMY SIE</span></p>
+            <p class="test01 company-title  font-medium overflow-hidden"><span class="inline desktop:block">NIE BOIMY SIE</span></p>
             <!-- /wp:paragraph -->
           </div>
           <!-- /wp:group -->
