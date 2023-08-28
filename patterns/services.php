@@ -97,7 +97,7 @@
       <p class="mx-[20px] desktop:ml-[360px] desktop:mb-[0px] mb-[40px] max-w-full desktop:max-w-[400px] desktop:leading-[30px] leading-[26px] desktop:text-[20px] text-[15px] font-light ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi est similique, sint <span class="text-primaryYellow">illum architecto</span> fugit quae beatae</p>
       <!-- /wp:paragraph -->
     </div>
-    <!-- /wp:wp:group -->
+    <!-- /wp:group -->
 
     <!-- wp:group -->
     <div class="wp-block-group mt-[80px] desktop:mt-[-120px] w-full h-[380px] desktop:h-[660px] wide:h-[720px] overflow-hidden swiper-services-editor">
