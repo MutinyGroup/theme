@@ -112,7 +112,7 @@
         </div>
         <!-- /wp:group -->
         <!-- wp:image -->
-        <figure class="wp-block-image clip-path-url-['#clipped-banner'] relative h-full before:content-[''] before:w-full before:h-full before:bg-[#D9D9D9] before:z-[1] before:opacity-[30%] before:absolute before:top-0 before:left-0">
+        <figure class="wp-block-image clip-path-url-['#clipped-banner'] relative h-full brightness-125 before:content-[''] before:w-full before:h-full before:bg-[#D9D9D9] before:z-[1] before:opacity-[30%] before:absolute before:top-0 before:left-0">
           <img src="<?php echo home_url() . '/wp-content/themes/mutiny/assets/img/front-page/frontpage-banner.jpg'; ?>" alt="background image" />
         </figure>
         <!-- /wp:image -->
