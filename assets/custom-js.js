@@ -39,24 +39,24 @@ window.addEventListener("load", function () {
   
 
 
-  function isInViewport(element) {
-    if(servicesSwiper!=null){
-    const rect = element.getBoundingClientRect();
-    return (
-        rect.top >= 0 &&
-        rect.left >= 0 &&
-        rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
-        rect.right <= (window.innerWidth || document.documentElement.clientWidth)
-    );
-  };
-  }
+  // function isInViewport(element) {
+  //   if(servicesSwiper!=null){
+  //   const rect = element.getBoundingClientRect();
+  //   return (
+  //       rect.top >= 0 &&
+  //       rect.left >= 0 &&
+  //       rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+  //       rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+  //   );
+  // };
+  // }
 
-  document.addEventListener("scroll", (event) => {
-    if(servicesSwiper!=null){
-    console.log(isInViewport(servicesSwiper));
-    }
+  // document.addEventListener("scroll", (event) => {
+  //   if(servicesSwiper!=null){
+  //   console.log(isInViewport(servicesSwiper));
+  //   }
 
-    });
+  //   });
 
 
 
