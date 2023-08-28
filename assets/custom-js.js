@@ -51,10 +51,16 @@ window.addEventListener("load", function () {
     });
 
 
-  const box = document.querySelector('.swiperServices');
-  const rect = box.getBoundingClientRect();
 
-  console.log(rect);
+
+
+  document.addEventListener("scroll", (event) => {
+    const box = document.querySelector('#services');
+    const rect2 = box.getBoundingClientRect();
+  
+    console.log(rect2);
+
+    });
   
 
 
