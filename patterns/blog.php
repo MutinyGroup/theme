@@ -8,7 +8,7 @@
  */
 ?>
 <!-- wp:group {"templateLock":"contentOnly","anchor":true} -->
-<div id="Blog" class="wp-block-group blog desktop:pt-[100px] pt-0 desktop:mb-[150px] mb-[60px]">
+<div id="Blog" class="wp-block-group blog desktop:pt-[100px] pt-0 desktop:mb-[150px] mb-[60px] overflow-y-visible desktop:overflow-y-auto">
   <!-- wp:group -->
   <div class="wp-block-group relative ">
     <!-- wp:group -->
