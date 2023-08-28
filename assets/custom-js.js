@@ -5,21 +5,21 @@ window.addEventListener("load", function () {
   const eventTiles = document.querySelectorAll('.event-tile');
   const servicesSwiper = document.querySelectorAll('.swiperServices');
 
-  const observer = new IntersectionObserver((entries) => { 
-    entries.forEach((entry) => {
-        console.log(entry.target);
-        console.log('visible');
-    })
-  }); 
+  // const observer = new IntersectionObserver((entries) => { 
+  //   entries.forEach((entry) => {
+  //       console.log(entry.target);
+  //       console.log('visible');
+  //   })
+  // }); 
 
-  let scrollPos = window.scrollY;
+  // let scrollPos = window.scrollY;
 
-  document.addEventListener("scroll", (event) => {
-    if (scrollPos > 300)  {
-      observer.observe(document.querySelector('.swiperServices'));
-      console.log('test');
-    }
-    });
+  // document.addEventListener("scroll", (event) => {
+  //   if (scrollPos > 300)  {
+  //     observer.observe(document.querySelector('.swiperServices'));
+  //     console.log('test');
+  //   }
+  //   });
 
 
   // function update() {
