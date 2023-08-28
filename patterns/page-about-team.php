@@ -99,9 +99,9 @@
         <!-- wp:group -->
         <div class="wp-block-group gallery-cols">
           <!-- wp:list -->
-          <ul class="wp-block-group flex overflow-y-scroll">
+          <ul class="wp-block-group w-fit flex gap-[20px] overflow-y-scroll">
             <!-- wp:list-item -->
-            <li class="wp-block-group w-[350px] wide:w-[100%] wide:h-[575px] tile-wrapper relative mb-[12px] rounded-[20px] overflow-hidden">
+            <li class="wp-block-group w-[350px] tile-wrapper relative mb-[12px] rounded-[20px] overflow-hidden">
               <!-- wp:group -->
               <div class="wp-block-group overlay-author z-[1] h-full w-full bg-gradient-to-t from-black via-[rgba(0,0,0,0)] opacity-[40%] absolute top-0 left-0 clip-path-url-['#clipped-swiper-serv-1']">
                 <!-- wp:paragraph -->
@@ -138,33 +138,7 @@
             </li>
             <!-- /wp:list-item -->
             <!-- wp:list-item -->
-            <li class="wp-block-group w-[350px] wide:w-[100%] wide:h-[575px] tile-wrapper relative mb-[12px] rounded-[20px] overflow-hidden">
-              <!-- wp:group -->
-              <div class="wp-block-group overlay-author z-[1] h-full w-full bg-gradient-to-t from-black via-[rgba(0,0,0,0)] opacity-[40%] absolute top-0 left-0">
-                <!-- wp:paragraph -->
-                <p class="hidden">overlay</p>
-                <!-- /wp:paragraph -->
-              </div>
-              <!-- /wp:group -->
-              <!-- wp:image -->
-              <figure class="wp-block-image w-full h-full">
-                <img src="<?php echo home_url() . '/wp-content/themes/mutiny/assets/img/page-about/about-team3.jpg'; ?>" alt="team" />
-              </figure>
-              <!-- /wp:image -->
-              <!-- wp:group -->
-              <div class="wp-block-group text-content mb-[10px] text-white absolute desktop:bottom-[30px] bottom-[10px] desktop:left-[30px] left-[10px] leading-[30px] z-[2]">
-                <!-- wp:paragraph -->
-                <p class="name text-[20px] desktop:text-[25px] font-medium">Olga Anusiewicz</p>
-                <!-- /wp:paragraph -->
-                <!-- wp:paragraph -->
-                <p class="text-[16px] font-light">Founder & CEO</p>
-                <!-- /wp:paragraph -->
-              </div>
-              <!-- /wp:group -->
-            </li>
-            <!-- /wp:list-item -->
-            <!-- wp:list-item -->
-            <li class="wp-block-group w-[350px] wide:w-[100%] wide:h-[575px] relative mb-[12px] rounded-[20px] overflow-hidden">
+            <li class="wp-block-group w-[350px] relative mb-[12px] rounded-[20px] overflow-hidden">
               <!-- wp:group -->
               <div class="wp-block-group overlay-author z-[1] h-full w-full bg-gradient-to-t from-black via-[rgba(0,0,0,0)] opacity-[40%] absolute top-0 left-0">
                 <!-- wp:paragraph -->
@@ -190,7 +164,7 @@
             </li>
             <!-- /wp:list-item -->
             <!-- wp:list-item -->
-            <li class="wp-block-group w-[350px] wide:w-[100%] wide:h-[575px] relative mb-[12px] rounded-[20px] overflow-hidden">
+            <li class="wp-block-group w-[350px] relative mb-[12px] rounded-[20px] overflow-hidden">
               <!-- wp:group -->
               <div class="wp-block-group overlay-author z-[1] h-full w-full bg-gradient-to-t from-black via-[rgba(0,0,0,0)] opacity-[40%] absolute top-0 left-0 clip-path-url-['#clipped-team']">
                 <!-- wp:paragraph -->
@@ -226,7 +200,33 @@
               </div>
               <!-- /wp:group -->
             </li>
-            <!-- /wp:group -->
+            <!-- /wp:list-item -->
+            <!-- wp:list-item -->
+            <li class="wp-block-group w-[350px] tile-wrapper relative mb-[12px] rounded-[20px] overflow-hidden">
+              <!-- wp:group -->
+              <div class="wp-block-group overlay-author z-[1] h-full w-full bg-gradient-to-t from-black via-[rgba(0,0,0,0)] opacity-[40%] absolute top-0 left-0">
+                <!-- wp:paragraph -->
+                <p class="hidden">overlay</p>
+                <!-- /wp:paragraph -->
+              </div>
+              <!-- /wp:group -->
+              <!-- wp:image -->
+              <figure class="wp-block-image w-full h-full">
+                <img src="<?php echo home_url() . '/wp-content/themes/mutiny/assets/img/page-about/about-team3.jpg'; ?>" alt="team" />
+              </figure>
+              <!-- /wp:image -->
+              <!-- wp:group -->
+              <div class="wp-block-group text-content mb-[10px] text-white absolute desktop:bottom-[30px] bottom-[10px] desktop:left-[30px] left-[10px] leading-[30px] z-[2]">
+                <!-- wp:paragraph -->
+                <p class="name text-[20px] desktop:text-[25px] font-medium">Olga Anusiewicz</p>
+                <!-- /wp:paragraph -->
+                <!-- wp:paragraph -->
+                <p class="text-[16px] font-light">Founder & CEO</p>
+                <!-- /wp:paragraph -->
+              </div>
+              <!-- /wp:group -->
+            </li>
+            <!-- /wp:list-item -->
           </ul>
           <!-- /wp:list -->
         </div>
