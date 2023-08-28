@@ -41,7 +41,7 @@ figure[class*="logo-img"] img {
 }
 
 .banner-bg figure:before{
-  background-color: linear-gradient(360deg, rgba(0, 0, 0, 0.50) 0%, rgba(0, 0, 0, 0.00) 100%), linear-gradient(0deg, rgba(0, 0, 0, 0.50) 0%, rgba(0, 0, 0, 0.50) 100%), url(<path-to-image>), lightgray -446.987px 0px / 199.635% 100% no-repeat, #D9D9D9;
+  background-color: linear-gradient(360deg, rgba(0, 0, 0, 0.50) 0%, rgba(0, 0, 0, 0.00) 100%), linear-gradient(0deg, rgba(0, 0, 0, 0.50) 0%, rgba(0, 0, 0, 0.50) 100%), url(<path-to-image>), lightgray -446.987px 0px / 199.635% 100% no-repeat, #D9D9D9!important;
   background-blend-mode: hard-light, hard-light, normal, normal;
 }
 
