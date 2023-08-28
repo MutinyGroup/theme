@@ -8,7 +8,7 @@
  */
 ?>
 
-<!-- wp:block -->
+<!-- wp:group -->
 <div class="wp-block-group site-header" id="site-header">
   <!-- wp:paragraph -->
   <p class="site-title">Site Title</p>
@@ -18,7 +18,7 @@
   <div class="wp-block-group site-nav h-[60px]">
     <!-- wp:paragraph -->
     <p>test</p>
-    <!-- wp:paragraph -->
+    <!-- /wp:paragraph -->
   </div>
   <!-- /wp:group -->
 </div>

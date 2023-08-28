@@ -3,7 +3,7 @@ window.addEventListener("load", function () {
   const servicesTiles = document.querySelectorAll('.servicesTile');
   const slidesBlog = document.querySelectorAll('.slideBlog');
   const eventTiles = document.querySelectorAll('.event-tile');
-  const header = document.querySelectorAll('.Menu-desktop');
+  const header = document.querySelector('.Menu-desktop');
 
 // test
  const siteHeader = document.querySelector('.site-header');
