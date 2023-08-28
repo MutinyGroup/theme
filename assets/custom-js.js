@@ -19,6 +19,7 @@ window.addEventListener("load", function () {
         ((screenWidth > 500) ? i=i+1 : null)
         i=i+1;
         (screenWidth > 500) ? console.log('desktop') : console.log('mobile');
+        console.log(screenWidth);
         };
       };
     };
