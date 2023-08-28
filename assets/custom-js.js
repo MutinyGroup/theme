@@ -6,8 +6,8 @@ window.addEventListener("load", function () {
   const header = document.querySelectorAll('.Menu-desktop');
 
 // test
- const siteHeader = document.getElementById('site-header');
- const siteContent = document.getElementById('content-wrap');
+ const siteHeader = document.querySelector('.site-header');
+ const siteContent = document.querySelector('.content-wrap');
  let siteHeaderHeight = siteHeader.offsetHeight;
  
  siteHeader.classList.add('header-position-fixed');
