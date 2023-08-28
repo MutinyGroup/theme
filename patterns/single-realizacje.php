@@ -172,7 +172,7 @@
     <!-- wp:group -->
     <div class="wp-block-group border-wrapper pt-[20px] border-opacity-[40%] border-[#D5D5D5] border-t-[2px]">
       <!-- wp:paragraph -->
-      <a href="/blog/" class="group w-fit font-semibold flex items-center gap-[8px]">
+      <a href="/realizations/" class="group w-fit font-semibold flex items-center gap-[8px]">
         <!-- wp:group -->
         <div class="wp-block-group group w-[56px] h-[56px]">
           <!-- wp:paragraph -->
