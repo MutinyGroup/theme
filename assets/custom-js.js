@@ -59,8 +59,9 @@ window.addEventListener("load", function () {
     const rect2 = box.getBoundingClientRect();
   
     console.log(rect2);
+    console.log('rect2');
 
-    });
+  });
   
 
 
