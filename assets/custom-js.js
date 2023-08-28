@@ -5,37 +5,37 @@ window.addEventListener("load", function () {
   const eventTiles = document.querySelectorAll('.event-tile');
   const servicesSwiper = document.querySelectorAll('.swiperServices');
 
-  // const observer = new IntersectionObserver((entries) => { 
-  //   entries.forEach((entry) => {
-  //       console.log(entry.target);
-  //       console.log('visible');
-  //   })
-  // }); 
+  const observer = new IntersectionObserver((entries) => { 
+    entries.forEach((entry) => {
+        console.log(entry.target);
+        console.log('visible');
+    })
+  }); 
 
-  // let scrollPos = window.scrollY;
+  let scrollPos = window.scrollY;
 
-  // document.addEventListener("scroll", (event) => {
-  //   if (scrollPos > 300)  {
-  //     observer.observe(document.querySelector('.swiperServices'));
-  //     console.log('test');
-  //   }
-  //   });
+  document.addEventListener("scroll", (event) => {
+    if (scrollPos > 300)  {
+      observer.observe(document.querySelector('.swiperServices'));
+      console.log('test');
+    }
+    });
 
 
-  // function update() {
-  //   let container = document.getElementById("controls");
-  //   let elem = document.getElementById("#services");
-  //   let rect = elem.getBoundingClientRect();
+  function update() {
+    let container = document.getElementById("controls");
+    let elem = document.getElementById("#services");
+    let rect = elem.getBoundingClientRect();
   
-  //   container.innerHTML = "";
-  //   for (let key in rect) {
-  //     if (typeof rect[key] !== "function") {
-  //       let para = document.createElement("p");
-  //       para.textContent = `${key} : ${rect[key]}`;
-  //       container.appendChild(para);
-  //     }
-  //   }
-  // }
+    container.innerHTML = "";
+    for (let key in rect) {
+      if (typeof rect[key] !== "function") {
+        let para = document.createElement("p");
+        para.textContent = `${key} : ${rect[key]}`;
+        container.appendChild(para);
+      }
+    }
+  }
   
 
 
@@ -51,7 +51,6 @@ window.addEventListener("load", function () {
 
   document.addEventListener("scroll", (event) => {
     console.log(isInViewport(servicesSwiper));
-
     });
 
 
