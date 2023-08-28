@@ -11,7 +11,7 @@
 <!-- wp:group {"templateLock":"contentOnly","anchor":true} -->
 <div id="Team Mutiny" class="wp-block-group meet-us mb-[80px] desktop:mb-[150px] desktop:pb-0 pb-[60px]">
   <!-- wp:group -->
-  <div class="wp-block-group container mx-auto relative desktop:px-0 px-[20px]">
+  <div class="wp-block-group container mx-auto relative desktop:px-0 pl-[20px]">
     <!-- wp:paragraph -->
     <p>
       <svg class="shape opacity-[60%] scale-[0.6] desktop:scale-[1] z-[0] absolute desktop:top-0 top-[-50px] desktop:right-[0px] right-[-60px]" xmlns="http://www.w3.org/2000/svg" width="470" height="395" viewBox="0 0 470 395" fill="none">
@@ -101,7 +101,7 @@
           <!-- wp:list -->
           <ul class="wp-block-group w-fit flex gap-[20px] overflow-x-scroll">
             <!-- wp:list-item -->
-            <li class="wp-block-group w-[350px] tile-wrapper relative mb-[12px] rounded-[20px] overflow-hidden">
+            <li class="wp-block-group w-[300px] tile-wrapper relative mb-[12px] rounded-[20px] overflow-hidden">
               <!-- wp:group -->
               <div class="wp-block-group overlay-author z-[1] h-full w-full bg-gradient-to-t from-black via-[rgba(0,0,0,0)] opacity-[40%] absolute top-0 left-0 clip-path-url-['#clipped-swiper-serv-1']">
                 <!-- wp:paragraph -->
@@ -138,7 +138,7 @@
             </li>
             <!-- /wp:list-item -->
             <!-- wp:list-item -->
-            <li class="wp-block-group w-[350px] relative mb-[12px] rounded-[20px] overflow-hidden">
+            <li class="wp-block-group w-[300px] relative mb-[12px] rounded-[20px] overflow-hidden">
               <!-- wp:group -->
               <div class="wp-block-group overlay-author z-[1] h-full w-full bg-gradient-to-t from-black via-[rgba(0,0,0,0)] opacity-[40%] absolute top-0 left-0">
                 <!-- wp:paragraph -->
@@ -164,7 +164,7 @@
             </li>
             <!-- /wp:list-item -->
             <!-- wp:list-item -->
-            <li class="wp-block-group w-[350px] tile-wrapper relative mb-[12px] rounded-[20px] overflow-hidden">
+            <li class="wp-block-group w-[300px] tile-wrapper relative mb-[12px] rounded-[20px] overflow-hidden">
               <!-- wp:group -->
               <div class="wp-block-group overlay-author z-[1] h-full w-full bg-gradient-to-t from-black via-[rgba(0,0,0,0)] opacity-[40%] absolute top-0 left-0">
                 <!-- wp:paragraph -->
@@ -190,7 +190,7 @@
             </li>
             <!-- /wp:list-item -->
             <!-- wp:list-item -->
-            <li class="wp-block-group w-[350px] relative mb-[12px] rounded-[20px] overflow-hidden">
+            <li class="wp-block-group w-[300px] relative mb-[12px] rounded-[20px] overflow-hidden">
               <!-- wp:group -->
               <div class="wp-block-group overlay-author z-[1] h-full w-full bg-gradient-to-t from-black via-[rgba(0,0,0,0)] opacity-[40%] absolute top-0 left-0 clip-path-url-['#clipped-team']">
                 <!-- wp:paragraph -->
