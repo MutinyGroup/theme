@@ -63,28 +63,15 @@
 
         <!-- wp:group -->
         <div class="wp-block-group title-text-wrapper mb-[100px] desktop:mb-[70px] uppercase relative z-[1]">
-          <!-- wp:paragraph -->
-          <p class="company-title font-normal text-[16px] leading-[125%] overflow-hidden">
-            <span class="block">
-              Mutiny Group
-            </span>
-          </p>
+          <!-- wp:paragraph --></p>
           <!-- /wp:paragraph -->
 
           <!-- wp:paragraph -->
-          <p class="company-title font-medium overflow-hidden">
-            <span class="block">
-              Wchodzimy
-            </span>
-          </p>
+          <p class="company-title font-medium overflow-hidden"><span class="block">Wchodzimy</span></p>
           <!-- /wp:paragraph -->
 
           <!-- wp:paragraph -->
-          <p class="company-title font-medium overflow-hidden">
-            <span class="block">
-              NA RYNEK Z MOCNYM
-            </span>
-          </p>
+          <p class="company-title font-medium overflow-hidden"><span class="block">NA RYNEK Z MOCNYM</span></p>
           <!-- /wp:paragraph -->
 
           <!-- wp:group -->
