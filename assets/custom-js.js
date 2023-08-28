@@ -3,11 +3,6 @@ window.addEventListener("load", function () {
   const servicesTiles = document.querySelectorAll('.servicesTile');
   const slidesBlog = document.querySelectorAll('.slideBlog');
   const eventTiles = document.querySelectorAll('.event-tile');
-  // const servicesSwiper = document.querySelectorAll('.swiperServices');
-
-
-
-
 
   function scrollPage() {
     let scrollPos = window.scrollY;
@@ -107,4 +102,3 @@ window.addEventListener("load", function () {
   };
 
 });
-

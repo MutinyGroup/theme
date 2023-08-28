@@ -108,7 +108,7 @@
                 $counter++;
                 if ($counter == 1) { ?>
                   <!-- wp:paragraph -->
-                  <p>
+                  <p data-aos="fade-left" data-aos-duration="600" data-aos-offset="130">
                     <a href="#">
                       <!-- wp:group -->
                       <div class="wp-block-group swiper-slide desktop:mr-[80px] mr-[20px] relative group desktop:w-[535px] w-[300px] h-[500px] desktop:h-[675px] ">
