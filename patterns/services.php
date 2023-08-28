@@ -193,7 +193,8 @@
                 <!-- wp:group -->
                 <div class="wp-block-group hover-text mt-[370px] wide:mt-[350px] opacity-[0%] group-hover:opacity-[100%] group-hover:mt-[120px] desktop:group-hover:mt-[230px] wide:group-hover:mt-[270px] transition-all ease-out duration-500 text-[15px] font-light z-[2]">
                   <!-- wp:paragraph -->
-                  <?php echo 'test:' . wp_trim_words(the_excerpt(), 3, '...'); ?>
+                  <?php echo 'test:' . wp_trim_words(the_excerpt(), 3, '...');
+                  print_r(wp_trim_words(the_excerpt(), 3, '...')) ?>
                   <!-- /wp:paragraph -->
                   <!-- wp:paragraph -->
                   <?php echo 'test2:' . wp_trim_words(get_the_excerpt(), 3, '...'); ?>
