@@ -22,7 +22,7 @@
           <!-- wp:group -->
           <div class="wp-block-group h-fit overflow-hidden flex justify-end">
             <!-- wp:paragraph -->
-            <p class="test01 justify-self-start desktop:justify-self-end pt-[3px] pr-[15px]">Realizacje</p>
+            <p class="test01 justify-self-start desktop:justify-self-end pt-[7px] pr-[15px]">Realizacje</p>
             <!-- /wp:paragraph -->
           </div>
           <!-- /wp:group -->
@@ -32,7 +32,7 @@
         <!-- /wp:group -->
 
         <!-- wp:group -->
-        <div class="wp-block-group uslugi-title uppercase font-medium desktop:text-[60px] text-[30px] desktop:leading-[60px] leading-[30px]">
+        <div class="wp-block-group uslugi-title uppercase font-medium desktop:text-[60px] text-[30px] desktop:leading-[68px] leading-[30px]">
 
           <!-- wp:group -->
           <div class="wp-block-group overflow-hidden">
