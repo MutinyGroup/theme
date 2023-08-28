@@ -8,16 +8,21 @@
  */
 ?>
 
-<header class="site-header" id="site-header">
-  <h1 class="site-title">Site Title</h1>
-  <nav class="site-nav">
-    <ul class="nav-items">
-      <li class="nav-item">About</li>
-      <li class="nav-item">Contact</li>
-      <li class="nav-item">Search</li>
-    </ul>
-  </nav>
-</header>
+<!-- wp:block -->
+<div class="wp-block-group site-header" id="site-header">
+  <!-- wp:paragraph -->
+  <p class="site-title">Site Title</p>
+  <!-- /wp:paragraph -->
+
+  <!-- wp:group -->
+  <div class="wp-block-group site-nav">
+    <!-- wp:paragraph -->
+    <p>test</p>
+    <!-- wp:paragraph -->
+  </div>
+  <!-- /wp:group -->
+</div>
+<!-- /wp:group -->
 
 <!-- wp:list {"templateLock":"contentOnly","anchor":true} -->
 <ul id="Menu-desktop" class="wp-block-list nav-desktop h-[60px] desktop:h-[90px] fixed top-0 w-[100%] hidden desktop:flex justify-center items-center z-[4]">
