@@ -9,7 +9,7 @@
 ?>
 
 <!-- wp:group {"templateLock":"contentOnly","anchor":true} -->
-<div id="Banner" class="wp-block-group banner relative mb-0 pt-[110px] desktop:pt-[80px] h-fit desktop:h-screen overflow-hidden desktop:overflow-visible">
+<div id="Banner" class="wp-block-group banner relative mb-0 pt-[140px] desktop:pt-[80px] h-fit desktop:h-screen overflow-hidden desktop:overflow-visible">
   <!-- wp:group -->
   <div class="wp-block-group bg-shape z-[0] scale-[0.7] desktop:scale-[1] opacity-[10%] absolute top-[-200px] desktop:top-[120px] left-[-350px] desktop:left-[-80px]">
     <!-- wp:paragraph -->
@@ -104,9 +104,9 @@
       <!-- /wp:group -->
 
       <!-- wp:group -->
-      <div class="wp-block-group right-col banner-bg h-[300px] tablet:h-[450px] desktop:h-[775px] wide:h-[950px] desktop:w-[44%] w-[65%] absolute right-0 top-[80px] desktop:top-[50px] z-[0]">
+      <div class="wp-block-group right-col banner-bg h-[500px] tablet:h-[450px] desktop:h-[775px] wide:h-[950px] desktop:w-[44%] w-[100%] absolute right-0 top-[80px] desktop:top-[50px] z-[0]">
         <!-- wp:group -->
-        <div class="wp-block-group clip-path-url-['#clipped-banner'] opacity-[50%] z-[1] h-full w-full bg-black absolute top-0 left-0">
+        <div class="wp-block-group clip-path-url-['#clipped-banner'] opacity-[65%] z-[1] h-full w-full bg-black absolute top-0 left-0">
           <!-- wp:paragraph -->
           <p class="hidden">overlay</p>
           <!-- /wp:paragraph -->
@@ -118,7 +118,7 @@
         </figure>
         <!-- /wp:image -->
         <!-- wp:paragraph -->
-        <p>
+        <p class="hidden desktop:block">
           <svg width="0" height="0">
             <defs>
               <clipPath id="clipped-banner" class="scale-[0.5] tablet:scale-[1.1] tablet:scale-y-[0.7] desktop:scale-[1.1] wide:scale-[1.35]">
