@@ -5,52 +5,7 @@ window.addEventListener("load", function () {
   const eventTiles = document.querySelectorAll('.event-tile');
   const servicesSwiper = document.querySelectorAll('.swiperServices');
 
-  const observer = new IntersectionObserver((entries) => { 
-    entries.forEach((entry) => {
-        console.log(entry.target);
-        console.log('visible');
-    })
-  }); 
 
-
-  document.addEventListener("scroll", (event) => {
-    if (scrollPos > 300)  {
-      observer.observe(document.querySelector(servicesSwiper));
-      console.log('test');
-    }
-    });
-  
-
-
-  function isInViewport(element) {
-    const rect = element.getBoundingClientRect();
-    return (
-        rect.top >= 0 &&
-        rect.left >= 0 &&
-        rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
-        rect.right <= (window.innerWidth || document.documentElement.clientWidth)
-    );
-  }
-
-  document.addEventListener("scroll", (event) => {
-    console.log(isInViewport(servicesSwiper));
-    });
-
-
-
-
-
-  // document.addEventListener("scroll", (event) => {
-  //   const box = document.querySelector('#services');
-  //   if(box!=null){
-  //   const rect2 = box.getBoundingClientRect();
-  
-  //   console.log(rect2);
-  //   console.log('rect2');
-  //   }
-
-  // });
-  
 
 
 
