@@ -13,7 +13,7 @@
   <!-- wp:group -->
   <div class="wp-block-group container mx-auto relative desktop:px-0 px-[20px]">
     <!-- wp:group -->
-    <div class="wp-block-group title-wrapper relative container mx-auto desktop:mb-[120px] mb-[60px] flex z-[1]">
+    <div class="wp-block-group title-wrapper relative container mx-auto desktop:mb-[120px] mb-[60px] desktop:flex z-[1]">
       <!-- wp:paragraph -->
       <p>
         <svg class="flash desktop:scale-[1] scale-[0.4] absolute desktop:top-[-330px] top-[-360px] desktop:left-[-140px] right-[-100px] z-[-1]" xmlns="http://www.w3.org/2000/svg" width="688" height="801" viewBox="0 0 688 801" fill="none">
@@ -48,14 +48,14 @@
         <!-- wp:group -->
         <div class="wp-block-group overflow-hidden">
           <!-- wp:paragraph -->
-          <p data-aos="fade-up" data-aos-duration="600" data-aos-offset="130" class="uppercase inline-block desktop:text-[50px] text-[24px] desktop:leading-[55px] leading-[30px]">Dlaczego warto z nami</p>
+          <p data-aos="fade-up" data-aos-duration="600" data-aos-offset="130" class="uppercase inline desktop:text-[50px] text-[24px] desktop:leading-[55px] leading-[30px]">Dlaczego warto z nami</p>
           <!-- /wp:paragraph -->
         </div>
         <!-- /wp:group -->
         <!-- wp:group -->
         <div class="wp-block-group overflow-hidden">
           <!-- wp:paragraph {"templateLock":"contentOnly"} -->
-          <p data-aos="fade-up" data-aos-duration="600" data-aos-offset="85" class="relative ml-[12px] desktop:text-[50px] text-[24px] desktop:leading-[55px] leading-[30px] inline-block uppercase italic before:content-[''] before:inline-block desktop:before:mr-[18px] before:mr-[8px] before:bottom-0 before:left-0 desktop:before:w-[90px] before:w-[30px] desktop:before:h-[3px] before:h-[2px] before:bg-black">współpracować</p>
+          <p data-aos="fade-up" data-aos-duration="600" data-aos-offset="85" class="relative ml-[12px] desktop:text-[50px] text-[24px] desktop:leading-[55px] leading-[30px] inline uppercase italic before:content-[''] before:inline-block desktop:before:mr-[18px] before:mr-[8px] before:bottom-0 before:left-0 desktop:before:w-[90px] before:w-[30px] desktop:before:h-[3px] before:h-[2px] before:bg-black">współpracować</p>
           <!-- /wp:paragraph -->
         </div>
         <!-- /wp:group -->
@@ -81,7 +81,7 @@
           <!-- wp:group -->
           <div class="wp-block-group col1 relative w-[40%]">
             <!-- wp:paragraph -->
-            <p class="text-[50px] text-primaryYellow">01 / <span class="text-[20px] text-black font-medium">03</span></p>
+            <p data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="text-[50px] text-primaryYellow">01 / <span class="text-[20px] text-black font-medium">03</span></p>
             <!-- /wp:paragraph -->
 
             <!-- wp:paragraph -->
@@ -121,24 +121,26 @@
               <!-- /wp:group -->
 
               <!-- wp:paragraph -->
-              <p class="my-[50px] text-[35px] leading-[42px] font-semibold uppercase relative">Mamy nieszablonowe <br />podejście</p>
+              <p data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="my-[50px] text-[35px] leading-[42px] font-semibold uppercase relative">Mamy nieszablonowe <br />podejście</p>
               <!-- /wp:paragraph -->
               <!-- wp:paragraph -->
-              <p class="mb-[50px] text-[20px] leading-[30px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, seddo eiusmod tempor incididunt ut labore et dolore magnaaliqua. Ut enim ad minim veniam, quis nostrud exercitationullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+              <p data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="mb-[50px] text-[20px] leading-[30px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, seddo eiusmod tempor incididunt ut labore et dolore magnaaliqua. Ut enim ad minim veniam, quis nostrud exercitationullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
               <!-- /wp:paragraph -->
               <!-- wp:paragraph -->
-              <p class="mb-[50px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, seddo eiusmod tempor incididunt ut labore et dolore magnaaliqua. Ut enim ad minim veniami.</p>
+              <p data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="mb-[50px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, seddo eiusmod tempor incididunt ut labore et dolore magnaaliqua. Ut enim ad minim veniami.</p>
               <!-- /wp:paragraph -->
               <!-- wp:list -->
               <ul class="wp-block-list leading-[32px] font-semibold">
                 <!-- wp:list-item -->
-                <li class="before:content-[''] before:inline-block before:mr-[5px] before:mb-[5px] before:w-[20px] before:h-[2px] before:bg-primaryYellow">Lorem ipsum dolor sit amet</li>
+                <li class="before:content-[''] before:inline-block before:mr-[5px] before:mb-[5px] before:w-[20px] before:h-[2px] before:bg-primaryYellow">
+                  <p data-aos="fade-right" data-aos-duration="600" data-aos-offset="85">Lorem ipsum dolor sit amet</p>
+                </li>
                 <!-- /wp:list-item -->
                 <!-- wp:list-item -->
-                <li class="before:content-[''] before:inline-block before:mr-[5px] before:mb-[5px] before:w-[20px] before:h-[2px] before:bg-primaryYellow">Consectetur adipiscing elit</li>
+                <li class="before:content-[''] before:inline-block before:mr-[5px] before:mb-[5px] before:w-[20px] before:h-[2px] before:bg-primaryYellow"><p data-aos="fade-right" data-aos-duration="600" data-aos-offset="85">Consectetur adipiscing elit</p></li>
                 <!-- /wp:list-item -->
                 <!-- wp:list-item -->
-                <li class="before:content-[''] before:inline-block before:mr-[5px] before:mb-[5px] before:w-[20px] before:h-[2px] before:bg-primaryYellow">Sed do eiusmod tempor incididunt</li>
+                <li class="before:content-[''] before:inline-block before:mr-[5px] before:mb-[5px] before:w-[20px] before:h-[2px] before:bg-primaryYellow"><p data-aos="fade-right" data-aos-duration="600" data-aos-offset="85">Sed do eiusmod tempor incididunt</p></li>
                 <!-- /wp:list-item -->
               </ul>
               <!-- /wp:list -->
