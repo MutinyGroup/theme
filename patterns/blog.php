@@ -108,7 +108,7 @@
                 $counter++;
                 if ($counter == 1) { ?>
                   <!-- wp:paragraph -->
-                  <a href="<?php the_permalink(); ?>" data-aos="fade-right" data-aos-duration="600" data-aos-offset="130" class="swiper-slide">
+                  <a href="<?php the_permalink(); ?>" data-aos="fade-right" data-aos-duration="600" data-aos-offset="130" class="swiper-slide desktop:w-[535px] w-[300px] h-[500px] desktop:h-[675px]">
                     <!-- wp:group -->
                     <div class="wp-block-group swiper-slide desktop:mr-[80px] mr-[20px] relative group desktop:w-[535px] w-[300px] h-[500px] desktop:h-[675px] ">
                       <!-- wp:group -->
@@ -154,7 +154,7 @@
                 <?php
                 } else { ?>
                   <!-- wp:paragraph -->
-                  <a href="<?php the_permalink(); ?>" data-aos="fade-right" data-aos-duration="600" data-aos-offset="130" class="swiper-slide">
+                  <a href="<?php the_permalink(); ?>" data-aos="fade-right" data-aos-duration="600" data-aos-offset="130" class="swiper-slide desktop:w-[444px] w-[280px] desktop:h-[675px] h-[480px]">
                     <!-- wp:group -->
                     <div class="wp-block-group swiper-slide desktop:mr-[80px] mr-[20px] relative group desktop:w-[444px] w-[280px] desktop:h-[675px] h-[480px]">
                       <!-- wp:group -->
