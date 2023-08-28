@@ -116,7 +116,7 @@
   <!-- /wp:group -->
 
   <!-- wp:group -->
-  <div class="wp-block-group relative footer2 container mx-auto desktop:px-0 px-[20px] desktop:py-[36px] py-[20px] flex desktop:flex-row flex-col justify-between items-center text-[14px] font-extralight overflow-hidden">
+  <div class="wp-block-group relative footer2 container mx-auto desktop:px-0 px-[20px] desktop:py-[36px] py-[20px] flex desktop:flex-row flex-col justify-between items-center text-[14px] font-extralight desktop:overflow-hidden overflow-y-visible">
     <!-- wp:group -->
     <div class="wp-block-group flash-wrapper wide:scale-[1] desktop:scale-[1] scale-[0.5] absolute top-[-215px] desktop:top-[-30px] left-[calc(50%-316px)] z-[0]">
       <!-- wp:paragraph -->
