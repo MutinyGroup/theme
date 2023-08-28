@@ -105,7 +105,7 @@
       <!-- wp:group -->
       <div class="wp-block-group right-col banner-bg h-[300px] tablet:h-[450px] desktop:h-[775px] wide:h-[950px] desktop:w-[44%] w-[65%] absolute right-0 top-[80px] desktop:top-[50px] z-[0]">
         <!-- wp:image -->
-        <figure class="wp-block-image clip-path-url-['#clipped-banner'] relative h-full before:content-[''] before:w-full before:h-full before:bg-[#000] before:z-[1] before:opacity-[30%] before:absolute before:top-0 before:left-0">
+        <figure class="wp-block-image clip-path-url-['#clipped-banner'] relative h-full before:content-[''] before:w-full before:h-full before:z-[1] before:opacity-[30%] before:absolute before:top-0 before:left-0">
           <img src="<?php echo home_url() . '/wp-content/themes/mutiny/assets/img/front-page/frontpage-banner.jpg'; ?>" alt="background image" />
         </figure>
         <!-- /wp:image -->
