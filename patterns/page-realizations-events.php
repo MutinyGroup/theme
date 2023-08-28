@@ -70,9 +70,8 @@
           $counter++;
           if (true) { ?>
             <!-- wp:list-item -->
-            <li class="event-tile group mb-[50px] opacity-0 transition duration-[800ms]">
-              <!-- wp:group -->
-              <div class="wp-block-group tile-container desktop:flex gap-[75px]">
+            <li class="event-tile group mb-[50px] oopacity-0 ttransition dduration-[800ms]">
+              <a href="<?php the_permalink(); ?>" class="wp-block-group tile-container desktop:flex gap-[75px]" data-aos="fade-right" data-aos-duration="600" data-aos-offset="130">
                 <!-- wp:group -->
                 <div class="wp-block-group event-image-wrapper desktop:mb-0 mb-[20px] h-[400px] overflow-hidden w-full rounded-[20px]">
                   <!-- wp:image -->
@@ -115,14 +114,14 @@
                   <!-- /wp:list -->
 
                   <!-- wp:paragraph -->
-                  <p><a href="<?php the_permalink(); ?>" class="text-[35px] font-semibold leading-[42px]"><?php the_title(); ?></a></p>
+                  <p><?php the_title(); ?></p>
                   <!-- /wp:paragraph -->
                   <!-- wp:buttons -->
                   <div class="wp-block-buttons w-[56px] h-[56px] mt-[40px]">
                     <!-- wp:group -->
                     <div class="wp-block-group">
                       <!-- wp:paragraph -->
-                      <a href="<?php the_permalink(); ?>">
+                      <p>
                         <!-- wp:paragraph -->
                         <svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 56 56" fill="none" class="group fill-transparent group-hover:fill-primaryYellow">
                           <rect x="1.5" y="1.5" width="53" height="53" rx="26.5" stroke="#AAAAAA" stroke-width="3" class="group-hover:stroke-primaryYellow transition-stroke ease-out duration-500" />
@@ -130,7 +129,7 @@
                           <path d="M20 28L31 28" stroke="black" stroke-width="1.5" class="group-hover:stroke-black transition-stroke ease-out duration-500" />
                         </svg>
                         <!-- /wp:paragraph -->
-                      </a>
+                      </p>
                       <!-- /wp:paragraph -->
                     </div>
                     <!-- /wp:group -->
@@ -138,8 +137,7 @@
                   <!-- /wp:buttons -->
                 </div>
                 <!-- /wp:group -->
-              </div>
-              <!-- /wp:group -->
+              </a>
             </li>
             <!-- /wp:list-item -->
       <?php

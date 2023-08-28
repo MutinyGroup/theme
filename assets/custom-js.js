@@ -89,14 +89,14 @@ window.addEventListener("load", function () {
         };
       };
     };
-    if (eventTiles.length > 0 && scrollPos >= 0)  {
-      for(let i = 0 ; i < eventTiles.length ; i++){
-        if (scrollPos >= 0 + (i>1 ? (((i*1.5)*150) + i*130) : ((i*1.5)*150))) {
-        eventTiles[i].classList.add('test02');
-        eventTiles[i].classList.remove('opacity-0');
-        };
-      };
-    };
+    // if (eventTiles.length > 0 && scrollPos >= 0)  {
+    //   for(let i = 0 ; i < eventTiles.length ; i++){
+    //     if (scrollPos >= 0 + (i>1 ? (((i*1.5)*150) + i*130) : ((i*1.5)*150))) {
+    //     eventTiles[i].classList.add('test02');
+    //     eventTiles[i].classList.remove('opacity-0');
+    //     };
+    //   };
+    // };
   };
   scrollPage();
 
