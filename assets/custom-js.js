@@ -36,8 +36,7 @@ window.addEventListener("load", function () {
   //   }
   // }
   
-  document.addEventListener("scroll", update);
-  // update();
+
 
   function isInViewport(element) {
     const rect = element.getBoundingClientRect();
