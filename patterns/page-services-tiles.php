@@ -234,30 +234,16 @@
                   </div>
                   <!-- /wp:group -->
 
-                  <!-- wp:list -->
-                  <ul class="wp-block-buttons btn-swiper-more group z-[2] pr-[20px] desktop:pr-0 text-[14px] font-semibold uppercase absolute  desktop:bottom-[75px] bottom-[20px] desktop:left-[25px] left-[20px] transition ease-out duration-300">
-                    <!-- wp:list-item -->
-                    <li class="pointer-events-none flex items-center gap-[10px]">
-                      <!-- wp:group -->
-                      <div class="wp-block-group inline">
-                        <!-- wp:paragraph -->
-                        <p class="inline">Dowiedz się więcej</p>
-                        <!-- /wp:paragraph -->
-                      </div>
-                      <!-- /wp:group -->
-                      <!-- wp:paragraph -->
-                      <p>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" fill="none " class="inline-block ml-[10px]">
-                          <rect x="1" y="1" width="34" height="34" rx="18" stroke="#AAAAAA" stroke-width="2" fill="transparent" class="transition ease-out duration-300 group-hover:fill-[#FEC400] group-hover:stroke-[#FEC400]" />
-                          <path d="M19 22L23 18.0108L19.0217 14" stroke="black" />
-                          <path d="M12 18L20 18" stroke="black" />
-                        </svg>
-                      </p>
-                      <!-- /wp:paragraph -->
-                    </li>
-                    <!-- /wp:paragraph -->
-                  </ul>
-                  <!-- /wp:list -->
+                  <!-- wp:paragraph -->
+                  <p class="btn-swiper-more group z-[2] pr-[20px] desktop:pr-0 text-[14px] font-semibold uppercase absolute  desktop:bottom-[75px] bottom-[20px] desktop:left-[25px] left-[20px] transition ease-out duration-300">Dowiedz się więcej
+                    <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" fill="none " class="inline-block ml-[10px]">
+                      <rect x="1" y="1" width="34" height="34" rx="18" stroke="#AAAAAA" stroke-width="2" fill="transparent" class="transition ease-out duration-300 group-hover:fill-[#FEC400] group-hover:stroke-[#FEC400]" />
+                      <path d="M19 22L23 18.0108L19.0217 14" stroke="black" />
+                      <path d="M12 18L20 18" stroke="black" />
+                    </svg>
+                  </p>
+                  <!-- /wp:paragraph -->
+
                 </a>
                 <!-- /wp:paragraph -->
               </li>
