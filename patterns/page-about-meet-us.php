@@ -75,17 +75,17 @@
       <!-- wp:group -->
       <div class="wp-block-group col1 mb-[40px] desktop:mb-0 desktop:pl-[155px] basis-[40%]">
         <!-- wp:paragraph -->
-        <p class="max-w-full desktop:max-w-[173px] text-[16px] leading-[21px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+        <p data-aos="fade-up" data-aos-duration="600" data-aos-offset="130" class="max-w-full desktop:max-w-[173px] text-[16px] leading-[21px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
         <!-- /wp:paragraph -->
       </div>
       <!-- /wp:group -->
       <!-- wp:group -->
       <div class=" wp-block-group col2 basis-[60%]">
         <!-- wp:paragraph -->
-        <p class="desktop:text-[20px] text-[18px] desktop:leading-[30px] leading-[26px] mb-[50px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <p data-aos="fade-up" data-aos-duration="600" data-aos-offset="130" class="desktop:text-[20px] text-[18px] desktop:leading-[30px] leading-[26px] mb-[50px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
         <!-- /wp:paragraph -->
         <!-- wp:paragraph -->
-        <p class="hidden desktop:block text-[16px] leading-[21px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <p data-aos="fade-up" data-aos-duration="600" data-aos-offset="130" class="hidden desktop:block text-[16px] leading-[21px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
         <!-- /wp:paragraph -->
       </div>
       <!-- /wp:group -->
