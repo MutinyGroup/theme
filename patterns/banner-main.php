@@ -104,8 +104,15 @@
 
       <!-- wp:group -->
       <div class="wp-block-group right-col banner-bg h-[300px] tablet:h-[450px] desktop:h-[775px] wide:h-[950px] desktop:w-[44%] w-[65%] absolute right-0 top-[80px] desktop:top-[50px] z-[0]">
+        <!-- wp:group -->
+        <div class="wp-block-group z-[1] h-full w-full bg-gradient-to-t from-black via-[rgba(0,0,0,0)] opacity-[40%] absolute top-0 left-0 clip-path-url-['#clipped-blog']">
+          <!-- wp:paragraph -->
+          <p class="hidden">overlay</p>
+          <!-- /wp:paragraph -->
+        </div>
+        <!-- /wp:group -->
         <!-- wp:image -->
-        <figure class="wp-block-image clip-path-url-['#clipped-banner'] relative h-full before:content-[''] before:w-full before:h-full before:bg-gradient-to-t before:bg-from-black before:bg-via-[#D9D9D9] before:z-[1] before:opacity-[30%] before:absolute before:top-0 before:left-0">
+        <figure class="wp-block-image clip-path-url-['#clipped-banner'] relative h-full before:content-[''] before:w-full before:h-full before:bg-[#D9D9D9] before:z-[1] before:opacity-[30%] before:absolute before:top-0 before:left-0">
           <img src="<?php echo home_url() . '/wp-content/themes/mutiny/assets/img/front-page/frontpage-banner.jpg'; ?>" alt="background image" />
         </figure>
         <!-- /wp:image -->

@@ -54,11 +54,7 @@
           <!-- wp:group -->
           <div class="wp-block-group overflow-hidden">
             <!-- wp:paragraph -->
-            <p data-aos="fade-up" data-aos-duration="600" data-aos-offset="130" class="company-title overflow-hidden">
-              <span class="block uppercase">
-                POROZMAWIAJMY O
-              </span>
-            </p>
+            <p data-aos="fade-up" data-aos-duration="600" data-aos-offset="130" class="company-title overflow-hidden"><span class="block uppercase">POROZMAWIAJMY O</span></p>
             <!-- /wp:paragraph -->
           </div>
           <!-- /wp:group -->
