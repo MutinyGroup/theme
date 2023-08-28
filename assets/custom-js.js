@@ -3,11 +3,11 @@ window.addEventListener("load", function () {
   const servicesTiles = document.querySelectorAll('.servicesTile');
   const slidesBlog = document.querySelectorAll('.slideBlog');
   const eventTiles = document.querySelectorAll('.event-tile');
-  const header = document.querySelector('.Menu-desktop');
+  // const header = document.querySelector('.Menu-desktop');
 
 // test
- const siteHeader = document.querySelector('.site-header');
- const siteContent = document.querySelector('.content-wrap');
+ const siteHeader = document.querySelector('#Menu-desktop');
+ const siteContent = document.querySelector('#main');
  let siteHeaderHeight = siteHeader.offsetHeight;
  
  siteHeader.classList.add('header-position-fixed');

@@ -9,7 +9,7 @@
 ?>
 
 <!-- wp:group -->
-<div class="wp-block-group site-header" id="site-header">
+<div class="wp-block-group hidden site-header" id="site-header">
   <!-- wp:paragraph -->
   <p class="site-title">Site Title</p>
   <!-- /wp:paragraph -->
