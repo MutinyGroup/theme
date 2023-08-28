@@ -8,7 +8,7 @@
  */
 ?>
 <!-- wp:list {"templateLock":"contentOnly","anchor":true} -->
-<ul id="Menu-desktop" class="wp-block-list nav-desktop bg-brightWhite h-[60px] desktop:h-[90px] hidden desktop:flex justify-center items-center z-[4]">
+<ul id="Menu-desktop" class="wp-block-list nav-desktop bg-brightWhite h-[60px] fixed top-0 w-[100%] desktop:h-[90px] hidden desktop:flex justify-center items-center z-[4]">
   <!-- wp:list-item -->
   <li>
     <a href="https://mutiny.webo.design" class="fixed top-[32px] left-[22px] z-[3]">
