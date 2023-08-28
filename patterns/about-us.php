@@ -13,7 +13,7 @@
   <!-- wp:group -->
   <div class="wp-block-group relative px-[20px] desktop:px-0">
     <!-- wp:group -->
-    <div class="wp-block-group title-wrapper container mx-auto relative desktop:mb-[110px] mb-[80px] flex gap-[20px]">
+    <div class="wp-block-group title-wrapper container mx-auto relative desktop:mb-[110px] mb-[80px] desktop:flex gap-[20px]">
       <!-- wp:group -->
       <div class="wp-block-group min-w-fit h-fit overflow-hidden">
         <!-- wp:paragraph -->
@@ -29,12 +29,12 @@
         <!-- wp:group -->
         <div class="wp-block-group overflow-hidden">
           <!-- wp:paragraph -->
-          <p data-aos="fade-up" class="uppercase hidden innline-block desktop:text-[50px] text-[24px] desktop:leading-[55px] leading-[30px]">(v1) Holistyczne podejście do działań reklamowych sprawia, że nasza firma działa<span data-aos="fade-up" class="relative ml-[12px] desktop:text-[50px] text-[24px] desktop:leading-[55px] leading-[30px] inline-block uppercase italic before:content-[''] before:inline-block desktop:before:mr-[18px] before:mr-[8px] before:bottom-0 before:left-0 desktop:before:w-[90px] before:w-[30px] desktop:before:h-[3px] before:h-[2px] before:bg-white">jak jeden organizm</span></p>
+          <p data-aos="fade-up" class="uppercase innline-block desktop:text-[50px] text-[24px] desktop:leading-[55px] leading-[30px]">(v1) Holistyczne podejście do działań reklamowych sprawia, że nasza firma działa<span data-aos="fade-up" class="relative ml-[12px] desktop:text-[50px] text-[24px] desktop:leading-[55px] leading-[30px] inline-block uppercase italic before:content-[''] before:inline-block desktop:before:mr-[18px] before:mr-[8px] before:bottom-0 before:left-0 desktop:before:w-[90px] before:w-[30px] desktop:before:h-[3px] before:h-[2px] before:bg-white">jak jeden organizm</span></p>
           <!-- /wp:paragraph -->
         </div>
         <!-- /wp:group -->
         <!-- wp:group -->
-        <div class="wp-block-group overflow-hidden">
+        <div class="wp-block-group hidden overflow-hidden">
           <!-- wp:group -->
           <div class="wp-block-group overflow-hidden">
             <!-- wp:paragraph -->
