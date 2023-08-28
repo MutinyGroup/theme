@@ -15,7 +15,7 @@
     <!-- wp:group -->
     <div class="wp-block-group title-wrapper relative desktop:mb-[40px] mb-[20px] desktop:mt-[90px]">
       <!-- wp:group -->
-      <div class="wp-block-group relative container mx-auto flex">
+      <div class="wp-block-group relative container mx-auto desktop:flex">
         <!-- wp:group -->
         <div class="wp-block-group section-title grid desktop:w-[145px] w-[90px] uppercase text-primaryYellow">
           <!-- wp:group -->
