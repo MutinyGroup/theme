@@ -6,15 +6,19 @@ window.addEventListener("load", function () {
 
   function scrollPage() {
     let scrollPos = window.scrollY;
+    let screenWidth = window.innerWidth;
+
 
     if (servicesTiles.length > 0 && scrollPos > 1000)  {
       for(let i = 0 ; i < servicesTiles.length+1 ; i++){
-        if (scrollPos > 1100 + ((i*1.2)*200)) {
+        if (scrollPos > 1100 + ((i*1.2) * ((screenWidth > 500) ? 200 : 50) )) {
         servicesTiles[i].classList.add('test02');
         servicesTiles[i].classList.remove('opacity-0');
         servicesTiles[i+1].classList.add('test02');
         servicesTiles[i+1].classList.remove('opacity-0');
+        ((screenWidth > 500) ? i=i+1 : null)
         i=i+1;
+        (screenWidth > 500) ? console.log('desktop') : console.log('mobile');
         };
       };
     };
