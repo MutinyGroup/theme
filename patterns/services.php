@@ -252,7 +252,7 @@
       <ul class="wp-block-list">
         <!-- wp:list-item -->
         <li class="wp-block-group">
-          <a href="<?php echo get_home_url() . '/services'; ?>" class="uppercase group bg-black text-white text-[14px] font-bold min-w-[225px] flex justify-center items-center px-[20px] btn-more ml-[0px] p-[15px_30px] border-[2px] rounded-full hover:bg-white hover:text-black transition duration-300 ease-out">
+          <a href="<?php echo get_home_url() . '/services'; ?>" class="uppercase group bg-black text-white text-[14px] font-bold min-w-[225px] flex justify-center items-center px-[20px] btn-more ml-[0px] p-[15px_30px] border-[2px] rounded-full hover:bg-white hover:text-black">
             <!-- wp:group -->
             <div class="wp-block-group overflow-hidden h-[18px]">
               <!-- wp:group -->
