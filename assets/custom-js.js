@@ -61,10 +61,12 @@ window.addEventListener("load", function () {
 
   document.addEventListener("scroll", (event) => {
     const box = document.querySelector('#services');
+    if(rect!=null){
     const rect2 = box.getBoundingClientRect();
   
     console.log(rect2);
     console.log('rect2');
+    }
 
   });
   
