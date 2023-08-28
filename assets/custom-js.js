@@ -13,7 +13,9 @@ window.addEventListener("load", function () {
   }); 
 
   document.addEventListener("scroll", (event) => {
-    observer.observe(document.querySelector('.swiperServices'));
+    if (scrollPos > 300)  {
+      observer.observe(document.querySelector('.swiperServices'));
+    }
     });
 
 
