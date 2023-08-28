@@ -40,7 +40,6 @@ window.addEventListener("load", function () {
 
 
   function isInViewport(element) {
-    if(servicesSwiper!=null){
     const rect = element.getBoundingClientRect();
     return (
         rect.top >= 0 &&
@@ -48,7 +47,6 @@ window.addEventListener("load", function () {
         rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
         rect.right <= (window.innerWidth || document.documentElement.clientWidth)
     );
-  };
   }
 
   document.addEventListener("scroll", (event) => {
