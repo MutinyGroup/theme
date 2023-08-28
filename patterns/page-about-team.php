@@ -95,11 +95,11 @@
       <!-- /wp:group -->
 
       <!-- wp:group -->
-      <div class="wp-block-group mobile col2 block desktop:hidden desktop:z-[1]">
+      <div class="wp-block-group mobile col2 block desktop:hidden desktop:z-[1] overflow-x-scroll">
         <!-- wp:group -->
-        <div class="wp-block-group gallery-cols">
+        <div class="wp-block-group gallery-cols overflow-x-scroll">
           <!-- wp:list -->
-          <ul class="wp-block-group w-fit flex gap-[20px] overflow-y-scroll">
+          <ul class="wp-block-group w-fit flex gap-[20px] overflow-x-scroll">
             <!-- wp:list-item -->
             <li class="wp-block-group w-[350px] tile-wrapper relative mb-[12px] rounded-[20px] overflow-hidden">
               <!-- wp:group -->
