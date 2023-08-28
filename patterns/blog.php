@@ -74,7 +74,7 @@
         <!-- wp:group -->
         <div class="wp-block-group overflow-hidden">
           <!-- wp:paragraph {"templateLock":"contentOnly"} -->
-          <p data-aos="fade-up" data-aos-duration="600" data-aos-offset="85" class="relative ml-[12px] desktop:text-[50px] text-[24px] desktop:leading-[55px] leading-[30px] inline-block uppercase italic before:content-[''] before:inline-block desktop:before:mr-[18px] before:mr-[8px] before:bottom-0 before:left-0 desktop:before:w-[90px] before:w-[30px] desktop:before:h-[3px] before:h-[2px] before:bg-white">z Mutiny Group2</p>
+          <p data-aos="fade-up" data-aos-duration="600" data-aos-offset="85" class="relative ml-[12px] desktop:text-[50px] text-[24px] desktop:leading-[55px] leading-[30px] inline-block uppercase italic before:content-[''] before:inline-block desktop:before:mr-[18px] before:mr-[8px] before:bottom-0 before:left-0 desktop:before:w-[90px] before:w-[30px] desktop:before:h-[3px] before:h-[2px] before:bg-white">z Mutiny Group3</p>
           <!-- /wp:paragraph -->
         </div>
         <!-- /wp:group -->
@@ -108,7 +108,7 @@
                 $counter++;
                 if ($counter == 1) { ?>
                   <!-- wp:paragraph -->
-                  <a href="#" data-aos="fade-up" data-aos-duration="600" data-aos-offset="130">
+                  <a href="#" data-aos="fade-left" data-aos-duration="600" data-aos-offset="130">
                     <!-- wp:group -->
                     <div class="wp-block-group swiper-slide desktop:mr-[80px] mr-[20px] relative group desktop:w-[535px] w-[300px] h-[500px] desktop:h-[675px] ">
                       <!-- wp:group -->
