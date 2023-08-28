@@ -15,7 +15,7 @@
   <!-- /wp:paragraph -->
 
   <!-- wp:group -->
-  <div class="wp-block-group site-nav">
+  <div class="wp-block-group site-nav h-[60px]">
     <!-- wp:paragraph -->
     <p>test</p>
     <!-- wp:paragraph -->
