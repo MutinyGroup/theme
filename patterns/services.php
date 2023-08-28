@@ -82,18 +82,22 @@
     </div>
     <!-- /wp:group -->
     <!-- wp:group -->
-    <div class="wp-block-group circle-title desktop:w-[120px] desktop:h-[120px] w-[110px] h-[110px] mt-[80px] desktop:mt-0 mx-0 text-center leading-[50px] flex items-center justify-center flex-col rounded-full border-[4px] border-[#D5D5D5] absolute desktop:top-[150px] top-[180px] desktop:left-[180px] left-[80px] translate-x-[-50%]">
+    <div class="wp-block-group subtitle-wrapper relative flex gap-[10px] desktop:gap-[100px] flex-row-reverse desktop:flex-row">
+      <!-- wp:group -->
+      <div class="wp-block-group circle-title desktop:w-[120px] desktop:h-[120px] w-[110px] h-[110px] mt-[80px] desktop:mt-0 mx-0 text-center leading-[50px] flex items-center justify-center flex-col rounded-full border-[4px] border-[#D5D5D5] absolute desktop:top-[150px] top-[180px] desktop:left-[180px] left-[80px] translate-x-[-50%]">
+        <!-- wp:paragraph -->
+        <p class="self-center leading-[0px] desktop:text-[14px] text-[13px]">Marketing na</p>
+        <!-- /wp:paragraph -->
+        <!-- wp:paragraph -->
+        <p class="uppercase mt-[20px] self-center desktop:text-[35px] text-[30px] font-extrabold leading-[15px]">100%</p>
+        <!-- /wp:paragraph -->
+      </div>
+      <!-- /wp:group -->
       <!-- wp:paragraph -->
-      <p class="self-center leading-[0px] desktop:text-[14px] text-[13px]">Marketing na</p>
-      <!-- /wp:paragraph -->
-      <!-- wp:paragraph -->
-      <p class="uppercase mt-[20px] self-center desktop:text-[35px] text-[30px] font-extrabold leading-[15px]">100%</p>
+      <p class="desktop:leading-[30px] leading-[26px] desktop:text-[20px] text-[15px] font-light min-w-[150px] max-w-[400px] desktop:ml-[360px] ml-[150px] desktop:mb-[0px] mb-[40px]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi est similique, sint <span class="text-primaryYellow">illum architecto</span> fugit quae beatae</p>
       <!-- /wp:paragraph -->
     </div>
-    <!-- /wp:group -->
-    <!-- wp:paragraph -->
-    <p class="desktop:leading-[30px] leading-[26px] desktop:text-[20px] text-[15px] font-light min-w-[150px] max-w-[400px] desktop:ml-[360px] ml-[150px] desktop:mb-[0px] mb-[40px]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi est similique, sint <span class="text-primaryYellow">illum architecto</span> fugit quae beatae</p>
-    <!-- /wp:paragraph -->
+    <!-- /wp:wp:group -->
 
     <!-- wp:group -->
     <div class="wp-block-group mt-[80px] desktop:mt-[-120px] w-full h-[380px] desktop:h-[660px] wide:h-[720px] overflow-hidden swiper-services-editor">
