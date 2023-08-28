@@ -107,7 +107,29 @@
         <!-- wp:group -->
         <div class="wp-block-group counter-index-wrapper min-w-[75px] inline relative">
           <!-- wp:paragraph -->
-          <p class="target-num text-[60px] font-semibold">01</p>
+          <p data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="target-num text-[60px] font-semibold">01</p>
+          <!-- /wp:paragraph -->
+        </div>
+        <!-- /wp:group -->
+
+        <!-- wp:group -->
+        <div class="wp-block-group text-wrapper">
+          <!-- wp:paragraph -->
+          <p data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="target-title desktop:mb-[15px] text-[20px] font-semibold">Mamy plan</p>
+          <!-- /wp:paragraph -->
+          <!-- wp:paragraph -->
+          <p data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="target-paragraph font-light leading-[21px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+          <!-- /wp:paragraph -->
+        </div>
+        <!-- /wp:group -->
+      </li>
+      <!-- /wp:list-item -->
+      <!-- wp:list-item -->
+      <li class="relative mb-[20px] desktop:mb-0 desktop:max-w-[264px] max-w-full flex items-center desktop:list-item gap-[20px]">
+        <!-- wp:group -->
+        <div class="wp-block-group counter-index-wrapper min-w-[75px] inline relative">
+          <!-- wp:paragraph -->
+          <p class="target-num text-[60px] font-semibold">02</p>
           <!-- /wp:paragraph -->
         </div>
         <!-- /wp:group -->
@@ -129,7 +151,7 @@
         <!-- wp:group -->
         <div class="wp-block-group counter-index-wrapper min-w-[75px] inline relative">
           <!-- wp:paragraph -->
-          <p class="target-num text-[60px] font-semibold">01</p>
+          <p class="target-num text-[60px] font-semibold">03</p>
           <!-- /wp:paragraph -->
         </div>
         <!-- /wp:group -->
@@ -151,29 +173,7 @@
         <!-- wp:group -->
         <div class="wp-block-group counter-index-wrapper min-w-[75px] inline relative">
           <!-- wp:paragraph -->
-          <p class="target-num text-[60px] font-semibold">01</p>
-          <!-- /wp:paragraph -->
-        </div>
-        <!-- /wp:group -->
-
-        <!-- wp:group -->
-        <div class="wp-block-group text-wrapper">
-          <!-- wp:paragraph -->
-          <p class="target-title desktop:mb-[15px] text-[20px] font-semibold">Mamy plan</p>
-          <!-- /wp:paragraph -->
-          <!-- wp:paragraph -->
-          <p class="target-paragraph font-light leading-[21px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
-          <!-- /wp:paragraph -->
-        </div>
-        <!-- /wp:group -->
-      </li>
-      <!-- /wp:list-item -->
-      <!-- wp:list-item -->
-      <li class="relative mb-[20px] desktop:mb-0 desktop:max-w-[264px] max-w-full flex items-center desktop:list-item gap-[20px]">
-        <!-- wp:group -->
-        <div class="wp-block-group counter-index-wrapper min-w-[75px] inline relative">
-          <!-- wp:paragraph -->
-          <p class="target-num text-[60px] font-semibold">01</p>
+          <p class="target-num text-[60px] font-semibold">04</p>
           <!-- /wp:paragraph -->
         </div>
         <!-- /wp:group -->
