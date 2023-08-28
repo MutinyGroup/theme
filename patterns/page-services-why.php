@@ -132,12 +132,12 @@
                 </li>
                 <!-- /wp:list-item -->
                 <!-- wp:list-item -->
-                <li class="flex items-center gap-[10px] before:content-[''] before:inline-block before:mr-[5px] before:mb-[5px] before:w-[20px] before:h-[2px] before:bg-primaryYellow">
+                <li class="flex items-center gap-[10px]">
                   <p data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="inline before:content-[''] before:inline-block before:mr-[12px] before:mb-[5px] before:w-[20px] before:h-[2px] before:bg-primaryYellow">Consectetur adipiscing elit</p>
                 </li>
                 <!-- /wp:list-item -->
                 <!-- wp:list-item -->
-                <li class="flex items-center gap-[10px] before:content-[''] before:inline-block before:mr-[5px] before:mb-[5px] before:w-[20px] before:h-[2px] before:bg-primaryYellow">
+                <li class="flex items-center gap-[10px]">
                   <p data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="inline before:content-[''] before:inline-block before:mr-[12px] before:mb-[5px] before:w-[20px] before:h-[2px] before:bg-primaryYellow">Sed do eiusmod tempor incididunt</p>
                 </li>
                 <!-- /wp:list-item -->
