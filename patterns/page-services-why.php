@@ -94,21 +94,21 @@
                 <!-- wp:group -->
                 <div class="wp-block-group img-clip-path-wrapper mb-[50px] w-full h-full rounded-[20px] overflow-hidden">
                   <!-- wp:paragraph -->
-                  <p data-aos="fade-right" data-aos-duration="600" data-aos-offset="85">
+                  <a href="#" data-aos="fade-right" data-aos-duration="600" data-aos-offset="85">
                     <!-- wp:image -->
-                  <figure class="wp-block-image h-full clip-path-url-['#clipped-why'] group-hover:grayscale transition ease-in-out duration-[400ms]">
-                    <img src="<?php echo home_url() . '/wp-content/themes/mutiny/assets/img/page-services/why-img1.jpg'; ?>" alt="services-background-image" />
-                  </figure>
-                  <!-- /wp:image -->
+                    <figure class="wp-block-image h-full clip-path-url-['#clipped-why'] group-hover:grayscale transition ease-in-out duration-[400ms]">
+                      <img src="<?php echo home_url() . '/wp-content/themes/mutiny/assets/img/page-services/why-img1.jpg'; ?>" alt="services-background-image" />
+                    </figure>
+                    <!-- /wp:image -->
 
-                  <svg x="0px" y="0px" viewBox="0 0 1374.7 1083.6" class="absolute top-0">
-                    <defs>
-                      <clipPath id="clipped-why" class="scale-[0.0038] scale-x-[0.0013]" clipPathUnits="objectBoundingBox">
-                        <path d="M806 0L20 0C8.95428 0 0 8.95431 0 20V201.583C0 212.629 8.95428 221.583 20 221.583H158.191C166.144 221.583 173.771 224.741 179.397 230.363L190.262 241.22C195.887 246.842 203.515 250 211.468 250H806L806 0Z" />
-                      </clipPath>
-                    </defs>
-                  </svg>
-                  </p>
+                    <svg x="0px" y="0px" viewBox="0 0 1374.7 1083.6" class="absolute top-0">
+                      <defs>
+                        <clipPath id="clipped-why" class="scale-[0.0038] scale-x-[0.0013]" clipPathUnits="objectBoundingBox">
+                          <path d="M806 0L20 0C8.95428 0 0 8.95431 0 20V201.583C0 212.629 8.95428 221.583 20 221.583H158.191C166.144 221.583 173.771 224.741 179.397 230.363L190.262 241.22C195.887 246.842 203.515 250 211.468 250H806L806 0Z" />
+                        </clipPath>
+                      </defs>
+                    </svg>
+                  </a>
                   <!-- /wp:paragraph -->
                 </div>
                 <!-- /wp:group -->
