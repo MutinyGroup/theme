@@ -125,7 +125,7 @@
           <!-- wp:group -->
           <div class="pagination-counter w-[40%]">
             <!-- wp:paragraph -->
-            <p>content spacing</p>
+            <p class="hidden">content spacing</p>
             <!-- /wp:paragraph -->
           </div>
           <!-- /wp:group -->
