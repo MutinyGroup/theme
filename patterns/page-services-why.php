@@ -38,7 +38,7 @@
       <!-- wp:group -->
       <div class="wp-block-group h-fit overflow-hidden">
         <!-- wp:paragraph -->
-        <p data-aos="fade-up" data-aos-duration="600" data-aos-offset="130" class="section-title desktop:basis-auto desktop:w-[145px] basis-[20%] uppercase text-primaryYellow pt-[4px] pr-[20px]">Nasze <br class="block desktop:hidden"> podejście</p>
+        <p data-aos="fade-up" data-aos-duration="600" data-aos-offset="130" class="section-title desktop:basis-auto desktop:w-[145px] basis-[20%] uppercase text-primaryYellow pt-[4px] pr-[20px]">Nasze <br class="hidden desktop:block"> podejście</p>
         <!-- /wp:paragraph -->
       </div>
       <!-- /wp:group -->
