@@ -52,7 +52,7 @@ window.addEventListener("load", function () {
   }
 
   document.addEventListener("scroll", (event) => {
-    if(rect!=null){
+    if(servicesSwiper!=null){
     console.log(isInViewport(servicesSwiper));
     }
 
@@ -64,7 +64,7 @@ window.addEventListener("load", function () {
 
   document.addEventListener("scroll", (event) => {
     const box = document.querySelector('#services');
-    if(rect!=null){
+    if(rect2!=null){
     const rect2 = box.getBoundingClientRect();
   
     console.log(rect2);
