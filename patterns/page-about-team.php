@@ -95,7 +95,149 @@
       <!-- /wp:group -->
 
       <!-- wp:group -->
-      <div class="wp-block-group col2 desktop:w-[55%] z-[1]">
+      <div class="wp-block-group mobile col2 block desktop:hidden desktop:z-[1]">
+        <!-- wp:group -->
+        <div class="wp-block-group gallery-cols relative flex gap-[8px]">
+          <!-- wp:list -->
+          <!-- wp:list-item -->
+          <ul class="wp-block-group overflow-y-scroll">
+            <li class="wp-block-group wide:w-[100%] wide:h-[575px] tile-wrapper relative mb-[12px] rounded-[20px] overflow-hidden">
+              <!-- wp:group -->
+              <div class="wp-block-group overlay-author z-[1] h-full w-full bg-gradient-to-t from-black via-[rgba(0,0,0,0)] opacity-[40%] absolute top-0 left-0 clip-path-url-['#clipped-swiper-serv-1']">
+                <!-- wp:paragraph -->
+                <p class="hidden">overlay</p>
+                <!-- /wp:paragraph -->
+              </div>
+              <!-- /wp:group -->
+              <!-- wp:image  -->
+              <figure class="wp-block-image clip-path-url-['#clipped-swiper-serv-1'] w-full h-full ">
+                <img src="<?php echo home_url() . '/wp-content/themes/mutiny/assets/img/page-about/about-team1.jpg'; ?>" alt="team" />
+              </figure>
+              <!-- /wp:image -->
+              <!-- wp:paragraph -->
+              <p>
+                <svg width="0" height="0">
+                  <defs>
+                    <clipPath id="clipped-swiper-serv-1" class="scale-[0.48] desktop:scale-[1.13] wide:scale-[1.3]">
+                      <path d="M0 88.2843C0 82.9799 2.10714 77.8929 5.85786 74.1421L74.1421 5.85786C77.8929 2.10713 82.9799 0 88.2843 0H334C345.046 0 354 8.95431 354 20V430C354 441.046 345.046 450 334 450H0V88.2843Z" />
+                    </clipPath>
+                  </defs>
+                </svg>
+              </p>
+              <!-- /wp:paragraph -->
+              <!-- wp:group -->
+              <div class="wp-block-group text-content mb-[10px] text-white absolute desktop:bottom-[30px] bottom-[10px] desktop:left-[30px] left-[10px] leading-[30px] z-[2]">
+                <!-- wp:paragraph -->
+                <p class="name text-[20px] desktop:text-[25px] font-medium">Olga Anusiewicz</p>
+                <!-- /wp:paragraph -->
+                <!-- wp:paragraph -->
+                <p class="text-[16px] font-light">Founder & CEO</p>
+                <!-- /wp:paragraph -->
+              </div>
+              <!-- /wp:group -->
+            </li>
+            <!-- /wp:list-item -->
+            <!-- wp:list-item -->
+            <li class="wp-block-group wide:w-[100%] wide:h-[575px] tile-wrapper relative mb-[12px] rounded-[20px] overflow-hidden">
+              <!-- wp:group -->
+              <div class="wp-block-group overlay-author z-[1] h-full w-full bg-gradient-to-t from-black via-[rgba(0,0,0,0)] opacity-[40%] absolute top-0 left-0">
+                <!-- wp:paragraph -->
+                <p class="hidden">overlay</p>
+                <!-- /wp:paragraph -->
+              </div>
+              <!-- /wp:group -->
+              <!-- wp:image -->
+              <figure class="wp-block-image w-full h-full">
+                <img src="<?php echo home_url() . '/wp-content/themes/mutiny/assets/img/page-about/about-team3.jpg'; ?>" alt="team" />
+              </figure>
+              <!-- /wp:image -->
+              <!-- wp:group -->
+              <div class="wp-block-group text-content mb-[10px] text-white absolute desktop:bottom-[30px] bottom-[10px] desktop:left-[30px] left-[10px] leading-[30px] z-[2]">
+                <!-- wp:paragraph -->
+                <p class="name text-[20px] desktop:text-[25px] font-medium">Olga Anusiewicz</p>
+                <!-- /wp:paragraph -->
+                <!-- wp:paragraph -->
+                <p class="text-[16px] font-light">Founder & CEO</p>
+                <!-- /wp:paragraph -->
+              </div>
+              <!-- /wp:group -->
+            </li>
+            <!-- /wp:list-item -->
+            <!-- wp:list-item -->
+            <li class="tile-wrapper wide:w-[100%] wide:h-[575px] relative mb-[12px] rounded-[20px] overflow-hidden">
+              <!-- wp:group -->
+              <div class="wp-block-group overlay-author z-[1] h-full w-full bg-gradient-to-t from-black via-[rgba(0,0,0,0)] opacity-[40%] absolute top-0 left-0">
+                <!-- wp:paragraph -->
+                <p class="hidden">overlay</p>
+                <!-- /wp:paragraph -->
+              </div>
+              <!-- /wp:group -->
+              <!-- wp:image -->
+              <figure class="wp-block-image h-full w-full">
+                <img src="<?php echo home_url() . '/wp-content/themes/mutiny/assets/img/page-about/about-team2.jpg'; ?>" alt="team" />
+              </figure>
+              <!-- /wp:image -->
+              <!-- wp:group -->
+              <div class="wp-block-group text-content mb-[10px] text-white absolute desktop:bottom-[30px] bottom-[10px] desktop:left-[30px] left-[10px] leading-[30px] z-[2]">
+                <!-- wp:paragraph -->
+                <p class="name text-[20px] desktop:text-[25px] font-medium">Olga Anusiewicz</p>
+                <!-- /wp:paragraph -->
+                <!-- wp:paragraph -->
+                <p class="text-[16px] font-light">Founder & CEO</p>
+                <!-- /wp:paragraph -->
+              </div>
+              <!-- /wp:group -->
+            </li>
+            <!-- /wp:list-item -->
+            <!-- wp:list-item -->
+            <li class="tile-wrapper wide:w-[100%] wide:h-[575px] relative mb-[12px] rounded-[20px] overflow-hidden">
+              <!-- wp:group -->
+              <div class="wp-block-group overlay-author z-[1] h-full w-full bg-gradient-to-t from-black via-[rgba(0,0,0,0)] opacity-[40%] absolute top-0 left-0 clip-path-url-['#clipped-team']">
+                <!-- wp:paragraph -->
+                <p class="hidden">overlay</p>
+                <!-- /wp:paragraph -->
+              </div>
+              <!-- /wp:group -->
+              <!-- wp:image -->
+              <figure class="wp-block-image clip-path-url-['#clipped-team'] h-full">
+                <img src="<?php echo home_url() . '/wp-content/themes/mutiny/assets/img/page-about/about-team4.jpg'; ?>" alt="team" />
+              </figure>
+              <!-- /wp:image -->
+              <!-- wp:paragraph -->
+              <p>
+                <svg width="0" height="0">
+                  <defs>
+                    <clipPath id="clipped-team" class="scale-[0.48] desktop:scale-[0.84] wide:scale-[1.28] wide:scale-x-[1.23]">
+                      <path d="M66.1682 -6.10352e-05H334C345.046 -6.10352e-05 354 8.95424 354 19.9999V396.928C354 407.974 345.046 416.928 334 416.928H233.807C225.792 416.928 218.11 420.136 212.474 425.835L197.386 441.094C191.751 446.793 184.069 450 176.054 450H20.0001C8.95444 450 0.000112129 441.046 0.000109321 430L5.0847e-06 19.9999C2.2765e-06 8.95424 8.95431 -6.10352e-05 20 -6.10352e-05L66.1682 -6.10352e-05Z" />
+                    </clipPath>
+                  </defs>
+                </svg>
+              </p>
+              <!-- /wp:paragraph -->
+
+              <!-- wp:group -->
+              <div class="wp-block-group text-content mb-[10px] text-white absolute desktop:bottom-[30px] bottom-[10px] desktop:left-[30px] left-[10px] leading-[30px] z-[2]">
+                <!-- wp:paragraph -->
+                <p class="name text-[20px] desktop:text-[25px] font-medium">Olga Anusiewicz</p>
+                <!-- /wp:paragraph -->
+                <!-- wp:paragraph -->
+                <p class="text-[16px] font-light">Founder & CEO</p>
+                <!-- /wp:paragraph -->
+              </div>
+              <!-- /wp:group -->
+            </li>
+            <!-- /wp:group -->
+          </ul>
+          <!-- /wp:list -->
+        </div>
+        <!-- /wp:group -->
+      </div>
+      <!-- /wp:group -->
+
+
+
+      <!-- wp:group -->
+      <div class="wp-block-group desktop: col2 hidden desktop:block desktop:w-[55%] z-[1]">
         <!-- wp:group -->
         <div class="wp-block-group gallery-cols relative flex gap-[8px]">
           <!-- wp:list -->
@@ -237,6 +379,13 @@
         <!-- /wp:group -->
       </div>
       <!-- /wp:group -->
+
+
+
+
+
+
+
     </div>
     <!-- /wp:group -->
   </div>
