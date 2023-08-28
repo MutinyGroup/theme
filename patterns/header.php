@@ -8,22 +8,6 @@
  */
 ?>
 
-<!-- wp:group -->
-<div class="wp-block-group hidden site-header" id="site-header">
-  <!-- wp:paragraph -->
-  <p class="site-title">Site Title</p>
-  <!-- /wp:paragraph -->
-
-  <!-- wp:group -->
-  <div class="wp-block-group site-nav h-[60px]">
-    <!-- wp:paragraph -->
-    <p>test</p>
-    <!-- /wp:paragraph -->
-  </div>
-  <!-- /wp:group -->
-</div>
-<!-- /wp:group -->
-
 <!-- wp:list {"templateLock":"contentOnly","anchor":true} -->
 <ul id="Menu-desktop" class="wp-block-list nav-desktop h-[60px] desktop:h-[90px] fixed top-0 w-[100%] hidden desktop:flex justify-center items-center z-[4]">
   <!-- wp:list-item -->
