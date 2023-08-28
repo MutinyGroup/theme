@@ -50,7 +50,7 @@ window.addEventListener("load", function () {
   }
 
   document.addEventListener("scroll", (event) => {
-    if(servicesSwiper!=null){
+    if(servicesSwiper == true){
     console.log(isInViewport(servicesSwiper));
     }
 
