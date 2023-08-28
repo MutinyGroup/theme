@@ -15,12 +15,12 @@ window.addEventListener("load", function () {
 
 
   function update() {
-    const container = document.getElementById("controls");
-    const elem = document.getElementById("#services");
-    const rect = elem.getBoundingClientRect();
+    let container = document.getElementById("controls");
+    let elem = document.getElementById("#services");
+    let rect = elem.getBoundingClientRect();
   
     container.innerHTML = "";
-    for (const key in rect) {
+    for (let key in rect) {
       if (typeof rect[key] !== "function") {
         let para = document.createElement("p");
         para.textContent = `${key} : ${rect[key]}`;
