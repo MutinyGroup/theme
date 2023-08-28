@@ -25,42 +25,42 @@
       <!-- wp:group -->
       <div class="wp-block-group swiper-wrapper desktop:gap-x-[0px] desktop:gap-y-[40px] desktop:flex-wrap desktop:items-center desktop:justify-center">
         <!-- wp:core/image -->
-        <figure class="swiper-slide logo-img wp-block-image h-[80px] desktop:h-auto self-center">
+        <figure class="swiper-slide logo-img wp-block-image h-auto self-center">
           <img src="<?php echo home_url() . '/wp-content/themes/mutiny/assets/img/page-about/logos-companies/logo-serenada.png'; ?>" alt="logo-serenada">
         </figure>
         <!-- /wp:core/image -->
         <!-- wp:core/image -->
-        <figure class="swiper-slide logo-img wp-block-image h-[80px] desktop:h-auto self-center">
+        <figure class="swiper-slide logo-img wp-block-image h-auto self-center">
           <img src="<?php echo home_url() . '/wp-content/themes/mutiny/assets/img/page-about/logos-companies/logo-westfield.png'; ?>" alt="logo-westfield">
         </figure>
         <!-- /wp:core/image -->
         <!-- wp:core/image -->
-        <figure class="swiper-slide logo-img wp-block-image h-[80px] desktop:h-auto self-center">
+        <figure class="swiper-slide logo-img wp-block-image h-auto self-center">
           <img src="<?php echo home_url() . '/wp-content/themes/mutiny/assets/img/page-about/logos-companies/logo-metropolia.png'; ?>" alt="logo-metropolia">
         </figure>
         <!-- /wp:core/image -->
         <!-- wp:core/image -->
-        <figure class="swiper-slide logo-img wp-block-image h-[80px] desktop:h-auto self-center">
+        <figure class="swiper-slide logo-img wp-block-image h-auto self-center">
           <img src="<?php echo home_url() . '/wp-content/themes/mutiny/assets/img/page-about/logos-companies/logo-efc.png'; ?>" alt="logo-efc">
         </figure>
         <!-- /wp:core/image -->
         <!-- wp:core/image -->
-        <figure class="swiper-slide logo-img wp-block-image h-[80px] desktop:h-auto self-center">
+        <figure class="swiper-slide logo-img wp-block-image h-auto self-center">
           <img src="<?php echo home_url() . '/wp-content/themes/mutiny/assets/img/page-about/logos-companies/logo-navigator.png'; ?>" alt="logo-navigator">
         </figure>
         <!-- /wp:core/image -->
         <!-- wp:core/image -->
-        <figure class="swiper-slide logo-img wp-block-image h-[80px] desktop:h-auto self-center">
+        <figure class="swiper-slide logo-img wp-block-image h-auto self-center">
           <img src="<?php echo home_url() . '/wp-content/themes/mutiny/assets/img/page-about/logos-companies/logo-sfera.png'; ?>" alt="logo-sfera">
         </figure>
         <!-- /wp:core/image -->
         <!-- wp:core/image -->
-        <figure class="swiper-slide logo-img wp-block-image h-[80px] desktop:h-auto self-center">
+        <figure class="swiper-slide logo-img wp-block-image h-auto self-center">
           <img src="<?php echo home_url() . '/wp-content/themes/mutiny/assets/img/page-about/logos-companies/logo-citypark.png'; ?>" alt="logo-citypark">
         </figure>
         <!-- /wp:core/image -->
         <!-- wp:core/image -->
-        <figure class="swiper-slide logo-img wp-block-image h-[80px] desktop:h-auto self-center">
+        <figure class="swiper-slide logo-img wp-block-image h-auto self-center">
           <img src="<?php echo home_url() . '/wp-content/themes/mutiny/assets/img/page-about/logos-companies/logo-gorski.png'; ?>" alt="logo-gorski">
         </figure>
         <!-- /wp:core/image -->
@@ -79,9 +79,9 @@
       <p class="desktop:text-[22px] text-[18px] leading-[22px] font-medium">Dumnie wspieramy lokalny sport</p>
       <!-- /wp:paragraph -->
       <!-- wp:group -->
-      <div class="wp-block-group logos-sport-wrapper py-[20px] h-full flex items-center desktop:gap-[100px]">
+      <div class="wp-block-group logos-sport-wrapper py-[20px] h-full flex justify-center items-center desktop:gap-[100px]">
         <!-- wp:image -->
-        <figure class="wp-block-image w-full desktop:w-auto h-full">
+        <figure class="wp-block-image w-full desktop:w-auto h-[80px]">
           <img src="<?php echo home_url() . '/wp-content/themes/mutiny/assets/img/page-about/logos-companies/logo-leniwce.png'; ?>" alt="leniwce-logo">
         </figure>
         <!-- /wp:image -->
