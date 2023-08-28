@@ -195,6 +195,9 @@
                   <!-- wp:paragraph -->
                   <?php echo 'test:' . wp_trim_words(the_excerpt(), 3, '...'); ?>
                   <!-- /wp:paragraph -->
+                  <!-- wp:paragraph -->
+                  <?php echo 'test2:' . wp_trim_words(get_the_excerpt(), 3, '...'); ?>
+                  <!-- /wp:paragraph -->
                 </div>
                 <!-- /wp:group -->
               </div>
