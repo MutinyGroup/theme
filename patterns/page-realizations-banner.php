@@ -20,7 +20,7 @@
         <div class="wp-block-group section-title grid desktop:w-[145px] desktop:basis-auto uppercase text-primaryYellow">
 
           <!-- wp:group -->
-          <div class="wp-block-group h-fit overflow-hidden flex justify-end">
+          <div class="wp-block-group h-fit overflow-hidden flex desktop:justify-end">
             <!-- wp:paragraph -->
             <p class="test01 justify-self-start desktop:justify-self-end pt-[7px] pr-[15px]">Realizacje</p>
             <!-- /wp:paragraph -->
@@ -103,13 +103,8 @@
         <!-- /wp:paragraph -->
       </div>
       <!-- /wp:group -->
-
     </div>
     <!-- /wp:group -->
-
-
-
-
   </div>
   <!-- /wp:group -->
 </div>
