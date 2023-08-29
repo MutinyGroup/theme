@@ -56,7 +56,7 @@
       $currentPageID = (int)substr("http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]", 44, 1) ? (int)substr("http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]", 44, 1) : 1;
       $args = array(
         'post_type' => 'realizacje',
-        'posts_per_page' => 2,
+        'posts_per_page' => 10,
         'paged' => $currentPageID,
         'order' => 'DESC'
       );
