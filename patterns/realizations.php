@@ -89,16 +89,12 @@
     <!-- wp:paragraph -->
     <p data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="sub-title mb-[50px] desktop:mb-0 desktop:max-w-[400px] max-w-full desktop:text-[20px] text-[16px] font-light desktop:leading-[30px] leading-[26px] desktop:absolute desktop:left-[65%] desktop:top-[40px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore <span class="text-primaryYellow">et dolore magna aliqua. </span></p>
     <!-- /wp:paragraph -->
-    <!-- wp:group -->
-    <div class="wp-block-group circle-title hidden w-[120px] h-[120px] mx-0 leading-[20px] desktop:flex items-center justify-center flex-col rounded-full border-[4px] border-[#D5D5D5] absolute desktop:top-[130px] top-[80px] desktop:left-[60%] left-[75px] translate-x-[-50%]">
-      <!-- wp:paragraph -->
-      <p class="leading-[28px] uppercase text-[25px] font-extrabold">CASE</p>
-      <!-- /wp:paragraph -->
-      <!-- wp:paragraph -->
-      <p class="">Study</p>
-      <!-- /wp:paragraph -->
-    </div>
-    <!-- /wp:group -->
+    <!-- wp:paragraph -->
+    <p data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="wp-block-group circle-title hidden w-[120px] h-[120px] mx-0 leading-[20px] desktop:flex items-center justify-center flex-col rounded-full border-[4px] border-[#D5D5D5] absolute desktop:top-[130px] top-[80px] desktop:left-[60%] left-[75px] translate-x-[-50%]">
+      <span class="leading-[28px] uppercase text-[25px] font-extrabold">CASE</span>
+      <span class="">Study</span>
+    </p>
+    <!-- /wp:paragraph -->
 
 
     <!-- wp:group -->
@@ -184,7 +180,7 @@
                         } else { ?>
                           <!-- wp:list-item -->
                           <li class="uppercase p-[5px_10px] inline-block text-[12px] text-black font-semibold text-center bg-[#D5D5D5] rounded-full">
-                            <p><?php echo $category->name ?></p>
+                            <p><?php echo $category->name; ?></p>
                           </li>
                           <!-- /wp:list-item -->
                         <?php
