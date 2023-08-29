@@ -160,7 +160,7 @@ figure[class*="logo-img"] img {
 .target-num{
   color: black;
 }
-.swiper-slide-active > .target-num{
+.swiper-slide-active .target-num{
   color: #FEC400;
 }
 
