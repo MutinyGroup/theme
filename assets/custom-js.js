@@ -6,18 +6,22 @@ window.addEventListener("load", function () {
   const showMoreBlogPostsBtn = document.querySelector('#showMorePosts');
   let more = 900;
 
-  showMoreBtn.addEventListener('click',()=>{
-    realizationsContainer.style.maxHeight = 1500 + more + 'px';
-    // realizationsEventyUl.style.height = 850 + more + 'px';
-    more += 900;
-    console.log(more);
-  });
-  showMoreBlogPostsBtn.addEventListener('click',()=>{
-    BlogContainer.style.maxHeight = 1500 + more + 'px';
-    // realizationsEventyUl.style.height = 850 + more + 'px';
-    more += 900;
-    console.log(more);
-  });
+  if(document.body.classList.contains('page-id-110')){
+    showMoreBtn.addEventListener('click',()=>{
+      realizationsContainer.style.maxHeight = 1500 + more + 'px';
+      // realizationsEventyUl.style.height = 850 + more + 'px';
+      more += 900;
+      console.log(more);
+    });
+};
+  if(document.body.classList.contains('blog')){
+    showMoreBlogPostsBtn.addEventListener('click',()=>{
+      BlogContainer.style.maxHeight = 1500 + more + 'px';
+      // realizationsEventyUl.style.height = 850 + more + 'px';
+      more += 900;
+      console.log(more);
+    });
+  }
 
 
 

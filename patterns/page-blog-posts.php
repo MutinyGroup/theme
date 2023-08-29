@@ -9,9 +9,9 @@
 ?>
 
 <!-- wp:group {"templateLock":"contentOnly","anchor":true} -->
-<div id="Posty" class="wp-block-group page-blog-posts mb-[80px] desktop:mb-[150px] pt-[80px] desktop:pt-0 overflow-hidden">
+<div id="Posty" class="wp-block-group page-blog-posts mb-[80px] desktop:mb-[150px] max-h-[1500px] pt-[80px] desktop:pt-0 overflow-y-hidden transition-height ease-in-out duration-[800ms]">
   <!-- wp:group -->
-  <div class="wp-block-group container mx-auto relative mb-[80px] desktop:mb-[180px] px-[20px] desktop:px-0">
+  <div id="blogContainer" class="wp-block-group container mx-auto relative mb-[80px] desktop:mb-[180px] px-[20px] desktop:px-0">
     <!-- wp:group -->
     <div class="wp-block-group new gallery-cols relative flex justify-between desktop:pb-[150px] pb-[80px]">
       <!-- wp:paragraph -->
@@ -168,7 +168,7 @@
     <!-- /wp:group -->
 
     <!-- wp:group -->
-    <div class="wp-block-group btn-more min-w-fit flex gap-[20px]">
+    <div class="wp-block-group old hidden btn-more min-w-fit fflex gap-[20px]">
       <?php
       if ($currentPageID < ($post_query->max_num_pages)) {
       ?>
@@ -198,6 +198,15 @@
       ?>
     </div>
     <!-- /wp:group -->
+
+    <!-- wp:group -->
+    <div class="wp-block-group btn-more min-w-fit flex gap-[20px]">
+      <!-- wp:paragraph -->
+      <p id="showMorePosts"><a href="<?php echo home_url() . '/blog/page/' . ($currentPageID + 1) ?>" class="min-w-fit ml-[0px] p-[15px_30px] font-bold uppercase border-[2px] border-[#D5D5D5] rounded-full hover:border-primaryYellow hover:text-black transition ease-out duration-300 cursor-pointer text-[14px]">Pokaż Więcej</a></p>
+      <!-- /wp:paragraph -->
+    </div>
+    <!-- /wp:group -->
+
 
     <!-- wp:group -->
     <div class="wp-block-group gray-border hidden desktop:inline-block w-full h-[2px] bg-[#808080] opacity-[15%]">
