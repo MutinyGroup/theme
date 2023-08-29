@@ -317,7 +317,7 @@
               <!-- /wp:group -->
 
               <!-- wp:group -->
-              <div class="wp-block-group swiper-slide swiper-slide-marketing relative desktop:p-[25px] desktop:max-w-[400px] max-w-[310px] desktop:h-[450px] h-fit mr-[8px] desktop:flex gap-[43px]">
+              <div class="wp-block-group swiper-slide swiper-slide-marketing relative desktop:p-[25px] desktop:max-w-[400px] max-w-[100px] desktop:h-[450px] h-fit mr-[8px] desktop:flex gap-[43px]">
                 <!-- wp:group -->
                 <div class="wp-block-group text-wrapper desktop:my-auto desktop:w-[50%] desktop:pr-[40px] items-center">
                   <!-- wp:paragraph -->
