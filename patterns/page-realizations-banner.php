@@ -11,7 +11,7 @@
 <!-- wp:group {"templateLock":"contentOnly","anchor":true} -->
 <div id="Banner" class="wp-block-group realizations-banner h-auto desktop:mb-[150px] pt-[80px] desktop:pt-0">
   <!-- wp:group -->
-  <div class="wp-block-group container relative mx-auto desktop:px-0 px-[20px]">
+  <div class="wp-block-group container mx-auto desktop:px-0 px-[20px] relative">
     <!-- wp:group -->
     <div class="wp-block-group title-wrapper relative desktop:mb-[58px] mb-[40px] desktop:mt-[90px]">
       <!-- wp:group -->

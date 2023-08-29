@@ -18,9 +18,9 @@
   </p>
   <!-- /wp:paragraph -->
   <!-- wp:group -->
-  <div class="wp-block-group container mx-auto relative desktop:px-0 px-[20px]">
+  <div class="wp-block-group relative">
     <!-- wp:group -->
-    <div class="wp-block-group title-wrapper relative desktop:mb-[58px] mb-[40px] pt-[90px]">
+    <div class="wp-block-group container mx-auto desktop:px-0 px-[20px] title-wrapper relative desktop:mb-[58px] mb-[40px] pt-[90px]">
       <!-- wp:group -->
       <div class="wp-block-group title-wrapper relative desktop:flex">
         <!-- wp:paragraph -->
@@ -67,7 +67,7 @@
     <!-- /wp:group -->
 
     <!-- wp:group -->
-    <div class="wp-block-group text-cols-wrapper desktop flex desktop:gap-[0px] gap-[20px] basis desktop:mb-[100px] mb-[50px]">
+    <div class="wp-block-group container mx-auto desktop:px-0 px-[20px] text-cols-wrapper desktop flex desktop:gap-[0px] gap-[20px] basis desktop:mb-[100px] mb-[50px]">
       <!-- wp:group -->
       <div class="wp-block-group col1 desktop:pl-[155px] basis-[40%] mb-[40px]">
         <!-- wp:paragraph -->
@@ -108,7 +108,7 @@
         <!-- wp:group -->
         <div class="wp-block-group desktop:mt-[-120px] w-full">
           <!-- wp:group -->
-          <div id="marketing" class="wp-block-group swiper swiperMarketing relative desktop:pt-[180px] top-0 desktop:left-[150px] left-[20px]">
+          <div id="marketing" class="wp-block-group swiper swiperMarketing relative w-screen desktop:w-[calc(100%-90px)] desktop:pt-[180px] top-0 desktop:left-[40px] left-[20px]">
             <!-- wp:group -->
             <div class="wp-block-group swiper-wrapper">
               <!-- wp:group -->
