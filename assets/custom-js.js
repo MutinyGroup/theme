@@ -8,7 +8,7 @@ window.addEventListener("load", function () {
   showMoreBtn.addEventListener('click',()=>{
     realizationsContainer.style.height = 1480 + more + 'px';
     // realizationsEventyUl.style.height = 850 + more + 'px';
-    // more += 400;
+    more += 400;
     console.log(more);
   });
 
