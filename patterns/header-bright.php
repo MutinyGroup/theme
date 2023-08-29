@@ -8,7 +8,7 @@
  */
 ?>
 <!-- wp:list {"templateLock":"contentOnly","anchor":true} -->
-<ul id="Menu-desktop" class="wp-block-list nav-desktop bg-brightWhite h-[60px] fixed top-0 w-[100%] desktop:h-[90px] hidden desktop:flex justify-center items-center z-[4]">
+<ul id="Menu-desktop" class="wp-block-list nav-desktop bg-brightWhite h-[60px] w-[100%] desktop:h-[90px] hidden desktop:flex justify-center items-center z-[4]">
   <!-- wp:list-item -->
   <li>
     <a href="https://mutiny.webo.design" class="fixed top-[32px] left-[22px] z-[3]">
@@ -75,7 +75,7 @@
 <!-- /wp:list -->
 
 <!-- wp:group -->
-<div id="Menu-mobile" class="wp-block-group nav-mobile h-[60px] desktop:hidden block container mx-auto px-[20px] bg-[#F2F2F2] z-[4] fixed top-0 left-0 transition ease-out duration-300">
+<div id="Mobile" class="wp-block-group nav-mobile h-[60px] desktop:hidden block container mx-auto px-[20px] bg-[#F2F2F2] z-[4] transition ease-out duration-300">
   <!-- wp:list -->
   <ul class="wp-block-list h-full flex justify-between items-center">
     <!-- wp:list-item -->
