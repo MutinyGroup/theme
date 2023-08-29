@@ -9,7 +9,7 @@
 ?>
 
 <!-- wp:group {"templateLock":"contentOnly","anchor":true} -->
-<div id="Banner" class="wp-block-group banner relative mb-0 pt-[140px] desktop:pt-[80px] h-fit desktop:h-screen overflow-hidden desktop:overflow-visible">
+<div id="Banner" class="wp-block-group banner relative mb-0 pt-[80px] desktop:pt-[80px] h-fit desktop:h-screen overflow-hidden desktop:overflow-visible">
   <!-- wp:group -->
   <div class="wp-block-group bg-shape z-[0] scale-[0.7] desktop:scale-[1] opacity-[10%] absolute top-[-200px] desktop:top-[120px] left-[-350px] desktop:left-[-80px]">
     <!-- wp:paragraph -->
@@ -104,7 +104,7 @@
       <!-- /wp:group -->
 
       <!-- wp:group -->
-      <div class="wp-block-group right-col banner-bg h-[500px] tablet:h-[450px] desktop:h-[775px] wide:h-[950px] desktop:w-[44%] w-[100%] absolute right-0 top-[80px] desktop:top-[50px] z-[0]">
+      <div class="wp-block-group right-col banner-bg h-[500px] tablet:h-[450px] desktop:h-[775px] wide:h-[950px] desktop:w-[44%] w-[100%] absolute right-0 top-[20px] desktop:top-[50px] z-[0]">
         <!-- wp:group -->
         <div class="wp-block-group clip-path-url-['#clipped-banner'] opacity-[65%] z-[1] h-full w-full bg-black absolute top-0 left-0">
           <!-- wp:paragraph -->
