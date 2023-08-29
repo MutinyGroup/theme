@@ -51,7 +51,7 @@
             if ($tab[$i] == 0) { ?>
               <!-- wp:list-item -->
               <li class="wp-block-group bigger swiper-slide slideBlog  relative group w-full desktop:w-[535px] wide:w-[580px] h-fit desktop:h-[545px] wide:h-[650px] transition duration-[800ms] ease-in <?php echo (!($counter % 2)) ? 'pt-[120px]' : ''; ?>">
-                <a href="<?php the_permalink(); ?>">
+                <a href="<?php the_permalink(); ?>" data-aos="fade-right" data-aos-duration="600" data-aos-offset="130">
                   <!-- wp:group -->
                   <div class="wp-block-group h-full mb-[20px]">
                     <!-- wp:group -->
@@ -97,7 +97,7 @@
             ?>
               <!-- wp:list-item -->
               <li class="wp-block-group smaller swiper-slide slideBlog  relative group w-full desktop:w-[444px] wide:w-[490px] h-fit desktop:h-[500px] transition duration-[800ms] ease-in <?php echo (!($counter % 2)) ? 'pt-[120px]' : ''; ?>">
-                <a href="<?php the_permalink(); ?>">
+                <a href="<?php the_permalink(); ?>" data-aos="fade-right" data-aos-duration="600" data-aos-offset="130">
                   <!-- wp:group -->
                   <div class="wp-block-group h-full mb-[20px]">
                     <!-- wp:group -->
