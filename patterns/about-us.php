@@ -71,11 +71,15 @@
       <div class="wp-block-group col1 desktop:mb-auto mb-[20px] desktop:basis-[45%] h-[450px] desktop:h-[790px] wide:h-[900px] rounded-tr-[15px]">
         <!-- wp:group -->
         <div class="wp-block-group relative w-full h-full rounded-tr-[20px] overflow-hidden">
-          <!-- wp:image -->
-          <figure class="wp-block-image w-full h-full clip-path-url-['#clipped-about']">
-            <img src="<?php echo home_url() . '/wp-content/themes/mutiny/assets/img/front-page/o-nas-img.png'; ?>" alt="about-us-image">
-          </figure>
-          <!-- /wp:image -->
+          <!-- wp:paragraph -->
+          <a href="#" class="pointer-events-none" data-aos="fade-right" data-aos-duration="600" data-aos-offset="130">
+            <!-- wp:image -->
+            <figure class="wp-block-image w-full h-full clip-path-url-['#clipped-about']">
+              <img src="<?php echo home_url() . '/wp-content/themes/mutiny/assets/img/front-page/o-nas-img.png'; ?>" alt="about-us-image">
+            </figure>
+            <!-- /wp:image -->
+          </a>
+          <!-- /wp:paragraph -->
           <!-- wp:paragraph -->
           <p>
             <svg x="0px" y="0px" viewBox="0 0 1374.7 1083.6" class="absolute top-0">
