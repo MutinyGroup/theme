@@ -120,7 +120,7 @@
     <!-- /wp:group -->
   </div>
   <!-- /wp:group -->
-  ś
+
   <!-- wp:group -->
   <div class="wp-block-group img-clip-path-wrapper w-[100%] desktop:w-[58%] h-[380px] desktop:h-full rounded-tl-[20px] overflow-hidden absolute right-0 desktop:top-0 top-[-40px] z-[0]">
     <!-- wp:image -->
