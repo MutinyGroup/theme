@@ -11,7 +11,7 @@
 <!-- wp:group {"templateLock":"contentOnly","anchor":true} -->
 <div id="Eventy" class="wp-block-group page-realizations-events mb-[150px] overflow-hidden">
   <!-- wp:group -->
-  <div id="realizationsContainer" class="wp-block-group container mx-auto h-[1520px] relative desktop:px-0 px-[20px] overflow-y-hidden transition ease-out duration-300">
+  <div id="realizationsContainer" class="wp-block-group container mx-auto h-[1500px] relative desktop:px-0 px-[20px] overflow-y-hidden transition ease-out duration-300">
     <!-- wp:list -->
     <ul id="Kategorie" class="wp-block-list categories-all-1 mb-[60px] desktop:mb-[110px] flex flex-wrap gap-[10px]">
       <!-- wp:list-item -->
