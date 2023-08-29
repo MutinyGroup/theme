@@ -35,8 +35,9 @@ window.addEventListener("load", function () {
   const eventTiles = document.querySelectorAll('.event-tile');
   // const header = document.querySelector('.Menu-desktop');
 
-// test
+// floating navbar
  const siteHeader = document.querySelector('#Menu-desktop');
+ const siteHeaderMobile = document.querySelector('#Mobile');
  const siteContent = document.querySelector('#main');
  let siteHeaderHeight = siteHeader.offsetHeight;
  
@@ -45,39 +46,48 @@ window.addEventListener("load", function () {
  
  
  function updateHeaderPadding() {
-     siteHeaderHeight = siteHeader.offsetHeight;
-     siteContent.style.transition = 'padding-top 0.3s ease-in-out';
-     siteContent.style.paddingTop = siteHeaderHeight + 'px';
- }
+    siteHeaderHeight = siteHeader.offsetHeight;
+    siteHeaderMobileHeight = siteHeaderMobile.offsetHeight;
+    siteContent.style.transition = 'padding-top 0.3s ease-in-out';
+    siteContent.style.paddingTop = siteHeaderHeight + 'px';
+  }
  
  setInterval(updateHeaderPadding, 500);
- 
- // initial reference offset for header animation -- top of window
  let refOffset = 0;
  
  const headerAppearsOnScrollUp = () => {
-     // get current offset
      const newOffset = window.scrollY || window.pageYOffset;
  
-     //below bottom of header
      if(newOffset > siteHeaderHeight) {
-         if(newOffset > refOffset) {
-             // scrolled down; animate header off screen
-             siteHeader.classList.remove('animateIn');
-             siteHeader.classList.add('animateOut');
-         }
-         else {
-             // scrolled up; animate header on screen
-             siteHeader.classList.remove('animateOut');
-             siteHeader.classList.add('animateIn');
-         }
+        if(newOffset > refOffset) {
+          siteHeader.classList.remove('animateIn');
+          siteHeader.classList.add('animateOut');
+        }
+        else {
+          siteHeader.classList.remove('animateOut');
+          siteHeader.classList.add('animateIn');
+        };
+        refOffset = newOffset;
+     };
+  };
+ const headerMobileAppearsOnScrollUp = () => {
+     const newOffset = window.scrollY || window.pageYOffset;
  
-         // update offset to current value
-         refOffset = newOffset;
-     }
- }
+     if(newOffset > siteHeaderMobileHeight) {
+        if(newOffset > refOffset) {
+          siteHeaderMobile.classList.remove('animateIn');
+          siteHeaderMobile.classList.add('animateOut');
+        }
+        else {
+          siteHeaderMobile.classList.remove('animateOut');
+          siteHeaderMobile.classList.add('animateIn');
+        };
+        refOffset = newOffset;
+     };
+  };
  
  window.addEventListener('scroll', headerAppearsOnScrollUp, false); 
+ window.addEventListener('scroll', headerMobileAppearsOnScrollUp, false); 
 
 //  end test
  
