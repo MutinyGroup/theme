@@ -336,12 +336,12 @@ figure[class*="logo-img"] img {
   list-style-type: none;
 }
 
-/***** Animated Header on Scroll *****/
+/* Animated Header on Scroll */
 .animateIn{ transform: translateY(0px); }
 .animateOut{ transform: translateY(-100%); }
 
 .header-position-fixed {
-	  position: fixed;
+	position: fixed;
   width: 100%;
-	  transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
 }
