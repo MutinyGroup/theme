@@ -91,7 +91,7 @@
           <!-- wp:group -->
           <div class="wp-block-group img-title w-[60%]">
             <!-- wp:group -->
-            <div class="wp-block-group h-[250px] w-[800px]">
+            <div class="wp-block-group h-[100px] desktop:h-[250px] w-[230px] desktop:w-[800px]">
               <!-- wp:group -->
               <div class="wp-block-group img-clip-path-wrapper mb-[50px] w-full h-full rounded-[20px] overflow-hidden">
                 <!-- wp:paragraph -->
@@ -121,9 +121,9 @@
         <!-- /wp:group -->
 
         <!-- wp:group -->
-        <div class="wp-block-group tile-content flex">
+        <div class="wp-block-group tile-content flex z-[1]">
           <!-- wp:group -->
-          <div class="wp-block-group w-[40%]">
+          <div class="wp-block-group hidden desktop:block w-[40%]">
             <!-- wp:paragraph -->
             <p class="hidden">content spacing</p>
             <!-- /wp:paragraph -->
@@ -131,7 +131,7 @@
           <!-- /wp:group -->
 
           <!-- wp:group -->
-          <div class="wp-block-group img-title w-[60%]">
+          <div class="wp-block-group w-[60%]">
             <!-- wp:paragraph -->
             <p data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="my-[50px] text-[35px] leading-[42px] font-semibold uppercase relative">Mamy nieszablonowe <br />podejście</p>
             <!-- /wp:paragraph -->
@@ -166,274 +166,6 @@
         <!-- /wp:group -->
       </li>
       <!-- /wp:list-item -->
-
-
-
-
-    </ul>
-    <!-- /wp:list -->
-
-
-
-    <!-- wp:list -->
-    <ul class="wp-block-list hidden old why-list-wrapper z-[1]">
-      <!-- wp:list-item -->
-      <li>
-        <!-- wp:group -->
-        <div class="wp-block-group cols-wrapper desktop:flex">
-          <!-- wp:group -->
-          <div class="wp-block-group col1 relative w-[40%]">
-            <!-- wp:paragraph -->
-            <p data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="text-[50px] text-primaryYellow">01 / <span class="text-[20px] text-black font-medium">03</span></p>
-            <!-- /wp:paragraph -->
-
-            <!-- wp:paragraph -->
-            <p>
-              <svg xmlns="http://www.w3.org/2000/svg" width="236" height="317" viewBox="0 0 236 317" fill="none" class="z-[0] absolute top-[190px] left-[30px] opacity-[80%]">
-                <path d="M234.242 314.924L1.62109 236.649V1.91746L234.242 80.1919V314.924Z" stroke="white" stroke-width="2" />
-              </svg>
-            </p>
-            <!-- /wp:paragraph -->
-          </div>
-          <!-- /wp:group -->
-          <!-- wp:group -->
-          <div class="wp-block-group col2 desktop:w-[60%]">
-            <!-- wp:group -->
-            <div class="wp-block-group mb-[95px]">
-              <!-- wp:group -->
-              <div class="wp-block-group h-[250px] w-[800px]">
-                <!-- wp:group -->
-                <div class="wp-block-group img-clip-path-wrapper mb-[50px] w-full h-full rounded-[20px] overflow-hidden">
-                  <!-- wp:paragraph -->
-                  <a href="#" data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="pointer-events-none">
-                    <!-- wp:image -->
-                    <figure class="wp-block-image h-full clip-path-url-['#clipped-why'] group-hover:grayscale transition ease-in-out duration-[400ms]">
-                      <img src="<?php echo home_url() . '/wp-content/themes/mutiny/assets/img/page-services/why-img1.jpg'; ?>" alt="services-background-image" />
-                    </figure>
-                    <!-- /wp:image -->
-
-                    <svg x="0px" y="0px" viewBox="0 0 1374.7 1083.6" class="absolute top-0">
-                      <defs>
-                        <clipPath id="clipped-why" class="scale-[0.0038] scale-x-[0.0013]" clipPathUnits="objectBoundingBox">
-                          <path d="M806 0L20 0C8.95428 0 0 8.95431 0 20V201.583C0 212.629 8.95428 221.583 20 221.583H158.191C166.144 221.583 173.771 224.741 179.397 230.363L190.262 241.22C195.887 246.842 203.515 250 211.468 250H806L806 0Z" />
-                        </clipPath>
-                      </defs>
-                    </svg>
-                  </a>
-                  <!-- /wp:paragraph -->
-                </div>
-                <!-- /wp:group -->
-              </div>
-              <!-- /wp:group -->
-
-              <!-- wp:paragraph -->
-              <p data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="my-[50px] text-[35px] leading-[42px] font-semibold uppercase relative">Mamy nieszablonowe <br />podejście</p>
-              <!-- /wp:paragraph -->
-              <!-- wp:paragraph -->
-              <p data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="mb-[50px] text-[20px] leading-[30px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, seddo eiusmod tempor incididunt ut labore et dolore magnaaliqua. Ut enim ad minim veniam, quis nostrud exercitationullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-              <!-- /wp:paragraph -->
-              <!-- wp:paragraph -->
-              <p data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="mb-[50px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, seddo eiusmod tempor incididunt ut labore et dolore magnaaliqua. Ut enim ad minim veniami.</p>
-              <!-- /wp:paragraph -->
-              <!-- wp:list -->
-              <ul class="wp-block-list leading-[32px] font-semibold">
-                <!-- wp:list-item -->
-                <li class="flex items-center gap-[10px] ">
-                  <p data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="inline before:content-[''] before:inline-block before:mr-[12px] before:mb-[5px] before:w-[20px] before:h-[2px] before:bg-primaryYellow">Lorem ipsum dolor sit amet</p>
-                </li>
-                <!-- /wp:list-item -->
-                <!-- wp:list-item -->
-                <li class="flex items-center gap-[10px]">
-                  <p data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="inline before:content-[''] before:inline-block before:mr-[12px] before:mb-[5px] before:w-[20px] before:h-[2px] before:bg-primaryYellow">Consectetur adipiscing elit</p>
-                </li>
-                <!-- /wp:list-item -->
-                <!-- wp:list-item -->
-                <li class="flex items-center gap-[10px]">
-                  <p data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="inline before:content-[''] before:inline-block before:mr-[12px] before:mb-[5px] before:w-[20px] before:h-[2px] before:bg-primaryYellow">Sed do eiusmod tempor incididunt</p>
-                </li>
-                <!-- /wp:list-item -->
-              </ul>
-              <!-- /wp:list -->
-            </div>
-            <!-- /wp:group -->
-          </div>
-          <!-- /wp:group -->
-        </div>
-        <!-- /wp:group -->
-      </li>
-      <!-- /wp:list-item -->
-      <!-- wp:list-item -->
-      <li>
-        <!-- wp:group -->
-        <div class="wp-block-group cols-wrapper desktop:flex">
-          <!-- wp:group -->
-          <div class="wp-block-group col1 relative w-[40%]">
-            <!-- wp:paragraph -->
-            <p data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="text-[50px] text-primaryYellow">01 / <span class="text-[20px] text-black font-medium">03</span></p>
-            <!-- /wp:paragraph -->
-
-            <!-- wp:paragraph -->
-            <p>
-              <svg xmlns="http://www.w3.org/2000/svg" width="236" height="317" viewBox="0 0 236 317" fill="none" class="z-[0] absolute top-[190px] left-[30px] opacity-[80%]">
-                <path d="M234.242 314.924L1.62109 236.649V1.91746L234.242 80.1919V314.924Z" stroke="white" stroke-width="2" />
-              </svg>
-            </p>
-            <!-- /wp:paragraph -->
-          </div>
-          <!-- /wp:group -->
-          <!-- wp:group -->
-          <div class="wp-block-group col2 desktop:w-[60%]">
-            <!-- wp:group -->
-            <div class="wp-block-group mb-[95px]">
-              <!-- wp:group -->
-              <div class="wp-block-group h-[250px] w-[800px]">
-                <!-- wp:group -->
-                <div class="wp-block-group img-clip-path-wrapper mb-[50px] w-full h-full rounded-[20px] overflow-hidden">
-                  <!-- wp:paragraph -->
-                  <a href="#" data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="pointer-events-none">
-                    <!-- wp:image -->
-                    <figure class="wp-block-image h-full clip-path-url-['#clipped-why'] group-hover:grayscale transition ease-in-out duration-[400ms]">
-                      <img src="<?php echo home_url() . '/wp-content/themes/mutiny/assets/img/page-services/why-img1.jpg'; ?>" alt="services-background-image" />
-                    </figure>
-                    <!-- /wp:image -->
-
-                    <svg x="0px" y="0px" viewBox="0 0 1374.7 1083.6" class="absolute top-0">
-                      <defs>
-                        <clipPath id="clipped-why" class="scale-[0.0038] scale-x-[0.0013]" clipPathUnits="objectBoundingBox">
-                          <path d="M806 0L20 0C8.95428 0 0 8.95431 0 20V201.583C0 212.629 8.95428 221.583 20 221.583H158.191C166.144 221.583 173.771 224.741 179.397 230.363L190.262 241.22C195.887 246.842 203.515 250 211.468 250H806L806 0Z" />
-                        </clipPath>
-                      </defs>
-                    </svg>
-                  </a>
-                  <!-- /wp:paragraph -->
-                </div>
-                <!-- /wp:group -->
-              </div>
-              <!-- /wp:group -->
-
-              <!-- wp:paragraph -->
-              <p data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="my-[50px] text-[35px] leading-[42px] font-semibold uppercase relative">Mamy nieszablonowe <br />podejście</p>
-              <!-- /wp:paragraph -->
-              <!-- wp:paragraph -->
-              <p data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="mb-[50px] text-[20px] leading-[30px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, seddo eiusmod tempor incididunt ut labore et dolore magnaaliqua. Ut enim ad minim veniam, quis nostrud exercitationullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-              <!-- /wp:paragraph -->
-              <!-- wp:paragraph -->
-              <p data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="mb-[50px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, seddo eiusmod tempor incididunt ut labore et dolore magnaaliqua. Ut enim ad minim veniami.</p>
-              <!-- /wp:paragraph -->
-              <!-- wp:list -->
-              <ul class="wp-block-list leading-[32px] font-semibold">
-                <!-- wp:list-item -->
-                <li class="flex items-center gap-[10px] ">
-                  <p data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="inline before:content-[''] before:inline-block before:mr-[12px] before:mb-[5px] before:w-[20px] before:h-[2px] before:bg-primaryYellow">Lorem ipsum dolor sit amet</p>
-                </li>
-                <!-- /wp:list-item -->
-                <!-- wp:list-item -->
-                <li class="flex items-center gap-[10px]">
-                  <p data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="inline before:content-[''] before:inline-block before:mr-[12px] before:mb-[5px] before:w-[20px] before:h-[2px] before:bg-primaryYellow">Consectetur adipiscing elit</p>
-                </li>
-                <!-- /wp:list-item -->
-                <!-- wp:list-item -->
-                <li class="flex items-center gap-[10px]">
-                  <p data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="inline before:content-[''] before:inline-block before:mr-[12px] before:mb-[5px] before:w-[20px] before:h-[2px] before:bg-primaryYellow">Sed do eiusmod tempor incididunt</p>
-                </li>
-                <!-- /wp:list-item -->
-              </ul>
-              <!-- /wp:list -->
-            </div>
-            <!-- /wp:group -->
-          </div>
-          <!-- /wp:group -->
-        </div>
-        <!-- /wp:group -->
-      </li>
-      <!-- /wp:list-item -->
-      <!-- wp:list-item -->
-      <li>
-        <!-- wp:group -->
-        <div class="wp-block-group cols-wrapper desktop:flex">
-          <!-- wp:group -->
-          <div class="wp-block-group col1 relative w-[40%]">
-            <!-- wp:paragraph -->
-            <p data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="text-[50px] text-primaryYellow">01 / <span class="text-[20px] text-black font-medium">03</span></p>
-            <!-- /wp:paragraph -->
-
-            <!-- wp:paragraph -->
-            <p>
-              <svg xmlns="http://www.w3.org/2000/svg" width="236" height="317" viewBox="0 0 236 317" fill="none" class="z-[0] absolute top-[190px] left-[30px] opacity-[80%]">
-                <path d="M234.242 314.924L1.62109 236.649V1.91746L234.242 80.1919V314.924Z" stroke="white" stroke-width="2" />
-              </svg>
-            </p>
-            <!-- /wp:paragraph -->
-          </div>
-          <!-- /wp:group -->
-          <!-- wp:group -->
-          <div class="wp-block-group col2 desktop:w-[60%]">
-            <!-- wp:group -->
-            <div class="wp-block-group mb-[95px]">
-              <!-- wp:group -->
-              <div class="wp-block-group h-[250px] w-[800px]">
-                <!-- wp:group -->
-                <div class="wp-block-group img-clip-path-wrapper mb-[50px] w-full h-full rounded-[20px] overflow-hidden">
-                  <!-- wp:paragraph -->
-                  <a href="#" data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="pointer-events-none">
-                    <!-- wp:image -->
-                    <figure class="wp-block-image h-full clip-path-url-['#clipped-why'] group-hover:grayscale transition ease-in-out duration-[400ms]">
-                      <img src="<?php echo home_url() . '/wp-content/themes/mutiny/assets/img/page-services/why-img1.jpg'; ?>" alt="services-background-image" />
-                    </figure>
-                    <!-- /wp:image -->
-
-                    <svg x="0px" y="0px" viewBox="0 0 1374.7 1083.6" class="absolute top-0">
-                      <defs>
-                        <clipPath id="clipped-why" class="scale-[0.0038] scale-x-[0.0013]" clipPathUnits="objectBoundingBox">
-                          <path d="M806 0L20 0C8.95428 0 0 8.95431 0 20V201.583C0 212.629 8.95428 221.583 20 221.583H158.191C166.144 221.583 173.771 224.741 179.397 230.363L190.262 241.22C195.887 246.842 203.515 250 211.468 250H806L806 0Z" />
-                        </clipPath>
-                      </defs>
-                    </svg>
-                  </a>
-                  <!-- /wp:paragraph -->
-                </div>
-                <!-- /wp:group -->
-              </div>
-              <!-- /wp:group -->
-
-              <!-- wp:paragraph -->
-              <p data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="my-[50px] text-[35px] leading-[42px] font-semibold uppercase relative">Mamy nieszablonowe <br />podejście</p>
-              <!-- /wp:paragraph -->
-              <!-- wp:paragraph -->
-              <p data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="mb-[50px] text-[20px] leading-[30px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, seddo eiusmod tempor incididunt ut labore et dolore magnaaliqua. Ut enim ad minim veniam, quis nostrud exercitationullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-              <!-- /wp:paragraph -->
-              <!-- wp:paragraph -->
-              <p data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="mb-[50px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, seddo eiusmod tempor incididunt ut labore et dolore magnaaliqua. Ut enim ad minim veniami.</p>
-              <!-- /wp:paragraph -->
-              <!-- wp:list -->
-              <ul class="wp-block-list leading-[32px] font-semibold">
-                <!-- wp:list-item -->
-                <li class="flex items-center gap-[10px] ">
-                  <p data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="inline before:content-[''] before:inline-block before:mr-[12px] before:mb-[5px] before:w-[20px] before:h-[2px] before:bg-primaryYellow">Lorem ipsum dolor sit amet</p>
-                </li>
-                <!-- /wp:list-item -->
-                <!-- wp:list-item -->
-                <li class="flex items-center gap-[10px]">
-                  <p data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="inline before:content-[''] before:inline-block before:mr-[12px] before:mb-[5px] before:w-[20px] before:h-[2px] before:bg-primaryYellow">Consectetur adipiscing elit</p>
-                </li>
-                <!-- /wp:list-item -->
-                <!-- wp:list-item -->
-                <li class="flex items-center gap-[10px]">
-                  <p data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="inline before:content-[''] before:inline-block before:mr-[12px] before:mb-[5px] before:w-[20px] before:h-[2px] before:bg-primaryYellow">Sed do eiusmod tempor incididunt</p>
-                </li>
-                <!-- /wp:list-item -->
-              </ul>
-              <!-- /wp:list -->
-            </div>
-            <!-- /wp:group -->
-          </div>
-          <!-- /wp:group -->
-        </div>
-        <!-- /wp:group -->
-      </li>
-      <!-- /wp:list-item -->
-
-
     </ul>
     <!-- /wp:list -->
   </div>
