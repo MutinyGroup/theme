@@ -24,11 +24,7 @@
           <!-- wp:group -->
           <div class="wp-block-group h-fit overflow-hidden">
             <!-- wp:paragraph -->
-            <p class="test01 company-title font-medium overflow-hidden">
-              <span class="block">
-                AKTUALNOŚCI
-              </span>
-            </p>
+            <p class="test01 company-title font-medium overflow-hidden"><span class="block">AKTUALNOŚCI</span></p>
             <!-- /wp:paragraph -->
           </div>
           <!-- /wp:group -->
@@ -43,11 +39,7 @@
           <!-- wp:group -->
           <div class="wp-block-group overflow-hidden">
             <!-- wp:paragraph -->
-            <p class="test01 company-title font-medium overflow-hidden">
-              <span class="block">
-                SPRAWDŹ CO
-              </span>
-            </p>
+            <p class="test01 company-title font-medium overflow-hidden"><span class="block">SPRAWDŹ CO</span></p>
             <!-- /wp:paragraph -->
           </div>
           <!-- /wp:group -->
