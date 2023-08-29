@@ -166,38 +166,6 @@
     <!-- /wp:group -->
 
     <!-- wp:group -->
-    <div class="wp-block-group old hidden btn-more min-w-fit fflex gap-[20px]">
-      <?php
-      if ($currentPageID < ($post_query->max_num_pages)) {
-      ?>
-        <?php
-        if ($currentPageID > 1) {
-        ?>
-          <!-- wp:paragraph -->
-          <p><a href="<?php echo home_url() . '/blog/page/' . ($currentPageID - 1) ?>" class="min-w-fit ml-[0px] p-[15px_30px] font-bold uppercase border-[2px] border-[#D5D5D5] rounded-full hover:border-primaryYellow hover:text-black transition ease-out duration-300 cursor-pointer text-[14px]">Pokaż poprzednie</a></p>
-          <!-- /wp:paragraph -->
-        <?php
-        };
-        ?>
-
-        <!-- wp:paragraph -->
-        <p><a href="<?php echo home_url() . '/blog/page/' . ($currentPageID + 1) ?>" class="min-w-fit ml-[0px] p-[15px_30px] font-bold uppercase border-[2px] border-[#D5D5D5] rounded-full hover:border-primaryYellow hover:text-black transition ease-out duration-300 cursor-pointer text-[14px]">Pokaż następne</a></p>
-        <!-- /wp:paragraph -->
-
-
-      <?php
-      } elseif ($currentPageID = $post_query->max_num_pages) {
-      ?>
-        <!-- wp:paragraph -->
-        <p><a class="min-w-fit ml-[0px] p-[15px_30px] font-bold uppercase border-[2px] border-[#D5D5D5] rounded-full hover:border-primaryYellow hover:text-black transition ease-out duration-300 cursor-pointer" href="<?php echo home_url() . '/blog/page/' . ($currentPageID - 1) ?>" class="uppercase text-[14px] font-bold">Pokaż poprzednie</a></p>
-        <!-- /wp:paragraph -->
-      <?php
-      };
-      ?>
-    </div>
-    <!-- /wp:group -->
-
-    <!-- wp:group -->
     <div class="wp-block-group btn-more min-w-fit flex gap-[20px]">
       <!-- wp:paragraph -->
       <p id="showMorePosts" class="min-w-fit ml-[0px] p-[15px_30px] font-bold uppercase border-[2px] border-[#D5D5D5] rounded-full hover:border-primaryYellow hover:text-black transition ease-out duration-300 cursor-pointer text-[14px]">Pokaż Więcej</p>
