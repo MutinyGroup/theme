@@ -16,9 +16,9 @@ window.addEventListener("load", function () {
 };
   if(document.body.classList.contains('blog')){
     showMoreBlogPostsBtn.addEventListener('click',()=>{
-      BlogContainer.style.maxHeight = 1500 + more + 'px';
+      BlogContainer.style.maxHeight = 1460 + more + 'px';
       // realizationsEventyUl.style.height = 850 + more + 'px';
-      more += 900;
+      more += 760;
       console.log(more);
     });
   }
@@ -108,17 +108,17 @@ window.addEventListener("load", function () {
     //     };
     //   };
     // };
-    // if (slidesBlog.length > 0 && scrollPos >= 0)  {
-    //   for(let i = 0 ; i < slidesBlog.length ; i++){
-    //     if (scrollPos >= 0 + ((i*1.5)*150)) {
-    //     slidesBlog[i].classList.add('test02');
-    //     slidesBlog[i].classList.remove('opacity-0');
-    //     slidesBlog[i+1].classList.add('test02');
-    //     slidesBlog[i+1].classList.remove('opacity-0');
-    //     i=i+1;
-    //     };
-    //   };
-    // };
+    if (slidesBlog.length > 0 && scrollPos >= 0)  {
+      for(let i = 0 ; i < slidesBlog.length ; i++){
+        if (scrollPos >= 0 + ((i*1.5)*150)) {
+        slidesBlog[i].classList.add('test02');
+        slidesBlog[i].classList.remove('opacity-0');
+        slidesBlog[i+1].classList.add('test02');
+        slidesBlog[i+1].classList.remove('opacity-0');
+        i=i+1;
+        };
+      };
+    };
     // if (eventTiles.length > 0 && scrollPos >= 0)  {
     //   for(let i = 0 ; i < eventTiles.length ; i++){
     //     if (scrollPos >= 0 + (i>1 ? (((i*1.5)*150) + i*130) : ((i*1.5)*150))) {
