@@ -44,61 +44,68 @@ window.addEventListener("load", function () {
  siteHeader.classList.add('header-position-fixed');
  siteContent.style.paddingTop = siteHeaderHeight + 'px';
  
-//  desktop
- function updateHeaderPadding() {
-    siteHeaderHeight = siteHeader.offsetHeight;
-    siteContent.style.transition = 'padding-top 0.3s ease-in-out';
-    siteContent.style.paddingTop = siteHeaderHeight + 'px';
+
+  if(screenWidth > 500) {
+    //  desktop
+    function updateHeaderPadding() {
+      siteHeaderHeight = siteHeader.offsetHeight;
+      siteContent.style.transition = 'padding-top 0.3s ease-in-out';
+      siteContent.style.paddingTop = siteHeaderHeight + 'px';
+    };
+
+    setInterval(updateHeaderPadding, 500);
+    let refOffset = 0;
+
+    const headerAppearsOnScrollUp = () => {
+      const newOffset = window.scrollY || window.pageYOffset;
+
+      if(newOffset > siteHeaderHeight) {
+          if(newOffset > refOffset) {
+            siteHeader.classList.remove('animateIn');
+            siteHeader.classList.add('animateOut');
+          }
+          else {
+            siteHeader.classList.remove('animateOut');
+            siteHeader.classList.add('animateIn');
+          };
+          refOffset = newOffset;
+      };
+    };
+    window.addEventListener('scroll', headerAppearsOnScrollUp, false); 
+  }else{
+    //  mobile
+    function updateHeaderMobilePadding() {
+      siteHeaderMobileHeight = siteHeaderMobile.offsetHeight;
+      siteContent.style.transition = 'padding-top 0.3s ease-in-out';
+      siteContent.style.paddingTop = siteHeaderMobileHeight + 'px';
+    };
+
+    setInterval(updateHeaderMobilePadding, 500);
+    let refOffsetMobile = 0;
+
+    const headerMobileAppearsOnScrollUp = () => {
+      const newOffsetMobile = window.scrollY || window.pageYOffset;
+
+      if(newOffsetMobile > siteHeaderMobileHeight) {
+          if(newOffsetMobile > refOffsetMobile) {
+            siteHeaderMobile.classList.remove('animateIn');
+            siteHeaderMobile.classList.add('animateOut');
+          }
+          else {
+            siteHeaderMobile.classList.remove('animateOut');
+            siteHeaderMobile.classList.add('animateIn');
+          };
+          refOffset = newOffsetMobile;
+      };
+    };
+
+    window.addEventListener('scroll', headerMobileAppearsOnScrollUp, false); 
+
   }
- 
- setInterval(updateHeaderPadding, 500);
- let refOffset = 0;
- 
- const headerAppearsOnScrollUp = () => {
-     const newOffset = window.scrollY || window.pageYOffset;
- 
-     if(newOffset > siteHeaderHeight) {
-        if(newOffset > refOffset) {
-          siteHeader.classList.remove('animateIn');
-          siteHeader.classList.add('animateOut');
-        }
-        else {
-          siteHeader.classList.remove('animateOut');
-          siteHeader.classList.add('animateIn');
-        };
-        refOffset = newOffset;
-     };
-  };
 
-  //  mobile
- function updateHeaderMobilePadding() {
-  siteHeaderMobileHeight = siteHeaderMobile.offsetHeight;
-  siteContent.style.transition = 'padding-top 0.3s ease-in-out';
-  siteContent.style.paddingTop = siteHeaderMobileHeight + 'px';
-}
 
-  setInterval(updateHeaderMobilePadding, 500);
-  let refOffsetMobile = 0;
 
- const headerMobileAppearsOnScrollUp = () => {
-     const newOffsetMobile = window.scrollY || window.pageYOffset;
- 
-     if(newOffsetMobile > siteHeaderMobileHeight) {
-        if(newOffsetMobile > refOffsetMobile) {
-          siteHeaderMobile.classList.remove('animateIn');
-          siteHeaderMobile.classList.add('animateOut');
-        }
-        else {
-          siteHeaderMobile.classList.remove('animateOut');
-          siteHeaderMobile.classList.add('animateIn');
-        };
-        refOffset = newOffsetMobile;
-     };
-  };
- 
- window.addEventListener('scroll', headerAppearsOnScrollUp, false); 
- window.addEventListener('scroll', headerMobileAppearsOnScrollUp, false); 
-
+  
 //  end test
  
 
