@@ -67,7 +67,7 @@
     <!-- /wp:group -->
 
     <!-- wp:group -->
-    <div class="wp-block-group container mx-auto desktop:px-0 px-[20px] text-cols-wrapper desktop flex desktop:gap-[0px] gap-[20px] basis desktop:mb-[100px] mb-[50px]">
+    <div class="wp-block-group container mx-auto desktop:px-0 px-[20px] text-cols-wrapper desktop:flex desktop:gap-[0px] gap-[20px] basis desktop:mb-[100px] mb-[50px]">
       <!-- wp:group -->
       <div class="wp-block-group col1 desktop:pl-[155px] basis-[40%] mb-[40px]">
         <!-- wp:paragraph -->
