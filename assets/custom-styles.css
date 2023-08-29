@@ -294,7 +294,10 @@ figure[class*="logo-img"] img {
   background-color: #F2F2F2;
   color: black;
 }
-.page .wp-block-navigation__container li:last-child,
+.page .wp-block-navigation__container li:last-child:hover,
+.single .wp-block-navigation__container li:last-child:hover,
+.error404 .wp-block-navigation__container li:last-child:hover,
+.archive .wp-block-navigation__container li:last-child:hover,
 .blog .wp-block-navigation__container li:last-child:hover {
   background-color: white;
   border-color: white;
