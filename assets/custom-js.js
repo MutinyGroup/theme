@@ -1,7 +1,7 @@
 window.addEventListener("load", function () {
   // realizations page show more
-  const realizationsContainer = document.querySelectorAll('#realizationsContainer');
-  const showMoreBtn = document.querySelectorAll('#showMore');
+  const realizationsContainer = document.querySelector('#realizationsContainer');
+  const showMoreBtn = document.querySelector('#showMore');
   let more = 400;
 
   showMoreBtn.addEventListener('click',()=>{
