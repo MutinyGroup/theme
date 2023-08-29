@@ -292,13 +292,13 @@ figure[class*="logo-img"] img {
   color: black;
 }
 .blog .wp-block-navigation__container li:last-child {
-  border-color: white;
+  border-color: #AAA;
   background-color: #F2F2F2;
   color: black;
 }
 .blog .wp-block-navigation__container li:last-child:hover {
-  /* background-color: white;
-  color: black; */
+  background-color: white;
+  border-color: white;
 }
 
 #modal-1-content > ul > li.wp-block-navigation-item.contact-from-wp-panel.p-\[10px_20px\].uppercase.border-\[2px\].border-\[\#AAAAAA\].rounded-full.cursor-pointer.hover\:bg-white.hover\:text-black.hover\:border-white.transition.ease-out.duration-300.wp-block-navigation-link > a{
