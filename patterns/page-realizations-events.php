@@ -11,7 +11,7 @@
 <!-- wp:group {"templateLock":"contentOnly","anchor":true} -->
 <div id="Eventy" class="wp-block-group page-realizations-events mb-[150px] overflow-hidden">
   <!-- wp:group -->
-  <div class="wp-block-group container mx-auto relative desktop:px-0 px-[20px]">
+  <div id="realizationsContainer" class="wp-block-group container mx-auto h-[1230px] relative desktop:px-0 px-[20px]">
     <!-- wp:list -->
     <ul id="Kategorie" class="wp-block-list categories-all-1 mb-[60px] desktop:mb-[110px] flex flex-wrap gap-[10px]">
       <!-- wp:list-item -->
@@ -188,6 +188,10 @@
         <?php
         };
         ?>
+
+        <!-- wp:paragraph -->
+        <p id="showMore"><a href="<?php echo home_url() . '/realizations/page/' . ($currentPageID + 1) ?>" class="min-w-fit ml-[0px] p-[15px_30px] font-bold uppercase border-[2px] border-[#D5D5D5] rounded-full hover:border-primaryYellow hover:text-black transition ease-out duration-300 cursor-pointer text-[14px]">Pokaż Więcej</a></p>
+        <!-- /wp:paragraph -->
       </div>
       <!-- /wp:group -->
 

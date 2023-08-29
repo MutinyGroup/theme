@@ -1,4 +1,20 @@
 window.addEventListener("load", function () {
+  // realizations page show more
+  const realizationsContainer = document.querySelectorAll('#realizationsContainer');
+  const showMoreBtn = document.querySelectorAll('#showMore');
+  let more = 400;
+
+  showMoreBtn.addEventListener('click',()=>{
+    realizationsContainer.style.height = 1230 + more + 'px';
+    more += 400;
+  });
+
+
+
+
+
+
+
   // ANIMATIONS
   const servicesTiles = document.querySelectorAll('.servicesTile');
   const slidesBlog = document.querySelectorAll('.slideBlog');
