@@ -62,6 +62,7 @@
     </a>
     <!-- /wp:paragraph -->
 
+    <!-- wp:group -->
     <div class="wp-block-group post-title text-[50px] leading-[55px] font-normal">
       <!-- wp:post-title /-->
     </div>
