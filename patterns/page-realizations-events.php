@@ -116,7 +116,7 @@
                   <!-- /wp:paragraph -->
 
                   <!-- wp:buttons -->
-                  <div class="wp-block-buttons w-[56px] h-[56px] mt-[40px]">
+                  <div class="wp-block-buttons w-[56px] h-[56px] mt-[25px]">
                     <!-- wp:group -->
                     <div class="wp-block-group">
                       <!-- wp:paragraph -->
