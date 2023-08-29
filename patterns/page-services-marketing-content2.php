@@ -45,7 +45,7 @@
         <!-- /wp:paragraph -->
 
         <!-- wp:group -->
-        <div class="wp-block-group section-title grid desktop:basis-auto desktop:w-[145px] uppercase text-primaryYellow">
+        <div class="wp-block-group section-title grid desktop:basis-auto desktop:w-[30px] uppercase text-primaryYellow">
           <!-- wp:paragraph -->
           <p class="desktop:justify-self-end pt-[7px] pr-[15px] text-[20px]">02</p>
           <!-- /wp:paragraph -->
