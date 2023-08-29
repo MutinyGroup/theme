@@ -44,10 +44,9 @@ window.addEventListener("load", function () {
  siteHeader.classList.add('header-position-fixed');
  siteContent.style.paddingTop = siteHeaderHeight + 'px';
  
- 
+//  desktop
  function updateHeaderPadding() {
     siteHeaderHeight = siteHeader.offsetHeight;
-    siteHeaderMobileHeight = siteHeaderMobile.offsetHeight;
     siteContent.style.transition = 'padding-top 0.3s ease-in-out';
     siteContent.style.paddingTop = siteHeaderHeight + 'px';
   }
@@ -71,11 +70,11 @@ window.addEventListener("load", function () {
      };
   };
 
-   
+  //  mobile
  function updateHeaderMobilePadding() {
   siteHeaderMobileHeight = siteHeaderMobile.offsetHeight;
   siteContent.style.transition = 'padding-top 0.3s ease-in-out';
-  siteContent.style.paddingTop = siteHeaderHeight + 'px';
+  siteContent.style.paddingTop = siteHeaderMobileHeight + 'px';
 }
 
   setInterval(updateHeaderMobilePadding, 500);
