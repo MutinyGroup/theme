@@ -18,7 +18,7 @@
         <!-- wp:group -->
         <div class="wp-block-group company-info desktop:mb-[120px] mb-[40px] flex gap-[15px]">
           <!-- wp:image -->
-          <figure class="wp-block-image w-fit">
+          <figure class="wp-block-image self-center w-[80px]">
             <img src="<?php echo home_url() . '/wp-content/themes/mutiny/assets/img/front-page/logo-mutiny.png'; ?>" alt="logo" />
           </figure>
           <!-- /wp:image -->
