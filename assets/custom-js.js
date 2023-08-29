@@ -1,12 +1,19 @@
 window.addEventListener("load", function () {
   // realizations page show more
   const realizationsContainer = document.querySelector('#realizationsContainer');
-  // const realizationsEventyUl = document.querySelector('#Eventy');
+  const BlogContainer = document.querySelector('#blogContainer');
   const showMoreBtn = document.querySelector('#showMore');
+  const showMoreBlogPostsBtn = document.querySelector('#showMorePosts');
   let more = 900;
 
   showMoreBtn.addEventListener('click',()=>{
     realizationsContainer.style.maxHeight = 1500 + more + 'px';
+    // realizationsEventyUl.style.height = 850 + more + 'px';
+    more += 900;
+    console.log(more);
+  });
+  showMoreBlogPostsBtn.addEventListener('click',()=>{
+    BlogContainer.style.maxHeight = 1500 + more + 'px';
     // realizationsEventyUl.style.height = 850 + more + 'px';
     more += 900;
     console.log(more);
