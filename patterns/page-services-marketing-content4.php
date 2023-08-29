@@ -308,6 +308,39 @@
                 <!-- /wp:group -->
               </div>
               <!-- /wp:group -->
+
+              <!-- wp:group -->
+              <div class="wp-block-group swiper-slide swiper-slide-marketing relative desktop:p-[25px] desktop:max-w-[716px] max-w-[310px] desktop:h-[450px] h-fit mr-[8px] desktop:flex gap-[43px]">
+                <!-- wp:group -->
+                <div class="wp-block-group desktop:w-[50%] h-full rounded-[20px] overflow-hidden">
+                  <!-- wp:image -->
+                  <figure class="wp-block-image clip-path-url-['#clipped-content4'] h-full">
+                    <img src="<?php echo home_url() . '/wp-content/themes/mutiny/assets/img/page-marketing/swiper/swiper2-1.jpg'; ?>" alt="marketing-backgroun-image">
+                  </figure>
+                  <!-- /wp:image -->
+                  <!-- wp:paragraph -->
+                  <p>
+                    <svg x="0px" y="0px" viewBox="0 0 1374.7 1083.6" class="absolute top-0">
+                      <defs>
+                        <clipPath id="clipped-content4" class="scale-[0.0020] scale-x-[0.0028]" clipPathUnits="objectBoundingBox" transform="scale(0.0018, 0.0012)">
+                          <path d="M5.46395e-06 20C2.4463e-06 8.95431 8.95431 0 20 0H334C345.046 0 354 8.9543 354 20V446.667C354 457.712 345.046 466.667 334 466.667H232.981C225.028 466.667 217.401 469.824 211.776 475.445L195.987 491.222C190.361 496.843 182.734 500 174.782 500H20.0001C8.95444 500 0.000134152 491.046 0.000131135 480L5.46395e-06 20Z" />
+                        </clipPath>
+                      </defs>
+                    </svg>
+                  </p>
+                  <!-- /wp:paragraph -->
+                </div>
+                <!-- /wp:group -->
+
+                <!-- wp:group -->
+                <div class="wp-block-group text-wrapper desktop:my-auto desktop:w-[50%] desktop:pr-[40px] items-center">
+                  <!-- wp:paragraph -->
+                  <p class="leading-[21px] ">empty</p>
+                  <!-- /wp:paragraph -->
+                </div>
+                <!-- /wp:group -->
+              </div>
+              <!-- /wp:group -->
             </div>
             <!-- /wp:group -->
           </div>
