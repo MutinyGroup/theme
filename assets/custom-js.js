@@ -70,11 +70,22 @@ window.addEventListener("load", function () {
         refOffset = newOffset;
      };
   };
+
+   
+ function updateHeaderMobilePadding() {
+  siteHeaderMobileHeight = siteHeaderMobile.offsetHeight;
+  siteContent.style.transition = 'padding-top 0.3s ease-in-out';
+  siteContent.style.paddingTop = siteHeaderHeight + 'px';
+}
+
+  setInterval(updateHeaderMobilePadding, 500);
+  let refOffsetMobile = 0;
+
  const headerMobileAppearsOnScrollUp = () => {
-     const newOffset = window.scrollY || window.pageYOffset;
+     const newOffsetMobile = window.scrollY || window.pageYOffset;
  
-     if(newOffset > siteHeaderMobileHeight) {
-        if(newOffset > refOffset) {
+     if(newOffsetMobile > siteHeaderMobileHeight) {
+        if(newOffsetMobile > refOffsetMobile) {
           siteHeaderMobile.classList.remove('animateIn');
           siteHeaderMobile.classList.add('animateOut');
         }
@@ -82,7 +93,7 @@ window.addEventListener("load", function () {
           siteHeaderMobile.classList.remove('animateOut');
           siteHeaderMobile.classList.add('animateIn');
         };
-        refOffset = newOffset;
+        refOffset = newOffsetMobile;
      };
   };
  
