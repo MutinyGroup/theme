@@ -131,7 +131,7 @@
           <!-- /wp:group -->
 
           <!-- wp:group -->
-          <div class="wp-block-group w-[60%]">
+          <div class="wp-block-group w-[100%] desktop:w-[60%]">
             <!-- wp:paragraph -->
             <p data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="my-[50px] text-[35px] leading-[42px] font-semibold uppercase relative">Mamy nieszablonowe <br />podejście</p>
             <!-- /wp:paragraph -->
