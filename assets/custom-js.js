@@ -42,12 +42,13 @@ window.addEventListener("load", function () {
  let siteHeaderHeight = siteHeader.offsetHeight;
  let screenWidth = window.innerWidth;
  
- siteHeader.classList.add('header-position-fixed');
- siteContent.style.paddingTop = siteHeaderHeight + 'px';
+
  
 
   if(screenWidth > 500) {
     //  desktop
+    siteHeader.classList.add('header-position-fixed');
+    siteContent.style.paddingTop = siteHeaderHeight + 'px';
     function updateHeaderPadding() {
       siteHeaderHeight = siteHeader.offsetHeight;
       siteContent.style.transition = 'padding-top 0.3s ease-in-out';
@@ -75,6 +76,8 @@ window.addEventListener("load", function () {
     window.addEventListener('scroll', headerAppearsOnScrollUp, false); 
   }else{
     //  mobile
+    siteHeaderMobile.classList.add('header-position-fixed');
+    siteContent.style.paddingTop = siteHeaderHeightMobile + 'px';
     function updateHeaderMobilePadding() {
       siteHeaderMobileHeight = siteHeaderMobile.offsetHeight;
       siteContent.style.transition = 'padding-top 0.3s ease-in-out';
