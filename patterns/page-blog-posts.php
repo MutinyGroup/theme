@@ -50,7 +50,7 @@
             $counter++;
             if ($tab[$i] == 0) { ?>
               <!-- wp:list-item -->
-              <li class="wp-block-group bigger swiper-slide slideBlog  relative group w-full desktop:w-[535px] wide:w-[580px] h-fit desktop:h-[545px] wide:h-[650px] transition duration-[800ms] ease-in <?php echo (!($counter % 2)) ? 'pt-[120px]' : ''; ?>">
+              <li class="bigger relative group w-full desktop:w-[535px] wide:w-[580px] h-fit desktop:h-[545px] wide:h-[650px] transition duration-[800ms] ease-in <?php echo (!($counter % 2)) ? 'pt-[120px]' : ''; ?>">
                 <a href="<?php the_permalink(); ?>" data-aos="fade-right" data-aos-duration="600" data-aos-offset="130">
                   test
                 </a>
