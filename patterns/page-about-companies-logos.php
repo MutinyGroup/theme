@@ -74,7 +74,7 @@
   <!-- wp:group -->
   <div class="wp-block-group sport-logos relative overflow-hidden mt-[100px] w-full h-[180px] desktop:h-[120px]">
     <!-- wp:group -->
-    <div class="wp-block-group h-[220px] desktop:h-[120px] w-full px-[20px] py-[20px] desktop:px-[100px] bg-white desktop:flex items-center gap-0 desktop:gap-[90px] absolute bottom-0 desktop:left-0 left-[20px] is-layout-flow">
+    <div class="wp-block-group h-[180px] desktop:h-[120px] w-full px-[20px] py-[20px] desktop:px-[100px] bg-white desktop:flex items-center gap-0 desktop:gap-[90px] absolute bottom-0 desktop:left-0 left-[20px] is-layout-flow">
       <!-- wp:paragraph -->
       <p class="desktop:text-[22px] text-[18px] leading-[22px] font-medium">Dumnie wspieramy lokalny sport</p>
       <!-- /wp:paragraph -->
