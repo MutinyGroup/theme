@@ -157,9 +157,6 @@ figure[class*="logo-img"] img {
   z-index: 0;
   position: relative;
 }
-.target-num{
-  color: white;
-}
 .swiper-slide-active .target-num{
   color: #FEC400;
 }
