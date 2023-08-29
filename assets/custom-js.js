@@ -40,6 +40,7 @@ window.addEventListener("load", function () {
  const siteHeaderMobile = document.querySelector('#Mobile');
  const siteContent = document.querySelector('#main');
  let siteHeaderHeight = siteHeader.offsetHeight;
+ let screenWidth = window.innerWidth;
  
  siteHeader.classList.add('header-position-fixed');
  siteContent.style.paddingTop = siteHeaderHeight + 'px';
