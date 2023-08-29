@@ -69,7 +69,7 @@
     <!-- wp:group -->
     <div class="wp-block-group container mx-auto desktop:px-0 px-[20px] text-cols-wrapper desktop:flex desktop:gap-[0px] gap-[20px] basis desktop:mb-[100px] mb-[50px]">
       <!-- wp:group -->
-      <div class="wp-block-group col1 desktop:pl-[155px] basis-[40%] mb-[40px]">
+      <div class="wp-block-group col1 desktop:pl-[60px] basis-[30%] mb-[40px]">
         <!-- wp:paragraph -->
         <p data-aos="fade-right" data-aos-duration="600" data-aos-offset="130" class="max-w-[173px] text-[16px] leading-[21px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
         <!-- /wp:paragraph -->
