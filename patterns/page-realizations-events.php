@@ -147,60 +147,34 @@
     </ul>
     <!-- /wp:list -->
 
+  </div>
+  <!-- /wp:group -->
+
+
+
+  <!-- wp:group -->
+  <div class="wp-block-group button-wrapper h-[80px] desktop:mt-[80px] mt-[40px] flex items-center justify-center gap-[64px]">
     <!-- wp:group -->
-    <div class="wp-block-group button-wrapper h-[80px] desktop:mt-[80px] mt-[40px] flex items-center justify-center gap-[64px]">
-      <!-- wp:group -->
-      <div class="wp-block-group gray-border hidden desktop:inline-block w-full h-[2px] bg-[#808080] opacity-[15%]">
-        <!-- wp:paragraph -->
-        <p class="hidden">gray separator</p>
-        <!-- /wp:paragraph -->
-      </div>
-      <!-- /wp:group -->
+    <div class="wp-block-group gray-border hidden desktop:inline-block w-full h-[2px] bg-[#808080] opacity-[15%]">
+      <!-- wp:paragraph -->
+      <p class="hidden">gray separator</p>
+      <!-- /wp:paragraph -->
+    </div>
+    <!-- /wp:group -->
 
-      <!-- wp:group -->
-      <div class="wp-block-group btn-more min-w-fit flex gap-[20px]">
-        <?php
-        $currentPageID = (int)substr("http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]", 44, 1) ? (int)substr("http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]", 44, 1) : 1;
+    <!-- wp:group -->
+    <div class="wp-block-group btn-more min-w-fit flex gap-[20px]">
+      <!-- wp:paragraph -->
+      <p id="showMore" class="min-w-fit ml-[0px] p-[15px_30px] font-bold uppercase border-[2px] border-[#D5D5D5] rounded-full hover:border-primaryYellow hover:text-black transition ease-out duration-300 cursor-pointer text-[14px]">Pokaż Więcej</p>
+      <!-- /wp:paragraph -->
+    </div>
+    <!-- /wp:group -->
 
-        if ($currentPageID < ($post_query->max_num_pages)) {
-        ?>
-          <?php
-          if ($currentPageID > 1) {
-          ?>
-            <!-- wp:paragraph -->
-            <p><a href="<?php echo home_url() . '/realizations/page/' . ($currentPageID - 1) ?>" class="min-w-fit ml-[0px] p-[15px_30px] font-bold uppercase border-[2px] border-[#D5D5D5] rounded-full hover:border-primaryYellow hover:text-black transition ease-out duration-300 cursor-pointer text-[14px]">Pokaż poprzednie</a></p>
-            <!-- /wp:paragraph -->
-          <?php
-          };
-          ?>
-          <!-- wp:paragraph -->
-          <p><a href="<?php echo home_url() . '/realizations/page/' . ($currentPageID + 1) ?>" class="min-w-fit ml-[0px] p-[15px_30px] font-bold uppercase border-[2px] border-[#D5D5D5] rounded-full hover:border-primaryYellow hover:text-black transition ease-out duration-300 cursor-pointer text-[14px]">Pokaż następne</a></p>
-          <!-- /wp:paragraph -->
-
-
-        <?php
-        } elseif ($currentPageID = $post_query->max_num_pages) {
-        ?>
-          <!-- wp:paragraph -->
-          <p><a href="<?php echo home_url() . '/realizations/page/' . ($currentPageID - 1) ?>" class="uppercase text-[14px] font-bold min-w-fit ml-[0px] p-[15px_30px] border-[2px] border-[#D5D5D5] rounded-full hover:border-primaryYellow hover:text-black transition ease-out duration-300 cursor-pointer">Pokaż poprzednie</a></p>
-          <!-- /wp:paragraph -->
-        <?php
-        };
-        ?>
-
-        <!-- wp:paragraph -->
-        <p id="showMore" class="min-w-fit ml-[0px] p-[15px_30px] font-bold uppercase border-[2px] border-[#D5D5D5] rounded-full hover:border-primaryYellow hover:text-black transition ease-out duration-300 cursor-pointer text-[14px]">Pokaż Więcej</p>
-        <!-- /wp:paragraph -->
-      </div>
-      <!-- /wp:group -->
-
-      <!-- wp:group -->
-      <div class="wp-block-group gray-border hidden desktop:inline-block w-full h-[2px] bg-[#808080] opacity-[15%]">
-        <!-- wp:paragraph -->
-        <p class="hidden">gray separator</p>
-        <!-- /wp:paragraph -->
-      </div>
-      <!-- /wp:group -->
+    <!-- wp:group -->
+    <div class="wp-block-group gray-border hidden desktop:inline-block w-full h-[2px] bg-[#808080] opacity-[15%]">
+      <!-- wp:paragraph -->
+      <p class="hidden">gray separator</p>
+      <!-- /wp:paragraph -->
     </div>
     <!-- /wp:group -->
   </div>
