@@ -8,7 +8,7 @@
  */
 ?>
 <!-- wp:group {"templateLock":"contentOnly","anchor":true} -->
-<div id="CTA" class="wp-block-group relative cta-bright1 mb-[150px]">
+<div id="CTA" class="wp-block-group relative cta-bright1 mb-[150px] z-[1]">
   <!-- wp:paragraph -->
   <p class="scale-[0.3] desktop:scale-[1] absolute left-0">
     <svg class="bg-shape z-[0] absolute top-[-145px] left-[-80px]" width="1201" height="917" viewBox="0 0 1201 917" fill="none">
