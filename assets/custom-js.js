@@ -35,6 +35,9 @@ window.addEventListener("load", function () {
   const eventTiles = document.querySelectorAll('.event-tile');
   // const header = document.querySelector('.Menu-desktop');
 
+
+
+  
   // floating navbar
   const siteHeader = document.querySelector('#Menu-desktop');
   const siteHeaderMobile = document.querySelector('#Mobile');
