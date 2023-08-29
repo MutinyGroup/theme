@@ -35,12 +35,13 @@ window.addEventListener("load", function () {
   const eventTiles = document.querySelectorAll('.event-tile');
   // const header = document.querySelector('.Menu-desktop');
 
-// floating navbar
- const siteHeader = document.querySelector('#Menu-desktop');
- const siteHeaderMobile = document.querySelector('#Mobile');
- const siteContent = document.querySelector('#main');
- let siteHeaderHeight = siteHeader.offsetHeight;
- let screenWidth = window.innerWidth;
+  // floating navbar
+  const siteHeader = document.querySelector('#Menu-desktop');
+  const siteHeaderMobile = document.querySelector('#Mobile');
+  const siteContent = document.querySelector('#main');
+  let siteHeaderHeight = siteHeader.offsetHeight;
+  let siteHeaderHeightMobile = siteHeaderMobile.offsetHeight;
+  let screenWidth = window.innerWidth;
  
 
  
