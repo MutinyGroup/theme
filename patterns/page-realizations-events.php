@@ -58,7 +58,7 @@
       $currentPageID = (int)substr("http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]", 44, 1) ? (int)substr("http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]", 44, 1) : 1;
       $args = array(
         'post_type' => 'realizacje',
-        'posts_per_page' => 6,
+        'posts_per_page' => 2,
         'paged' => $currentPageID,
         'order' => 'DESC'
       );
@@ -185,8 +185,6 @@
           <!-- wp:paragraph -->
           <p><a href="<?php echo home_url() . '/realizations/page/' . ($currentPageID - 1) ?>" class="uppercase text-[14px] font-bold min-w-fit ml-[0px] p-[15px_30px] border-[2px] border-[#D5D5D5] rounded-full hover:border-primaryYellow hover:text-black transition ease-out duration-300 cursor-pointer">Pokaż poprzednie</a></p>
           <!-- /wp:paragraph -->
-
-
         <?php
         };
         ?>
