@@ -16,7 +16,7 @@
       <!-- wp:group -->
       <div class="wp-block-group flash-wrapper wide:scale-[1] desktop:scale-[1] scale-[0.5] absolute top-[-340px] desktop:top-[-300px] wide:top-[-270px] left-[-240px] desktop:left-[-200px] wide:left-[-260px] z-[0]">
         <!-- wp:paragraph -->
-        <p>
+        <a href="#" class="pointer-events-none" data-aos="fade-right" data-aos-duration="600" data-aos-offset="130">
           <svg class="flash" xmlns="http://www.w3.org/2000/svg" width="688" height="801" viewBox="0 0 688 801" fill="none">
             <g filter="url(#filter0_f_1787_1988)">
               <circle cx="287.132" cy="400.132" r="150" transform="rotate(-45 287.132 400.132)" fill="url(#paint0_linear_1787_1988)" fill-opacity="0.5" />
@@ -33,7 +33,7 @@
               </linearGradient>
             </defs>
           </svg>
-        </p>
+        </a>
         <!-- /wp:paragraph -->
 
         <!-- wp:image -->
@@ -163,7 +163,7 @@
                               <path d="M0 20C0 8.9543 8.95431 0 20 0H80H334C345.046 0 354 8.9543 354 20V361.716C354 367.02 351.893 372.107 348.142 375.858L279.858 444.142C276.107 447.893 271.02 450 265.716 450H0V20Z"/>
                             </clipPath>
                           ';
-                        }
+                        };
                         ?>
                       </defs>
                     </svg>
