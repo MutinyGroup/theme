@@ -3,12 +3,12 @@ window.addEventListener("load", function () {
   const realizationsContainer = document.querySelector('#realizationsContainer');
   // const realizationsEventyUl = document.querySelector('#Eventy');
   const showMoreBtn = document.querySelector('#showMore');
-  let more = 450;
+  let more = 900;
 
   showMoreBtn.addEventListener('click',()=>{
     realizationsContainer.style.height = 1520 + more + 'px';
     // realizationsEventyUl.style.height = 850 + more + 'px';
-    more += 450;
+    more += 900;
     console.log(more);
   });
 

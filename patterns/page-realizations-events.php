@@ -11,7 +11,7 @@
 <!-- wp:group {"templateLock":"contentOnly","anchor":true} -->
 <div id="Eventy" class="wp-block-group page-realizations-events mb-[150px] overflow-hidden">
   <!-- wp:group -->
-  <div id="realizationsContainer" class="wp-block-group container mx-auto h-[1520px] relative desktop:px-0 px-[20px] overflow-y-hidden">
+  <div id="realizationsContainer" class="wp-block-group container mx-auto h-[1520px] relative desktop:px-0 px-[20px] overflow-y-hidden transition ease-out duration-300">
     <!-- wp:list -->
     <ul id="Kategorie" class="wp-block-list categories-all-1 mb-[60px] desktop:mb-[110px] flex flex-wrap gap-[10px]">
       <!-- wp:list-item -->
@@ -68,8 +68,8 @@
           $counter++;
           if (true) { ?>
             <!-- wp:list-item -->
-            <li class="event-tile group mb-[50px]">
-              <a href="<?php the_permalink(); ?>" class="wp-block-group tile-container desktop:flex gap-[75px]" data-aos="fade-right" data-aos-duration="600" data-aos-offset="130">
+            <li class="event-tile group mb-[50px] h-[400px]">
+              <a href="<?php the_permalink(); ?>" class="wp-block-group tile-container h-full desktop:flex gap-[75px]" data-aos="fade-right" data-aos-duration="600" data-aos-offset="130">
                 <!-- wp:group -->
                 <div class="wp-block-group event-image-wrapper desktop:mb-0 mb-[20px] h-[400px] overflow-hidden w-full rounded-[20px]">
                   <!-- wp:image -->
