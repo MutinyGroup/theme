@@ -36,11 +36,15 @@
         </a>
         <!-- /wp:paragraph -->
 
-        <!-- wp:image -->
-        <figure class="wp-block-image flash absolute top-[0px] left-[0px]">
-          <img src="<?php echo home_url() . '/wp-content/themes/mutiny/assets/img/bg-yellow-flash.png'; ?>" alt="background image" />
-        </figure>
-        <!-- /wp:image -->
+        <!-- wp:paragraph -->
+        <a href="#" class="pointer-events-none" data-aos="fade-right" data-aos-duration="600" data-aos-offset="130">
+          <!-- wp:image -->
+          <figure class="wp-block-image flash absolute top-[0px] left-[0px]">
+            <img src="<?php echo home_url() . '/wp-content/themes/mutiny/assets/img/bg-yellow-flash.png'; ?>" alt="background image" />
+          </figure>
+          <!-- /wp:image -->
+        </a>
+        <!-- /wp:paragraph -->
       </div>
       <!-- /wp:group -->
 
