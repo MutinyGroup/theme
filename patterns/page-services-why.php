@@ -121,7 +121,7 @@
         <!-- /wp:group -->
 
         <!-- wp:group -->
-        <div class="wp-block-group tile-content flex z-[1]">
+        <div class="wp-block-group tile-content flex z-[1] relative">
           <!-- wp:group -->
           <div class="wp-block-group hidden desktop:block w-[40%]">
             <!-- wp:paragraph -->
