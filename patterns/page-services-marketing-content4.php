@@ -99,7 +99,7 @@
         <!-- wp:group -->
         <div class="wp-block-group desktop:mt-[-120px] w-full">
           <!-- wp:group -->
-          <div id="marketing2" class="wp-block-group swiper swiperMarketing2 desktop:w-[calc(100vw-200px)] desktop:pt-[60px] relative top-0 left-[20px]">
+          <div id="marketing2" class="wp-block-group swiper swiperMarketing2 w-screen desktop:w-[calc(100vw-200px)] desktop:pt-[60px] relative top-0 desktop:left-[20px]">
             <!-- wp:group -->
             <div id="marketing2-prev" class="wp-block-group group swiper-button-prev w-[56px] h-[56px] absolute top-[50%] desktop:right-[100px] translate-y-[50%] rotate-180 after:hidden">
               <!-- wp:paragraph -->
@@ -186,7 +186,7 @@
               <!-- /wp:group -->
 
               <!-- wp:group -->
-              <div class="wp-block-group swiper-slide swiper-slide-marketing relative desktop:p-[25px] desktop:max-w-[716px] max-w-[310px] desktop:h-[450px] h-fit mr-[8px] desktop:flex gap-[43px]">
+              <div class="wp-block-group swiper-slide swiper-slide-marketing relative desktop:p-[25px] desktop:max-w-[716px] max-w-[260px] desktop:h-[450px] h-fit mr-[8px] desktop:flex gap-[43px]">
                 <!-- wp:group -->
                 <div class="wp-block-group desktop:w-[50%] h-full rounded-[20px] overflow-hidden">
                   <!-- wp:image -->
