@@ -289,6 +289,9 @@ figure[class*="logo-img"] img {
   color: black;
 }
 .page .wp-block-navigation__container li:last-child,
+.single .wp-block-navigation__container li:last-child,
+.error404 .wp-block-navigation__container li:last-child,
+.archive .wp-block-navigation__container li:last-child,
 .blog .wp-block-navigation__container li:last-child {
   border-color: #AAA;
   background-color: #F2F2F2;
