@@ -58,7 +58,7 @@
               <!-- /wp:list-item -->
             <?php
               $i++;
-            } else {
+            } else if (false) {
             ?>
               <!-- wp:list-item -->
               <li class="wp-block-group smaller swiper-slide slideBlog  relative group w-full desktop:w-[444px] wide:w-[490px] h-fit desktop:h-[500px] transition duration-[800ms] ease-in <?php echo (!($counter % 2)) ? 'pt-[120px]' : ''; ?>">
