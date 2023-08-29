@@ -37,11 +37,7 @@
           <!-- wp:group -->
           <div class="wp-block-group overflow-hidden">
             <!-- wp:paragraph -->
-            <p class="test01 company-title font-medium overflow-hidden">
-              <span class="block">
-                PROJEKTY Z KTÓRYCH
-              </span>
-            </p>
+            <p class="test01 company-title font-medium overflow-hidden"><span class="block">PROJEKTY Z KTÓRYCH</span></p>
             <!-- /wp:paragraph -->
           </div>
           <!-- /wp:group -->

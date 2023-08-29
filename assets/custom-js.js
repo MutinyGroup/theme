@@ -7,6 +7,7 @@ window.addEventListener("load", function () {
   showMoreBtn.addEventListener('click',()=>{
     realizationsContainer.style.height = 1230 + more + 'px';
     more += 400;
+    console.log(more);
   });
 
 

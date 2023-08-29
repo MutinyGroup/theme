@@ -15,11 +15,9 @@
     <!-- wp:list -->
     <ul id="Kategorie" class="wp-block-list categories-all-1 mb-[60px] desktop:mb-[110px] flex flex-wrap gap-[10px]">
       <!-- wp:list-item -->
-      <li class="w-fit h-[40px] px-[10px] bg-primaryYellow border-primaryYellow border-[2px] rounded-full uppercase text-[14px] font-semibold text-center leading-[20px] flex justify-center items-center transition ease-out duration-300 cursor-pointer">
-        <a href="<?php echo get_home_url() . '/realizations'; ?>" class="flex items-center justify-center w-full h-full">
+      <li class="w-fit h-[40px] px-[10px] bg-primaryYellow border-primaryYellow border-[2px] rounded-full uppercase text-[14px] font-semibold text-center leading-[20px] flex justify-center items-center transition ease-out duration-300 cursor-pointer"><a href="<?php echo get_home_url() . '/realizations'; ?>" class="flex items-center justify-center w-full h-full">
           <p>Wszystkie realizacje</p>
-        </a>
-      </li>
+        </a></li>
       <!-- /wp:list-item -->
       <?php
       $args = array(
@@ -114,8 +112,9 @@
                   <!-- /wp:list -->
 
                   <!-- wp:paragraph -->
-                  <p><?php the_title(); ?></p>
+                  <p class="text-[35px] font-semibold"><?php the_title(); ?></p>
                   <!-- /wp:paragraph -->
+
                   <!-- wp:buttons -->
                   <div class="wp-block-buttons w-[56px] h-[56px] mt-[40px]">
                     <!-- wp:group -->
@@ -190,7 +189,7 @@
         ?>
 
         <!-- wp:paragraph -->
-        <p id="showMore"><a href="<?php echo home_url() . '/realizations/page/' . ($currentPageID + 1) ?>" class="min-w-fit ml-[0px] p-[15px_30px] font-bold uppercase border-[2px] border-[#D5D5D5] rounded-full hover:border-primaryYellow hover:text-black transition ease-out duration-300 cursor-pointer text-[14px]">Pokaż Więcej</a></p>
+        <p id="showMore" class="min-w-fit ml-[0px] p-[15px_30px] font-bold uppercase border-[2px] border-[#D5D5D5] rounded-full hover:border-primaryYellow hover:text-black transition ease-out duration-300 cursor-pointer text-[14px]">Pokaż Więcej</p>
         <!-- /wp:paragraph -->
       </div>
       <!-- /wp:group -->
