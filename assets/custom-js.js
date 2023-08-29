@@ -1,12 +1,14 @@
 window.addEventListener("load", function () {
   // realizations page show more
   const realizationsContainer = document.querySelector('#realizationsContainer');
+  const realizationsEventyUl = document.querySelector('#Eventy');
   const showMoreBtn = document.querySelector('#showMore');
   let more = 400;
 
   showMoreBtn.addEventListener('click',()=>{
     realizationsContainer.style.height = 1230 + more + 'px';
-    more += 400;
+    realizationsEventyUl.style.height = 850 + more + 'px';
+    // more += 400;
     console.log(more);
   });
 
