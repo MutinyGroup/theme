@@ -61,7 +61,7 @@
     <!-- wp:group -->
     <div class="wp-block-group text-cols-wrapper desktop:flex desktop:gap-[0px] gap-[20px] basis desktop:mb-[100px] mb-[50px]">
       <!-- wp:group -->
-      <div class="wp-block-group col1 relative desktop:pl-[155px] mb-[40px] basis-[40%]">
+      <div class="wp-block-group col1 relative desktop:pl-[60px] mb-[40px] basis-[30%]">
         <!-- wp:paragraph -->
         <svg class="bg-shape z-[0] opacity-[80%] absolute top-[-20px] left-[130px]" xmlns="http://www.w3.org/2000/svg" width="236" height="317" viewBox="0 0 236 317" fill="none">
           <path d="M234.242 314.923L1.62109 236.649V1.91697L234.242 80.1914V314.923Z" stroke="white" stroke-width="2" />
