@@ -40,7 +40,7 @@
         <!-- wp:group -->
         <div class="wp-block-group section-title grid desktop:basis-auto desktop:w-[145px] uppercase text-primaryYellow">
           <!-- wp:paragraph -->
-          <p class="desktop:justify-self-end pt-[3px] pr-[15px] text-[20px]">03</p>
+          <p class="desktop:justify-self-end pt-[7px] pr-[15px] text-[20px]">03</p>
           <!-- /wp:paragraph -->
         </div>
         <!-- /wp:group -->
@@ -59,16 +59,16 @@
     <!-- /wp:group -->
 
     <!-- wp:group -->
-    <div class="wp-block-group text-cols-wrapper flex desktop:gap-[0px] gap-[20px] basis desktop:mb-[100px] mb-[50px]">
+    <div class="wp-block-group text-cols-wrapper desktop:flex desktop:gap-[0px] gap-[20px] basis desktop:mb-[100px] mb-[50px]">
       <!-- wp:group -->
-      <div class="wp-block-group col1 relative desktop:pl-[155px] basis-[40%]">
+      <div class="wp-block-group col1 relative desktop:pl-[155px] mb-[40px] basis-[40%]">
         <!-- wp:paragraph -->
         <svg class="bg-shape z-[0] opacity-[80%] absolute top-[-20px] left-[130px]" xmlns="http://www.w3.org/2000/svg" width="236" height="317" viewBox="0 0 236 317" fill="none">
           <path d="M234.242 314.923L1.62109 236.649V1.91697L234.242 80.1914V314.923Z" stroke="white" stroke-width="2" />
         </svg>
         <!-- /wp:paragraph -->
         <!-- wp:paragraph -->
-        <p class="max-w-[173px] text-[16px] leading-[21px] z-[1] relative">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+        <p data-aos="fade-right" data-aos-duration="600" data-aos-offset="130" class="max-w-[173px] text-[16px] leading-[21px] z-[1] relative">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
         <!-- /wp:paragraph -->
       </div>
       <!-- /wp:group -->
@@ -82,10 +82,10 @@
         </p>
         <!-- /wp:paragraph -->
         <!-- wp:paragraph -->
-        <p class="desktop:text-[20px] text-[18px] desktop:leading-[30px] leading-[26px] pb-[50px] z-[1] relative">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <p data-aos="fade-right" data-aos-duration="600" data-aos-offset="130" class="desktop:text-[20px] text-[18px] desktop:leading-[30px] leading-[26px] pb-[50px] z-[1] relative">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
         <!-- /wp:paragraph -->
         <!-- wp:paragraph -->
-        <p class="hidden desktop:block text-[16px] leading-[21px] z-[1] relative">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <p data-aos="fade-right" data-aos-duration="600" data-aos-offset="130" class="hidden desktop:block text-[16px] leading-[21px] z-[1] relative">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
         <!-- /wp:paragraph -->
       </div>
       <!-- /wp:group -->

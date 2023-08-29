@@ -40,7 +40,7 @@
         <!-- wp:group -->
         <div class="wp-block-group section-title grid desktop:basis-auto desktop:w-[145px] uppercase text-primaryYellow">
           <!-- wp:paragraph -->
-          <p class="desktop:justify-self-end pt-[3px] pr-[15px] text-[20px]">04</p>
+          <p class="desktop:justify-self-end pt-[7px] pr-[15px] text-[20px]">04</p>
           <!-- /wp:paragraph -->
         </div>
         <!-- /wp:group -->
@@ -62,7 +62,7 @@
       <!-- wp:group -->
       <div class="wp-block-group col1 desktop:pl-[155px] basis-[40%]">
         <!-- wp:paragraph -->
-        <p class="relative max-w-[173px] text-[16px] leading-[21px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+        <p data-aos="fade-right" data-aos-duration="600" data-aos-offset="130" class="relative max-w-[173px] text-[16px] leading-[21px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
         <!-- /wp:paragraph -->
       </div>
       <!-- /wp:group -->
@@ -76,16 +76,16 @@
         </p>
         <!-- /wp:paragraph -->
         <!-- wp:paragraph -->
-        <p class="relative desktop:text-[20px] text-[18px] desktop:leading-[30px] leading-[26px] pb-[50px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <p data-aos="fade-right" data-aos-duration="600" data-aos-offset="130" class="relative desktop:text-[20px] text-[18px] desktop:leading-[30px] leading-[26px] pb-[50px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
         <!-- /wp:paragraph -->
         <!-- wp:paragraph -->
-        <p class="relative hidden desktop:block pb-[50px] text-[16px] leading-[21px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <p data-aos="fade-right" data-aos-duration="600" data-aos-offset="130" class="relative hidden desktop:block pb-[50px] text-[16px] leading-[21px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
         <!-- /wp:paragraph -->
         <!-- wp:paragraph -->
-        <p class="relative pb-[30px] text-[20px] font-medium">Co dostaniesz w ramach usługi?</p>
+        <p data-aos="fade-right" data-aos-duration="600" data-aos-offset="130" class="relative pb-[30px] text-[20px] font-medium">Co dostaniesz w ramach usługi?</p>
         <!-- /wp:paragraph -->
         <!-- wp:paragraph -->
-        <p class="relative desktop:block text-[16px] leading-[21px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <p data-aos="fade-right" data-aos-duration="600" data-aos-offset="130" class="relative desktop:block text-[16px] leading-[21px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
         <!-- /wp:paragraph -->
       </div>
       <!-- /wp:group -->
@@ -170,7 +170,7 @@
                     <!-- /wp:group -->
 
                     <!-- wp:paragraph -->
-                    <p class="target-num mb-[0px] desktop:mb-[30px] text-[60px] font-medium text-primaryYellow leading-[65px]">01</p>
+                    <p class="target-num mb-[0px] desktop:mb-[30px] text-[60px] font-medium leading-[65px]">01</p>
                     <!-- /wp:paragraph -->
                   </div>
                   <!-- /wp:group -->
@@ -232,7 +232,7 @@
                     <!-- /wp:group -->
 
                     <!-- wp:paragraph -->
-                    <p class="target-num mb-[0px] desktop:mb-[30px] text-[60px] font-medium text-primaryYellow leading-[65px]">02</p>
+                    <p class="target-num mb-[0px] desktop:mb-[30px] text-[60px] font-medium leading-[65px]">02</p>
                     <!-- /wp:paragraph -->
                   </div>
                   <!-- /wp:group -->
@@ -301,7 +301,7 @@
                     <!-- /wp:group -->
 
                     <!-- wp:paragraph -->
-                    <p class="target-num mb-[0px] desktop:mb-[30px] text-[60px] font-medium text-primaryYellow leading-[65px]">03</p>
+                    <p class="target-num mb-[0px] desktop:mb-[30px] text-[60px] font-medium leading-[65px]">03</p>
                     <!-- /wp:paragraph -->
                   </div>
                   <!-- /wp:group -->
