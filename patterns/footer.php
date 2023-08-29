@@ -118,7 +118,7 @@
   <!-- wp:group -->
   <div class="wp-block-group relative footer2 container mx-auto desktop:px-0 px-[20px] desktop:py-[36px] py-[20px] flex desktop:flex-row flex-col justify-between items-center text-[14px] font-extralight overflow-hidden">
     <!-- wp:group -->
-    <div class="wp-block-group flash-wrapper wide:scale-[1] desktop:scale-[1] scale-[0.5] absolute top-[-215px] desktop:top-[-30px] left-[calc(50%-316px)] z-[0]">
+    <div class="wp-block-group flash-wrapper wide:scale-[1] desktop:scale-[1] scale-[0.5] absolute top-[-195px] desktop:top-[-30px] left-[calc(50%-316px)] z-[0]">
       <!-- wp:paragraph -->
       <p>
         <svg class="flash" xmlns="http://www.w3.org/2000/svg" width="688" height="801" viewBox="0 0 688 801" fill="none">
