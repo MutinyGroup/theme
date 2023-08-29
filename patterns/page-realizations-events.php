@@ -68,7 +68,7 @@
           $counter++;
           if (true) { ?>
             <!-- wp:list-item -->
-            <li class="event-tile group mb-[50px] h-[400px]">
+            <li class="event-tile group mb-[50px] max-h-[400px]">
               <a href="<?php the_permalink(); ?>" class="wp-block-group tile-container h-full desktop:flex gap-[75px]" data-aos="fade-right" data-aos-duration="600" data-aos-offset="130">
                 <!-- wp:group -->
                 <div class="wp-block-group event-image-wrapper desktop:mb-0 mb-[20px] h-[400px] overflow-hidden w-full rounded-[20px]">
