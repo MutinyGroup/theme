@@ -18,7 +18,7 @@ window.addEventListener("load", function () {
     showMoreBlogPostsBtn.addEventListener('click',()=>{
       BlogContainer.style.maxHeight = 1460 + more + 'px';
       // realizationsEventyUl.style.height = 850 + more + 'px';
-      more += 760;
+      more += 630;
       console.log(more);
     });
   }
