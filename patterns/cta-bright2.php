@@ -120,7 +120,7 @@
   <!-- /wp:group -->
 
   <!-- wp:group -->
-  <div class="wp-block-group img-clip-path-wrapper w-[58%] h-full rounded-tl-[20px] overflow-hidden absolute right-0 desktop:top-0 top-[-40px] z-[0]">
+  <div class="wp-block-group img-clip-path-wrapper w-[100%] desktop:w-[58%] h-[380px] desktop:h-full rounded-tl-[20px] overflow-hidden absolute right-0 desktop:top-0 top-[-40px] z-[0]">
     <!-- wp:image -->
     <figure class="wp-block-image clip-path-url-['#clipped-cta'] h-full before:content-[''] before:w-full before:h-full before:bg-white before:z-[1] before:opacity-[60%] before:absolute before:top-0 before:left-0">
       <img src="<?php echo home_url() . '/wp-content/themes/mutiny/assets/img/cta-bright-bg2.jpg'; ?>" alt="cta-backgroun-image">

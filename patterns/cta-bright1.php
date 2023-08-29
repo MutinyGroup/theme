@@ -83,7 +83,7 @@
     <!-- /wp:group -->
 
     <!-- wp:group -->
-    <div class="wp-block-group btn-more group desktop:w-[175px] w-[140px] desktop:h-[175px] h-[140px] mx-auto text-center rounded-full  relative   desktop:ml-[120px] group-hover:bg-primaryYellow group-hover:text-white transition ease-out duration-300 flex flex-col justify-center items-center gap-y-0 cursor-pointer z-[1] overflow-hidden">
+    <div class="wp-block-group btn-more group desktop:w-[175px] w-[140px] desktop:h-[175px] h-[140px] mx-auto text-center rounded-full relative desktop:ml-[120px] group-hover:bg-primaryYellow group-hover:text-white transition ease-out duration-300 flex flex-col justify-center items-center gap-y-0 cursor-pointer z-[1] overflow-hidden">
       <!-- wp:group -->
       <div class="wp-block-group yellow-bg w-full h-full rounded-full bg-primaryYellow scale-100 group-hover:scale-[85%] absolute transition ease-in-out duration-[550ms] z-0">
         <!-- wp:paragraph -->
@@ -108,7 +108,7 @@
   <!-- /wp:group -->
 
   <!-- wp:group -->
-  <div class="wp-block-group img-clip-path-wrapper w-[58%] h-full rounded-tl-[20px] overflow-hidden absolute right-0 desktop:top-0 top-[-40px] z-[0]">
+  <div class="wp-block-group img-clip-path-wrapper w-[100%] desktop:w-[58%] h-[380px] desktop:h-full rounded-tl-[20px] overflow-hidden absolute right-0 desktop:top-0 top-[-40px] z-[0]">
     <!-- wp:image -->
     <figure class="wp-block-image clip-path-url-['#clipped-cta'] h-full before:content-[''] before:w-full before:h-full before:bg-white before:z-[1] before:opacity-[60%] before:absolute before:top-0 before:left-0">
       <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/cta-bright-bg1.jpg" alt="cta-backgroun-image">
