@@ -62,54 +62,10 @@
     </a>
     <!-- /wp:paragraph -->
 
-
-    <!-- wp:group -->
-    <div class="wp-block-group above-img-banner mb-[50px] desktop:flex gap-[50px]">
-      <!-- wp:group -->
-      <div class="wp-block-group post-title desktop:w-[70%] text-[50px] leading-[55px] font-normal">
-        <!-- wp:post-title /-->
-      </div>
-      <!-- /wp:group -->
-
-      <!-- wp:group -->
-      <div class="wp-block-group post-author-wrapper desktop:w-[30%]">
-        <!-- wp:group -->
-        <div class="wp-block-group post-date mb-[10px] flex items-center before:content-[''] before:inline-block desktop:before:mr-[10px] before:mb-[5px] desktop:before:w-[20px] desktop:before:h-[2px] before:bg-primaryYellow">
-          <!-- wp:post-date {"format":"d / m / Y"} /-->
-        </div>
-        <!-- /wp:group -->
-        <!-- wp:group -->
-        <div class="wp-block-group author-wrapper flex items-center gap-[10px]">
-          <!-- wp:group -->
-          <div class="wp-block-group wp-block-post-author__avatar img author-avatar h-[60px]">
-            <!-- wp:post-author-avatar /-->
-
-            <!-- wp:avatar {"userId":5, "size":60,"isLink":true,"style":{"spacing":{"margin":{"bottom":"40px"}},"border":{"radius":"10px","width":"3px"},"color":{"duotone":["#000000","#ffe2c7"]}},"borderColor":"vivid-red"} /-->
-          </div>
-          <!-- /wp:group -->
-
-          <!-- wp:group -->
-          <div class="wp-block-group author-name-wrapper leading-[20px]">
-            <!-- wp:group -->
-            <div class="wp-block-group author-name font-semibold">
-              <!-- wp:post-author-name /-->
-            </div>
-            <!-- /wp:group -->
-            <!-- wp:group -->
-            <div class="wp-block-group author-bio text-[13px] font-light">
-              <!-- wp:post-author-biography /-->
-            </div>
-            <!-- /wp:group -->
-          </div>
-          <!-- /wp:group -->
-        </div>
-        <!-- /wp:group -->
-      </div>
-      <!-- /wp:group -->
-
+    <div class="wp-block-group post-title desktop:w-[70%] text-[50px] leading-[55px] font-normal">
+      <!-- wp:post-title /-->
     </div>
     <!-- /wp:group -->
-
 
     <!-- wp:group -->
     <div class="wp-block-group post-content desktop:w-[100%]">
@@ -143,4 +99,3 @@
   </div>
   <!-- /wp:group -->
 </div>
-<!-- /wp:group -->
