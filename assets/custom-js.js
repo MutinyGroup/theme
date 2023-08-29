@@ -96,7 +96,7 @@ window.addEventListener("load", function () {
             siteHeaderMobile.classList.remove('animateOut');
             siteHeaderMobile.classList.add('animateIn');
           };
-          refOffset = newOffsetMobile;
+          refOffsetMobile = newOffsetMobile;
       };
     };
 
