@@ -9,7 +9,7 @@
 ?>
 
 <!-- wp:group {"templateLock":"contentOnly","anchor":true} -->
-<div id="Banner" class="wp-block-group services-banner desktop:mb-[150px] pt-[80px] desktop:pt-0">
+<div id="Banner" class="wp-block-group services-banner desktop:mb-[150px]">
   <!-- wp:group -->
   <div class="wp-block-group container relative mx-auto desktop:px-0 px-[20px]">
     <!-- wp:group -->
