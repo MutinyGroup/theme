@@ -46,7 +46,7 @@
             $counter++;
             if ($tab[$i] == 0) { ?>
               <!-- wp:list-item -->
-              <li class="bigger relative group w-full desktop:w-[535px] wide:w-[580px] h-fit desktop:h-[545px] wide:h-[650px] transition duration-[800ms] ease-in <?php echo (!($counter % 2)) ? 'pt-[120px]' : ''; ?>">
+              <li class="bigger relative group w-full desktop:w-[535px] wide:w-[580px] h-fit desktop:h-[545px] wide:h-[650px] <?php echo (!($counter % 2)) ? 'pt-[120px]' : ''; ?>">
                 <a href="<?php the_permalink(); ?>" data-aos="fade-right" data-aos-duration="600" data-aos-offset="130">
                   test
                 </a>
@@ -57,7 +57,7 @@
             } else {
             ?>
               <!-- wp:list-item -->
-              <li class="smaller swiper-slide slideBlog  relative group w-full desktop:w-[444px] wide:w-[490px] h-fit desktop:h-[500px] transition duration-[800ms] ease-in <?php echo (!($counter % 2)) ? 'pt-[120px]' : ''; ?>">
+              <li class="smaller swiper-slide slideBlog  relative group w-full desktop:w-[444px] wide:w-[490px] h-fit desktop:h-[500px]  <?php echo (!($counter % 2)) ? 'pt-[120px]' : ''; ?>">
                 <a href="<?php the_permalink(); ?>" data-aos="fade-right" data-aos-duration="600" data-aos-offset="130">
                   test2
                 </a>
@@ -66,9 +66,6 @@
           <?php
               $i++;
               array_push($tab, rand(0, 1));
-              // echo '<pre>';
-              // print_r($tab);
-              // echo '</pre>';
             };
           };
           wp_reset_query();
