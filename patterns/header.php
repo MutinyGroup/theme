@@ -83,7 +83,7 @@
     </p>
     <!-- /wp:paragraph -->
     <!-- wp:group -->
-    <div class="wp-block-group btn-open-menu ml-[10px] font-medium cursor-pointer">
+    <div class="wp-block-group btn-open-menu ml-[10px] mr-[20px] font-medium cursor-pointer">
       <!-- wp:group -->
       <div class="wp-block-group hamburger-btn-line w-[30px] h-[2px] bg-white mb-[8px] rounded-[5px] transition ease-out duration-[400ms]">
         <!-- wp:paragraph -->
