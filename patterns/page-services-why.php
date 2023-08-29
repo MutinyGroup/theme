@@ -125,7 +125,7 @@
           <!-- wp:group -->
           <div class="wp-block-group w-[100%] desktop:w-[60%] relative">
             <!-- wp:paragraph -->
-            <p class="absolute top-[0px] left-[0px]">
+            <p class="absolute top-[-180px] left-[-0px] desktop:left-[-420px]">
               <svg xmlns="http://www.w3.org/2000/svg" width="236" height="317" viewBox="0 0 236 317" fill="none" class="z-[0] absolute top-[190px] left-[30px] opacity-[80%]">
                 <path d="M234.242 314.924L1.62109 236.649V1.91746L234.242 80.1919V314.924Z" stroke="white" stroke-width="2" />
               </svg>
@@ -173,15 +173,7 @@
           <!-- wp:group -->
           <div class="wp-block-group pagination-counter w-[40%] pt-[10px]">
             <!-- wp:paragraph -->
-            <p data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="text-[50px] text-primaryYellow">02 / <span class="text-[20px] text-black font-medium">03</span></p>
-            <!-- /wp:paragraph -->
-
-            <!-- wp:paragraph -->
-            <p>
-              <svg xmlns="http://www.w3.org/2000/svg" width="236" height="317" viewBox="0 0 236 317" fill="none" class="z-[0] absolute top-[190px] left-[30px] opacity-[80%]">
-                <path d="M234.242 314.924L1.62109 236.649V1.91746L234.242 80.1919V314.924Z" stroke="white" stroke-width="2" />
-              </svg>
-            </p>
+            <p data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="text-[50px] text-primaryYellow">01 / <span class="text-[20px] text-black font-medium">03</span></p>
             <!-- /wp:paragraph -->
           </div>
           <!-- /wp:group -->
@@ -229,7 +221,14 @@
           <!-- /wp:group -->
 
           <!-- wp:group -->
-          <div class="wp-block-group w-[100%] desktop:w-[60%]">
+          <div class="wp-block-group w-[100%] desktop:w-[60%] relative">
+            <!-- wp:paragraph -->
+            <p class="absolute top-[-180px] left-[-0px] desktop:left-[-420px]">
+              <svg xmlns="http://www.w3.org/2000/svg" width="236" height="317" viewBox="0 0 236 317" fill="none" class="z-[0] absolute top-[190px] left-[30px] opacity-[80%]">
+                <path d="M234.242 314.924L1.62109 236.649V1.91746L234.242 80.1919V314.924Z" stroke="white" stroke-width="2" />
+              </svg>
+            </p>
+            <!-- /wp:paragraph -->
             <!-- wp:paragraph -->
             <p data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="my-[50px] text-[35px] leading-[42px] font-semibold uppercase relative">Mamy nieszablonowe <br />podejście</p>
             <!-- /wp:paragraph -->
@@ -272,15 +271,7 @@
           <!-- wp:group -->
           <div class="wp-block-group pagination-counter w-[40%] pt-[10px]">
             <!-- wp:paragraph -->
-            <p data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="text-[50px] text-primaryYellow">03 / <span class="text-[20px] text-black font-medium">03</span></p>
-            <!-- /wp:paragraph -->
-
-            <!-- wp:paragraph -->
-            <p>
-              <svg xmlns="http://www.w3.org/2000/svg" width="236" height="317" viewBox="0 0 236 317" fill="none" class="z-[0] absolute top-[190px] left-[30px] opacity-[80%]">
-                <path d="M234.242 314.924L1.62109 236.649V1.91746L234.242 80.1919V314.924Z" stroke="white" stroke-width="2" />
-              </svg>
-            </p>
+            <p data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="text-[50px] text-primaryYellow">01 / <span class="text-[20px] text-black font-medium">03</span></p>
             <!-- /wp:paragraph -->
           </div>
           <!-- /wp:group -->
@@ -328,7 +319,14 @@
           <!-- /wp:group -->
 
           <!-- wp:group -->
-          <div class="wp-block-group w-[100%] desktop:w-[60%]">
+          <div class="wp-block-group w-[100%] desktop:w-[60%] relative">
+            <!-- wp:paragraph -->
+            <p class="absolute top-[-180px] left-[-0px] desktop:left-[-420px]">
+              <svg xmlns="http://www.w3.org/2000/svg" width="236" height="317" viewBox="0 0 236 317" fill="none" class="z-[0] absolute top-[190px] left-[30px] opacity-[80%]">
+                <path d="M234.242 314.924L1.62109 236.649V1.91746L234.242 80.1919V314.924Z" stroke="white" stroke-width="2" />
+              </svg>
+            </p>
+            <!-- /wp:paragraph -->
             <!-- wp:paragraph -->
             <p data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="my-[50px] text-[35px] leading-[42px] font-semibold uppercase relative">Mamy nieszablonowe <br />podejście</p>
             <!-- /wp:paragraph -->
@@ -363,6 +361,7 @@
         <!-- /wp:group -->
       </li>
       <!-- /wp:list-item -->
+
     </ul>
     <!-- /wp:list -->
   </div>
