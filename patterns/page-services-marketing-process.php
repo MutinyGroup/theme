@@ -60,13 +60,13 @@
 
     <!-- wp:group -->
     <div class="wp-block-group text-cols-wrapper desktop:flex desktop:gap-[0px] gap-[20px] basis desktop:mb-[100px] mb-[50px]">
-      <!-- wp:list -->
-      <ul class="wp-block-list col1 desktop:pl-[60px] basis-[30%] mb-[40px]">
-        <!-- wp:list-item -->
-        <li data-aos="fade-right" class="max-w-[173px] text-[16px] leading-[21px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</li>
-        <!-- /wp:list-item -->
-      </ul>
-      <!-- /wp:list -->
+      <!-- wp:group -->
+      <div class="wp-block-group col1 desktop:pl-[60px] basis-[30%] mb-[40px]">
+        <!-- wp:paragraph -->
+        <p class="max-w-[173px] text-[16px] leading-[21px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+        <!-- /wp:paragraph -->
+      </div>
+      <!-- /wp:group -->
       <!-- wp:group -->
       <div class=" wp-block-group col2 basis-[60%]">
         <!-- wp:paragraph -->
@@ -118,13 +118,13 @@
           <!-- wp:group -->
           <div class="wp-block-group col2 desktop:w-[50%] z-[1]">
             <!-- wp:paragraph -->
-            <p data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="text-[35px] font-semibold mb-[50px]">Jak wygląda proces realizacji</p>
+            <p class="text-[35px] font-semibold mb-[50px]">Jak wygląda proces realizacji</p>
             <!-- /wp:paragraph -->
             <!-- wp:paragraph -->
-            <p data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="text-[16px] mt-[50px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <p class="text-[16px] mt-[50px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
             <!-- /wp:paragraph -->
             <!-- wp:paragraph -->
-            <p data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="text-[16px] mt-[50px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
+            <p class="text-[16px] mt-[50px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
             <!-- /wp:paragraph -->
 
             <!-- wp:list -->
