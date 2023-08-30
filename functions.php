@@ -414,3 +414,18 @@ if (class_exists('MultiPostThumbnails')) {
 		)
 	);
 }
+
+function MultiPostThumbnails()
+{
+	if (class_exists('MultiPostThumbnails')) {
+		new MultiPostThumbnails(
+			array(
+				// Replace [YOUR THEME TEXT DOMAIN] below with the text domain of your theme (found in the theme's `style.css`).
+				'label' => __('Secondary Image', 'Mutiny'),
+				'id' => 'secondary-image',
+				'post_type' => 'post'
+			)
+		);
+	}
+}
+add_action('wp_loaded', 'MultiPostThumbnails');
