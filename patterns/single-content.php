@@ -90,6 +90,9 @@
     <?php
     global $post;
 
+    print_r($post);
+    echo get_the_ID();
+
     $test = get_field('test', 493);;
     $test2 = the_field('test', 493);;
     echo $test;
