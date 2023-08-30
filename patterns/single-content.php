@@ -94,6 +94,9 @@
         $post_query->the_post();
         $postImageUrl = wp_get_attachment_image_src(get_post_thumbnail_id(), 'portrait');
         $postID = get_the_ID();
+        print_r(get_current_site());
+        print_r(get_current_blog_id());
+
 
         echo 'from loop ' . $postID;
     ?>
