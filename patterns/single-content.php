@@ -87,33 +87,19 @@
     <!-- /wp:group -->
 
 
-    <?php print_r(get_sub_field('featured_image2')); ?>
-    <?php
-    global $post;
 
-    print_r($post);
-    echo get_the_ID();
-
-    $test = get_field('test', 493);;
-    $test2 = the_field('test', 493);;
-    echo $test;
-    echo $test2;
-    echo $post->ID;
-    ?>
 
 
     <!-- wp:group -->
     <div class="wp-block-group featured-image-acf mb-[100px] w-[1300px] h-[400px]">
       <!-- wp:image -->
-      <figure class="wp-block-image">
+      <figure class="wp-block-image test1">
         <img src="<?php echo get_field('featured_image2', 493); ?>" />
       </figure>
       <!-- /wp:image -->
-      <?php print_r(get_field('featured_image2', 493)); ?>
-      <?php echo (get_field('featured_image2', 493)); ?>
 
       <!-- wp:image -->
-      <figure class="wp-block-image">
+      <figure class="wp-block-image test2">
         <img src="<?php echo get_field('featured_image2', 493); ?>" alt="featured-image2">
       </figure>
       <!-- /wp:image -->
