@@ -284,9 +284,9 @@ figure[class*="logo-img"] img {
   transition: all 0.3s ease-out;
 }
 .headerDark .wp-block-navigation__container li:last-child:hover {
-  background-color: #101010!important;
-  color: white!important;
-  border-color: white!important;
+  background-color: white;
+  color: black;
+  border-color: black;
 }
 .headerBright .wp-block-navigation__container li:last-child {
   border-color: #AAA!important;
