@@ -82,7 +82,7 @@
 
     <?php
     $args = array(
-      'posts_per_page' => 100,
+      // 'posts_per_page' => 100,
       'post_type' => 'post',
       // 'posts_per_page' => 1,
     );
