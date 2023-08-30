@@ -81,7 +81,7 @@
           <!-- wp:group -->
           <div class="wp-block-group img-title w-[60%]">
             <!-- wp:group -->
-            <div class="wp-block-group h-[100px] desktop:h-[250px] w-[230px] desktop:w-[800px]">
+            <div class="wp-block-group h-[100px] desktop:h-[250px] w-[230px] desktop:w-[800px] wide:w-[1100px]">
               <!-- wp:group -->
               <div class="wp-block-group img-clip-path-wrapper mb-[50px] w-full h-full rounded-[20px] overflow-hidden">
                 <!-- wp:paragraph -->
@@ -179,7 +179,7 @@
           <!-- wp:group -->
           <div class="wp-block-group img-title w-[60%]">
             <!-- wp:group -->
-            <div class="wp-block-group h-[100px] desktop:h-[250px] w-[230px] desktop:w-[800px]">
+            <div class="wp-block-group h-[100px] desktop:h-[250px] w-[230px] desktop:w-[800px] wide:w-[1100px]">
               <!-- wp:group -->
               <div class="wp-block-group img-clip-path-wrapper mb-[50px] w-full h-full rounded-[20px] overflow-hidden">
                 <!-- wp:paragraph -->
@@ -277,7 +277,7 @@
           <!-- wp:group -->
           <div class="wp-block-group img-title w-[60%]">
             <!-- wp:group -->
-            <div class="wp-block-group h-[100px] desktop:h-[250px] w-[230px] desktop:w-[800px]">
+            <div class="wp-block-group h-[100px] desktop:h-[250px] w-[230px] desktop:w-[800px] wide:w-[1100px]">
               <!-- wp:group -->
               <div class="wp-block-group img-clip-path-wrapper mb-[50px] w-full h-full rounded-[20px] overflow-hidden">
                 <!-- wp:paragraph -->
