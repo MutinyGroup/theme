@@ -81,41 +81,15 @@
     <!-- /wp:group -->
 
     <!-- wp:group -->
-    <div class="wp-block-group featured-image mb-[100px] w-[1300px] hidden">
-      <!-- wp:post-featured-image /-->
-    </div>
-    <!-- /wp:group -->
-
-
-
-
-
-    <!-- wp:group -->
     <div class="wp-block-group featured-image-acf mb-[100px] w-[1300px] h-[400px]">
       <!-- wp:image -->
       <figure class="wp-block-image test1">
         <img src="<?php echo get_field('featured_image2', 493); ?>" />
       </figure>
       <!-- /wp:image -->
-
-      <!-- wp:image -->
-      <figure class="wp-block-image test2">
-        <img src="<?php echo get_field('featured_image2', 493); ?>" alt="featured-image2">
-      </figure>
-      <!-- /wp:image -->
-
     </div>
     <!-- /wp:group -->
 
-    <!-- wp:group -->
-    <div class="wp-block-group post-image-test mb-[100px] w-[1300px]">
-      <!-- wp:image -->
-      <figure class="wp-block-image">
-        <img src="<?php echo home_url() . '/wp-content/themes/mutiny/assets/img/page-blog/single-post-img.jpg'; ?>" alt="single-post-image">
-      </figure>
-      <!-- /wp:image -->
-    </div>
-    <!-- /wp:group -->
 
     <!-- wp:group -->
     <div class="wp-block-group layout-two-cols mb-[50px] desktop:flex gap-[50px]">
