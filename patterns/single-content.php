@@ -94,6 +94,7 @@
     $test2 = the_field('test', $post->ID);;
     echo $test;
     echo $test2;
+    echo $post->ID;
     ?>
 
     <!-- wp:group -->
