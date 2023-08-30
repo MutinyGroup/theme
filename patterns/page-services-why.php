@@ -67,7 +67,7 @@
     <!-- wp:list -->
     <ul class="wp-block-list why-list-wrapper z-[1]">
       <!-- wp:list-item -->
-      <li>
+      <li class="mb-[90px]">
         <!-- wp:group -->
         <div class="wp-block-group tile-img-title bg-brightWhite flex sticky top-0 z-[2]">
           <!-- wp:group -->
@@ -165,7 +165,7 @@
       <!-- /wp:list-item -->
 
       <!-- wp:list-item -->
-      <li>
+      <li class="mb-[90px]">
         <!-- wp:group -->
         <div class="wp-block-group tile-img-title bg-brightWhite flex sticky top-0 z-[2]">
           <!-- wp:group -->
@@ -263,7 +263,7 @@
       <!-- /wp:list-item -->
 
       <!-- wp:list-item -->
-      <li>
+      <li class="mb-[90px]">
         <!-- wp:group -->
         <div class="wp-block-group tile-img-title bg-brightWhite flex sticky top-0 z-[2]">
           <!-- wp:group -->
