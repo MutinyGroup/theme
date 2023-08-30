@@ -260,7 +260,7 @@
               <p>
                 <svg width="0" height="0">
                   <defs>
-                    <clipPath id="clipped-swiper-serv-1" class="scale-[0.48] desktop:scale-[1.13] wide:scale-[1.3]">
+                    <clipPath id="clipped-team" class="scale-[0.48] desktop:scale-[1.13] wide:scale-[1.3]">
                       <path d="M0 88.2843C0 82.9799 2.10714 77.8929 5.85786 74.1421L74.1421 5.85786C77.8929 2.10713 82.9799 0 88.2843 0H334C345.046 0 354 8.95431 354 20V430C354 441.046 345.046 450 334 450H0V88.2843Z" />
                     </clipPath>
                   </defs>
