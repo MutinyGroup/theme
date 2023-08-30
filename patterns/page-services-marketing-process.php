@@ -13,7 +13,7 @@
   <!-- wp:group -->
   <div class="wp-block-group container mx-auto relative desktop:px-0 px-[20px]">
     <!-- wp:group -->
-    <div class="wp-block-group title-wrapper relative desktop:mb-[58px] mb-[40px] pt-[90px]">
+    <div class="wp-block-group title-wrapper relative desktop:mb-[58px] mb-[40px]">
       <!-- wp:group -->
       <div class="wp-block-group title-wrapper relative desktop:flex">
         <!-- wp:paragraph -->
