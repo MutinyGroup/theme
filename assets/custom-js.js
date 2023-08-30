@@ -3,6 +3,7 @@ window.addEventListener("load", function () {
 const mainTitle = document.querySelector('.mainTitle');
 const titleImg1 = document.querySelector('.title-img1');
 const titleImg2 = document.querySelector('.title-img2');
+const titleImg3 = document.querySelector('.title-img3');
 
 
 
@@ -12,7 +13,11 @@ function titleImgChange(){
     titleImg1.classList.replace('opacity-1', 'opacity-0');
     titleImg2.classList.replace('opacity-0', 'opacity-1');
     console.log('change');
-  };
+  }else if(currentScrollY > 4518 && currentScrollY < 4670){
+    titleImg2.classList.replace('opacity-1', 'opacity-0');
+    titleImg3.classList.replace('opacity-0', 'opacity-1');
+    console.log('change2');
+  }
 };
 
 
