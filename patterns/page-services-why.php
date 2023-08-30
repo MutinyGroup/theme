@@ -71,9 +71,9 @@
         <!-- wp:group -->
         <div class="wp-block-group tile-img-title bg-brightWhite flex ">
           <!-- wp:group -->
-          <div class="wp-block-group pagination-counter w-[40%] pt-[10px]">
+          <div class="wp-block-group pagination-counter w-[40%] flex items-center justify-center">
             <!-- wp:paragraph -->
-            <p data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="whyPagination text-[50px] text-primaryYellow flex items-center">
+            <p data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="whyPagination text-[50px] text-primaryYellow flex items-center justify-center gap-[20px]">
               <span class="block h-[40px] overflow-hidden">
                 <span class="paginationScroll h-full block leading-[42px] transition ease-in-out duration-[400ms]">
                   <span class="block">01</span>
@@ -81,7 +81,7 @@
                   <span class="block">03</span>
                 </span>
               </span>
-              <span class="text-[20px] text-black font-medium"><span class="text-[50px] text-primaryYellow">/</span> 03</span>
+              <span class="text-[20px] text-black font-medium"><span class="mr-[20px] text-[50px] text-primaryYellow">/</span> 03</span>
             </p>
             <!-- /wp:paragraph -->
           </div>
