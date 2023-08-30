@@ -37,7 +37,7 @@ window.addEventListener("load", function () {
     siteContent.style.paddingTop = siteHeaderHeight + 'px';
     function updateHeaderPadding() {
       siteHeaderHeight = siteHeader.offsetHeight;
-      siteContent.style.transition = 'padding-top 0.3s ease-in-out';
+      siteContent.style.transition = '0.3s ease-in-out';
       // siteContent.style.paddingTop = siteHeaderHeight + 'px';
     };
 
