@@ -84,12 +84,6 @@
     <p>
       <?php
       echo get_the_ID();
-      echo the_ID();
-      // global $post;
-      // echo $post;
-      echo get_page_uri();
-      echo get_permalink(get_the_ID());;
-
       ?>
     </p>
     <!-- /wp:paragraph -->
