@@ -104,6 +104,7 @@
         $counter++;
 
         the_title();
+        echo get_the_ID();
       };
     };
     ?>
