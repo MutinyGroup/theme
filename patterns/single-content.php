@@ -98,7 +98,7 @@
       </figure>
       <!-- /wp:image -->
       <!-- wp:image -->
-      <figure class="wp-block-image22">
+      <figure class="wp-block-image 22">
         <?php
         $image = get_field('featured_image2');
         if (!empty($image)) : ?>
