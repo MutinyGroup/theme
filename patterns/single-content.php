@@ -88,6 +88,26 @@
     </p>
     <!-- /wp:paragraph -->
 
+    <?php
+    $args = array(
+      'post_type' => 'post',
+      'posts_per_page' => 4,
+      'order' => 'DESC'
+    );
+    $post_query = new WP_Query($args);
+    $counter = 0;
+
+    if ($post_query->have_posts()) {
+      while ($post_query->have_posts()) {
+        $post_query->the_post();
+        $postImageUrl = wp_get_attachment_image_src(get_post_thumbnail_id(), 'portrait');
+        $counter++;
+
+        the_title();
+      };
+    };
+    ?>
+
     <!-- wp:group -->
     <div class="wp-block-group featured-image-acf mb-[100px] w-[1300px] h-[400px]">
       <!-- wp:image -->
