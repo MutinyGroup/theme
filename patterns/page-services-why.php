@@ -92,7 +92,7 @@
                   </figure>
                   <!-- /wp:image -->
 
-                  <svg x="0px" y="0px" viewBox="0 0 1374.7 1083.6" class="absolute top-0">
+                  <svg x="0px" y="0px" viewBox="0 0 1374.7 1083.6" class="height-[250px] absolute top-0">
                     <defs>
                       <clipPath id="clipped-why" class="scale-[0.0038] scale-x-[0.0013]" clipPathUnits="objectBoundingBox">
                         <path d="M806 0L20 0C8.95428 0 0 8.95431 0 20V201.583C0 212.629 8.95428 221.583 20 221.583H158.191C166.144 221.583 173.771 224.741 179.397 230.363L190.262 241.22C195.887 246.842 203.515 250 211.468 250H806L806 0Z" />
