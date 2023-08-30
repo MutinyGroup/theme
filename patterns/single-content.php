@@ -88,6 +88,7 @@
     <!-- wp:group -->
     <div class="wp-block-group second-featured-image mb-[100px] w-[1300px]">
       <?php
+      echo  get_post_type();
       if (class_exists('MultiPostThumbnails')) {
         MultiPostThumbnails::the_post_thumbnail(
           get_post_type(),
