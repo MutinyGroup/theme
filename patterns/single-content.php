@@ -86,6 +86,8 @@
     </div>
     <!-- /wp:group -->
 
+    <?php print_r(the_field('image')); ?>
+
     <!-- wp:group -->
     <div class="wp-block-group featured-image-acf mb-[100px] w-[1300px] h-[400px]">
       <?php if (get_field('featured_image2')) : ?>
@@ -97,6 +99,7 @@
       <?php endif; ?>
       <?php print_r(get_field('featured_image2')); ?>
       <?php echo (get_field('featured_image2')); ?>
+
       <!-- wp:image -->
       <figure class="wp-block-image">
         <img src="<?php echo get_field('featured_image2'); ?>" alt="featured-image2">
