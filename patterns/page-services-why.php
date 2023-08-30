@@ -73,7 +73,7 @@
           <!-- wp:group -->
           <div class="wp-block-group pagination-counter w-[40%] pt-[10px]">
             <!-- wp:paragraph -->
-            <p data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="whyPagination text-[50px] text-primaryYellow">
+            <p data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="whyPagination text-[50px] text-primaryYellow flex items-center">
               <span class="block h-[55px] overflow-hidden">
                 <span class="paginationScroll h-full block leading-[42px] transition ease-in-out duration-[400ms]">
                   <span class="block">01</span>
@@ -81,7 +81,7 @@
                   <span class="block">03</span>
                 </span>
               </span>
-              <span class="text-[20px] text-black font-medium">/ 03</span>
+              <span class="text-[20px] text-black font-medium"><span class="text-[50px] text-primaryYellow">/ 03</span></span>
             </p>
             <!-- /wp:paragraph -->
           </div>
