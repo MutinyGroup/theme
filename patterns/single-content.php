@@ -99,6 +99,7 @@
         echo 'array push: ';
         array_push($postID2, get_the_ID());
         // echo $post_query->current_post;
+        print_r(bloginfo())
 
 
 
