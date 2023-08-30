@@ -96,6 +96,7 @@
     );
     $post_query = new WP_Query($args);
     $counter = 0;
+    $postID;
 
     if ($post_query->have_posts()) {
       while ($post_query->have_posts()) {
@@ -104,9 +105,11 @@
         $counter++;
 
         the_title();
-        echo get_the_ID();
+        $postID = get_the_ID();
       };
     };
+
+    echo $postID;
     ?>
 
     <!-- wp:group -->
