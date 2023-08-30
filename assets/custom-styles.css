@@ -301,7 +301,7 @@ figure[class*="logo-img"] img {
   background-color: white;
   border-color: white;
 }
-.home .wp-block-navigation__container li:last-child:hover {
+.home .page .wp-block-navigation__container li:last-child:hover {
   background-color: #101010!important;
   color: white!important;
   border-color: white!important;
