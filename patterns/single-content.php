@@ -94,6 +94,8 @@
         $post_query->the_post();
         $postImageUrl = wp_get_attachment_image_src(get_post_thumbnail_id(), 'portrait');
         $postID = get_the_ID();
+
+        echo 'from loop ' . $postID;
     ?>
         <!-- wp:image -->
         <figure class="wp-block-image test1">
@@ -101,8 +103,6 @@
         </figure>
         <!-- /wp:image -->
     <?php
-
-        the_content();
       };
     };
     ?>
