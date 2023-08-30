@@ -1,6 +1,22 @@
 window.addEventListener("load", function () {
 // services sticky title
-const realizationsContainer = document.querySelector('#realizationsContainer');
+const mainTitle = document.querySelector('#mainTitle');
+const titleImg1 = document.querySelector('.title-img1');
+const titleImg2 = document.querySelector('.title-img2');
+let currentScrollY = window.scrollY
+
+
+function titleImgChange(){
+  if(currentScrollY > 4700){
+    titleImg1.style.opacity = 0 + 'px';
+    titleImg2.style.opacity = 1 + 'px';
+    console.log('change');
+  };
+};
+
+
+window.addEventListener('scroll', titleImgChange, false); 
+
 
 
 

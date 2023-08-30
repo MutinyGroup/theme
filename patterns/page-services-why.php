@@ -67,6 +67,56 @@
     <!-- wp:list -->
     <ul class="wp-block-list why-list-wrapper z-[1]">
       <!-- wp:list-item -->
+      <li id="mainTitle" class="mb-[90px]">
+        <!-- wp:group -->
+        <div class="wp-block-group tile-img-title bg-brightWhite flex sticky top-0 z-[2]">
+          <!-- wp:group -->
+          <div class="wp-block-group pagination-counter w-[40%] pt-[10px]">
+            <!-- wp:paragraph -->
+            <p data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="text-[50px] text-primaryYellow">00 / <span class="text-[20px] text-black font-medium">03</span></p>
+            <!-- /wp:paragraph -->
+          </div>
+          <!-- /wp:group -->
+
+          <!-- wp:group -->
+          <div class="wp-block-group img-title w-[60%]">
+            <!-- wp:group -->
+            <div class="wp-block-group h-[100px] desktop:h-[250px] w-[230px] desktop:w-[800px] wide:w-[1100px]">
+              <!-- wp:group -->
+              <div class="wp-block-group img-clip-path-wrapper mb-[50px] w-full h-full rounded-[20px] overflow-hidden">
+                <!-- wp:paragraph -->
+                <a href="#" data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="pointer-events-none">
+                  <!-- wp:image -->
+                  <figure class="wp-block-image title-img1 opacity-1 h-full clip-path-url-['#clipped-why'] group-hover:grayscale transition ease-in-out duration-[400ms]">
+                    <img src="<?php echo home_url() . '/wp-content/themes/mutiny/assets/img/page-services/why-img1.jpg'; ?>" alt="services-background-image" />
+                  </figure>
+                  <!-- /wp:image -->
+                  <!-- wp:image -->
+                  <figure class="wp-block-image title-img2 opacity-0 h-full clip-path-url-['#clipped-why'] group-hover:grayscale transition ease-in-out duration-[400ms]">
+                    <img src="<?php echo home_url() . '/wp-content/themes/mutiny/assets/img/page-services/why-img1.jpg'; ?>" alt="services-background-image" />
+                  </figure>
+                  <!-- /wp:image -->
+
+                  <svg x="0px" y="0px" viewBox="0 0 1374.7 1083.6" class="height-[250px] absolute top-0">
+                    <defs>
+                      <clipPath id="clipped-why" class="scale-[0.0038] scale-x-[0.0013]" clipPathUnits="objectBoundingBox">
+                        <path d="M806 0L20 0C8.95428 0 0 8.95431 0 20V201.583C0 212.629 8.95428 221.583 20 221.583H158.191C166.144 221.583 173.771 224.741 179.397 230.363L190.262 241.22C195.887 246.842 203.515 250 211.468 250H806L806 0Z" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                </a>
+                <!-- /wp:paragraph -->
+              </div>
+              <!-- /wp:group -->
+            </div>
+            <!-- /wp:group -->
+          </div>
+          <!-- /wp:group -->
+        </div>
+        <!-- /wp:group -->
+      </li>
+      <!-- /wp:list-item -->
+      <!-- wp:list-item -->
       <li class="mb-[90px]">
         <!-- wp:group -->
         <div class="wp-block-group tile-img-title bg-brightWhite flex sticky top-0 z-[2]">
