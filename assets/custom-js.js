@@ -1,6 +1,6 @@
 window.addEventListener("load", function () {
 // services sticky title
-const whyPagination = document.querySelector('.whyPagination');
+const paginationScroll = document.querySelector('.paginationScroll');
 const titleImg1 = document.querySelector('.title-img1');
 const titleImg2 = document.querySelector('.title-img2');
 const titleImg3 = document.querySelector('.title-img3');
@@ -12,20 +12,24 @@ function titleImgChange(){
   if(currentScrollY > 4530 && currentScrollY < 4630){
     titleImg1.classList.replace('opacity-1', 'opacity-0');
     titleImg2.classList.replace('opacity-0', 'opacity-1');
+    paginationScroll.classList.add('translate-y-[-60px]');
     console.log('change');
   }else if(currentScrollY > 5100 && currentScrollY < 5200){
     titleImg2.classList.replace('opacity-1', 'opacity-0');
     titleImg3.classList.replace('opacity-0', 'opacity-1');
+    paginationScroll.classList.add('translate-y-[-120px]');
     console.log('change2');
   }
   if(currentScrollY < 4530 && currentScrollY > 4000){
     titleImg1.classList.replace('opacity-0', 'opacity-1');
     titleImg2.classList.replace('opacity-1', 'opacity-0');
+    paginationScroll.classList.add('translate-y-[0px]');
     console.log('change3');
   };
   if(currentScrollY < 5100 && currentScrollY > 4530){
     titleImg2.classList.replace('opacity-0', 'opacity-1');
     titleImg3.classList.replace('opacity-1', 'opacity-0');
+    paginationScroll.classList.add('translate-y-[-60px]');
     console.log('change4');
   };
 };
