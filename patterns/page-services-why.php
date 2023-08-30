@@ -131,7 +131,7 @@
       </li>
       <!-- /wp:list-item -->
       <!-- wp:list-item -->
-      <li class="mb-[150px]">
+      <li class="mb-[100px] desktop:mb-[150px]">
         <!-- wp:group -->
         <div class="wp-block-group hidden tile-img-title bg-brightWhite fflex sticky top-0 z-[2]">
           <!-- wp:group -->
@@ -229,7 +229,7 @@
       <!-- /wp:list-item -->
 
       <!-- wp:list-item -->
-      <li class="mb-[150px]">
+      <li class="mb-[100px] desktop:mb-[150px]">
         <!-- wp:group -->
         <div class="wp-block-group hidden tile-img-title bg-brightWhite fflex sticky top-0 z-[2]">
           <!-- wp:group -->
@@ -327,7 +327,7 @@
       <!-- /wp:list-item -->
 
       <!-- wp:list-item -->
-      <li class="mb-[150px]">
+      <li class="mb-[100px] desktop:mb-[150px]">
         <!-- wp:group -->
         <div class="wp-block-group hidden tile-img-title bg-brightWhite fflex sticky top-0 z-[2]">
           <!-- wp:group -->

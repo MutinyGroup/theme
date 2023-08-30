@@ -32,21 +32,21 @@ function titleImgChange(){
     };
   }else{
     // mobile
-    if(currentScrollY > 4130 && currentScrollY < 4230){
+    if(currentScrollY > 4000 && currentScrollY < 4100){
       titleImg1.classList.replace('opacity-1', 'opacity-0');
       titleImg2.classList.replace('opacity-0', 'opacity-1');
       paginationScroll.classList.replace('translate-y-[0px]','translate-y-[-42px]');
-    }else if(currentScrollY > 4700 && currentScrollY < 4800){
+    }else if(currentScrollY > 4600 && currentScrollY < 4700){
       titleImg2.classList.replace('opacity-1', 'opacity-0');
       titleImg3.classList.replace('opacity-0', 'opacity-1');
       paginationScroll.classList.replace('translate-y-[-42px]', 'translate-y-[-84px]');
     }
-    if(currentScrollY < 4130 && currentScrollY > 3600){
+    if(currentScrollY < 4000 && currentScrollY > 3500){
       titleImg1.classList.replace('opacity-0', 'opacity-1');
       titleImg2.classList.replace('opacity-1', 'opacity-0');
       paginationScroll.classList.replace('translate-y-[-42px]', 'translate-y-[0px]');
     };
-    if(currentScrollY < 4700 && currentScrollY > 4130){
+    if(currentScrollY < 4600 && currentScrollY > 4000){
       titleImg2.classList.replace('opacity-0', 'opacity-1');
       titleImg3.classList.replace('opacity-1', 'opacity-0');
       paginationScroll.classList.replace('translate-y-[-84px]', 'translate-y-[-42px]');
