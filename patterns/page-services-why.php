@@ -67,7 +67,7 @@
     <!-- wp:list -->
     <ul class="wp-block-list why-list-wrapper z-[1]">
       <!-- wp:list-item -->
-      <li class=" mainTitle mb-[90px] pt-[30px] bg-brightWhite sticky top-0 z-[3]">
+      <li class="mainTitle mb-[90px] pt-[30px] bg-brightWhite sticky top-0 z-[3]">
         <!-- wp:group -->
         <div class="wp-block-group tile-img-title bg-brightWhite flex ">
           <!-- wp:group -->
@@ -81,7 +81,7 @@
                   <span class="block">03</span>
                 </span>
               </span>
-              <span class="text-[20px] text-black font-medium"><span class="mr-[20px] text-[50px] text-primaryYellow">/</span> 03</span>
+              <span class="text-[20px] text-black font-medium"><span class="mr-[16px] text-[50px] text-primaryYellow">/</span> 03</span>
             </p>
             <!-- /wp:paragraph -->
           </div>
@@ -131,7 +131,7 @@
       </li>
       <!-- /wp:list-item -->
       <!-- wp:list-item -->
-      <li class="mb-[90px]">
+      <li class="mb-[150px]">
         <!-- wp:group -->
         <div class="wp-block-group hidden tile-img-title bg-brightWhite fflex sticky top-0 z-[2]">
           <!-- wp:group -->
@@ -229,7 +229,7 @@
       <!-- /wp:list-item -->
 
       <!-- wp:list-item -->
-      <li class="mb-[90px]">
+      <li class="mb-[150px]">
         <!-- wp:group -->
         <div class="wp-block-group hidden tile-img-title bg-brightWhite fflex sticky top-0 z-[2]">
           <!-- wp:group -->
@@ -327,7 +327,7 @@
       <!-- /wp:list-item -->
 
       <!-- wp:list-item -->
-      <li class="mb-[90px]">
+      <li class="mb-[150px]">
         <!-- wp:group -->
         <div class="wp-block-group hidden tile-img-title bg-brightWhite fflex sticky top-0 z-[2]">
           <!-- wp:group -->
