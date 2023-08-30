@@ -71,9 +71,9 @@
         <!-- wp:group -->
         <div class="wp-block-group tile-img-title bg-brightWhite flex ">
           <!-- wp:group -->
-          <div class="wp-block-group pagination-counter w-[40%] flex items-center justify-center">
+          <div class="wp-block-group pagination-counter w-[40%] flex items-center desktop:justify-center">
             <!-- wp:paragraph -->
-            <p class="whyPagination text-[50px] text-primaryYellow flex items-center desktop:justify-center deskrtop:gap-[10px]">
+            <p class="whyPagination text-[50px] text-primaryYellow flex items-center justify-center deskrtop:gap-[10px]">
               <span class="block h-[40px] overflow-hidden">
                 <span class="paginationScroll translate-y-[0px] h-full block leading-[42px] transition ease-out duration-[400ms]">
                   <span class="block">01</span>
