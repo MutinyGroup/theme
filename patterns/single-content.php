@@ -88,8 +88,10 @@
 
     <?php print_r(get_sub_field('featured_image2')); ?>
     <?php
-    $test = get_field('test');
-    $test2 = the_field('test');
+    global $post;
+
+    $test = the_field('the-test', $post->ID);;
+    $test2 = the_field('the-test', $post->ID);;
     echo $test;
     echo $test2;
     ?>
