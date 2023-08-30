@@ -243,7 +243,7 @@
           <!-- wp:list -->
           <ul class="wp-block-group inner-col1 w-[49%]">
             <!-- wp:list-item -->
-            <li class="wp-block-group w-[300px] tile-wrapper relative mb-[12px] rounded-[20px] overflow-hidden">
+            <li class="wp-block-group wide:w-[100%] wide:h-[575px] tile-wrapper relative mb-[12px] rounded-[20px] overflow-hidden">
               <!-- wp:group -->
               <div class="wp-block-group overlay-author z-[1] h-full w-full bg-gradient-to-t from-black via-[rgba(0,0,0,0)] opacity-[40%] absolute top-0 left-0 clip-path-url-['#clipped-swiper-serv-1']">
                 <!-- wp:paragraph -->
@@ -260,7 +260,7 @@
               <p>
                 <svg width="0" height="0">
                   <defs>
-                    <clipPath id="clipped-swiper-serv-1" class="scale-[0.99]">
+                    <clipPath id="clipped-swiper-serv-1" class="scale-[0.48] desktop:scale-[1.13] wide:scale-[1.3]">
                       <path d="M0 88.2843C0 82.9799 2.10714 77.8929 5.85786 74.1421L74.1421 5.85786C77.8929 2.10713 82.9799 0 88.2843 0H334C345.046 0 354 8.95431 354 20V430C354 441.046 345.046 450 334 450H0V88.2843Z" />
                     </clipPath>
                   </defs>
