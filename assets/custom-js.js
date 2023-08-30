@@ -7,7 +7,7 @@ let currentScrollY = window.scrollY
 
 
 function titleImgChange(){
-  if(currentScrollY > 4700){
+  if(currentScrollY > 4000){
     titleImg1.style.opacity = 0 + 'px';
     titleImg2.style.opacity = 1 + 'px';
     console.log('change');
