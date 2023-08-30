@@ -106,7 +106,11 @@
         <?php
         $image = get_field('featured_image2');
         if (!empty($image)) : ?>
-          <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
+          <!-- wp:image -->
+          <figure class="wp-block-image">
+            <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
+          </figure>
+          <!-- /wp:image -->
         <?php endif; ?>
       </figure>
       <!-- /wp:image -->
