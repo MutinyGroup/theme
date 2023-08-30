@@ -95,7 +95,6 @@
         $post_query->the_post();
 
         $postID = get_the_ID();
-        print_r(get_current_blog_id());
         // $postID2 = array();
 
         array_push($postID2, get_the_ID());
