@@ -252,7 +252,7 @@
               </div>
               <!-- /wp:group -->
               <!-- wp:image  -->
-              <figure class="wp-block-image clip-path-url-['#clipped-team'] w-full h-full ">
+              <figure class="wp-block-image clip-path-url-['#clipped-team'] w-full h-full">
                 <img src="<?php echo home_url() . '/wp-content/themes/mutiny/assets/img/page-about/about-team1.jpg'; ?>" alt="team" />
               </figure>
               <!-- /wp:image -->
