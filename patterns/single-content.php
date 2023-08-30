@@ -102,19 +102,7 @@
         <img src="<?php echo get_field('featured_image2'); ?>" alt="featured-image2">
       </figure>
       <!-- /wp:image -->
-      <!-- wp:image -->
-      <figure class="wp-block-image">
-        <?php
-        $image = get_field('featured_image2');
-        if (!empty($image)) : ?>
-          <!-- wp:image -->
-          <figure class="wp-block-image">
-            <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
-          </figure>
-          <!-- /wp:image -->
-        <?php endif; ?>
-      </figure>
-      <!-- /wp:image -->
+
     </div>
     <!-- /wp:group -->
 
