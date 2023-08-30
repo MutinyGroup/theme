@@ -46,7 +46,7 @@
       <!-- wp:group -->
       <div class="wp-block-group h-fit overflow-hidden">
         <!-- wp:paragraph -->
-        <p data-aos="fade-up" data-aos-duration="600" data-aos-offset="130" class="section-title block desktop:basis-auto desktop:w-[175px] pt-[4px] uppercase text-primaryYellow pr-[20px]">Marketing robimy kompleksowo</p>
+        <p data-aos="fade-up" data-aos-duration="600" data-aos-offset="30" class="section-title block desktop:basis-auto desktop:w-[175px] pt-[4px] desktop:text-right uppercase text-primaryYellow pr-[20px]">Marketing robimy kompleksowo</p>
         <!-- /wp:paragraph -->
       </div>
       <!-- /wp:group -->
@@ -58,7 +58,7 @@
         <!-- wp:group -->
         <div class="wp-block-group overflow-hidden">
           <!-- wp:paragraph -->
-          <p data-aos="fade-up" data-aos-duration="600" data-aos-offset="130" class="company-title overflow-hidden">
+          <p data-aos="fade-up" data-aos-duration="600" data-aos-offset="30" class="company-title overflow-hidden">
             <span class="block uppercase">
               Wybierz usługę którą
             </span>
@@ -70,7 +70,7 @@
         <!-- wp:group -->
         <div class="wp-block-group overflow-hidden">
           <!-- wp:paragraph -->
-          <p data-aos="fade-up" data-aos-duration="600" data-aos-offset="85" class="uppercase test01 inline-block ">JESTEŚ<span class="relative ml-[12px] inline-block uppercase italic before:content-[''] before:inline-block desktop:before:mr-[18px] before:mr-[8px] before:bottom-0 before:left-0 desktop:before:w-[90px] before:w-[30px] desktop:before:h-[3px] before:h-[2px] before:bg-black">ZAINTERESOWANY</span></p>
+          <p data-aos="fade-up" data-aos-duration="600" data-aos-offset="30" class="uppercase test01 inline-block ">JESTEŚ<span class="relative ml-[12px] inline-block uppercase italic before:content-[''] before:inline-block desktop:before:mr-[18px] before:mr-[8px] before:bottom-0 before:left-0 desktop:before:w-[90px] before:w-[30px] desktop:before:h-[3px] before:h-[2px] before:bg-black">ZAINTERESOWANY</span></p>
           <!-- /wp:paragraph -->
         </div>
         <!-- /wp:group -->

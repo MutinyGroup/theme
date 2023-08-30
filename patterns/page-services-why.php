@@ -38,7 +38,7 @@
       <!-- wp:group -->
       <div class="wp-block-group h-fit overflow-hidden">
         <!-- wp:paragraph -->
-        <p data-aos="fade-up" data-aos-duration="600" data-aos-offset="130" class="section-title desktop:basis-auto desktop:w-[145px] basis-[20%] desktop:text-right uppercase text-primaryYellow pt-[4px] pr-[20px]">Nasze <br class="hidden desktop:block"> podejście</p>
+        <p data-aos="fade-up" data-aos-duration="600" data-aos-offset="30" class="section-title desktop:basis-auto desktop:w-[145px] basis-[20%] desktop:text-right uppercase text-primaryYellow pt-[4px] pr-[20px]">Nasze <br class="hidden desktop:block"> podejście</p>
         <!-- /wp:paragraph -->
       </div>
       <!-- /wp:group -->
@@ -48,14 +48,14 @@
         <!-- wp:group -->
         <div class="wp-block-group overflow-hidden">
           <!-- wp:paragraph -->
-          <p data-aos="fade-up" data-aos-duration="600" data-aos-offset="130" class="uppercase inline desktop:text-[50px] text-[24px] desktop:leading-[55px] leading-[30px]">Dlaczego warto z nami</p>
+          <p data-aos="fade-up" data-aos-duration="600" data-aos-offset="30" class="uppercase inline desktop:text-[50px] text-[24px] desktop:leading-[55px] leading-[30px]">Dlaczego warto z nami</p>
           <!-- /wp:paragraph -->
         </div>
         <!-- /wp:group -->
         <!-- wp:group -->
         <div class="wp-block-group overflow-hidden">
           <!-- wp:paragraph {"templateLock":"contentOnly"} -->
-          <p data-aos="fade-up" data-aos-duration="600" data-aos-offset="85" class="relative ml-[12px] desktop:text-[50px] text-[24px] desktop:leading-[55px] leading-[30px] inline uppercase italic before:content-[''] before:inline-block desktop:before:mr-[18px] before:mr-[8px] before:bottom-0 before:left-0 desktop:before:w-[90px] before:w-[30px] desktop:before:h-[3px] before:h-[2px] before:bg-black">współpracować</p>
+          <p data-aos="fade-up" data-aos-duration="600" data-aos-offset="30" class="relative ml-[12px] desktop:text-[50px] text-[24px] desktop:leading-[55px] leading-[30px] inline uppercase italic before:content-[''] before:inline-block desktop:before:mr-[18px] before:mr-[8px] before:bottom-0 before:left-0 desktop:before:w-[90px] before:w-[30px] desktop:before:h-[3px] before:h-[2px] before:bg-black">współpracować</p>
           <!-- /wp:paragraph -->
         </div>
         <!-- /wp:group -->
