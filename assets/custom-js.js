@@ -9,11 +9,11 @@ const titleImg3 = document.querySelector('.title-img3');
 
 function titleImgChange(){
   let currentScrollY = window.scrollY;
-  if(currentScrollY > 4000 && currentScrollY < 4150){
+  if(currentScrollY > 4530 && currentScrollY < 4630){
     titleImg1.classList.replace('opacity-1', 'opacity-0');
     titleImg2.classList.replace('opacity-0', 'opacity-1');
     console.log('change');
-  }else if(currentScrollY > 4518 && currentScrollY < 4670){
+  }else if(currentScrollY > 5100 && currentScrollY < 5200){
     titleImg2.classList.replace('opacity-1', 'opacity-0');
     titleImg3.classList.replace('opacity-0', 'opacity-1');
     console.log('change2');
