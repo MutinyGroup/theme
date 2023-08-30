@@ -86,7 +86,7 @@
     </div>
     <!-- /wp:group -->
 
-    <?php print_r(the_field('image')); ?>
+    <?php print_r(the_field('featured_image2')); ?>
 
     <!-- wp:group -->
     <div class="wp-block-group featured-image-acf mb-[100px] w-[1300px] h-[400px]">
