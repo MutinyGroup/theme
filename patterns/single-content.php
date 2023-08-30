@@ -90,7 +90,7 @@
       echo get_page_uri();
       echo get_queried_object_id();
       $current_post_id = $post->ID;
-      if ($query->have_posts()) : while ($query->have_posts()) : $query->the_post();
+      if (have_posts()) : while (have_posts()) : the_post();
 
           if ($current_post_id === $post->ID) {
             echo $post->ID;
