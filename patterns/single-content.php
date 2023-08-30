@@ -100,6 +100,7 @@
 
     <!-- wp:group -->
     <div class="wp-block-group featured-image-acf mb-[100px] w-[1300px] h-[400px]">
+      <?php echo $postID; ?>
       <!-- wp:image -->
       <figure class="wp-block-image test1">
         <img src="<?php echo get_field('featured_image2', $postID); ?>" />
