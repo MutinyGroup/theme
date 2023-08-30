@@ -90,8 +90,8 @@
     <?php
     global $post;
 
-    $test = the_field('the-test', $post->ID);;
-    $test2 = the_field('the-test', $post->ID);;
+    $test = the_field('test', $post->ID);;
+    $test2 = the_field('test', $post->ID);;
     echo $test;
     echo $test2;
     ?>
