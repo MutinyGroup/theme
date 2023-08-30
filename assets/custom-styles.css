@@ -278,8 +278,8 @@ figure[class*="logo-img"] img {
   border-radius: 9999px;
   cursor: pointer;
   transition: all 0.3s ease-out;
-  background-color: #101010!important;
-  color: white!important;
+  background-color: #101010;
+  color: white;
   border-color: white;
   transition: all 0.3s ease-out;
 }

@@ -22,21 +22,6 @@ window.addEventListener("load", function () {
       console.log(more);
     });
   }
-
-
-
-
-
-
-
-  // ANIMATIONS
-  const servicesTiles = document.querySelectorAll('.servicesTile');
-  const slidesBlog = document.querySelectorAll('.slideBlog');
-  const eventTiles = document.querySelectorAll('.event-tile');
-  // const header = document.querySelector('.Menu-desktop');
-
-
-
   
   // floating navbar
   const siteHeader = document.querySelector('#Menu-desktop');
@@ -45,9 +30,6 @@ window.addEventListener("load", function () {
   let siteHeaderHeight = siteHeader.offsetHeight;
   let siteHeaderHeightMobile = siteHeaderMobile.offsetHeight;
   let screenWidth = window.innerWidth;
- 
-
- 
 
   if(screenWidth > 500) {
     //  desktop
@@ -111,23 +93,15 @@ window.addEventListener("load", function () {
 
   }
 
-
-
-  
-//  end test
- 
-
-
-
-
-
-
-
+  // ANIMATIONS
+  const servicesTiles = document.querySelectorAll('.servicesTile');
+  const slidesBlog = document.querySelectorAll('.slideBlog');
+  const eventTiles = document.querySelectorAll('.event-tile');
+  // const header = document.querySelector('.Menu-desktop');
 
   function scrollPage() {
     let scrollPos = window.scrollY;
     let screenWidth = window.innerWidth;
-
 
     // if (servicesTiles.length > 0 && scrollPos > 1000)  {
     //   for(let i = 0 ; i < servicesTiles.length+1 ; i++){
