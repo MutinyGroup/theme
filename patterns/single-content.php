@@ -113,7 +113,7 @@
     };
     print_r($postID2);
     print_r($get_the_ID());
-
+    echo $test01;
     ?>
 
     <!-- wp:group -->
