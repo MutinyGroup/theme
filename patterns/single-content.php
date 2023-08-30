@@ -98,7 +98,7 @@
     ?>
 
     <?php while (have_posts()) : the_post() ?>
-      <?php $variable = the_field('test'); ?>
+      <?php $variable = the_field('test', 493); ?>
       <?php echo $variable; ?>
     <?php endwhile; ?>
 
@@ -106,15 +106,15 @@
     <div class="wp-block-group featured-image-acf mb-[100px] w-[1300px] h-[400px]">
       <!-- wp:image -->
       <figure class="wp-block-image">
-        <img src="<?php echo get_field('featured_image2'); ?>" />
+        <img src="<?php echo get_field('featured_image2', 493); ?>" />
       </figure>
       <!-- /wp:image -->
-      <?php print_r(get_field('featured_image2')); ?>
-      <?php echo (get_field('featured_image2')); ?>
+      <?php print_r(get_field('featured_image2', 493)); ?>
+      <?php echo (get_field('featured_image2', 493)); ?>
 
       <!-- wp:image -->
       <figure class="wp-block-image">
-        <img src="<?php echo get_field('featured_image2'); ?>" alt="featured-image2">
+        <img src="<?php echo get_field('featured_image2', 493); ?>" alt="featured-image2">
       </figure>
       <!-- /wp:image -->
 
