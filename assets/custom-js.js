@@ -17,7 +17,7 @@ function titleImgChange(){
   }else if(currentScrollY > 5100 && currentScrollY < 5200){
     titleImg2.classList.replace('opacity-1', 'opacity-0');
     titleImg3.classList.replace('opacity-0', 'opacity-1');
-    // paginationScroll.classList.add('translate-y-[-60px]');
+    paginationScroll.classList.replace('translate-y-[-30px]', 'translate-y-[-60px]');
     console.log('change2');
   }
   if(currentScrollY < 4530 && currentScrollY > 4000){
