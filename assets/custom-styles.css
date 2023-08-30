@@ -289,9 +289,9 @@ figure[class*="logo-img"] img {
 .error404 .wp-block-navigation__container li:last-child,
 .archive .wp-block-navigation__container li:last-child,
 .blog .wp-block-navigation__container li:last-child {
-  border-color: #AAA;
-  background-color: #F2F2F2;
-  color: black;
+  border-color: #AAA!important;
+  background-color: #F2F2F2!important;
+  color: black!important;
 }
 .page .wp-block-navigation__container li:last-child:hover,
 .single .wp-block-navigation__container li:last-child:hover,
