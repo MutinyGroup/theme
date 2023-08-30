@@ -118,13 +118,13 @@
           <!-- wp:group -->
           <div class="wp-block-group col2 desktop:w-[50%]">
             <!-- wp:paragraph -->
-            <p class="text-[35px] font-semibold mb-[50px]">Jak wygląda proces realizacji</p>
+            <p data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="text-[35px] font-semibold mb-[50px]">Jak wygląda proces realizacji</p>
             <!-- /wp:paragraph -->
             <!-- wp:paragraph -->
-            <p class="text-[16px] mt-[50px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <p data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="text-[16px] mt-[50px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
             <!-- /wp:paragraph -->
             <!-- wp:paragraph -->
-            <p class="text-[16px] mt-[50px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
+            <p data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="text-[16px] mt-[50px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
             <!-- /wp:paragraph -->
 
             <!-- wp:list -->
