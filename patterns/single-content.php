@@ -80,19 +80,10 @@
     </div>
     <!-- /wp:group -->
 
-    <!-- wp:paragraph -->
-    <p>
-      <?php
-      echo get_the_ID();
-      ?>
-    </p>
-    <!-- /wp:paragraph -->
-
     <?php
     $args = array(
       'post_type' => 'post',
-      'posts_per_page' => 4,
-      'order' => 'DESC'
+      'posts_per_page' => 1,
     );
     $post_query = new WP_Query($args);
     $counter = 0;
@@ -102,7 +93,6 @@
       while ($post_query->have_posts()) {
         $post_query->the_post();
         $postImageUrl = wp_get_attachment_image_src(get_post_thumbnail_id(), 'portrait');
-        $counter++;
 
         the_title();
         $postID = get_the_ID();
