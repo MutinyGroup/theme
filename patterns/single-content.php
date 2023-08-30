@@ -111,6 +111,7 @@
     ?>
 
     <?php while (have_posts()) : the_post() ?>
+      <?php echo 'from post2:' ?>
       <?php $variable = the_field('test', 493); ?>
       <?php echo $variable; ?>
     <?php endwhile; ?>
