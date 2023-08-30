@@ -82,8 +82,12 @@
 
     <!-- wp:paragraph -->
     <p>
-      <?php echo get_the_ID(); ?>
-      <?php echo the_ID(); ?>
+      <?php
+      echo get_the_ID();
+      echo the_ID();
+      global $post;
+      echo $post;
+      ?>
     </p>
     <!-- /wp:paragraph -->
 
