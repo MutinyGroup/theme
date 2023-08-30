@@ -74,11 +74,11 @@
           <div class="wp-block-group pagination-counter w-[40%] pt-[10px]">
             <!-- wp:paragraph -->
             <p data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="whyPagination text-[50px] text-primaryYellow">
-              <span class="h-[60px] overflow-hidden">
-                <span class="paginationScroll">
+              <span class="block h-[60px] overflow-hidden">
+                <span class="paginationScroll inline">
                   <span class="block">01</span>
-                  <span class="block">01</span>
-                  <span class="block">01</span>
+                  <span class="block">02</span>
+                  <span class="block">03</span>
                 </span>
               </span>
               <span class="text-[20px] text-black font-medium">/ 03</span>
