@@ -34,8 +34,9 @@ function titleImgChange(){
   };
 };
 
-
-window.addEventListener('scroll', titleImgChange, false); 
+if(document.body.classList.contains('page-id-101')){
+  window.addEventListener('scroll', titleImgChange, false); 
+}
 
 
 
