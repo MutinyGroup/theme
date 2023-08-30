@@ -98,15 +98,13 @@
         // $postID2 = array();
 
         array_push($postID2, get_the_ID());
-
-        print_r($post_query->current_post);
         echo $post_query->current_post;
 
 
 
     ?>
         <!-- wp:image -->
-        <figure class="wp-block-image test1">
+        <figure class="wp-block-image hidden test1">
           <img src="<?php echo get_field('featured_image2', $postID); ?>" />
         </figure>
         <!-- /wp:image -->
