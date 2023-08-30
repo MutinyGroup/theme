@@ -23,7 +23,7 @@ function titleImgChange(){
     titleImg2.classList.replace('opacity-1', 'opacity-0');
     console.log('change3');
   };
-  if(currentScrollY < 5100 && currentScrollY < 4530){
+  if(currentScrollY < 5100 && currentScrollY > 4530){
     titleImg2.classList.replace('opacity-0', 'opacity-1');
     titleImg3.classList.replace('opacity-1', 'opacity-0');
     console.log('change3');
