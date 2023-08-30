@@ -63,7 +63,7 @@
       <!-- wp:group -->
       <div class="wp-block-group col1 desktop:pl-[60px] basis-[30%] mb-[40px]">
         <!-- wp:paragraph -->
-        <p class="max-w-[173px] text-[16px] leading-[21px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+        <p data-aos="fade-right" class="max-w-[173px] text-[16px] leading-[21px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
         <!-- /wp:paragraph -->
       </div>
       <!-- /wp:group -->
