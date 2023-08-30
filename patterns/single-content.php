@@ -96,13 +96,14 @@
         <!-- /wp:image -->
       <?php endif; ?>
       <?php print_r(get_field('featured_image2')); ?>
+      <?php echo (get_field('featured_image2')); ?>
       <!-- wp:image -->
       <figure class="wp-block-image">
         <img src="<?php echo get_field('featured_image2'); ?>" alt="featured-image2">
       </figure>
       <!-- /wp:image -->
       <!-- wp:image -->
-      <figure class="wp-block-image 22">
+      <figure class="wp-block-image">
         <?php
         $image = get_field('featured_image2');
         if (!empty($image)) : ?>
