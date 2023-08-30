@@ -85,6 +85,16 @@
       <!-- wp:post-featured-image /-->
     </div>
     <!-- /wp:group -->
+    <?php
+    while (have_posts()) :
+      the_post();
+      echo 'from while:';
+      echo get_the_ID();
+    ?>
+
+    <?php
+    endwhile;
+    ?>
 
     <?php print_r(get_sub_field('featured_image2')); ?>
     <?php
