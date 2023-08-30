@@ -271,7 +271,7 @@ figure[class*="logo-img"] img {
   gap: 50px;
 }
 /* menu contact btn */
-.wp-block-navigation__container li:last-child {
+ .headerDark .wp-block-navigation__container li:last-child {
   padding: 10px 20px;
   text-transform: uppercase;
   border: 2px #aaa solid;
@@ -284,11 +284,7 @@ figure[class*="logo-img"] img {
   transition: all 0.3s ease-out;
 }
 
-.page .wp-block-navigation__container li:last-child,
-.single .wp-block-navigation__container li:last-child,
-.error404 .wp-block-navigation__container li:last-child,
-.archive .wp-block-navigation__container li:last-child,
-.blog .wp-block-navigation__container li:last-child {
+.headerBright .wp-block-navigation__container li:last-child {
   border-color: #AAA!important;
   background-color: #F2F2F2!important;
   color: black!important;
