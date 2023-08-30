@@ -93,20 +93,16 @@
       while ($post_query->have_posts()) {
         $post_query->the_post();
         $postImageUrl = wp_get_attachment_image_src(get_post_thumbnail_id(), 'portrait');
-
-        the_title();
         $postID = get_the_ID();
       };
     };
-
-    echo $postID;
     ?>
 
     <!-- wp:group -->
     <div class="wp-block-group featured-image-acf mb-[100px] w-[1300px] h-[400px]">
       <!-- wp:image -->
       <figure class="wp-block-image test1">
-        <img src="<?php echo get_field('featured_image2', 493); ?>" />
+        <img src="<?php echo get_field('featured_image2', $postID); ?>" />
       </figure>
       <!-- /wp:image -->
     </div>
