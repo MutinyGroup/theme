@@ -89,10 +89,9 @@
       // echo $post;
       echo get_page_uri();
       echo get_queried_object_id();
-      $current_post_id = $post->ID;
       if (have_posts()) : while (have_posts()) : the_post();
 
-          if ($current_post_id === $post->ID) {
+          if (true) {
             echo $post->ID;
           } else {
             echo "not found";
