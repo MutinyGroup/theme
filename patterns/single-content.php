@@ -89,7 +89,11 @@
     <!-- wp:group -->
     <div class="wp-block-group featured-image-acf mb-[100px] w-[1300px] h-[400px]">
       <?php if (get_field('image')) : ?>
-        <img src="<?php the_field('image'); ?>" />
+        <!-- wp:image -->
+        <figure class="wp-block-image">
+          <img src="<?php the_field('image'); ?>" />
+        </figure>
+        <!-- /wp:image -->
       <?php endif; ?>
       <?php print_r(get_field('featured_image2')); ?>
       <!-- wp:image -->
