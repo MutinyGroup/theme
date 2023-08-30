@@ -403,29 +403,3 @@ function wpdocs_theme_add_editor_styles_editor()
 	add_editor_style('assets/editor.css');
 }
 add_action('admin_init', 'wpdocs_theme_add_editor_styles_editor');
-
-if (class_exists('MultiPostThumbnails')) {
-	new MultiPostThumbnails(
-		array(
-			// Replace [YOUR THEME TEXT DOMAIN] below with the text domain of your theme (found in the theme's `style.css`).
-			'label' => __('Secondary Image', 'Mutiny'),
-			'id' => 'secondary-image',
-			'post_type' => 'post'
-		)
-	);
-}
-
-function MultiPostThumbnails()
-{
-	if (class_exists('MultiPostThumbnails')) {
-		new MultiPostThumbnails(
-			array(
-				// Replace [YOUR THEME TEXT DOMAIN] below with the text domain of your theme (found in the theme's `style.css`).
-				'label' => __('Secondary Image', 'Mutiny'),
-				'id' => 'secondary-image',
-				'post_type' => 'post'
-			)
-		);
-	}
-}
-add_action('wp_loaded', 'MultiPostThumbnails');
