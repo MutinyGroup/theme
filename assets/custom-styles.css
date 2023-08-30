@@ -264,9 +264,6 @@ figure[class*="logo-img"] img {
 .current-menu-item {
   color: #fec400;
 }
-.contact-from-wp-panel {
-  padding: 10px 20px !important;
-}
 .wp-block-navigation__container {
   gap: 50px;
 }
@@ -289,9 +286,10 @@ figure[class*="logo-img"] img {
   border-color: black;
 }
 .headerBright .wp-block-navigation__container li:last-child {
-  border-color: #AAA!important;
-  background-color: #F2F2F2!important;
-  color: black!important;
+  padding: 10px 20px;
+  border-color: #AAA;
+  background-color: #F2F2F2;
+  color: black;
 }
 .headerBright .wp-block-navigation__container li:last-child:hover {
   background-color: white;
