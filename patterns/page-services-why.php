@@ -93,7 +93,7 @@
                   <!-- /wp:image -->
                   <!-- wp:image -->
                   <figure class="wp-block-image title-img2 opacity-0 h-full clip-path-url-['#clipped-why'] group-hover:grayscale transition ease-in-out duration-[400ms]">
-                    <img src="<?php echo home_url() . '/wp-content/themes/mutiny/assets/img/page-services/why-img1.jpg'; ?>" alt="services-background-image" />
+                    <img src="<?php echo home_url() . '/wp-content/themes/mutiny/assets/img/page-services/why-img2.jpg'; ?>" alt="services-background-image" />
                   </figure>
                   <!-- /wp:image -->
 
