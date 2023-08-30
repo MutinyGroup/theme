@@ -56,7 +56,7 @@
       <!-- wp:group -->
       <div class="wp-block-group h-fit overflow-hidden">
         <!-- wp:paragraph -->
-        <p data-aos="fade-up" data-aos-duration="600" data-aos-offset="130" class="section-title text-[20px] text-primaryYellow">Wymagaj więcej</p>
+        <p data-aos="fade-up" data-aos-duration="600" data-aos-offset="60" class="section-title text-[20px] text-primaryYellow">Wymagaj więcej</p>
         <!-- /wp:paragraph -->
       </div>
       <!-- /wp:group -->
@@ -67,14 +67,14 @@
         <!-- wp:group -->
         <div class="wp-block-group overflow-hidden">
           <!-- wp:paragraph -->
-          <p data-aos="fade-up" data-aos-duration="600" data-aos-offset="130" class="uppercase">Porozmawiajmy</p>
+          <p data-aos="fade-up" data-aos-duration="600" data-aos-offset="60" class="uppercase">Porozmawiajmy</p>
           <!-- /wp:paragraph -->
         </div>
         <!-- /wp:group -->
         <!-- wp:group -->
         <div class="wp-block-group overflow-hidden">
           <!-- wp:paragraph -->
-          <p data-aos="fade-up" data-aos-duration="600" data-aos-offset="85" class="uppercase">o potrzebach</p>
+          <p data-aos="fade-up" data-aos-duration="600" data-aos-offset="60" class="uppercase">o potrzebach</p>
           <!-- /wp:paragraph -->
         </div>
         <!-- /wp:group -->

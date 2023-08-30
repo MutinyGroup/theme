@@ -45,7 +45,7 @@
       <!-- wp:group -->
       <div class="wp-block-group h-fit overflow-hidden">
         <!-- wp:paragraph -->
-        <p data-aos="fade-up" data-aos-duration="600" data-aos-offset="130" class="section-title desktop:w-[145px] pt-[5px] desktop:basis-auto uppercase text-primaryYellow ">Team Mutiny</p>
+        <p data-aos="fade-up" data-aos-duration="600" data-aos-offset="50" class="section-title desktop:w-[145px] pt-[5px] desktop:basis-auto uppercase text-primaryYellow ">Team Mutiny</p>
         <!-- /wp:paragraph -->
       </div>
       <!-- /wp:group -->
@@ -56,7 +56,7 @@
         <!-- wp:group -->
         <div class="wp-block-group overflow-hidden">
           <!-- wp:paragraph -->
-          <p data-aos="fade-up" data-aos-duration="600" data-aos-offset="130" class="company-title overflow-hidden"><span class="block uppercase">ZGRANY ZESPÓŁ</span></p>
+          <p data-aos="fade-up" data-aos-duration="600" data-aos-offset="50" class="company-title overflow-hidden"><span class="block uppercase">ZGRANY ZESPÓŁ</span></p>
           <!-- /wp:paragraph -->
         </div>
         <!-- /wp:group -->
@@ -64,7 +64,7 @@
         <!-- wp:group -->
         <div class="wp-block-group overflow-hidden">
           <!-- wp:paragraph -->
-          <p data-aos="fade-up" data-aos-duration="600" data-aos-offset="85" class="uppercase test01 inline-block ">TO<span class="relative ml-[12px] inline-block uppercase italic before:content-[''] before:inline-block desktop:before:mr-[18px] before:mr-[8px] before:bottom-0 before:left-0 desktop:before:w-[90px] before:w-[30px] desktop:before:h-[3px] before:h-[2px] before:bg-black">PODSTAWA</span></p>
+          <p data-aos="fade-up" data-aos-duration="600" data-aos-offset="50" class="uppercase test01 inline-block ">TO<span class="relative ml-[12px] inline-block uppercase italic before:content-[''] before:inline-block desktop:before:mr-[18px] before:mr-[8px] before:bottom-0 before:left-0 desktop:before:w-[90px] before:w-[30px] desktop:before:h-[3px] before:h-[2px] before:bg-black">PODSTAWA</span></p>
           <!-- /wp:paragraph -->
         </div>
         <!-- /wp:group -->
