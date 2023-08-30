@@ -88,18 +88,8 @@
       // global $post;
       // echo $post;
       echo get_page_uri();
-      echo get_queried_object_id();
-      if (have_posts()) : while (have_posts()) : the_post();
+      echo get_permalink();
 
-          if (true) {
-            echo $post->ID;
-          } else {
-            echo "not found";
-          }
-
-        endwhile;
-        wp_reset_postdata();
-      endif;
       ?>
     </p>
     <!-- /wp:paragraph -->
