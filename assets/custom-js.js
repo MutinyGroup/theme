@@ -17,19 +17,19 @@ function titleImgChange(){
   }else if(currentScrollY > 5100 && currentScrollY < 5200){
     titleImg2.classList.replace('opacity-1', 'opacity-0');
     titleImg3.classList.replace('opacity-0', 'opacity-1');
-    paginationScroll.classList.add('translate-y-[-60px]');
+    // paginationScroll.classList.add('translate-y-[-60px]');
     console.log('change2');
   }
   if(currentScrollY < 4530 && currentScrollY > 4000){
     titleImg1.classList.replace('opacity-0', 'opacity-1');
     titleImg2.classList.replace('opacity-1', 'opacity-0');
-    paginationScroll.classList.add('translate-y-[0px]');
+    // paginationScroll.classList.add('translate-y-[0px]');
     console.log('change3');
   };
   if(currentScrollY < 5100 && currentScrollY > 4530){
     titleImg2.classList.replace('opacity-0', 'opacity-1');
     titleImg3.classList.replace('opacity-1', 'opacity-0');
-    paginationScroll.classList.add('translate-y-[-30px]');
+    // paginationScroll.classList.add('translate-y-[-30px]');
     console.log('change4');
   };
 };
