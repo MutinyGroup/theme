@@ -97,6 +97,11 @@
     echo $post->ID;
     ?>
 
+    <?php while (have_posts()) : the_post() ?>
+      <?php $variable = the_field('test'); ?>
+      <?php echo $variable; ?>
+    <?php endwhile; ?>
+
     <!-- wp:group -->
     <div class="wp-block-group featured-image-acf mb-[100px] w-[1300px] h-[400px]">
       <!-- wp:image -->
