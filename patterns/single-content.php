@@ -107,7 +107,7 @@
   <!-- /wp:group -->
 
   <!-- wp:group -->
-  <div class="wp-block-group layout-two-cols mb-[50px] desktop:flex gap-[50px]">
+  <div class="wp-block-group container mx-auto layout-two-cols mb-[50px] desktop:flex gap-[50px]">
     <!-- wp:group -->
     <div class="wp-block-group post-content desktop:w-[70%]">
       <!-- wp:post-content /-->
