@@ -87,6 +87,7 @@
       echo the_ID();
       global $post;
       echo $post;
+      echo get_page_uri();
       ?>
     </p>
     <!-- /wp:paragraph -->
