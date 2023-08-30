@@ -94,11 +94,11 @@
 
 
     <!-- wp:group -->
-    <div class="wp-block-group page-marketing-content">
+    <div class="wp-block-group page-marketing-content mb-[150px] desktop:mb-[240px]">
       <!-- wp:group -->
       <div class="wp-block-group">
         <!-- wp:group -->
-        <div class="wp-block-group gallery desktop:mb-[240px] relative mb-[100px] flex gap-[8px]">
+        <div class="wp-block-group gallery desktop:mb-[240px] relative  flex gap-[8px]">
           <!-- wp:image -->
           <figure class="wp-block-image w-[49%] overflow-hidden rounded-tl-[22px] rounded-bl-[22px]">
             <img src="<?php echo home_url() . '/wp-content/themes/mutiny/assets/img/page-marketing/gallery1.jpg'; ?>" alt="image" />
