@@ -92,7 +92,7 @@
       $test = 'post';
       if (class_exists('MultiPostThumbnails')) {
         MultiPostThumbnails::the_post_thumbnail(
-          $test(),
+          $test,
           'secondary-image'
         );
       };
