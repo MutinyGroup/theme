@@ -7,7 +7,6 @@ const titleImg2 = document.querySelector('.title-img2');
 
 
 function titleImgChange(){
-  let currentScrollY = window.scrollY
   console.log(currentScrollY);
   if(currentScrollY > 4000){
     titleImg1.style.opacity = 0 + 'px';
