@@ -98,7 +98,9 @@
         // $postID2 = array();
 
         array_push($postID2, get_the_ID());
-        print_r(get_queried_object_id());
+
+        print_r($post_query->current_post);
+        echo $post_query->current_post;
 
 
 
@@ -112,7 +114,7 @@
       };
     };
     print_r($postID2);
-    print_r(get_queried_object_id());
+
     ?>
 
     <!-- wp:group -->
