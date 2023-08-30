@@ -112,7 +112,7 @@
       };
     };
     print_r($postID2);
-    print_r($get_the_ID());
+    print_r(get_the_ID());
     echo $test01;
     ?>
 
