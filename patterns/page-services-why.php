@@ -81,7 +81,7 @@
                   <span class="block">03</span>
                 </span>
               </span>
-              <span class="text-[20px] text-black font-medium"><span class="text-[50px] text-primaryYellow">/ 03</span></span>
+              <span class="text-[20px] text-black font-medium"><span class="text-[50px] text-primaryYellow">/</span> 03</span>
             </p>
             <!-- /wp:paragraph -->
           </div>
