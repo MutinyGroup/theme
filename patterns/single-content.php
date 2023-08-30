@@ -85,8 +85,8 @@
       <?php
       echo get_the_ID();
       echo the_ID();
-      global $post;
-      echo $post;
+      // global $post;
+      // echo $post;
       echo get_page_uri();
       ?>
     </p>
