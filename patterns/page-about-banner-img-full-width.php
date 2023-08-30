@@ -40,10 +40,10 @@
           <!-- wp:group -->
           <div class="wp-block-group overflow-hidden">
             <!-- wp:paragraph -->
-            <p class="uppercase test01 block">PRZEKARCZAĆ<span class="relative ml-[12px] inline-block uppercase italic before:content-[''] before:inline-block desktop:before:mr-[18px] before:mr-[8px] before:bottom-0 before:left-0 desktop:before:w-[90px] before:w-[30px] desktop:before:h-[3px] before:h-[2px] before:bg-black">GRANIC</span></p>
+            <p class="uppercase test01 inline-block ">PRZEKRACZAĆ<span class="relative ml-[12px] inline-block uppercase italic before:content-[''] before:inline-block desktop:before:mr-[18px] before:mr-[8px] before:bottom-0 before:left-0 desktop:before:w-[90px] before:w-[30px] desktop:before:h-[3px] before:h-[2px] before:bg-black">GANIC</span></p>
             <!-- /wp:paragraph -->
             <!-- wp:paragraph -->
-            <p class="test01 inline company-title font-medium"><span class="ml-[-8px] desktop:ml-[-16px] inline desktop:text-[100px] text-[70px] leading-[1px] desktop:leading-auto">.</span></p>
+            <p class="test01 inline-block company-title font-medium"><span class="ml-[-8px] desktop:ml-[-16px] desktop:text-[100px] text-[70px] leading-[1px] desktop:leading-auto">.</span></p>
             <!-- /wp:paragraph -->
           </div>
           <!-- /wp:group -->
