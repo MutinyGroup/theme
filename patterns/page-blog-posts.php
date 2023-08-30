@@ -45,7 +45,7 @@
             $post_query->the_post();
             $postImageUrl = wp_get_attachment_image_src(get_post_thumbnail_id(), 'portrait');
             $counter++;
-            $test01 = get_the_ID();
+
             if ($tab[$i] == 0) {
               $test01 = get_the_ID();
         ?>
