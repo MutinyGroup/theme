@@ -110,7 +110,6 @@
     <?php
       };
     };
-    print_r($postID);
     print_r($postID2);
     ?>
 
