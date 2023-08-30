@@ -93,8 +93,8 @@
     if ($post_query->have_posts()) {
       while ($post_query->have_posts()) {
         $post_query->the_post();
+
         $postID = get_the_ID();
-        print_r(get_current_site());
         print_r(get_current_blog_id());
         $postID2 = array();
 
@@ -102,6 +102,7 @@
 
 
         print_r($postID);
+        print_r($postID2);
     ?>
         <!-- wp:image -->
         <figure class="wp-block-image test1">
