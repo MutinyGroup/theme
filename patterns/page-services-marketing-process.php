@@ -60,13 +60,13 @@
 
     <!-- wp:group -->
     <div class="wp-block-group text-cols-wrapper desktop:flex desktop:gap-[0px] gap-[20px] basis desktop:mb-[100px] mb-[50px]">
-      <!-- wp:group -->
-      <div class="wp-block-group col1 desktop:pl-[60px] basis-[30%] mb-[40px]">
-        <!-- wp:paragraph -->
-        <p data-aos="fade-right" class="max-w-[173px] text-[16px] leading-[21px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
-        <!-- /wp:paragraph -->
-      </div>
-      <!-- /wp:group -->
+      <!-- wp:list -->
+      <ul class="wp-block-list col1 desktop:pl-[60px] basis-[30%] mb-[40px]">
+        <!-- wp:list-item -->
+        <li data-aos="fade-right" class="max-w-[173px] text-[16px] leading-[21px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</li>
+        <!-- /wp:list-item -->
+      </ul>
+      <!-- /wp:list -->
       <!-- wp:group -->
       <div class=" wp-block-group col2 basis-[60%]">
         <!-- wp:paragraph -->
