@@ -83,6 +83,7 @@
     <!-- wp:paragraph -->
     <p>
       <?php echo get_the_ID(); ?>
+      <?php echo the_ID(); ?>
     </p>
     <!-- /wp:paragraph -->
 
