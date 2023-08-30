@@ -116,7 +116,7 @@
           </div>
           <!-- /wp:group -->
           <!-- wp:group -->
-          <div class="wp-block-group col2 desktop:w-[50%]">
+          <div class="wp-block-group col2 desktop:w-[50%] z-[1]">
             <!-- wp:paragraph -->
             <p data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="text-[35px] font-semibold mb-[50px]">Jak wygląda proces realizacji</p>
             <!-- /wp:paragraph -->
