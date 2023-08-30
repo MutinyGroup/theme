@@ -197,14 +197,10 @@ figure[class*="logo-img"] img {
   margin-bottom: 0px;
 }
 .single .entry-content ul li::before {
-  content: "";
-  display: inline-block;
-  margin-right: 10px;
-  margin-bottom: 5px;
-  margin-left: 0px;
-  width: 20px;
-  height: 2px;
-  background-color: #fec400;
+  display: none;
+}
+.single-uslugi .entry-content ul li::before {
+  display: none;
 }
 .single-uslugi .entry-content ul li::before {
   display: none;
