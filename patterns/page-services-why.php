@@ -75,7 +75,7 @@
             <!-- wp:paragraph -->
             <p data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="whyPagination text-[50px] text-primaryYellow">
               <span class="block h-[60px] overflow-hidden">
-                <span class="paginationScroll inline">
+                <span class="paginationScroll block">
                   <span class="block">01</span>
                   <span class="block">02</span>
                   <span class="block">03</span>
