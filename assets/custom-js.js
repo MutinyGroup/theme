@@ -1,4 +1,17 @@
 window.addEventListener("load", function () {
+// services sticky title
+const realizationsContainer = document.querySelector('#realizationsContainer');
+
+
+
+
+
+
+
+
+
+
+
   // realizations page show more
   const realizationsContainer = document.querySelector('#realizationsContainer');
   const BlogContainer = document.querySelector('#blogContainer');
