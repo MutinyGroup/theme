@@ -85,6 +85,18 @@
       <!-- wp:post-featured-image /-->
     </div>
     <!-- /wp:group -->
+    <!-- wp:group -->
+    <div class="wp-block-group featured-image mb-[100px] w-[1300px] hidden">
+      <?php
+      if (class_exists('MultiPostThumbnails')) {
+        MultiPostThumbnails::the_post_thumbnail(
+          get_post_type(),
+          'secondary-image'
+        );
+      };
+      ?>
+    </div>
+    <!-- /wp:group -->
 
     <!-- wp:group -->
     <div class="wp-block-group post-image-test mb-[100px] w-[1300px]">
