@@ -90,7 +90,7 @@
     <?php
     global $post;
 
-    $test = the_field('test', 493);;
+    $test = get_field('test', 493);;
     $test2 = the_field('test', 493);;
     echo $test;
     echo $test2;
@@ -106,7 +106,7 @@
     <div class="wp-block-group featured-image-acf mb-[100px] w-[1300px] h-[400px]">
       <!-- wp:image -->
       <figure class="wp-block-image">
-        <img src="<?php echo get_sub_field('featured_image2'); ?>" />
+        <img src="<?php echo get_field('featured_image2'); ?>" />
       </figure>
       <!-- /wp:image -->
       <?php print_r(get_field('featured_image2')); ?>
