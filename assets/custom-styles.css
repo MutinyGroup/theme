@@ -268,7 +268,8 @@ figure[class*="logo-img"] img {
   gap: 50px;
 }
 /* menu contact btn */
- .headerDark .wp-block-navigation__container li:last-child {
+ .headerDark .wp-block-navigation__container li:last-child,
+ .headerBright .wp-block-navigation__container li:last-child {
   padding: 10px 20px;
   text-transform: uppercase;
   border: 2px #aaa solid;
@@ -286,7 +287,6 @@ figure[class*="logo-img"] img {
   border-color: black;
 }
 .headerBright .wp-block-navigation__container li:last-child {
-  padding: 10px 20px;
   border-color: #AAA;
   background-color: #F2F2F2;
   color: black;
