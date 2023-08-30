@@ -162,7 +162,7 @@
                   </div>
                   <!-- /wp:group -->
                   <!-- wp:group -->
-                  <div class="wp-block-group tile-title z-[1] absolute bottom-[50px] desktop:left-[50px] left-[20px]pr-[20px]">
+                  <div class="wp-block-group tile-title z-[1] absolute bottom-[50px] desktop:left-[50px] left-[20px] pr-[20px]">
                     <!-- wp:paragraph -->
                     <p class="w-fit desktop:text-[35px] text-[30px] desktop:mb-[20px] mb-[10px] leading-[42px] font-semibold desktop:group-hover:translate-y-[-50px] group-hover:translate-y-[-70px] transition ease-in-out duration-[400ms] cursor-pointer"><?php the_title(); ?></p>
                     <!-- /wp:paragraph -->
