@@ -202,8 +202,11 @@ figure[class*="logo-img"] img {
 .single-uslugi .entry-content ul li::before {
   display: none;
 }
-.single-uslugi .entry-content ul li::before {
+.single-realizacje .entry-content ul li::before {
   display: none;
+}
+.single-realizacje p {
+  margin: 0!important;
 }
 .wp-block-pullquote {
   padding: 30px;
