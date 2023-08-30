@@ -74,8 +74,8 @@
           <div class="wp-block-group pagination-counter w-[40%] pt-[10px]">
             <!-- wp:paragraph -->
             <p data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="whyPagination text-[50px] text-primaryYellow">
-              <span class="inline h-[55px] overflow-hidden">
-                <span class="paginationScroll h-full block leading-[42px]">
+              <span class="block h-[55px] overflow-hidden">
+                <span class="paginationScroll h-full block leading-[42px] transition ease-in-out duration-[400ms]">
                   <span class="block">01</span>
                   <span class="block">02</span>
                   <span class="block">03</span>
