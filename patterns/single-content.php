@@ -88,6 +88,7 @@
       // global $post;
       // echo $post;
       echo get_page_uri();
+      echo get_archives_link();
       ?>
     </p>
     <!-- /wp:paragraph -->
