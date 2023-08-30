@@ -68,7 +68,7 @@
       <!-- /wp:group -->
 
       <!-- wp:paragraph -->
-      <p class="z-[2] text-white group-hover:text-black transition ease-in-out duration-[550ms]"><a href="#Poznaj nas"><span class="font-bold block">Zobacz</span><span class="font-bold block text-[25px]">WIĘCEJ</span></a></p>
+      <p class="z-[2] text-white group-hover:text-black transition ease-in-out duration-[550ms]"><a href="#Process"><span class="font-bold block">Zobacz</span><span class="font-bold block text-[25px]">WIĘCEJ</span></a></p>
       <!-- /wp:paragraph -->
     </div>
     <!-- /wp:group -->
