@@ -86,7 +86,7 @@
     </div>
     <!-- /wp:group -->
     <!-- wp:group -->
-    <div class="wp-block-group featured-image mb-[100px] w-[1300px] hidden">
+    <div class="wp-block-group second-featured-image mb-[100px] w-[1300px]">
       <?php
       if (class_exists('MultiPostThumbnails')) {
         MultiPostThumbnails::the_post_thumbnail(
