@@ -85,6 +85,18 @@
       <!-- wp:post-featured-image /-->
     </div>
     <!-- /wp:group -->
+
+    <!-- wp:group -->
+    <div class="wp-block-group featured-image-acf mb-[100px] w-[1300px] h-[400px]">
+      <?php echo get_field('featured_image2'); ?>
+      <!-- wp:image -->
+      <figure class="wp-block-image">
+        <img src="<?php echo get_field('featured_image2'); ?>" alt="featured-image2">
+      </figure>
+      <!-- /wp:image -->
+    </div>
+    <!-- /wp:group -->
+
     <!-- wp:group -->
     <div class="wp-block-group second-featured-image mb-[100px] w-[1300px]">
       <?php
