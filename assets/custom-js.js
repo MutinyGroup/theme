@@ -17,7 +17,7 @@ function titleImgChange(){
     titleImg2.classList.replace('opacity-1', 'opacity-0');
     titleImg3.classList.replace('opacity-0', 'opacity-1');
     console.log('change2');
-  }
+  };
 };
 
 
