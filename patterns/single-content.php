@@ -108,20 +108,6 @@
     <!-- /wp:group -->
 
     <!-- wp:group -->
-    <div class="wp-block-group second-featured-image mb-[100px] w-[1300px]">
-      <?php
-      $test = 'post';
-      if (class_exists('MultiPostThumbnails')) {
-        MultiPostThumbnails::the_post_thumbnail(
-          $test,
-          'secondary-image'
-        );
-      };
-      ?>
-    </div>
-    <!-- /wp:group -->
-
-    <!-- wp:group -->
     <div class="wp-block-group post-image-test mb-[100px] w-[1300px]">
       <!-- wp:image -->
       <figure class="wp-block-image">
