@@ -88,7 +88,7 @@
     );
     $post_query = new WP_Query($args);
     $counter = 0;
-    $postID = [];
+    $postID = array();
 
     if ($post_query->have_posts()) {
       while ($post_query->have_posts()) {
