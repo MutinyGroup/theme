@@ -245,14 +245,14 @@
             <!-- wp:list-item -->
             <li class="wp-block-group wide:w-[100%] wide:h-[575px] tile-wrapper relative mb-[12px] rounded-[20px] overflow-hidden">
               <!-- wp:group -->
-              <div class="wp-block-group overlay-author z-[1] h-full w-full bg-gradient-to-t from-black via-[rgba(0,0,0,0)] opacity-[40%] absolute top-0 left-0 clip-path-url-['#clipped-swiper-serv-1']">
+              <div class="wp-block-group overlay-author z-[1] h-full w-full bg-gradient-to-t from-black via-[rgba(0,0,0,0)] opacity-[40%] absolute top-0 left-0 clip-path-url-['#clipped-team']">
                 <!-- wp:paragraph -->
                 <p class="hidden">overlay</p>
                 <!-- /wp:paragraph -->
               </div>
               <!-- /wp:group -->
               <!-- wp:image  -->
-              <figure class="wp-block-image clip-path-url-['#clipped-swiper-serv-1'] w-full h-full ">
+              <figure class="wp-block-image clip-path-url-['#clipped-team'] w-full h-full ">
                 <img src="<?php echo home_url() . '/wp-content/themes/mutiny/assets/img/page-about/about-team1.jpg'; ?>" alt="team" />
               </figure>
               <!-- /wp:image -->
