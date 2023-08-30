@@ -88,7 +88,7 @@
       // global $post;
       // echo $post;
       echo get_page_uri();
-      echo get_permalink();
+      echo get_permalink(get_the_ID());;
 
       ?>
     </p>
