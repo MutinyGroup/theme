@@ -302,8 +302,9 @@ figure[class*="logo-img"] img {
   border-color: white;
 }
 .home .wp-block-navigation__container li:last-child:hover {
-  background-color: white;
-  color: black;
+  background-color: #101010!important;
+  color: white!important;
+  border-color: white!important;
 }
 
 #modal-1-content > ul > li.wp-block-navigation-item.contact-from-wp-panel.p-\[10px_20px\].uppercase.border-\[2px\].border-\[\#AAAAAA\].rounded-full.cursor-pointer.hover\:bg-white.hover\:text-black.hover\:border-white.transition.ease-out.duration-300.wp-block-navigation-link > a{
