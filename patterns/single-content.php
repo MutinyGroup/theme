@@ -82,7 +82,7 @@
 
     <?php
     $args = array(
-      // 'posts_per_page' => 100,
+      'posts_per_page' => 100,
       'post_type' => 'post',
       // 'posts_per_page' => 1,
     );
@@ -98,7 +98,7 @@
         // $postID2 = array();
 
         array_push($postID2, get_the_ID());
-        echo $post_query->current_post;
+        // echo $post_query->current_post;
 
 
 
@@ -112,6 +112,7 @@
       };
     };
     print_r($postID2);
+    print_r($get_the_ID());
 
     ?>
 
