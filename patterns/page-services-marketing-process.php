@@ -9,7 +9,7 @@
 ?>
 
 <!-- wp:group {"templateLock":"contentOnly","anchor":true} -->
-<div id="Process" class="wp-block-group page-marketing-info desktop:mb-[150px] my-[50px]">
+<div id="Process" class="wp-block-group page-marketing-info desktop:mb-[150px]">
   <!-- wp:group -->
   <div class="wp-block-group container mx-auto relative desktop:px-0 px-[20px]">
     <!-- wp:group -->
