@@ -88,7 +88,7 @@
     );
     $post_query = new WP_Query($args);
     $counter = 0;
-    $postID;
+    $postID = [];
 
     if ($post_query->have_posts()) {
       while ($post_query->have_posts()) {
@@ -97,7 +97,7 @@
         print_r(get_current_site());
         print_r(get_current_blog_id());
 
-        $postID . array_push(get_the_ID());
+        array_push($postID, get_the_ID());
 
 
         print_r($postID);
