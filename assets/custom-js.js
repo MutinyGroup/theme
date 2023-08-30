@@ -1,6 +1,6 @@
 window.addEventListener("load", function () {
 // services sticky title
-const mainTitle = document.querySelector('.mainTitle');
+const whyPagination = document.querySelector('.whyPagination');
 const titleImg1 = document.querySelector('.title-img1');
 const titleImg2 = document.querySelector('.title-img2');
 const titleImg3 = document.querySelector('.title-img3');
