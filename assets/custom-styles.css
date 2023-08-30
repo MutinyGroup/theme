@@ -270,7 +270,7 @@ figure[class*="logo-img"] img {
 .wp-block-navigation__container {
   gap: 50px;
 }
-/* menu contact */
+/* menu contact btn */
 .wp-block-navigation__container li:last-child {
   padding: 10px 20px;
   text-transform: uppercase;
