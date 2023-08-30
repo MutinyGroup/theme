@@ -101,8 +101,7 @@
         array_push($postID2, get_the_ID());
 
 
-        print_r($postID);
-        print_r($postID2);
+
     ?>
         <!-- wp:image -->
         <figure class="wp-block-image test1">
@@ -112,6 +111,8 @@
     <?php
       };
     };
+    print_r($postID);
+    print_r($postID2);
     ?>
 
     <!-- wp:group -->
