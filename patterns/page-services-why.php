@@ -64,8 +64,6 @@
     </div>
     <!-- /wp:group -->
 
-
-
     <!-- wp:list -->
     <ul class="wp-block-list why-list-wrapper z-[1]">
       <!-- wp:list-item -->
@@ -173,7 +171,7 @@
           <!-- wp:group -->
           <div class="wp-block-group pagination-counter w-[40%] pt-[10px]">
             <!-- wp:paragraph -->
-            <p data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="text-[50px] text-primaryYellow">01 / <span class="text-[20px] text-black font-medium">03</span></p>
+            <p data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="text-[50px] text-primaryYellow">02 / <span class="text-[20px] text-black font-medium">03</span></p>
             <!-- /wp:paragraph -->
           </div>
           <!-- /wp:group -->
@@ -188,7 +186,7 @@
                 <a href="#" data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="pointer-events-none">
                   <!-- wp:image -->
                   <figure class="wp-block-image h-full clip-path-url-['#clipped-why'] group-hover:grayscale transition ease-in-out duration-[400ms]">
-                    <img src="<?php echo home_url() . '/wp-content/themes/mutiny/assets/img/page-services/why-img1.jpg'; ?>" alt="services-background-image" />
+                    <img src="<?php echo home_url() . '/wp-content/themes/mutiny/assets/img/page-services/why-img2.jpg'; ?>" alt="services-background-image" />
                   </figure>
                   <!-- /wp:image -->
 
@@ -271,7 +269,7 @@
           <!-- wp:group -->
           <div class="wp-block-group pagination-counter w-[40%] pt-[10px]">
             <!-- wp:paragraph -->
-            <p data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="text-[50px] text-primaryYellow">01 / <span class="text-[20px] text-black font-medium">03</span></p>
+            <p data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="text-[50px] text-primaryYellow">03 / <span class="text-[20px] text-black font-medium">03</span></p>
             <!-- /wp:paragraph -->
           </div>
           <!-- /wp:group -->
@@ -286,7 +284,7 @@
                 <a href="#" data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="pointer-events-none">
                   <!-- wp:image -->
                   <figure class="wp-block-image h-full clip-path-url-['#clipped-why'] group-hover:grayscale transition ease-in-out duration-[400ms]">
-                    <img src="<?php echo home_url() . '/wp-content/themes/mutiny/assets/img/page-services/why-img1.jpg'; ?>" alt="services-background-image" />
+                    <img src="<?php echo home_url() . '/wp-content/themes/mutiny/assets/img/page-services/why-img3.jpg'; ?>" alt="services-background-image" />
                   </figure>
                   <!-- /wp:image -->
 
