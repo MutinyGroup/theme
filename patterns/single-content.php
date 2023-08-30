@@ -96,7 +96,7 @@
 
         $postID = get_the_ID();
         // $postID2 = array();
-
+        echo 'array push: ';
         array_push($postID2, get_the_ID());
         // echo $post_query->current_post;
 
@@ -111,9 +111,11 @@
     <?php
       };
     };
+    echo 'postid2: ';
     print_r($postID2);
+    echo 'get the id: ';
     print_r(get_the_ID());
-    echo $test01;
+    echo 'test01: ' . $test01;
     ?>
 
     <!-- wp:group -->
