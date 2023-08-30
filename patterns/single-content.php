@@ -89,8 +89,18 @@
       // echo $post;
       echo get_page_uri();
       echo get_queried_object_id();
-      $post = $wp_query->post;
-      echo $post->ID;
+      $current_post_id = $post->ID;
+      if ($query->have_posts()) : while ($query->have_posts()) : $query->the_post();
+
+          if ($current_post_id === $post->ID) {
+            echo $post->ID;
+          } else {
+            echo "not found";
+          }
+
+        endwhile;
+        wp_reset_postdata();
+      endif;
       ?>
     </p>
     <!-- /wp:paragraph -->
