@@ -34,7 +34,7 @@ window.addEventListener("load", function () {
   if(screenWidth > 500) {
     //  desktop
     siteHeader.classList.add('header-position-fixed');
-    siteContent.style.paddingTop = siteHeaderHeight + 'px';
+    // siteContent.style.paddingTop = siteHeaderHeight + 'px';
     function updateHeaderPadding() {
       siteHeaderHeight = siteHeader.offsetHeight;
       siteContent.style.transition = '0.3s ease-in-out';
