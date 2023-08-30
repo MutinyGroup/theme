@@ -89,6 +89,8 @@
       // echo $post;
       echo get_page_uri();
       echo get_queried_object_id();
+      $post = $wp_query->post;
+      echo $post;
       ?>
     </p>
     <!-- /wp:paragraph -->
