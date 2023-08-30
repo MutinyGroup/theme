@@ -80,6 +80,12 @@
     </div>
     <!-- /wp:group -->
 
+    <!-- wp:paragraph -->
+    <p>
+      <?php echo get_the_ID(); ?>
+    </p>
+    <!-- /wp:paragraph -->
+
     <!-- wp:group -->
     <div class="wp-block-group featured-image-acf mb-[100px] w-[1300px] h-[400px]">
       <!-- wp:image -->
