@@ -82,6 +82,7 @@
 
     <?php
     $args = array(
+      'posts_per_page' => 100,
       'post_type' => 'post',
       // 'posts_per_page' => 1,
     );
@@ -96,7 +97,7 @@
         print_r(get_current_site());
         print_r(get_current_blog_id());
 
-        $postID.array_push(get_the_ID())
+        $postID . array_push(get_the_ID());
 
 
         print_r($postID);
