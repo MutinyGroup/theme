@@ -92,13 +92,14 @@
     if ($post_query->have_posts()) {
       while ($post_query->have_posts()) {
         $post_query->the_post();
-        $postImageUrl = wp_get_attachment_image_src(get_post_thumbnail_id(), 'portrait');
         $postID = get_the_ID();
         print_r(get_current_site());
         print_r(get_current_blog_id());
 
+        $postID.array_push(get_the_ID())
 
-        echo 'from loop ' . $postID;
+
+        print_r($postID);
     ?>
         <!-- wp:image -->
         <figure class="wp-block-image test1">
