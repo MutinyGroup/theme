@@ -75,7 +75,7 @@
             <!-- wp:paragraph -->
             <p data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="whyPagination text-[50px] text-primaryYellow flex items-center justify-center gap-[10px]">
               <span class="block h-[40px] overflow-hidden">
-                <span class="paginationScroll h-full block leading-[42px] transition ease-out duration-[400ms]">
+                <span class="paginationScroll translate-y-[0px] h-full block leading-[42px] transition ease-out duration-[400ms]">
                   <span class="block">01</span>
                   <span class="block">02</span>
                   <span class="block">03</span>

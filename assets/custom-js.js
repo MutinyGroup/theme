@@ -12,7 +12,7 @@ function titleImgChange(){
   if(currentScrollY > 4530 && currentScrollY < 4630){
     titleImg1.classList.replace('opacity-1', 'opacity-0');
     titleImg2.classList.replace('opacity-0', 'opacity-1');
-    paginationScroll.classList.add('translate-y-[-42px]');
+    paginationScroll.classList.replace('translate-y-[0px]','translate-y-[-42px]');
     console.log('change');
   }else if(currentScrollY > 5100 && currentScrollY < 5200){
     titleImg2.classList.replace('opacity-1', 'opacity-0');
