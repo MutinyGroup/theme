@@ -194,7 +194,7 @@
             </p>
             <!-- /wp:paragraph -->
             <!-- wp:paragraph -->
-            <p data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="my-[50px] text-[35px] leading-[42px] font-semibold uppercase relative">Mamy nieszablonowe <br />podejście</p>
+            <p data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="mb-[50px] text-[35px] leading-[42px] font-semibold uppercase relative">Mamy nieszablonowe <br />podejście</p>
             <!-- /wp:paragraph -->
             <!-- wp:paragraph -->
             <p data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="mb-[50px] text-[20px] leading-[30px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, seddo eiusmod tempor incididunt ut labore et dolore magnaaliqua. Ut enim ad minim veniam, quis nostrud exercitationullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
@@ -292,7 +292,7 @@
             </p>
             <!-- /wp:paragraph -->
             <!-- wp:paragraph -->
-            <p data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="my-[50px] text-[35px] leading-[42px] font-semibold uppercase relative">Mamy nieszablonowe <br />podejście</p>
+            <p data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="mb-[50px] text-[35px] leading-[42px] font-semibold uppercase relative">Mamy nieszablonowe <br />podejście</p>
             <!-- /wp:paragraph -->
             <!-- wp:paragraph -->
             <p data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="mb-[50px] text-[20px] leading-[30px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, seddo eiusmod tempor incididunt ut labore et dolore magnaaliqua. Ut enim ad minim veniam, quis nostrud exercitationullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
@@ -390,7 +390,7 @@
             </p>
             <!-- /wp:paragraph -->
             <!-- wp:paragraph -->
-            <p data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="my-[50px] text-[35px] leading-[42px] font-semibold uppercase relative">Mamy nieszablonowe <br />podejście</p>
+            <p data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="mb-[50px] text-[35px] leading-[42px] font-semibold uppercase relative">Mamy nieszablonowe <br />podejście</p>
             <!-- /wp:paragraph -->
             <!-- wp:paragraph -->
             <p data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="mb-[50px] text-[20px] leading-[30px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, seddo eiusmod tempor incididunt ut labore et dolore magnaaliqua. Ut enim ad minim veniam, quis nostrud exercitationullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
