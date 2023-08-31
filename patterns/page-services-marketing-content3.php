@@ -94,7 +94,7 @@
 
 
     <!-- wp:group -->
-    <div class="wp-block-group page-marketing-content mb-[80px] desktop:mb-[240px]">
+    <div class="wp-block-group page-marketing-content mb-[80px] desktop:mb-[50px]">
       <!-- wp:group -->
       <div class="wp-block-group">
         <!-- wp:group -->
