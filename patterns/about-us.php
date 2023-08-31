@@ -118,7 +118,7 @@
               <!-- /wp:group -->
 
               <!-- wp:paragraph -->
-              <p id="test" class="target-num data-fade-left-invisible inline-block desktop:text-[85px] text-[80px] font-semibold">01</p>
+              <p id="test2" class="target-num data-fade-left-invisible inline-block desktop:text-[85px] text-[80px] font-semibold">01</p>
               <!-- /wp:paragraph -->
             </div>
             <!-- /wp:group -->
