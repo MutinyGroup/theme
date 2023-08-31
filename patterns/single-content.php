@@ -100,9 +100,6 @@
         array_push($postID2, get_the_ID());
         // echo $post_query->current_post;
         print_r(bloginfo())
-
-
-
     ?>
         <!-- wp:image -->
         <figure class="wp-block-image hidden test1">
