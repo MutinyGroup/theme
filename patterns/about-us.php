@@ -110,7 +110,7 @@
           <!-- wp:list-item -->
           <li class="test relative mb-[20px] desktop:mb-0 desktop:max-w-[264px] max-w-full flex items-center desktop:list-item gap-[20px]">
             <!-- wp:group -->
-            <div id="counter" class="wp-block-group data-fade-left-invisible counter-index-wrapper min-w-[95px] inline relative">
+            <div class="wp-block-group counter-index-wrapper min-w-[95px] inline relative">
               <!-- wp:group -->
               <div class="wp-block-group circle-counter-index opacity-[15%] w-[80px] h-[80px] absolute desktop:top-[-85px] top-[-15px] desktop:right-[-40px] right-[-10px]">
                 <!-- wp:paragraph -->
@@ -122,7 +122,7 @@
               <!-- /wp:group -->
 
               <!-- wp:paragraph -->
-              <p class="target-num inline-block desktop:text-[85px] text-[80px] font-semibold">01</p>
+              <p id="counter" class="target-num data-fade-left-invisible inline-block desktop:text-[85px] text-[80px] font-semibold">01</p>
               <!-- /wp:paragraph -->
             </div>
             <!-- /wp:group -->
