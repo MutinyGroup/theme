@@ -13,7 +13,7 @@ window.addEventListener("load", function () {
         console.log(id2);
         if (entry.intersectionRatio > 0 && id == true) {
           document.querySelector(`#${id2}`).classList.add('data-fade-left-visible');
-        } else if(id != null){
+        } else if(id != false){
           document.querySelector(`#${id2}`).classList.remove('data-fade-left-visible');
         }
       });
