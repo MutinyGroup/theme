@@ -108,7 +108,7 @@ if(document.body.classList.contains('page-id-101')){
     showMoreBtn.addEventListener('click',()=>{
       realizationsContainer.style.maxHeight = 1500 + more + 'px';
       // realizationsEventyUl.style.height = 850 + more + 'px';
-      more += 900;
+      more += 1520;
       console.log(more);
     });
 };
@@ -116,7 +116,7 @@ if(document.body.classList.contains('page-id-101')){
     showMoreBlogPostsBtn.addEventListener('click',()=>{
       BlogContainer.style.maxHeight = 1460 + more + 'px';
       // realizationsEventyUl.style.height = 850 + more + 'px';
-      more += 1520;
+      more += 630;
       console.log(more);
     });
   }
