@@ -70,7 +70,7 @@
       <!-- wp:group -->
       <div class="wp-block-group col1 desktop:mb-auto mb-[20px] desktop:basis-[45%] h-[450px] desktop:h-[790px] wide:h-[900px] rounded-tr-[15px]">
         <!-- wp:group -->
-        <div id="aboutImg" class="wp-block-group relative w-full h-full rounded-tr-[20px] overflow-hidden">
+        <div class="wp-block-group relative w-full h-full rounded-tr-[20px] overflow-hidden">
           <!-- wp:paragraph -->
           <a id="aboutImg" href="#" class="pointer-events-none data-fade-left-invisible">
             <!-- wp:image -->
