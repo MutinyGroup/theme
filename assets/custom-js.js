@@ -20,7 +20,7 @@ window.addEventListener("load", function () {
           // document.querySelector(`#${id2}`).classList.replace('data-fade-left-visible','data-fade-left-invisible');
           document.querySelector(`#${id2}`).classList.remove('data-fade-left-visible');
         }else{
-          // document.querySelector(`#${id2}`).classList.add('opacity-1');
+          document.querySelector(`#${id2}`).classList.add('opacity-1');
 
         }
       },100);

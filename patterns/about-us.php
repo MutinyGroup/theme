@@ -108,7 +108,7 @@
         <!-- wp:list -->
         <ul id="counter" class="wp-block-list data-fade-left-invisible  targets-list max-w-[600px] wide:mb-[100px] desktop:mb-[70px] mb-[40px] text-left desktop:flex flex-wrap desktop:justify-start justify-center gap-x-[30px] gap-y-[50px]">
           <!-- wp:list-item -->
-          <li class="test relative mb-[20px] desktop:mb-0 desktop:max-w-[264px] max-w-full flex items-center desktop:list-item gap-[20px]">
+          <li class="relative mb-[20px] desktop:mb-0 desktop:max-w-[264px] max-w-full flex items-center desktop:list-item gap-[20px]">
             <!-- wp:group -->
             <div class="wp-block-group counter-index-wrapper min-w-[95px] inline relative">
               <!-- wp:group -->
