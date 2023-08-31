@@ -1,4 +1,30 @@
 window.addEventListener("load", function () {
+  // test
+  window.addEventListener('DOMContentLoaded', () => {
+
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        const id = entry.target.document.querySelector('.targets-title');
+        if (entry.intersectionRatio > 0) {
+          document.querySelector(`nav li a[href="#${id}"]`).parentElement.classList.add('customAnimate');
+        } else {
+          document.querySelector(`nav li a[href="#${id}"]`).parentElement.classList.remove('customAnimate');
+        }
+      });
+    });
+  
+    // Track all sections that have an `id` applied
+    document.querySelector('targets-title').forEach((section) => {
+      observer.observe(section);
+    });
+    
+  });
+
+  // end test
+
+  
+
+
 // services sticky title
 const paginationScroll = document.querySelector('.paginationScroll');
 const titleImg1 = document.querySelector('.title-img1');
@@ -164,6 +190,9 @@ if(document.body.classList.contains('page-id-101')){
   }
 
   // ANIMATIONS
+  AOS.init({
+    duration: 1200,
+  });
   const servicesTiles = document.querySelectorAll('.servicesTile');
   const slidesBlog = document.querySelectorAll('.slideBlog');
   const eventTiles = document.querySelectorAll('.event-tile');

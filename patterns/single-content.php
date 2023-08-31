@@ -131,7 +131,7 @@
     <!-- wp:group -->
     <div class="wp-block-group layout-two-cols mb-[50px] desktop:flex gap-[50px]">
       <!-- wp:group -->
-      <div class="wp-block-group post-content hidden desktop:w-[70%]">
+      <div class="wp-block-group post-content desktop:w-[70%]">
         <!-- wp:post-content /-->
       </div>
       <!-- /wp:group -->
