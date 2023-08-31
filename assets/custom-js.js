@@ -12,7 +12,7 @@ window.addEventListener("load", function () {
       });
     });
   
-      observer.observe(document.querySelector('targets-title'));
+      observer.observe(document.querySelector('.targets-title'));
     
 
   // end test
