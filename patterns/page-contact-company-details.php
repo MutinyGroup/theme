@@ -88,9 +88,10 @@
         <ul class="wp-block-list">
           <!-- wp:list-item -->
           <li>
-            <p data-aos="fade-righ" data-aos-duration="600" data-aos-offset="30"><span class="font-medium">NIP: </span>9571133012</p< /li>
-              <!-- /wp:list-item -->
-              <!-- wp:list-item -->
+            <p data-aos="fade-righ" data-aos-duration="600" data-aos-offset="30"><span class="font-medium">NIP: </span>9571133012</p>
+          </li>
+          <!-- /wp:list-item -->
+          <!-- wp:list-item -->
           <li><span class="font-medium">REGON: </span>388790205</li>
           <!-- /wp:list-item -->
           <!-- wp:list-item -->
