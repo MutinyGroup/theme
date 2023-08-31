@@ -46,19 +46,40 @@
 
         <!-- wp:group -->
         <div class="wp-block-group section-title grid desktop:basis-auto desktop:w-[30px] uppercase text-primaryYellow">
-          <!-- wp:paragraph -->
-          <p class="desktop:justify-self-end pt-[7px] pr-[15px] text-[20px]">02</p>
-          <!-- /wp:paragraph -->
+          <!-- wp:group -->
+          <div class="wp-block-group overflow-hidden">
+            <!-- wp:paragraph -->
+            <p data-aos="fade-up" data-aos-duration="600" data-aos-offset="30" class="desktop:justify-self-end pt-[7px] pr-[15px] text-[20px]">02</p>
+            <!-- /wp:paragraph -->
+          </div>
+          <!-- /wp:group -->
         </div>
         <!-- /wp:group -->
 
 
+
+
+
+
+
+
         <!-- wp:group -->
         <div class="wp-block-group uslugi-title uppercase font-medium desktop:text-[50px] text-[24px] desktop:leading-[60px] leading-[30px]">
-          <!-- wp:paragraph -->
-          <p class="uppercase">content<span class="relative inline desktop:text-[50px] text-[24px] uppercase italic before:content-[''] before:inline-block desktop:before:mr-[8px] before:mr-[4px] before:bottom-0 before:left-0 desktop:before:w-[90px] before:w-[30px] desktop:before:h-[3px] before:h-[2px] before:bg-black">Marketing</span>
-          </p>
-          <!-- /wp:paragraph -->
+          <!-- wp:group -->
+          <div class="wp-block-group overflow-hidden">
+            <!-- wp:paragraph -->
+            <p data-aos="fade-up" data-aos-duration="600" data-aos-offset="30" class="uppercase">Content</p>
+            <!-- /wp:paragraph -->
+          </div>
+          <!-- /wp:group -->
+
+          <!-- wp:group -->
+          <div class="wp-block-group overflow-hidden">
+            <!-- wp:paragraph -->
+            <p data-aos="fade-up" data-aos-duration="600" data-aos-offset="30" class="relative block desktop:text-[50px] text-[24px] uppercase italic before:content-[''] before:inline-block desktop:before:mr-[8px] before:mr-[4px] before:bottom-0 before:left-0 desktop:before:w-[90px] before:w-[30px] desktop:before:h-[3px] before:h-[2px] before:bg-black">Marketing</p>
+            <!-- /wp:paragraph -->
+          </div>
+          <!-- /wp:group -->
         </div>
         <!-- /wp:group -->
       </div>
