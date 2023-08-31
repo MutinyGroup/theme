@@ -97,15 +97,7 @@ if(document.body.classList.contains('page-id-101')){
 
 
 
-
-
-
-
-
-
-
-
-  // realizations page show more
+  // posts page show more
   const realizationsContainer = document.querySelector('#realizationsContainer');
   const BlogContainer = document.querySelector('#blogContainer');
   const showMoreBtn = document.querySelector('#showMore');
@@ -124,7 +116,7 @@ if(document.body.classList.contains('page-id-101')){
     showMoreBlogPostsBtn.addEventListener('click',()=>{
       BlogContainer.style.maxHeight = 1460 + more + 'px';
       // realizationsEventyUl.style.height = 850 + more + 'px';
-      more += 630;
+      more += 1520;
       console.log(more);
     });
   }
