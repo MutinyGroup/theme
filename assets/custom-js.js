@@ -6,7 +6,8 @@ window.addEventListener("load", function () {
     const observer = new IntersectionObserver(entries => {
       
       entries.forEach(entry => {
-        const id = entry.target.getAttribute('id');
+        // const id = entry.target.getAttribute('id');
+        const id = entry.target.classList.contains('data-fade-left-invisible')
         console.log(id);
         if (entry.intersectionRatio > 0 && id != null) {
           document.querySelector('#' + id).classList.add('data-fade-left-visible');
