@@ -21,7 +21,7 @@ window.addEventListener("load", function () {
             document.querySelector(`#${id2}`).classList.remove('data-fade-left-visible');
           }
         },100);
-      },{ rootMargin: "-50px" });
+      },{ rootMargin: "-30px" });
     });
   
       // observer.observe(document.querySelector('.data-fade-left-invisible'));
