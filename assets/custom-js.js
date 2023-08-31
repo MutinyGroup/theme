@@ -7,6 +7,7 @@ window.addEventListener("load", function () {
       
       entries.forEach(entry => {
         const id = entry.target.getAttribute('id');
+        console.log(id);
         if (entry.intersectionRatio > 0) {
           document.querySelector('#' + id).classList.add('data-fade-left-visible');
         } else {
