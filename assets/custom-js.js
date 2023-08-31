@@ -12,10 +12,10 @@ window.addEventListener("load", function () {
       });
     });
   
-      // observer.observe(document.querySelector('.targets-title'));
-      animatedElements.forEach((element) => {
-        observer.observe(element);
-      });
+      observer.observe(document.querySelector('.data-fade-left-invisible'));
+      // animatedElements.forEach((element) => {
+      //   observer.observe(element);
+      // });
     
 
   // end test
