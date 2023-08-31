@@ -128,7 +128,7 @@
             <!-- /wp:group -->
 
             <!-- wp:group -->
-            <div id="counter" class="wp-block-group data-fade-left-invisible text-wrapper">
+            <div id="counter2" class="wp-block-group data-fade-left-invisible text-wrapper">
               <!-- wp:paragraph -->
               <p class="target-title desktop:mb-[15px] mb-[5px] text-[25px] font-semibold leading-[30px]">Mamy plan</p>
               <!-- /wp:paragraph -->
