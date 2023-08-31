@@ -10,7 +10,7 @@ window.addEventListener("load", function () {
         console.log(id);
         if (entry.intersectionRatio > 0 && id != null) {
           document.querySelector('#' + id).classList.add('data-fade-left-visible');
-        } else {
+        } else if(id != null){
           document.querySelector('#' + id).classList.remove('data-fade-left-visible');
         }
       });
