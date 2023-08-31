@@ -6,9 +6,9 @@ window.addEventListener("load", function () {
       entries.forEach(entry => {
         const id = entry.target.document.querySelector('.targets-title');
         if (entry.intersectionRatio > 0) {
-          document.querySelector(`nav li a[href="#${id}"]`).parentElement.classList.add('customAnimate');
+          document.querySelector('.targets-title').classList.add('customAnimate');
         } else {
-          document.querySelector(`nav li a[href="#${id}"]`).parentElement.classList.remove('customAnimate');
+          document.querySelector('.targets-title').classList.remove('customAnimate');
         }
       });
     });
