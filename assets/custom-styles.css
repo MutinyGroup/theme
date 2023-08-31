@@ -192,6 +192,10 @@ figure[class*="logo-img"] img {
   text-decoration: none;
   margin-bottom: 30px;
 }
+.single-realizacje .entry-content ul {
+  margin-left: 0px;
+  margin-bottom: 0px;
+}
 .single-uslugi .entry-content ul {
   margin-left: 0px;
   margin-bottom: 0px;
