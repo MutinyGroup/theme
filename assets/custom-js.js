@@ -4,19 +4,16 @@ window.addEventListener("load", function () {
 
     const observer = new IntersectionObserver(entries => {
       entries.forEach(entry => {
-        const id = entry.target.document.querySelector('.targets-title');
+        // const id = entry.target.document.querySelector('.targets-title');
         if (entry.intersectionRatio > 0) {
           document.querySelector('.targets-title').classList.add('customAnimate');
         } else {
-          document.querySelector('.targets-title').classList.remove('customAnimate');
+          // document.querySelector('.targets-title').classList.remove('customAnimate');
         }
       });
     });
   
-    // Track all sections that have an `id` applied
-    document.querySelector('targets-title').forEach((section) => {
-      observer.observe(section);
-    });
+      observer.observe(document.querySelector('targets-title'));
     
   });
 
