@@ -8,11 +8,12 @@ window.addEventListener("load", function () {
       entries.forEach(entry => {
         // const id = entry.target.getAttribute('id');
         const id = entry.target.classList.contains('data-fade-left-invisible')
+        const id2 = entry.target.getAttribute('id')
         console.log(id);
         if (entry.intersectionRatio > 0 && id == true) {
-          document.querySelector('.data-fade-left-invisible').classList.add('data-fade-left-visible');
+          document.querySelector(`"#${id2}"`).classList.add('data-fade-left-visible');
         } else if(id != null){
-          document.querySelector('.data-fade-left-invisible').classList.remove('data-fade-left-visible');
+          document.querySelector(`"#${id2}"`).classList.remove('data-fade-left-visible');
         }
       });
     });
