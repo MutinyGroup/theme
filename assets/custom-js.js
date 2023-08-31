@@ -9,10 +9,10 @@ window.addEventListener("load", function () {
         // const id = entry.target.getAttribute('id');
         const id = entry.target.classList.contains('data-fade-left-invisible')
         console.log(id);
-        if (entry.intersectionRatio > 0 && id != null) {
-          document.querySelector('#' + id).classList.add('data-fade-left-visible');
+        if (entry.intersectionRatio > 0 && id == true) {
+          document.querySelector('.data-fade-left-invisible').classList.add('data-fade-left-visible');
         } else if(id != null){
-          document.querySelector('#' + id).classList.remove('data-fade-left-visible');
+          document.querySelector('.data-fade-left-invisible').classList.remove('data-fade-left-visible');
         }
       });
     });
