@@ -3,10 +3,10 @@ window.addEventListener("load", function () {
 
     const observer = new IntersectionObserver(entries => {
       entries.forEach(entry => {
-        if (entry.intersectionRatio > 30) {
-          document.querySelector('.targets-title').classList.add('.data-aos-animate', 'data-fade-right');
+        if (entry.intersectionRatio > 0) {
+          document.querySelector('.targets-title').classList.add('data-aos-animate', 'data-fade-right');
         } else {
-          document.querySelector('.targets-title').classList.remove('.data-aos-animate', 'data-fade-right');
+          document.querySelector('.targets-title').classList.remove('data-aos-animate', 'data-fade-right');
         }
       });
     });
