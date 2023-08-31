@@ -9,7 +9,7 @@
 ?>
 
 <!-- wp:group {"templateLock":"contentOnly","anchor":true} -->
-<div id="Galeria Swiper" class="wp-block-group page-marketing-info mb-[100px] relative">
+<div id="Galeria Swiper" class="wp-block-group page-marketing-info mb-[50px] desktop:mb-[100px] relative">
   <!-- wp:paragraph -->
   <p>
     <svg class="bg-shape z-[0] opacity-[80%] absolute top-0 right-0" xmlns="http://www.w3.org/2000/svg" width="1051" height="810" viewBox="0 0 1051 810" fill="none">
