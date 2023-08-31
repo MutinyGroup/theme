@@ -90,7 +90,7 @@
     $counter = 0;
     $postID2 = array();
 
-    if ($post_query->have_posts()) {
+    if (false) {
       while ($post_query->have_posts()) {
         $post_query->the_post();
 
@@ -109,15 +109,15 @@
     <?php
       };
     };
-    echo 'postid2: ';
-    print_r($postID2);
-    echo 'get the id: ';
-    print_r(get_the_ID());
-    echo 'test01: ' . $test01;
+    // echo 'postid2: ';
+    // print_r($postID2);
+    // echo 'get the id: ';
+    // print_r(get_the_ID());
+    // echo 'test01: ' . $test01;
     ?>
 
     <!-- wp:group -->
-    <div class="wp-block-group featured-image-acf mb-[100px] w-[1300px] h-[400px]">
+    <div class="wp-block-group hidden featured-image-acf mb-[100px] w-[1300px] h-[400px]">
       <?php echo $postID; ?>
       <!-- wp:image -->
       <figure class="wp-block-image test1">
