@@ -80,52 +80,6 @@
     </div>
     <!-- /wp:group -->
 
-    <?php
-    $args = array(
-      'posts_per_page' => 100,
-      'post_type' => 'post',
-      // 'posts_per_page' => 1,
-    );
-    $post_query = new WP_Query($args);
-    $counter = 0;
-    $postID2 = array();
-
-    if (false) {
-      while ($post_query->have_posts()) {
-        $post_query->the_post();
-
-        $postID = get_the_ID();
-        // $postID2 = array();
-        echo 'array push: ';
-        array_push($postID2, get_the_ID());
-        // echo $post_query->current_post;
-        print_r(bloginfo())
-    ?>
-        <!-- wp:image -->
-        <figure class="wp-block-image hidden test1">
-          <img src="<?php echo get_field('featured_image2', $postID); ?>" />
-        </figure>
-        <!-- /wp:image -->
-    <?php
-      };
-    };
-    // echo 'postid2: ';
-    // print_r($postID2);
-    // echo 'get the id: ';
-    // print_r(get_the_ID());
-    // echo 'test01: ' . $test01;
-    ?>
-
-    <!-- wp:group -->
-    <div class="wp-block-group hidden featured-image-acf mb-[100px] w-[1300px] h-[400px]">
-      <?php echo $postID; ?>
-      <!-- wp:image -->
-      <figure class="wp-block-image test1">
-        <img src="<?php echo get_field('featured_image2', $postID); ?>" />
-      </figure>
-      <!-- /wp:image -->
-    </div>
-    <!-- /wp:group -->
 
 
     <!-- wp:group -->
