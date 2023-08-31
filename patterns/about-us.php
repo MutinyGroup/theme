@@ -99,7 +99,7 @@
       <!-- wp:group -->
       <div class="wp-block-group col2 relative  desktop:basis-[55%]">
         <!-- wp:paragraph -->
-        <p class="targets-title data-fade-left-invisible desktop:mb-[80px] mb-[60px] max-w-[535px] text-[18px] font-light leading-[30px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <span class="text-primaryYellow">Ut enim ad minim veniam</span>, quis nostrud exercitation.</p>
+        <p id="test" class="targets-title data-fade-left-invisible desktop:mb-[80px] mb-[60px] max-w-[535px] text-[18px] font-light leading-[30px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <span class="text-primaryYellow">Ut enim ad minim veniam</span>, quis nostrud exercitation.</p>
         <!-- /wp:paragraph -->
         <!-- wp:list -->
         <ul class="wp-block-list targets-list max-w-[600px] wide:mb-[100px] desktop:mb-[70px] mb-[40px] text-left desktop:flex flex-wrap desktop:justify-start justify-center gap-x-[30px] gap-y-[50px]">
@@ -126,7 +126,7 @@
             <!-- wp:group -->
             <div class="wp-block-group text-wrapper">
               <!-- wp:paragraph -->
-              <p data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="target-title desktop:mb-[15px] mb-[5px] text-[25px] font-semibold leading-[30px]">Mamy plan</p>
+              <p id="test" data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="target-title desktop:mb-[15px] mb-[5px] text-[25px] font-semibold leading-[30px]">Mamy plan</p>
               <!-- /wp:paragraph -->
               <!-- wp:paragraph -->
               <p data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="target-paragraph font-light leading-[22px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
