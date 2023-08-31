@@ -70,7 +70,7 @@
       <!-- wp:group -->
       <div class="wp-block-group col1 desktop:mb-auto mb-[20px] desktop:basis-[45%] h-[450px] desktop:h-[790px] wide:h-[900px] rounded-tr-[15px]">
         <!-- wp:group -->
-        <div id="aboutImg" class="wp-block-group data-fade-left-invisible relative w-full h-full rounded-tr-[20px] overflow-hidden">
+        <div class="wp-block-group relative w-full h-full rounded-tr-[20px] overflow-hidden">
           <!-- wp:paragraph -->
           <a href="#" class="pointer-events-none ">
             <!-- wp:image -->
@@ -103,7 +103,7 @@
       <!-- wp:group -->
       <div class="wp-block-group col2 relative  desktop:basis-[55%]">
         <!-- wp:paragraph -->
-        <p id="test" class="targets-title data-fade-left-invisible desktop:mb-[80px] mb-[60px] max-w-[535px] text-[18px] font-light leading-[30px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <span class="text-primaryYellow">Ut enim ad minim veniam</span>, quis nostrud exercitation.</p>
+        <p class="targets-title desktop:mb-[80px] mb-[60px] max-w-[535px] text-[18px] font-light leading-[30px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <span class="text-primaryYellow">Ut enim ad minim veniam</span>, quis nostrud exercitation.</p>
         <!-- /wp:paragraph -->
         <!-- wp:list -->
         <ul class="wp-block-list targets-list max-w-[600px] wide:mb-[100px] desktop:mb-[70px] mb-[40px] text-left desktop:flex flex-wrap desktop:justify-start justify-center gap-x-[30px] gap-y-[50px]">
@@ -122,7 +122,7 @@
               <!-- /wp:group -->
 
               <!-- wp:paragraph -->
-              <p id="counter" class="target-num data-fade-left-invisible inline-block desktop:text-[85px] text-[80px] font-semibold">01</p>
+              <p class="target-num inline-block desktop:text-[85px] text-[80px] font-semibold">01</p>
               <!-- /wp:paragraph -->
             </div>
             <!-- /wp:group -->
