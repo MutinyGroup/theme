@@ -13,7 +13,7 @@
   <!-- wp:group -->
   <div class="wp-block-group container mx-auto relative desktop:px-0 px-[20px]">
     <!-- wp:group -->
-    <div class="wp-block-group title-wrapper relative container mx-auto desktop:mb-[120px] mb-[60px] desktop:flex z-[1]">
+    <div class="wp-block-group title-wrapper relative container mx-auto desktop:mb-[100px] mb-[60px] desktop:flex z-[1]">
       <!-- wp:paragraph -->
       <p>
         <svg class="flash desktop:scale-[1] scale-[0.4] absolute desktop:top-[-330px] top-[-360px] desktop:left-[-140px] right-[-100px] z-[-1]" xmlns="http://www.w3.org/2000/svg" width="688" height="801" viewBox="0 0 688 801" fill="none">
@@ -42,7 +42,6 @@
       </p>
       <!-- /wp:paragraph -->
 
-
       <!-- wp:group -->
       <div class="wp-block-group h-fit overflow-hidden">
         <!-- wp:paragraph -->
@@ -50,8 +49,6 @@
         <!-- /wp:paragraph -->
       </div>
       <!-- /wp:group -->
-
-
 
       <!-- wp:group -->
       <div class="wp-block-group uslugi-title desktop:text-[50px] text-[24px] desktop:leading-[55px] leading-[30px]">
@@ -74,8 +71,6 @@
           <!-- /wp:paragraph -->
         </div>
         <!-- /wp:group -->
-
-
 
         <!-- wp:paragraph -->
         <p class="hidden uppercase desktop:text-[50px] text-[24px] desktop:leading-[55px] leading-[30px]">Wybierz usługę którą <br />jesteś<span class="relative desktop:text-[50px] text-[24px] uppercase italic before:content-[''] before:inline-block desktop:before:mr-[8px] before:mr-[4px] before:bottom-0 before:left-0 desktop:before:w-[90px] before:w-[30px] desktop:before:h-[3px] before:h-[2px] before:bg-black">zainteresowany</span></p>
