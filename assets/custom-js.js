@@ -11,7 +11,7 @@ window.addEventListener("load", function () {
         const id2 = entry.target.getAttribute('id')
         console.log(id);
         console.log(id2);
-        if (entry.intersectionRatio > 0 && id == true && id2 == true && id2 != null) {
+        if (entry.intersectionRatio > 0 && id == true && id2 == true ) {
           document.querySelector(`#${id2}`).classList.add('data-fade-left-visible');
         } else if(id != false && id2 != null){
           document.querySelector(`#${id2}`).classList.remove('data-fade-left-visible');
