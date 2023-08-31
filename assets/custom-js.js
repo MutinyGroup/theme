@@ -8,10 +8,10 @@ window.addEventListener("load", function () {
       entries.forEach(entry => {
         // const id = entry.target.getAttribute('id');
         const id = entry.target.classList.contains('data-fade-left-invisible')
-        const id2 = entry.target.getAttribute('id')
-        console.log(id);
-        console.log(id2);
-        if (entry.intersectionRatio > 0 && id == true && id2 == true ) {
+        const id2 = entry.target.getAttribute('id');
+        console.log('id' + id);
+        console.log('id2' + id2);
+        if (entry.intersectionRatio > 0 && id == true && id == true && id2 != null) {
           document.querySelector(`#${id2}`).classList.add('data-fade-left-visible');
         } else if(id != false && id2 != null){
           document.querySelector(`#${id2}`).classList.remove('data-fade-left-visible');
