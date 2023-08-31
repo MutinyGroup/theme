@@ -1,25 +1,24 @@
 window.addEventListener("load", function () {
   // test
   const animatedElements = document.querySelectorAll('.data-fade-left-invisible')
-
+  
 
     const observer = new IntersectionObserver(entries => {
-      animatedElements.forEach(element => {
-        entries.forEach(entry => {
-          if (entry.intersectionRatio > 0) {
-            element.classList.add('data-fade-left-visible');
-          } else {
-            element.classList.remove('data-fade-left-visible');
-          }
-        });
-      })
+      const id = entry.target.getAttribute('id');
 
+      entries.forEach(entry => {
+        if (entry.intersectionRatio > 0) {
+          document.querySelector('#${id}').classList.add('data-fade-left-visible');
+        } else {
+          document.querySelector('#${id}').classList.remove('data-fade-left-visible');
+        }
+      });
     });
   
-      // observer.observe(document.querySelector('.data-fade-left-invisible'));
-      animatedElements.forEach((element) => {
-        observer.observe(element);
-      });
+      observer.observe(document.querySelector('.data-fade-left-invisible'));
+      // animatedElements.forEach((element) => {
+      //   observer.observe(element);
+      // });
     
 
   // end test
