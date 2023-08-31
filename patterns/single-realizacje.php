@@ -32,7 +32,7 @@
     <!-- /wp:paragraph -->
 
     <!-- wp:group -->
-    <div class="wp-block-group post-title px-[20px] desktop:px-0 text-[50px] leading-[55px] font-normal">
+    <div class="wp-block-group mb-[60px] post-title px-[20px] desktop:px-0 text-[50px] leading-[55px] font-normal">
       <!-- wp:post-title /-->
     </div>
     <!-- /wp:group -->
