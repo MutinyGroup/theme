@@ -7,7 +7,7 @@ window.addEventListener("load", function () {
         if (entry.intersectionRatio > 0) {
           document.querySelector('.targets-title').classList.add('customAnimate');
         } else {
-          // document.querySelector('.targets-title').classList.remove('customAnimate');
+          document.querySelector('.targets-title').classList.remove('customAnimate');
         }
       });
     });
