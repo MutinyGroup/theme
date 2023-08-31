@@ -126,7 +126,7 @@
             <!-- wp:group -->
             <div class="wp-block-group text-wrapper">
               <!-- wp:paragraph -->
-              <p id="test" data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="target-title desktop:mb-[15px] mb-[5px] text-[25px] font-semibold leading-[30px]">Mamy plan</p>
+              <p id="test2" data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="target-title desktop:mb-[15px] mb-[5px] text-[25px] font-semibold leading-[30px]">Mamy plan</p>
               <!-- /wp:paragraph -->
               <!-- wp:paragraph -->
               <p data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="target-paragraph font-light leading-[22px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
