@@ -1,6 +1,5 @@
 window.addEventListener("load", function () {
   // test
-  window.addEventListener('DOMContentLoaded', () => {
 
     const observer = new IntersectionObserver(entries => {
       entries.forEach(entry => {
@@ -15,7 +14,6 @@ window.addEventListener("load", function () {
   
       observer.observe(document.querySelector('targets-title'));
     
-  });
 
   // end test
 
