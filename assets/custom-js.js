@@ -11,6 +11,7 @@ window.addEventListener("load", function () {
         const id2 = entry.target.getAttribute('id');
         console.log('id' + id);
         console.log('id2' + id2);
+        setTimeout(() => {
         if (entry.intersectionRatio > 0 && id == true && id2 != null) {
           document.querySelector(`#${id2}`).classList.replace('data-fade-left-invisible', 'data-fade-left-visible');
           // document.querySelector(`#${id2}`).classList.add('data-fade-left-visible');
@@ -18,6 +19,7 @@ window.addEventListener("load", function () {
           document.querySelector(`#${id2}`).classList.replace('data-fade-left-visible','data-fade-left-invisible');
           // document.querySelector(`#${id2}`).classList.remove('data-fade-left-visible');
         }
+      },100);
       });
     });
   
