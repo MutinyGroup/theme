@@ -10,6 +10,7 @@ window.addEventListener("load", function () {
         const id = entry.target.classList.contains('data-fade-left-invisible')
         const id2 = entry.target.getAttribute('id')
         console.log(id);
+        console.log(id2);
         if (entry.intersectionRatio > 0 && id == true) {
           document.querySelector(`"#${id2}"`).classList.add('data-fade-left-visible');
         } else if(id != null){
