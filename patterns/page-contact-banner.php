@@ -19,7 +19,7 @@
         <!-- wp:group -->
         <div class="wp-block-group section-title grid desktop:w-[145px] w-[90px] uppercase text-primaryYellow">
           <!-- wp:group -->
-          <div class="wp-block-group h-fit overflow-hidden flex justify-end">
+          <div class="wp-block-group h-fit overflow-hidden flex desktop:justify-end">
             <!-- wp:paragraph -->
             <p class="test01 justify-self-end pt-[3px] pr-[15px]">DZIAŁAMY</p>
             <!-- /wp:paragraph -->
@@ -37,11 +37,7 @@
           <!-- wp:group -->
           <div class="wp-block-group overflow-hidden">
             <!-- wp:paragraph -->
-            <p class="test01 company-title font-medium overflow-hidden">
-              <span class="block">
-                SKONTAKTUJ SIĘ
-              </span>
-            </p>
+            <p class="test01 company-title font-medium overflow-hidden"><span class="block">SKONTAKTUJ SIĘ</span></p>
             <!-- /wp:paragraph -->
           </div>
           <!-- /wp:group -->
