@@ -89,7 +89,7 @@
       </p>
       <!-- /wp:paragraph -->
       <!-- wp:paragraph -->
-      <p data-aos="fade-righ" data-aos-duration="600" data-aos-offset="30" class="text text-[20px] leading-[30px] max-w-[625px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      <p data-aos="fade-right" data-aos-duration="600" data-aos-offset="30" class="text text-[20px] leading-[30px] max-w-[625px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
       <!-- /wp:paragraph -->
     </div>
     <!-- /wp:group -->
@@ -133,10 +133,10 @@
         <!-- wp:group -->
         <div class="wp-block-group mb-[30px] name-wrapper leading-[28px]">
           <!-- wp:paragraph -->
-          <p data-aos="fade-righ" data-aos-duration="600" data-aos-offset="30" class="desktop:text-[35px] text-[24px] font-medium">Karol Anusiewicz</p>
+          <p data-aos="fade-right" data-aos-duration="600" data-aos-offset="30" class="desktop:text-[35px] text-[24px] font-medium">Karol Anusiewicz</p>
           <!-- /wp:paragraph -->
           <!-- wp:paragraph -->
-          <p data-aos="fade-righ" data-aos-duration="600" data-aos-offset="30" class="desktop:text-[20px] text-[15px] font-light">Co-founder & Project Manager</p>
+          <p data-aos="fade-right" data-aos-duration="600" data-aos-offset="30" class="desktop:text-[20px] text-[15px] font-light">Co-founder & Project Manager</p>
           <!-- /wp:paragraph -->
         </div>
         <!-- /wp:group -->
@@ -144,10 +144,10 @@
         <!-- wp:group -->
         <div class="wp-block-group mail-phone-wrapper flex flex-col gap-y-[14px] desktop:leading-[38px] leading-[24px]">
           <!-- wp:paragraph -->
-          <p data-aos="fade-righ" data-aos-duration="600" data-aos-offset="30" class="w-fit desktop:text-[25px] text-[18px] leading-[24px] inline font-medium border-b-[1px] border-black hover:border-primaryYellow hover:text-primaryYellow transition ease-out duration-300 cursor-pointer">kontakt@mutiny.pl</p>
+          <p data-aos="fade-right" data-aos-duration="600" data-aos-offset="30" class="w-fit desktop:text-[25px] text-[18px] leading-[24px] inline font-medium border-b-[1px] border-black hover:border-primaryYellow hover:text-primaryYellow transition ease-out duration-300 cursor-pointer">kontakt@mutiny.pl</p>
           <!-- /wp:paragraph -->
           <!-- wp:paragraph -->
-          <p data-aos="fade-righ" data-aos-duration="600" data-aos-offset="30" class="w-fit desktop:text-[20px] text-[15px] leading-[24px] inline font-medium border-b-[1px] border-black hover:border-primaryYellow hover:text-primaryYellow transition ease-out duration-300 cursor-pointer">+48 795 123 584</p>
+          <p data-aos="fade-right" data-aos-duration="600" data-aos-offset="30" class="w-fit desktop:text-[20px] text-[15px] leading-[24px] inline font-medium border-b-[1px] border-black hover:border-primaryYellow hover:text-primaryYellow transition ease-out duration-300 cursor-pointer">+48 795 123 584</p>
           <!-- /wp:paragraph -->
         </div>
         <!-- /wp:group -->
