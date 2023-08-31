@@ -103,21 +103,20 @@ if(document.body.classList.contains('page-id-101')){
   const showMoreBtn = document.querySelector('#showMore');
   const showMoreBlogPostsBtn = document.querySelector('#showMorePosts');
   let more = 900;
+  let more2 = 1520;
 
   if(document.body.classList.contains('page-id-110')){
     showMoreBtn.addEventListener('click',()=>{
       realizationsContainer.style.maxHeight = 1500 + more + 'px';
       // realizationsEventyUl.style.height = 850 + more + 'px';
       more += 900;
-      console.log(more);
     });
 };
   if(document.body.classList.contains('blog')){
     showMoreBlogPostsBtn.addEventListener('click',()=>{
-      BlogContainer.style.maxHeight = 1460 + more + 'px';
+      BlogContainer.style.maxHeight = 1460 + more2 + 'px';
       // realizationsEventyUl.style.height = 850 + more + 'px';
-      more += 1520;
-      console.log(more);
+      more2 += 1520;
     });
   }
   
