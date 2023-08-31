@@ -11,38 +11,7 @@
 <!-- wp:group {"templateLock":"contentOnly","anchor":true} -->
 <div id="Wpis" class="wp-block-group single-realizacje mb-[150px] overflow-hidden">
   <!-- wp:group -->
-  <div class="wp-block-group container mx-auto relative desktop:px-0 px-[20px]">
-
-    <!-- wp:group -->
-    <div class="hidden loop-test wp-block-group">
-      <!-- wp:paragraph -->
-      <p>php loop test</p>
-      <!-- /wp:paragraph -->
-      <?php
-      $args = array(
-        'post_type' => 'post'
-      );
-
-      $post_query = new WP_Query($args);
-
-      if ($post_query->have_posts()) {
-        while ($post_query->have_posts()) {
-          $post_query->the_post();
-      ?>
-          <!-- wp:paragraph -->
-          <p><?php the_title(); ?></p>
-          <!-- /wp:paragraph -->
-          <!-- wp:paragraph -->
-          <p><?php the_time('m/d/Y') ?></p>
-          <!-- /wp:paragraph -->
-      <?php
-        }
-      }
-      ?>
-    </div>
-    <!-- /wp:group -->
-
-
+  <div class="wp-block-group mx-auto relative desktop:px-0">
     <!-- wp:paragraph -->
     <a href="/realizations/" class="group mt-[60px] mb-[40px] w-fit font-semibold flex items-center gap-[8px]">
       <!-- wp:group -->
@@ -63,7 +32,7 @@
     <!-- /wp:paragraph -->
 
     <!-- wp:group -->
-    <div class="wp-block-group post-title text-[50px] leading-[55px] font-normal">
+    <div class="wp-block-group post-title px-[20px] desktop:px-0 text-[50px] leading-[55px] font-normal">
       <!-- wp:post-title /-->
     </div>
     <!-- /wp:group -->
