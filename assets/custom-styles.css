@@ -358,4 +358,6 @@ figure[class*="logo-img"] img {
   opacity: 1;
   transform: none;
   transform: translate3d(0px, 0, 0);
+  transition-property: opacity, transform;
+  transition: all 0.6s ease;
 }
