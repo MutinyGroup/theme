@@ -108,9 +108,9 @@
         <!-- wp:list -->
         <ul class="wp-block-list targets-list max-w-[600px] wide:mb-[100px] desktop:mb-[70px] mb-[40px] text-left desktop:flex flex-wrap desktop:justify-start justify-center gap-x-[30px] gap-y-[50px]">
           <!-- wp:list-item -->
-          <li class="test data-fade-left-invisible relative mb-[20px] desktop:mb-0 desktop:max-w-[264px] max-w-full flex items-center desktop:list-item gap-[20px]">
+          <li class="test relative mb-[20px] desktop:mb-0 desktop:max-w-[264px] max-w-full flex items-center desktop:list-item gap-[20px]">
             <!-- wp:group -->
-            <div id="counter" class="wp-block-group counter-index-wrapper min-w-[95px] inline relative">
+            <div id="counter" class="wp-block-group data-fade-left-invisible counter-index-wrapper min-w-[95px] inline relative">
               <!-- wp:group -->
               <div class="wp-block-group circle-counter-index opacity-[15%] w-[80px] h-[80px] absolute desktop:top-[-85px] top-[-15px] desktop:right-[-40px] right-[-10px]">
                 <!-- wp:paragraph -->
@@ -128,7 +128,7 @@
             <!-- /wp:group -->
 
             <!-- wp:group -->
-            <div id="counter" class="wp-block-group text-wrapper">
+            <div id="counter" class="wp-block-group data-fade-left-invisible text-wrapper">
               <!-- wp:paragraph -->
               <p class="target-title desktop:mb-[15px] mb-[5px] text-[25px] font-semibold leading-[30px]">Mamy plan</p>
               <!-- /wp:paragraph -->
