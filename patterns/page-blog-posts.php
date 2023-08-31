@@ -27,7 +27,7 @@
       </svg>
       <!-- /wp:paragraph -->
       <!-- wp:list -->
-      <ul class="wp-block-list blog-posts-wrapper flex flex-wrap desktop:justify-center desktop:gap-x-[100px] wide:gap-x-[100px] gap-y-[40px] desktop:gap-y-[200px]">
+      <ul class="wp-block-list blog-posts-wrapper flex flex-wrap desktop:justify-center desktop:gap-x-[80px] wide:gap-x-[100px] gap-y-[40px] desktop:gap-y-[200px]">
         <?php
         $args = array(
           'post_type' => 'post',
@@ -50,7 +50,7 @@
               $test01 = get_the_ID();
         ?>
               <!-- wp:list-item -->
-              <li class="bigger relative group w-full slideBlog opacity-0 desktop:w-[535px] wide:w-[580px] h-fit desktop:h-[545px] wide:h-[650px] transition duration-[800ms] ease-in <?php echo (!($counter % 2)) ? 'desktop:pt-[120px]' : ''; ?>">
+              <li class="bigger relative group w-full slideBlog opacity-0 desktop:w-[535px] wide:w-[580px] h-fit desktop:h-[545px] wide:h-[650px] transition duration-[800ms] ease-in <?php echo (!($counter % 2)) ? 'desktop:mt-[120px]' : ''; ?>">
                 <a href="<?php the_permalink(); ?>">
                   <!-- wp:group -->
                   <div class="wp-block-group h-full mb-[20px]">
@@ -97,7 +97,7 @@
               $test01 = get_the_ID();
             ?>
               <!-- wp:list-item -->
-              <li class="wp-block-group smaller swiper-slide slideBlog opacity-0 relative group w-full desktop:w-[444px] wide:w-[490px] h-fit desktop:h-[500px] transition duration-[800ms] ease-in <?php echo (!($counter % 2)) ? 'desktop:pt-[120px]' : ''; ?>">
+              <li class="wp-block-group smaller swiper-slide slideBlog opacity-0 relative group w-full desktop:w-[444px] wide:w-[490px] h-fit desktop:h-[500px] transition duration-[800ms] ease-in <?php echo (!($counter % 2)) ? 'desktop:mt-[120px]' : ''; ?>">
                 <a href="<?php the_permalink(); ?>">
                   <!-- wp:group -->
                   <div class="wp-block-group h-full mb-[20px]">
