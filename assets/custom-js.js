@@ -8,19 +8,20 @@ window.addEventListener("load", function () {
       entries.forEach(entry => {
         // const id = entry.target.getAttribute('id');
         const id = entry.target.classList.contains('data-fade-left-invisible')
-        const id2 = entry.target.getAttribute('id');
+        // const id2 = entry.target.getAttribute('id');
+        const id2 = entry.target.querySelector('test');
         console.log('id' + id);
         console.log('id2' + id2);
 
         setTimeout(() => {
         if (entry.intersectionRatio > 0 && id2 != null) {
           // document.querySelector(`#${id2}`).classList.replace('data-fade-left-invisible', 'data-fade-left-visible');
-          document.querySelector(`#${id2}`).classList.add('data-fade-left-visible');
+          document.querySelector(`.${id2}`).classList.add('data-fade-left-visible');
         } else if(id != false && id2 != null){
           // document.querySelector(`#${id2}`).classList.replace('data-fade-left-visible','data-fade-left-invisible');
-          document.querySelector(`#${id2}`).classList.remove('data-fade-left-visible');
+          document.querySelector(`.${id2}`).classList.remove('data-fade-left-visible');
         }else{
-          document.querySelector(`#${id2}`).classList.add('opacity-1');
+          document.querySelector(`.${id2}`).classList.add('opacity-1');
 
         }
       },100);
