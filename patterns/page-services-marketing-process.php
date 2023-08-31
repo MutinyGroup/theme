@@ -128,7 +128,7 @@
             <!-- /wp:paragraph -->
 
             <!-- wp:list -->
-            <ul class="wp-block-list mt-[50px]">
+            <ul class="wp-block-list mt-[50px] ml-0">
               <!-- wp:list-item -->
               <li class="list-content-wrapper transition ease-out duration-[500ms]">
                 <!-- wp:group -->
