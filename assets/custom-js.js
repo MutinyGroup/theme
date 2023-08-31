@@ -1,5 +1,5 @@
 window.addEventListener("load", function () {
-  // test
+  // test observer
   const animatedElements = document.querySelectorAll('.data-fade-left-invisible')
   
 
@@ -27,7 +27,6 @@ window.addEventListener("load", function () {
       // observer.observe(document.querySelector('.data-fade-left-invisible'));
       animatedElements.forEach((element) => {
         observer.observe(element);
-        element.classList.add('opacity-100')
       });
     
 
