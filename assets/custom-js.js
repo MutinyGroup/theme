@@ -1,17 +1,21 @@
 window.addEventListener("load", function () {
   // test
+  const animatedElements = document.querySelectorAll('.data-fade-left-invisible')
 
     const observer = new IntersectionObserver(entries => {
       entries.forEach(entry => {
         if (entry.intersectionRatio > 0) {
-          document.querySelector('.targets-title').classList.add('data-fade-left-visible');
+          document.querySelector('.data-fade-left-invisible').classList.add('data-fade-left-visible');
         } else {
-          document.querySelector('.targets-title').classList.remove('data-fade-left-visible');
+          document.querySelector('.data-fade-left-invisible').classList.remove('data-fade-left-visible');
         }
       });
     });
   
-      observer.observe(document.querySelector('.targets-title'));
+      // observer.observe(document.querySelector('.targets-title'));
+      animatedElements.forEach((element) => {
+        observer.observe(element);
+      });
     
 
   // end test

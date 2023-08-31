@@ -118,7 +118,7 @@
               <!-- /wp:group -->
 
               <!-- wp:paragraph -->
-              <p data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="target-num inline-block desktop:text-[85px] text-[80px] font-semibold">01</p>
+              <p class="target-num data-fade-left-invisible inline-block desktop:text-[85px] text-[80px] font-semibold">01</p>
               <!-- /wp:paragraph -->
             </div>
             <!-- /wp:group -->
