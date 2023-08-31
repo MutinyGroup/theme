@@ -72,7 +72,7 @@
         <!-- wp:group -->
         <div class="wp-block-group relative w-full h-full rounded-tr-[20px] overflow-hidden">
           <!-- wp:paragraph -->
-          <a id="aboutImg" href="#" class="pointer-events-none data-fade-left-invisible">
+          <a id="test" href="#" class="pointer-events-none data-fade-left-invisible">
             <!-- wp:image -->
             <figure class="wp-block-image w-full h-full clip-path-url-['#clipped-about']">
               <img src="<?php echo home_url() . '/wp-content/themes/mutiny/assets/img/front-page/o-nas-img.png'; ?>" alt="about-us-image">
