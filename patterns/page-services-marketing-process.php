@@ -118,7 +118,7 @@
           <!-- wp:group -->
           <div class="wp-block-group col2 desktop:w-[50%] z-[1]">
             <!-- wp:paragraph -->
-            <p class="text-[35px] font-semibold pb-[50px]"><span data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="block">Jak wygląda proces realizacji</span></p>
+            <p class="text-[35px] font-semibold"><span data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="block">Jak wygląda proces realizacji</span></p>
             <!-- /wp:paragraph -->
             <!-- wp:paragraph -->
             <p class="text-[16px] pt-[50px]"><span data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="block">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</span></p>
