@@ -70,7 +70,7 @@
       <!-- wp:group -->
       <div class=" wp-block-group col2 basis-[60%]">
         <!-- wp:paragraph -->
-        <p class="desktop:text-[20px] text-[18px] desktop:leading-[30px] leading-[26px] mb-[50px]"><span data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="block">test Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doeiusmod tempor incididunt ut labore et dolore magna aliqua. Utenim ad minim veniam, quis nostrud exercitation ullamco laborisnisi ut aliquip ex ea commodo consequat.</span></p>
+        <p class="desktop:text-[20px] text-[18px] desktop:leading-[30px] leading-[26px]"><span data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="block">test Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doeiusmod tempor incididunt ut labore et dolore magna aliqua. Utenim ad minim veniam, quis nostrud exercitation ullamco laborisnisi ut aliquip ex ea commodo consequat.</span></p>
         <!-- /wp:paragraph -->
         <!-- wp:paragraph -->
         <p data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="hidden desktop:block text-[16px] leading-[21px] pt-[50px]"><span data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="block">(test2)Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doeiusmod tempor incididunt ut labore et dolore magna aliqua. Utenim ad minim veniam, quis nostrud exercitation ullamco laborisnisi ut aliquip ex ea commodo consequat.</span></p>
