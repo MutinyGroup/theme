@@ -92,10 +92,16 @@
           </li>
           <!-- /wp:list-item -->
           <!-- wp:list-item -->
-          <li><span class="font-medium">REGON: </span>388790205</li>
+          <li>
+            <p data-aos="fade-right" data-aos-duration="600" data-aos-offset="30"><span class="font-medium">REGON: </span>388790205
+          </li>
+          </p>
           <!-- /wp:list-item -->
           <!-- wp:list-item -->
-          <li><span class="font-medium">KRS: </span>0000898283</li>
+          <li>
+            <p data-aos="fade-right" data-aos-duration="600" data-aos-offset="30"><span class="font-medium">KRS: </span>0000898283
+          </li>
+          </p>
           <!-- /wp:list-item -->
         </ul>
         <!-- /wp:list -->
