@@ -106,7 +106,7 @@
         <p id="test" class="targets-title data-fade-left-invisible desktop:mb-[80px] mb-[60px] max-w-[535px] text-[18px] font-light leading-[30px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <span class="text-primaryYellow">Ut enim ad minim veniam</span>, quis nostrud exercitation.</p>
         <!-- /wp:paragraph -->
         <!-- wp:list -->
-        <ul class="wp-block-list targets-list max-w-[600px] wide:mb-[100px] desktop:mb-[70px] mb-[40px] text-left desktop:flex flex-wrap desktop:justify-start justify-center gap-x-[30px] gap-y-[50px]">
+        <ul id="counter" class="wp-block-list data-fade-left-invisible  targets-list max-w-[600px] wide:mb-[100px] desktop:mb-[70px] mb-[40px] text-left desktop:flex flex-wrap desktop:justify-start justify-center gap-x-[30px] gap-y-[50px]">
           <!-- wp:list-item -->
           <li class="test relative mb-[20px] desktop:mb-0 desktop:max-w-[264px] max-w-full flex items-center desktop:list-item gap-[20px]">
             <!-- wp:group -->
@@ -128,7 +128,7 @@
             <!-- /wp:group -->
 
             <!-- wp:group -->
-            <div id="counter2" class="wp-block-group data-fade-left-invisible text-wrapper">
+            <div class="wp-block-group text-wrapper">
               <!-- wp:paragraph -->
               <p class="target-title desktop:mb-[15px] mb-[5px] text-[25px] font-semibold leading-[30px]">Mamy plan</p>
               <!-- /wp:paragraph -->
