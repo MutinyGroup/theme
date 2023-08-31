@@ -353,9 +353,9 @@ figure[class*="logo-img"] img {
 .data-fade-up {
   transform: translate3d(0, 100px, 0);
 }
-.data-fade-right {
+.data-fade-left {
   transform: translate3d(-100px, 0, 0);
 }
-.data-fade-left {
+.data-fade-right {
   transform: translate3d(100px, 0, 0);
 }
