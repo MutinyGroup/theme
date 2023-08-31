@@ -133,7 +133,11 @@
                                 </clipPath>
                                 ';
                             } elseif ($counter == $post_query->post_count) {
-                              echo '';
+                              echo '
+                                <clipPath id="clipped-realizations-2" class="scale-[0.00143] scale-x-[0.00188]" clipPathUnits="objectBoundingBox">
+                                  <path d="M99.9999 0H515C526.046 0 535 8.95431 535 20V630C535 641.046 526.046 650 515 650H346.951C338.934 650 331.25 653.209 325.615 658.91L293.807 691.09C288.172 696.791 280.488 700 272.471 700H20.0001C8.9544 700 0.000110665 691.046 0.000107937 680L-5.50846e-05 20C-5.78129e-05 8.9543 8.95425 0 19.9999 0L99.9999 0Z"/>
+                                </clipPath>
+                            ';
                             };
                             ?>
 
