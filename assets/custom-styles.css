@@ -341,14 +341,11 @@ figure[class*="logo-img"] img {
 }
 
 /* custom animation */
-.data-fade{
+.data-fade-left-invisible{
+  transform: translate3d(-100px, 0, 0);
   opacity: 0;
   transition-property: opacity, transform;
   transition: all 0.6s ease;
-}
-.data-aos-animate{
-  opacity: 1;
-  transform: none;
 }
 .data-fade-up {
   transform: translate3d(0, 100px, 0);
@@ -356,9 +353,8 @@ figure[class*="logo-img"] img {
 .data-fade-right {
   transform: translate3d(-100px, 0, 0);
 }
-.data-fade-left-start {
-  transform: translate3d(-100px, 0, 0);
-}
-.data-fade-left {
+.data-fade-left-visible {
+  opacity: 1;
+  transform: none;
   transform: translate3d(0px, 0, 0);
 }
