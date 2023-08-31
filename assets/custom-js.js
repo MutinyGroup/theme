@@ -16,7 +16,7 @@ window.addEventListener("load", function () {
           // document.querySelector(`#${id2}`).classList.replace('data-fade-left-invisible', 'data-fade-left-visible');
           document.querySelector(`#${id2}`).classList.add('data-fade-left-visible');
         } else if(id != false && id2 != null){
-          document.querySelector(`#${id2}`).classList.replace('data-fade-left-visible','data-fade-left-invisible');
+          // document.querySelector(`#${id2}`).classList.replace('data-fade-left-visible','data-fade-left-invisible');
           document.querySelector(`#${id2}`).classList.remove('data-fade-left-visible');
         }
       },100);
