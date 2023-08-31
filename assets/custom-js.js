@@ -4,9 +4,9 @@ window.addEventListener("load", function () {
     const observer = new IntersectionObserver(entries => {
       entries.forEach(entry => {
         if (entry.intersectionRatio > 40) {
-          document.querySelector('.targets-title').classList.add('data-aos-animate', 'data-fade-left');
+          document.querySelector('.targets-title').classList.add('data-aos-animate', 'data-fade-right');
         } else {
-          document.querySelector('.targets-title').classList.remove('data-aos-animate', 'data-fade-left');
+          document.querySelector('.targets-title').classList.remove('data-aos-animate', 'data-fade-right');
         }
       });
     });
