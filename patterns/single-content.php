@@ -79,6 +79,13 @@
     </div>
     <!-- /wp:group -->
 
+    <?php
+    echo get_the_ID();
+    kdmfi_the_featured_image('featured-image-2', 'full', 481);
+
+
+    ?>
+
 
     <!-- wp:group -->
     <div class="wp-block-group layout-two-cols mb-[50px] desktop:flex gap-[50px]">
@@ -91,8 +98,8 @@
 
       <?php
       echo get_the_ID();
-      echo (kdmfi_the_featured_image('featured-image-2', 'full'));
-      print_r(kdmfi_the_featured_image('featured-image-2', 'full'));
+      kdmfi_the_featured_image('featured-image-2', 'full', 481);
+
 
       ?>
 
