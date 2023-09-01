@@ -96,17 +96,17 @@
                 <!-- wp:paragraph -->
                 <a href="#" class="pointer-events-none relative">
                   <!-- wp:image -->
-                  <figure class="wp-block-image title-img1 opacity-1 h-full clip-path-url-['#clipped-why']  transition ease-in-out duration-[400ms]">
+                  <figure class="wp-block-image title-img1 opacity-1 h-full w-full clip-path-url-['#clipped-why']  transition ease-in-out duration-[400ms]">
                     <img src="<?php echo home_url() . '/wp-content/themes/mutiny/assets/img/page-services/why-img1.jpg'; ?>" alt="services-background-image" />
                   </figure>
                   <!-- /wp:image -->
                   <!-- wp:image -->
-                  <figure class="wp-block-image title-img2 opacity-0 h-full clip-path-url-['#clipped-why'] absolute top-0 left-0 transition ease-in-out duration-[400ms]">
+                  <figure class="wp-block-image title-img2 opacity-0 h-full w-full clip-path-url-['#clipped-why'] absolute top-0 left-0 transition ease-in-out duration-[400ms]">
                     <img src="<?php echo home_url() . '/wp-content/themes/mutiny/assets/img/page-services/why-img2.jpg'; ?>" alt="services-background-image" />
                   </figure>
                   <!-- /wp:image -->
                   <!-- wp:image -->
-                  <figure class="wp-block-image title-img3 opacity-0 h-full clip-path-url-['#clipped-why'] absolute top-0 left-0 transition ease-in-out duration-[400ms]">
+                  <figure class="wp-block-image title-img3 opacity-0 h-full w-full clip-path-url-['#clipped-why'] absolute top-0 left-0 transition ease-in-out duration-[400ms]">
                     <img src="<?php echo home_url() . '/wp-content/themes/mutiny/assets/img/page-services/why-img3.jpg'; ?>" alt="services-background-image" />
                   </figure>
                   <!-- /wp:image -->
@@ -151,7 +151,7 @@
                 <!-- wp:paragraph -->
                 <a href="#" data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="pointer-events-none">
                   <!-- wp:image -->
-                  <figure class="wp-block-image hidden h-full clip-path-url-['#clipped-why'] group-hover:grayscale transition ease-in-out duration-[400ms]">
+                  <figure class="wp-block-image hidden h-full w-full clip-path-url-['#clipped-why'] group-hover:grayscale transition ease-in-out duration-[400ms]">
                     <img src="<?php echo home_url() . '/wp-content/themes/mutiny/assets/img/page-services/why-img1.jpg'; ?>" alt="services-background-image" />
                   </figure>
                   <!-- /wp:image -->
