@@ -103,7 +103,7 @@
     <!-- wp:list -->
     <ul class="wp-block-list targets-list desktop:mb-[133px] mb-[80px] text-left flex flex-wrap gap-y-[20px] desktop:gap-y-auto desktop:justify-between justify-center">
       <!-- wp:list-item -->
-      <li class="relative mb-[20px] desktop:mb-0 desktop:max-w-[264px] max-w-full flex items-center desktop:list-item gap-[20px]">
+      <li class="relative mb-[20px] desktop:mb-0 desktop:max-w-[264px] wide:max-w-[350px] max-w-full flex items-center desktop:list-item gap-[20px]">
         <!-- wp:group -->
         <div class="wp-block-group counter-index-wrapper min-w-[75px] inline relative">
           <!-- wp:paragraph -->
@@ -125,7 +125,7 @@
       </li>
       <!-- /wp:list-item -->
       <!-- wp:list-item -->
-      <li class="relative mb-[20px] desktop:mb-0 desktop:max-w-[264px] max-w-full flex items-center desktop:list-item gap-[20px]">
+      <li class="relative mb-[20px] desktop:mb-0 desktop:max-w-[264px] wide:max-w-[350px] max-w-full flex items-center desktop:list-item gap-[20px]">
         <!-- wp:group -->
         <div class="wp-block-group counter-index-wrapper min-w-[75px] inline relative">
           <!-- wp:paragraph -->
@@ -147,7 +147,7 @@
       </li>
       <!-- /wp:list-item -->
       <!-- wp:list-item -->
-      <li class="relative mb-[20px] desktop:mb-0 desktop:max-w-[264px] max-w-full flex items-center desktop:list-item gap-[20px]">
+      <li class="relative mb-[20px] desktop:mb-0 desktop:max-w-[264px] wide:max-w-[350px] max-w-full flex items-center desktop:list-item gap-[20px]">
         <!-- wp:group -->
         <div class="wp-block-group counter-index-wrapper min-w-[75px] inline relative">
           <!-- wp:paragraph -->
@@ -169,7 +169,7 @@
       </li>
       <!-- /wp:list-item -->
       <!-- wp:list-item -->
-      <li class="relative mb-[20px] desktop:mb-0 desktop:max-w-[264px] max-w-full flex items-center desktop:list-item gap-[20px]">
+      <li class="relative mb-[20px] desktop:mb-0 desktop:max-w-[264px] wide:max-w-[350px] max-w-full flex items-center desktop:list-item gap-[20px]">
         <!-- wp:group -->
         <div class="wp-block-group counter-index-wrapper min-w-[75px] inline relative">
           <!-- wp:paragraph -->
