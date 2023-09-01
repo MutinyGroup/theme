@@ -250,6 +250,11 @@ figure[class*="logo-img"] img {
   }
 }
 
+/* gallery */
+.ngg-galleryoverview.default-view {
+  text-align: left!important;
+}
+
 /* Posts pagination links */
 
 #Posty > ul > li,
