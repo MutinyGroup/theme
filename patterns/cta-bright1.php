@@ -20,7 +20,7 @@
   <!-- wp:group -->
   <div class="wp-block-group container mx-auto desktop:px-0 px-[20px] desktop:mt-0 mt-[120px] desktop:p-[110px] h-[300px] desktop:h-[700px] wide:h-[940px] ">
     <!-- wp:group -->
-    <div class="wp-block-group title-wrapper relative mb-[120px] desktop:mb-[80px]">
+    <div class="wp-block-group title-wrapper relative mb-[80px] pt-[20px] desktop:pt-0">
       <!-- wp:group -->
       <div class="wp-block-group flash-wrapper wide:scale-[1] desktop:scale-[1] scale-[0.5] absolute top-[-320px] desktop:top-[-300px] wide:top-[-270px] left-[-260px] wide:left-[-230px] z-[0]">
         <!-- wp:paragraph -->
@@ -110,7 +110,7 @@
   <!-- wp:group -->
   <div class="wp-block-group img-clip-path-wrapper w-[100%] desktop:w-[58%] h-[380px] desktop:h-full rounded-tl-[20px] overflow-hidden absolute right-0 desktop:top-0 top-[-40px] z-[0]">
     <!-- wp:image -->
-    <figure class="wp-block-image clip-path-url-['#clipped-cta'] h-full before:content-[''] before:w-full before:h-full before:bg-white before:z-[1] before:opacity-[60%] before:absolute before:top-0 before:left-0">
+    <figure class="wp-block-image clip-path-url-['#clipped-cta'] h-full before:content-[''] before:w-full before:h-full before:bg-white before:z-[1] before:opacity-[80%] before:absolute before:top-0 before:left-0">
       <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/cta-bright-bg1.jpg" alt="cta-backgroun-image">
     </figure>
     <!-- /wp:image -->
