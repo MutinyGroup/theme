@@ -109,7 +109,6 @@ if(document.body.classList.contains('page-id-101')){
   const showMoreBlogPostsBtn = document.querySelector('#showMorePosts');
   let more = 900;
   let more2 = 1520;
-  console.log('test');
 
   if(document.body.classList.contains('page-id-110')){
     showMoreBtn.addEventListener('click',()=>{
