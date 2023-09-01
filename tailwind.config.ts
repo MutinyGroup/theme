@@ -15,6 +15,7 @@ module.exports = {
 				// '2xl': '1000px',
 				// '3xl': '1100px',
 			},
+			padding: '100px',
 		},
 		extend: {
 			colors: {
