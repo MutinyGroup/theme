@@ -27,6 +27,7 @@ $url = substr(home_url(), 27, 3);;
 
   <?php
   $url = substr(home_url(), 27, 3);
+  print_r($url);
   if ($url == '') {
   ?>
     <!-- wp:list-item -->
