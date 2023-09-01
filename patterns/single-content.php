@@ -88,8 +88,20 @@
     print_r(get_queried_object());
     echo 'obj_id: ';
     print_r(get_queried_object_id());
+    $args = array(
+      'post_type' => 'post',
+      'posts_per_page' => 10,
+      'order' => 'DESC'
+    );
 
-
+    if ($post_query->have_posts()) {
+      while ($post_query->have_posts()) {
+        $post_query->the_post();
+        the_title();
+        echo get_the_ID();
+      };
+    };
+    wp_reset_query();
     ?>
 
 
