@@ -301,7 +301,7 @@ if(document.body.classList.contains('page-id-101')){
   })
 
   // video background image
-  if(document.body.classList.contains('page-id-99') || document.body.classList.contains('page-id-11')){
+  if(document.body.classList.contains('page-id-606') || document.body.classList.contains('page-id-11')){
     const videoWrapper = document.querySelector('.js-videoWrapper');
     const videoBtn = document.querySelector('.js-videoBtn');
     const videoYt = document.querySelector('.video-yt');
