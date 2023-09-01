@@ -58,8 +58,8 @@ $url = substr(home_url(), 27, 3);;
       <!-- wp:paragraph -->
       <p class="block hover:text-primaryYellow group-hover:mb-[10px]">SE</p>
       <!-- /wp:paragraph -->
-      <a class="block hover:text-primaryYellow group-hover:mb-[10px] opacity-0 group-hover:opacity-100 transition ease-out duration-300" href="http://mutiny.webo.design/" href="http://mutiny.webo.design/">PL</a>
-      <a class="block hover:text-primaryYellow opacity-0 group-hover:opacity-100 transition ease-out duration-300" href="http://mutiny.webo.design/eng2/">ENG</a>
+      <a class="block hover:text-primaryYellow group-hover:mb-[10px] opacity-0 group-hover:opacity-100 transition ease-out duration-300" href="http://mutiny.webo.design/">PL</a>
+      <a href="http://mutiny.webo.design/eng2/" class="block hover:text-primaryYellow opacity-0 group-hover:opacity-100 transition ease-out duration-300">ENG</a>
     </li>
     <!-- /wp:list-item -->
   <?php
@@ -68,7 +68,7 @@ $url = substr(home_url(), 27, 3);;
 </ul>
 <!-- /wp:list -->
 
-<!-- wp:group {"templateLock":"all","lock":{"move":true,"remove":true},"anchor":true} -->
+<!-- wp:group {" templateLock":"all","lock":{"move":true,"remove":true},"anchor":true} -->
 <div id="Mobile" class="wp-block-group nav-mobile headerMobileDark h-[60px] bg-darkBlack desktop:hidden container mx-auto px-[20px] z-[4] transition ease-out duration-300">
   <!-- wp:group -->
   <div class="wp-block-group h-full flex justify-between items-center">
