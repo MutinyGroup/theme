@@ -20,7 +20,7 @@
 
     <!-- wp:group -->
     <div class="wp-block-group post-content">
-
+      <!-- wp:post-content /-->
     </div>
     <!-- /wp:group -->
   </div>
