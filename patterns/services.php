@@ -207,6 +207,7 @@
               <!-- /wp:list-item -->
           <?php
             };
+            wp_reset_postdata();
           };
           ?>
         </ul>
