@@ -80,9 +80,11 @@
     <!-- /wp:group -->
 
     <?php
+    wp_reset_query();
     echo get_the_ID();
-    kdmfi_the_featured_image('featured-image-2', 'full', 481);
+    // kdmfi_the_featured_image('featured-image-2', 'full', 481);
     print_r(get_queried_object());
+    echo 'obj_id: ';
     print_r(get_queried_object_id());
 
 
