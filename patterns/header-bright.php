@@ -11,7 +11,7 @@
 <ul id="Menu-desktop" class="wp-block-list nav-desktop headerBright bg-brightWhite h-[60px] w-[100%] desktop:h-[90px] hidden desktop:flex justify-center items-center z-[4] fixed">
   <!-- wp:list-item -->
   <li>
-    <a href="https://mutiny.webo.design" class="fixed top-[32px] left-[22px] z-[3]">
+    <a href="<?php echo ($url == 'eng') ? 'https://mutiny.webo.design/eng/' : (($url == 'se') ? 'https://mutiny.webo.design/eng/' : 'https://mutiny.webo.design/'); ?>" class="fixed top-[32px] left-[22px] z-[3]">
       <!-- wp:image -->
       <figure class="wp-block-image w-[30px] mr-[10px]">
         <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/front-page/logo-mutiny-black.png" alt="webo-logo" />
