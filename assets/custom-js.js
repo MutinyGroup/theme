@@ -113,14 +113,12 @@ if(document.body.classList.contains('page-id-101')){
   if(document.body.classList.contains('page-id-110')){
     showMoreBtn.addEventListener('click',()=>{
       realizationsContainer.style.maxHeight = 1500 + more + 'px';
-      // realizationsEventyUl.style.height = 850 + more + 'px';
       more += 900;
     });
 };
   if(document.body.classList.contains('blog')){
     showMoreBlogPostsBtn.addEventListener('click',()=>{
       blogContainer.style.maxHeight = 1460 + more2 + 'px';
-      // realizationsEventyUl.style.height = 850 + more + 'px';
       more2 += 1520;
     });
   }
@@ -136,11 +134,9 @@ if(document.body.classList.contains('page-id-101')){
   if(screenWidth > 500) {
     //  desktop
     siteHeader.classList.add('header-position-fixed');
-    // siteContent.style.paddingTop = siteHeaderHeight + 'px';
     function updateHeaderPadding() {
       siteHeaderHeight = siteHeader.offsetHeight;
       siteContent.style.transition = '0.3s ease-in-out';
-      // siteContent.style.paddingTop = siteHeaderHeight + 'px';
     };
 
     setInterval(updateHeaderPadding, 500);
