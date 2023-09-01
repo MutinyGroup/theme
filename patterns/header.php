@@ -6,7 +6,8 @@
  * Categories: header
  * Viewport Width: 1280
  */
-$url = substr(home_url(), 27, 3);;
+$url = substr(home_url(), 27, 3);
+echo ($url == 'eng') ? 'https://mutiny.webo.design/eng/' : (($url == 'se') ? 'https://mutiny.webo.design/eng/' : 'https://mutiny.webo.design/'); ?>
 ?>
 
 <!-- wp:list {"templateLock":"contentOnly","anchor":true} -->
