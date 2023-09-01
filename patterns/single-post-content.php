@@ -1,8 +1,8 @@
 <?php
 
 /**
- * Title: single-content
- * Slug: single-content
+ * Title: single-post-content
+ * Slug: single-post-content
  * Categories: text, banner
  * Viewport Width: 1280
  */
