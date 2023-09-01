@@ -82,6 +82,7 @@
     <?php
     // kdmfi_the_featured_image('featured-image-2', 'full', 481);
     global $post;
+    print_r($post);
     echo '<div> page_id:' . $post->ID . '</div>'; // output wrong value
 
     echo get_the_ID();
@@ -93,15 +94,6 @@
       'posts_per_page' => 10,
       'order' => 'DESC'
     );
-
-    if ($post_query->have_posts()) {
-      while ($post_query->have_posts()) {
-        $post_query->the_post();
-        the_title();
-        echo get_the_ID();
-      };
-    };
-    wp_reset_query();
     ?>
 
 
