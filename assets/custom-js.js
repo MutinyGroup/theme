@@ -153,6 +153,7 @@ if(document.body.classList.contains('page-id-101')){
           if(newOffset > refOffset) {
             siteHeader.classList.remove('animateIn');
             siteHeader.classList.add('animateOut');
+            siteHeader.classList.add('bg-change');
           }
           else {
             siteHeader.classList.remove('animateOut');
