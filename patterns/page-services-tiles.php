@@ -108,7 +108,7 @@
             $counter++;
             if (true) { ?>
               <!-- wp:list-item -->
-              <li class="wp-block-group swiper-slide servicesTile relative group desktop:w-[545px] w-[100%] desktop:h-[600px] h-[320px] transition duration-[800ms] ease-in <?php echo (($counter % 2)) ? "" : 'translate-y-[50px]'; ?>">
+              <li class="wp-block-group swiper-slide servicesTile relative group desktop:w-[545px] w-[100%] desktop:h-[600px] h-[320px] transition duration-[800ms] ease-in <?php echo (($counter % 2)) ? "" : 'desktop:translate-y-[50px]'; ?>">
                 <!-- wp:paragraph -->
                 <a href="<?php the_permalink(); ?>" data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="h-full w-full">
                   <!-- wp:group -->
