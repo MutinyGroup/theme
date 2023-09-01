@@ -11,11 +11,10 @@ module.exports = {
 	theme: {
 		container: {
 			screens: {
-				// xl: '960px',
-				// '2xl': '1000px',
-				// '3xl': '1100px',
+				lg: '960px',
+				'xl': '1100px',
+				'2xl': '1400px',
 			},
-			padding: '100px',
 		},
 		extend: {
 			colors: {
