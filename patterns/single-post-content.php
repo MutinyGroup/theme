@@ -88,7 +88,7 @@
       <!-- /wp:group -->
 
       <!-- wp:group -->
-      <div class="wp-block-group share-wrapper ppt-[550px] desktop:w-[30%] h-[80px] sticky top-0">
+      <div class="wp-block-group share-wrapper ppt-[550px] desktop:w-[30%] h-[80px] sticky top-[90px]">
         <!-- wp:group -->
         <div class="wp-block-group share-border w-fit pt-[25px] border-[#D5D5D5] border-t-[2px] flex gap-[20px]">
           <!-- wp:paragraph -->
