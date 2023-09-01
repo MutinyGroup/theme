@@ -9,7 +9,7 @@
 ?>
 
 <!-- wp:group {"templateLock":"contentOnly","anchor":true} -->
-<div id="Wpis" class="wp-block-group single-page-post mb-[150px] overflow-hidden">
+<div id="Wpis" class="wp-block-group single-page-post mb-[150px] ooverflow-hidden">
   <!-- wp:group -->
   <div class="wp-block-group container mx-auto relative desktop:px-0 px-[20px] pt-[60px]">
     <!-- wp:paragraph -->
