@@ -50,7 +50,7 @@
               $test01 = get_the_ID();
         ?>
               <!-- wp:list-item -->
-              <li class="bigger relative group swiper-slide  w-full slideBlog opacity-0 desktop:w-[535px] wide:w-[580px] h-fit desktop:h-[545px] wide:h-[650px] transition duration-[800ms] ease-in <?php echo (!($counter % 2)) ? 'desktop:mt-[120px]' : ''; ?>">
+              <li class="bigger relative group swiper-slide  w-full slideBlog opacity-0 desktop:w-[535px] wide:w-[580px] h-[530px] desktop:h-[545px] wide:h-[650px] transition duration-[800ms] ease-in <?php echo (!($counter % 2)) ? 'desktop:mt-[120px]' : ''; ?>">
                 <a href="<?php the_permalink(); ?>">
                   <!-- wp:group -->
                   <div class="wp-block-group h-full mb-[20px]">
@@ -97,7 +97,7 @@
               $test01 = get_the_ID();
             ?>
               <!-- wp:list-item -->
-              <li class="smaller swiper-slide slideBlog opacity-0 relative group w-full desktop:w-[444px] wide:w-[490px] h-fit desktop:h-[500px] transition duration-[800ms] ease-in <?php echo (!($counter % 2)) ? 'desktop:mt-[120px]' : ''; ?>">
+              <li class="smaller swiper-slide slideBlog opacity-0 relative group w-full desktop:w-[444px] wide:w-[490px] h-[530px] desktop:h-[500px] transition duration-[800ms] ease-in <?php echo (!($counter % 2)) ? 'desktop:mt-[120px]' : ''; ?>">
                 <a href="<?php the_permalink(); ?>">
                   <!-- wp:group -->
                   <div class="wp-block-group h-full mb-[20px]">
