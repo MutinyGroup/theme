@@ -89,11 +89,6 @@
     print_r(get_queried_object());
     echo 'obj_id: ';
     print_r(get_queried_object_id());
-    $args = array(
-      'post_type' => 'post',
-      'posts_per_page' => 10,
-      'order' => 'DESC'
-    );
     ?>
 
 
