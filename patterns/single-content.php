@@ -81,7 +81,8 @@
 
     <?php
     echo get_the_ID();
-    kdmfi_the_featured_image('featured-image-2', 'full');
+    echo (kdmfi_the_featured_image('featured-image-2', 'full'));
+    print_r(kdmfi_the_featured_image('featured-image-2', 'full'));
 
     ?>
 
