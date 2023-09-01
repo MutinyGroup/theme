@@ -88,7 +88,7 @@
                 <!-- /wp:image -->
 
                 <!-- wp:list -->
-                <ul class="wp-block-list categories-under-logo mb-[20px] flex flex-wrap gap-[10px]">
+                <ul class="wp-block-list categories-under-logo my-[20px] flex flex-wrap gap-[10px]">
                   <?php
                   $categoriesArray = get_the_category();
                   foreach ($categoriesArray as $category) {
