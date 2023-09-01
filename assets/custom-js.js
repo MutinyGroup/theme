@@ -104,7 +104,7 @@ if(document.body.classList.contains('page-id-101')){
 
   // posts page show more
   const realizationsContainer = document.querySelector('#realizationsContainer');
-  const BlogContainer = document.querySelector('#blogContainer');
+  const blogContainer = document.querySelector('#blogContainer');
   const showMoreBtn = document.querySelector('#showMore');
   const showMoreBlogPostsBtn = document.querySelector('#showMorePosts');
   let more = 900;
@@ -119,7 +119,7 @@ if(document.body.classList.contains('page-id-101')){
 };
   if(document.body.classList.contains('blog')){
     showMoreBlogPostsBtn.addEventListener('click',()=>{
-      BlogContainer.style.maxHeight = 1460 + more2 + 'px';
+      blogContainer.style.maxHeight = 1460 + more2 + 'px';
       // realizationsEventyUl.style.height = 850 + more + 'px';
       more2 += 1520;
     });
