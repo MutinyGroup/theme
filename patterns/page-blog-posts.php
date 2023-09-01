@@ -143,7 +143,7 @@
               array_push($tab, rand(0, 1));
             };
           };
-          wp_reset_postdata();
+          wp_reset_query();
           ?>
         <?php
         };
