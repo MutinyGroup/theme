@@ -37,7 +37,7 @@
       <!-- wp:group -->
       <div class="wp-block-group desktop:mt-[-120px] w-full overflow-hidden">
         <!-- wp:group -->
-        <div id="blog" class="wp-block-group swiper swiperBlog desktop:w-[calc(100%-150px)] relative desktop:pt-[180px] top-0 desktop:left-[150px] left-[20px]">
+        <div id="blog" class="wp-block-group swiper swiperBlog :w-[calc(100%-150px)] desktop:w-[1330px] relative desktop:pt-[180px] top-0 desktop:right-[-50px] left-[20px] desktop:left-auto">
           <!-- wp:list -->
           <ul class="wp-block-list swiper-wrapper">
             <?php
