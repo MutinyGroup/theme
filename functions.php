@@ -414,7 +414,7 @@ add_filter('kdmfi_featured_images', function ($featured_images) {
 		'label_set' => 'Set featured image 2',
 		'label_remove' => 'Remove featured image 2',
 		'label_use' => 'Set featured image 2',
-		'post_type' => array('page'),
+		'post_type' => array('post'),
 	);
 
 	$featured_images[] = $args;
