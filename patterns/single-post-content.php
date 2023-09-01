@@ -34,9 +34,9 @@
     <!-- /wp:paragraph -->
 
     <!-- wp:group -->
-    <div class="wp-block-group above-img-banner mb-[50px] desktop:flex gap-[50px]">
+    <div class="wp-block-group above-img-banner desktop:flex gap-[50px]">
       <!-- wp:group -->
-      <div class="wp-block-group post-title desktop:w-[70%] text-[50px] leading-[55px] font-normal">
+      <div class="wp-block-group post-title desktop:w-[70%] text-[50px] leading-[50px] font-normal">
         <!-- wp:post-title /-->
       </div>
       <!-- /wp:group -->
