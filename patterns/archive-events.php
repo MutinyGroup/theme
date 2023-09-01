@@ -142,6 +142,7 @@
       <?php
           };
         };
+        wp_reset_postdata();
       };
       ?>
     </ul>
