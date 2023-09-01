@@ -1,4 +1,28 @@
 window.addEventListener("load", function () {
+  function get_current_page_id() {
+    const page_body = $('body.page');
+
+    var id = 0;
+
+    if (page_body) {
+        var classList = page_body.attr('class').split(/\s+/);
+
+        $.each(classList, function (index, item) {
+            if (item.indexOf('postid') >= 0) {
+                var item_arr = item.split('-');
+                id = item_arr[item_arr.length - 1];
+                return false;
+            }
+        });
+    }
+    return id;
+}
+console.log(get_current_page_id());
+
+
+
+
+
   // test observer
   const animatedElements = document.querySelectorAll('.data-fade-left-invisible')
   
