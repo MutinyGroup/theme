@@ -1,15 +1,15 @@
 window.addEventListener("load", function () {
   function get_current_page_id() {
-    const page_body = $('body.page');
+    const page_body = document.querySelector('.blog')
 
-    var id = 0;
+    let id = 0;
 
     if (page_body) {
-        var classList = page_body.attr('class').split(/\s+/);
+        let classList = page_body.attr('class').split(/\s+/);
 
-        $.each(classList, function (index, item) {
+        forEach.each(classList, function (index, item) {
             if (item.indexOf('postid') >= 0) {
-                var item_arr = item.split('-');
+                let item_arr = item.split('-');
                 id = item_arr[item_arr.length - 1];
                 return false;
             }
