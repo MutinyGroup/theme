@@ -153,16 +153,24 @@ if(document.body.classList.contains('page-id-101')){
           if(newOffset > refOffset) {
             siteHeader.classList.remove('animateIn');
             siteHeader.classList.add('animateOut');
-            siteHeader.classList.add('bg-change');
-          }
-          else {
+
+            if(document.body.classList.contains('home')){
+              siteHeader.classList.add('bg-dark');
+            }else{
+              siteHeader.classList.add('bg-bright');
+            };
+          }else {
             siteHeader.classList.remove('animateOut');
             siteHeader.classList.add('animateIn');
           };
           refOffset = newOffset;
       };
       if(this.window.scrollY == 0){
-        siteHeader.classList.remove('bg-change');
+        if(document.body.classList.contains('home')){
+          siteHeader.classList.remove('bg-dark');
+        }else{
+          siteHeader.classList.remove('bg-bright');
+        };
       };
     };
     window.addEventListener('scroll', headerAppearsOnScrollUp, false); 
