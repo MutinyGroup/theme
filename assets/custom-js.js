@@ -1,23 +1,4 @@
 window.addEventListener("load", function () {
-  function get_current_page_id() {
-    const page_body = document.querySelector('.blog')
-
-    let id = 0;
-
-    if (page_body) {
-        let classList = page_body.attr('class').split(/\s+/);
-
-        forEach.each(classList, function (index, item) {
-            if (item.indexOf('postid') >= 0) {
-                let item_arr = item.split('-');
-                id = item_arr[item_arr.length - 1];
-                return false;
-            }
-        });
-    }
-    return id;
-}
-console.log(get_current_page_id());
 
 
 
