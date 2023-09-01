@@ -117,7 +117,7 @@
           <!-- wp:group -->
           <div id="marketing2" class="wp-block-group swiper swiperMarketing2 w-screen desktop:w-[calc(100vw-200px)] desktop:pt-[60px] relative top-0 desktop:left-[20px]">
             <!-- wp:group -->
-            <div id="marketing2-prev" class="wp-block-group group swiper-button-prev w-[56px] h-[56px] absolute top-[50%] desktop:right-[100px] translate-y-[50%] rotate-180 after:hidden">
+            <div id="marketing2-prev" class="wp-block-group group swiper-button-prev w-[56px] h-[56px] absolute top-[30%] desktop:top-[50%] desktop:right-[100px] translate-y-[50%] rotate-180 after:hidden">
               <!-- wp:paragraph -->
               <p>
                 <svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 56 56" fill="#FEC400" class="group fill-primaryYellow">
@@ -131,7 +131,7 @@
             <!-- /wp:group -->
 
             <!-- wp:group -->
-            <div id="marketing2-next" class="wp-block-group group swiper-button-next w-[56px] h-[56px] absolute top-[50%] desktop:right-[230px] translate-y-[50%] after:hidden">
+            <div id="marketing2-next" class="wp-block-group group swiper-button-next w-[56px] h-[56px] absolute top-[30%] desktop:top-[50%] desktop:right-[230px] translate-y-[50%] after:hidden">
               <!-- wp:paragraph -->
               <p>
                 <svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 56 56" fill="none" class="group fill-primaryYellow">
