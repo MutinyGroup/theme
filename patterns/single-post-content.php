@@ -79,10 +79,6 @@
     </div>
     <!-- /wp:group -->
 
-    <?php
-    echo get_the_ID();
-    ?>
-
     <!-- wp:group -->
     <div class="wp-block-group layout-two-cols mb-[50px] desktop:flex gap-[50px]">
       <!-- wp:group -->
