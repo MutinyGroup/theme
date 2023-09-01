@@ -102,7 +102,7 @@
 
       <?php
       echo get_the_ID();
-      kdmfi_the_featured_image('featured-image-2', 'full', 481);
+      // kdmfi_the_featured_image('featured-image-2', 'full', 481);
 
 
       ?>
