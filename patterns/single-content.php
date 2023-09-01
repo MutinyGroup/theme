@@ -81,7 +81,7 @@
 
     <?php
     echo get_the_ID();
-    print_r(get_body_class());
+    print_r(get_body_class('single'));
     ?>
 
     <!-- wp:group -->
