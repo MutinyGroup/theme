@@ -201,7 +201,7 @@ figure[class*="logo-img"] img {
   margin-bottom: 0px;
 }
 .single .entry-content ul li::before {
-  display: none;
+  /* display: none; */
 }
 .single-uslugi .entry-content ul li::before {
   display: none;
