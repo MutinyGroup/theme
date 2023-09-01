@@ -344,7 +344,7 @@ if (function_exists('register_block_pattern')) {
 function custom_post_types()
 {
 	register_post_type('realizacje', array(
-		'public' => false,
+		'public' => true,
 		'labels' => array(
 			'name' => 'Realizacje',
 			'add_new_item' => 'Dodaj Realizacje',
@@ -360,7 +360,7 @@ function custom_post_types()
 		'taxonomies'  => array('category')
 	));
 	register_post_type('uslugi', array(
-		'public' => false,
+		'public' => true,
 		'labels' => array(
 			'name' => 'Usługi',
 			'add_new_item' => 'Dodaj usługi',
