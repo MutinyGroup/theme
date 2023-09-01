@@ -11,7 +11,7 @@
 <!-- wp:group {"templateLock":"contentOnly","anchor":true} -->
 <div id="Posty" class="wp-block-group page-blog-posts mb-[80px] desktop:mb-[150px]  pt-[80px] desktop:pt-0 overflow-hidden">
   <!-- wp:group -->
-  <div id="blogContainer" class="wp-block-group container max-h-[1680px] mx-auto relative mb-[80px] desktop:mb-[100px] px-[20px] desktop:px-0 overflow-y-hidden transition-height ease-in-out duration-[800ms]">
+  <div id="blogContainer" class="wp-block-group container max-h-[1540px] desktop:max-h-[1680px] mx-auto relative mb-[80px] desktop:mb-[100px] px-[20px] desktop:px-0 overflow-y-hidden transition-height ease-in-out duration-[800ms]">
     <!-- wp:group -->
     <div class="wp-block-group new gallery-cols relative flex justify-between desktop:pb-[150px] pb-[80px]">
       <!-- wp:paragraph -->
