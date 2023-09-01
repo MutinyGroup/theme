@@ -76,12 +76,12 @@
         <!-- /wp:group -->
       </div>
       <!-- /wp:group -->
-
     </div>
     <!-- /wp:group -->
 
     <?php
     echo get_the_ID();
+    print_r(get_body_class());
     ?>
 
     <!-- wp:group -->
