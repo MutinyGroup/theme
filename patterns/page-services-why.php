@@ -185,7 +185,7 @@
           <!-- /wp:group -->
 
           <!-- wp:group -->
-          <div class="wp-block-group w-[100%] desktop:w-[60%] relative">
+          <div class="wp-block-group w-[100%] desktop:w-[55%] relative">
             <!-- wp:paragraph -->
             <p class="absolute top-[-180px] left-[-0px] desktop:left-[-420px]">
               <svg xmlns="http://www.w3.org/2000/svg" width="236" height="317" viewBox="0 0 236 317" fill="none" class="z-[0] absolute top-[190px] left-[30px] opacity-[80%]">
@@ -283,7 +283,7 @@
           <!-- /wp:group -->
 
           <!-- wp:group -->
-          <div class="wp-block-group w-[100%] desktop:w-[60%] relative">
+          <div class="wp-block-group w-[100%] desktop:w-[55%] relative">
             <!-- wp:paragraph -->
             <p class="absolute top-[-180px] left-[-0px] desktop:left-[-420px]">
               <svg xmlns="http://www.w3.org/2000/svg" width="236" height="317" viewBox="0 0 236 317" fill="none" class="z-[0] absolute top-[190px] left-[30px] opacity-[80%]">
@@ -381,7 +381,7 @@
           <!-- /wp:group -->
 
           <!-- wp:group -->
-          <div class="wp-block-group w-[100%] desktop:w-[60%] relative">
+          <div class="wp-block-group w-[100%] desktop:w-[55%] relative">
             <!-- wp:paragraph -->
             <p class="absolute top-[-180px] left-[-0px] desktop:left-[-420px]">
               <svg xmlns="http://www.w3.org/2000/svg" width="236" height="317" viewBox="0 0 236 317" fill="none" class="z-[0] absolute top-[190px] left-[30px] opacity-[80%]">
