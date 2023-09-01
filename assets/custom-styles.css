@@ -346,7 +346,7 @@ figure[class*="logo-img"] img {
 
 /* Animated Header on Scroll */
 .animateIn{ transform: translateY(0px); }
-.bg-change{ background-color: #101010;}
+.bg-change{ background-color: #101010!important;}
 .animateOut{ transform: translateY(-100%); }
 
 .header-position-fixed {
