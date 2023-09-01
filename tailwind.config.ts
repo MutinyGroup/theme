@@ -11,9 +11,9 @@ module.exports = {
 	theme: {
 		container: {
 			screens: {
-				xl: '960px',
-				'2xl': '1000px',
-				'3xl': '1100px',
+				// xl: '960px',
+				// '2xl': '1000px',
+				// '3xl': '1100px',
 			},
 		},
 		extend: {
