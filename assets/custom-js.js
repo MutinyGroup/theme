@@ -161,6 +161,9 @@ if(document.body.classList.contains('page-id-101')){
           };
           refOffset = newOffset;
       };
+      if(this.window.scrollY = 0){
+        siteHeader.classList.remove('bg-change');
+      };
     };
     window.addEventListener('scroll', headerAppearsOnScrollUp, false); 
   }else{
