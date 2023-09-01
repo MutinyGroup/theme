@@ -365,3 +365,16 @@ figure[class*="logo-img"] img {
   transition-property: opacity, transform;
   transition: all 0.6s ease;
 }
+
+
+
+
+/* single post full width img */
+#Wpis > div > div.wp-block-group.layout-two-cols.mb-\[50px\].desktop\:flex.gap-\[50px\].is-layout-flow.wp-block-group-is-layout-flow > div.wp-block-group.post-content.desktop\:w-\[70\%\].is-layout-flow.wp-block-group-is-layout-flow > div > figure.wp-block-image.size-large.is-resized{
+  width: 1240px;
+  height: 500px;
+}
+#Wpis > div > div.wp-block-group.layout-two-cols.mb-\[50px\].desktop\:flex.gap-\[50px\].is-layout-flow.wp-block-group-is-layout-flow > div.wp-block-group.post-content.desktop\:w-\[70\%\].is-layout-flow.wp-block-group-is-layout-flow > div > figure.wp-block-image.size-large.is-resized > img{
+  width: 1240px;
+  height: 500px;
+}
