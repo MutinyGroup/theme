@@ -203,7 +203,7 @@ figure[class*="logo-img"] img {
 .single .entry-content ul li::before {
   display: none;
 }
-.single .single-post .post-content ul li::before {
+.single .entry-content ul li::before {
   content: "";
   display: inline-block;
   margin-right: 10px;
