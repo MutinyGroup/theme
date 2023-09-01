@@ -67,7 +67,7 @@
     <!-- wp:list -->
     <ul class="wp-block-list why-list-wrapper z-[1]">
       <!-- wp:list-item -->
-      <li class="mainTitle mb-[30px] desktop:mb-[90px] pt-[30px] bg-brightWhite sticky top-0 z-[3]">
+      <li class="mainTitle mb-[30px] desktop:mb-[90px] pt-[30px] bg-brightWhite overflow-hidden sticky top-0 z-[3]">
         <!-- wp:group -->
         <div class="wp-block-group tile-img-title bg-brightWhite flex ">
           <!-- wp:group -->
@@ -90,7 +90,7 @@
           <!-- wp:group -->
           <div class="wp-block-group img-title w-[60%]">
             <!-- wp:group -->
-            <div class="wp-block-group h-[100px] desktop:h-[250px] w-[230px] desktop:w-[800px] wide:w-[1100px]">
+            <div class="wp-block-group h-[100px] desktop:h-[250px] w-[230px] desktop:w-[880px] wide:w-[1100px]">
               <!-- wp:group -->
               <div class="wp-block-group img-clip-path-wrapper mb-[50px] w-full h-full rounded-[20px] overflow-hidden">
                 <!-- wp:paragraph -->
@@ -145,7 +145,7 @@
           <!-- wp:group -->
           <div class="wp-block-group img-title w-[60%]">
             <!-- wp:group -->
-            <div class="wp-block-group h-[100px] desktop:h-[250px] w-[230px] desktop:w-[800px] wide:w-[1100px]">
+            <div class="wp-block-group h-[100px] desktop:h-[250px] w-[230px] desktop:w-[880px] wide:w-[1100px]">
               <!-- wp:group -->
               <div class="wp-block-group img-clip-path-wrapper mb-[50px] w-full h-full rounded-[20px] overflow-hidden">
                 <!-- wp:paragraph -->
@@ -243,7 +243,7 @@
           <!-- wp:group -->
           <div class="wp-block-group img-title w-[60%]">
             <!-- wp:group -->
-            <div class="wp-block-group h-[100px] desktop:h-[250px] w-[230px] desktop:w-[800px] wide:w-[1100px]">
+            <div class="wp-block-group h-[100px] desktop:h-[250px] w-[230px] desktop:w-[880px] wide:w-[1100px]">
               <!-- wp:group -->
               <div class="wp-block-group img-clip-path-wrapper mb-[50px] w-full h-full rounded-[20px] overflow-hidden">
                 <!-- wp:paragraph -->
@@ -341,7 +341,7 @@
           <!-- wp:group -->
           <div class="wp-block-group img-title w-[60%]">
             <!-- wp:group -->
-            <div class="wp-block-group h-[100px] desktop:h-[250px] w-[230px] desktop:w-[800px] wide:w-[1100px]">
+            <div class="wp-block-group h-[100px] desktop:h-[250px] w-[230px] desktop:w-[880px] wide:w-[1100px]">
               <!-- wp:group -->
               <div class="wp-block-group img-clip-path-wrapper mb-[50px] w-full h-full rounded-[20px] overflow-hidden">
                 <!-- wp:paragraph -->
