@@ -79,19 +79,6 @@
     </div>
     <!-- /wp:group -->
 
-    <?php
-    // kdmfi_the_featured_image('featured-image-2', 'full', 481);
-    global $post;
-    print_r($post);
-    echo '<div> page_id:' . $post->ID . '</div>'; // output wrong value
-
-    echo get_the_ID();
-    print_r(get_queried_object());
-    echo 'obj_id: ';
-    print_r(get_queried_object_id());
-    ?>
-
-
     <!-- wp:group -->
     <div class="wp-block-group layout-two-cols mb-[50px] desktop:flex gap-[50px]">
       <!-- wp:group -->
@@ -99,14 +86,6 @@
         <!-- wp:post-content /-->
       </div>
       <!-- /wp:group -->
-
-
-      <?php
-      echo get_the_ID();
-      // kdmfi_the_featured_image('featured-image-2', 'full', 481);
-
-
-      ?>
 
       <!-- wp:group -->
       <div class="wp-block-group share-wrapper desktop:w-[30%] h-[80px]">
