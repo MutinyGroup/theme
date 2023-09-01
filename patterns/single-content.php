@@ -80,6 +80,8 @@
     <!-- /wp:group -->
 
     <?php
+    global $post;
+    echo '<div> page_id:' . $post->ID . '</div>'; // output wrong value
     wp_reset_query();
     echo get_the_ID();
     // kdmfi_the_featured_image('featured-image-2', 'full', 481);
