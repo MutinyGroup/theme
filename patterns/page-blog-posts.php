@@ -53,7 +53,7 @@
               <li class="bigger relative group swiper-slide  w-full slideBlog opacity-0 desktop:w-[535px] wide:w-[580px] h-fit desktop:h-[545px] wide:h-[650px] transition duration-[800ms] ease-in <?php echo (!($counter % 2)) ? 'desktop:mt-[120px]' : ''; ?>">
                 <a href="<?php the_permalink(); ?>">
                   <!-- wp:group -->
-                  <div class="wp-block-group h-[330px] dekstop:h-full mb-[20px]">
+                  <div class="wp-block-group h-[330px] desktop:h-full mb-[20px]">
                     <!-- wp:group -->
                     <div class="wp-block-group h-full overflow-hidden rounded-[20px]">
                       <!-- wp:image -->
