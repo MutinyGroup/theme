@@ -24,10 +24,13 @@
 
 		<!-- wp:group -->
 		<div id="Page content" class="wp-block-group page-content-wrapper w-screen desktop:flex-1">			
-			<!-- wp:post-template -->
-			<!-- wp:post-terms /-->
-      <!-- wp:pattern {"slug":"single-post-content"} /-->
-			<!-- /wp:post-template -->
+			
+			<!-- wp:query {"query":{"inherit":true}} -->
+				<!-- wp:post-template -->
+				<!-- wp:pattern {"slug":"single-post-content"} /-->
+				<!-- /wp:post-template -->
+			<!-- /wp:query -->
+
 
 
 
