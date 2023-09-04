@@ -110,10 +110,12 @@ if(document.body.classList.contains('page-id-101')){
   let more = 900;
   let more2 = 1520;
 
+  
+
   if(document.body.classList.contains('page-id-110')){
     showMoreBtn.addEventListener('click',()=>{
       realizationsContainer.style.maxHeight = 1500 + more + 'px';
-      more += 900;
+      (window.innerWidth > 480) ? more += 900 : more += 1100;
     });
 };
   if(document.body.classList.contains('blog')){
