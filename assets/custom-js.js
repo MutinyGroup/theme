@@ -111,10 +111,10 @@ if(document.body.classList.contains('page-id-101')){
   let more = 900;
   (window.innerWidth > 480) ? more = 900 : more = 1710;
   let more2 = 1520;
-  console.log(realizationsContainer);
-  console.log(realizationsEventsList);
+
   realizationsContainerHeight = realizationsContainer.clientHeight;
-  console.log(realizationsContainerHeight);
+  realizationsEventsListHeight = realizationsEventsList.clientHeight;
+  console.log(realizationsEventsListHeight);
   
 
   if(document.body.classList.contains('page-id-110')){
