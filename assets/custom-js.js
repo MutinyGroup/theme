@@ -122,6 +122,7 @@ if(document.body.classList.contains('page-id-101')){
       //   console.log('endd');
       // }
       console.log(realizationsEventsList.offsetHeight);
+      console.log(realizationsEventsList.clientHeight);
     });
 };
   if(document.body.classList.contains('blog')){
