@@ -116,6 +116,7 @@ if(document.body.classList.contains('page-id-101')){
     showMoreBtn.addEventListener('click',()=>{
       realizationsContainer.style.maxHeight = ((window.innerWidth > 480) ? 1500 : 1820) + more + 'px';
       (window.innerWidth > 480) ? more += 900 : more += 1100;
+      console.log(more);
     });
 };
   if(document.body.classList.contains('blog')){
