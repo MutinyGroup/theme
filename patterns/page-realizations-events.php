@@ -163,7 +163,7 @@
     <!-- /wp:group -->
 
     <!-- wp:group -->
-    <div class="wp-block-group btn-more min-w-fit flex gap-[20px]">
+    <div class="wp-block-group btn-more min-w-fit flex gap-[20px] opacity-100 transition ease-out duration-300">
       <!-- wp:paragraph -->
       <p id="showMore" class="min-w-fit ml-[0px] p-[15px_30px] font-bold uppercase border-[2px] border-[#D5D5D5] rounded-full hover:border-primaryYellow hover:text-black transition ease-out duration-300 cursor-pointer text-[14px]">Pokaż Więcej</p>
       <!-- /wp:paragraph -->

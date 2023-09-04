@@ -104,7 +104,6 @@ if(document.body.classList.contains('page-id-101')){
 
   // posts page show more
   let realizationsContainer = document.querySelector('#realizationsContainer');
-  let realizationsEventsList = document.querySelector('#EventyList');
   const blogContainer = document.querySelector('#blogContainer');
   const showMoreBtn = document.querySelector('#showMore');
   const showMoreBlogPostsBtn = document.querySelector('#showMorePosts');
@@ -123,7 +122,7 @@ if(document.body.classList.contains('page-id-101')){
       console.log(eventsListHeight);
 
       if(realizationsHeight > eventsListHeight){
-        showMoreBtn.classList.add('hidden')
+        showMoreBtn.classList.add('opacity-0')
       }
     });
 };
