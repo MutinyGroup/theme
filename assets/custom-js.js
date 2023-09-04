@@ -112,10 +112,10 @@ if(document.body.classList.contains('page-id-101')){
   (window.innerWidth > 480) ? more = 900 : more = 1710;
   let more2 = 1520;
 
-  realizationsContainerHeight = realizationsContainer.clientHeight;
+  realizationsContainerHeight = realizationsContainer.offsetHeight;
   realizationsEventsListHeight = realizationsEventsList.clientHeight;
-  // console.log(realizationsContainerHeight);
   console.log(realizationsEventsListHeight);
+  console.log(realizationsContainerHeight);
   // if(realizationsContainerHeight > realizationsEventsListHeight){
   //   console.log('endd');
   // }
