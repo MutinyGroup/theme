@@ -106,7 +106,6 @@ if(document.body.classList.contains('page-id-101')){
   const realizationsContainer = document.querySelector('#realizationsContainer');
   const blogContainer = document.querySelector('#blogContainer');
   const showMoreBtn = document.querySelector('#showMore');
-  const showMoreBtnWrapper = document.querySelector('.button-wrapper');
   const showMoreBlogPostsBtn = document.querySelector('#showMorePosts');
   let more = 900;
   (window.innerWidth > 480) ? more = 900 : more = 1710;
@@ -127,10 +126,20 @@ if(document.body.classList.contains('page-id-101')){
       }
     });
 };
+
   if(document.body.classList.contains('blog')){
+    const showMoreBtnWrapper = document.querySelector('.button-wrapper');
     showMoreBlogPostsBtn.addEventListener('click',()=>{
       blogContainer.style.maxHeight = 1460 + more2 + 'px';
       more2 += 1520;
+
+      let blogContainerHeight = document.querySelector('#blogContainer').offsetHeight;
+      let blogPostsList = document.querySelector('.blog-posts-wrapper').offsetHeight;
+
+      if(blogContainerHeight > blogPostsList){
+        showMoreBtn.classList.add('opacity-0', 'hidden');
+        showMoreBtnWrapper.classList.remove('gap-[64px]')
+      }
     });
   }
   
