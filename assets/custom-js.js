@@ -121,8 +121,8 @@ if(document.body.classList.contains('page-id-101')){
       // if(realizationsContainer.offsetHeight > realizationsEventsList.offsetHeight){
       //   console.log('endd');
       // }
-      console.log(realizationsContainer.offsetHeight);
-      console.log(realizationsEventsList.offsetHeight);
+      console.log(realizationsContainer);
+      console.log(realizationsEventsList);
       // console.log(realizationsEventsList.clientHeight);
     });
 };
