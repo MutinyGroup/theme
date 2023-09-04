@@ -104,7 +104,7 @@ if(document.body.classList.contains('page-id-101')){
 
   // posts page show more
   const realizationsContainer = document.querySelector('#realizationsContainer');
-  const realizationsEventsList = document.querySelector('#Eventy');
+  const realizationsEventsList = document.querySelector('#EventyList');
   const blogContainer = document.querySelector('#blogContainer');
   const showMoreBtn = document.querySelector('#showMore');
   const showMoreBlogPostsBtn = document.querySelector('#showMorePosts');
