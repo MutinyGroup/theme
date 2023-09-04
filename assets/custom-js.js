@@ -114,7 +114,7 @@ if(document.body.classList.contains('page-id-101')){
 
   realizationsContainerHeight = realizationsContainer.clientHeight;
   realizationsEventsListHeight = realizationsEventsList.clientHeight;
-  console.log(realizationsContainerHeight);
+  // console.log(realizationsContainerHeight);
   console.log(realizationsEventsListHeight);
   // if(realizationsContainerHeight > realizationsEventsListHeight){
   //   console.log('endd');
