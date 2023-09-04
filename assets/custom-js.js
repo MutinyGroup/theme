@@ -114,7 +114,7 @@ if(document.body.classList.contains('page-id-101')){
 
   if(document.body.classList.contains('page-id-110')){
     showMoreBtn.addEventListener('click',()=>{
-      realizationsContainer.style.maxHeight = 1500 + more + 'px';
+      realizationsContainer.style.maxHeight = ((window.innerWidth > 480) ? 1500 : 1820) + more + 'px';
       (window.innerWidth > 480) ? more += 900 : more += 1100;
     });
 };
