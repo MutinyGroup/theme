@@ -121,12 +121,9 @@ if(document.body.classList.contains('page-id-101')){
     showMoreBtn.addEventListener('click',()=>{
       realizationsContainer.style.maxHeight = ((window.innerWidth > 480) ? 1500 : 1820) + more + 'px';
       (window.innerWidth > 480) ? more += 900 : more += 1710;
-      // if(realizationsContainer.offsetHeight > realizationsEventsList.offsetHeight){
-      //   console.log('endd');
-      // }
-      console.log(realizationsContainer);
-      console.log(realizationsEventsList);
-      // console.log(realizationsEventsList.clientHeight);
+      if(realizationsContainerHeight > realizationsEventsListHeight){
+        console.log('endd');
+      }
     });
 };
   if(document.body.classList.contains('blog')){
