@@ -68,7 +68,7 @@
           <!-- wp:group -->
           <div class="wp-block-group overflow-hidden">
             <!-- wp:paragraph -->
-            <p data-aos="fade-up" data-aos-duration="600" data-aos-offset="30" class="uppercase">Content</p>
+            <span data-aos="fade-up" data-aos-duration="600" data-aos-offset="30" class="uppercase block">Content</span>
             <!-- /wp:paragraph -->
           </div>
           <!-- /wp:group -->
@@ -76,7 +76,7 @@
           <!-- wp:group -->
           <div class="wp-block-group overflow-hidden">
             <!-- wp:paragraph -->
-            <p data-aos="fade-up" data-aos-duration="600" data-aos-offset="30" class="relative block desktop:text-[50px] text-[24px] uppercase italic before:content-[''] before:inline-block desktop:before:mr-[8px] before:mr-[4px] before:bottom-0 before:left-0 desktop:before:w-[90px] before:w-[30px] desktop:before:h-[3px] before:h-[2px] before:bg-black">Marketing</p>
+            <span data-aos="fade-up" data-aos-duration="600" data-aos-offset="30" class="relative block desktop:text-[50px] text-[24px] uppercase italic before:content-[''] before:inline-block desktop:before:mr-[8px] before:mr-[4px] before:bottom-0 before:left-0 desktop:before:w-[90px] before:w-[30px] desktop:before:h-[3px] before:h-[2px] before:bg-black">Marketing</span>
             <!-- /wp:paragraph -->
           </div>
           <!-- /wp:group -->

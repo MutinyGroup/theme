@@ -55,7 +55,7 @@
           <!-- wp:group -->
           <div class="wp-block-group overflow-hidden">
             <!-- wp:paragraph -->
-            <span data-aos="fade-up" data-aos-duration="600" data-aos-offset="30" class="uppercase">Opracowanie strategii</span>
+            <span data-aos="fade-up" data-aos-duration="600" data-aos-offset="30" class="uppercase block">Opracowanie strategii</span>
             <!-- /wp:paragraph -->
           </div>
           <!-- /wp:group -->
