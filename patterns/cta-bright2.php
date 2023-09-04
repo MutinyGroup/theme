@@ -109,8 +109,8 @@
       <!-- wp:paragraph -->
       <p class="z-[2] text-white group-hover:text-black transition ease-in-out duration-[550ms]">
         <a href="<?php echo get_home_url() . '/contact'; ?>">
-          <span class="font-bold block">Poznaj</span>
-          <span class="font-bold block text-[25px] uppercase">OFERTĘ</span>
+          <span class="font-bold block">Skontaktuj się</span>
+          <span class="font-bold block text-[25px] uppercase">TERAZ</span>
         </a>
       </p>
       <!-- /wp:paragraph -->
