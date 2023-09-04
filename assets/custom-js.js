@@ -129,6 +129,8 @@ if(document.body.classList.contains('page-id-101')){
 
   if(document.body.classList.contains('blog')){
     const showMoreBtnWrapper = document.querySelector('.button-wrapper');
+    const showMoreBtn = document.querySelector('#showMorePosts');
+
     showMoreBlogPostsBtn.addEventListener('click',()=>{
       blogContainer.style.maxHeight = 1460 + more2 + 'px';
       more2 += 1520;
