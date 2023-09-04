@@ -108,6 +108,7 @@ if(document.body.classList.contains('page-id-101')){
   const showMoreBtn = document.querySelector('#showMore');
   const showMoreBlogPostsBtn = document.querySelector('#showMorePosts');
   let more = 900;
+  (window.innerWidth > 480) ? more = 900 : more = 1100;
   let more2 = 1520;
 
   
