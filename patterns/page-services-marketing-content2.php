@@ -49,7 +49,7 @@
           <!-- wp:group -->
           <div class="wp-block-group overflow-hidden">
             <!-- wp:paragraph -->
-            <p data-aos="fade-up" data-aos-duration="600" data-aos-offset="30" class="desktop:justify-self-end pt-[7px] pr-[15px] text-[20px]">02</p>
+            <span data-aos="fade-up" data-aos-duration="600" data-aos-offset="30" class="block desktop:justify-self-end pt-[7px] pr-[15px] text-[20px]">02</span>
             <!-- /wp:paragraph -->
           </div>
           <!-- /wp:group -->
