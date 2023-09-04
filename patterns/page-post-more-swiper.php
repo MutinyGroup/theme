@@ -56,7 +56,7 @@
                 $counter++;
                 if ($counter == 1) { ?>
                   <!-- wp:list-item -->
-                  <li class="wp-block-group swiper-slide desktop:mr-[80px] mr-[20px] relative group desktop:w-[535px] w-[300px] h-[500px] desktop:h-[675px] ">
+                  <li class="wp-block-group swiper-slide mr-[20px] desktop:mr-[60px] relative group desktop:w-[535px] w-[300px] h-[500px] desktop:h-[675px] ">
                     <!-- wp:paragraph -->
                     <a href="<?php the_permalink(); ?>">
                       <!-- wp:group -->
