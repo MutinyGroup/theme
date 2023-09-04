@@ -111,7 +111,7 @@
                   <!-- /wp:list -->
 
                   <!-- wp:paragraph -->
-                  <p class="text-[35px] font-semibold leading-[38px]"><?php the_title(); ?></p>
+                  <p class="text-[28px] desktop:text-[35px] font-semibold leading-[32px] desktop:leading-[38px]"><?php the_title(); ?></p>
                   <!-- /wp:paragraph -->
 
                   <!-- wp:buttons -->
