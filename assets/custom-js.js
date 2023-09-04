@@ -103,15 +103,17 @@ if(document.body.classList.contains('page-id-101')){
 
 
   // posts page show more
-  let realizationsContainer = document.querySelector('#realizationsContainer');
+  const realizationsContainer = document.querySelector('#realizationsContainer');
   const blogContainer = document.querySelector('#blogContainer');
   const showMoreBtn = document.querySelector('#showMore');
+  const showMoreBtnWrapper = document.querySelector('.button-wrapper');
   const showMoreBlogPostsBtn = document.querySelector('#showMorePosts');
   let more = 900;
   (window.innerWidth > 480) ? more = 900 : more = 1710;
   let more2 = 1520;
 
   if(document.body.classList.contains('page-id-110')){
+    const showMoreBtnWrapper = document.querySelector('.button-wrapper');
     showMoreBtn.addEventListener('click',()=>{
       realizationsContainer.style.maxHeight = ((window.innerWidth > 480) ? 1500 : 1820) + more + 'px';
       (window.innerWidth > 480) ? more += 900 : more += 1710;
@@ -122,7 +124,8 @@ if(document.body.classList.contains('page-id-101')){
       console.log(eventsListHeight);
 
       if(realizationsHeight > eventsListHeight){
-        showMoreBtn.classList.add('opacity-0', 'hidden')
+        showMoreBtn.classList.add('opacity-0', 'hidden');
+        showMoreBtnWrapper.classList.remove('gap-[64px]')
       }
     });
 };
