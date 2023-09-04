@@ -120,8 +120,11 @@ if(document.body.classList.contains('page-id-101')){
       let realizationsHeight = document.querySelector('#realizationsContainer').offsetHeight;
       let eventsListHeight = document.querySelector('#EventyList').offsetHeight;
       console.log(realizationsHeight);
-      console.log(realizationsHeight);
       console.log(eventsListHeight);
+
+      if(realizationsHeight > eventsListHeight){
+        console.log('end');
+      }
     });
 };
   if(document.body.classList.contains('blog')){
