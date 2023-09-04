@@ -64,7 +64,7 @@
                         <!-- wp:group -->
                         <div class="wp-block-group h-[360px] desktop:h-[560px] overflow-hidden rounded-[20px]">
                           <!-- wp:image -->
-                          <figure class="wp-block-image post-img clip-path-url-['#clipped-blog'] blog-first-img-hover h-full">
+                          <figure class="wp-block-image clip-path-url-['#clipped-blog'] blog-first-img-hover h-full">
                             <img src="<?php echo $postImageUrl[0]; ?>" alt="post-image">
                           </figure>
                           <!-- /wp:image -->
