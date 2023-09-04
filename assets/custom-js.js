@@ -112,7 +112,7 @@ if(document.body.classList.contains('page-id-101')){
   (window.innerWidth > 480) ? more = 900 : more = 1710;
   let more2 = 1520;
 
-  let realizationsContainerHeight = realizationsContainer.offsetHeight;
+  // let realizationsContainerHeight = realizationsContainer.offsetHeight;
   let realizationsEventsListHeight = realizationsEventsList.clientHeight;
   console.log(realizationsEventsListHeight);
   console.log(realizationsContainerHeight);
@@ -126,6 +126,7 @@ if(document.body.classList.contains('page-id-101')){
       realizationsContainer.style.maxHeight = ((window.innerWidth > 480) ? 1500 : 1820) + more + 'px';
       (window.innerWidth > 480) ? more += 900 : more += 1710;
 
+      let realizationsContainerHeight = realizationsContainer.offsetHeight;
       console.log(realizationsContainerHeight);
     });
 };
