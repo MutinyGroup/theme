@@ -52,7 +52,7 @@
     <!-- /wp:list -->
 
     <!-- wp:list -->
-    <ul id="Eventy" class="wp-block-list events-list mb-[150px]">
+    <ul id="EventyList" class="wp-block-list events-list mb-[150px]">
       <?php
       $args = array(
         'post_type' => 'realizacje',
