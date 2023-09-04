@@ -97,7 +97,7 @@ function titleImgChange(){
 
 if(document.body.classList.contains('page-id-101')){
   window.addEventListener('scroll', titleImgChange, false); 
-}
+};
 
 
 
@@ -111,6 +111,8 @@ if(document.body.classList.contains('page-id-101')){
   let more = 900;
   (window.innerWidth > 480) ? more = 900 : more = 1710;
   let more2 = 1520;
+  console.log(realizationsContainer);
+  console.log(realizationsEventsList);
 
   
 
