@@ -108,7 +108,7 @@ if(document.body.classList.contains('page-id-101')){
   const showMoreBtn = document.querySelector('#showMore');
   const showMoreBlogPostsBtn = document.querySelector('#showMorePosts');
   let more = 900;
-  (window.innerWidth > 480) ? more = 900 : more = 1750;
+  (window.innerWidth > 480) ? more = 900 : more = 1710;
   let more2 = 1520;
 
   
@@ -116,7 +116,7 @@ if(document.body.classList.contains('page-id-101')){
   if(document.body.classList.contains('page-id-110')){
     showMoreBtn.addEventListener('click',()=>{
       realizationsContainer.style.maxHeight = ((window.innerWidth > 480) ? 1500 : 1820) + more + 'px';
-      (window.innerWidth > 480) ? more += 900 : more += 1750;
+      (window.innerWidth > 480) ? more += 900 : more += 1710;
       console.log(more);
     });
 };
