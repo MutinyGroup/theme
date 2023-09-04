@@ -13,7 +13,7 @@
   <!-- wp:group -->
   <div class="wp-block-group ccontainer mx-auto relative desktop:px-0">
     <!-- wp:group -->
-    <div class="wp-block-group title-wrapper relative container mx-auto desktop:mb-[120px] mb-[60px] desktop:flex z-[1]">
+    <div class="wp-block-group title-wrapper relative container mx-auto desktop:px-0 desktop:mb-[120px] mb-[60px] desktop:flex z-[1]">
       <!-- wp:paragraph -->
       <p>
         <svg class="flash desktop:scale-[1] scale-[0.4] absolute desktop:top-[-330px] top-[-360px] desktop:left-[-140px] right-[-100px] z-[-1]" xmlns="http://www.w3.org/2000/svg" width="688" height="801" viewBox="0 0 688 801" fill="none">
