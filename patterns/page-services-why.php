@@ -67,7 +67,7 @@
     <!-- wp:list -->
     <ul class="wp-block-list why-list-wrapper z-[1]">
       <!-- wp:list-item -->
-      <li class="mainTitle w-screen  mb-[30px] desktop:mb-[90px] pt-[30px] bg-brightWhite overflow-hidden sticky top-0 left-0 z-[3]">
+      <li class="mainTitle w-screen  mb-[30px] desktop:mb-[90px] pt-[30px] bg-brightWhite overflow-hidden sticky top-0 left-[-20px] deaktop:left-auto z-[3]">
         <!-- wp:group -->
         <div class="wp-block-group tile-img-title bg-brightWhite flex ">
           <!-- wp:group -->
