@@ -123,7 +123,7 @@ if(document.body.classList.contains('page-id-101')){
       console.log(eventsListHeight);
 
       if(realizationsHeight > eventsListHeight){
-        console.log('end');
+        showMoreBtn.classList.add('hidden')
       }
     });
 };
