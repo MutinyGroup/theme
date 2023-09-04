@@ -110,7 +110,7 @@
             <!-- wp:group -->
             <div class="wp-block-group opinion-author my-[50px] flex gap-[20px]">
               <!-- wp:image -->
-              <figure class="wp-block-image avatar rounded-full w-[60px] overflow-hidden">
+              <figure class="wp-block-image avatar rounded-full w-[60px] h-[60px] overflow-hidden">
                 <img src="<?php echo home_url() . '/wp-content/themes/mutiny/assets/img/front-page/avatars-opinions/avatar1.jpg'; ?>" alt="avatar">
               </figure>
               <!-- /wp:image -->
@@ -148,7 +148,7 @@
             <!-- wp:group -->
             <div class="wp-block-group opinion-author my-[50px] flex gap-[20px]">
               <!-- wp:image -->
-              <figure class="wp-block-image avatar rounded-full w-[60px] overflow-hidden">
+              <figure class="wp-block-image avatar rounded-full w-[60px] h-[60px] overflow-hidden">
                 <img src="<?php echo home_url() . '/wp-content/themes/mutiny/assets/img/front-page/avatars-opinions/avatar1.jpg'; ?>" alt="avatar">
               </figure>
               <!-- /wp:image -->
@@ -186,7 +186,7 @@
             <!-- wp:group -->
             <div class="wp-block-group opinion-author my-[50px] flex gap-[20px]">
               <!-- wp:image -->
-              <figure class="wp-block-image avatar rounded-full w-[60px] overflow-hidden">
+              <figure class="wp-block-image avatar rounded-full w-[60px] h-[60px] overflow-hidden">
                 <img src="<?php echo home_url() . '/wp-content/themes/mutiny/assets/img/front-page/avatars-opinions/avatar1.jpg'; ?>" alt="avatar">
               </figure>
               <!-- /wp:image -->
@@ -224,7 +224,7 @@
             <!-- wp:group -->
             <div class="wp-block-group opinion-author my-[50px] flex gap-[20px]">
               <!-- wp:image -->
-              <figure class="wp-block-image avatar rounded-full w-[60px] overflow-hidden">
+              <figure class="wp-block-image avatar rounded-full w-[60px] h-[60px] overflow-hidden">
                 <img src="<?php echo home_url() . '/wp-content/themes/mutiny/assets/img/front-page/avatars-opinions/avatar1.jpg'; ?>" alt="avatar">
               </figure>
               <!-- /wp:image -->
