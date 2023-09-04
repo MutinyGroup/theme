@@ -11,7 +11,7 @@
 <!-- wp:group {"templateLock":"contentOnly","anchor":true} -->
 <div id="Dlaczego" class="wp-block-group why desktop:pt-[150px] ooverflow-hidden">
   <!-- wp:group -->
-  <div class="wp-block-group ccontainer mx-auto relative desktop:px-0 px-[20px]">
+  <div class="wp-block-group ccontainer mx-auto relative desktop:px-0">
     <!-- wp:group -->
     <div class="wp-block-group title-wrapper relative container mx-auto desktop:mb-[120px] mb-[60px] desktop:flex z-[1]">
       <!-- wp:paragraph -->
@@ -67,7 +67,7 @@
     <!-- wp:list -->
     <ul class="wp-block-list why-list-wrapper z-[1]">
       <!-- wp:list-item -->
-      <li class="mainTitle w-screen  mb-[30px] desktop:mb-[90px] pt-[30px] bg-brightWhite overflow-hidden sticky top-0 left-[-20px] deaktop:left-auto z-[3]">
+      <li class="mainTitle w-screen desktop:w-auto  mb-[30px] desktop:mb-[90px] pt-[30px] bg-brightWhite overflow-hidden sticky top-0 left-[-20px] deaktop:left-auto z-[3]">
         <!-- wp:group -->
         <div class="wp-block-group tile-img-title bg-brightWhite flex ">
           <!-- wp:group -->
