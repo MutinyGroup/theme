@@ -115,15 +115,16 @@ if(document.body.classList.contains('page-id-101')){
   realizationsContainerHeight = realizationsContainer.clientHeight;
   realizationsEventsListHeight = realizationsEventsList.clientHeight;
   console.log(realizationsEventsListHeight);
+  if(realizationsContainerHeight > realizationsEventsListHeight){
+    console.log('endd');
+  }
   
 
   if(document.body.classList.contains('page-id-110')){
     showMoreBtn.addEventListener('click',()=>{
       realizationsContainer.style.maxHeight = ((window.innerWidth > 480) ? 1500 : 1820) + more + 'px';
       (window.innerWidth > 480) ? more += 900 : more += 1710;
-      if(realizationsContainerHeight > realizationsEventsListHeight){
-        console.log('endd');
-      }
+  
     });
 };
   if(document.body.classList.contains('blog')){
