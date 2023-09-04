@@ -63,7 +63,7 @@
           <!-- wp:group -->
           <div class="wp-block-group overflow-hidden">
             <!-- wp:paragraph -->
-            <p data-aos="fade-up" data-aos-duration="600" data-aos-offset="30" class="relative block desktop:text-[50px] text-[24px] uppercase italic before:content-[''] before:inline-block desktop:before:mr-[8px] before:mr-[4px] before:bottom-0 before:left-0 desktop:before:w-[90px] before:w-[30px] desktop:before:h-[3px] before:h-[2px] before:bg-black">Marketingowych</p>
+            <span data-aos="fade-up" data-aos-duration="600" data-aos-offset="30" class="relative block desktop:text-[50px] text-[24px] uppercase italic before:content-[''] before:inline-block desktop:before:mr-[8px] before:mr-[4px] before:bottom-0 before:left-0 desktop:before:w-[90px] before:w-[30px] desktop:before:h-[3px] before:h-[2px] before:bg-black">Marketingowych</span>
             <!-- /wp:paragraph -->
           </div>
           <!-- /wp:group -->
@@ -89,7 +89,7 @@
         <p class="desktop:text-[20px] text-[18px] desktop:leading-[30px] leading-[26px]"><span data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="block">test Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doeiusmod tempor incididunt ut labore et dolore magna aliqua. Utenim ad minim veniam, quis nostrud exercitation ullamco laborisnisi ut aliquip ex ea commodo consequat.</span></p>
         <!-- /wp:paragraph -->
         <!-- wp:paragraph -->
-        <p data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="hidden desktop:block text-[16px] leading-[21px] pt-[50px]"><span data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="block">(test2)Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doeiusmod tempor incididunt ut labore et dolore magna aliqua. Utenim ad minim veniam, quis nostrud exercitation ullamco laborisnisi ut aliquip ex ea commodo consequat.</span></p>
+        <span data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="hidden desktop:block text-[16px] leading-[21px] pt-[50px]">(test2)Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doeiusmod tempor incididunt ut labore et dolore magna aliqua. Utenim ad minim veniam, quis nostrud exercitation ullamco laborisnisi ut aliquip ex ea commodo consequat.</span>
         <!-- /wp:paragraph -->
       </div>
       <!-- /wp:group -->
