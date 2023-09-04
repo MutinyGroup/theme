@@ -131,7 +131,7 @@
             <!-- /wp:group -->
 
             <!-- wp:group -->
-            <div id="marketing2-next" class="wp-block-group group swiper-button-next w-[56px] h-[56px] absolute top-[30%] desktop:top-[50% right-[40px] desktop:right-[230px] translate-y-[50%] after:hidden">
+            <div id="marketing2-next" class="wp-block-group group swiper-button-next w-[56px] h-[56px] absolute top-[30%] desktop:top-[50%] right-[40px] desktop:right-[230px] translate-y-[50%] after:hidden">
               <!-- wp:paragraph -->
               <p>
                 <svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 56 56" fill="none" class="group fill-primaryYellow">
