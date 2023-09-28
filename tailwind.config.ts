@@ -18,6 +18,18 @@ module.exports = {
 			},
 		},
 		extend: {
+			keyframes: {
+        textRoll: {
+          '0%': { opacity: '1', transform: 'translateY(0px)' },
+          '50%': { opacity: '1', transform: 'translateY(-25px)' },
+          '51%': { opacity: '0' },
+          '52%': { opacity: '0', transform: 'translateY(25px)' },
+          '53%': { opacity: '1', transform: 'translateY(25px)' },
+          '50%': { transform: 'translateY(0px)' },
+        },
+			animation: {
+        textRoll: 'textRoll 0.5s linear backwards',
+      },
 			colors: {
 				primaryYellow: '#FEC400',
 				secondary: '#FFBE34',
