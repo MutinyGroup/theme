@@ -94,7 +94,7 @@ figure[class*="logo-img"] img {
 
 @keyframes textRoll {
   0% {
-    opacity: 1;
+    /* opacity: 1; */
     transform: translateY(0px);
   }
   /* 25% {
