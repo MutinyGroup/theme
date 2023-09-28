@@ -72,7 +72,7 @@
         <!-- wp:group -->
         <div class="wp-block-group relative w-full h-full rounded-tr-[20px] overflow-hidden">
           <!-- wp:paragraph -->
-          <p>
+          <p data-aos="fade-right" data-aos-duration="600" data-aos-offset="85">
             <a href="#" class="pointer-events-none ">
               <!-- wp:image -->
               <figure class="wp-block-image w-full h-full clip-path-url-['#clipped-about']">
