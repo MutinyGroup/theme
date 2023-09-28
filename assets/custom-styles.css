@@ -101,11 +101,11 @@ figure[class*="logo-img"] img {
     /* opacity: 1; */
     transform: translateY(80px);
   }
-  25.1% {
+  26% {
     /* opacity: 0; */
     transform: translateY(-80px);
   }
-  25.2% {
+  27% {
     /* opacity: 1; */
   }
   100% {
