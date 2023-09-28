@@ -88,7 +88,7 @@ figure[class*="logo-img"] img {
   animation: forwards imgAppear 0.3s ease-out;
 }
 .animation-textRoll{
-  animation: backwards textRoll 0.5s linear;
+  animation: backwards textRoll 0.25s linear;
 }
 
 
@@ -99,18 +99,18 @@ figure[class*="logo-img"] img {
   }
   50% {
     opacity: 1;
-    transform: translateY(-30px);
+    transform: translateY(-25px);
   }
   51% {
     opacity: 0;
   }
   52% {
     opacity: 0;
-    transform: translateY(30px);
+    transform: translateY(25px);
   }
   53% {
     opacity: 1;
-    transform: translateY(30px);
+    transform: translateY(25px);
   }
   100% {
     transform: translateY(0px);
