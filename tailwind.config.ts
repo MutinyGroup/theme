@@ -26,7 +26,8 @@ module.exports = {
           '52%': { opacity: '0', transform: 'translateY(25px)' },
           '53%': { opacity: '1', transform: 'translateY(25px)' },
           '100%': { transform: 'translateY(0px)' },
-        },
+        }
+			},
 			animation: {
         textRoll: 'textRoll 0.5s linear backwards',
       },
