@@ -100,14 +100,14 @@ figure[class*="logo-img"] img {
   }
   25% {
     opacity: 1;
-    transform: translateY(-80px);
+    transform: translateY(80px);
   }
   26% {
     opacity: 0;
   }
   27% {
     opacity: 1;
-    transform: translateY(-80px);
+    transform: translateY(80px);
   }
   100% {
     transform: translateY(0px);
