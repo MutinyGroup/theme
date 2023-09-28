@@ -88,7 +88,7 @@ figure[class*="logo-img"] img {
   animation: forwards imgAppear 0.3s ease-out;
 }
 .animation-textRoll{
-  animation: backwards textRoll 2s linear;
+  animation: backwards textRoll 0.5s linear;
 }
 
 
