@@ -88,16 +88,17 @@ figure[class*="logo-img"] img {
   animation: forwards imgAppear 0.3s ease-out;
 }
 .animation-textRoll{
+  display: block;
   animation: forwards textRoll 0.8s ease-out;
 }
 
 
 @keyframes textRoll {
   0% {
-    /* opacity: 1; */
+    opacity: 1;
     transform: translateY(0px);
   }
-  /* 25% {
+  25% {
     opacity: 1;
     transform: translateY(80px);
   }
@@ -107,7 +108,7 @@ figure[class*="logo-img"] img {
   27% {
     opacity: 1;
     transform: translateY(-80px);
-  } */
+  }
   100% {
     transform: translateY(80px);
   }
