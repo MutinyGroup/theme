@@ -97,18 +97,18 @@ figure[class*="logo-img"] img {
     opacity: 1;
     transform: translateY(0px);
   }
-  80% {
+  50% {
     opacity: 1;
     transform: translateY(-80px);
   }
-  81% {
+  51% {
     opacity: 0;
   }
-  82% {
+  52% {
     opacity: 0;
     transform: translateY(80px);
   }
-  83% {
+  53% {
     opacity: 1;
     transform: translateY(80px);
   }
