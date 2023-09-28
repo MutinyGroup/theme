@@ -89,7 +89,7 @@ figure[class*="logo-img"] img {
 }
 .animation-textRoll{
   display: block;
-  animation: backwards textRoll 0.8s ease-out;
+  animation: backwards textRoll 1.5s ease-out;
 }
 
 
