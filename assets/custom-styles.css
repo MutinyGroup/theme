@@ -9,6 +9,22 @@ html {
 body {
   font-family: "Urbanist", sans-serif;
 }
+h2 {
+  font-size: 40px;
+  line-height: 54px;
+  margin: 0;
+  padding: 0;
+}
+h3 {
+  font-size: 36px;
+  line-height: 48px;
+  padding: 10.5px 0 1.5px;
+}
+h4 {
+  font-size: 30px;
+  line-height: 44px;
+  padding: 10.75px 0 1.25px;
+}
 /* images */
 .wp-block-image{
   margin: 0!important;
