@@ -25,13 +25,6 @@ figure div{
 .tile-title ul li div{
     white-space: inherit;
 }
-#block-d2dbe493-19f8-4da6-8228-a3aba291d1c9,
-.nav-desktop.headerDark{
-    position: relative!important;
-}
-#block-fd698805-1cf0-438b-8c58-e6afbb744a2c > div.block-editor-rich-text__editable.rich-text{
-    display: none!important;
-}
 
 /* section about us */
 .btn-text-roll > span {
@@ -98,10 +91,4 @@ figure div{
 
 .categories-under-logo li div{
     white-space: inherit;
-}
-.tile-realizacja-editor > div:first-child{
-    height: 0px!important;
-}
-.tile-realizacja-editor > div:nth-child(2){
-    height: 780px!important;
 }
