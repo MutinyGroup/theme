@@ -99,4 +99,6 @@ figure div{
 .categories-under-logo li div{
     white-space: inherit;
 }
-
+#block-39482be1-2f2b-444f-b495-d9733555eeae > div.block-editor-rich-text__editable.rich-text{
+    height: 0px!important;
+}
