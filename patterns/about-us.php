@@ -264,9 +264,7 @@
         <!-- wp:group -->
         <div class="wp-block-group button-wrapper max-w-[535px] flex justify-center items-center gap-[64px]">
 
-          <!-- wp:paragraph -->
           <a href="<?php echo get_home_url() . '/about'; ?>" class="uppercase btn-text-roll group bg-darkBlack text-white text-[14px] font-bold min-w-[225px] flex justify-center items-center px-[20px] btn-more ml-[0px] p-[15px_30px] border-[2px] rounded-full hover:bg-white hover:text-black" data-aos="fade-right" data-aos-duration="600" data-aos-offset="130"><span class="overflow-hidden h-[18px]"><span class="overflow-hidden"><span class="inline-block">Dowiedz się więcej</span></span></span></a>
-          <!-- /wp:paragraph -->
 
 
           <!-- wp:paragraph -->
