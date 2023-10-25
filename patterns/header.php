@@ -30,7 +30,7 @@ $url = substr(home_url(), 27, 3);;
   if ($url == '') {
   ?>
     <!-- wp:list-item -->
-    <li class="lang-btn group h-[48px] hover:h-[120px] hidden desktop:block p-[10px_12px] text-center uppercase font-medium border-[2px] border-[#AAAAAA] rounded-[50px] hover:rounded-[20px] absolute top-[20px] right-[20px] hover:bg-white hover:border-white hover:text-black transition-height ease-out duration-300">
+    <li id="lang-btn" class="lang-btn group h-[48px] hover:h-[120px] hidden desktop:block p-[10px_12px] text-center uppercase font-medium border-[2px] border-[#AAAAAA] rounded-[50px] hover:rounded-[20px] absolute top-[20px] right-[20px] hover:bg-white hover:border-white hover:text-black transition-height ease-out duration-300">
       <!-- wp:group -->
       <div class="wp-block-group link-wrapper">
         <!-- wp:paragraph -->
