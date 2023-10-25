@@ -106,5 +106,5 @@ figure div{
     height: 0px!important;
 }
 .block-editor-block-list__layout .block-editor-block-list__block > div{
-    height: 0px!important;
+    /* height: 0px!important; */
 }
