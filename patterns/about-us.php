@@ -272,7 +272,7 @@
               </span>
             </span>
           </a>
-          <!-- wp:paragraph -->
+          <!-- /wp:paragraph -->
 
 
           <!-- wp:paragraph -->
