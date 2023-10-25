@@ -87,12 +87,11 @@ figure[class*="logo-img"] img {
 .test03{
   animation: forwards imgAppear 0.3s ease-out;
 }
-.animation-textRoll{
+/* .animation-textRoll{
   animation: backwards textRoll 0.25s linear;
-}
+} */
 .btn-text-roll:hover > span > span > span{
   animation: backwards textRoll 0.25s linear;
-
 }
 
 
