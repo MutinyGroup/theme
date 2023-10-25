@@ -30,7 +30,7 @@ figure div{
     position: relative!important;
 }
 #block-fd698805-1cf0-438b-8c58-e6afbb744a2c > div.block-editor-rich-text__editable.rich-text{
-    display: none;
+    display: none!important;
 }
 
 /* section about us */
