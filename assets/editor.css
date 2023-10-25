@@ -2,89 +2,107 @@ body{
     background-color: #F2F2F2;
     color: black;
     overflow-x: hidden;
-}
-a:link{
+  }
+  a:link{
     text-decoration: none;
-}
-
-figure div{
+  }
+  
+  figure div{
     height: 100%!important;
     width: 100%;
     object-fit: cover;
-}
-
-/* FRONTPAGE */
-
-.banner-bg{
+  }
+  
+  /* FRONTPAGE */
+  
+  .banner-bg{
     right: -80px;
     width: 50%;
-}
-.tile-title ul li{
+  }
+  .tile-title ul li{
     height: fit-content;
-}
-.tile-title ul li div{
+  }
+  .tile-title ul li div{
     white-space: inherit;
-}
-
-
-/* Swiper Services */
-
-.swiperServices{
+  }
+  #block-d2dbe493-19f8-4da6-8228-a3aba291d1c9,
+  .nav-desktop.headerDark{
+    position: relative!important;
+  }
+  #block-fd698805-1cf0-438b-8c58-e6afbb744a2c > div.block-editor-rich-text__editable.rich-text{
+    display: none!important;
+  }
+  
+  /* section about us */
+  .btn-text-roll > span {
+    overflow: visible;
+  }
+  
+  /* Swiper Services */
+  
+  .swiperServices{
     overflow-x: scroll;
-}
-.swiper-slide-services{
+  }
+  .swiper-slide-services{
     min-width: 354px!important;
-}
-.swiper-services-editor{
+  }
+  .swiper-services-editor{
     height: 850px;
-}
-.services-img div{
+  }
+  .services-img div{
     height: 100%!important;
-}
-
-/* Swiper Opinions Dark */
-
-.swiperOpinions{
+  }
+  
+  /* Swiper Opinions Dark */
+  
+  .swiperOpinions{
     overflow-x: scroll;
-}
-.swiperOpinions .swiper-wrapper .swiper-slide{
+  }
+  .swiperOpinions .swiper-wrapper .swiper-slide{
     opacity:1;
     min-width: 444px;
-}
-
-/* Swiper Blog  */
-
-.blog-container-editor{
+  }
+  
+  /* Swiper Blog  */
+  
+  .blog-container-editor{
     min-height: 1100px;
-}
-.swiperBlog{
+  }
+  .swiperBlog{
     z-index: 10!important;
     position: relative!important;
     height: 1000px;
-}
-.swiper-wrapper{
+  }
+  .swiper-wrapper{
     display: flex;
-}
-.swiperBlog .swiper-wrapper .swiper-slide{
+  }
+  .swiperBlog .swiper-wrapper .swiper-slide{
     min-width: 535px
-}
-
-.blog-first-img-hover img {
+  }
+  
+  .blog-first-img-hover img {
     transition: all 0.6s ease-out;
     transform: scale(1.17);
-}
+  }
   .swiperBlog .swiper-slide:hover .blog-first-img-hover > img {
     transform: scale(1.11);
-}
+  }
   .blog-posts-wrapper .swiper-slide:hover .blog-first-img-hover > img {
     transform: scale(1.11);
-}
-.swiper-overscroll{
+  }
+  .swiper-overscroll{
     overflow-x: scroll!important;
-}
-
-/* PAGE REALIZATIONS */
-
-.categories-under-logo li div{
+  }
+  
+  /* PAGE REALIZATIONS */
+  
+  .categories-under-logo li div{
     white-space: inherit;
-}
+  }
+  .tile-realizacja-editor > div:first-child{
+    height: 0px!important;
+  }
+  .tile-realizacja-editor > div:nth-child(2){
+    height: 780px!important;
+  }
+  
