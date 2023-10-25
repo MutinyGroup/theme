@@ -218,23 +218,23 @@
         };
         wp_reset_query();
         ?>
+      </ul>
+      <!-- /wp:list -->
+    </div>
+    <!-- /wp:group -->
+
+    <!-- wp:group -->
+    <div class="wp-block-group button-wrapper desktop:mt-[80px] mt-[40px] flex items-center justify-center gap-[64px] cursor-pointer">
+      <!-- wp:paragraph -->
+      <p data-aos="fade-right" data-aos-duration="600" data-aos-offset="130" class="wp-block gray-border hidden desktop:inline-block w-full h-[2px] bg-[#808080] opacity-[15%]"><span class="hidden">gray separator</span></p>
+      <!-- /wp:paragraph -->
+
+      <!-- wp:paragraph -->
+      <a href="<?php echo get_home_url() . '/realizations'; ?>" class="uppercase btn-text-roll group bg-darkBlack text-white text-[14px] font-bold min-w-fit flex justify-center items-center px-[20px] btn-more ml-[0px] p-[15px_30px] border-[2px] rounded-full hover:bg-white hover:text-black" data-aos="fade-right" data-aos-duration="600" data-aos-offset="130"><span class="overflow-hidden h-[18px]"><span class="overflow-hidden"><span class="inline-block">Zobacz wszystkie realizacje</span></span></span></a>
+      <!-- /wp:paragraph -->
     </div>
     <!-- /wp:group -->
   </div>
   <!-- /wp:group -->
-
-  <!-- wp:group -->
-  <div class="wp-block-group button-wrapper desktop:mt-[80px] mt-[40px] flex items-center justify-center gap-[64px] cursor-pointer">
-    <!-- wp:paragraph -->
-    <p data-aos="fade-right" data-aos-duration="600" data-aos-offset="130" class="wp-block gray-border hidden desktop:inline-block w-full h-[2px] bg-[#808080] opacity-[15%]"><span class="hidden">gray separator</span></p>
-    <!-- /wp:paragraph -->
-
-    <!-- wp:paragraph -->
-    <a href="<?php echo get_home_url() . '/realizations'; ?>" class="uppercase btn-text-roll group bg-darkBlack text-white text-[14px] font-bold min-w-fit flex justify-center items-center px-[20px] btn-more ml-[0px] p-[15px_30px] border-[2px] rounded-full hover:bg-white hover:text-black" data-aos="fade-right" data-aos-duration="600" data-aos-offset="130"><span class="overflow-hidden h-[18px]"><span class="overflow-hidden"><span class="inline-block">Zobacz wszystkie realizacje</span></span></span></a>
-    <!-- /wp:paragraph -->
-  </div>
-  <!-- /wp:group -->
-</div>
-<!-- /wp:group -->
 </div>
 <!-- /wp:group -->
