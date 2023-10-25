@@ -25,8 +25,9 @@ figure div{
 .tile-title ul li div{
     white-space: inherit;
 }
-.nav-desktop .headerDark{
-    position: relative;
+#block-d2dbe493-19f8-4da6-8228-a3aba291d1c9,
+.nav-desktop.headerDark{
+    position: relative!important;
 }
 .editor-styles-wrapper .fixed {
     position: relative!important;
