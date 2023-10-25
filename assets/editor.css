@@ -25,6 +25,9 @@ figure div{
 .tile-title ul li div{
     white-space: inherit;
 }
+.nav-desktop .headerDark{
+    position: relative;
+}
 
 /* section about us */
 .btn-text-roll > span {
