@@ -320,11 +320,12 @@ function mutinyblocks_register_styles()
 	wp_enqueue_script('effects-appear', get_theme_file_uri('/assets/effects-appear.js'), '1.0', array('effectsAppear'));
 }
 add_action('wp_enqueue_scripts', 'mutinyblocks_register_styles');
-function add_to_head()
-{
-	echo '<script>AOS.init({once: true});</script>';
-}
-add_action('wp_head', 'add_to_head');
+
+// function add_to_head()
+// {
+// 	echo '<script>AOS.init({once: true});</script>';
+// }
+// add_action('wp_head', 'add_to_head');
 
 /**
  * Register Block Patterns.
