@@ -316,6 +316,7 @@ function mutinyblocks_register_styles()
 	wp_enqueue_style('google-fonts-poppins', '//fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap', '1.0');
 
 	wp_enqueue_script('customJS', get_theme_file_uri('/assets/custom-js.js'), '1.0', array('swiperMain', 'tailwind-config'));
+	wp_enqueue_script('aos-init', get_theme_file_uri('/assets/aos-init.js'), '1.0', array('aos-init', 'tailwind-config'));
 	wp_enqueue_script('effects-appear', get_theme_file_uri('/assets/effects-appear.js'), '1.0', array('effectsAppear'));
 }
 add_action('wp_enqueue_scripts', 'mutinyblocks_register_styles');
