@@ -26,6 +26,14 @@ figure div{
     white-space: inherit;
 }
 
+/* section about us */
+.btn-text-roll:hover > span {
+    overflow: auto;
+}
+.btn-text-roll:hover > span > span {
+    overflow: auto;
+}
+
 
 /* Swiper Services */
 
