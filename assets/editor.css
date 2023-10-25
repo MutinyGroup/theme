@@ -27,10 +27,10 @@ figure div{
 }
 
 /* section about us */
-.btn-text-roll:hover > span {
+.btn-text-roll > span {
     overflow: auto;
 }
-.btn-text-roll:hover > span > span {
+.btn-text-roll > span > span {
     overflow: auto;
 }
 
