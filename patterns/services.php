@@ -255,30 +255,9 @@
       </div>
       <!-- /wp:group -->
 
-      <!-- wp:list -->
-      <ul class="wp-block-list">
-        <!-- wp:list-item -->
-        <li class="wp-block-group">
-          <a href="<?php echo get_home_url() . '/services'; ?>" class="uppercase group bg-darkBlack text-white text-[14px] font-bold min-w-[225px] flex justify-center items-center px-[20px] btn-more ml-[0px] p-[15px_30px] border-[2px] rounded-full hover:bg-white hover:text-black">
-            <!-- wp:group -->
-            <div class="wp-block-group overflow-hidden h-[18px]">
-              <!-- wp:group -->
-              <div class="wp-block-group overflow-hidden">
-                <!-- wp:paragraph -->
-                <p class="translate-y-0 group-hover:translate-y-[-22px] transition ease duration-[300ms]">Dowiedz się więcej</p>
-                <!-- /wp:paragraph -->
-                <!-- wp:paragraph -->
-                <p class="translate-y-0 group-hover:translate-y-[-22px] transition ease duration-[300ms]">Dowiedz się więcej</p>
-                <!-- /wp:paragraph -->
-              </div>
-              <!-- /wp:group -->
-            </div>
-            <!-- /wp:group -->
-          </a>
-        </li>
-        <!-- /wp:list-item -->
-      </ul>
-      <!-- /wp:list -->
+      <!-- wp:paragraph -->
+      <a href="<?php echo get_home_url() . '/about'; ?>" class="uppercase btn-text-roll group bg-darkBlack text-white text-[14px] font-bold min-w-[225px] flex justify-center items-center px-[20px] btn-more ml-[0px] p-[15px_30px] border-[2px] rounded-full hover:bg-white hover:text-black" data-aos="fade-right" data-aos-duration="600" data-aos-offset="130"><span class="overflow-hidden h-[18px]"><span class="overflow-hidden"><span class="inline-block">Dowiedz się więcej</span></span></span></a>
+      <!-- /wp:paragraph -->
 
     </div>
     <!-- /wp:group -->
