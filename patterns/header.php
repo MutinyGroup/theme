@@ -24,7 +24,9 @@ $url = substr(home_url(), 27, 3);;
   </li>
   <!-- /wp:list-item -->
 
-  <!-- wp:navigation /-->
+  <!-- wp:list-item -->
+  <li><!-- wp:navigation /--></li>
+  <!-- /wp:list-item -->
 
   <?php
   if ($url == '') {
