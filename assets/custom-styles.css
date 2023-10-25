@@ -90,6 +90,10 @@ figure[class*="logo-img"] img {
 .animation-textRoll{
   animation: backwards textRoll 0.25s linear;
 }
+.btn-text-roll:hover{
+  animation: backwards textRoll 0.25s linear;
+
+}
 
 
 @keyframes textRoll {
