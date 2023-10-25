@@ -107,7 +107,6 @@
                 $postImageUrl = wp_get_attachment_image_src(get_post_thumbnail_id(), 'portrait');
                 $counter++;
                 if ($counter == 1) { ?>
-                  <!-- wp:paragraph -->
                   <a href="<?php the_permalink(); ?>" data-aos="fade-left" data-aos-duration="600" data-aos-offset="130" class="swiper-slide group desktop:w-[535px] w-[300px] h-[500px] desktop:h-[675px]">
                     <!-- wp:group -->
                     <div class="wp-block-group h-full w-full">
@@ -150,10 +149,8 @@
                     </div>
                     <!-- /wp:group -->
                   </a>
-                  <!-- /wp:paragraph -->
                 <?php
                 } else { ?>
-                  <!-- wp:paragraph -->
                   <a href="<?php the_permalink(); ?>" data-aos="fade-left" data-aos-duration="600" data-aos-offset="130" class="swiper-slide group mr-[25px] desktop:w-[444px] w-[280px] desktop:h-[675px] h-[480px]">
                     <!-- wp:group -->
                     <div class="wp-block-group h-full w-full">
@@ -185,7 +182,6 @@
                     </div>
                     <!-- /wp:group -->
                   </a>
-                  <!-- /wp:paragraph -->
             <?php
                 };
               };
