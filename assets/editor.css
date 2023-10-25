@@ -29,6 +29,9 @@ figure div{
 .nav-desktop.headerDark{
     position: relative!important;
 }
+#block-fd698805-1cf0-438b-8c58-e6afbb744a2c > div.block-editor-rich-text__editable.rich-text{
+    display: none;
+}
 
 /* section about us */
 .btn-text-roll > span {
