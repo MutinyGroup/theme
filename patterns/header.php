@@ -35,8 +35,12 @@ $url = substr(home_url(), 27, 3);;
         <!-- wp:paragraph -->
         <p class="block hover:text-primaryYellow group-hover:mb-[10px]">PL</p>
         <!-- /wp:paragraph -->
+        <!-- wp:paragraph -->
         <a class="block hover:text-primaryYellow group-hover:mb-[10px] opacity-0 group-hover:opacity-100 transition ease-out duration-300" href="http://mutiny.webo.design/eng2/">ENG</a>
+        <!-- /wp:paragraph -->
+        <!-- wp:paragraph -->
         <a class="block hover:text-primaryYellow opacity-0 group-hover:opacity-100 transition ease-out duration-300" href="http://mutiny.webo.design/se/">SE</a>
+        <!-- /wp:paragraph -->
       </div>
     </li>
     <!-- /wp:list-item -->
