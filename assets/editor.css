@@ -105,3 +105,6 @@ figure div{
 #block-fb902124-d779-4773-bf2e-0a2368b8a643 > div{
     height: 0px!important;
 }
+.block-editor-block-list__layout .block-editor-block-list__block > div{
+    height: 0px!important;
+}
