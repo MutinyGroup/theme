@@ -28,12 +28,8 @@ figure div{
 
 /* section about us */
 .btn-text-roll > span {
-    overflow: auto;
+    overflow: visible;
 }
-.btn-text-roll > span > span {
-    overflow: auto;
-}
-
 
 /* Swiper Services */
 
