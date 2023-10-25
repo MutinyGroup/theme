@@ -106,6 +106,5 @@ figure div{
     height: 0px!important;
 }
 .tile-realizacja-editor > div:first-child{
-    /* height: 0px!important; */
-    display: none!important;
+    height: 0px!important;
 }
