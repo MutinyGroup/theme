@@ -14,7 +14,7 @@
     <!-- wp:group -->
     <div class="wp-block-group h-fit mb-[82px] overflow-hidden">
       <!-- wp:paragraph -->
-      <p data-aos="fade-up" data-aos-duration="600" data-aos-offset="85" class="uppercase text-[40px] font-medium text-center">Zaufali nam</p>
+      <span data-aos="fade-up" data-aos-duration="600" data-aos-offset="85" class="uppercase text-[40px] font-medium text-center">Zaufali nam</span>
       <!-- /wp:paragraph -->
     </div>
     <!-- /wp:group -->
