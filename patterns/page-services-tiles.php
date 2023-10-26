@@ -86,7 +86,7 @@
 
     <!-- wp:group -->
     <div class="wp-block-group gallery-cols relative pb-[150px]">
-      <!-- wp:query {"query":{"perPage":5,"pages":0,"offset":0,"postType":"post"},"isLink":true} -->
+      <!-- wp:query {"query":{"perPage":5,"pages":0,"offset":0,"postType":"ulugi"},"isLink":true} -->
       <!-- wp:post-template -->
       <!-- wp:post-title {"isLink":true} /-->
       <!-- /wp:post-template -->
