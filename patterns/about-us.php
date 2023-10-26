@@ -17,7 +17,7 @@
       <!-- wp:group -->
       <div class="wp-block-group min-w-fit h-fit overflow-hidden">
         <!-- wp:paragraph -->
-        <p class="section-title min-w-fit uppercase text-primaryYellow"><span data-aos="fade-up">O nas</span></p>
+        <span data-aos="fade-up" class="section-title min-w-fit uppercase text-primaryYellow">O nas</span>
         <!-- /wp:paragraph -->
       </div>
       <!-- /wp:group -->
@@ -29,8 +29,8 @@
         <!-- wp:group -->
         <div class="wp-block-group overflow-hidden">
           <!-- wp:paragraph -->
-          <p class="uppercase inline desktop:text-[50px] text-[24px] desktop:leading-[55px] leading-[30px]"><span data-aos="fade-up" data-aos-duration="600" data-aos-offset="85">Holistyczne podejście do działań reklamowych sprawia, że nasza firma działa</span>
-          </p>
+          <span data-aos="fade-up" data-aos-duration="600" data-aos-offset="85" class="uppercase inline desktop:text-[50px] text-[24px] desktop:leading-[55px] leading-[30px]">Holistyczne podejście do działań reklamowych sprawia, że nasza firma działa
+          </span>
           <!-- /wp:paragraph -->
 
           <!-- wp:paragraph -->
