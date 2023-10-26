@@ -94,7 +94,7 @@
               <!-- wp:group -->
               <div class="wp-block-group img-clip-path-wrapper mb-[50px] w-full h-full rounded-[20px] overflow-hidden">
                 <!-- wp:group -->
-                <div href="#" class="wp-block-group pointer-events-none relative">
+                <div class="wp-block-group pointer-events-none relative">
                   <!-- wp:image -->
                   <figure class="wp-block-image title-img1 opacity-1 h-full w-full clip-path-url-['#clipped-why']  transition ease-in-out duration-[400ms]">
                     <img src="<?php echo home_url() . '/wp-content/themes/mutiny/assets/img/page-services/why-img1.jpg'; ?>" alt="services-background-image" />
