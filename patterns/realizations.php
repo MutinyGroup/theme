@@ -120,7 +120,7 @@
               <!-- wp:list-item -->
               <li class="tile-realizacja-editor">
                 <!-- wp:group -->
-                <div class="wp-block-group tile-realizacje block mb-[30px] desktop:w-[510px] wide:w-[600px] h-[480px] desktop:h-[700px] wide:h-[780px] relative group transition ease-in-out duration-[400ms] group hover:before:opacity-100 before:content-[''] before:opacity-0 before:absolute before:top-0 before:left-0 before:z-[1] before:w-full before:h-full before:bg-gradient-to-t before:from-black before:via-[rgba(0,0,0,0)] before:bg-center before:bg-cover before:transition before:duration-[300ms] before:ease-out <?php echo (($counter % 2)) ? "tile-realizacje-1 clip-path-url-['#clipped-realizations-1']" : "tile-realizacje-2 clip-path-url-['#clipped-realizations-2'] desktop:mt-[70px]"; ?>" data-aos="fade-right" data-aos-duration="600" data-aos-offset="130">
+                <div class="wp-block-group tile-realizacje block mb-[30px] desktop:w-[510px] wide:w-[600px] h-[480px] desktop:h-[700px] wide:h-[780px] relative group transition ease-in-out duration-[400ms] group hover:before:opacity-100 before:content-[''] before:opacity-0 before:absolute before:top-0 before:left-0 before:z-[1] before:w-full before:h-full before:bg-gradient-to-t before:from-black before:via-[rgba(0,0,0,0)] before:bg-center before:bg-cover before:transition before:duration-[300ms] before:ease-out <?php echo (($counter % 2)) ? "tile-realizacje-1 clip-path-url-['#clipped-realizations-1']" : "tile-realizacje-2 clip-path-url-['#clipped-realizations-2'] desktop:mt-[70px]"; ?>">
                   <!-- wp:group -->
                   <div class="wp-block-group w-full h-full">
                     <!-- wp:group -->
