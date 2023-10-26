@@ -267,11 +267,11 @@
           <!-- wp:group -->
           <div class="wp-block-group uppercase btn-text-roll group bg-darkBlack text-white text-[14px] font-bold min-w-[225px] flex justify-center items-center px-[20px] btn-more ml-[0px] p-[15px_30px] border-[2px] rounded-full hover:bg-white hover:text-black">
             <!-- wp:paragraph -->
-            <span class="overflow-hidden h-[18px]">
+            <p class="overflow-hidden h-[18px]">
               <!-- wp:paragraph -->
               <a href="<?php echo get_home_url() . '/about'; ?>" class="inline-block">Dowiedz się więcej</a>
               <!-- /wp:paragraph -->
-            </span>
+            </p>
             <!-- /wp:paragraph -->
           </div>
           <!-- /wp:group -->
