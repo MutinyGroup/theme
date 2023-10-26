@@ -226,7 +226,7 @@
     <!-- wp:group -->
     <div class="wp-block-group button-wrapper desktop:mt-[80px] mt-[40px] flex items-center justify-center gap-[64px] cursor-pointer">
       <!-- wp:paragraph -->
-      <p data-aos="fade-right" data-aos-duration="600" data-aos-offset="130" class="wp-block gray-border hidden desktop:inline-block w-full h-[2px] bg-[#808080] opacity-[15%]"><span class="hidden">gray separator</span></p>
+      <span data-aos="fade-right" data-aos-duration="600" data-aos-offset="130" class="wp-block gray-border hidden desktop:inline-block w-full h-[2px] bg-[#808080] opacity-[15%]"><span class="hidden">gray separator</span></span>
       <!-- /wp:paragraph -->
 
       <!-- wp:paragraph -->
