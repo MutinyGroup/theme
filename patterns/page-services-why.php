@@ -200,23 +200,23 @@
             <span data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="mb-[50px] text-[20px] leading-[30px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, seddo eiusmod tempor incididunt ut labore et dolore magnaaliqua. Ut enim ad minim veniam, quis nostrud exercitationullamco laboris nisi ut aliquip ex ea commodo consequat.</span>
             <!-- /wp:paragraph -->
             <!-- wp:paragraph -->
-            <p data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="mb-[50px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, seddo eiusmod tempor incididunt ut labore et dolore magnaaliqua. Ut enim ad minim veniami.</p>
+            <span data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="mb-[50px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, seddo eiusmod tempor incididunt ut labore et dolore magnaaliqua. Ut enim ad minim veniami.</span>
             <!-- /wp:paragraph -->
             <!-- wp:list -->
             <ul class="wp-block-list leading-[32px] font-semibold">
               <!-- wp:list-item -->
               <li class="flex items-center gap-[10px] ">
-                <p data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="inline before:content-[''] before:inline-block before:mr-[12px] before:mb-[5px] before:w-[20px] before:h-[2px] before:bg-primaryYellow">Lorem ipsum dolor sit amet</p>
+                <span data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="inline before:content-[''] before:inline-block before:mr-[12px] before:mb-[5px] before:w-[20px] before:h-[2px] before:bg-primaryYellow">Lorem ipsum dolor sit amet</span>
               </li>
               <!-- /wp:list-item -->
               <!-- wp:list-item -->
               <li class="flex items-center gap-[10px]">
-                <p data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="inline before:content-[''] before:inline-block before:mr-[12px] before:mb-[5px] before:w-[20px] before:h-[2px] before:bg-primaryYellow">Consectetur adipiscing elit</p>
+                <span data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="inline before:content-[''] before:inline-block before:mr-[12px] before:mb-[5px] before:w-[20px] before:h-[2px] before:bg-primaryYellow">Consectetur adipiscing elit</span>
               </li>
               <!-- /wp:list-item -->
               <!-- wp:list-item -->
               <li class="flex items-center gap-[10px]">
-                <p data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="inline before:content-[''] before:inline-block before:mr-[12px] before:mb-[5px] before:w-[20px] before:h-[2px] before:bg-primaryYellow">Sed do eiusmod tempor incididunt</p>
+                <span data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="inline before:content-[''] before:inline-block before:mr-[12px] before:mb-[5px] before:w-[20px] before:h-[2px] before:bg-primaryYellow">Sed do eiusmod tempor incididunt</span>
               </li>
               <!-- /wp:list-item -->
             </ul>
@@ -298,23 +298,23 @@
             <span data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="mb-[50px] text-[20px] leading-[30px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, seddo eiusmod tempor incididunt ut labore et dolore magnaaliqua. Ut enim ad minim veniam, quis nostrud exercitationullamco laboris nisi ut aliquip ex ea commodo consequat.</span>
             <!-- /wp:paragraph -->
             <!-- wp:paragraph -->
-            <p data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="mb-[50px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, seddo eiusmod tempor incididunt ut labore et dolore magnaaliqua. Ut enim ad minim veniami.</p>
+            <span data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="mb-[50px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, seddo eiusmod tempor incididunt ut labore et dolore magnaaliqua. Ut enim ad minim veniami.</span>
             <!-- /wp:paragraph -->
             <!-- wp:list -->
             <ul class="wp-block-list leading-[32px] font-semibold">
               <!-- wp:list-item -->
               <li class="flex items-center gap-[10px] ">
-                <p data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="inline before:content-[''] before:inline-block before:mr-[12px] before:mb-[5px] before:w-[20px] before:h-[2px] before:bg-primaryYellow">Lorem ipsum dolor sit amet</p>
+                <span data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="inline before:content-[''] before:inline-block before:mr-[12px] before:mb-[5px] before:w-[20px] before:h-[2px] before:bg-primaryYellow">Lorem ipsum dolor sit amet</span>
               </li>
               <!-- /wp:list-item -->
               <!-- wp:list-item -->
               <li class="flex items-center gap-[10px]">
-                <p data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="inline before:content-[''] before:inline-block before:mr-[12px] before:mb-[5px] before:w-[20px] before:h-[2px] before:bg-primaryYellow">Consectetur adipiscing elit</p>
+                <span data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="inline before:content-[''] before:inline-block before:mr-[12px] before:mb-[5px] before:w-[20px] before:h-[2px] before:bg-primaryYellow">Consectetur adipiscing elit</span>
               </li>
               <!-- /wp:list-item -->
               <!-- wp:list-item -->
               <li class="flex items-center gap-[10px]">
-                <p data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="inline before:content-[''] before:inline-block before:mr-[12px] before:mb-[5px] before:w-[20px] before:h-[2px] before:bg-primaryYellow">Sed do eiusmod tempor incididunt</p>
+                <span data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="inline before:content-[''] before:inline-block before:mr-[12px] before:mb-[5px] before:w-[20px] before:h-[2px] before:bg-primaryYellow">Sed do eiusmod tempor incididunt</span>
               </li>
               <!-- /wp:list-item -->
             </ul>
@@ -396,23 +396,23 @@
             <span data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="mb-[50px] text-[20px] leading-[30px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, seddo eiusmod tempor incididunt ut labore et dolore magnaaliqua. Ut enim ad minim veniam, quis nostrud exercitationullamco laboris nisi ut aliquip ex ea commodo consequat.</span>
             <!-- /wp:paragraph -->
             <!-- wp:paragraph -->
-            <p data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="mb-[50px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, seddo eiusmod tempor incididunt ut labore et dolore magnaaliqua. Ut enim ad minim veniami.</p>
+            <span data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="mb-[50px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, seddo eiusmod tempor incididunt ut labore et dolore magnaaliqua. Ut enim ad minim veniami.</span>
             <!-- /wp:paragraph -->
             <!-- wp:list -->
             <ul class="wp-block-list leading-[32px] font-semibold">
               <!-- wp:list-item -->
               <li class="flex items-center gap-[10px] ">
-                <p data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="inline before:content-[''] before:inline-block before:mr-[12px] before:mb-[5px] before:w-[20px] before:h-[2px] before:bg-primaryYellow">Lorem ipsum dolor sit amet</p>
+                <span data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="inline before:content-[''] before:inline-block before:mr-[12px] before:mb-[5px] before:w-[20px] before:h-[2px] before:bg-primaryYellow">Lorem ipsum dolor sit amet</span>
               </li>
               <!-- /wp:list-item -->
               <!-- wp:list-item -->
               <li class="flex items-center gap-[10px]">
-                <p data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="inline before:content-[''] before:inline-block before:mr-[12px] before:mb-[5px] before:w-[20px] before:h-[2px] before:bg-primaryYellow">Consectetur adipiscing elit</p>
+                <span data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="inline before:content-[''] before:inline-block before:mr-[12px] before:mb-[5px] before:w-[20px] before:h-[2px] before:bg-primaryYellow">Consectetur adipiscing elit</span>
               </li>
               <!-- /wp:list-item -->
               <!-- wp:list-item -->
               <li class="flex items-center gap-[10px]">
-                <p data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="inline before:content-[''] before:inline-block before:mr-[12px] before:mb-[5px] before:w-[20px] before:h-[2px] before:bg-primaryYellow">Sed do eiusmod tempor incididunt</p>
+                <span data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="inline before:content-[''] before:inline-block before:mr-[12px] before:mb-[5px] before:w-[20px] before:h-[2px] before:bg-primaryYellow">Sed do eiusmod tempor incididunt</span>
               </li>
               <!-- /wp:list-item -->
             </ul>
