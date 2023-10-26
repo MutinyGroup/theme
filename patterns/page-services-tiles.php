@@ -86,15 +86,13 @@
 
     <!-- wp:group -->
     <div class="wp-block-group above-wp-query">
-      <!-- wp:query {"query":{"perPage":5,"pages":0,"offset":0,"postType":"uslugi"},"isLink":true,"className":"test"} -->
+      <!-- wp:query {"query":{"perPage":5,"pages":0,"offset":0,"postType":"uslugi"},"isLink":true} -->
       <!-- wp:group -->
       <div class="wp-block-group above-post-template ">
         <!-- wp:post-template -->
-        <!-- wp:list-item -->
         <li>
           <!-- wp:post-title {"isLink":true} /-->
         </li>
-        <!-- /wp:list-item -->
         <!-- /wp:post-template -->
       </div>
       <!-- /wp:group -->
