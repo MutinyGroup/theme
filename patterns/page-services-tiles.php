@@ -45,7 +45,7 @@
       <!-- wp:group -->
       <div class="wp-block-group h-fit overflow-hidden">
         <!-- wp:paragraph -->
-        <p data-aos="fade-up" data-aos-duration="600" data-aos-offset="30" class="section-title block desktop:basis-auto desktop:w-[175px] pt-[4px] desktop:text-right uppercase text-primaryYellow pr-[20px]">Marketing robimy kompleksowo</p>
+        <span data-aos="fade-up" data-aos-duration="600" data-aos-offset="30" class="section-title block desktop:basis-auto desktop:w-[175px] pt-[4px] desktop:text-right uppercase text-primaryYellow pr-[20px]">Marketing robimy kompleksowo</span>
         <!-- /wp:paragraph -->
       </div>
       <!-- /wp:group -->
@@ -55,11 +55,11 @@
         <!-- wp:group -->
         <div class="wp-block-group overflow-hidden">
           <!-- wp:paragraph -->
-          <p data-aos="fade-up" data-aos-duration="600" data-aos-offset="30" class="company-title overflow-hidden">
+          <span data-aos="fade-up" data-aos-duration="600" data-aos-offset="30" class="company-title overflow-hidden">
             <span class="block uppercase">
               Wybierz usługę którą
             </span>
-          </p>
+          </span>
           <!-- /wp:paragraph -->
         </div>
         <!-- /wp:group -->
@@ -67,7 +67,7 @@
         <!-- wp:group -->
         <div class="wp-block-group overflow-hidden">
           <!-- wp:paragraph -->
-          <p data-aos="fade-up" data-aos-duration="600" data-aos-offset="30" class="uppercase test01 inline-block ">JESTEŚ<span class="relative ml-[12px] inline-block uppercase italic before:content-[''] before:inline-block desktop:before:mr-[18px] before:mr-[8px] before:bottom-0 before:left-0 desktop:before:w-[90px] before:w-[30px] desktop:before:h-[3px] before:h-[2px] before:bg-black">ZAINTERESOWANY</span></p>
+          <span data-aos="fade-up" data-aos-duration="600" data-aos-offset="30" class="uppercase test01 inline-block ">JESTEŚ<span class="relative ml-[12px] inline-block uppercase italic before:content-[''] before:inline-block desktop:before:mr-[18px] before:mr-[8px] before:bottom-0 before:left-0 desktop:before:w-[90px] before:w-[30px] desktop:before:h-[3px] before:h-[2px] before:bg-black">ZAINTERESOWANY</span></span>
           <!-- /wp:paragraph -->
         </div>
         <!-- /wp:group -->
@@ -83,7 +83,7 @@
     <!-- wp:group -->
     <div class="wp-block-group paragrapth-wrapper desktop:max-w-[1115px] mb-[100px] mx-auto z-[1] relative">
       <!-- wp:paragraph -->
-      <p data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="text ml-auto mr-0 text-[20px] leading-[30px] max-w-[625px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      <span data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="text ml-auto mr-0 text-[20px] leading-[30px] max-w-[625px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</span>
       <!-- /wp:paragraph -->
     </div>
     <!-- /wp:group -->
