@@ -89,7 +89,7 @@
       <!-- wp:query {"query":{"perPage":5,"pages":0,"offset":0,"postType":"ulugi"},"isLink":true} -->
       <!-- wp:post-template -->
       <!-- wp:group -->
-      <div class="container mx-auto">
+      <div class="wp-block-group container mx-auto">
         <!-- wp:post-title {"isLink":true} /-->
 
       </div>
