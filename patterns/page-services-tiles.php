@@ -237,7 +237,7 @@
 
 
     <!-- wp:group -->
-    <div class="wp-block-group gallery-cols relative pb-[150px]">
+    <div class="wp-block-group hidden-wpquery-need gallery-cols relative pb-[150px]">
       <!-- wp:list -->
       <ul class="wp-block-list w-[100%] wide:max-w-[1100px] mx-auto flex flex-wrap justify-center gap-x-[8px] gap-y-[30px]">
         <?php
