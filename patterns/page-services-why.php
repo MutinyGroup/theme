@@ -137,7 +137,7 @@
           <!-- wp:group -->
           <div class="wp-block-group pagination-counter w-[40%] pt-[10px]">
             <!-- wp:paragraph -->
-            <p data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="text-[50px] text-primaryYellow">01 / <span class="text-[20px] text-black font-medium">03</span></p>
+            <span data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="text-[50px] text-primaryYellow">01 / <span class="text-[20px] text-black font-medium">03</span></span>
             <!-- /wp:paragraph -->
           </div>
           <!-- /wp:group -->
@@ -235,7 +235,7 @@
           <!-- wp:group -->
           <div class="wp-block-group pagination-counter w-[40%] pt-[10px]">
             <!-- wp:paragraph -->
-            <p data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="text-[50px] text-primaryYellow">02 / <span class="text-[20px] text-black font-medium">03</span></p>
+            <span data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="text-[50px] text-primaryYellow">02 / <span class="text-[20px] text-black font-medium">03</span></span>
             <!-- /wp:paragraph -->
           </div>
           <!-- /wp:group -->
@@ -333,7 +333,7 @@
           <!-- wp:group -->
           <div class="wp-block-group pagination-counter w-[40%] pt-[10px]">
             <!-- wp:paragraph -->
-            <p data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="text-[50px] text-primaryYellow">03 / <span class="text-[20px] text-black font-medium">03</span></p>
+            <span data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="text-[50px] text-primaryYellow">03 / <span class="text-[20px] text-black font-medium">03</span></span>
             <!-- /wp:paragraph -->
           </div>
           <!-- /wp:group -->
