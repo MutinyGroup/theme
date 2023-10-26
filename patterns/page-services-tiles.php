@@ -84,20 +84,29 @@
     </div>
     <!-- /wp:group -->
 
-    <!-- wp:query {"query":{"perPage":5,"pages":0,"offset":0,"postType":"uslugi"},"isLink":true} -->
-    <!-- wp:post-template -->
-    <!-- wp:list -->
-    <ul class="wp-block-list grid grid-cols-2">
-      <!-- wp:list-item -->
-      <li>
-        <!-- wp:post-title {"isLink":true} /-->
-      </li>
-      <!-- /wp:list-item -->
-    </ul>
+    <!-- wp:group -->
+    <div class="wp-block-group above-wp-query">
+      <!-- wp:query {"query":{"perPage":5,"pages":0,"offset":0,"postType":"uslugi"},"isLink":true} -->
+      <!-- wp:group -->
+      <div class="wp-block-group above-post-template">
+        <!-- wp:post-template -->
+        <!-- wp:list -->
+        <ul class="wp-block-list grid grid-cols-2">
+
+          <!-- wp:list-item -->
+          <li>
+            <!-- wp:post-title {"isLink":true} /-->
+          </li>
+          <!-- /wp:list-item -->
+        </ul>
+        <!-- wp:list -->
+        <!-- /wp:post-template -->
+      </div>
+      <!-- /wp:group -->
+    </div>
+    <!-- /wp:query -->
   </div>
   <!-- /wp:group -->
-  <!-- /wp:post-template -->
-  <!-- /wp:query -->
 
   <!-- wp:group -->
   <div class="wp-block-group gallery-cols relative pb-[150px]">
