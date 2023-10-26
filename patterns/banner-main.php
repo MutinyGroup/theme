@@ -98,7 +98,7 @@
         <!-- /wp:group -->
 
         <!-- wp:paragraph -->
-        <p class="banner-paragraph desktop:ml-[45px] ml-[20px] mb-[40px] desktop:w-[264px] max-w-[300px] desktop:text-[18px] text-[18px] font-light leading-[22px] relative z-[1]"><span data-aos="fade-right" data-aos-duration="500" data-aos-offset="0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore</span><span data-aos="fade-right" data-aos-duration="500" data-aos-offset="0" class="text-primaryYellow">magna aliqua.</span></p>
+        <p class="banner-paragraph desktop:ml-[45px] ml-[20px] mb-[40px] desktop:w-[264px] max-w-[300px] desktop:text-[18px] text-[18px] font-light leading-[22px] relative z-[1]"><span data-aos="fade-right" data-aos-duration="500" data-aos-offset="0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore </span><span data-aos="fade-right" data-aos-duration="500" data-aos-offset="0" class="text-primaryYellow">magna aliqua.</span></p>
         <!-- /wp:paragraph -->
       </div>
       <!-- /wp:group -->
