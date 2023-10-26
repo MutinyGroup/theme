@@ -55,9 +55,7 @@ body{
   .wp-block-list-item.swiper-slide.swiper-slide-services > div:first-child{
     width: 0px!important;
   }
-  .tile-realizacja-editor > div:first-child{
-    width: 0px!important;
-  }
+
   
   /* Swiper Opinions Dark */
   
@@ -105,10 +103,13 @@ body{
   .categories-under-logo li div{
     white-space: inherit;
   }
-  .tile-realizacja-editor > div:first-child{
+  /* .tile-realizacja-editor > div:first-child{
     height: 0px!important;
   }
   .tile-realizacja-editor > div:nth-child(2){
     height: 780px!important;
+  } */
+  .tile-realizacja-editor > div:first-child{
+    width: 0px!important;
   }
   
