@@ -89,11 +89,9 @@
       <!-- wp:query {"query":{"perPage":6,"pages":0,"offset":0,"postType":"uslugi"},"isLink":true} -->
       <!-- wp:group -->
       <div class="wp-block-group above-post-template ">
-        <!-- wp:list-item -->
-        <li class="moje-li">
-          <!-- wp:post-title {"isLink":true} /-->
-        </li>
-        <!-- /wp:list-item -->
+        <!-- wp:post-template -->
+        <!-- wp:post-title {"isLink":true} /-->
+        <!-- /wp:post-template -->
       </div>
       <!-- /wp:group -->
       <!-- /wp:query -->
