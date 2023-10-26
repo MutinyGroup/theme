@@ -100,6 +100,12 @@
     </div>
     <!-- /wp:group -->
 
+    <!-- wp:query {"query":{"perPage":5,"pages":0,"offset":0,"postType":"uslugi"},"isLink":true} -->
+
+    <!-- wp:post-title {"isLink":true} /-->
+
+    <!-- /wp:query -->
+
     <!-- wp:group -->
     <div class="wp-block-group gallery-cols relative pb-[150px]">
       <!-- wp:list -->
