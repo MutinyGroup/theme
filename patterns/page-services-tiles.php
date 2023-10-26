@@ -86,7 +86,7 @@
 
     <!-- wp:group -->
     <div class="wp-block-group gallery-cols relative pb-[150px]">
-      <!-- wp:query {"query":{"perPage":5,"pages":0,"offset":0,"postType":"ulugi"},"isLink":true} -->
+      <!-- wp:query {"query":{"perPage":5,"pages":0,"offset":0,"postType":"uslugi"},"isLink":true} -->
       <!-- wp:post-template -->
       <!-- wp:group -->
       <div class="wp-block-group container mx-auto">
