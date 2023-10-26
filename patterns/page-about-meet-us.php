@@ -75,17 +75,17 @@
       <!-- wp:group -->
       <div class="wp-block-group col1 mb-[40px] desktop:mb-0 desktop:pl-[155px] basis-[40%]">
         <!-- wp:paragraph -->
-        <p data-aos="fade-right" data-aos-duration="600" data-aos-offset="130" class="max-w-full desktop:max-w-[173px] text-[16px] leading-[21px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+        <span data-aos="fade-right" data-aos-duration="600" data-aos-offset="130" class="max-w-full desktop:max-w-[173px] text-[16px] leading-[21px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</span>
         <!-- /wp:paragraph -->
       </div>
       <!-- /wp:group -->
       <!-- wp:group -->
       <div class=" wp-block-group col2 basis-[60%]">
         <!-- wp:paragraph -->
-        <p data-aos="fade-right" data-aos-duration="600" data-aos-offset="130" class="desktop:text-[20px] text-[18px] desktop:leading-[30px] leading-[26px] mb-[50px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <span data-aos="fade-right" data-aos-duration="600" data-aos-offset="130" class="desktop:text-[20px] text-[18px] desktop:leading-[30px] leading-[26px] mb-[50px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</span>
         <!-- /wp:paragraph -->
         <!-- wp:paragraph -->
-        <p data-aos="fade-right" data-aos-duration="600" data-aos-offset="130" class="hidden desktop:block text-[16px] leading-[21px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <span data-aos="fade-right" data-aos-duration="600" data-aos-offset="130" class="hidden desktop:block text-[16px] leading-[21px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</span>
         <!-- /wp:paragraph -->
       </div>
       <!-- /wp:group -->
@@ -107,7 +107,7 @@
         <!-- wp:group -->
         <div class="wp-block-group counter-index-wrapper min-w-[75px] inline relative">
           <!-- wp:paragraph -->
-          <p data-aos="fade-right" data-aos-duration="600" data-aos-offset="90" class="target-num text-[60px] font-semibold">01</p>
+          <span data-aos="fade-right" data-aos-duration="600" data-aos-offset="90" class="target-num text-[60px] font-semibold">01</span>
           <!-- /wp:paragraph -->
         </div>
         <!-- /wp:group -->
@@ -115,10 +115,10 @@
         <!-- wp:group -->
         <div class="wp-block-group text-wrapper">
           <!-- wp:paragraph -->
-          <p data-aos="fade-right" data-aos-duration="600" data-aos-offset="90" class="target-title desktop:mb-[15px] text-[20px] font-semibold">Mamy plan</p>
+          <span data-aos="fade-right" data-aos-duration="600" data-aos-offset="90" class="target-title desktop:mb-[15px] text-[20px] font-semibold">Mamy plan</span>
           <!-- /wp:paragraph -->
           <!-- wp:paragraph -->
-          <p data-aos="fade-right" data-aos-duration="600" data-aos-offset="90" class="target-paragraph font-light leading-[21px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+          <span data-aos="fade-right" data-aos-duration="600" data-aos-offset="90" class="target-paragraph font-light leading-[21px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</span>
           <!-- /wp:paragraph -->
         </div>
         <!-- /wp:group -->
