@@ -85,6 +85,7 @@
       <!-- /wp:group -->
     </div>
     <!-- /wp:group -->
+
     <!-- wp:group -->
     <div class="wp-block-group subtitle-wrapper relative flex gap-[10px] desktop:gap-[100px] desktop:flex-row">
       <!-- wp:paragraph -->
@@ -92,7 +93,7 @@
         <span class="self-center leading-[0px] desktop:text-[14px] text-[13px]">Marketing na</span>
         <span class="uppercase mt-[20px] self-center desktop:text-[35px] text-[30px] font-extrabold leading-[15px]">100%</span>
     </div>
-    <!-- /wp:paragraph -->
+    <!-- /wp:group -->
 
     <!-- wp:group -->
     <div class=" mx-[0px] desktop:ml-[360px] desktop:mb-[0px] mb-[40px] max-w-full desktop:max-w-[400px] desktop:leading-[30px] leading-[26px] desktop:text-[20px] text-[15px] font-light relative z-[2]">
