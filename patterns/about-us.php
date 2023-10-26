@@ -153,21 +153,11 @@
                   <path d="M0.5 40C0.5 18.1848 18.1848 0.5 40 0.5C61.8152 0.5 79.5 18.1848 79.5 40C79.5 61.8152 61.8152 79.5 40 79.5C18.1848 79.5 0.5 61.8152 0.5 40Z" stroke="#808080" />
                 </svg>
                 <!-- /wp:paragraph -->
-                <!-- wp:paragraph -->
-                <svg class="scale-[0.75] absolute top-[0px] left-[0px]" xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80" fill="none">
-                  <path d="M0.5 40C0.5 18.1848 18.1848 0.5 40 0.5C61.8152 0.5 79.5 18.1848 79.5 40C79.5 61.8152 61.8152 79.5 40 79.5C18.1848 79.5 0.5 61.8152 0.5 40Z" stroke="#808080" />
-                </svg>
-                <!-- /wp:paragraph -->
-                <!-- wp:paragraph -->
-                <svg class="scale-[0.50] absolute top-[0px] left-[0px]" xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80" fill="none">
-                  <path d="M0.5 40C0.5 18.1848 18.1848 0.5 40 0.5C61.8152 0.5 79.5 18.1848 79.5 40C79.5 61.8152 61.8152 79.5 40 79.5C18.1848 79.5 0.5 61.8152 0.5 40Z" stroke="#808080" />
-                </svg>
-                <!-- /wp:paragraph -->
               </div>
               <!-- /wp:group -->
 
               <!-- wp:paragraph -->
-              <p class="target-num inline-block desktop:text-[85px] text-[80px] font-semibold"><span data-aos="fade-right" data-aos-duration="600" data-aos-offset="85">03</span></p>
+              <span data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="target-num inline-block desktop:text-[85px] text-[80px] font-semibold">03</span>
               <!-- /wp:paragraph -->
             </div>
             <!-- /wp:group -->
@@ -175,10 +165,10 @@
             <!-- wp:group -->
             <div class="wp-block-group text-wrapper">
               <!-- wp:paragraph -->
-              <p class="target-title desktop:mb-[15px] mb-[5px] text-[25px] font-semibold leading-[30px]"><span data-aos="fade-right" data-aos-duration="600" data-aos-offset="85">Mamy plan</span></p>
+              <span data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="block target-title desktop:mb-[15px] mb-[5px] text-[25px] font-semibold leading-[30px]">Mamy plan</span>
               <!-- /wp:paragraph -->
               <!-- wp:paragraph -->
-              <p class="target-paragraph font-light leading-[22px]"><span data-aos="fade-right" data-aos-duration="600" data-aos-offset="85">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</span></p>
+              <span data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="block target-paragraph text-[16px] font-light leading-[22px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</span>
               <!-- /wp:paragraph -->
             </div>
             <!-- /wp:group -->
@@ -195,21 +185,6 @@
                   <path d="M0.5 40C0.5 18.1848 18.1848 0.5 40 0.5C61.8152 0.5 79.5 18.1848 79.5 40C79.5 61.8152 61.8152 79.5 40 79.5C18.1848 79.5 0.5 61.8152 0.5 40Z" stroke="#808080" />
                 </svg>
                 <!-- /wp:paragraph -->
-                <!-- wp:paragraph -->
-                <svg class="scale-[0.75] absolute top-[0px] left-[0px]" xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80" fill="none">
-                  <path d="M0.5 40C0.5 18.1848 18.1848 0.5 40 0.5C61.8152 0.5 79.5 18.1848 79.5 40C79.5 61.8152 61.8152 79.5 40 79.5C18.1848 79.5 0.5 61.8152 0.5 40Z" stroke="#808080" />
-                </svg>
-                <!-- /wp:paragraph -->
-                <!-- wp:paragraph -->
-                <svg class="scale-[0.50] absolute top-[0px] left-[0px]" xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80" fill="none">
-                  <path d="M0.5 40C0.5 18.1848 18.1848 0.5 40 0.5C61.8152 0.5 79.5 18.1848 79.5 40C79.5 61.8152 61.8152 79.5 40 79.5C18.1848 79.5 0.5 61.8152 0.5 40Z" stroke="#808080" />
-                </svg>
-                <!-- /wp:paragraph -->
-                <!-- wp:paragraph -->
-                <svg class="scale-[0.25] absolute top-[0px] left-[0px]" xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80" fill="none">
-                  <path d="M0.5 40C0.5 18.1848 18.1848 0.5 40 0.5C61.8152 0.5 79.5 18.1848 79.5 40C79.5 61.8152 61.8152 79.5 40 79.5C18.1848 79.5 0.5 61.8152 0.5 40Z" stroke="#808080" />
-                </svg>
-                <!-- /wp:paragraph -->
               </div>
               <!-- /wp:group -->
 
@@ -222,10 +197,10 @@
             <!-- wp:group -->
             <div class="wp-block-group text-wrapper">
               <!-- wp:paragraph -->
-              <span data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="target-title desktop:mb-[15px] mb-[5px] text-[25px] font-semibold leading-[30px]">Mamy plan</span>
+              <span data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="block target-title desktop:mb-[15px] mb-[5px] text-[25px] font-semibold leading-[30px]">Mamy plan</span>
               <!-- /wp:paragraph -->
               <!-- wp:paragraph -->
-              <span data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="target-paragraph font-light leading-[22px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</span>
+              <span data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="block target-paragraph text-[16px] font-light leading-[22px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</span>
               <!-- /wp:paragraph -->
             </div>
             <!-- /wp:group -->
