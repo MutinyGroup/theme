@@ -29,7 +29,7 @@
         <!-- wp:group -->
         <div class="wp-block-group overflow-hidden">
           <!-- wp:paragraph -->
-          <span data-aos="fade-up" data-aos-duration="600" data-aos-offset="85" class="block uppercase desktop:text-[50px] text-[24px] desktop:leading-[55px] leading-[30px]">Holistyczne podejście do działań reklamowych sprawia, że nasza firma działa
+          <span data-aos="fade-up" data-aos-duration="600" data-aos-offset="85" class="inline uppercase desktop:text-[50px] text-[24px] desktop:leading-[55px] leading-[30px]">Holistyczne podejście do działań reklamowych sprawia, że nasza firma działa
           </span>
           <!-- /wp:paragraph -->
 
