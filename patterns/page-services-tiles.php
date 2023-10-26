@@ -88,7 +88,12 @@
     <div class="wp-block-group gallery-cols relative pb-[150px]">
       <!-- wp:query {"query":{"perPage":5,"pages":0,"offset":0,"postType":"ulugi"},"isLink":true} -->
       <!-- wp:post-template -->
-      <!-- wp:post-title {"isLink":true} /-->
+      <!-- wp:group -->
+      <div class="container mx-auto">
+        <!-- wp:post-title {"isLink":true} /-->
+
+      </div>
+      <!-- wp:group -->
       <!-- /wp:post-template -->
       <!-- /wp:query -->
       <!-- wp:list -->
