@@ -49,6 +49,9 @@ body{
   .services-img div{
     height: 100%!important;
   }
+  .block-editor-block-list__block .wp-block .has-child-selected .wp-block-group .subtitle-wrapper{
+    z-index: 1;
+  }
   
   /* Swiper Opinions Dark */
   
