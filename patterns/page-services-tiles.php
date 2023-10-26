@@ -90,7 +90,7 @@
       <!-- wp:group -->
       <div class="wp-block-group above-post-template ul-wrapper">
         <!-- wp:post-template -->
-        <!-- wp:post-title {"isLink":true} /-->
+
         <!-- wp:list-item -->
         <li class="wp-block-group swiper-slide servicesTile relative group desktop:w-[510px] w-[100%] desktop:h-[600px] h-[320px] transition duration-[800ms] ease-in <?php echo (($counter % 2)) ? "" : 'desktop:translate-y-[50px]'; ?>">
           <!-- wp:group -->
