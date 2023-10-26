@@ -52,6 +52,9 @@ body{
   .block-editor-block-list__block .wp-block .has-child-selected .wp-block-group .subtitle-wrapper{
     z-index: 1;
   }
+  .wp-block-list-item.swiper-slide.swiper-slide-services > div:first-child{
+    width: 0px!important;
+  }
   
   /* Swiper Opinions Dark */
   
