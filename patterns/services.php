@@ -106,6 +106,7 @@
       <p class="inline">fugit quae beatae</p>
       <!-- /wp:paragraph -->
     </div>
+    <!-- /wp:group -->
 
     <!-- wp:group -->
     <div class="wp-block-group mt-[80px] desktop:mt-[-120px] w-full h-[380px] desktop:h-[660px] wide:h-[720px] overflow-hidden swiper-services-editor">
