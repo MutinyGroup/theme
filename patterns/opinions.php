@@ -16,7 +16,7 @@
       <!-- wp:group -->
       <div class="wp-block-group h-fit overflow-hidden">
         <!-- wp:paragraph -->
-        <p data-aos="fade-up" data-aos-duration="600" data-aos-offset="130" class="section-title uppercase text-primaryYellow">Opinie</p>
+        <span data-aos="fade-up" data-aos-duration="600" data-aos-offset="130" class="section-title uppercase text-primaryYellow">Opinie</span>
         <!-- /wp:paragraph -->
       </div>
       <!-- /wp:group -->
@@ -26,7 +26,7 @@
         <!-- wp:group -->
         <div class="wp-block-group overflow-hidden">
           <!-- wp:paragraph -->
-          <p data-aos="fade-up" data-aos-duration="600" data-aos-offset="130" class="uppercase inline-block desktop:text-[50px] text-[24px] desktop:leading-[55px] leading-[30px]">Co mówią nasi klienci?</p>
+          <span data-aos="fade-up" data-aos-duration="600" data-aos-offset="130" class="uppercase inline-block desktop:text-[50px] text-[24px] desktop:leading-[55px] leading-[30px]">Co mówią nasi klienci?</span>
           <!-- /wp:paragraph -->
         </div>
         <!-- /wp:group -->
@@ -100,7 +100,7 @@
             </div>
             <!-- /wp:group -->
             <!-- wp:paragraph -->
-            <p data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="opinion-text desktop:text-[20px] text-[18px] font-light mb-[50px] desktop:mt-0 mt-[30px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+            <span data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="opinion-text desktop:text-[20px] text-[18px] font-light mb-[50px] desktop:mt-0 mt-[30px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</span>
             <!-- /wp:paragraph -->
             <!-- wp:group -->
             <div class="wp-block-group opinion-author my-[50px] flex gap-[20px]">
@@ -138,7 +138,7 @@
             </div>
             <!-- /wp:group -->
             <!-- wp:paragraph -->
-            <p data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="opinion-text desktop:text-[20px] text-[18px] font-light mb-[50px] desktop:mt-0 mt-[30px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+            <span data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="opinion-text desktop:text-[20px] text-[18px] font-light mb-[50px] desktop:mt-0 mt-[30px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</span>
             <!-- /wp:paragraph -->
             <!-- wp:group -->
             <div class="wp-block-group opinion-author my-[50px] flex gap-[20px]">
@@ -176,7 +176,7 @@
             </div>
             <!-- /wp:group -->
             <!-- wp:paragraph -->
-            <p data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="opinion-text desktop:text-[20px] text-[18px] font-light mb-[50px] desktop:mt-0 mt-[30px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+            <span data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="opinion-text desktop:text-[20px] text-[18px] font-light mb-[50px] desktop:mt-0 mt-[30px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</span>
             <!-- /wp:paragraph -->
             <!-- wp:group -->
             <div class="wp-block-group opinion-author my-[50px] flex gap-[20px]">
@@ -214,7 +214,7 @@
             </div>
             <!-- /wp:group -->
             <!-- wp:paragraph -->
-            <p data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="opinion-text desktop:text-[20px] text-[18px] font-light mb-[50px] desktop:mt-0 mt-[30px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+            <span data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="opinion-text desktop:text-[20px] text-[18px] font-light mb-[50px] desktop:mt-0 mt-[30px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</span>
             <!-- /wp:paragraph -->
             <!-- wp:group -->
             <div class="wp-block-group opinion-author my-[50px] flex gap-[20px]">
