@@ -256,11 +256,11 @@
 
 
           <!-- wp:paragraph -->
-          <p data-aos="fade-right" data-aos-duration="600" data-aos-offset="130" class="new wp-block gray-border hidden desktop:inline-block w-[285px] h-[2px] bg-[#808080] opacity-[15%]">
+          <span data-aos="fade-right" data-aos-duration="600" data-aos-offset="130" class="new wp-block gray-border hidden desktop:inline-block w-[285px] h-[2px] bg-[#808080] opacity-[15%]">
             <!-- wp:paragraph -->
             <span class="hidden">gray separator</span>
             <!-- /wp:paragraph -->
-          </p>
+          </span>
           <!-- /wp:paragraph -->
         </div>
         <!-- /wp:group -->
