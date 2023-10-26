@@ -92,14 +92,13 @@
         <!-- wp:post-template -->
         <!-- wp:list -->
         <ul class="wp-block-list grid grid-cols-2">
-
           <!-- wp:list-item -->
           <li>
             <!-- wp:post-title {"isLink":true} /-->
           </li>
           <!-- /wp:list-item -->
         </ul>
-        <!-- wp:list -->
+        <!-- /wp:list -->
         <!-- /wp:post-template -->
       </div>
       <!-- /wp:group -->
