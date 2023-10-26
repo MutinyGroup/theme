@@ -67,16 +67,16 @@
         <!-- wp:group -->
         <div class="wp-block-group address z-[1] relative">
           <!-- wp:paragraph -->
-          <p data-aos="fade-right" data-aos-duration="600" data-aos-offset="30" class="font-semibold">Mutiny Group sp. z o.o.</p>
+          <span data-aos="fade-right" data-aos-duration="600" data-aos-offset="30" class="block font-semibold">Mutiny Group sp. z o.o.</span>
           <!-- /wp:paragraph -->
           <!-- wp:paragraph -->
-          <p data-aos="fade-right" data-aos-duration="600" data-aos-offset="30" class="font-light">ul. Jaśkowa Dolina 11A/1A,</p>
+          <span data-aos="fade-right" data-aos-duration="600" data-aos-offset="30" class="block font-light">ul. Jaśkowa Dolina 11A/1A,</span>
           <!-- /wp:paragraph -->
           <!-- wp:paragraph -->
-          <p data-aos="fade-right" data-aos-duration="600" data-aos-offset="30" class="font-light">80-252 Gdańsk | Polska</p>
+          <span data-aos="fade-right" data-aos-duration="600" data-aos-offset="30" class="block font-light">80-252 Gdańsk | Polska</span>
           <!-- /wp:paragraph -->
           <!-- wp:paragraph -->
-          <p data-aos="fade-right" data-aos-duration="600" data-aos-offset="30" class="font-light">kontakt@mutiny.pl</p>
+          <span data-aos="fade-right" data-aos-duration="600" data-aos-offset="30" class="block font-light">kontakt@mutiny.pl</span>
           <!-- /wp:paragraph -->
         </div>
         <!-- /wp:group -->
@@ -88,18 +88,18 @@
         <ul class="wp-block-list">
           <!-- wp:list-item -->
           <li>
-            <p data-aos="fade-right" data-aos-duration="600" data-aos-offset="30"><span class="font-medium">NIP: </span>9571133012</p>
+            <span data-aos="fade-right" data-aos-duration="600" data-aos-offset="30"><span class="block font-medium">NIP: </span>9571133012</p>
           </li>
           <!-- /wp:list-item -->
           <!-- wp:list-item -->
           <li>
-            <p data-aos="fade-right" data-aos-duration="600" data-aos-offset="30"><span class="font-medium">REGON: </span>388790205
+            <span data-aos="fade-right" data-aos-duration="600" data-aos-offset="30"><span class="block font-medium">REGON: </span>388790205
           </li>
           </p>
           <!-- /wp:list-item -->
           <!-- wp:list-item -->
           <li>
-            <p data-aos="fade-right" data-aos-duration="600" data-aos-offset="30"><span class="font-medium">KRS: </span>0000898283
+            <span data-aos="fade-right" data-aos-duration="600" data-aos-offset="30"><span class="block font-medium">KRS: </span>0000898283
           </li>
           </p>
           <!-- /wp:list-item -->
@@ -110,7 +110,7 @@
       <!-- wp:group -->
       <div class="wp-block-group col3 details text-[14px] font-light leading-[19px] max-w-[444px]">
         <!-- wp:paragraph -->
-        <p data-aos="fade-right" data-aos-duration="600" data-aos-offset="30">Spółka Mutiny Group sp. z o.o. z siedzibą w Gdańsku przy ul. Jaśkowa Dolina 11A/1A, kod pocztowy: 80-252 jest wpisana do rejestru przedsiębiorców, prowadzonego przez Sąd Rejonowy Gdańsk - Wydział Gospodarczy Krajowego Rejestru Sądowego pod nr KRS 0000898283, NIP: 9571133012, REGON: 388790205. Kapitał zakładowy: 5.000 PLN (opłacony w całości).</p>
+        <span data-aos="fade-right" data-aos-duration="600" data-aos-offset="30" class="block">Spółka Mutiny Group sp. z o.o. z siedzibą w Gdańsku przy ul. Jaśkowa Dolina 11A/1A, kod pocztowy: 80-252 jest wpisana do rejestru przedsiębiorców, prowadzonego przez Sąd Rejonowy Gdańsk - Wydział Gospodarczy Krajowego Rejestru Sądowego pod nr KRS 0000898283, NIP: 9571133012, REGON: 388790205. Kapitał zakładowy: 5.000 PLN (opłacony w całości).</span>
         <!-- /wp:paragraph -->
       </div>
       <!-- /wp:group -->

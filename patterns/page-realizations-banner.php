@@ -68,7 +68,7 @@
     <!-- wp:group -->
     <div class="wp-block-group container mx-auto desktop:px-0 px-[20px] mb-[80px]">
       <!-- wp:paragraph -->
-      <p data-aos="fade-right" data-aos-duration="600" data-aos-offset="130" class="text text-[20px] leading-[30px] desktop:max-w-[445px] desktop:ml-[200px] mb-[80px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</p>
+      <span data-aos="fade-right" data-aos-duration="600" data-aos-offset="130" class="block text text-[20px] leading-[30px] desktop:max-w-[445px] desktop:ml-[200px] mb-[80px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</span>
       <!-- /wp:paragraph -->
 
       <!-- wp:group -->
