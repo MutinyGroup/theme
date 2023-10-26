@@ -73,7 +73,7 @@
       <!-- wp:group -->
       <div class="wp-block-group col2 relative  desktop:basis-[55%]">
         <!-- wp:paragraph -->
-        <p class="targets-title desktop:mb-[80px] mb-[60px] max-w-[535px] text-[18px] font-light leading-[30px]"><span data-aos="fade-right" data-aos-duration="600" data-aos-offset="85">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </span><span data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="text-primaryYellow">Ut enim ad minim veniam</span><span data-aos="fade-right">, quis nostrud exercitation.</span></p>
+        <span data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="targets-title desktop:mb-[80px] mb-[60px] max-w-[535px] text-[18px] font-light leading-[30px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<span data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="text-primaryYellow">Ut enim ad minim veniam</span><span data-aos="fade-right">, quis nostrud exercitation.</span></span>
         <!-- /wp:paragraph -->
         <!-- wp:list -->
         <ul class="wp-block-list targets-list max-w-[600px] wide:mb-[100px] desktop:mb-[70px] mb-[40px] text-left desktop:flex flex-wrap desktop:justify-start justify-center gap-x-[30px] gap-y-[50px]">
