@@ -100,6 +100,10 @@
         <!-- wp:paragraph -->
         <p class="banner-paragraph desktop:ml-[45px] ml-[20px] mb-[40px] desktop:w-[264px] max-w-[300px] desktop:text-[18px] text-[18px] font-light leading-[22px] relative z-[1]"><span data-aos="fade-right" data-aos-duration="500" data-aos-offset="0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore </span><span data-aos="fade-right" data-aos-duration="500" data-aos-offset="0" class="text-primaryYellow">magna aliqua.</span></p>
         <!-- /wp:paragraph -->
+
+        <!-- wp:paragraph -->
+        <p data-aos="fade-right" class="targets-title desktop:mb-[80px] mb-[60px] max-w-[535px] text-[18px] font-light leading-[30px]"><span data-aos-duration="600" data-aos-offset="85">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </span><span class="text-primaryYellow">Ut enim ad minim veniam</span>, quis nostrud exercitation.</p>
+        <!-- /wp:paragraph -->
       </div>
       <!-- /wp:group -->
 
