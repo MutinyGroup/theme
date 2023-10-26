@@ -99,11 +99,7 @@
             <div class="wp-block-group group relative gallery-tile w-full before:content-[''] before:opacity-100 before:absolute before:top-0 before:left-0 before:z-[0] before:w-full before:h-full before:bg-cover before:transition before:duration-[300ms] before:ease-out <?php echo ($counter == 1) ? "clip-path-url-['#clipped-realizations-1'] tile-services-1" : (($counter == $post_query->post_count) ? "clip-path-url-['#clipped-realizations-2'] tile-services-2" : ''); ?>  z-[1] group desktop:p-[25px] desktop:h-[600px] h-[320px] overflow-hidden rounded-[20px] transition ease-out duration-300 mr-[8px] mb-[30px]">
               <!-- wp:group -->
               <div class="wp-block-group img-clip-path-wrapper w-full h-full rounded-tr-[20px] rounded-br-[20px] overflow-hidden absolute left-0 top-0 z-[-1]">
-                <!-- wp:image -->
-                <figure class="wp-block-image h-full group-hover:grayscale transition ease-in-out duration-[400ms] <?php echo ($counter == 1) ? "clip-path-url-['#clipped-realizations-1']" : (($counter == $post_query->post_count) ? "clip-path-url-['#clipped-realizations-2']" : ''); ?>">
-                  <img src="<?php echo $postImageUrl[0]; ?>" alt="services-backgroun-image" />
-                </figure>
-                <!-- /wp:image -->
+                <!-- wp:post-featured-image {"isLink":true} /-->
 
                 <!-- wp:paragraph -->
                 <p>
@@ -134,9 +130,9 @@
               <!-- wp:group -->
               <div class="wp-block-group slide-title absolute desktop:bottom-[0px] bottom-[55px] desktop:left-[25px] left-[20px] translate-y-[130px] desktop:translate-y-[-15px] group-hover:translate-y-[-20px] desktop:group-hover:translate-y-[-150px] transition ease-out duration-[400ms]">
                 <!-- wp:paragraph -->
-                <p class="mr-[20px] desktop:text-[35px] text-[26px] font-semibold mb-[15px] underline-offset-[9px] group-hover:underline group-hover:decoration-primaryYellow"><a href="<?php echo get_permalink(); ?>"><?php the_title(); ?></a></p>
-                <!-- /wp:paragraph -->
-                <!-- wp:list -->
+                <p class="mr-[20px] desktop:text-[35px] text-[26px] font-semibold mb-[15px] underline-offset-[9px] group-hover:underline group-hover:decoration-primaryYellow"><!-- wp:post-title {"isLink":true} /-->
+                  <!-- /wp:paragraph -->
+                  <!-- wp:list -->
                 <ul class="wp-block-list mt-[20px] hover-text desktop:block opacity-[0%] group-hover:opacity-[100%] text-[15px] leading-[32px] font-semibold uppercase transition ease-out duration-500">
                   <!-- wp:list-item -->
                   <li class="mb-[6px] text-[15px] relative">
