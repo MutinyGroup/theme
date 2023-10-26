@@ -88,9 +88,14 @@
           </svg>
         </p>
         <!-- /wp:paragraph -->
+
         <!-- wp:paragraph -->
         <p data-aos="fade-right" data-aos-duration="600" data-aos-offset="85">
+          <!-- wp:paragraph -->
+        <p data-aos="fade-right" data-aos-duration="600" data-aos-offset="85">
           <span data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="wp-block-group text-[16px] leading-[21px] w-[263px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</span>
+        </p>
+        <!-- /wp:paragraph -->
         </p>
         <!-- /wp:paragraph -->
       </div>
