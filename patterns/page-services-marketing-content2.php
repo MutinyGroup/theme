@@ -56,13 +56,6 @@
         </div>
         <!-- /wp:group -->
 
-
-
-
-
-
-
-
         <!-- wp:group -->
         <div class="wp-block-group uslugi-title uppercase font-medium desktop:text-[50px] text-[24px] desktop:leading-[60px] leading-[30px]">
           <!-- wp:group -->
