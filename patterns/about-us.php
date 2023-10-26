@@ -219,7 +219,7 @@
               <!-- /wp:group -->
 
               <!-- wp:paragraph -->
-              <span class="target-num inline-block desktop:text-[85px] text-[80px] font-semibold">04</span>
+              <span data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="target-num inline-block desktop:text-[85px] text-[80px] font-semibold">04</span>
               <!-- /wp:paragraph -->
             </div>
             <!-- /wp:group -->
@@ -227,10 +227,10 @@
             <!-- wp:group -->
             <div class="wp-block-group text-wrapper">
               <!-- wp:paragraph -->
-              <span class="target-title desktop:mb-[15px] mb-[5px] text-[25px] font-semibold leading-[30px]">Mamy plan
+              <span data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="target-title desktop:mb-[15px] mb-[5px] text-[25px] font-semibold leading-[30px]">Mamy plan
                 <!-- /wp:paragraph -->
                 <!-- wp:paragraph -->
-                <span class="target-paragraph font-light leading-[22px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</span>
+                <span data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="target-paragraph font-light leading-[22px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</span>
                 <!-- /wp:paragraph -->
             </div>
             <!-- /wp:group -->
