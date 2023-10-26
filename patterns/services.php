@@ -202,7 +202,7 @@
                   <!-- /wp:buttons -->
 
                   <!-- wp:group -->
-                  <div class="wp-block-group hover-text mt-[370px] wide:mt-[350px] opacity-[0%] group-hover:opacity-[100%] group-hover:mt-[120px] desktop:group-hover:mt-[200px] wide:group-hover:mt-[270px] transition-all ease-out duration-500 text-[15px] font-light z-[2]">
+                  <div class="wp-block-group hover-text mt-[370px] wide:mt-[350px] opacity-[0%] group-hover:opacity-[100%] group-hover:mt-[120px] desktop:group-hover:mt-[200px] wide:group-hover:mt-[270px] transition-all ease-out duration-500 text-[15px] font-light z-[2] relative">
                     <!-- wp:paragraph -->
                     <?php echo wp_trim_words(get_the_excerpt(), 15, '...'); ?>
                     <!-- /wp:paragraph -->
