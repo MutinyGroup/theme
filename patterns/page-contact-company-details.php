@@ -88,7 +88,7 @@
         <ul class="wp-block-list">
           <!-- wp:list-item -->
           <li>
-            <span data-aos="fade-right" data-aos-duration="600" data-aos-offset="30"><span class="block font-medium">NIP: </span>9571133012</p>
+            <span data-aos="fade-right" data-aos-duration="600" data-aos-offset="30"><span class="block font-medium">NIP: </span>9571133012</span>
           </li>
           <!-- /wp:list-item -->
           <!-- wp:list-item -->
