@@ -127,7 +127,7 @@
               $counter++;
           ?>
               <!-- wp:list-item -->
-              <li class="swiper-slide swiper-slide-services relative z-[2] wide:max-w-[420px] desktop:max-w-[354px] max-w-[310px] h-[380px] desktop:h-[450px] wide:h-[530px] rounded-[20px] text-[18px] flex items-center before:hover:opacity-100 after:hover:opacity-100 wide:before:h-[530px] wide:after:h-[530px] transition ease-out duration-300 before:content-[''] before:opacity-0 before:absolute before:top-0 before:left-0 before:z-[-1] before:w-full before:h-[450px] before:bg-gradient-to-t before:from-black before:via-[rgba(0,0,0,0)] before:bg-center before:bg-cover before:transition before:duration-[300ms] before:ease-out before:grayscale after:content-[''] after:opacity-0 after:absolute after:top-0 after:left-0 after:z-[-1] after:w-[354px] after:h-[450px] after:transition after:duration-[300ms] after:ease-out after:grayscale cursor-default">
+              <li class="swiper-slide swiper-slide-services group relative z-[2] wide:max-w-[420px] desktop:max-w-[354px] max-w-[310px] h-[380px] desktop:h-[450px] wide:h-[530px] rounded-[20px] text-[18px] flex items-center before:hover:opacity-100 after:hover:opacity-100 wide:before:h-[530px] wide:after:h-[530px] transition ease-out duration-300 before:content-[''] before:opacity-0 before:absolute before:top-0 before:left-0 before:z-[-1] before:w-full before:h-[450px] before:bg-gradient-to-t before:from-black before:via-[rgba(0,0,0,0)] before:bg-center before:bg-cover before:transition before:duration-[300ms] before:ease-out before:grayscale after:content-[''] after:opacity-0 after:absolute after:top-0 after:left-0 after:z-[-1] after:w-[354px] after:h-[450px] after:transition after:duration-[300ms] after:ease-out after:grayscale cursor-default">
                 <!-- wp:group -->
                 <div class="wp-block-group block w-full h-full <?php echo ($counter == 1) ?  "clip-path-url-['#clipped-swiper-serv-1']" : (($counter == $post_query->post_count) ? "clip-path-url-['#clipped-swiper-serv-2']" : ''); ?>">
                   <!-- wp:group -->
@@ -189,11 +189,11 @@
                   <!-- /wp:group -->
 
                   <!-- wp:buttons -->
-                  <div class="wp-block-buttons btn-swiper-more group text-[14px] uppercase absolute desktop:bottom-[25px] bottom-[55px] left-[25px] cursor-pointer transition ease-out duration-300 z-[3]">
+                  <div class="wp-block-buttons btn-swiper-more  text-[14px] uppercase absolute desktop:bottom-[25px] bottom-[55px] left-[25px] cursor-pointer transition ease-out duration-300 z-[3]">
                     <!-- wp:paragraph -->
                     <p><a href="<?php echo get_permalink(); ?>"> Dowiedz się więcej</a>
                       <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" fill="none " class="inline-block ml-[10px] ">
-                        <rect x="1" y="1" width="34" height="34" rx="18" stroke="#D5D5D5" stroke-width="2" fill="transparent" class="transition ease-out duration-300 group-hover:fill-[#FEC400] group-hover:stroke-[#FEC400]" />
+                        <rect x="1" y="1" width="34" height="34" rx="18" stroke="#D5D5D5" stroke-width="2" fill="transparent" class="transition ease-out duration-300 " />
                         <path d="M19 22L23 18.0108L19.0217 14" stroke="white" />
                         <path d="M12 18L20 18" stroke="white" />
                       </svg>
