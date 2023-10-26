@@ -92,7 +92,7 @@
       <!-- wp:group -->
       <div class="wp-block-group col1 desktop:pl-[60px] basis-[30%] mb-[40px]">
         <!-- wp:paragraph -->
-        <p class="max-w-[173px] text-[16px] leading-[21px]"><span data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="block">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</span></p>
+        <span class="max-w-[173px] text-[16px] leading-[21px]"><span data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="block">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</span></span>
         <!-- /wp:paragraph -->
       </div>
       <!-- /wp:group -->
@@ -106,16 +106,16 @@
         </p>
         <!-- /wp:paragraph -->
         <!-- wp:paragraph -->
-        <p class="desktop:text-[20px] text-[18px] desktop:leading-[30px] leading-[26px] pb-[50px]"><span data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="block">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doeiusmod tempor incididunt ut labore et dolore magna aliqua. Utenim ad minim veniam, quis nostrud exercitation ullamco laborisnisi ut aliquip ex ea commodo consequat.</span></p>
+        <span class="desktop:text-[20px] text-[18px] desktop:leading-[30px] leading-[26px] pb-[50px]"><span data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="block">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doeiusmod tempor incididunt ut labore et dolore magna aliqua. Utenim ad minim veniam, quis nostrud exercitation ullamco laborisnisi ut aliquip ex ea commodo consequat.</span></span>
         <!-- /wp:paragraph -->
         <!-- wp:paragraph -->
-        <p class="hidden desktop:block pb-[50px] text-[16px] leading-[21px]"><span data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="block">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</span></p>
+        <span>class="hidden desktop:block pb-[50px] text-[16px] leading-[21px]"><span data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="block">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</span></span>
         <!-- /wp:paragraph -->
         <!-- wp:paragraph -->
-        <p class="pb-[30px] text-[20px] font-medium"><span data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="block">Co dostaniesz w ramach usługi?</span></p>
+        <span class="pb-[30px] text-[20px] font-medium"><span data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="block">Co dostaniesz w ramach usługi?</span></span>
         <!-- /wp:paragraph -->
         <!-- wp:paragraph -->
-        <p class="desktop:block text-[16px] leading-[21px]"><span data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="block">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</span></p>
+        <span class="desktop:block text-[16px] leading-[21px]"><span data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="block">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</span></span>
         <!-- /wp:paragraph -->
       </div>
       <!-- /wp:group -->
