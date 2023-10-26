@@ -57,7 +57,7 @@
       <!-- wp:group -->
       <div class="wp-block-group h-fit overflow-hidden">
         <!-- wp:paragraph -->
-        <p data-aos="fade-up" data-aos-duration="600" data-aos-offset="30" class="section-title uppercase text-primaryYellow">Realizacje</p>
+        <span data-aos="fade-up" data-aos-duration="600" data-aos-offset="30" class="section-title uppercase text-primaryYellow">Realizacje</span>
         <!-- /wp:paragraph -->
       </div>
       <!-- /wp:group -->
