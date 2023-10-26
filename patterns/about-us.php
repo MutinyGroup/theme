@@ -17,7 +17,7 @@
       <!-- wp:group -->
       <div class="wp-block-group min-w-fit h-fit overflow-hidden">
         <!-- wp:paragraph -->
-        <p data-aos="fade-up" class="section-title min-w-fit uppercase text-primaryYellow">O nas</p>
+        <p class="section-title min-w-fit uppercase text-primaryYellow"><span data-aos="fade-up">O nas</span></p>
         <!-- /wp:paragraph -->
       </div>
       <!-- /wp:group -->
