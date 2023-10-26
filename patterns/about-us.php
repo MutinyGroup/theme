@@ -38,14 +38,14 @@
           <!-- wp:group -->
           <div class="wp-block-group overflow-hidden">
             <!-- wp:paragraph -->
-            <p data-aos="fade-up" data-aos-duration="600" data-aos-offset="155" class="uppercase inline-block desktop:text-[50px] text-[24px] desktop:leading-[55px] leading-[30px]">Holistyczne podejście do działań</p>
+            <p class="uppercase inline-block desktop:text-[50px] text-[24px] desktop:leading-[55px] leading-[30px]"><span data-aos="fade-up" data-aos-duration="600" data-aos-offset="155">Holistyczne podejście do działań<span></span></p>
             <!-- /wp:paragraph -->
           </div>
           <!-- /wp:group -->
           <!-- wp:group -->
           <div class="wp-block-group overflow-hidden">
             <!-- wp:paragraph -->
-            <p data-aos="fade-up" data-aos-duration="600" data-aos-offset="130" class="uppercase inline-block desktop:text-[50px] text-[24px] desktop:leading-[55px] leading-[30px]">reklamowych sprawia, że nasza firma </p>
+            <p class="uppercase inline-block desktop:text-[50px] text-[24px] desktop:leading-[55px] leading-[30px]"><span data-aos="fade-up" data-aos-duration="600" data-aos-offset="130">reklamowych sprawia, że nasza firma</span> </p>
             <!-- /wp:paragraph -->
           </div>
           <!-- /wp:group -->
