@@ -269,11 +269,7 @@
             <!-- wp:paragraph -->
             <span class="overflow-hidden h-[18px]">
               <!-- wp:paragraph -->
-              <span class="overflow-hidden">
-                <!-- wp:paragraph -->
-                <a href="<?php echo get_home_url() . '/about'; ?>" class="inline-block">Dowiedz się więcej</a>
-                <!-- /wp:paragraph -->
-              </span>
+              <a href="<?php echo get_home_url() . '/about'; ?>" class="inline-block">Dowiedz się więcej</a>
               <!-- /wp:paragraph -->
             </span>
             <!-- /wp:paragraph -->
