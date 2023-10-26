@@ -86,184 +86,189 @@
 
     <!-- wp:query {"query":{"perPage":5,"pages":0,"offset":0,"postType":"uslugi"},"isLink":true} -->
     <!-- wp:post-template -->
-    <!-- wp:group -->
-    <div class="wp-block-group text-center">
-      <!-- wp:post-title {"isLink":true} /-->
-    </div>
-    <!-- /wp:group -->
-    <!-- /wp:post-template -->
-    <!-- /wp:query -->
+    <!-- wp:list -->
+    <ul class="wp-block-list grid grid-cols-2">
+      <!-- wp:list-item -->
+      <li>
+        <!-- wp:post-title {"isLink":true} /-->
+      </li>
+      <!-- /wp:list-item -->
+    </ul>
+  </div>
+  <!-- /wp:group -->
+  <!-- /wp:post-template -->
+  <!-- /wp:query -->
 
-    <!-- wp:group -->
-    <div class="wp-block-group gallery-cols relative pb-[150px]">
-      <!-- wp:list -->
-      <ul class="wp-block-list w-[100%] wide:max-w-[1100px] mx-auto flex flex-wrap justify-center gap-x-[8px] gap-y-[30px]">
-        <?php
-        $args = array(
-          'post_type' => 'uslugi',
-          'posts_per_page' => 6,
-          'order' => 'DESC'
-        );
-        $post_query = new WP_Query($args);
+  <!-- wp:group -->
+  <div class="wp-block-group gallery-cols relative pb-[150px]">
+    <!-- wp:list -->
+    <ul class="wp-block-list w-[100%] wide:max-w-[1100px] mx-auto flex flex-wrap justify-center gap-x-[8px] gap-y-[30px]">
+      <?php
+      $args = array(
+        'post_type' => 'uslugi',
+        'posts_per_page' => 6,
+        'order' => 'DESC'
+      );
+      $post_query = new WP_Query($args);
 
-        if ($post_query->have_posts()) {
-          $counter = 0;
-          while ($post_query->have_posts()) {
-            $post_query->the_post();
-            $postImageUrl = wp_get_attachment_image_src(get_post_thumbnail_id(), 'portrait');
-            $counter++;
-            if (true) { ?>
-              <!-- wp:list-item -->
-              <li class="wp-block-group swiper-slide servicesTile relative group desktop:w-[510px] w-[100%] desktop:h-[600px] h-[320px] transition duration-[800ms] ease-in <?php echo (($counter % 2)) ? "" : 'desktop:translate-y-[50px]'; ?>">
+      if ($post_query->have_posts()) {
+        $counter = 0;
+        while ($post_query->have_posts()) {
+          $post_query->the_post();
+          $postImageUrl = wp_get_attachment_image_src(get_post_thumbnail_id(), 'portrait');
+          $counter++;
+          if (true) { ?>
+            <!-- wp:list-item -->
+            <li class="wp-block-group swiper-slide servicesTile relative group desktop:w-[510px] w-[100%] desktop:h-[600px] h-[320px] transition duration-[800ms] ease-in <?php echo (($counter % 2)) ? "" : 'desktop:translate-y-[50px]'; ?>">
+              <!-- wp:group -->
+              <div class="wp-block-group h-full w-full">
                 <!-- wp:group -->
-                <div class="wp-block-group h-full w-full">
+                <div class="wp-block-group group relative gallery-tile w-full before:content-[''] before:opacity-100 before:absolute before:top-0 before:left-0 before:z-[0] before:w-full before:h-full before:bg-cover before:transition before:duration-[300ms] before:ease-out <?php echo ($counter == 1) ? "clip-path-url-['#clipped-realizations-1'] tile-services-1" : (($counter == $post_query->post_count) ? "clip-path-url-['#clipped-realizations-2'] tile-services-2" : ''); ?>  z-[1] group desktop:p-[25px] desktop:h-[600px] h-[320px] overflow-hidden rounded-[20px] transition ease-out duration-300 mr-[8px] mb-[30px]">
                   <!-- wp:group -->
-                  <div class="wp-block-group group relative gallery-tile w-full before:content-[''] before:opacity-100 before:absolute before:top-0 before:left-0 before:z-[0] before:w-full before:h-full before:bg-cover before:transition before:duration-[300ms] before:ease-out <?php echo ($counter == 1) ? "clip-path-url-['#clipped-realizations-1'] tile-services-1" : (($counter == $post_query->post_count) ? "clip-path-url-['#clipped-realizations-2'] tile-services-2" : ''); ?>  z-[1] group desktop:p-[25px] desktop:h-[600px] h-[320px] overflow-hidden rounded-[20px] transition ease-out duration-300 mr-[8px] mb-[30px]">
-                    <!-- wp:group -->
-                    <div class="wp-block-group img-clip-path-wrapper w-full h-full rounded-tr-[20px] rounded-br-[20px] overflow-hidden absolute left-0 top-0 z-[-1]">
-                      <!-- wp:image -->
-                      <figure class="wp-block-image h-full group-hover:grayscale transition ease-in-out duration-[400ms] <?php echo ($counter == 1) ? "clip-path-url-['#clipped-realizations-1']" : (($counter == $post_query->post_count) ? "clip-path-url-['#clipped-realizations-2']" : ''); ?>">
-                        <img src="<?php echo $postImageUrl[0]; ?>" alt="services-backgroun-image" />
-                      </figure>
-                      <!-- /wp:image -->
+                  <div class="wp-block-group img-clip-path-wrapper w-full h-full rounded-tr-[20px] rounded-br-[20px] overflow-hidden absolute left-0 top-0 z-[-1]">
+                    <!-- wp:image -->
+                    <figure class="wp-block-image h-full group-hover:grayscale transition ease-in-out duration-[400ms] <?php echo ($counter == 1) ? "clip-path-url-['#clipped-realizations-1']" : (($counter == $post_query->post_count) ? "clip-path-url-['#clipped-realizations-2']" : ''); ?>">
+                      <img src="<?php echo $postImageUrl[0]; ?>" alt="services-backgroun-image" />
+                    </figure>
+                    <!-- /wp:image -->
 
-                      <!-- wp:paragraph -->
-                      <p>
-                        <svg x="0px" y="0px" viewBox="0 0 1374.7 1083.6" class="absolute top-0">
-                          <defs>
-                            <?php
-                            if ($counter == 1) {
-                              echo '
+                    <!-- wp:paragraph -->
+                    <p>
+                      <svg x="0px" y="0px" viewBox="0 0 1374.7 1083.6" class="absolute top-0">
+                        <defs>
+                          <?php
+                          if ($counter == 1) {
+                            echo '
                                 <clipPath id="clipped-realizations-1" class="scale-[0.002]" clipPathUnits="objectBoundingBox">
                                   <path d="M94.1421 5.85786C97.8929 2.10713 102.98 0 108.284 0H515C526.046 0 535 8.95431 535 20V670C535 686.569 521.569 700 505 700H20.0002C8.95451 700 0.000199138 691.046 0.000195955 680L3.12042e-05 108.284C2.96756e-05 102.98 2.10717 97.8929 5.85789 94.1421L94.1421 5.85786Z"/>
                                 </clipPath>
                                 ';
-                            } elseif ($counter == $post_query->post_count) {
-                              echo '
+                          } elseif ($counter == $post_query->post_count) {
+                            echo '
                                 <clipPath id="clipped-realizations-2" class="scale-[0.00143] scale-x-[0.00188]" clipPathUnits="objectBoundingBox">
                                   <path d="M99.9999 0H515C526.046 0 535 8.95431 535 20V630C535 641.046 526.046 650 515 650H346.951C338.934 650 331.25 653.209 325.615 658.91L293.807 691.09C288.172 696.791 280.488 700 272.471 700H20.0001C8.9544 700 0.000110665 691.046 0.000107937 680L-5.50846e-05 20C-5.78129e-05 8.9543 8.95425 0 19.9999 0L99.9999 0Z"/>
                                 </clipPath>
                               ';
-                            };
-                            ?>
+                          };
+                          ?>
 
-                          </defs>
-                        </svg>
-                      </p>
-                      <!-- /wp:paragraph -->
-                    </div>
-                    <!-- /wp:group -->
-                    <!-- wp:group -->
-                    <div class="wp-block-group slide-title absolute desktop:bottom-[0px] bottom-[55px] desktop:left-[25px] left-[20px] translate-y-[130px] desktop:translate-y-[-15px] group-hover:translate-y-[-20px] desktop:group-hover:translate-y-[-150px] transition ease-out duration-[400ms]">
-                      <!-- wp:paragraph -->
-                      <p class="mr-[20px] desktop:text-[35px] text-[26px] font-semibold mb-[15px] underline-offset-[9px] group-hover:underline group-hover:decoration-primaryYellow"><a href="<?php echo get_permalink(); ?>"><?php the_title(); ?></a></p>
-                      <!-- /wp:paragraph -->
-                      <!-- wp:list -->
-                      <ul class="wp-block-list mt-[20px] hover-text desktop:block opacity-[0%] group-hover:opacity-[100%] text-[15px] leading-[32px] font-semibold uppercase transition ease-out duration-500">
-                        <!-- wp:list-item -->
-                        <li class="mb-[6px] text-[15px] relative">
-                          <!-- wp:group -->
-                          <div class="wp-block-group wrapper-test flex gap-[10px]">
-                            <!-- wp:group -->
-                            <div class="wp-block-group separator mt-[8px] w-[20px] h-[2px] bg-primaryYellow">
-                              <!-- wp:paragraph -->
-                              <p class="hidden">separator</p>
-                              <!-- /wp:paragraph -->
-                            </div>
-                            <!-- /wp:group -->
-                            <!-- wp:paragraph -->
-                            <p class="leading-[20px]">Opracowanie strategii marketingowych</p>
-                            <!-- /wp:paragraph -->
-                          </div>
-                          <!-- /wp:group -->
-                        </li>
-                        <!-- /wp:list-item -->
-                        <!-- wp:list-item -->
-                        <li class="mb-[6px] text-[15px] relative">
-                          <!-- wp:group -->
-                          <div class="wp-block-group wrapper-test flex gap-[10px]">
-                            <!-- wp:group -->
-                            <div class="wp-block-group separator mt-[8px] w-[20px] h-[2px] bg-primaryYellow">
-                              <!-- wp:paragraph -->
-                              <p class="hidden">separator</p>
-                              <!-- /wp:paragraph -->
-                            </div>
-                            <!-- /wp:group -->
-                            <!-- wp:paragraph -->
-                            <p class="leading-[20px]">Content marketing</p>
-                            <!-- /wp:paragraph -->
-                          </div>
-                          <!-- /wp:group -->
-                        </li>
-                        <!-- /wp:list-item -->
-                        <!-- wp:list-item -->
-                        <li class="mb-[6px] text-[15px] relative">
-                          <!-- wp:group -->
-                          <div class="wp-block-group wrapper-test flex gap-[10px]">
-                            <!-- wp:group -->
-                            <div class="wp-block-group separator mt-[8px] w-[20px] h-[2px] bg-primaryYellow">
-                              <!-- wp:paragraph -->
-                              <p class="hidden">separator</p>
-                              <!-- /wp:paragraph -->
-                            </div>
-                            <!-- /wp:group -->
-                            <!-- wp:paragraph -->
-                            <p class="leading-[20px]">Kreowanie tosamości marki</p>
-                            <!-- /wp:paragraph -->
-                          </div>
-                          <!-- /wp:group -->
-                        </li>
-                        <!-- /wp:list-item -->
-                        <!-- wp:list-item -->
-                        <li class="mb-[6px] text-[15px] relative">
-                          <!-- wp:group -->
-                          <div class="wp-block-group wrapper-test flex gap-[10px]">
-                            <!-- wp:group -->
-                            <div class="wp-block-group separator mt-[8px] w-[20px] h-[2px] bg-primaryYellow">
-                              <!-- wp:paragraph -->
-                              <p class="hidden">separator</p>
-                              <!-- /wp:paragraph -->
-                            </div>
-                            <!-- /wp:group -->
-                            <!-- wp:paragraph -->
-                            <p class="leading-[20px]">Dobór kanałów i narzędzie komunikacji</p>
-                            <!-- /wp:paragraph -->
-                          </div>
-                          <!-- /wp:group -->
-                        </li>
-                        <!-- /wp:list-item -->
-                      </ul>
-                      <!-- /wp:list -->
-                    </div>
-                    <!-- /wp:group -->
+                        </defs>
+                      </svg>
+                    </p>
+                    <!-- /wp:paragraph -->
                   </div>
                   <!-- /wp:group -->
-
-                  <!-- wp:paragraph -->
-                  <p class="btn-swiper-more group z-[2] pr-[20px] desktop:pr-0 text-[14px] font-semibold uppercase absolute  desktop:bottom-[75px] bottom-[20px] desktop:left-[25px] left-[20px] transition ease-out duration-300"><a href="<?php echo get_permalink(); ?>">Dowiedz się więcej</a>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" fill="none " class="inline-block ml-[10px]">
-                      <rect x="1" y="1" width="34" height="34" rx="18" stroke="#AAAAAA" stroke-width="2" fill="transparent" class="transition ease-out duration-300 group-hover:fill-[#FEC400] group-hover:stroke-[#FEC400]" />
-                      <path d="M19 22L23 18.0108L19.0217 14" stroke="black" />
-                      <path d="M12 18L20 18" stroke="black" />
-                    </svg>
-                  </p>
-                  <!-- /wp:paragraph -->
-
+                  <!-- wp:group -->
+                  <div class="wp-block-group slide-title absolute desktop:bottom-[0px] bottom-[55px] desktop:left-[25px] left-[20px] translate-y-[130px] desktop:translate-y-[-15px] group-hover:translate-y-[-20px] desktop:group-hover:translate-y-[-150px] transition ease-out duration-[400ms]">
+                    <!-- wp:paragraph -->
+                    <p class="mr-[20px] desktop:text-[35px] text-[26px] font-semibold mb-[15px] underline-offset-[9px] group-hover:underline group-hover:decoration-primaryYellow"><a href="<?php echo get_permalink(); ?>"><?php the_title(); ?></a></p>
+                    <!-- /wp:paragraph -->
+                    <!-- wp:list -->
+                    <ul class="wp-block-list mt-[20px] hover-text desktop:block opacity-[0%] group-hover:opacity-[100%] text-[15px] leading-[32px] font-semibold uppercase transition ease-out duration-500">
+                      <!-- wp:list-item -->
+                      <li class="mb-[6px] text-[15px] relative">
+                        <!-- wp:group -->
+                        <div class="wp-block-group wrapper-test flex gap-[10px]">
+                          <!-- wp:group -->
+                          <div class="wp-block-group separator mt-[8px] w-[20px] h-[2px] bg-primaryYellow">
+                            <!-- wp:paragraph -->
+                            <p class="hidden">separator</p>
+                            <!-- /wp:paragraph -->
+                          </div>
+                          <!-- /wp:group -->
+                          <!-- wp:paragraph -->
+                          <p class="leading-[20px]">Opracowanie strategii marketingowych</p>
+                          <!-- /wp:paragraph -->
+                        </div>
+                        <!-- /wp:group -->
+                      </li>
+                      <!-- /wp:list-item -->
+                      <!-- wp:list-item -->
+                      <li class="mb-[6px] text-[15px] relative">
+                        <!-- wp:group -->
+                        <div class="wp-block-group wrapper-test flex gap-[10px]">
+                          <!-- wp:group -->
+                          <div class="wp-block-group separator mt-[8px] w-[20px] h-[2px] bg-primaryYellow">
+                            <!-- wp:paragraph -->
+                            <p class="hidden">separator</p>
+                            <!-- /wp:paragraph -->
+                          </div>
+                          <!-- /wp:group -->
+                          <!-- wp:paragraph -->
+                          <p class="leading-[20px]">Content marketing</p>
+                          <!-- /wp:paragraph -->
+                        </div>
+                        <!-- /wp:group -->
+                      </li>
+                      <!-- /wp:list-item -->
+                      <!-- wp:list-item -->
+                      <li class="mb-[6px] text-[15px] relative">
+                        <!-- wp:group -->
+                        <div class="wp-block-group wrapper-test flex gap-[10px]">
+                          <!-- wp:group -->
+                          <div class="wp-block-group separator mt-[8px] w-[20px] h-[2px] bg-primaryYellow">
+                            <!-- wp:paragraph -->
+                            <p class="hidden">separator</p>
+                            <!-- /wp:paragraph -->
+                          </div>
+                          <!-- /wp:group -->
+                          <!-- wp:paragraph -->
+                          <p class="leading-[20px]">Kreowanie tosamości marki</p>
+                          <!-- /wp:paragraph -->
+                        </div>
+                        <!-- /wp:group -->
+                      </li>
+                      <!-- /wp:list-item -->
+                      <!-- wp:list-item -->
+                      <li class="mb-[6px] text-[15px] relative">
+                        <!-- wp:group -->
+                        <div class="wp-block-group wrapper-test flex gap-[10px]">
+                          <!-- wp:group -->
+                          <div class="wp-block-group separator mt-[8px] w-[20px] h-[2px] bg-primaryYellow">
+                            <!-- wp:paragraph -->
+                            <p class="hidden">separator</p>
+                            <!-- /wp:paragraph -->
+                          </div>
+                          <!-- /wp:group -->
+                          <!-- wp:paragraph -->
+                          <p class="leading-[20px]">Dobór kanałów i narzędzie komunikacji</p>
+                          <!-- /wp:paragraph -->
+                        </div>
+                        <!-- /wp:group -->
+                      </li>
+                      <!-- /wp:list-item -->
+                    </ul>
+                    <!-- /wp:list -->
+                  </div>
+                  <!-- /wp:group -->
                 </div>
                 <!-- /wp:group -->
-              </li>
-              <!-- /wp:list-item -->
-        <?php
-            }
-          };
+
+                <!-- wp:paragraph -->
+                <p class="btn-swiper-more group z-[2] pr-[20px] desktop:pr-0 text-[14px] font-semibold uppercase absolute  desktop:bottom-[75px] bottom-[20px] desktop:left-[25px] left-[20px] transition ease-out duration-300"><a href="<?php echo get_permalink(); ?>">Dowiedz się więcej</a>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" fill="none " class="inline-block ml-[10px]">
+                    <rect x="1" y="1" width="34" height="34" rx="18" stroke="#AAAAAA" stroke-width="2" fill="transparent" class="transition ease-out duration-300 group-hover:fill-[#FEC400] group-hover:stroke-[#FEC400]" />
+                    <path d="M19 22L23 18.0108L19.0217 14" stroke="black" />
+                    <path d="M12 18L20 18" stroke="black" />
+                  </svg>
+                </p>
+                <!-- /wp:paragraph -->
+
+              </div>
+              <!-- /wp:group -->
+            </li>
+            <!-- /wp:list-item -->
+      <?php
+          }
         };
-        wp_reset_query();
-        ?>
-      </ul>
-      <!-- /wp:list -->
-    </div>
-    <!-- /wp:group -->
+      };
+      wp_reset_query();
+      ?>
+    </ul>
+    <!-- /wp:list -->
   </div>
   <!-- /wp:group -->
+</div>
+<!-- /wp:group -->
 </div>
 <!-- /wp:group -->
