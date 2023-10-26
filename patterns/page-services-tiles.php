@@ -83,7 +83,7 @@
     <!-- wp:group -->
     <div class="wp-block-group paragrapth-wrapper desktop:max-w-[1115px] mb-[100px] mx-auto z-[1] relative">
       <!-- wp:paragraph -->
-      <span data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="text ml-auto mr-0 text-[20px] leading-[30px] max-w-[625px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</span>
+      <span data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="block text ml-auto mr-0 text-[20px] leading-[30px] max-w-[625px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</span>
       <!-- /wp:paragraph -->
     </div>
     <!-- /wp:group -->
