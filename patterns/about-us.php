@@ -219,7 +219,7 @@
               <!-- /wp:group -->
 
               <!-- wp:paragraph -->
-              <p class="target-num inline-block desktop:text-[85px] text-[80px] font-semibold"><span data-aos="fade-right" data-aos-duration="600" data-aos-offset="85">04</span></p>
+              <span class="target-num inline-block desktop:text-[85px] text-[80px] font-semibold">04</span>
               <!-- /wp:paragraph -->
             </div>
             <!-- /wp:group -->
@@ -227,11 +227,11 @@
             <!-- wp:group -->
             <div class="wp-block-group text-wrapper">
               <!-- wp:paragraph -->
-              <p class="target-title desktop:mb-[15px] mb-[5px] text-[25px] font-semibold leading-[30px]"><span data-aos="fade-right" data-aos-duration="600" data-aos-offset="85">Mamy plan</span></p>
-              <!-- /wp:paragraph -->
-              <!-- wp:paragraph -->
-              <p class="target-paragraph font-light leading-[22px]"><span data-aos="fade-right" data-aos-duration="600" data-aos-offset="85">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</span></p>
-              <!-- /wp:paragraph -->
+              <span class="target-title desktop:mb-[15px] mb-[5px] text-[25px] font-semibold leading-[30px]">Mamy plan
+                <!-- /wp:paragraph -->
+                <!-- wp:paragraph -->
+                <span class="target-paragraph font-light leading-[22px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</span>
+                <!-- /wp:paragraph -->
             </div>
             <!-- /wp:group -->
           </li>
