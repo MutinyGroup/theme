@@ -129,7 +129,7 @@
         <!-- wp:group -->
         <div class="wp-block-group counter-index-wrapper min-w-[75px] inline relative">
           <!-- wp:paragraph -->
-          <p data-aos="fade-right" data-aos-duration="600" data-aos-offset="90" class="target-num text-[60px] font-semibold">02</p>
+          <span data-aos="fade-right" data-aos-duration="600" data-aos-offset="90" class="target-num block text-[60px] font-semibold">01</span>
           <!-- /wp:paragraph -->
         </div>
         <!-- /wp:group -->
@@ -137,10 +137,10 @@
         <!-- wp:group -->
         <div class="wp-block-group text-wrapper">
           <!-- wp:paragraph -->
-          <p data-aos="fade-right" data-aos-duration="600" data-aos-offset="90" class="target-title desktop:mb-[15px] text-[20px] font-semibold">Mamy plan</p>
+          <span data-aos="fade-right" data-aos-duration="600" data-aos-offset="90" class="target-title block desktop:mb-[15px] text-[20px] font-semibold">Mamy plan</span>
           <!-- /wp:paragraph -->
           <!-- wp:paragraph -->
-          <p data-aos="fade-right" data-aos-duration="600" data-aos-offset="90" class="target-paragraph font-light leading-[21px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+          <span data-aos="fade-right" data-aos-duration="600" data-aos-offset="90" class="target-paragraph block font-light leading-[21px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</span>
           <!-- /wp:paragraph -->
         </div>
         <!-- /wp:group -->
