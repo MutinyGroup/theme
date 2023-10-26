@@ -39,35 +39,6 @@
         </div>
         <!-- /wp:group -->
 
-        <!-- wp:group -->
-        <div class="wp-block-group hidden overflow-hidden">
-          <!-- wp:group -->
-          <div class="wp-block-group overflow-hidden">
-            <!-- wp:paragraph -->
-            <p class="uppercase inline-block desktop:text-[50px] text-[24px] desktop:leading-[55px] leading-[30px]"><span data-aos="fade-up" data-aos-duration="600" data-aos-offset="155">Holistyczne podejście do działań<span></span></p>
-            <!-- /wp:paragraph -->
-          </div>
-          <!-- /wp:group -->
-          <!-- wp:group -->
-          <div class="wp-block-group overflow-hidden">
-            <!-- wp:paragraph -->
-            <p class="uppercase inline-block desktop:text-[50px] text-[24px] desktop:leading-[55px] leading-[30px]"><span data-aos="fade-up" data-aos-duration="600" data-aos-offset="130">reklamowych sprawia, że nasza firma</span> </p>
-            <!-- /wp:paragraph -->
-          </div>
-          <!-- /wp:group -->
-          <!-- wp:group -->
-          <div class="wp-block-group overflow-hidden">
-            <!-- wp:paragraph -->
-            <p class="uppercase desktop:text-[50px] text-[24px] desktop:leading-[55px] leading-[30px]">
-              <span data-aos="fade-up" data-aos-duration="600" data-aos-offset="85">działa</span>
-              <span class="relative ml-[12px] desktop:text-[50px] text-[24px] desktop:leading-[55px] leading-[30px] uppercase italic before:content-[''] before:inline-block desktop:before:mr-[18px] before:mr-[8px] before:bottom-0 before:left-0 desktop:before:w-[90px] before:w-[30px] desktop:before:h-[3px] before:h-[2px] before:bg-white"><span data-aos="fade-up" data-aos-duration="600" data-aos-offset="30">jak jeden organizm</span></span>
-            </p>
-            <!-- /wp:paragraph -->
-          </div>
-          <!-- /wp:group -->
-        </div>
-        <!-- /wp:group -->
-
 
       </div>
       <!-- /wp:group -->
