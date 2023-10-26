@@ -110,7 +110,7 @@
                     <img src="<?php echo home_url() . '/wp-content/themes/mutiny/assets/img/page-services/why-img3.jpg'; ?>" alt="services-background-image" />
                   </figure>
                   <!-- /wp:image -->
-
+                  <!-- wp:paragraph -->
                   <svg x="0px" y="0px" viewBox="0 0 1374.7 1083.6" class="height-[250px] absolute top-0">
                     <defs>
                       <clipPath id="clipped-why" class="scale-[0.0038] scale-x-[0.0013]" clipPathUnits="objectBoundingBox">
@@ -118,6 +118,7 @@
                       </clipPath>
                     </defs>
                   </svg>
+                  <!-- wp:paragraph -->
                 </div>
                 <!-- /wp:group -->
               </div>
