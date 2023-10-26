@@ -93,7 +93,7 @@
         <!-- wp:post-title {"isLink":true} /-->
 
       </div>
-      <!-- wp:group -->
+      <!-- /wp:group -->
       <!-- /wp:post-template -->
       <!-- /wp:query -->
       <!-- wp:list -->
