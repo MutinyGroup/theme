@@ -110,7 +110,7 @@
                   <!-- wp:list-item -->
                   <li>
                     <!-- wp:group -->
-                    <div class="wp-block-group swiper-slide group desktop:w-[535px] w-[300px] h-[500px] desktop:h-[675px]">
+                    <div class="wp-block-group swiper-slide group desktop:w-[535px] w-[300px] h-[500px] desktop:h-[740px]">
                       <!-- wp:group -->
                       <div class="wp-block-group h-full w-full">
                         <!-- wp:group -->
