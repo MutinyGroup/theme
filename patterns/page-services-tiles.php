@@ -88,17 +88,13 @@
     <div class="wp-block-group above-wp-query">
       <!-- wp:query {"query":{"perPage":5,"pages":0,"offset":0,"postType":"uslugi"},"isLink":true,"className":"test"} -->
       <!-- wp:group -->
-      <div class="wp-block-group above-post-template">
+      <div class="wp-block-group above-post-template [&>ul]:bg-red-200">
         <!-- wp:post-template -->
-        <!-- wp:list -->
-        <ul class="wp-block-list grid grid-cols-2">
-          <!-- wp:list-item -->
-          <li>
-            <!-- wp:post-title {"isLink":true} /-->
-          </li>
-          <!-- /wp:list-item -->
-        </ul>
-        <!-- /wp:list -->
+        <!-- wp:list-item -->
+        <li>
+          <!-- wp:post-title {"isLink":true} /-->
+        </li>
+        <!-- /wp:list-item -->
         <!-- /wp:post-template -->
       </div>
       <!-- /wp:group -->
