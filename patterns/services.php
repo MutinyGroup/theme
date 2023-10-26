@@ -91,15 +91,13 @@
       <span data-aos="fade-right" data-aos-duration="600" data-aos-offset="130" class="wp-block circle-title desktop:w-[120px] desktop:h-[120px] w-[110px] h-[110px] mt-[80px] desktop:mt-0 mx-0 text-center leading-[50px] hidden desktop:flex items-center justify-center flex-col rounded-full border-[4px] border-[#D5D5D5] absolute desktop:top-[-40px] top-[-100px] desktop:left-[120px] left-[250px]">
         <span class="self-center leading-[0px] desktop:text-[14px] text-[13px]">Marketing na</span>
         <span class="uppercase mt-[20px] self-center desktop:text-[35px] text-[30px] font-extrabold leading-[15px]">100%</span>
+        <!-- wp:paragraph -->
+        <p data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="inline mx-[0px] desktop:ml-[360px] desktop:mb-[0px] mb-[40px] max-w-full desktop:max-w-[400px] desktop:leading-[30px] leading-[26px] desktop:text-[20px] text-[15px] font-light relative z-[2]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi est similique, sint</p><!-- wp:paragraph -->
+        <p class="inline text-primaryYellow">illum architecto</p><!-- /wp:paragraph -->
+        <!-- wp:paragraph -->
+        <p class="inline">fugit quae beatae</p>
+        <!-- /wp:paragraph -->
     </div>
-    <!-- /wp:paragraph -->
-    <!-- wp:paragraph -->
-    <p data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="inline mx-[0px] desktop:ml-[360px] desktop:mb-[0px] mb-[40px] max-w-full desktop:max-w-[400px] desktop:leading-[30px] leading-[26px] desktop:text-[20px] text-[15px] font-light relative z-[2]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi est similique, sint</p><!-- wp:paragraph -->
-    <p class="inline text-primaryYellow">illum architecto</p><!-- /wp:paragraph -->
-    <!-- wp:paragraph -->
-    <p class="inline">fugit quae beatae</p>
-    <!-- /wp:paragraph -->
-    </dipv>
     <!-- /wp:group -->
 
     <!-- wp:group -->
