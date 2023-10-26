@@ -237,7 +237,7 @@
         <div class="wp-block-group overflow-hidden h-[18px]">
           <!-- wp:paragraph -->
           <p>
-            <a href="<?php echo get_home_url() . '/realizations'; ?>" class="inline-block">Dowiedz się więcej</a>
+            <a href="<?php echo get_home_url() . '/realizations'; ?>" class="inline-block">Zobacz wszystkie realizacje</a>
           </p>
           <!-- /wp:paragraph -->
         </div>
