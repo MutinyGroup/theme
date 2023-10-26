@@ -128,7 +128,7 @@
           ?>
               <!-- wp:list-item -->
               <li class="swiper-slide swiper-slide-services group relative z-[2] group wide:max-w-[420px] desktop:max-w-[354px] max-w-[310px] h-[380px] desktop:h-[450px] wide:h-[530px] rounded-[20px] text-[18px] flex items-center before:hover:opacity-100 after:hover:opacity-100 wide:before:h-[530px] wide:after:h-[530px] transition ease-out duration-300 after:content-[''] after:opacity-0 after:absolute after:top-0 after:left-0 after:z-[2] after:w-[354px] after:h-[450px] after:transition after:duration-[300ms] after:ease-out after:grayscale">
-                <span class="blockgroup w-full h-full <?php echo ($counter == 1) ?  "clip-path-url-['#clipped-swiper-serv-1']" : (($counter == $post_query->post_count) ? "clip-path-url-['#clipped-swiper-serv-2']" : ''); ?>" data-aos="fade-right" data-aos-duration="600" data-aos-offset="130">
+                <span class="block group w-full h-full <?php echo ($counter == 1) ?  "clip-path-url-['#clipped-swiper-serv-1']" : (($counter == $post_query->post_count) ? "clip-path-url-['#clipped-swiper-serv-2']" : ''); ?>" data-aos="fade-right" data-aos-duration="600" data-aos-offset="130">
                   <!-- wp:group -->
                   <div class="wp-block-group img-clip-path-wrapper w-full h-full rounded-[20px] rounded-br-[20px] overflow-hidden absolute left-0 top-0 z-[1] group-hover:grayscale">
                     <!-- wp:group -->
