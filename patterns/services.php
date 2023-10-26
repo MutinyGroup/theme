@@ -98,7 +98,7 @@
     <!-- /wp:group -->
 
     <!-- wp:group -->
-    <div class=" mx-[0px] desktop:ml-[360px] desktop:mb-[0px] mb-[40px] max-w-full desktop:max-w-[400px] desktop:leading-[30px] leading-[26px] desktop:text-[20px] text-[15px] font-light relative z-[2]">
+    <div class="wp-block-group mx-[0px] desktop:ml-[360px] desktop:mb-[0px] mb-[40px] max-w-full desktop:max-w-[400px] desktop:leading-[30px] leading-[26px] desktop:text-[20px] text-[15px] font-light relative z-[2]">
       <!-- wp:paragraph -->
       <p data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="inline">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi est similique, sint</p><!-- wp:paragraph -->
       <p class="inline text-primaryYellow">illum architecto</p><!-- /wp:paragraph -->
