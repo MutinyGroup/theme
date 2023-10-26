@@ -130,9 +130,9 @@
               <!-- wp:group -->
               <div class="wp-block-group slide-title absolute desktop:bottom-[0px] bottom-[55px] desktop:left-[25px] left-[20px] translate-y-[130px] desktop:translate-y-[-15px] group-hover:translate-y-[-20px] desktop:group-hover:translate-y-[-150px] transition ease-out duration-[400ms]">
                 <!-- wp:paragraph -->
-                <p class="mr-[20px] desktop:text-[35px] text-[26px] font-semibold mb-[15px] underline-offset-[9px] group-hover:underline group-hover:decoration-primaryYellow"><!-- wp:post-title {"isLink":true} /-->
-                  <!-- /wp:paragraph -->
-                  <!-- wp:list -->
+                <p class="mr-[20px] desktop:text-[35px] text-[26px] font-semibold mb-[15px] underline-offset-[9px] group-hover:underline group-hover:decoration-primaryYellow"><!-- wp:post-title {"isLink":true} /--></p>
+                <!-- /wp:paragraph -->
+                <!-- wp:list -->
                 <ul class="wp-block-list mt-[20px] hover-text desktop:block opacity-[0%] group-hover:opacity-[100%] text-[15px] leading-[32px] font-semibold uppercase transition ease-out duration-500">
                   <!-- wp:list-item -->
                   <li class="mb-[6px] text-[15px] relative">
