@@ -93,8 +93,8 @@
             <div class="wp-block-group h-[100px] desktop:h-[250px] w-[230px] desktop:w-[880px] wide:w-[1100px]">
               <!-- wp:group -->
               <div class="wp-block-group img-clip-path-wrapper mb-[50px] w-full h-full rounded-[20px] overflow-hidden">
-                <!-- wp:paragraph -->
-                <a href="#" class="pointer-events-none relative">
+                <!-- wp:group -->
+                <div href="#" class="wp-block-group pointer-events-none relative">
                   <!-- wp:image -->
                   <figure class="wp-block-image title-img1 opacity-1 h-full w-full clip-path-url-['#clipped-why']  transition ease-in-out duration-[400ms]">
                     <img src="<?php echo home_url() . '/wp-content/themes/mutiny/assets/img/page-services/why-img1.jpg'; ?>" alt="services-background-image" />
@@ -118,8 +118,8 @@
                       </clipPath>
                     </defs>
                   </svg>
-                </a>
-                <!-- /wp:paragraph -->
+                </div>
+                <!-- /wp:group -->
               </div>
               <!-- /wp:group -->
             </div>
