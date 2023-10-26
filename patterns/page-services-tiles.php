@@ -105,7 +105,7 @@
             if (true) { ?>
               <!-- wp:list-item -->
               <li class="wp-block-group swiper-slide servicesTile relative group desktop:w-[510px] w-[100%] desktop:h-[600px] h-[320px] transition duration-[800ms] ease-in <?php echo (($counter % 2)) ? "" : 'desktop:translate-y-[50px]'; ?>">
-                <!-- wp:link -->
+                <!-- wp:custom-link -->
                 <a href="<?php the_permalink(); ?>" data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="h-full w-full">
                   <!-- wp:group -->
                   <div class="wp-block-group group relative gallery-tile w-full before:content-[''] before:opacity-100 before:absolute before:top-0 before:left-0 before:z-[0] before:w-full before:h-full before:bg-cover before:transition before:duration-[300ms] before:ease-out <?php echo ($counter == 1) ? "clip-path-url-['#clipped-realizations-1'] tile-services-1" : (($counter == $post_query->post_count) ? "clip-path-url-['#clipped-realizations-2'] tile-services-2" : ''); ?>  z-[1] group desktop:p-[25px] desktop:h-[600px] h-[320px] overflow-hidden rounded-[20px] transition ease-out duration-300 mr-[8px] mb-[30px]">
@@ -240,7 +240,7 @@
                   <!-- /wp:paragraph -->
 
                 </a>
-                <!-- /wp:link -->
+                <!-- /wp:custom-link -->
               </li>
               <!-- /wp:list-item -->
         <?php
