@@ -55,11 +55,7 @@
         <!-- wp:group -->
         <div class="wp-block-group overflow-hidden">
           <!-- wp:paragraph -->
-          <span data-aos="fade-up" data-aos-duration="600" data-aos-offset="30" class="block company-title overflow-hidden">
-            <span class="block uppercase">
-              Wybierz usługę którą
-            </span>
-          </span>
+          <span data-aos="fade-up" data-aos-duration="600" data-aos-offset="30" class="block company-title overflow-hidden"><span class="block uppercase">Wybierz usługę którą</span></span>
           <!-- /wp:paragraph -->
         </div>
         <!-- /wp:group -->
