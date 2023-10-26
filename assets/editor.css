@@ -34,7 +34,7 @@ body{
   }
   
   /* section about us */
-  .btn-text-roll > span a{
+  .btn-text-roll > span{
     overflow: visible;
   }
   
