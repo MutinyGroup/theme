@@ -90,7 +90,7 @@ figure[class*="logo-img"] img {
 /* .animation-textRoll{
   animation: backwards textRoll 0.25s linear;
 } */
-.btn-text-roll:hover > div > a{
+.btn-text-roll:hover > div > p > a{
   animation: backwards textRoll 0.25s linear;
 }
 
