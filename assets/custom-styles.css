@@ -369,9 +369,6 @@ figure[class*="logo-img"] img {
 
 }
 
-
-
-
 /* animated header */
 .site-header {
   background-color: lightblue;
@@ -431,3 +428,9 @@ figure[class*="logo-img"] img {
   width: 1240px!important;
   height: 500px!important;
 }
+
+.above-post-template > ul{
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
