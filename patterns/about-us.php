@@ -217,7 +217,9 @@
             <!-- wp:group -->
             <div class="wp-block-group overflow-hidden h-[18px]">
               <!-- wp:paragraph -->
-              <a href="<?php echo get_home_url() . '/about'; ?>" class="inline-block">Dowiedz się więcej</a>
+              <p>
+                <a href="<?php echo get_home_url() . '/about'; ?>" class="inline-block">Dowiedz się więcej</a>
+              </p>
               <!-- /wp:paragraph -->
             </div>
             <!-- /wp:group -->
