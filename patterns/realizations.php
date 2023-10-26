@@ -232,7 +232,7 @@
       <!-- /wp:paragraph -->
 
       <!-- wp:group -->
-      <div class="wp-block-group uppercase btn-text-roll group bg-darkBlack text-white text-[14px] font-bold min-w-[225px] flex justify-center items-center px-[20px] btn-more ml-[0px] p-[15px_30px] border-[2px] rounded-full hover:bg-white hover:text-black">
+      <div class="wp-block-group uppercase btn-text-roll group bg-darkBlack text-white text-[14px] font-bold min-w-fit flex justify-center items-center px-[20px] btn-more ml-[0px] p-[15px_30px] border-[2px] rounded-full hover:bg-white hover:text-black">
         <!-- wp:group -->
         <div class="wp-block-group overflow-hidden h-[18px]">
           <!-- wp:paragraph -->
