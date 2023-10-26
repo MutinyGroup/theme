@@ -166,7 +166,7 @@
                     <!-- wp:group -->
                     <div class="wp-block-group tile-title z-[1] absolute bottom-[50px] desktop:left-[50px] left-[20px] pr-[20px]">
                       <!-- wp:paragraph -->
-                      <p class="w-fit desktop:text-[35px] text-[30px] desktop:mb-[20px] mb-[10px] leading-[42px] font-semibold desktop:group-hover:translate-y-[-50px] group-hover:translate-y-[-70px] transition ease-in-out duration-[400ms] cursor-pointer"><?php the_title(); ?></p>
+                      <p class="w-fit desktop:text-[35px] text-[30px] desktop:mb-[20px] mb-[10px] leading-[42px] font-semibold desktop:group-hover:translate-y-[-50px] group-hover:translate-y-[-70px] transition ease-in-out duration-[400ms] cursor-pointer"><a href="<?php echo get_permalink(); ?>"><?php the_title(); ?></a></p>
                       <!-- /wp:paragraph -->
 
                       <!-- wp:list -->
@@ -195,7 +195,7 @@
                       <!-- wp:buttons -->
                       <div class="wp-block-buttons group uppercase text-[14px] font-semibold group-hover:translate-y-[25px] transition ease-in-out duration-[400ms]">
                         <!-- wp:paragraph -->
-                        <p class="wp-block-link inline-block">Czytaj więcej<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" fill="none " class="inline-block ml-[10px] ">
+                        <p class="wp-block-link inline-block"><a href="<?php echo get_permalink(); ?>">Czytaj więcej</a><svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" fill="none " class="inline-block ml-[10px] ">
                             <rect x="1" y="1" width="34" height="34" rx="18" stroke="#D5D5D5" stroke-width="2" fill="transparent" class="transition ease-in-out duration-[400ms] group-hover:fill-[#FEC400] group-hover:stroke-[#FEC400]" />
                             <path d="M19 22L23 18.0108L19.0217 14" stroke="white" />
                             <path d="M12 18L20 18" stroke="white" />
