@@ -118,7 +118,7 @@
                       </clipPath>
                     </defs>
                   </svg>
-                  <!-- wp:paragraph -->
+                  <!-- /wp:paragraph -->
                 </div>
                 <!-- /wp:group -->
               </div>
