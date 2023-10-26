@@ -183,7 +183,7 @@
                   <!-- wp:group -->
                   <div class="wp-block-group text-wrapper slide-title group absolute desktop:bottom-[85px] bottom-[100px] left-[25px] group-hover:translate-y-[-80px] transition ease-out duration-500 z-[3]">
                     <!-- wp:paragraph -->
-                    <p class="mr-[20px] text-[25px] font-semibold mb-[15px] underline-offset-[7px] group-hover:underline group-hover:decoration-primaryYellow transition ease-out duration-500"><?php the_title(); ?></p>
+                    <p class="mr-[20px] text-[25px] font-semibold mb-[15px] underline-offset-[7px] group-hover:underline group-hover:decoration-primaryYellow transition ease-out duration-500"><a href="<?php echo get_permalink(); ?>"><?php the_title(); ?></a></p>
                     <!-- /wp:paragraph -->
                   </div>
                   <!-- /wp:group -->
