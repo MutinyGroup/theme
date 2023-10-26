@@ -91,7 +91,7 @@
       <div class="wp-block-group above-post-template ">
         <!-- wp:post-template -->
         <!-- wp:list-item -->
-        <li>
+        <li class="moje-li">
           <!-- wp:post-title {"isLink":true} /-->
         </li>
         <!-- /wp:list-item -->
