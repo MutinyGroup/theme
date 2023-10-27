@@ -479,3 +479,6 @@ figure[class*="logo-img"] img {
   clip-path: url('#clipped-realizations-1');
   /* clip-path: path('#clipped-realizations-1'); */
 }
+.uslugi > div:nth-child(even){
+  transform: translateX(50px);
+}
