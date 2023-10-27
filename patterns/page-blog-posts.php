@@ -29,7 +29,7 @@
 
       <!-- wp:group -->
       <div class="wp-block-group above-wp-query">
-        <!-- wp:query {"query":{"perPage":0,"pages":0,"offset":0,"postType":"post"},"isLink":true} -->
+        <!-- wp:query {"query":{"perPage":100000,"pages":0,"offset":0,"postType":"post"},"isLink":true} -->
 
         <!-- wp:group -->
         <div class="wp-block-group above-post-template-realizacje ul-wrapper-realizacje mx-auto w-[100%]">
