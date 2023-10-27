@@ -141,7 +141,7 @@
     <!-- /wp:group -->
 
     <!-- wp:list -->
-    <ul id="EventyList" class="wp-block-list events-list mb-[150px]">
+    <ul id="EventyList" class="wp-block-list hidden _old-need-wpquery events-list mb-[150px]">
       <?php
       $args = array(
         'post_type' => 'realizacje',
