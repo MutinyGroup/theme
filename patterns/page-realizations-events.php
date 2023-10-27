@@ -61,14 +61,14 @@
         <!-- wp:group -->
         <div class="wp-block-group event-tile group mb-[50px] min-h-[400px]">
           <!-- wp:group -->
-          <div class="wp-block-groupclass=" wp-block-group tile-container h-full desktop:flex gap-[75px]" data-aos="fade-right" data-aos-duration="600" data-aos-offset="130">
+          <div class="wp-block-group tile-container h-full desktop:flex gap-[75px]">
             <!-- wp:group -->
             <div class="wp-block-group event-image-wrapper desktop:mb-0 mb-[20px] h-[200px] desktop:h-[400px] overflow-hidden w-full rounded-[20px]">
-              <!-- wp:image -->
-              <figure class="wp-block-image event-image h-full desktop:grayscale scale-[1] group-hover:scale-[1.04] desktop:group-hover:grayscale-0 transition ease-out duration-[500ms]">
-                <img src="<?php echo $postImageUrl[0]; ?>" alt="realization-post-img" />
-              </figure>
-              <!-- /wp:image -->
+              <!-- wp:group -->
+              <div class="wp-block-group event-image h-full desktop:grayscale scale-[1] group-hover:scale-[1.04] desktop:group-hover:grayscale-0 transition ease-out duration-[500ms]">
+                <!-- wp:post-featured-image {"isLink":true} /-->
+              </div>
+              <!-- /wp:group -->
             </div>
             <!-- /wp:group -->
 
