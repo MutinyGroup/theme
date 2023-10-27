@@ -95,7 +95,7 @@
 
 
           <!-- wp:group -->
-          <div id="blog" class="wp-block-group swiper swiperBlog swiper-overscroll above-wp-query">
+          <div id="blog2" class="wp-block-group swiper swiperBlog swiper-overscroll above-wp-query">
             <!-- wp:query {"query":{"perPage":4,"pages":0,"offset":0,"postType":"post"},"isLink":true} -->
 
             <!-- wp:group -->
