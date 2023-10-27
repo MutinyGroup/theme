@@ -81,9 +81,8 @@
               <!-- /wp:image -->
 
               <!-- wp:group -->
-              <div class="categories-from-wp-post-terms test">
-                <!-- wp:post-terms {"term":"category"} /-->
-
+              <div class="categories-from-wp-post-terms">
+                <!-- wp:post-terms {"term":"category","className":"from-wp-tag"} /-->
               </div>
               <!-- /wp:group -->
 
