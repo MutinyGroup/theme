@@ -471,3 +471,11 @@ figure[class*="logo-img"] img {
   column-gap: 80px;
   row-gap: 200px;
 }
+.gallery-tile{
+  clip-path: url('#clipped-realizations-1');
+  /* clip-path: path('#clipped-realizations-1'); */
+}
+.gallery-tile-img{
+  clip-path: url('#clipped-realizations-1');
+  /* clip-path: path('#clipped-realizations-1'); */
+}
