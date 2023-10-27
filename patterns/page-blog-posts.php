@@ -13,7 +13,7 @@
   <!-- wp:group -->
   <div id="blogContainer" class="wp-block-group container max-h-[1540px] desktop:max-h-[1680px] mx-auto relative mb-[80px] desktop:mb-[100px] px-[20px] desktop:px-0 overflow-y-hidden transition-height ease-in-out duration-[800ms]">
     <!-- wp:group -->
-    <div class="wp-block-group new gallery-cols relative flex justify-between desktop:pb-[150px] pb-[80px]">
+    <div class="wp-block-group new gallery-cols relative _flex justify-between desktop:pb-[150px] pb-[80px]">
       <!-- wp:paragraph -->
       <p>
         <svg class="bg-shape z-[0] absolute top-[0px] right-[0px]" xmlns="http://www.w3.org/2000/svg" width="470" height="396" viewBox="0 0 470 396" fill="none">
