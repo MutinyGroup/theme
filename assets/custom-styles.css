@@ -471,20 +471,7 @@ figure[class*="logo-img"] img {
   column-gap: 80px;
   row-gap: 200px;
 }
-@media only screen and (max-width: 480px) {
-  .above-post-template-blog > ul{
-    row-gap: 50px;
-  };
-  .above-post-template-blog > ul > li:nth-child(odd){
-    width: 100%
-  };
-  .above-post-template-blog > ul > li:nth-child(even){
-    width: 100%
-  };
-  .above-post-template-blog > ul > li:nth-child(even){
-    transform: translateY(0px);
-  }
-}
+
 
 .above-post-template-services > ul > li:nth-child(even){
   transform: translateY(50px);
@@ -503,4 +490,18 @@ figure[class*="logo-img"] img {
 }
 .above-post-template-blog > ul > li:nth-child(even){
   width: 444px;
+}
+@media only screen and (max-width: 480px) {
+  .above-post-template-blog > ul{
+    row-gap: 50px;
+  };
+  .above-post-template-blog > ul > li:nth-child(odd){
+    width: 100%
+  };
+  .above-post-template-blog > ul > li:nth-child(even){
+    width: 100%
+  };
+  .above-post-template-blog > ul > li:nth-child(even){
+    transform: translateY(0px);
+  }
 }
