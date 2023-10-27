@@ -434,7 +434,7 @@ figure[class*="logo-img"] img {
   height: 500px!important;
 }
 
-.above-post-template > ul{
+.above-post-template-services > ul{
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   row-gap: 25px;
@@ -479,6 +479,6 @@ figure[class*="logo-img"] img {
   clip-path: url('#clipped-realizations-1');
   /* clip-path: path('#clipped-realizations-1'); */
 }
-.above-post-template-services > ul > li:nth-child(2){
+.above-post-template-services > ul > li:nth-child(even){
   margin-top: 50px;
 }
