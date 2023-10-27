@@ -55,7 +55,7 @@
     <div class="wp-block-group above-wp-query">
       <!-- wp:query {"query":{"perPage":100,"pages":0,"offset":0,"postType":"realizacje"},"isLink":true} -->
       <!-- wp:group -->
-      <div class="wp-block-group above-post-template-realizacje ul-wrapper-realizacje mx-auto w-[100%] wide:max-w-[1100px]">
+      <div class="wp-block-group above-post-template-realizacje ul-wrapper-realizacje mx-auto w-[100%]">
         <!-- wp:post-template -->
 
         <!-- wp:group -->
