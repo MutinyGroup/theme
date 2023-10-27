@@ -81,7 +81,7 @@
               <!-- /wp:image -->
 
               <!-- wp:group -->
-              <div class="categories-from-wp-post-terms">
+              <div class="categories-from-wp-post-terms test">
                 <!-- wp:post-terms /-->
 
               </div>
