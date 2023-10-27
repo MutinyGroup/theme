@@ -432,5 +432,6 @@ figure[class*="logo-img"] img {
 .above-post-template > ul{
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
+  row-gap: 25px;
 }
 
