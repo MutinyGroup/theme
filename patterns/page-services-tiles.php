@@ -88,7 +88,7 @@
     <div class="wp-block-group above-wp-query">
       <!-- wp:query {"query":{"perPage":6,"pages":0,"offset":0,"postType":"uslugi"},"isLink":true} -->
       <!-- wp:group -->
-      <div class="wp-block-group above-post-template ul-wrapper mx-auto w-[100%] wide:max-w-[1100px]">
+      <div class="wp-block-group above-post-template-services ul-wrapper mx-auto w-[100%] wide:max-w-[1100px]">
         <!-- wp:post-template -->
 
         <!-- wp:group -->
