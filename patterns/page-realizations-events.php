@@ -91,7 +91,7 @@
               <ul class="wp-block-list categories-under-logo my-[20px] flex flex-wrap gap-[10px]">
                 <?php
                 $categoriesArray = get_the_category();
-                print_r(get_the_category());
+                // print_r(get_the_category());
                 foreach ($categoriesArray as $category) {
                   $category_link = get_category_link($category->term_id);
                 ?>
