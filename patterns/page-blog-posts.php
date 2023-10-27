@@ -35,8 +35,6 @@
         <div class="wp-block-group above-post-template-realizacje ul-wrapper-realizacje mx-auto w-[100%]">
           <!-- wp:post-template -->
 
-
-
           <!-- wp:group -->
           <div class="wp-block-group bigger relative group swiper-slide  w-full slideBlog opacity-0 desktop:w-[535px] wide:w-[580px] h-fit desktop:h-[545px] wide:h-[650px] transition duration-[800ms] ease-in <?php echo (!($counter % 2)) ? 'desktop:mt-[120px]' : ''; ?>">
             <!-- wp:group -->
@@ -79,7 +77,6 @@
             <!-- /wp:group -->
           </div>
           <!-- /wp:group -->
-
 
           <!-- /wp:post-template -->
         </div>
