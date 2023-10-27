@@ -471,12 +471,6 @@ figure[class*="logo-img"] img {
   column-gap: 80px;
   row-gap: 200px;
 }
-/* .gallery-tile{
-  clip-path: url('#clipped-realizations-1');
-}
-.gallery-tile-img{
-  clip-path: url('#clipped-realizations-1');
-} */
 .above-post-template-services > ul > li:nth-child(even){
   transform: translateY(50px);
 }
@@ -485,4 +479,7 @@ figure[class*="logo-img"] img {
 }
 .above-post-template-services > ul > li:last-child{
   clip-path: url('#clipped-realizations-2');
+}
+.above-post-template-blog > ul > li:nth-child(even){
+  transform: translateY(130px);
 }
