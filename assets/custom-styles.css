@@ -434,4 +434,20 @@ figure[class*="logo-img"] img {
   grid-template-columns: repeat(2, minmax(0, 1fr));
   row-gap: 25px;
 }
+.cats-wrapper-realizacje > div > a{
+  /* w-fit p-[0px_8px] flex justify-center items-center bg-[#F2F2F2] leading-[20px] border-[#D5D5D5] border-[2px] rounded-full uppercase text-[13px] font-semibold text-center */
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  border-radius: 9999px; 
+  width: fit-content; 
+  font-weight: 600; 
+  text-align: center; 
+  text-transform: uppercase; 
+  padding: 0px_8px;
+  background: #F2F2F2;
+  border-color: #D5D5D5;
+  border-color: 2px;
+  color: 13px;
+}
 

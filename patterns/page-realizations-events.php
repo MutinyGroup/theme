@@ -81,7 +81,7 @@
               <!-- /wp:image -->
 
               <!-- wp:group -->
-              <div class="categories-from-wp-post-terms">
+              <div class="cats-wrapper-realizacje">
                 <!-- wp:post-terms {"term":"category","className":"from-wp-tag"} /-->
               </div>
               <!-- /wp:group -->
