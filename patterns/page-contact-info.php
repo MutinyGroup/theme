@@ -42,7 +42,7 @@
           <!-- wp:group -->
           <div class="wp-block-group h-fit overflow-hidden">
             <!-- wp:paragraph -->
-            <p data-aos="fade-up" data-aos-duration="600" data-aos-offset="130" class="section-title pt-[3px] desktop:basis-auto desktop:w-[145px] uppercase text-primaryYellow text-left desktop:text-right">Marketing robimy kompleksowo</p>
+            <span data-aos="fade-up" data-aos-duration="600" data-aos-offset="130" class="section-title pt-[3px] desktop:basis-auto desktop:w-[145px] uppercase text-primaryYellow text-left desktop:text-right">Marketing robimy kompleksowo</span>
             <!-- /wp:paragraph -->
           </div>
           <!-- /wp:group -->
@@ -54,7 +54,7 @@
           <!-- wp:group -->
           <div class="wp-block-group overflow-hidden">
             <!-- wp:paragraph -->
-            <p data-aos="fade-up" data-aos-duration="600" data-aos-offset="130" class="company-title overflow-hidden"><span class="block uppercase">POROZMAWIAJMY O</span></p>
+            <span data-aos="fade-up" data-aos-duration="600" data-aos-offset="130" class="company-title overflow-hidden"><span class="block uppercase">POROZMAWIAJMY O</span></span>
             <!-- /wp:paragraph -->
           </div>
           <!-- /wp:group -->
@@ -62,7 +62,7 @@
           <!-- wp:group -->
           <div class="wp-block-group overflow-hidden">
             <!-- wp:paragraph -->
-            <p data-aos="fade-up" data-aos-duration="600" data-aos-offset="85" class="uppercase test01 inline-block ">TWOIM<span class="relative ml-[12px] inline-block uppercase italic before:content-[''] before:inline-block desktop:before:mr-[18px] before:mr-[8px] before:bottom-0 before:left-0 desktop:before:w-[90px] before:w-[30px] desktop:before:h-[3px] before:h-[2px] before:bg-black">BIZNESIE</span></p>
+            <span data-aos="fade-up" data-aos-duration="600" data-aos-offset="85" class="uppercase test01 inline-block ">TWOIM<span class="relative ml-[12px] inline-block uppercase italic before:content-[''] before:inline-block desktop:before:mr-[18px] before:mr-[8px] before:bottom-0 before:left-0 desktop:before:w-[90px] before:w-[30px] desktop:before:h-[3px] before:h-[2px] before:bg-black">BIZNESIE</span></span>
             <!-- /wp:paragraph -->
           </div>
           <!-- /wp:group -->
@@ -89,7 +89,7 @@
       </p>
       <!-- /wp:paragraph -->
       <!-- wp:paragraph -->
-      <p data-aos="fade-right" data-aos-duration="600" data-aos-offset="30" class="text text-[20px] leading-[30px] max-w-[625px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      <span data-aos="fade-right" data-aos-duration="600" data-aos-offset="30" class="text text-[20px] leading-[30px] max-w-[625px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</span>
       <!-- /wp:paragraph -->
     </div>
     <!-- /wp:group -->
@@ -133,10 +133,10 @@
         <!-- wp:group -->
         <div class="wp-block-group mb-[30px] name-wrapper leading-[28px]">
           <!-- wp:paragraph -->
-          <p data-aos="fade-right" data-aos-duration="600" data-aos-offset="30" class="desktop:text-[35px] text-[24px] font-medium">Karol Anusiewicz</p>
+          <span data-aos="fade-right" data-aos-duration="600" data-aos-offset="30" class="desktop:text-[35px] text-[24px] font-medium">Karol Anusiewicz</span>
           <!-- /wp:paragraph -->
           <!-- wp:paragraph -->
-          <p data-aos="fade-right" data-aos-duration="600" data-aos-offset="30" class="desktop:text-[20px] text-[15px] font-light">Co-founder & Project Manager</p>
+          <span data-aos="fade-right" data-aos-duration="600" data-aos-offset="30" class="desktop:text-[20px] text-[15px] font-light">Co-founder & Project Manager</span>
           <!-- /wp:paragraph -->
         </div>
         <!-- /wp:group -->
@@ -144,10 +144,10 @@
         <!-- wp:group -->
         <div class="wp-block-group mail-phone-wrapper flex flex-col gap-y-[14px] desktop:leading-[38px] leading-[24px]">
           <!-- wp:paragraph -->
-          <p data-aos="fade-right" data-aos-duration="600" data-aos-offset="30" class="w-fit desktop:text-[25px] text-[26px] leading-[24px] inline font-medium border-b-[1px] border-black hover:border-primaryYellow hover:text-primaryYellow transition ease-out duration-300 cursor-pointer">kontakt@mutiny.pl</p>
+          <span data-aos="fade-right" data-aos-duration="600" data-aos-offset="30" class="w-fit desktop:text-[25px] text-[26px] leading-[24px] inline font-medium border-b-[1px] border-black hover:border-primaryYellow hover:text-primaryYellow transition ease-out duration-300 cursor-pointer">kontakt@mutiny.pl</span>
           <!-- /wp:paragraph -->
           <!-- wp:paragraph -->
-          <p data-aos="fade-right" data-aos-duration="600" data-aos-offset="30" class="w-fit desktop:text-[20px] text-[26px] leading-[24px] inline font-medium border-b-[1px] border-black hover:border-primaryYellow hover:text-primaryYellow transition ease-out duration-300 cursor-pointer">+48 795 123 584</p>
+          <span data-aos="fade-right" data-aos-duration="600" data-aos-offset="30" class="w-fit desktop:text-[20px] text-[26px] leading-[24px] inline font-medium border-b-[1px] border-black hover:border-primaryYellow hover:text-primaryYellow transition ease-out duration-300 cursor-pointer">+48 795 123 584</span>
           <!-- /wp:paragraph -->
         </div>
         <!-- /wp:group -->
