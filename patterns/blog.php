@@ -91,6 +91,9 @@
         <!-- wp:group -->
         <div id="blog" class="wp-block-group swiper swiperBlog w-screen desktop:w-[calc(100%-90px)] desktop:pt-[180px] absolute top-0 desktop:top-[30px] desktop:left-[90px] pl-[20px] desktop:pl-0">
 
+
+
+
           <!-- wp:group -->
           <div class="wp-block-group above-wp-query">
             <!-- wp:query {"query":{"perPage":4,"pages":0,"offset":0,"postType":"post"},"isLink":true} -->
@@ -151,9 +154,14 @@
               <!-- /wp:post-template -->
             </div>
             <!-- /wp:group -->
+
+
+            <!-- /wp:query -->
           </div>
           <!-- /wp:group -->
-          <!-- /wp:query -->
+
+
+
 
 
           <!-- wp:list -->
