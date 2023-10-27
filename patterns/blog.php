@@ -151,6 +151,7 @@
             </div>
             <!-- /wp:group -->
 
+            <!-- /wp:query -->
             <!-- wp:group -->
             <div class="wp-block-group swiper-nav-container desktop:block hidden absolute desktop:top-[30px] top-[35px] desktop:right-[150px]">
               <!-- wp:group -->
@@ -185,9 +186,6 @@
               <!-- /wp:group -->
             </div>
             <!-- /wp:group -->
-
-
-            <!-- /wp:query -->
           </div>
           <!-- /wp:group -->
 
