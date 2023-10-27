@@ -439,11 +439,17 @@ figure[class*="logo-img"] img {
   grid-template-columns: repeat(2, minmax(0, 1fr));
   row-gap: 25px;
 }
+.above-post-template-services > ul > li:nth-child(even){
+  transform: translateY(50px);
+}
 @media only screen and (max-width: 480px) {
   .above-post-template-services > ul{
     display: grid;
     grid-template-columns: repeat(1, minmax(0, 1fr));
     row-gap: 25px;
+  }
+  .above-post-template-services > ul > li:nth-child(even){
+    transform: translateY(0px);
   }
 }
 .cats-list-container{
@@ -477,11 +483,6 @@ figure[class*="logo-img"] img {
   justify-content: space-between;
   column-gap: 80px;
   row-gap: 200px;
-}
-
-
-.above-post-template-services > ul > li:nth-child(even){
-  transform: translateY(50px);
 }
 .above-post-template-services > ul > li:first-child{
   clip-path: url('#clipped-realizations-1');
