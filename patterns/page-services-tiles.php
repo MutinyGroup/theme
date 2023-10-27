@@ -92,7 +92,7 @@
         <!-- wp:post-template -->
 
         <!-- wp:group -->
-        <div class="wp-block-group swiper-slide servicesTile relative group desktop:w-[510px] w-[100%] desktop:h-[600px] h-[320px] transition duration-[800ms] ease-in <?php echo (($counter % 2)) ? "" : 'desktop:translate-y-[50px]'; ?>">
+        <div class="wp-block-group swiper-slide servicesTile relative group desktop:w-[530px] w-[100%] desktop:h-[600px] h-[320px] transition duration-[800ms] ease-in">
           <!-- wp:group -->
           <div class="wp-block-group h-full w-full">
             <!-- wp:group -->
