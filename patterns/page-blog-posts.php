@@ -38,7 +38,7 @@
           <!-- wp:group -->
           <div class="wp-block-group bigger relative group swiper-slide  w-full slideBlog opacity-0 desktop:w-[460px] wide:w-[500px] h-fit desktop:h-[545px] wide:h-[650px] transition duration-[800ms] ease-in">
             <!-- wp:group -->
-            <div class="wp-block-group">
+            <div class="wp-block-group h-full">
               <!-- wp:group -->
               <div class="wp-block-group h-[330px] desktop:h-full mb-[20px]">
                 <!-- wp:group -->

@@ -466,4 +466,9 @@ figure[class*="logo-img"] img {
   column-gap: 80px;
   row-gap: 200px;
 }
-
+.bigger .post-img > figure{
+  height: 100%;
+}
+.bigger .post-img > figure > a > img{
+  height: 100%;
+}
