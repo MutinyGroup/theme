@@ -36,7 +36,7 @@
           <!-- wp:post-template -->
 
           <!-- wp:group -->
-          <div class="wp-block-group bigger relative group swiper-slide  w-full slideBlog opacity-0 desktop:w-[460px] wide:w-[500px] h-fit desktop:h-[545px] wide:h-[650px] transition duration-[800ms] ease-in">
+          <div class="wp-block-group bigger relative group swiper-slide  w-full slideBlog opacity-0 desktop:w-full wide:w-[500px] h-fit desktop:h-[545px] wide:h-[650px] transition duration-[800ms] ease-in">
             <!-- wp:group -->
             <div class="wp-block-group h-full">
               <!-- wp:group -->
