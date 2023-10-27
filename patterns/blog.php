@@ -103,53 +103,49 @@
               <!-- wp:post-template -->
 
               <!-- wp:group -->
-              <div class="wp-block-group">
+              <div class="wp-block-group swiper-slide group desktop:w-[535px] w-[300px] h-[500px] desktop:h-[740px]">
                 <!-- wp:group -->
-                <div class="wp-block-group swiper-slide group desktop:w-[535px] w-[300px] h-[500px] desktop:h-[740px]">
+                <div class="wp-block-group h-full w-full">
                   <!-- wp:group -->
-                  <div class="wp-block-group h-full w-full">
+                  <div class="wp-block-group">
                     <!-- wp:group -->
-                    <div class="wp-block-group">
+                    <div class="wp-block-group mb-[20px]">
                       <!-- wp:group -->
-                      <div class="wp-block-group mb-[20px]">
+                      <div class="wp-block-group h-[360px] desktop:h-[560px] overflow-hidden rounded-[20px]">
                         <!-- wp:group -->
-                        <div class="wp-block-group h-[360px] desktop:h-[560px] overflow-hidden rounded-[20px]">
-                          <!-- wp:group -->
-                          <div class="wp-block-group clip-path-url-['#clipped-blog'] blog-first-img-hover h-full">
-                            <!-- wp:post-featured-image {"isLink":true} /-->
-                          </div>
-                          <!-- /wp:group -->
-                          <!-- wp:paragraph -->
-                          <p>
-                            <svg x="0px" y="0px" viewBox="0 0 1374.7 1083.6" class="absolute top-0">
-                              <defs>
-                                <clipPath id="clipped-blog" class="scale-[0.00179] desktop:scale-[0.00179] wide:scale-y-[0.00181]" clipPathUnits="objectBoundingBox">
-                                  <path d="M100 0H515C526.046 0 535 8.9543 535 20V480C535 491.046 526.046 500 515 500H346.951C338.934 500 331.25 503.209 325.615 508.91L293.807 541.09C288.172 546.791 280.488 550 272.471 550H20.0002C8.95446 550 0.000170086 541.046 0.000166614 530L6.28732e-06 20C2.81493e-06 8.95432 8.95431 0 20 0L100 0Z" />
-                                </clipPath>
-                              </defs>
-                            </svg>
-                          </p>
-                          <!-- /wp:paragraph -->
+                        <div class="wp-block-group clip-path-url-['#clipped-blog'] blog-first-img-hover h-full">
+                          <!-- wp:post-featured-image {"isLink":true} /-->
                         </div>
                         <!-- /wp:group -->
+                        <!-- wp:paragraph -->
+                        <p>
+                          <svg x="0px" y="0px" viewBox="0 0 1374.7 1083.6" class="absolute top-0">
+                            <defs>
+                              <clipPath id="clipped-blog" class="scale-[0.00179] desktop:scale-[0.00179] wide:scale-y-[0.00181]" clipPathUnits="objectBoundingBox">
+                                <path d="M100 0H515C526.046 0 535 8.9543 535 20V480C535 491.046 526.046 500 515 500H346.951C338.934 500 331.25 503.209 325.615 508.91L293.807 541.09C288.172 546.791 280.488 550 272.471 550H20.0002C8.95446 550 0.000170086 541.046 0.000166614 530L6.28732e-06 20C2.81493e-06 8.95432 8.95431 0 20 0L100 0Z" />
+                              </clipPath>
+                            </defs>
+                          </svg>
+                        </p>
+                        <!-- /wp:paragraph -->
                       </div>
                       <!-- /wp:group -->
-
-                      <!-- wp:paragraph -->
-                      <p class="slide-date font-light flex items-center before:content-[''] before:w-[20px] before:h-[1px] before:bg-primaryYellow before:inline-block before:mr-[10px] mb-[20px]"><?php the_time('d / m / Y'); ?></p>
-                      <!-- /wp:paragraph -->
-
-                      <!-- wp:paragraph -->
-                      <p class="subtitle inline text-[23px] font-medium leading-[30px] border-b-[1px] border-transparent group-hover:border-primaryYellow group-hover:text-primaryYellow transition ease-out duration-[800ms]"><!-- wp:post-title {"isLink":true} /--></p>
-                      <!-- /wp:paragraph -->
                     </div>
                     <!-- /wp:group -->
+
+                    <!-- wp:paragraph -->
+                    <p class="slide-date font-light flex items-center before:content-[''] before:w-[20px] before:h-[1px] before:bg-primaryYellow before:inline-block before:mr-[10px] mb-[20px]"><?php the_time('d / m / Y'); ?></p>
+                    <!-- /wp:paragraph -->
+
+                    <!-- wp:paragraph -->
+                    <p class="subtitle inline text-[23px] font-medium leading-[30px] border-b-[1px] border-transparent group-hover:border-primaryYellow group-hover:text-primaryYellow transition ease-out duration-[800ms]"><!-- wp:post-title {"isLink":true} /--></p>
+                    <!-- /wp:paragraph -->
                   </div>
                   <!-- /wp:group -->
                 </div>
                 <!-- /wp:group -->
               </div>
-              <!-- /wp:group-->
+              <!-- /wp:group -->
 
               <!-- /wp:post-template -->
             </div>
