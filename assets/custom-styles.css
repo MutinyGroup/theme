@@ -495,10 +495,7 @@ figure[class*="logo-img"] img {
   .above-post-template-blog > ul{
     row-gap: 50px;
   };
-  .above-post-template-blog > ul > li:nth-child(odd){
-    width: 100%
-  };
-  .above-post-template-blog > ul > li:nth-child(even){
+  .above-post-template-blog > ul > li{
     width: 100%
   };
   .above-post-template-blog > ul > li:nth-child(even){
