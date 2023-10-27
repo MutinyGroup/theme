@@ -345,5 +345,7 @@
     <!-- /wp:group -->
   </div>
   <!-- /wp:group -->
+
+  <script src="'//cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js'"></script>
 </div>
 <!-- /wp:group -->
