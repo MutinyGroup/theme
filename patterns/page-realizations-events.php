@@ -53,7 +53,7 @@
 
     <!-- wp:group -->
     <div class="wp-block-group above-wp-query">
-      <!-- wp:query {"query":{"perPage":0,"pages":0,"offset":0,"postType":"realizacje"},"isLink":true} -->
+      <!-- wp:query {"query":{"perPage":-1,"pages":0,"offset":0,"postType":"realizacje"},"isLink":true} -->
       <!-- wp:group -->
       <div class="wp-block-group above-post-template ul-wrapper mx-auto w-[100%] wide:max-w-[1100px]">
         <!-- wp:post-template -->
