@@ -434,6 +434,15 @@ figure[class*="logo-img"] img {
   grid-template-columns: repeat(2, minmax(0, 1fr));
   row-gap: 25px;
 }
+.cats-list-container{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  gap: 10px;
+}
+.cats-list-container > .wp-block-post-terms__separator{
+  display: none;
+}
 .cats-wrapper-realizacje > div > a{
   display: flex; 
   justify-content: center; 
