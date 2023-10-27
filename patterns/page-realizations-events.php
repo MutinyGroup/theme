@@ -104,7 +104,7 @@
               <!-- /wp:list -->
 
               <!-- wp:group -->
-              <div class="text-[28px] desktop:text-[35px] font-semibold leading-[32px] desktop:leading-[38px]"><!-- wp:post-title {"isLink":true} /--></div>
+              <div class="wp-block-group text-[28px] desktop:text-[35px] font-semibold leading-[32px] desktop:leading-[38px]"><!-- wp:post-title {"isLink":true} /--></div>
               <!-- /wp:group -->
 
               <!-- wp:buttons -->
