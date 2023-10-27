@@ -137,9 +137,9 @@
                     <p class="slide-date font-light flex items-center before:content-[''] before:w-[20px] before:h-[1px] before:bg-primaryYellow before:inline-block before:mr-[10px] mb-[20px]"><?php the_time('d / m / Y'); ?></p>
                     <!-- /wp:paragraph -->
 
-                    <!-- wp:paragraph -->
-                    <p class="subtitle inline text-[23px] font-medium leading-[30px] border-b-[1px] border-transparent group-hover:border-primaryYellow group-hover:text-primaryYellow transition ease-out duration-[800ms]"><!-- wp:post-title {"isLink":true} /--></p>
-                    <!-- /wp:paragraph -->
+                    <!-- wp:group -->
+                    <div class="wp-block-group subtitle inline text-[23px] font-medium leading-[30px] border-b-[1px] border-transparent group-hover:border-primaryYellow group-hover:text-primaryYellow transition ease-out duration-[800ms]"><!-- wp:post-title {"isLink":true} /--></div>
+                    <!-- /wp:group -->
                   </div>
                   <!-- /wp:group -->
                 </div>
