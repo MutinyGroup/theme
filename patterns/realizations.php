@@ -98,7 +98,7 @@
 
 
     <!-- wp:group -->
-    <div class="wp-block-group gallery-cols wide:max-w-[1260px] mx-auto relative pb-[30px]">
+    <div class="wp-block-group gallery-cols mx-auto mt-[50px] pb-[30px] wide:max-w-[1260px] relative">
       <!-- wp:list -->
       <ul class="wp-block-list w-[100%] desktop:flex flex-wrap justify-center gap-x-[8px] gap-y-[30px]">
         <?php
