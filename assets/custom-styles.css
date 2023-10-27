@@ -467,7 +467,7 @@ figure[class*="logo-img"] img {
 .above-post-template-blog > ul{
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-between;
   column-gap: 80px;
   row-gap: 200px;
 }
