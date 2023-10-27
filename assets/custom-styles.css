@@ -480,6 +480,9 @@ figure[class*="logo-img"] img {
 .above-post-template-services > ul > li:last-child{
   clip-path: url('#clipped-realizations-2');
 }
+.above-post-template-blog > ul > li:nth-child(odd){
+  width: 500px;
+}
 .above-post-template-blog > ul > li:nth-child(even){
-  transform: translateY(130px);
+  width: 450px;
 }
