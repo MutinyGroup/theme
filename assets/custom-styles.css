@@ -458,4 +458,12 @@ figure[class*="logo-img"] img {
   border-width: 2px;
   font-size: 13px;
 }
+/* _flex flex-wrap desktop:justify-center desktop:gap-x-[80px] wide:gap-x-[100px] gap-y-[40px] desktop:gap-y-[200px] */
+.above-post-template-blog > ul{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  column-gap: 80px;
+  row-gap: 200px;
+}
 
