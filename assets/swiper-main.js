@@ -147,7 +147,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
     },
   });
 
-  new Swiper('#blog', {
+  new Swiper('#blog2', {
     direction: "horizontal",
     slidesPerView: 'auto',
     clickable: true,
