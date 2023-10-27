@@ -35,7 +35,51 @@
         <div class="wp-block-group above-post-template-realizacje ul-wrapper-realizacje mx-auto w-[100%]">
           <!-- wp:post-template -->
 
-          <!-- wp:post-title {"isLink":true} /-->
+
+
+          <!-- wp:group -->
+          <div class="wp-block-group bigger relative group swiper-slide  w-full slideBlog opacity-0 desktop:w-[535px] wide:w-[580px] h-fit desktop:h-[545px] wide:h-[650px] transition duration-[800ms] ease-in <?php echo (!($counter % 2)) ? 'desktop:mt-[120px]' : ''; ?>">
+            <!-- wp:group -->
+            <div class="wp-block-group">
+              <!-- wp:group -->
+              <div class="wp-block-group h-[330px] desktop:h-full mb-[20px]">
+                <!-- wp:group -->
+                <div class="wp-block-group h-full overflow-hidden rounded-[20px]">
+                  <!-- wp:group -->
+                  <div class="wp-block-group h-full post-img clip-path-url-['#clipped-blog']">
+                    <!-- wp:post-featured-image {"isLink":true} /-->
+                  </div>
+                  <!-- /wp:group -->
+                </div>
+                <!-- /wp:group -->
+                <!-- wp:paragraph -->
+                <p>
+                  <svg x="0px" y="0px" viewBox="0 0 1374.7 1083.6" class="absolute top-0">
+                    <defs>
+                      <clipPath id="clipped-blog" class="scale-[0.00182] scale-x-[0.00187] desktop:scale-[0.00179] wide:scale-y-[0.00181]" clipPathUnits="objectBoundingBox">
+                        <path d="M100 0H515C526.046 0 535 8.9543 535 20V480C535 491.046 526.046 500 515 500H346.951C338.934 500 331.25 503.209 325.615 508.91L293.807 541.09C288.172 546.791 280.488 550 272.471 550H20.0002C8.95446 550 0.000170086 541.046 0.000166614 530L6.28732e-06 20C2.81493e-06 8.95432 8.95431 0 20 0L100 0Z" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                </p>
+                <!-- /wp:paragraph -->
+              </div>
+              <!-- /wp:group -->
+
+              <!-- wp:paragraph -->
+              <p class="slide-date font-light flex items-center before:content-[''] before:w-[20px] before:h-[1px] before:bg-primaryYellow before:inline-block before:mr-[10px] mb-[20px]"><?php the_time('d / m / Y'); ?></p>
+              <!-- /wp:paragraph -->
+
+              <!-- wp:group -->
+              <div class="wp-block-group subtitle inline text-[23px] font-medium leading-[30px] border-b-[1px] border-transparent group-hover:border-primaryYellow group-hover:text-primaryYellow transition ease-out duration-[800ms]">
+                <!-- wp:post-title {"isLink":true} /-->
+              </div>
+              <!-- /wp:group -->
+            </div>
+            <!-- /wp:group -->
+          </div>
+          <!-- /wp:group -->
+
 
           <!-- /wp:post-template -->
         </div>
