@@ -85,7 +85,7 @@
 
 
     <!-- wp:group -->
-    <div class="wp-block-group blog-container-editor relative min-h-[540px] desktop:min-h-[910px]">
+    <div class="wp-block-group blog-container-editor relative min-h-[540px] desktop:min-h-[910px] mb-[100px]">
       <!-- wp:group -->
       <div class="wp-block-group desktop:mt-[-120px] w-full h-full overflow-hidden">
         <!-- wp:group -->
