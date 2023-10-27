@@ -153,7 +153,7 @@
 
             <!-- /wp:query -->
             <!-- wp:group -->
-            <div class="wp-block-group swiper-nav-container desktop:block hidden absolute desktop:top-[30px] top-[35px] desktop:right-[150px]">
+            <div class="wp-block-group swiper-nav-container desktop:block hidden absolute desktop:top-[-15px] top-[35px] desktop:right-[150px]">
               <!-- wp:group -->
               <div class="wp-block-group swiper-nav-wrapper w-[155px] h-[80px] flex justify-center items-center">
                 <!-- wp:group -->
