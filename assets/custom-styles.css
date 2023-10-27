@@ -482,23 +482,25 @@ figure[class*="logo-img"] img {
 .above-post-template-services > ul > li:last-child{
   clip-path: url('#clipped-realizations-2');
 }
-.above-post-template-blog > ul > li:nth-child(even){
-  transform: translateY(130px);
+.above-post-template-blog > ul{
+  row-gap: 50px;
 }
-.above-post-template-blog > ul > li:nth-child(odd){
-  width: 535px;
+.above-post-template-blog > ul > li{
+  width: 100%
 }
-.above-post-template-blog > ul > li:nth-child(even){
-  width: 444px;
+.above-post-template-blog > ul > li{
+  transform: translateY(0px)!important;
 }
+
 @media only screen and (min-width: 480px) {
-  .above-post-template-blog > ul{
-    row-gap: 50px;
+  .above-post-template-blog > ul > li:nth-child(even){
+    transform: translateY(130px);
   }
-  .above-post-template-blog > ul > li{
-    width: 100%
+  .above-post-template-blog > ul > li:nth-child(odd){
+    width: 535px;
   }
-  .above-post-template-blog > ul > li{
-    transform: translateY(0px)!important;
+  .above-post-template-blog > ul > li:nth-child(even){
+    width: 444px;
   }
+
 }
