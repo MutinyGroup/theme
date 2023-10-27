@@ -82,7 +82,7 @@
 
               <!-- wp:group -->
               <div class="categories-from-wp-post-terms test">
-                <!-- wp:post-terms /-->
+                <!-- wp:post-terms {"term":"category"} /-->
 
               </div>
               <!-- /wp:group -->
