@@ -439,6 +439,13 @@ figure[class*="logo-img"] img {
   grid-template-columns: repeat(2, minmax(0, 1fr));
   row-gap: 25px;
 }
+@media only screen and (max-width: 480px) {
+  .above-post-template-services > ul{
+    display: grid;
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    row-gap: 25px;
+  }
+}
 .cats-list-container{
   margin-top: 20px;
   margin-bottom: 20px;
