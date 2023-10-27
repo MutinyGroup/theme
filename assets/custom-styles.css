@@ -482,3 +482,6 @@ figure[class*="logo-img"] img {
 .above-post-template-services > ul > li:nth-child(even){
   margin-top: 50px;
 }
+.above-post-template-services > ul > li:nth-child(1){
+  clip-path: url('#clipped-realizations-1');
+}
