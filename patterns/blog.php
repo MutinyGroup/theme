@@ -95,11 +95,11 @@
 
 
           <!-- wp:group -->
-          <div class="wp-block-group above-wp-query">
+          <div id="blog" class="wp-block-group swiper swiperBlog swiper-overscroll  above-wp-query">
             <!-- wp:query {"query":{"perPage":4,"pages":0,"offset":0,"postType":"post"},"isLink":true} -->
 
             <!-- wp:group -->
-            <div id="blog" class="wp-block-group swiper swiperBlog swiper-overscroll above-post-template-frontpage-blog ul-wrapper-frontpage-blog mx-auto w-[100%]">
+            <div class=" above-post-template-frontpage-blog ul-wrapper-frontpage-blog mx-auto w-[100%]">
               <!-- wp:post-template {"className":"swiper-wrapper"} -->
 
               <!-- wp:group -->
