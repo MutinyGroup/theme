@@ -103,9 +103,9 @@
               </ul>
               <!-- /wp:list -->
 
-              <!-- wp:paragraph -->
-              <p class="text-[28px] desktop:text-[35px] font-semibold leading-[32px] desktop:leading-[38px]"><!-- wp:post-title {"isLink":true} /--></p>
-              <!-- /wp:paragraph -->
+              <!-- wp:group -->
+              <div class="text-[28px] desktop:text-[35px] font-semibold leading-[32px] desktop:leading-[38px]"><!-- wp:post-title {"isLink":true} /--></div>
+              <!-- /wp:group -->
 
               <!-- wp:buttons -->
               <div class="wp-block-buttons w-[56px] h-[56px] mt-[25px]">
