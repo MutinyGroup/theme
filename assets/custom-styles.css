@@ -478,7 +478,7 @@ figure[class*="logo-img"] img {
   clip-path: url('#clipped-realizations-1');
 } */
 .above-post-template-services > ul > li:nth-child(even){
-  transform: translateX(50px);
+  transform: translateY(50px);
 }
 .above-post-template-services > ul > li:first-child{
   clip-path: url('#clipped-realizations-1');
