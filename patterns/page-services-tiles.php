@@ -100,7 +100,7 @@
               <!-- wp:group -->
               <div class="wp-block-group img-clip-path-wrapper w-full h-full rounded-tr-[20px] rounded-br-[20px] overflow-hidden absolute left-0 top-0 z-[-1]">
                 <!-- wp:group -->
-                <div class="wp-block-image h-full group-hover:grayscale transition ease-in-out duration-[400ms] <?php echo ($counter == 1) ? "clip-path-url-['#clipped-realizations-1']" : (($counter == $post_query->post_count) ? "clip-path-url-['#clipped-realizations-2']" : ''); ?>">
+                <div class="wp-block-group h-full group-hover:grayscale transition ease-in-out duration-[400ms] <?php echo ($counter == 1) ? "clip-path-url-['#clipped-realizations-1']" : (($counter == $post_query->post_count) ? "clip-path-url-['#clipped-realizations-2']" : ''); ?>">
                   <!-- wp:post-featured-image {"isLink":true} /-->
                 </div>
                 <!-- /wp:group -->
