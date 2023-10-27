@@ -502,5 +502,8 @@ figure[class*="logo-img"] img {
   .above-post-template-blog > ul > li:nth-child(even){
     width: 444px;
   }
+  .above-post-template-blog > ul{
+    row-gap: 200px;
+  }
 
 }
