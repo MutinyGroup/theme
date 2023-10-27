@@ -481,8 +481,8 @@ figure[class*="logo-img"] img {
   clip-path: url('#clipped-realizations-2');
 }
 .above-post-template-blog > ul > li:nth-child(odd){
-  width: 500px;
+  width: 535px;
 }
 .above-post-template-blog > ul > li:nth-child(even){
-  width: 450px;
+  width: 444px;
 }
