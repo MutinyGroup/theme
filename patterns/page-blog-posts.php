@@ -88,7 +88,7 @@
 
 
       <!-- wp:list -->
-      <ul class="wp-block-list blog-posts-wrapper flex flex-wrap desktop:justify-center desktop:gap-x-[80px] wide:gap-x-[100px] gap-y-[40px] desktop:gap-y-[200px]">
+      <ul class="wp-block-list hidden blog-posts-wrapper _flex flex-wrap desktop:justify-center desktop:gap-x-[80px] wide:gap-x-[100px] gap-y-[40px] desktop:gap-y-[200px]">
         <?php
         $args = array(
           'post_type' => 'post',
