@@ -494,10 +494,10 @@ figure[class*="logo-img"] img {
 @media only screen and (min-width: 480px) {
   .above-post-template-blog > ul{
     row-gap: 50px;
-  };
+  }
   .above-post-template-blog > ul > li{
     width: 100%
-  };
+  }
   .above-post-template-blog > ul > li{
     transform: translateY(0px)!important;
   }
