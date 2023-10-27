@@ -26,6 +26,26 @@
         <path d="M1 1.96689L938.264 332.267L938.596 332.384L938.929 332.267L1406.89 167.352V413.308L938.596 578.341L234.981 330.381L233.649 329.911V331.324V608.587L1 526.6V1.96689Z" stroke="white" stroke-width="2" />
       </svg>
       <!-- /wp:paragraph -->
+
+      <!-- wp:group -->
+      <div class="wp-block-group above-wp-query">
+        <!-- wp:query {"query":{"perPage":0,"pages":0,"offset":0,"postType":"post"},"isLink":true} -->
+
+        <!-- wp:group -->
+        <div class="wp-block-group above-post-template-realizacje ul-wrapper-realizacje mx-auto w-[100%]">
+          <!-- wp:post-template -->
+
+          <!-- wp:post-title {"isLink":true} /-->
+
+          <!-- /wp:post-template -->
+        </div>
+        <!-- /wp:group -->
+
+        <!-- /wp:query -->
+      </div>
+      <!-- /wp:group -->
+
+
       <!-- wp:list -->
       <ul class="wp-block-list blog-posts-wrapper flex flex-wrap desktop:justify-center desktop:gap-x-[80px] wide:gap-x-[100px] gap-y-[40px] desktop:gap-y-[200px]">
         <?php
