@@ -82,7 +82,7 @@
 
               <!-- wp:group -->
               <div class="wp-block-group cats-wrapper-realizacje">
-                <!-- wp:post-terms {"term":"category","className":"cats-list-container","separator": {"type": "string","default": ""},"attributes":"[data-type='test']"} /-->
+                <!-- wp:post-terms {"term":"category","className":"cats-list-container","separator": {"type": "string","default": ""},"attributes":"[data='test']"} /-->
               </div>
               <!-- /wp:group -->
 
