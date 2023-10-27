@@ -81,7 +81,7 @@
               <!-- /wp:image -->
 
               <!-- wp:group -->
-              <div class="cats-wrapper-realizacje">
+              <div class="wp-block-group cats-wrapper-realizacje">
                 <!-- wp:post-terms {"term":"category","className":"cats-list-container","separator": {"type": "string","default": ""}} /-->
               </div>
               <!-- /wp:group -->
