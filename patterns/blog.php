@@ -161,7 +161,7 @@
 
 
           <!-- wp:list -->
-          <ul class="wp-block-list swiper-wrapper">
+          <ul class="wp-block-list hidden _wptag-need _swiper-wrapper">
             <?php
             $args = array(
               'post_type' => 'post',
