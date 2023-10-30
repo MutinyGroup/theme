@@ -174,7 +174,7 @@
               <!-- wp:group -->
               <div class="wp-block-group text-wrapper slide-title group absolute desktop:bottom-[85px] bottom-[100px] left-[25px] group-hover:translate-y-[-80px] transition ease-out duration-500 z-[3]">
                 <!-- wp:group -->
-                <div class="wp-block-group mr-[20px] text-[25px] font-normal mb-[15px] underline-offset-[7px] group-hover:underline group-hover:decoration-primaryYellow transition ease-out duration-500"><!-- wp:post-title {"isLink":true} /--></div>
+                <div class="wp-block-group mr-[20px] text-[25px] font-normal mb-[15px] underline-offset-[7px] group-hover:border-b-[2px] group-hover:border-b-primaryYellow group-hover:decoration-primaryYellow transition ease-out duration-500"><!-- wp:post-title {"isLink":true} /--></div>
                 <!-- /wp:group -->
               </div>
               <!-- /wp:group -->
