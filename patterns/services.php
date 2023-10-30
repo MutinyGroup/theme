@@ -125,7 +125,7 @@
                 <!-- wp:group -->
                 <div class="wp-block-group img-clip-path-wrapper w-full h-full rounded-[20px] rounded-br-[20px] overflow-hidden absolute left-0 top-0 z-[1] group-hover:grayscale">
                   <!-- wp:group -->
-                  <div class="wp-block-group  gray-overlay w-full h-full bg-[#101010] absolute top-0 left-0 opacity-[70%] z-[1]">
+                  <div class="wp-block-group gray-overlay w-full h-full bg-[#101010] absolute top-0 left-0 opacity-[70%] z-[1]">
                     <!-- wp:paragraph -->
                     <p class="hidden">black overlay</p>
                     <!-- /wp:paragraph -->
@@ -174,7 +174,7 @@
               <!-- wp:group -->
               <div class="wp-block-group text-wrapper slide-title group absolute desktop:bottom-[85px] bottom-[100px] left-[25px] group-hover:translate-y-[-80px] transition ease-out duration-500 z-[3]">
                 <!-- wp:group -->
-                <div class="wp-block-group mr-[20px] text-[25px] font-semibold mb-[15px] underline-offset-[7px] group-hover:underline group-hover:decoration-primaryYellow transition ease-out duration-500"><!-- wp:post-title {"isLink":true} /--></div>
+                <div class="wp-block-group mr-[20px] text-[25px] font-normal mb-[15px] underline-offset-[7px] group-hover:underline group-hover:decoration-primaryYellow transition ease-out duration-500"><!-- wp:post-title {"isLink":true} /--></div>
                 <!-- /wp:group -->
               </div>
               <!-- /wp:group -->
