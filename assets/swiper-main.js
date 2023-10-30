@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
     direction: "horizontal",
     slidesPerView: 'auto',
     slideClass: 'post',
-    spaceBetween: 40,
+    spaceBetween: 10,
     clickable: true,
     grabCursor: true,
     navigation: {
