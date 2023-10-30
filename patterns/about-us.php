@@ -211,7 +211,6 @@
 
         <!-- wp:group -->
         <div class="wp-block-group button-wrapper max-w-[535px] flex justify-center items-center gap-[64px]">
-
           <!-- wp:group -->
           <div class="wp-block-group uppercase btn-text-roll group bg-darkBlack text-white text-[14px] font-bold min-w-[225px] flex justify-center items-center px-[20px] btn-more ml-[0px] p-[15px_30px] border-[2px] rounded-full hover:bg-white hover:text-black">
             <!-- wp:group -->
@@ -224,10 +223,8 @@
           </div>
           <!-- /wp:group -->
 
-
           <!-- wp:paragraph -->
-          <span data-aos="fade-right" data-aos-duration="600" data-aos-offset="130" class="new wp-block gray-border hidden desktop:inline-block w-[285px] h-[2px] bg-[#808080] opacity-[15%]">
-          </span>
+          <span data-aos="fade-right" data-aos-duration="600" data-aos-offset="130" class="new wp-block gray-border hidden desktop:inline-block w-[285px] h-[2px] bg-[#808080] opacity-[15%]"></span>
           <!-- /wp:paragraph -->
         </div>
         <!-- /wp:group -->
