@@ -100,6 +100,7 @@
 
             <!-- wp:group -->
             <div class="wp-block-group above-post-template-frontpage-blog ul-wrapper-frontpage-blog mx-auto w-[100%]">
+              <!-- wp:post-template {"className":"swiper-wrapper"} -->
 
               <!-- wp:group -->
               <div class="wp-block-group swiper-slide group desktop:w-[535px] w-[300px] h-[500px] desktop:h-[740px]">
@@ -146,6 +147,7 @@
               </div>
               <!-- /wp:group -->
 
+              <!-- /wp:post-template -->
             </div>
             <!-- /wp:group -->
 
