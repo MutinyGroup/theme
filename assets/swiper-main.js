@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function(event) {
-  new Swiper('#services', {
+  new Swiper('#uslugi', {
     direction: "horizontal",
     slidesPerView: 'auto',
     slideClass: 'post',
