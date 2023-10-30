@@ -152,7 +152,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
     slidesPerView: 'auto',
     clickable: true,
     grabCursor: true,
-    slideClass: 'swiper-slide',
+    slideClass: 'post',
     navigation: {
       nextEl: '#blog-next',
       prevEl: '#blog-prev',
