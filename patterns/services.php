@@ -258,7 +258,7 @@
 
 
       <!-- wp:group -->
-      <div id="services" class="wp-block-group swiper swiperServices w-screen desktop:w-[calc(100%-90px)] desktop:pt-[180px] absolute top-[400px] desktop:top-[160px] left-[20px] desktop:left-[90px]">
+      <div id="services" class="wp-block-group hidden old _swiper _swiperServices w-screen desktop:w-[calc(100%-90px)] desktop:pt-[180px] absolute top-[400px] desktop:top-[160px] left-[20px] desktop:left-[90px]">
         <!-- wp:list -->
         <ul class="wp-block-list swiper-wrapper desktop:h-[480px] wide:h-[530px] gap-x-[10px]">
           <?php
