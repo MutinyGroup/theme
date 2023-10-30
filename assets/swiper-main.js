@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
   new Swiper('#uslugi', {
     direction: "horizontal",
     slidesPerView: 'auto',
-    slideClass: 'post',
+    slideClass: 'uslugi',
     spaceBetween: 10,
     clickable: true,
     grabCursor: true,
