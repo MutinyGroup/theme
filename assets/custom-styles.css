@@ -487,6 +487,12 @@ figure[class*="logo-img"] img {
 .above-post-template-services > ul > li:last-child{
   clip-path: url('#clipped-realizations-2');
 }
+.above-post-template-frontpage-services > ul > li:first-child{
+  clip-path: url('#clipped-swiper-serv-1');
+}
+.above-post-template-frontpage-services > ul > li:last-child{
+  clip-path: url('#clipped-swiper-serv-2');
+}
 .above-post-template-blog > ul{
   row-gap: 50px;
 }

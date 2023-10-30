@@ -113,7 +113,7 @@
       <div class="wp-block-group swiper-overscroll above-wp-query">
         <!-- wp:query {"query":{"perPage":4,"pages":0,"offset":0,"postType":"services"},"isLink":true} -->
         <!-- wp:group -->
-        <div id="services" class="wp-block-group swiper swiperServices w-screen desktop:w-[calc(100%-90px)] desktop:pt-[180px] absolute top-[400px] desktop:top-[160px] left-[20px] desktop:left-[90px]">
+        <div id="services" class="wp-block-group swiper swiperServices above-post-template-frontpage-services w-screen desktop:w-[calc(100%-90px)] desktop:pt-[180px] absolute top-[400px] desktop:top-[160px] left-[20px] desktop:left-[90px]">
           <!-- wp:post-template {"className":"swiper-wrapper"} -->
 
           <!-- wp:group -->
@@ -195,7 +195,7 @@
 
               <!-- wp:group -->
               <div class="wp-block-group px-[25px] hover-text mt-[370px] wide:mt-[350px] opacity-[0%] group-hover:opacity-[100%] group-hover:mt-[120px] desktop:group-hover:mt-[280px] wide:group-hover:mt-[270px] transition-all ease-out duration-500 text-[15px] font-light z-[2] relative">
-                <!-- wp:post-excerpt { "excerptLength":12} /-->
+                <!-- wp:post-excerpt { "excerptLength":"12"} /-->
               </div>
               <!-- /wp:group -->
             </div>
