@@ -195,7 +195,7 @@
 
               <!-- wp:group -->
               <div class="wp-block-group px-[25px] hover-text mt-[370px] wide:mt-[350px] opacity-[0%] group-hover:opacity-[100%] group-hover:mt-[120px] desktop:group-hover:mt-[280px] wide:group-hover:mt-[270px] transition-all ease-out duration-500 text-[15px] font-light z-[2] relative">
-                <!-- wp:post-excerpt /-->
+                <!-- wp:post-excerpt {"excerptLength": 10} /-->
               </div>
               <!-- /wp:group -->
             </div>
