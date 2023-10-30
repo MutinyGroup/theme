@@ -194,8 +194,8 @@
               <!-- /wp:buttons -->
 
               <!-- wp:group -->
-              <div class="wp-block-group px-[25px] hover-text mt-[370px] wide:mt-[350px] opacity-[0%] group-hover:opacity-[100%] group-hover:mt-[120px] desktop:group-hover:mt-[330px] wide:group-hover:mt-[270px] transition-all ease-out duration-500 text-[15px] font-light z-[2] relative">
-                <!-- wp:post-excerpt { "excerptLength":"12"} /-->
+              <div class="wp-block-group px-[25px] hover-text mt-[370px] wide:mt-[350px] max-h-[45pv] overflow-y-hidden opacity-[0%] group-hover:opacity-[100%] group-hover:mt-[120px] desktop:group-hover:mt-[330px] wide:group-hover:mt-[270px] transition-all ease-out duration-500 text-[15px] font-light z-[2] relative">
+                <!-- wp:post-excerpt {"excerptLength":"12"} /-->
               </div>
               <!-- /wp:group -->
             </div>
