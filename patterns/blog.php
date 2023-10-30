@@ -90,14 +90,9 @@
       <div class="wp-block-group desktop:mt-[-120px] w-full h-full overflow-hidden">
         <!-- wp:group -->
         <div class="wp-block-group w-screen desktop:w-[calc(100%-90px)] desktop:pt-[180px] absolute top-0 desktop:top-[30px] desktop:left-[90px] pl-[20px] desktop:pl-0">
-
-
-
-
           <!-- wp:group -->
-          <div class="wp-block-group  swiper-overscroll above-wp-query">
+          <div class="wp-block-group swiper-overscroll above-wp-query">
             <!-- wp:query {"query":{"perPage":4,"pages":0,"offset":0,"postType":"post"},"isLink":true} -->
-
             <!-- wp:group -->
             <div id="blog2" class="wp-block-group swiper swiperBlog  above-post-template-frontpage-blog ul-wrapper-frontpage-blog mx-auto w-[100%]">
               <!-- wp:post-template {"className":"swiper-wrapper"} -->
