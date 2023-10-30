@@ -2,6 +2,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
   new Swiper('#services', {
     direction: "horizontal",
     slidesPerView: 'auto',
+    slideClass: 'post',
     clickable: true,
     grabCursor: true,
     navigation: {
