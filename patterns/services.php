@@ -117,7 +117,7 @@
           <!-- wp:post-template {"className":"swiper-wrapper"} -->
 
           <!-- wp:group -->
-          <div class="wp-block-group swiper-slide swiper-slide-services group relative z-[2] wide:max-w-[420px] desktop:min-w-[354px] max-w-[310px] h-[380px] desktop:h-[450px] wide:h-[530px] rounded-[20px] text-[18px] flex items-center before:hover:opacity-100 after:hover:opacity-100 wide:before:h-[530px] wide:after:h-[530px] transition ease-out duration-300 before:content-[''] before:opacity-0 before:absolute before:top-0 before:left-0 before:z-[-1] before:w-full before:h-[450px] before:bg-gradient-to-t before:from-black before:via-[rgba(0,0,0,0)] before:bg-center before:bg-cover before:transition before:duration-[300ms] before:ease-out before:grayscale after:content-[''] after:opacity-0 after:absolute after:top-0 after:left-0 after:z-[-1] after:w-[354px] after:h-[450px] after:transition after:duration-[300ms] after:ease-out after:grayscale cursor-default">
+          <div class="wp-block-group swiper-slide swiper-slide-services group relative z-[2] wide:max-w-[420px] desktop:min-w-[354px] max-w-[310px] h-[380px] desktop:h-[450px] wide:h-[530px] rounded-[20px] text-[18px] flex items-center before:hover:opacity-100 after:hover:opacity-100 wide:before:h-[530px] wide:after:h-[530px] transition ease-out duration-300 before:content-[''] before:opacity-0 before:absolute before:top-0 before:left-0 before:z-[2] before:w-full before:h-[450px] before:bg-gradient-to-t before:from-black before:via-[rgba(0,0,0,0)] before:bg-center before:bg-cover before:transition before:duration-[300ms] before:ease-out before:grayscale after:content-[''] after:opacity-0 after:absolute after:top-0 after:left-0 after:z-[-1] after:w-[354px] after:h-[450px] after:transition after:duration-[300ms] after:ease-out after:grayscale cursor-default">
             <!-- wp:group -->
             <div class="wp-block-group block w-full h-full ">
               <!-- wp:group -->
@@ -172,7 +172,7 @@
               <!-- /wp:group -->
 
               <!-- wp:group -->
-              <div class="wp-block-group text-wrapper slide-title group absolute desktop:bottom-[85px] bottom-[100px] left-[25px] group-hover:translate-y-[-80px] transition ease-out duration-500 z-[3]">
+              <div class="wp-block-group text-wrapper slide-title group absolute desktop:bottom-[85px] bottom-[100px] left-[25px] group-hover:translate-y-[-40px] transition ease-out duration-500 z-[3]">
                 <!-- wp:group -->
                 <div class="wp-block-group mr-[20px] text-[25px] font-normal mb-[15px] underline-offset-[7px] group-hover:border-b-[2px] group-hover:border-b-primaryYellow group-hover:decoration-primaryYellow transition ease-out duration-500"><!-- wp:post-title {"isLink":true} /--></div>
                 <!-- /wp:group -->
@@ -194,7 +194,7 @@
               <!-- /wp:buttons -->
 
               <!-- wp:group -->
-              <div class="wp-block-group px-[25px] hover-text mt-[370px] wide:mt-[350px] opacity-[0%] group-hover:opacity-[100%] group-hover:mt-[120px] desktop:group-hover:mt-[280px] wide:group-hover:mt-[270px] transition-all ease-out duration-500 text-[15px] font-light z-[2] relative">
+              <div class="wp-block-group px-[25px] hover-text mt-[370px] wide:mt-[350px] opacity-[0%] group-hover:opacity-[100%] group-hover:mt-[120px] desktop:group-hover:mt-[330px] wide:group-hover:mt-[270px] transition-all ease-out duration-500 text-[15px] font-light z-[2] relative">
                 <!-- wp:post-excerpt { "excerptLength":"12"} /-->
               </div>
               <!-- /wp:group -->
