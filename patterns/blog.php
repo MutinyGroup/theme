@@ -129,7 +129,7 @@
                     <!-- /wp:group -->
 
                     <!-- wp:paragraph -->
-                    <p class="slide-date font-light flex items-center before:content-[''] before:w-[20px] before:h-[1px] before:bg-primaryYellow before:inline-block before:mr-[10px] mb-[20px]"><?php the_time('d / m / Y'); ?></p>
+                    <p class="slide-date font-light flex items-center before:content-[''] before:w-[20px] before:h-[1px] before:bg-primaryYellow before:inline-block before:mr-[10px] mb-[20px]"><!-- wp:post-date /--></p>
                     <!-- /wp:paragraph -->
 
                     <!-- wp:group -->
