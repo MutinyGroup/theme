@@ -87,6 +87,17 @@ document.addEventListener("DOMContentLoaded", function(event) {
     },
   });
 
+  new Swiper('#blog', {
+    direction: "horizontal",
+    slidesPerView: 'auto',
+    clickable: true,
+    grabCursor: true,
+    slideClass: 'swiper-slide',
+    navigation: {
+      nextEl: '#blog-next',
+      prevEl: '#blog-prev',
+    },
+  });
   new Swiper('#blog2', {
     direction: "horizontal",
     slidesPerView: 'auto',
