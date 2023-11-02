@@ -100,13 +100,13 @@
               <!-- wp:group -->
               <div class="wp-block-group gallery-tile-img img-clip-path-wrapper w-full h-full rounded-tr-[20px] rounded-br-[20px] overflow-hidden absolute left-0 top-0 z-[-1]">
                 <!-- wp:group -->
-                <div class="wp-block-group h-full group-hover:grayscale transition ease-in-out duration-[400ms]  tile-services-1">
+                <div class="wp-block-group h-full group-hover:grayscale transition ease-in-out duration-[400ms] pointer-events-none tile-services-1">
                   <!-- wp:post-featured-image {"isLink":true} /-->
                 </div>
                 <!-- /wp:group -->
 
                 <!-- wp:paragraph -->
-                <p>
+                <p class="pointer-events-none">
                   <svg x="0px" y="0px" viewBox="0 0 1374.7 1083.6" class="absolute top-0">
                     <defs>
                       <?php
@@ -124,7 +124,7 @@
                 </p>
                 <!-- /wp:paragraph -->
                 <!-- wp:paragraph -->
-                <p>
+                <p class="pointer-events-none">
                   <svg x="0px" y="0px" viewBox="0 0 1374.7 1083.6" class="absolute top-0">
                     <defs>
                       <?php
@@ -144,7 +144,7 @@
               </div>
               <!-- /wp:group -->
               <!-- wp:group -->
-              <div class="wp-block-group slide-title absolute desktop:bottom-[0px] bottom-[55px] desktop:left-[25px] left-[20px] translate-y-[130px] desktop:translate-y-[-15px] group-hover:translate-y-[-20px] desktop:group-hover:translate-y-[-150px] transition ease-out duration-[400ms]">
+              <div class="wp-block-group slide-title pointer-events-none absolute desktop:bottom-[0px] bottom-[55px] desktop:left-[25px] left-[20px] translate-y-[130px] desktop:translate-y-[-15px] group-hover:translate-y-[-20px] desktop:group-hover:translate-y-[-150px] transition ease-out duration-[400ms]">
                 <!-- wp:group -->
                 <div class="wp-block-group mr-[20px] desktop:text-[35px] text-[26px] font-semibold mb-[15px] underline-offset-[9px] group-hover:underline group-hover:decoration-primaryYellow"><!-- wp:post-title {"isLink":true} /--></div>
                 <!-- /wp:group -->
@@ -232,11 +232,11 @@
             <!-- wp:paragraph -->
             <p class="btn-swiper-more group z-[2] pr-[20px] desktop:pr-0 text-[14px] font-semibold uppercase absolute  desktop:bottom-[75px] bottom-[20px] desktop:left-[25px] left-[20px] transition ease-out duration-300">
 
-              <a href="<?php echo get_permalink(); ?>">Dowiedz się więcej <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" fill="none " class="inline-block ml-[10px]">
+              <span>Dowiedz się więcej <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" fill="none " class="inline-block ml-[10px]">
                   <rect x="1" y="1" width="34" height="34" rx="18" stroke="#AAAAAA" stroke-width="2" fill="transparent" class="transition ease-out duration-300 group-hover:fill-[#FEC400] group-hover:stroke-[#FEC400]" />
                   <path d="M19 22L23 18.0108L19.0217 14" stroke="black" />
                   <path d="M12 18L20 18" stroke="black" />
-                </svg></a>
+                </svg></span>
 
             </p>
             <!-- /wp:paragraph -->
