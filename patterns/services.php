@@ -181,8 +181,8 @@
 
               <!-- wp:buttons -->
               <div class="wp-block-buttons btn-swiper-more  text-[14px] uppercase absolute desktop:bottom-[25px] bottom-[55px] left-[25px] cursor-pointer transition ease-out duration-300 z-[3]">
-                <!-- wp:paragraph -->
-                <p><a href="<?php echo get_permalink(); ?>"> Dowiedz się więcej</a>
+                <!-- wp:paragraph {"isLink":true} -->
+                <p><span> Dowiedz się więcej</span>
                   <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" fill="none " class="inline-block ml-[10px] ">
                     <rect x="1" y="1" width="34" height="34" rx="18" stroke="#D5D5D5" stroke-width="2" fill="transparent" class="transition ease-out duration-300 " />
                     <path d="M19 22L23 18.0108L19.0217 14" stroke="white" />
