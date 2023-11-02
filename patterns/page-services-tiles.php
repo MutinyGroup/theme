@@ -96,11 +96,11 @@
           <!-- wp:group -->
           <div class="wp-block-group h-full w-full">
             <!-- wp:group -->
-            <div class="wp-block-group group relative gallery-tile w-full before:content-[''] before:opacity-100 before:absolute before:top-0 before:left-0 before:z-[0] before:w-full before:h-full before:bg-cover before:transition before:duration-[300ms] before:ease-out tile-services-1 z-[1] group desktop:p-[25px] desktop:h-[600px] h-[320px] overflow-hidden rounded-[20px] transition ease-out duration-300 mr-[8px] mb-[30px]">
+            <div class="wp-block-group group relative gallery-tile pointer-events-none w-full before:content-[''] before:opacity-100 before:absolute before:top-0 before:left-0 before:z-[0] before:w-full before:h-full before:bg-cover before:transition before:duration-[300ms] before:ease-out tile-services-1 z-[1] group desktop:p-[25px] desktop:h-[600px] h-[320px] overflow-hidden rounded-[20px] transition ease-out duration-300 mr-[8px] mb-[30px]">
               <!-- wp:group -->
               <div class="wp-block-group gallery-tile-img img-clip-path-wrapper w-full h-full rounded-tr-[20px] rounded-br-[20px] overflow-hidden absolute left-0 top-0 z-[-1]">
                 <!-- wp:group -->
-                <div class="wp-block-group h-full group-hover:grayscale transition ease-in-out duration-[400ms] pointer-events-none tile-services-1">
+                <div class="wp-block-group h-full group-hover:grayscale transition ease-in-out duration-[400ms] tile-services-1">
                   <!-- wp:post-featured-image {"isLink":true} /-->
                 </div>
                 <!-- /wp:group -->
