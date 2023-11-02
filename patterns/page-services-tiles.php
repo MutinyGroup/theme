@@ -399,9 +399,6 @@
                   </div>
                   <!-- /wp:group -->
 
-                  <!-- wp:paragraph {"isLink":true} -->
-                  <p>test</p>
-                  <!-- /wp:paragraph -->
 
                   <!-- wp:paragraph -->
                   <p class="btn-swiper-more group z-[2] pr-[20px] desktop:pr-0 text-[14px] font-semibold uppercase absolute  desktop:bottom-[75px] bottom-[20px] desktop:left-[25px] left-[20px] transition ease-out duration-300">
@@ -414,6 +411,11 @@
                     </svg>
                   </p>
                   <!-- /wp:paragraph -->
+                  <!-- wp:paragraph {"isLink":true} -->
+                  <p>test</p>
+                  <!-- /wp:paragraph -->
+
+
 
                 </div>
                 <!-- /wp:group -->
