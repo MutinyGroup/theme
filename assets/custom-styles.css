@@ -194,7 +194,11 @@ figure[class*="logo-img"] img {
 .swiper-slide-active .target-num{
   color: #FEC400;
 }
-.services-img:hover > p > svg > rect{
+/* .btn-swiper-more:hover > p > svg > rect{
+  fill: #FEC400;
+  stroke: #FEC400;
+} */
+ .swiper-slide-services:hover .btn-swiper-more > p > svg > rect{
   fill: #FEC400;
   stroke: #FEC400;
 }
