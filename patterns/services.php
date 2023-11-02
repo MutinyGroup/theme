@@ -117,7 +117,7 @@
           <!-- wp:post-template {"className":"swiper-wrapper"} -->
 
           <!-- wp:group -->
-          <div class="wp-block-group swiper-slide swiper-slide-services group relative z-[2] wide:max-w-[420px] desktop:min-w-[354px] w-[310px] h-[380px] desktop:h-[450px] wide:h-[530px] rounded-[20px] text-[18px] flex items-center before:hover:opacity-100 after:hover:opacity-100 wide:before:h-[530px] wide:after:h-[530px] transition ease-out duration-300 before:content-[''] before:opacity-0 before:absolute before:top-0 before:left-0 before:z-[2] before:w-full before:h-[450px] before:bg-gradient-to-t before:from-black before:via-[rgba(0,0,0,0)] before:bg-center before:bg-cover before:transition before:duration-[300ms] before:ease-out before:grayscale after:content-[''] after:opacity-0 after:absolute after:top-0 after:left-0 after:z-[-1] after:w-[354px] after:h-[450px] after:transition after:duration-[300ms] after:ease-out after:grayscale cursor-default">
+          <div class="wp-block-group swiper-slide swiper-slide-services group relative z-[2] wide:max-w-[420px] desktop:min-w-[354px] w-[310px] h-[380px] desktop:h-[450px] wide:h-[530px] rounded-[20px] text-[18px] flex items-center before:hover:opacity-100 after:hover:opacity-100 wide:before:h-[530px] wide:after:h-[530px] transition ease-out duration-300 before:content-[''] before:pointer-events-none before:opacity-0 before:absolute before:top-0 before:left-0 before:z-[2] before:w-full before:h-[450px] before:bg-gradient-to-t before:from-black before:via-[rgba(0,0,0,0)] before:bg-center before:bg-cover before:transition before:duration-[300ms] before:ease-out before:grayscale after:content-[''] after:opacity-0 after:absolute after:top-0 after:left-0 after:z-[-1] after:w-[354px] after:h-[450px] after:transition after:duration-[300ms] after:ease-out after:grayscale cursor-default">
             <!-- wp:group -->
             <div class="wp-block-group block w-full h-full ">
               <!-- wp:group -->
@@ -145,7 +145,7 @@
                 <!-- /wp:group -->
 
                 <!-- wp:paragraph -->
-                <p>
+                <p class="pointer-events-none">
                   <svg width="0" height="0">
                     <defs>
 
@@ -157,7 +157,7 @@
                 </p>
                 <!-- /wp:paragraph -->
                 <!-- wp:paragraph -->
-                <p>
+                <p class="pointer-events-none">
                   <svg width="0" height="0">
                     <defs>
                       <clipPath id="clipped-swiper-serv-2" class="scale-[0.84] desktop:scale-[1] wide:scale-[1.2]">
