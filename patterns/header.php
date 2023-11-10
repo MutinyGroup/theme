@@ -15,10 +15,10 @@ print_r(home_url());
 echo 'get home url: </br>';
 print_r(get_home_url());
 echo ' </br>';
-echo 'eng: </br>';
-echo substr_replace($url, 'eng2', 0);
-echo 'se: </br>';
-echo substr_replace($url, 'se', 0);
+echo 'test eng: </br>';
+echo rtrim($url, 'eng2', 0);
+echo 'test se: </br>';
+echo rtrim($url, 'se', 0);
 ?>
 
 <!-- wp:list {"templateLock":"contentOnly","anchor":true} -->
