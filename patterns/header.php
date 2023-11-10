@@ -11,14 +11,8 @@ $url = home_url();
 // $urlCheck = strpos($tempUrl, 'eng2');
 // $urlTest = strpos($tempUrl, 'eng2');
 // echo 'url strpos: ' . $urlTest;
-print_r(home_url());
-echo 'get home url: </br>';
-print_r(get_home_url());
-echo ' </br>';
-echo 'test eng: </br>';
-echo rtrim($url, 'eng2');
-echo 'test se: </br>';
-echo rtrim($url, 'se');
+echo home_url();
+echo strpos($url, 'se');
 ?>
 
 <!-- wp:list {"templateLock":"contentOnly","anchor":true} -->
