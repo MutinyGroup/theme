@@ -85,7 +85,7 @@ $url = home_url();
   <div class="wp-block-group h-full flex justify-between items-center">
     <!-- wp:paragraph -->
     <p>
-      <a href="/" class="w-[35px] h-[27px] fixed top-[15px] left-[20px]">
+      <a href="<?php echo home_url(); ?>" class="w-[35px] h-[27px] fixed top-[15px] left-[20px]">
         <!-- wp:image -->
         <figure class="wp-block-image menu-logo desktop:hidden mr-[10px]">
           <img src="/wp-content/themes/mutiny/assets/img/front-page/logo-mutiny.png" alt="webo-logo" />
