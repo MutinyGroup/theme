@@ -127,35 +127,35 @@ $url = home_url();
     <!-- wp:list-item -->
     <li class="uppercase border-b-[2px] border-transparent hover:border-primaryYellow hover:text-[#AAAAAA]">
       <!-- wp:paragraph -->
-      <p><a href="/about/">O NAS</a></p>
+      <p><a href="<?php echo home_url() . '/about' ?>">O NAS</a></p>
       <!-- /wp:paragraph -->
     </li>
     <!-- /wp:list-item -->
     <!-- wp:list-item -->
     <li class="uppercase border-b-[2px] border-transparent hover:border-primaryYellow hover:text-[#AAAAAA]">
       <!-- wp:paragraph -->
-      <p><a href="/services/">USŁUGI</a></p>
+      <p><a href="<?php echo home_url() . '/services' ?>">USŁUGI</a></p>
       <!-- /wp:paragraph -->
     </li>
     <!-- /wp:list-item -->
     <!-- wp:list-item -->
     <li class="uppercase border-b-[2px] border-transparent hover:border-primaryYellow hover:text-[#AAAAAA]">
       <!-- wp:paragraph -->
-      <p><a href="/realizations/">REALIZACJE</a></p>
+      <p><a href="<?php echo home_url() . '/realizations' ?>">REALIZACJE</a></p>
       <!-- /wp:paragraph -->
     </li>
     <!-- /wp:list-item -->
     <!-- wp:list-item -->
     <li class="uppercase border-b-[2px] border-transparent hover:border-primaryYellow hover:text-[#AAAAAA]">
       <!-- wp:paragraph -->
-      <p><a href="/blog/">Aktualności</a></p>
+      <p><a href="<?php echo home_url() . '/blog' ?>">Aktualności</a></p>
       <!-- /wp:paragraph -->
     </li>
     <!-- /wp:list-item -->
     <!-- wp:list-item -->
     <li class="p-[10px_20px] uppercase border-[2px] border-white rounded-full w-fit cursor-pointer hover:bg-white hover:text-black transition ease-out duration-300">
       <!-- wp:paragraph -->
-      <p><a href="/contact/">Kontakt</a></p>
+      <p><a href="<?php echo home_url() . '/about' ?>/contact/">Kontakt</a></p>
       <!-- /wp:paragraph -->
     </li>
     <!-- /wp:list-item -->
