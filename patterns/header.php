@@ -6,7 +6,6 @@
  * Categories: header
  * Viewport Width: 1280
  */
-// $url = substr(home_url(), 27, 3);
 $url = home_url();
 ?>
 
@@ -185,7 +184,7 @@ $url = home_url();
       </li>
       <!-- /wp:list-item -->
     <?php
-    } elseif ($url == 'se') {
+    } elseif (strpos($url, 'se') > 10) {
     ?>
       <!-- wp:list-item -->
       <li class="lang-btn group w-[65px] h-[48px] hover:h-[130px] block p-[7px_12px] text-center uppercase font-medium border-[2px] border-[#AAAAAA] rounded-[50px] hover:rounded-[20px] cursor-pointer hover:bg-white hover:border-white hover:text-black transition-height ease-out duration-300">
