@@ -116,7 +116,7 @@ $url = home_url();
   <ul class="wp-block-list mobile-nav-menu text-[20px] font-semibold w-screen h-screen pt-[40px] bg-[#F2F2F2] z-[3] flex flex-col items-center gap-y-[30px] fixed top-[60px] left-0 translate-x-[100%] opacity-[0] transition ease-in-out duration-500">
     <!-- wp:list-item -->
     <li class="uppercase border-b-[2px] border-transparent hover:border-primaryYellow hover:text-[#AAAAAA]">
-      <a href="/about/">O NAS</a>
+      <a href="<?php echo home_url() . '/about' ?>">O NAS</a>
     </li>
     <!-- /wp:list-item -->
     <!-- wp:list-item -->
@@ -142,7 +142,6 @@ $url = home_url();
 
     <?php
     if (!str_contains($url, 'eng2') && !str_contains($url, 'se')) {
-      echo 'wersja PL';
     ?>
       <!-- wp:list-item -->
       <li class="lang-btn group w-[65px] h-[48px] hover:h-[130px] block p-[7px_12px] text-center uppercase font-medium border-[2px] border-[#AAAAAA] rounded-[50px] hover:rounded-[20px] cursor-pointer hover:bg-white hover:border-white hover:text-black transition-height ease-out duration-300">
@@ -155,7 +154,6 @@ $url = home_url();
       <!-- /wp:list-item -->
     <?php
     } elseif (strpos($url, 'eng2') > 10) {
-      echo 'wersja ENG';
     ?>
       <!-- wp:list-item -->
       <li class="lang-btn group w-[65px] h-[48px] hover:h-[130px] block p-[7px_12px] text-center uppercase font-medium border-[2px] border-[#AAAAAA] rounded-[50px] hover:rounded-[20px] cursor-pointer hover:bg-white hover:border-white hover:text-black transition-height ease-out duration-300">
@@ -168,7 +166,6 @@ $url = home_url();
       <!-- /wp:list-item -->
     <?php
     } elseif (strpos($url, 'se') > 10) {
-      echo 'wersja SE';
     ?>
       <!-- wp:list-item -->
       <li class="lang-btn group w-[65px] h-[48px] hover:h-[130px] block p-[7px_12px] text-center uppercase font-medium border-[2px] border-[#AAAAAA] rounded-[50px] hover:rounded-[20px] cursor-pointer hover:bg-white hover:border-white hover:text-black transition-height ease-out duration-300">
