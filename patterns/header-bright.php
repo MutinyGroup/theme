@@ -58,7 +58,7 @@ $url = home_url();
   <!-- wp:navigation /-->
 
   <?php
-  $url = substr(home_url(), 27, 3);
+  // $url = substr(home_url(), 27, 3);
   if (!str_contains($url, 'eng2') && !str_contains($url, 'se')) {
     echo 'wersja PL';
   ?>
