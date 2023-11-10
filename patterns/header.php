@@ -12,6 +12,7 @@ $url = home_url();
 // $urlTest = strpos($tempUrl, 'eng2');
 // echo 'url strpos: ' . $urlTest;
 echo home_url();
+echo '</br>';
 echo strpos($url, 'se');
 ?>
 
