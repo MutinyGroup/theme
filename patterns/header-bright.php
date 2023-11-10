@@ -17,6 +17,9 @@ $url = home_url();
   print_r(home_url());
   echo home_url('url');
   print_r(get_home_url());
+  echo '</br>';
+  echo 'echo $url: ';
+  echo $url;
   // printf(get_home_path());
   ?>
 </p>
