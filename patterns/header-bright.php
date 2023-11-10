@@ -34,6 +34,8 @@ $url = home_url();
     echo 'wersja PL';
   } elseif (strpos($url, 'eng2') > 10) {
     echo 'wersja ENG';
+  } elseif (strpos($url, 'se') > 10) {
+    echo 'wersja SE';
   }
   ?>
 </p>
