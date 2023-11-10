@@ -20,6 +20,11 @@ $url = home_url();
   echo '</br>';
   echo 'echo $url: ';
   echo $url;
+  echo '</br>';
+  echo strpos($url, 'eng2');
+  echo '</br>';
+  printf(str_contains($url, 'eng2'));
+  echo '</br>';
   // printf(get_home_path());
   ?>
 </p>
