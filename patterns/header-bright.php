@@ -154,7 +154,7 @@ $url = home_url();
       </li>
       <!-- /wp:list-item -->
     <?php
-    } elseif ($url == 'eng') {
+    } elseif (strpos($url, 'eng2') > 10) {
       echo 'wersja ENG';
     ?>
       <!-- wp:list-item -->
@@ -162,12 +162,12 @@ $url = home_url();
         <!-- wp:paragraph -->
         <p class="block hover:text-primaryYellow group-hover:mb-[10px]">ENG</p>
         <!-- /wp:paragraph -->
-        <a class="block hover:text-primaryYellow group-hover:mb-[10px] opacity-0 group-hover:opacity-100 transition ease-out duration-300" href="mutiny.webo.design/">PL</a>
-        <a class="block hover:text-primaryYellow opacity-0 group-hover:opacity-100 transition ease-out duration-300" href="http://mutiny.webo.design/se/">SE</a>
+        <a class="block hover:text-primaryYellow group-hover:mb-[10px] opacity-0 group-hover:opacity-100 transition ease-out duration-300" href="<?php echo rtrim($url, 'eng2'); ?>">PL</a>
+        <a class="block hover:text-primaryYellow opacity-0 group-hover:opacity-100 transition ease-out duration-300" href="<?php echo rtrim($url, 'eng2') . 'se'; ?>">SE</a>
       </li>
       <!-- /wp:list-item -->
     <?php
-    } elseif ($url == 'se') {
+    } elseif (strpos($url, 'se') > 10) {
       echo 'wersja SE';
     ?>
       <!-- wp:list-item -->
