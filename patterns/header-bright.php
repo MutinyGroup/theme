@@ -30,6 +30,11 @@ $url = home_url();
   strpos($url, 'eng2') == '';
   echo '</br>';
   // printf(get_home_path());
+  if (str_contains($url, 'eng2') != 1 && str_contains($url, 'se') != 1) {
+    echo 'wersja PL';
+  } elseif (strpos($url, 'eng2') > 10) {
+    echo 'wersja ENG';
+  }
   ?>
 </p>
 <!-- /wp:paragraph -->
