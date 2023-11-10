@@ -16,8 +16,8 @@ $url = home_url();
   <?php
   print_r(home_url());
   echo home_url('url');
-  echo get_home_url();
-  echo get_home_path();
+  print_r(get_home_url());
+  print_r(get_home_path());
   ?>
 </p>
 <!-- /wp:paragraph -->
