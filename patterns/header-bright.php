@@ -8,7 +8,7 @@
  */
 // $url = substr(home_url(), 27, 3);
 $url = home_url();
-echo home_url();
+
 
 ?>
 <!-- wp:paragraph -->
