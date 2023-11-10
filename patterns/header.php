@@ -7,7 +7,7 @@
  * Viewport Width: 1280
  */
 $url = substr(home_url(), 27, 3);
-print_r(home_url());
+print_r(home_url('url'));
 ?>
 
 <!-- wp:list {"templateLock":"contentOnly","anchor":true} -->
