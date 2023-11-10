@@ -12,7 +12,7 @@ $url = home_url();
 
 ?>
 <!-- wp:paragraph -->
-<p class="block hover:text-primaryYellow group-hover:mb-[10px]">
+<p class="text-black">
   <?php
   print_r(home_url());
   echo home_url('url');
