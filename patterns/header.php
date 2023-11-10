@@ -6,13 +6,14 @@
  * Categories: header
  * Viewport Width: 1280
  */
-$url = substr(home_url(), 27, 3);
-$tempUrl = home_url();
+// $url = substr(home_url(), 27, 3);
+$url = home_url();
+$urlCheck = strpos($tempUrl, 'eng2');
 $urlTest = strpos($tempUrl, 'eng2');
 echo 'url strpos: ' . $urlTest;
 print_r(home_url());
 echo '</br>';
-home_url()
+home_url();
 ?>
 
 <!-- wp:list {"templateLock":"contentOnly","anchor":true} -->
@@ -34,7 +35,9 @@ home_url()
   <!-- /wp:list-item -->
 
   <?php
-  if ($url == '') {
+  // pl
+  echo strpos($url, 'eng2');
+  if (strpos($url, 'eng2') == '') {
   ?>
     <!-- wp:list-item -->
     <li class="lang-btn group h-[48px] hover:h-[120px] hidden desktop:block p-[10px_12px] text-center uppercase font-medium border-[2px] border-[#AAAAAA] rounded-[50px] hover:rounded-[20px] absolute top-[20px] right-[20px] hover:bg-white hover:border-white hover:text-black transition-height ease-out duration-300">
@@ -54,7 +57,8 @@ home_url()
     </li>
     <!-- /wp:list-item -->
   <?php
-  } elseif ($url == 'eng') {
+  } elseif (strpos($url, 'eng2') > 10) {
+    echo '>10 eng2' . strpos($url, 'eng2');
   ?>
     <!-- wp:list-item -->
     <li class="lang-btn group h-[48px] hover:h-[120px] hidden desktop:block p-[10px_12px] text-center uppercase font-medium border-[2px] border-[#AAAAAA] rounded-[50px] hover:rounded-[20px] absolute top-[20px] right-[20px] hover:bg-white hover:border-white hover:text-black transition-height ease-out duration-300">
