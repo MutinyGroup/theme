@@ -121,22 +121,22 @@ $url = home_url();
     <!-- /wp:list-item -->
     <!-- wp:list-item -->
     <li class="uppercase border-b-[2px] border-transparent hover:border-primaryYellow hover:text-[#AAAAAA]">
-      <a href="/services/">USŁUGI</a>
+      <a href="<?php echo home_url() . '/services' ?>">USŁUGI</a>
     </li>
     <!-- /wp:list-item -->
     <!-- wp:list-item -->
     <li class="uppercase border-b-[2px] border-transparent hover:border-primaryYellow hover:text-[#AAAAAA]">
-      <a href="/realizations/">REALIZACJE</a>
+      <a href="<?php echo home_url() . '/realizations' ?>">REALIZACJE</a>
     </li>
     <!-- /wp:list-item -->
     <!-- wp:list-item -->
     <li class="uppercase border-b-[2px] border-transparent hover:border-primaryYellow hover:text-[#AAAAAA]">
-      <a href="/blog/">Aktualności</a>
+      <a href="<?php echo home_url() . '/blog' ?>">Aktualności</a>
     </li>
     <!-- /wp:list-item -->
     <!-- wp:list-item -->
     <li class="p-[10px_20px] uppercase border-[2px] border-[#AAAAAA] rounded-full cursor-pointer hover:bg-white hover:text-black hover:border-white transition ease-out duration-300">
-      <a href="/contact/">Kontakt</a>
+      <a href="<?php echo home_url() . '/contact' ?>">Kontakt</a>
     </li>
     <!-- /wp:list-item -->
 
