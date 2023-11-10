@@ -27,6 +27,8 @@ $url = home_url();
   echo '</br>';
   printf(str_contains($url, 'test'));
   echo '</br>';
+  strpos($url, 'eng2') == '';
+  echo '</br>';
   // printf(get_home_path());
   ?>
 </p>
