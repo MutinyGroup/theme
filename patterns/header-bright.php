@@ -6,7 +6,9 @@
  * Categories: header-bright
  * Viewport Width: 1280
  */
-$url = substr(home_url(), 27, 3);;
+// $url = substr(home_url(), 27, 3);
+$url = home_url();
+
 ?>
 
 <!-- wp:list {"templateLock":"contentOnly","anchor":true} -->
@@ -27,15 +29,15 @@ $url = substr(home_url(), 27, 3);;
 
   <?php
   $url = substr(home_url(), 27, 3);
-  if ($url == '') {
+  if (strpos($url, 'eng2') == '' && strpos($url, 'se') == '') {
   ?>
     <!-- wp:list-item -->
     <li class="lang-btn group h-[48px] hover:h-[120px] hidden desktop:block p-[10px_12px] text-center uppercase font-medium border-[2px] border-[#AAAAAA] rounded-[50px] hover:rounded-[20px] absolute top-[20px] right-[20px] cursor-pointer hover:bg-white hover:border-white hover:text-black transition-height ease-out duration-300">
       <!-- wp:paragraph -->
       <p class="block hover:text-primaryYellow group-hover:mb-[10px]">PL</p>
       <!-- /wp:paragraph -->
-      <a class="block hover:text-primaryYellow group-hover:mb-[10px] opacity-0 group-hover:opacity-100 transition ease-out duration-300" href="http://mutiny.webo.design/eng/">ENG</a>
-      <a class="block hover:text-primaryYellow opacity-0 group-hover:opacity-100 transition ease-out duration-300" href="http://mutiny.webo.design/se/">SE</a>
+      <a class="block hover:text-primaryYellow group-hover:mb-[10px] opacity-0 group-hover:opacity-100 transition ease-out duration-300" href="<?php echo home_url() . '/eng2' ?>">ENG</a>
+      <a class="block hover:text-primaryYellow opacity-0 group-hover:opacity-100 transition ease-out duration-300" href="<?php echo home_url() . '/se' ?>">SE</a>
     </li>
     <!-- /wp:list-item -->
   <?php
