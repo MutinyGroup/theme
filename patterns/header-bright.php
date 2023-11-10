@@ -14,7 +14,10 @@ $url = home_url();
 <!-- wp:paragraph -->
 <p class="block hover:text-primaryYellow group-hover:mb-[10px]">
   <?php
-  echo home_url();
+  print_r(home_url());
+  echo home_url('url');
+  echo get_home_url();
+  echo get_home_path();
   ?>
 </p>
 <!-- /wp:paragraph -->
