@@ -16,9 +16,9 @@ echo 'get home url: </br>';
 print_r(get_home_url());
 echo ' </br>';
 echo 'test eng: </br>';
-echo rtrim($url, 'eng2', 0);
+echo rtrim($url, 'eng2');
 echo 'test se: </br>';
-echo rtrim($url, 'se', 0);
+echo rtrim($url, 'se');
 ?>
 
 <!-- wp:list {"templateLock":"contentOnly","anchor":true} -->
