@@ -22,7 +22,7 @@ $url = home_url();
   echo $url;
   echo '</br>';
   echo strpos($url, 'eng2');
-  echo '</br>';
+  echo ' aboce contains eng2: </br>';
   printf(str_contains($url, 'eng2'));
   echo '</br>';
   printf(str_contains($url, 'test'));
