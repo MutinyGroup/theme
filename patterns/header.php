@@ -9,7 +9,7 @@
 $url = substr(home_url(), 27, 3);
 $tempUrl = home_url();
 $urlTest = strpos($tempUrl, 'eng2');
-echo 'url strpos: ' + $urlTest;
+echo 'url strpos: ' . $urlTest;
 print_r(home_url());
 echo '</br>';
 home_url()
