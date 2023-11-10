@@ -52,7 +52,7 @@ $url = home_url();
 
   <?php
   $url = substr(home_url(), 27, 3);
-  if (strpos($url, 'eng2') == '' && strpos($url, 'se') == '') {
+  if (!str_contains($url, 'eng2') && !str_contains($url, 'se')) {
     echo 'wersja PL';
   ?>
     <!-- wp:list-item -->
