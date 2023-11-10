@@ -8,11 +8,11 @@
  */
 $url = substr(home_url(), 27, 3);
 print_r(home_url('url'));
+print_r(get_home_url());
 ?>
 
 <!-- wp:list {"templateLock":"contentOnly","anchor":true} -->
 <ul id="Menu-desktop" class="wp-block-list nav-desktop headerDark h-[60px] desktop:h-[90px] bg-transparent fixed top-0 w-[100%] hidden desktop:flex justify-center items-center z-[4]">
-  <?php echo home_url(); ?>
   <!-- wp:list-item -->
   <li>
     <a href="<?php echo ($url == 'eng') ? 'https://mutiny.webo.design/eng2/' : (($url == 'se') ? 'https://mutiny.webo.design/se/' : 'https://mutiny.webo.design/'); ?>" class="fixed top-[32px] left-[22px] z-[4]">
