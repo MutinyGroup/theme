@@ -60,7 +60,7 @@ print_r(get_home_url());
     </li>
     <!-- /wp:list-item -->
   <?php
-  } elseif (str_contains($url, 'eng2') > 10) {
+  } elseif (strpos($url, 'eng2') == '') {
     echo '>10 eng2';
     echo 'wersja ENG';
     print_r(str_contains($url, 'eng2'));
