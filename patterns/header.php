@@ -37,7 +37,7 @@ echo strpos($url, 'se');
   <?php
   // pl
   echo strpos($url, 'eng2');
-  if (strpos($url, 'eng2') == '') {
+  if (strpos($url, 'eng2') == '' && strpos($url, 'se') == '') {
     echo 'wersja PL ';
   ?>
     <!-- wp:list-item -->
