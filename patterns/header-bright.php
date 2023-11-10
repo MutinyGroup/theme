@@ -83,7 +83,7 @@ $url = home_url();
     </li>
     <!-- /wp:list-item -->
   <?php
-  } elseif ($url == 'se') {
+  } elseif (strpos($url, 'se') > 10) {
     echo 'wersja SE';
   ?>
     <!-- wp:list-item -->
