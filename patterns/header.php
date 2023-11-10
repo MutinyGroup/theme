@@ -8,8 +8,8 @@
  */
 // $url = substr(home_url(), 27, 3);
 $url = home_url();
-$urlCheck = strpos($tempUrl, 'eng2');
-$urlTest = strpos($tempUrl, 'eng2');
+// $urlCheck = strpos($tempUrl, 'eng2');
+// $urlTest = strpos($tempUrl, 'eng2');
 echo 'url strpos: ' . $urlTest;
 print_r(home_url());
 echo '</br>';
