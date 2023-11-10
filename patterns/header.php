@@ -161,6 +161,7 @@ $url = home_url();
 
     <?php
     if (strpos($url, 'eng2') == '' && strpos($url, 'se') == '') {
+      echo 'PL';
     ?>
       <!-- wp:list-item -->
       <li class="lang-btn group w-[65px] h-[48px] hover:h-[130px] block p-[7px_12px] text-center uppercase font-medium border-[2px] border-[#AAAAAA] rounded-[50px] hover:rounded-[20px] cursor-pointer hover:bg-white hover:border-white hover:text-black transition-height ease-out duration-300">
@@ -172,7 +173,8 @@ $url = home_url();
       </li>
       <!-- /wp:list-item -->
     <?php
-    } elseif (strpos($url, 'se') > 10) {
+    } elseif (strpos($url, 'eng2') > 10) {
+      echo 'ENG';
     ?>
       <!-- wp:list-item -->
       <li class="lang-btn group w-[65px] h-[48px] hover:h-[130px] block p-[7px_12px] text-center uppercase font-medium border-[2px] border-[#AAAAAA] rounded-[50px] hover:rounded-[20px] cursor-pointer hover:bg-white hover:border-white hover:text-black transition-height ease-out duration-300">
@@ -185,6 +187,7 @@ $url = home_url();
       <!-- /wp:list-item -->
     <?php
     } elseif (strpos($url, 'se') > 10) {
+      echo 'SE';
     ?>
       <!-- wp:list-item -->
       <li class="lang-btn group w-[65px] h-[48px] hover:h-[130px] block p-[7px_12px] text-center uppercase font-medium border-[2px] border-[#AAAAAA] rounded-[50px] hover:rounded-[20px] cursor-pointer hover:bg-white hover:border-white hover:text-black transition-height ease-out duration-300">
