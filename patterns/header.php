@@ -58,15 +58,16 @@ print_r(get_home_url());
     </li>
     <!-- /wp:list-item -->
   <?php
-  } elseif (strpos($url, 'eng2') > 10) {
-    echo '>10 eng2' . strpos($url, 'eng2');
+  } elseif (str_contains($url, 'eng2') > 10) {
+    echo '>10 eng2';
+    print_r(str_contains($url, 'eng2'));
   ?>
     <!-- wp:list-item -->
     <li class="lang-btn group h-[48px] hover:h-[120px] hidden desktop:block p-[10px_12px] text-center uppercase font-medium border-[2px] border-[#AAAAAA] rounded-[50px] hover:rounded-[20px] absolute top-[20px] right-[20px] hover:bg-white hover:border-white hover:text-black transition-height ease-out duration-300">
       <!-- wp:paragraph -->
       <p class="block hover:text-primaryYellow group-hover:mb-[10px]">ENG</p>
       <!-- /wp:paragraph -->
-      <a class="block hover:text-primaryYellow group-hover:mb-[10px] opacity-0 group-hover:opacity-100 transition ease-out duration-300" href="<?php echo home_url() . '/se' ?>">PL</a>
+      <a class="block hover:text-primaryYellow group-hover:mb-[10px] opacity-0 group-hover:opacity-100 transition ease-out duration-300" href="<?php echo home_url(); ?>">PL</a>
       <a class="block hover:text-primaryYellow opacity-0 group-hover:opacity-100 transition ease-out duration-300" href="<?php echo home_url() . '/se' ?>">SE</a>
     </li>
     <!-- /wp:list-item -->
