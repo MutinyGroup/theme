@@ -8,8 +8,16 @@
  */
 // $url = substr(home_url(), 27, 3);
 $url = home_url();
+echo home_url();
 
 ?>
+<!-- wp:paragraph -->
+<p class="block hover:text-primaryYellow group-hover:mb-[10px]">
+  <?php
+  echo home_url();
+  ?>
+</p>
+<!-- /wp:paragraph -->
 
 <!-- wp:list {"templateLock":"contentOnly","anchor":true} -->
 <ul id="Menu-desktop" class="wp-block-list nav-desktop headerBright bg-brightWhite h-[60px] w-[100%] desktop:h-[90px] hidden desktop:flex justify-center items-center z-[4] fixed">
