@@ -8,7 +8,8 @@
  */
 $url = substr(home_url(), 27, 3);
 print_r(home_url());
-print_r(get_home_url());
+echo '</br>';
+echo home_url()
 ?>
 
 <!-- wp:list {"templateLock":"contentOnly","anchor":true} -->
