@@ -75,7 +75,7 @@ $url = home_url();
   <ul class="wp-block-list h-full flex justify-between items-center">
     <!-- wp:list-item -->
     <li>
-      <a href="https://mutiny.webo.design">
+      <a href="<?php echo home_url(); ?>">
         <!-- wp:image -->
         <figure class="wp-block-image w-[30px]">
           <img src="/wp-content/themes/mutiny/assets/img/front-page/logo-mutiny-black.png" alt="webo-logo" />
