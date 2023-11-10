@@ -8,38 +8,7 @@
  */
 // $url = substr(home_url(), 27, 3);
 $url = home_url();
-
-
 ?>
-<!-- wp:paragraph -->
-<p class="text-black">
-  <?php
-  print_r(home_url());
-  echo home_url('url');
-  print_r(get_home_url());
-  echo '</br>';
-  echo 'echo $url: ';
-  echo $url;
-  echo '</br>';
-  echo strpos($url, 'eng2');
-  echo ' aboce contains eng2: </br>';
-  printf(str_contains($url, 'eng2'));
-  echo '</br>';
-  printf(str_contains($url, 'test'));
-  echo '</br>';
-  strpos($url, 'eng2') == '';
-  echo '</br>';
-  // printf(get_home_path());
-  if (str_contains($url, 'eng2') != 1 && str_contains($url, 'se') != 1) {
-    echo 'wersja PL';
-  } elseif (strpos($url, 'eng2') > 10) {
-    echo 'wersja ENG';
-  } elseif (strpos($url, 'se') > 10) {
-    echo 'wersja SE';
-  }
-  ?>
-</p>
-<!-- /wp:paragraph -->
 
 <!-- wp:list {"templateLock":"contentOnly","anchor":true} -->
 <ul id="Menu-desktop" class="wp-block-list nav-desktop headerBright bg-brightWhite h-[60px] w-[100%] desktop:h-[90px] hidden desktop:flex justify-center items-center z-[4] fixed">
@@ -60,7 +29,6 @@ $url = home_url();
   <?php
   // $url = substr(home_url(), 27, 3);
   if (!str_contains($url, 'eng2') && !str_contains($url, 'se')) {
-    echo 'wersja PL';
   ?>
     <!-- wp:list-item -->
     <li class="lang-btn group h-[48px] hover:h-[120px] hidden desktop:block p-[10px_12px] text-center uppercase font-medium border-[2px] border-[#AAAAAA] rounded-[50px] hover:rounded-[20px] absolute top-[20px] right-[20px] cursor-pointer hover:bg-white hover:border-white hover:text-black transition-height ease-out duration-300">
@@ -73,7 +41,6 @@ $url = home_url();
     <!-- /wp:list-item -->
   <?php
   } elseif (strpos($url, 'eng2') > 10) {
-    echo 'wersja ENG';
   ?>
     <!-- wp:list-item -->
     <li class="lang-btn group h-[48px] hover:h-[120px] hidden desktop:block p-[10px_12px] text-center uppercase font-medium border-[2px] border-[#AAAAAA] rounded-[50px] hover:rounded-[20px] absolute top-[20px] right-[20px] cursor-pointer hover:bg-white hover:border-white hover:text-black transition-height ease-out duration-300">
@@ -86,7 +53,6 @@ $url = home_url();
     <!-- /wp:list-item -->
   <?php
   } elseif (strpos($url, 'se') > 10) {
-    echo 'wersja SE';
   ?>
     <!-- wp:list-item -->
     <li class="lang-btn group h-[48px] hover:h-[120px] hidden desktop:block p-[10px_12px] text-center uppercase font-medium border-[2px] border-[#AAAAAA] rounded-[50px] hover:rounded-[20px] absolute top-[20px] right-[20px] cursor-pointer hover:bg-white hover:border-white hover:text-black transition-height ease-out duration-300">
