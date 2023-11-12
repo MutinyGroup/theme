@@ -25,9 +25,9 @@
       <div class="wp-block-group uslugi-title is-layout-flow">
         <!-- wp:group -->
         <div class="wp-block-group overflow-hidden">
-          <!-- wp:paragraph -->
-          <span data-aos="fade-up" data-aos-duration="600" data-aos-offset="130" class="uppercase inline-block desktop:text-[50px] text-[24px] desktop:leading-[55px] leading-[30px]">Co mówią nasi klienci?</span>
-          <!-- /wp:paragraph -->
+          <!-- wp:heading -->
+          <h2><span data-aos="fade-up" data-aos-duration="600" data-aos-offset="130" class="uppercase inline-block desktop:text-[50px] text-[24px] desktop:leading-[55px] leading-[30px]">Co mówią nasi klienci?</span></h2>
+          <!-- /wp:heading -->
         </div>
         <!-- /wp:group -->
       </div>
