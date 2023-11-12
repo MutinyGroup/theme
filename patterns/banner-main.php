@@ -67,13 +67,13 @@
           <h1 class="company-title font-normal text-[16px] leading-[125%] overflow-hidden"><span class="block">Mutiny Group</span></h1>
           <!-- /wp:heading -->
 
-          <!-- wp:paragraph -->
-          <p class="company-title font-medium overflow-hidden"><span class="block">Wchodzimy</span></p>
-          <!-- /wp:paragraph -->
+          <!-- wp:heading {"level":1} -->
+          <h1 data-test="test" class="company-title font-medium overflow-hidden"><span class="block">Wchodzimy</span></h1>
+          <!-- /wp:heading {"level":1} -->
 
-          <!-- wp:paragraph -->
-          <p class="company-title font-medium overflow-hidden"><span class="block">NA RYNEK Z MOCNYM</span></p>
-          <!-- /wp:paragraph -->
+          <!-- wp:heading {"level":1} -->
+          <h1 class="company-title font-medium overflow-hidden"><span class="block">NA RYNEK Z MOCNYM</span></h1>
+          <!-- /wp:heading {"level":1} -->
 
           <!-- wp:group -->
           <div class="wp-block-group relative italic font-medium  company-title overflow-hidden">
