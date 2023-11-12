@@ -55,23 +55,19 @@
       <div class="wp-block-group uslugi-title desktop:text-[50px] text-[24px] desktop:leading-[55px] leading-[30px]">
         <!-- wp:group -->
         <div class="wp-block-group overflow-hidden">
-          <!-- wp:paragraph -->
-          <span data-aos="fade-up" data-aos-duration="600" data-aos-offset="50" class="company-title overflow-hidden"><span class="block uppercase">ZGRANY ZESPÓŁ</span></span>
-          <!-- /wp:paragraph -->
+          <!-- wp:heading -->
+          <h2><span data-aos="fade-up" data-aos-duration="600" data-aos-offset="50" class="company-title overflow-hidden"><span class="block uppercase">ZGRANY ZESPÓŁ</span></span></h2>
+          <!-- /wp:heading -->
         </div>
         <!-- /wp:group -->
 
         <!-- wp:group -->
         <div class="wp-block-group overflow-hidden">
-          <!-- wp:paragraph -->
-          <span data-aos="fade-up" data-aos-duration="600" data-aos-offset="50" class="uppercase test01 inline-block ">TO<span class="relative ml-[12px] inline-block uppercase italic before:content-[''] before:inline-block desktop:before:mr-[18px] before:mr-[8px] before:bottom-0 before:left-0 desktop:before:w-[90px] before:w-[30px] desktop:before:h-[3px] before:h-[2px] before:bg-black">PODSTAWA</span></span>
-          <!-- /wp:paragraph -->
+          <!-- wp:heading -->
+          <h2><span data-aos="fade-up" data-aos-duration="600" data-aos-offset="50" class="uppercase test01 inline-block ">TO<span class="relative ml-[12px] inline-block uppercase italic before:content-[''] before:inline-block desktop:before:mr-[18px] before:mr-[8px] before:bottom-0 before:left-0 desktop:before:w-[90px] before:w-[30px] desktop:before:h-[3px] before:h-[2px] before:bg-black">PODSTAWA</span></span></h2>
+          <!-- /wp:heading -->
         </div>
         <!-- /wp:group -->
-
-        <!-- wp:paragraph -->
-        <p class="hidden uppercase desktop:text-[50px] text-[24px] desktop:leading-[55px] leading-[30px]">Zgrany zespół <br> to <span class="relative desktop:text-[50px] text-[24px] uppercase italic before:content-[''] before:inline-block desktop:before:mr-[16px] before:mr-[4px] before:bottom-0 before:left-0 desktop:before:w-[90px] before:w-[30px] desktop:before:h-[3px] before:h-[2px] before:bg-black">podstawa</span></p>
-        <!-- /wp:paragraph -->
       </div>
       <!-- /wp:group -->
     </div>
