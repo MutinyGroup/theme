@@ -63,7 +63,7 @@
 
         <!-- wp:group -->
         <div class="wp-block-group title-text-wrapper mb-[60px] desktop:mb-[70px] uppercase relative z-[1]">
-          <!-- wp:heading -->
+          <!-- wp:heading {"level":1} -->
           <h1 class="company-title font-normal text-[16px] leading-[125%] overflow-hidden"><span class="block">Mutiny Group</span></h1>
           <!-- /wp:heading -->
 
