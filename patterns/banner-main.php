@@ -64,7 +64,7 @@
         <!-- wp:group -->
         <div class="wp-block-group title-text-wrapper mb-[60px] desktop:mb-[70px] uppercase relative z-[1]">
           <!-- wp:paragraph -->
-          <p class="company-title font-normal text-[16px] leading-[125%] overflow-hidden"><span class="block">Mutiny Group</span></p>
+          <h1 class="company-title font-normal text-[16px] leading-[125%] overflow-hidden"><span class="block">Mutiny Group</span></h1>
           <!-- /wp:paragraph -->
 
           <!-- wp:paragraph -->
