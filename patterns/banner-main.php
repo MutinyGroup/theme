@@ -68,11 +68,11 @@
           <!-- /wp:paragraph -->
 
           <!-- wp:paragraph -->
-          <p class="company-title font-medium overflow-hidden"><span class="block">Wchodzimy</span></p>
+          <h1 class="company-title font-medium overflow-hidden"><span class="block">Wchodzimy</span></h1>
           <!-- /wp:paragraph -->
 
           <!-- wp:paragraph -->
-          <p class="company-title font-medium overflow-hidden"><span class="block">NA RYNEK Z MOCNYM</span></p>
+          <h1 class="company-title font-medium overflow-hidden"><span class="block">NA RYNEK Z MOCNYM</span></h1>
           <!-- /wp:paragraph -->
 
           <!-- wp:group -->
