@@ -68,7 +68,7 @@
           <!-- /wp:heading -->
 
           <!-- wp:heading {"level":1} -->
-          <h1 data-test="test" class="company-title font-medium overflow-hidden"><span class="block">Wchodzimy</span></h1>
+          <h1 class="company-title font-medium overflow-hidden"><span class="block">Wchodzimy</span></h1>
           <!-- /wp:heading {"level":1} -->
 
           <!-- wp:heading {"level":1} -->
