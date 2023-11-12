@@ -65,23 +65,29 @@
       <div class="wp-block-group font-normal desktop:text-[65px] text-[32px] desktop:leading-[70px] leading-[36px] relative z-[1]">
         <!-- wp:group -->
         <div class="wp-block-group overflow-hidden">
-          <!-- wp:paragraph -->
-          <p data-aos="fade-up" data-aos-duration="600" data-aos-offset="130" class="uppercase">Porozmawiajmy</p>
-          <!-- /wp:paragraph -->
+          <!-- wp:heading -->
+          <h2>
+            <p data-aos="fade-up" data-aos-duration="600" data-aos-offset="130" class="uppercase">Porozmawiajmy</p>
+          </h2>
+          <!-- /wp:heading -->
         </div>
         <!-- /wp:group -->
         <!-- wp:group -->
         <div class="wp-block-group overflow-hidden">
-          <!-- wp:paragraph -->
-          <p data-aos="fade-up" data-aos-duration="600" data-aos-offset="85" class="uppercase">o potrzebach</p>
-          <!-- /wp:paragraph -->
+          <!-- wp:heading -->
+          <h2>
+            <p data-aos="fade-up" data-aos-duration="600" data-aos-offset="85" class="uppercase">o potrzebach</p>
+          </h2>
+          <!-- /wp:heading -->
         </div>
         <!-- /wp:group -->
         <!-- wp:group -->
         <div class="wp-block-group overflow-hidden">
-          <!-- wp:paragraph {"templateLock":"contentOnly"} -->
-          <p data-aos="fade-up" data-aos-duration="600" data-aos-offset="85" class="relative ml-[12px] inline-block uppercase italic before:content-[''] before:inline-block desktop:before:mr-[18px] before:mr-[8px] before:bottom-0 before:left-0 desktop:before:w-[130px] before:w-[30px] desktop:before:h-[3px] before:h-[2px] before:bg-black">Twojej marki</p>
-          <!-- /wp:paragraph -->
+          <!-- wp:heading {"templateLock":"contentOnly"} -->
+          <h2>
+            <p data-aos="fade-up" data-aos-duration="600" data-aos-offset="85" class="relative ml-[12px] inline-block uppercase italic before:content-[''] before:inline-block desktop:before:mr-[18px] before:mr-[8px] before:bottom-0 before:left-0 desktop:before:w-[130px] before:w-[30px] desktop:before:h-[3px] before:h-[2px] before:bg-black">Twojej marki</p>
+          </h2>
+          <!-- /wp:heading -->
         </div>
         <!-- /wp:group -->
       </div>
