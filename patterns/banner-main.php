@@ -66,7 +66,7 @@
           <!-- wp:heading -->
           <h2>
             <!-- wp:paragraph -->
-            <p class="company-title font-normal text-[16px] leading-[125%] overflow-hidden"><span class="block">Mutiny Group</span></p>
+            <span class="company-title block font-normal text-[16px] leading-[125%] overflow-hidden"><span class="block">Mutiny Group</span></span>
             <!-- /wp:paragraph -->
 
           </h2>
