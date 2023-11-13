@@ -67,8 +67,12 @@
           <h2>
             <span class="company-title block font-normal text-[16px] leading-[125%] overflow-hidden"><span class="block">Mutiny Group</span></span>
 
+            <span class="company-title block font-medium overflow-hidden"><span class="block">Wchodzimy</span></span>
+
+            <span class="company-title block font-medium overflow-hidden"><span class="block">NA RYNEK Z MOCNYM</span></span>
           </h2>
           <!-- /wp:heading -->
+
 
           <!-- wp:group -->
           <div class="wp-block-group relative italic font-medium  company-title overflow-hidden">
