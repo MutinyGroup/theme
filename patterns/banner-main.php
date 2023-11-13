@@ -64,36 +64,9 @@
         <!-- wp:heading {"level":1} -->
         <h1 class="wp-block-heading title-text-wrapper mb-[60px] desktop:mb-[70px] uppercase relative z-[1]">
           <!-- wp:paragraph -->
-          <p class="company-title font-normal text-[16px] leading-[125%] overflow-hidden"><span class="block">Mutiny Group</span></p>
+          <span class="company-title font-normal text-[16px] leading-[125%] overflow-hidden"><span class="block">Mutiny Group</span></span>
           <!-- /wp:paragraph -->
 
-          <!-- wp:paragraph -->
-          <p class="company-title font-medium overflow-hidden"><span class="block">Wchodzimy</span></p>
-          <!-- /wp:paragraph -->
-
-          <!-- wp:paragraph -->
-          <p class="company-title font-medium overflow-hidden"><span class="block">NA RYNEK Z MOCNYM</span></p>
-          <!-- /wp:paragraph -->
-
-          <!-- wp:group -->
-          <div class="wp-block-group relative italic font-medium  company-title overflow-hidden">
-            <!-- wp:group -->
-            <div class="wp-block-group test01 flex transition ease-out duration-300">
-              <!-- wp:group -->
-              <div class="wp-block-group self-end mb-[5px] desktop:mr-[70px] mr-[5px]  desktop:w-[280px] w-[30px] desktop:h-[6px] h-[2px] bg-white">
-                <!-- wp:paragraph -->
-                <p class="hidden">separator</p>
-                <!-- /wp:paragraph -->
-              </div>
-              <!-- /wp:group -->
-
-              <!-- wp:paragraph -->
-              <p>UDERZENIEM</p>
-              <!-- /wp:paragraph -->
-            </div>
-            <!-- /wp:group -->
-          </div>
-          <!-- /wp:group -->
         </h1>
         <!-- /wp:heading -->
 
