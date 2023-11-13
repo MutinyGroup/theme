@@ -35,7 +35,7 @@
         <h2 class="wp-block-heading uslugi-title uppercase font-medium desktop:text-[60px] text-[30px] desktop:leading-[68px] leading-[30px]">
 
           <span class="block overflow-hidden">
-            <span class="test01 company-title font-medium overflow-hidden"><span class="block">PROJEKTY Z KTÓRYCH</span></span>
+            <span class="test01 company-title block font-medium overflow-hidden"><span class="block">PROJEKTY Z KTÓRYCH</span></span>
           </span>
 
           <span class="block overflow-hidden">
