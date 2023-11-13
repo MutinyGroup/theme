@@ -76,8 +76,9 @@
             <!-- wp:paragraph -->
             <p class="company-title font-medium overflow-hidden"><span class="block">NA RYNEK Z MOCNYM</span></p>
             <!-- /wp:paragraph -->
-            <!-- /wp:heading -->
+
           </h2>
+          <!-- /wp:heading -->
 
           <!-- wp:group -->
           <div class="wp-block-group relative italic font-medium  company-title overflow-hidden">
