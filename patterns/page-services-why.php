@@ -36,29 +36,27 @@
       <!-- /wp:paragraph -->
 
       <!-- wp:heading {"level":3} -->
-      <h3 class="wp-block-heading h-fit overflow-hidden">
-        <span data-aos="fade-up" data-aos-duration="600" data-aos-offset="30" class="block section-title desktop:basis-auto desktop:w-[145px] basis-[20%] desktop:text-right uppercase text-primaryYellow pt-[4px] pr-[20px]">Nasze <br class="hidden desktop:block"> podejście</span>
-      </h3>
+      <h3 class="wp-block-heading h-fit overflow-hidden"><span data-aos="fade-up" data-aos-duration="600" data-aos-offset="30" class="block section-title desktop:basis-auto desktop:w-[145px] basis-[20%] desktop:text-right uppercase text-primaryYellow pt-[4px] pr-[20px]">Nasze <br class="hidden desktop:block"> podejście</span></h3>
       <!-- /wp:heading -->
 
-      <!-- wp:group -->
-      <div class="wp-block-group uslugi-title font-medium">
-        <!-- wp:group -->
-        <div class="wp-block-group overflow-hidden">
-          <!-- wp:paragraph -->
+      <!-- wp:heading -->
+      <h2 class="wp-block-heading uslugi-title font-medium">
+
+        <span class="block overflow-hidden">
+
           <span data-aos="fade-up" data-aos-duration="600" data-aos-offset="30" class="block uppercase  desktop:text-[50px] text-[24px] desktop:leading-[55px] leading-[30px]">Dlaczego warto z nami</span>
-          <!-- /wp:paragraph -->
-        </div>
-        <!-- /wp:group -->
-        <!-- wp:group -->
-        <div class="wp-block-group overflow-hidden">
-          <!-- wp:paragraph {"templateLock":"contentOnly"} -->
+
+        </span>
+
+
+        <span class="block overflow-hidden">
+
           <span data-aos="fade-up" data-aos-duration="600" data-aos-offset="30" class="block relative ml-[12px] desktop:text-[50px] text-[24px] desktop:leading-[55px] leading-[30px] uppercase italic before:content-[''] before:inline-block desktop:before:mr-[18px] before:mr-[8px] before:bottom-0 before:left-0 desktop:before:w-[90px] before:w-[30px] desktop:before:h-[3px] before:h-[2px] before:bg-black">współpracować</span>
-          <!-- /wp:paragraph -->
-        </div>
+
+        </span>
         <!-- /wp:group -->
-      </div>
-      <!-- /wp:group -->
+      </h2>
+      <!-- /wp:heading -->
     </div>
     <!-- /wp:group -->
 
