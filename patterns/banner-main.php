@@ -63,17 +63,21 @@
 
         <!-- wp:group -->
         <div class="wp-block-group title-text-wrapper mb-[60px] desktop:mb-[70px] uppercase relative z-[1]">
-          <!-- wp:heading {"level":1} -->
-          <h1 class="company-title font-normal text-[16px] leading-[125%] overflow-hidden"><span class="block">Mutiny Group</span></h1>
-          <!-- /wp:heading -->
+          <!-- wp:heading -->
+          <h2>
+            <!-- wp:paragraph {"level":1} -->
+            <p class="company-title font-normal text-[16px] leading-[125%] overflow-hidden"><span class="block">Mutiny Group</span></p>
+            <!-- /wp:paragraph -->
 
-          <!-- wp:heading {"level":1} -->
-          <h1 class="company-title font-medium overflow-hidden"><span class="block">Wchodzimy</span></h1>
-          <!-- /wp:heading {"level":1} -->
+            <!-- wp:paragraph {"level":1} -->
+            <p class="company-title font-medium overflow-hidden"><span class="block">Wchodzimy</span></p>
+            <!-- /wp:paragraph {"level":1} -->
 
-          <!-- wp:heading {"level":1} -->
-          <h1 class="company-title font-medium overflow-hidden"><span class="block">NA RYNEK Z MOCNYM</span></h1>
-          <!-- /wp:heading {"level":1} -->
+            <!-- wp:paragraph {"level":1} -->
+            <p class="company-title font-medium overflow-hidden"><span class="block">NA RYNEK Z MOCNYM</span></p>
+            <!-- /wp:paragraph {"level":1} -->
+            <!-- /wp:heading -->
+          </h2>
 
           <!-- wp:group -->
           <div class="wp-block-group relative italic font-medium  company-title overflow-hidden">
