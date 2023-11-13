@@ -19,7 +19,7 @@
         <!-- wp:group -->
         <div class="wp-block-group section-title grid desktop:w-[145px] desktop:basis-auto uppercase text-primaryYellow">
           <!-- wp:heading {"level":3} -->
-          <h3 class="justify-self-start desktop:justify-self-end pt-[3px] pr-[15px]">Info</h3>
+          <h3 class="wp-block-heading justify-self-start desktop:justify-self-end pt-[3px] pr-[15px]">Info</h3>
           <!-- /wp:heading -->
         </div>
         <!-- /wp:group -->
