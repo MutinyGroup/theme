@@ -63,7 +63,7 @@
         <span class="block overflow-hidden">
 
 
-          <span data-aos="fade-up" data-aos-duration="600" data-aos-offset="130" class="uppercase">Porozmawiajmy</span>
+          <span data-aos="fade-up" data-aos-duration="600" data-aos-offset="130" class="uppercase block">Porozmawiajmy</span>
 
 
         </span>
@@ -72,7 +72,7 @@
         <span class="block overflow-hidden">
 
 
-          <span data-aos="fade-up" data-aos-duration="600" data-aos-offset="85" class="uppercase">o potrzebach</span>
+          <span data-aos="fade-up" data-aos-duration="600" data-aos-offset="85" class="uppercase block">o potrzebach</span>
 
 
         </span>
