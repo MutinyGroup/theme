@@ -27,29 +27,18 @@
           <!-- /wp:group -->
         </div>
         <!-- /wp:group -->
-        <!-- wp:group -->
-        <div class="wp-block-group max-w-[75%] uslugi-title uppercase font-medium desktop:text-[60px] text-[30px] desktop:leading-[66px] leading-[30px]">
-          <!-- wp:group -->
-          <div class="wp-block-group overflow-hidden">
-            <!-- wp:heading -->
-            <h2>
-              <p class="test01 company-title font-medium overflow-hidden"><span class="inline desktop:block">NIE BOIMY SIE</span></p>
-            </h2>
-            <!-- /wp:heading -->
-          </div>
-          <!-- /wp:group -->
 
-          <!-- wp:group -->
-          <div class="wp-block-group overflow-hidden">
-            <!-- wp:heading -->
-            <h2>
-              <p class="uppercase test01 inline-block ">PRZEKRACZAĆ<span class="relative desktop:ml-[12px] inline-block uppercase italic before:content-[''] before:inline-block desktop:before:mr-[18px] before:mr-[8px] before:bottom-0 before:left-0 desktop:before:w-[90px] before:w-[30px] desktop:before:h-[3px] before:h-[2px] before:bg-black">GRANIC</span><span class="desktop:text-[100px] text-[70px] leading-[1px] desktop:leading-auto">.</span></p>
-            </h2>
-            <!-- /wp:heading -->
-          </div>
-          <!-- /wp:group -->
-        </div>
-        <!-- /wp:group -->
+        <!-- wp:heading {"level":1} -->
+        <h1 class="wp-block-heading max-w-[75%] uslugi-title uppercase font-medium desktop:text-[60px] text-[30px] desktop:leading-[66px] leading-[30px]">
+          <span class="block overflow-hidden">
+            <span class="test01 company-title font-medium overflow-hidden"><span class="inline desktop:block">NIE BOIMY SIE</span></span>
+          </span>
+
+          <span class="block overflow-hidden">
+            <span class="uppercase test01 inline-block ">PRZEKRACZAĆ<span class="relative desktop:ml-[12px] inline-block uppercase italic before:content-[''] before:inline-block desktop:before:mr-[18px] before:mr-[8px] before:bottom-0 before:left-0 desktop:before:w-[90px] before:w-[30px] desktop:before:h-[3px] before:h-[2px] before:bg-black">GRANIC</span><span class="desktop:text-[100px] text-[70px] leading-[1px] desktop:leading-auto">.</span></span>
+          </span>
+        </h1>
+        <!-- /wp:heading -->
       </div>
       <!-- /wp:group -->
     </div>
