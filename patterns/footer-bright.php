@@ -19,7 +19,7 @@
         <div class="wp-block-group company-info desktop:mb-[120px] mb-[40px] flex gap-[15px]">
           <!-- wp:image -->
           <figure class="wp-block-image self-center w-[80px]">
-            <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/front-page/logo-mutiny-all-black.png" alt="logo" />
+            <img src="/wp-content/themes/mutiny/assets/img/front-page/logo-mutiny-all-black.png" alt="logo" />
           </figure>
           <!-- /wp:image -->
           <!-- wp:group -->
@@ -144,7 +144,7 @@
 
       <!-- wp:image -->
       <figure class="wp-block-image flash absolute top-[0px] left-[0px]">
-        <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/bg-yellow-flash.png" alt="background image" />
+        <img src="/wp-content/themes/mutiny/assets/img/bg-yellow-flash.png" alt="background image" />
       </figure>
       <!-- /wp:image -->
     </div>
@@ -154,7 +154,7 @@
     <ul class="wp-block-list w-full flex desktop:flex-row flex-col justify-between items-center z-[1]">
       <!-- wp:list-item -->
       <li class="hover:text-primaryYellow transition ease-out duration-300 cursor-pointer">
-        <a href="https://mutiny.webo.design/polityka-prywatnosci/">Polityka prywatności</a>
+        <a href="/polityka-prywatnosci/">Polityka prywatności</a>
       </li>
       <!-- /wp:list-item -->
       <!-- wp:list-item -->
@@ -164,7 +164,7 @@
         <!-- /wp:paragraph -->
         <!-- wp:image -->
         <figure class="wp-block-image w-[50px]">
-          <img src="https://mutiny.webo.design/wp-content/themes/mutiny/assets/img/front-page/logo-webo.png" alt="webo-logo" />
+          <img src="/wp-content/themes/mutiny/assets/img/front-page/logo-webo.png" alt="webo-logo" />
         </figure>
         <!-- /wp:image -->
       </li>
