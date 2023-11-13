@@ -57,15 +57,7 @@
         <!-- /wp:group -->
 
         <!-- wp:heading -->
-        <h2 class="wp-block-heading uslugi-title uppercase font-medium desktop:text-[50px] text-[24px] desktop:leading-[60px] leading-[30px]">
-          <span class="block overflow-hidden">
-            <span data-aos="fade-up" data-aos-duration="600" data-aos-offset="30" class="uppercase block">Content</span>
-          </span>
-
-          <span class="block overflow-hidden">
-            <span data-aos="fade-up" data-aos-duration="600" data-aos-offset="30" class="relative block desktop:text-[50px] text-[24px] uppercase italic before:content-[''] before:inline-block desktop:before:mr-[8px] before:mr-[4px] before:bottom-0 before:left-0 desktop:before:w-[90px] before:w-[30px] desktop:before:h-[3px] before:h-[2px] before:bg-black">Marketing</span>
-          </span>
-        </h2>
+        <h2 class="wp-block-heading uslugi-title uppercase font-medium desktop:text-[50px] text-[24px] desktop:leading-[60px] leading-[30px]"><span class="block overflow-hidden"><span data-aos="fade-up" data-aos-duration="600" data-aos-offset="30" class="uppercase block">Content</span></span> <span class="block overflow-hidden"><span data-aos="fade-up" data-aos-duration="600" data-aos-offset="30" class="relative block desktop:text-[50px] text-[24px] uppercase italic before:content-[''] before:inline-block desktop:before:mr-[8px] before:mr-[4px] before:bottom-0 before:left-0 desktop:before:w-[90px] before:w-[30px] desktop:before:h-[3px] before:h-[2px] before:bg-black">Marketing</span></span> </h2>
         <!-- /wp:heading -->
       </div>
       <!-- /wp:group -->
