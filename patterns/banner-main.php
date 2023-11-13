@@ -66,8 +66,6 @@
           <!-- wp:heading {"level":1} -->
           <h1><span class="company-title block font-normal text-[16px] leading-[125%] overflow-hidden"><span class="block">Mutiny Group</span></span><span class="company-title block font-medium overflow-hidden"><span class="block">Wchodzimy</span></span><span class="company-title block font-medium overflow-hidden"><span class="block">NA RYNEK Z MOCNYM</span></span><span class="block relative italic font-medium company-title overflow-hidden"><span class="test01 flex transition ease-out duration-300"><span class="block self-end mb-[5px] desktop:mr-[70px] mr-[5px]  desktop:w-[280px] w-[30px] desktop:h-[6px] h-[2px] bg-white"><span class="hidden">separator</span></span><span class="block">UDERZENIEM</span></span></span></h1>
           <!-- /wp:heading -->
-
-
         </div>
         <!-- /wp:group -->
 
