@@ -58,8 +58,6 @@
       <h3 class="wp-block-heading h-fit overflow-hidden"><span data-aos="fade-up" data-aos-duration="600" data-aos-offset="30" class="section-title uppercase text-primaryYellow">Realizacje</span></h3>
       <!-- /wp:heading -->
 
-
-
       <!-- wp:group -->
       <div class="wp-block-group realizations-title z-[1] relative">
         <!-- wp:heading -->

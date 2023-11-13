@@ -54,6 +54,7 @@
         <img src="<?php echo home_url() . '/wp-content/themes/mutiny/assets/img/front-page/blog-bg-shape2.png'; ?>" alt="background-shape">
       </figure>
       <!-- /wp:image -->
+
       <!-- wp:heading {"level":3} -->
       <h3 class="wp-block-heading h-fit overflow-hidden"><span data-aos="fade-up" data-aos-duration="600" data-aos-offset="30" class="section-title uppercase text-primaryYellow">Aktualności</span></h3>
       <!-- /wp:heading -->
