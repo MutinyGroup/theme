@@ -42,12 +42,12 @@
       </p>
       <!-- /wp:paragraph -->
 
-      <!-- wp:group -->
-      <div class="wp-block-group h-fit overflow-hidden">
-        <!-- wp:paragraph -->
+      <!-- wp:heading {"level":3} -->
+      <h3 class="wp-block-heading h-fit overflow-hidden">
+
         <span data-aos="fade-up" data-aos-duration="600" data-aos-offset="30" class="section-title block desktop:basis-auto desktop:w-[175px] pt-[4px] desktop:text-right uppercase text-primaryYellow pr-[20px]">Marketing robimy kompleksowo</span>
-        <!-- /wp:paragraph -->
-      </div>
+
+      </h3>
       <!-- /wp:group -->
 
       <!-- wp:group -->
