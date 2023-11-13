@@ -21,9 +21,9 @@
 
           <!-- wp:group -->
           <div class="wp-block-group h-fit overflow-hidden flex desktop:justify-end">
-            <!-- wp:paragraph -->
-            <p class="test01 justify-self-start desktop:justify-self-end pt-[7px] pr-[15px]">Realizacje</p>
-            <!-- /wp:paragraph -->
+            <!-- wp:heading {"level":3} -->
+            <h3 class="test01 justify-self-start desktop:justify-self-end pt-[7px] pr-[15px]">Realizacje</h3>
+            <!-- /wp:heading -->
           </div>
           <!-- /wp:group -->
 
