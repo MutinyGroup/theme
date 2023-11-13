@@ -35,13 +35,11 @@
       </p>
       <!-- /wp:paragraph -->
 
-      <!-- wp:group -->
-      <div class="wp-block-group h-fit overflow-hidden">
-        <!-- wp:paragraph -->
+      <!-- wp:heading {"level":3} -->
+      <h3 class="wp-block-heading h-fit overflow-hidden">
         <span data-aos="fade-up" data-aos-duration="600" data-aos-offset="30" class="block section-title desktop:basis-auto desktop:w-[145px] basis-[20%] desktop:text-right uppercase text-primaryYellow pt-[4px] pr-[20px]">Nasze <br class="hidden desktop:block"> podejście</span>
-        <!-- /wp:paragraph -->
-      </div>
-      <!-- /wp:group -->
+      </h3>
+      <!-- /wp:heading -->
 
       <!-- wp:group -->
       <div class="wp-block-group uslugi-title font-medium">
