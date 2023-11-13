@@ -47,27 +47,7 @@
       <!-- /wp:group -->
 
       <!-- wp:heading -->
-      <h2 class="wp-block-heading uslugi-title desktop:text-[50px] text-[24px] desktop:leading-[55px] leading-[30px]">
-
-        <span class="block overflow-hidden">
-
-          <span data-aos="fade-up" data-aos-duration="600" data-aos-offset="30" class="block company-title overflow-hidden"><span class="block uppercase">Wybierz usługę którą</span></span>
-
-        </span>
-
-
-
-        <span class="block overflow-hidden">
-
-          <span data-aos="fade-up" data-aos-duration="600" data-aos-offset="30" class="uppercase test01 inline-block ">JESTEŚ<span class="relative ml-[12px] inline-block uppercase italic before:content-[''] before:inline-block desktop:before:mr-[18px] before:mr-[8px] before:bottom-0 before:left-0 desktop:before:w-[90px] before:w-[30px] desktop:before:h-[3px] before:h-[2px] before:bg-black">ZAINTERESOWANY</span></span>
-
-        </span>
-
-
-
-        <p class="hidden uppercase desktop:text-[50px] text-[24px] desktop:leading-[55px] leading-[30px]">Wybierz usługę którą <br />jesteś<span class="relative desktop:text-[50px] text-[24px] uppercase italic before:content-[''] before:inline-block desktop:before:mr-[8px] before:mr-[4px] before:bottom-0 before:left-0 desktop:before:w-[90px] before:w-[30px] desktop:before:h-[3px] before:h-[2px] before:bg-black">zainteresowany</span></p>
-
-      </h2>
+      <h2 class="wp-block-heading uslugi-title desktop:text-[50px] text-[24px] desktop:leading-[55px] leading-[30px]"><span class="block overflow-hidden"><span data-aos="fade-up" data-aos-duration="600" data-aos-offset="30" class="block company-title overflow-hidden"><span class="block uppercase">Wybierz usługę którą</span></span></span><span class="block overflow-hidden"><span data-aos="fade-up" data-aos-duration="600" data-aos-offset="30" class="uppercase test01 inline-block ">JESTEŚ<span class="relative ml-[12px] inline-block uppercase italic before:content-[''] before:inline-block desktop:before:mr-[18px] before:mr-[8px] before:bottom-0 before:left-0 desktop:before:w-[90px] before:w-[30px] desktop:before:h-[3px] before:h-[2px] before:bg-black">ZAINTERESOWANY</span></span></span></h2>
       <!-- /wp:heading -->
     </div>
     <!-- /wp:group -->
