@@ -22,7 +22,7 @@
           <!-- wp:group -->
           <div class="wp-block-group h-fit overflow-hidden flex desktop:justify-end">
             <!-- wp:heading {"level":3} -->
-            <h3 class="test01 justify-self-start desktop:justify-self-end pt-[7px] pr-[15px]">Realizacje</h3>
+            <h3 class="wp-block-heading test01 justify-self-start desktop:justify-self-end pt-[7px] pr-[15px]">Realizacje</h3>
             <!-- /wp:heading -->
           </div>
           <!-- /wp:group -->

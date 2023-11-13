@@ -24,7 +24,7 @@
           <!-- wp:group -->
           <div class="wp-block-group h-fit overflow-hidden">
             <!-- wp:heading {"level":3} -->
-            <h3 class="test01 company-title font-medium overflow-hidden"><span class="block">AKTUALNOŚCI</span></h3>
+            <h3 class="wp-block-heading test01 company-title font-medium overflow-hidden"><span class="block">AKTUALNOŚCI</span></h3>
             <!-- /wp:heading -->
           </div>
           <!-- /wp:group -->
