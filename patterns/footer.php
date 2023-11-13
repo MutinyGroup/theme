@@ -142,7 +142,7 @@
 
       <!-- wp:image -->
       <figure class="wp-block-image flash absolute top-[0px] left-[0px]">
-        <img src="/wp-content/themes/mutiny/assets/img/bg-yellow-flash.png" alt="background image" />
+        <?php echo home_url() . '/wp-content/themes/mutiny/assets/img/bg-yellow-flash.png" alt="background image'; ?>" />
       </figure>
       <!-- /wp:image -->
     </div>

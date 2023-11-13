@@ -19,7 +19,7 @@
         <div class="wp-block-group company-info desktop:mb-[120px] mb-[40px] flex gap-[15px]">
           <!-- wp:image -->
           <figure class="wp-block-image self-center w-[80px]">
-            <img src="/wp-content/themes/mutiny/assets/img/front-page/logo-mutiny-all-black.png" alt="logo" />
+            <img src="<?php echo home_url() . '/wp-content/themes/mutiny/assets/img/front-page/logo-mutiny-all-black.png" alt="logo'; ?>" />
           </figure>
           <!-- /wp:image -->
           <!-- wp:group -->
@@ -144,7 +144,7 @@
 
       <!-- wp:image -->
       <figure class="wp-block-image flash absolute top-[0px] left-[0px]">
-        <img src="/wp-content/themes/mutiny/assets/img/bg-yellow-flash.png" alt="background image" />
+        <img src="<?php echo home_url() . '/wp-content/themes/mutiny/assets/img/bg-yellow-flash.png" alt="background image'; ?>" />
       </figure>
       <!-- /wp:image -->
     </div>
@@ -164,7 +164,7 @@
         <!-- /wp:paragraph -->
         <!-- wp:image -->
         <figure class="wp-block-image w-[50px]">
-          <img src="/wp-content/themes/mutiny/assets/img/front-page/logo-webo.png" alt="webo-logo" />
+          <?php echo home_url() . '/wp-content/themes/mutiny/assets/img/front-page/logo-webo.png" alt="webo-logo'; ?>" />
         </figure>
         <!-- /wp:image -->
       </li>
