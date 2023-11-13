@@ -39,13 +39,9 @@
 
         <!-- wp:group -->
         <div class="wp-block-group section-title grid desktop:basis-auto desktop:w-[30px] uppercase text-primaryYellow">
-          <!-- wp:group -->
-          <div class="wp-block-group overflow-hidden">
-            <!-- wp:paragraph -->
-            <span data-aos="fade-up" data-aos-duration="600" data-aos-offset="30" class="block desktop:justify-self-end pt-[7px] pr-[15px] text-[20px]">04</span>
-            <!-- /wp:paragraph -->
-          </div>
-          <!-- /wp:group -->
+          <!-- wp:heading {"level":3} -->
+          <h3 class="wp-block-heading overflow-hidden"><span data-aos="fade-up" data-aos-duration="600" data-aos-offset="30" class="block desktop:justify-self-end pt-[7px] pr-[15px] text-[20px]">04</span></h3>
+          <!-- /wp:heading -->
         </div>
         <!-- /wp:group -->
 
