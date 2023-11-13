@@ -76,7 +76,7 @@
           </span>
 
         </h2>
-        <!-- wp:heading -->
+        <!-- /wp:heading -->
       </div>
       <!-- /wp:group -->
     </div>
