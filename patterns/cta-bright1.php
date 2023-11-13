@@ -53,9 +53,7 @@
       <!-- /wp:group -->
 
       <!-- wp:heading {"level":3} -->
-      <h3 class="wp-block-heading h-fit overflow-hidden">
-        <span data-aos="fade-up" data-aos-duration="600" data-aos-offset="130" class="section-title text-[20px] text-primaryYellow z-[1] relative">Szukasz wsparcia w marketingu?</p>
-      </h3>
+      <h3 class="wp-block-heading h-fit overflow-hidden"><span data-aos="fade-up" data-aos-duration="600" data-aos-offset="130" class="section-title text-[20px] text-primaryYellow z-[1] relative">Szukasz wsparcia w marketingu?</span></h3>
       <!-- /wp:heading -->
 
       <!-- wp:group -->
