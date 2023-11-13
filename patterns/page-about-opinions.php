@@ -16,9 +16,9 @@
     <div class="wp-block-group title-wrapper relative container mx-auto desktop:ml-[120px] ml-0 desktop:pt-[100px] desktop:mt-0 mt-[60px] desktop:mb-[80px] desktop:flex gap-[20px]">
       <!-- wp:group -->
       <div class="wp-block-group h-fit overflow-hidden">
-        <!-- wp:paragraph -->
-        <span data-aos="fade-up" data-aos-duration="600" data-aos-offset="30" class="section-title pr-[2px] uppercase text-primaryYellow">Opinie</span>
-        <!-- /wp:paragraph -->
+        <!-- wp:heading {"level":3} -->
+        <h3><span data-aos="fade-up" data-aos-duration="600" data-aos-offset="30" class="section-title pr-[2px] uppercase text-primaryYellow">Opinie</span></h3>
+        <!-- /wp:heading -->
       </div>
       <!-- /wp:group -->
 
