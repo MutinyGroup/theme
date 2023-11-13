@@ -63,13 +63,10 @@
       <!-- wp:group -->
       <div class="wp-block-group cta-title font-normal desktop:text-[65px] text-[32px] desktop:leading-[71px] leading-[36px] z-[1] relative">
 
-        <!-- wp:group -->
-        <div class="wp-block-group overflow-hidden">
-          <!-- wp:paragraph -->
-          <p data-aos="fade-up" data-aos-duration="600" data-aos-offset="85" class="uppercase">Poznaj ofertę</p>
-          <!-- /wp:paragraph -->
-        </div>
-        <!-- /wp:group -->
+        <!-- wp:heading -->
+        <h3 class="wp-block-heading overflow-hidden"><span data-aos="fade-up" data-aos-duration="600" data-aos-offset="85" class="uppercase block">Poznaj ofertę</span></h3>
+        <!-- /wp:heading -->
+
         <!-- wp:group -->
         <div class="wp-block-group overflow-hidden">
           <!-- wp:paragraph {"templateLock":"contentOnly"} -->
