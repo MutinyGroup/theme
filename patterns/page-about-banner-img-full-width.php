@@ -31,7 +31,7 @@
         <!-- wp:heading {"level":1} -->
         <h1 class="wp-block-heading max-w-[75%] uslugi-title uppercase font-medium desktop:text-[60px] text-[30px] desktop:leading-[66px] leading-[30px]">
           <span class="block overflow-hidden">
-            <span class="test01 company-title font-medium overflow-hidden"><span class="inline desktop:block">NIE BOIMY SIE</span></span>
+            <span class="test01 company-title block font-medium overflow-hidden"><span class="inline desktop:block">NIE BOIMY SIE</span></span>
           </span>
 
           <span class="block overflow-hidden">
