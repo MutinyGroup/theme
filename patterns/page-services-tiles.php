@@ -43,36 +43,32 @@
       <!-- /wp:paragraph -->
 
       <!-- wp:heading {"level":3} -->
-      <h3 class="wp-block-heading h-fit overflow-hidden">
-
-        <span data-aos="fade-up" data-aos-duration="600" data-aos-offset="30" class="section-title block desktop:basis-auto desktop:w-[175px] pt-[4px] desktop:text-right uppercase text-primaryYellow pr-[20px]">Marketing robimy kompleksowo</span>
-
-      </h3>
+      <h3 class="wp-block-heading h-fit overflow-hidden"><span data-aos="fade-up" data-aos-duration="600" data-aos-offset="30" class="section-title block desktop:basis-auto desktop:w-[175px] pt-[4px] desktop:text-right uppercase text-primaryYellow pr-[20px]">Marketing robimy kompleksowo</span></h3>
       <!-- /wp:group -->
 
-      <!-- wp:group -->
-      <div class="wp-block-group uslugi-title desktop:text-[50px] text-[24px] desktop:leading-[55px] leading-[30px]">
-        <!-- wp:group -->
-        <div class="wp-block-group overflow-hidden">
-          <!-- wp:paragraph -->
+      <!-- wp:heading -->
+      <h2 class="wp-block-heading uslugi-title desktop:text-[50px] text-[24px] desktop:leading-[55px] leading-[30px]">
+
+        <span class="block overflow-hidden">
+
           <span data-aos="fade-up" data-aos-duration="600" data-aos-offset="30" class="block company-title overflow-hidden"><span class="block uppercase">Wybierz usługę którą</span></span>
-          <!-- /wp:paragraph -->
-        </div>
-        <!-- /wp:group -->
 
-        <!-- wp:group -->
-        <div class="wp-block-group overflow-hidden">
-          <!-- wp:paragraph -->
+        </span>
+
+
+
+        <span class="block overflow-hidden">
+
           <span data-aos="fade-up" data-aos-duration="600" data-aos-offset="30" class="uppercase test01 inline-block ">JESTEŚ<span class="relative ml-[12px] inline-block uppercase italic before:content-[''] before:inline-block desktop:before:mr-[18px] before:mr-[8px] before:bottom-0 before:left-0 desktop:before:w-[90px] before:w-[30px] desktop:before:h-[3px] before:h-[2px] before:bg-black">ZAINTERESOWANY</span></span>
-          <!-- /wp:paragraph -->
-        </div>
-        <!-- /wp:group -->
 
-        <!-- wp:paragraph -->
+        </span>
+
+
+
         <p class="hidden uppercase desktop:text-[50px] text-[24px] desktop:leading-[55px] leading-[30px]">Wybierz usługę którą <br />jesteś<span class="relative desktop:text-[50px] text-[24px] uppercase italic before:content-[''] before:inline-block desktop:before:mr-[8px] before:mr-[4px] before:bottom-0 before:left-0 desktop:before:w-[90px] before:w-[30px] desktop:before:h-[3px] before:h-[2px] before:bg-black">zainteresowany</span></p>
-        <!-- /wp:paragraph -->
-      </div>
-      <!-- /wp:group -->
+
+      </h2>
+      <!-- /wp:heading -->
     </div>
     <!-- /wp:group -->
 
