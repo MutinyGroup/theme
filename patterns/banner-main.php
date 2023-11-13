@@ -64,9 +64,7 @@
         <!-- wp:group -->
         <div class="wp-block-group title-text-wrapper mb-[60px] desktop:mb-[70px] uppercase relative z-[1]">
           <!-- wp:heading {"level":1} -->
-          <h1>
-            <span class="company-title block font-normal text-[16px] leading-[125%] overflow-hidden"><span class="block">Mutiny Group</span></span><span class="company-title block font-medium overflow-hidden"><span class="block">Wchodzimy</span></span><span class="company-title block font-medium overflow-hidden"><span class="block">NA RYNEK Z MOCNYM</span></span>
-          </h1>
+          <h1><span class="company-title block font-normal text-[16px] leading-[125%] overflow-hidden"><span class="block">Mutiny Group</span></span><span class="company-title block font-medium overflow-hidden"><span class="block">Wchodzimy</span></span><span class="company-title block font-medium overflow-hidden"><span class="block">NA RYNEK Z MOCNYM</span></span></h1>
           <!-- /wp:heading -->
 
 
