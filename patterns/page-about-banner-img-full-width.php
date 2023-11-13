@@ -20,9 +20,9 @@
         <div class="wp-block-group section-title grid desktop:w-[145px] w-[90px] uppercase text-primaryYellow">
           <!-- wp:group -->
           <div class="wp-block-group h-fit overflow-hidden flex desktop:justify-end">
-            <!-- wp:paragraph -->
-            <p class="test01 justify-self-end pt-[6px] pr-[15px]">O nas</p>
-            <!-- /wp:paragraph -->
+            <!-- wp:heading {"level":3} -->
+            <h3 class="test01 justify-self-end pt-[6px] pr-[15px]">O nas</h3>
+            <!-- /wp:heading -->
           </div>
           <!-- /wp:group -->
         </div>
