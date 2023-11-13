@@ -14,18 +14,12 @@
   <div class="wp-block-group relative px-[20px] desktop:px-0">
     <!-- wp:group -->
     <div class="wp-block-group title-wrapper container mx-auto relative desktop:mb-[110px] mb-[80px] desktop:flex gap-[20px]">
-      <!-- wp:group -->
-      <div class="wp-block-group min-w-fit h-fit overflow-hidden">
-        <!-- wp:paragraph -->
-        <span data-aos="fade-up" class="section-title min-w-fit uppercase text-primaryYellow">O nas</span>
-        <!-- /wp:paragraph -->
-      </div>
+      <!-- wp:heading {"level":3} -->
+      <h3 class="wp-block-heading min-w-fit h-fit overflow-hidden"><span data-aos="fade-up" class="section-title min-w-fit uppercase text-primaryYellow">O nas</span></h3>
       <!-- /wp:group -->
 
       <!-- wp:group -->
       <div class="wp-block-group uslugi-title is-layout-flow">
-
-
         <!-- wp:group -->
         <div class="wp-block-group overflow-hidden">
           <!-- wp:heading -->

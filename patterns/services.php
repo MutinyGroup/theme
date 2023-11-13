@@ -55,13 +55,9 @@
         <!-- /wp:paragraph -->
       </div>
       <!-- /wp:group -->
-      <!-- wp:group -->
-      <div class="wp-block-group h-fit overflow-hidden">
-        <!-- wp:paragraph -->
-        <p class="section-title uppercase text-primaryYellow"><span data-aos="fade-up" data-aos-duration="600" data-aos-offset="30">Usługi</span></p>
-        <!-- /wp:paragraph -->
-      </div>
-      <!-- /wp:group -->
+      <!-- wp:heading {"level":3} -->
+      <h3 class="wp-block-heading h-fit overflow-hidden"><span class="section-title block uppercase text-primaryYellow"><span data-aos="fade-up" data-aos-duration="600" data-aos-offset="30">Usługi</span></span></h3>
+      <!-- /wp:heading -->
 
       <!-- wp:group -->
       <div class="wp-block-group uslugi-title z-[1]">
