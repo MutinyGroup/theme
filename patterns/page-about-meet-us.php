@@ -44,7 +44,7 @@
       <!-- wp:group -->
       <div class="wp-block-group h-fit overflow-hidden">
         <!-- wp:heading {"level":3} -->
-        <h3><span data-aos="fade-up" data-aos-duration="600" data-aos-offset="30" class="section-title block mr-[10px] desktop:min-w-[120px] pt-[5px] desktop:basis-auto uppercase text-primaryYellow ">Poznajmy się</span></h3>
+        <h3><span data-aos="fade-up" data-aos-duration="600" data-aos-offset="30" class="section-title block desktop:min-w-[120px] pt-[5px] desktop:basis-auto uppercase text-primaryYellow ">Poznajmy się</span></h3>
         <!-- /wp:heading -->
       </div>
       <!-- /wp:group -->
