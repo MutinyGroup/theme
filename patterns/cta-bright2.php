@@ -58,35 +58,7 @@
 
 
       <!-- wp:heading -->
-      <h2 class="wp-block-heading font-normal desktop:text-[65px] text-[32px] desktop:leading-[70px] leading-[36px] relative z-[1]">
-
-        <span class="block overflow-hidden">
-
-
-          <span data-aos="fade-up" data-aos-duration="600" data-aos-offset="130" class="uppercase block">Porozmawiajmy</span>
-
-
-        </span>
-
-
-        <span class="block overflow-hidden">
-
-
-          <span data-aos="fade-up" data-aos-duration="600" data-aos-offset="85" class="uppercase block">o potrzebach</span>
-
-
-        </span>
-
-
-        <span class="block overflow-hidden">
-
-
-          <span data-aos="fade-up" data-aos-duration="600" data-aos-offset="85" class="relative ml-[12px] inline-block uppercase italic before:content-[''] before:inline-block desktop:before:mr-[18px] before:mr-[8px] before:bottom-0 before:left-0 desktop:before:w-[130px] before:w-[30px] desktop:before:h-[3px] before:h-[2px] before:bg-black">Twojej marki</span>
-
-
-        </span>
-
-      </h2>
+      <h2 class="wp-block-heading font-normal desktop:text-[65px] text-[32px] desktop:leading-[70px] leading-[36px] relative z-[1]"><span class="block overflow-hidden"><span data-aos="fade-up" data-aos-duration="600" data-aos-offset="130" class="uppercase block">Porozmawiajmy</span></span><span class="block overflow-hidden"><span data-aos="fade-up" data-aos-duration="600" data-aos-offset="85" class="uppercase block">o potrzebach</span></span><span class="block overflow-hidden"><span data-aos="fade-up" data-aos-duration="600" data-aos-offset="85" class="relative ml-[12px] inline-block uppercase italic before:content-[''] before:inline-block desktop:before:mr-[18px] before:mr-[8px] before:bottom-0 before:left-0 desktop:before:w-[130px] before:w-[30px] desktop:before:h-[3px] before:h-[2px] before:bg-black">Twojej marki</span></span></h2>
       <!-- /wp:heading -->
     </div>
     <!-- /wp:group -->
