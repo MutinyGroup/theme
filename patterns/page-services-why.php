@@ -186,7 +186,7 @@
             <span data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="mb-[50px] block text-[20px] leading-[30px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, seddo eiusmod tempor incididunt ut labore et dolore magnaaliqua. Ut enim ad minim veniam, quis nostrud exercitationullamco laboris nisi ut aliquip ex ea commodo consequat.</span>
             <!-- /wp:paragraph -->
             <!-- wp:paragraph -->
-            <span data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="mb-[50px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, seddo eiusmod tempor incididunt ut labore et dolore magnaaliqua. Ut enim ad minim veniami.</span>
+            <span data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="mb-[50px] block">Lorem ipsum dolor sit amet, consectetur adipiscing elit, seddo eiusmod tempor incididunt ut labore et dolore magnaaliqua. Ut enim ad minim veniami.</span>
             <!-- /wp:paragraph -->
             <!-- wp:list -->
             <ul class="wp-block-list leading-[32px] font-semibold">
@@ -288,7 +288,7 @@
             <span data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="mb-[50px] block text-[20px] leading-[30px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, seddo eiusmod tempor incididunt ut labore et dolore magnaaliqua. Ut enim ad minim veniam, quis nostrud exercitationullamco laboris nisi ut aliquip ex ea commodo consequat.</span>
             <!-- /wp:paragraph -->
             <!-- wp:paragraph -->
-            <span data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="mb-[50px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, seddo eiusmod tempor incididunt ut labore et dolore magnaaliqua. Ut enim ad minim veniami.</span>
+            <span data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="mb-[50px] block">Lorem ipsum dolor sit amet, consectetur adipiscing elit, seddo eiusmod tempor incididunt ut labore et dolore magnaaliqua. Ut enim ad minim veniami.</span>
             <!-- /wp:paragraph -->
             <!-- wp:list -->
             <ul class="wp-block-list leading-[32px] font-semibold">
@@ -390,7 +390,7 @@
             <span data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="mb-[50px] block text-[20px] leading-[30px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, seddo eiusmod tempor incididunt ut labore et dolore magnaaliqua. Ut enim ad minim veniam, quis nostrud exercitationullamco laboris nisi ut aliquip ex ea commodo consequat.</span>
             <!-- /wp:paragraph -->
             <!-- wp:paragraph -->
-            <span data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="mb-[50px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, seddo eiusmod tempor incididunt ut labore et dolore magnaaliqua. Ut enim ad minim veniami.</span>
+            <span data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="mb-[50px] block">Lorem ipsum dolor sit amet, consectetur adipiscing elit, seddo eiusmod tempor incididunt ut labore et dolore magnaaliqua. Ut enim ad minim veniami.</span>
             <!-- /wp:paragraph -->
             <!-- wp:list -->
             <ul class="wp-block-list leading-[32px] font-semibold">
