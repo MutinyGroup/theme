@@ -77,7 +77,7 @@ $url = home_url();
       <a href="<?php echo home_url(); ?>">
         <!-- wp:image -->
         <figure class="wp-block-image w-[30px]">
-          <img src="<?php echo home_url() . '/wp-content/themes/mutiny/assets/img/front-page/logo-mutiny-black.png" alt="webo-logo'; ?>" />
+          <img src="<?php echo home_url() . '/wp-content/themes/mutiny/assets/img/front-page/logo-mutiny-black.png'; ?>" alt="webo-logo" />
         </figure>
         <!-- /wp:image -->
       </a>
