@@ -116,4 +116,9 @@ body{
   .tile-realizacja-editor > div:first-child{
     width: 0px!important;
   }
+
+  ul .nav-desktop li:first-child{
+    position: absolute;
+    left: 30px;
+  }
   
