@@ -69,14 +69,6 @@
             <p class="company-title font-normal text-[16px] leading-[125%] overflow-hidden"><span class="block">Mutiny Group</span></p>
             <!-- /wp:paragraph -->
 
-            <!-- wp:paragraph -->
-            <p class="company-title font-medium overflow-hidden"><span class="block">Wchodzimy</span></p>
-            <!-- /wp:paragraph -->
-
-            <!-- wp:paragraph -->
-            <p class="company-title font-medium overflow-hidden"><span class="block">NA RYNEK Z MOCNYM</span></p>
-            <!-- /wp:paragraph -->
-
           </h2>
           <!-- /wp:heading -->
 
