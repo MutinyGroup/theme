@@ -30,7 +30,6 @@
         <div class="wp-block-group overflow-hidden">
           <!-- wp:heading -->
           <h2 class="wp-block-heading inline"><span data-aos="fade-up" data-aos-duration="600" data-aos-offset="85" class="inline uppercase desktop:text-[50px] text-[24px] desktop:leading-[55px] leading-[30px]">Holistyczne podejście do działań reklamowych sprawia, że nasza firma działa</span><span class="inline"><span data-aos="fade-up" data-aos-duration="600" data-aos-offset="85" class="relative ml-[12px] desktop:text-[50px] text-[24px] desktop:leading-[55px] leading-[30px] inline uppercase italic before:content-[''] before:inline-block desktop:before:mr-[18px] before:mr-[8px] before:bottom-0 before:left-0 desktop:before:w-[90px] before:w-[30px] desktop:before:h-[3px] before:h-[2px] before:bg-white">jak jeden organizm</span></span></h2>
-          </h2>
           <!-- /wp:heading -->
         </div>
         <!-- /wp:group -->
