@@ -117,8 +117,8 @@ body{
     width: 0px!important;
   }
 
-  ul .nav-desktop li:first-child{
-    position: absolute;
-    left: 30px;
+  ul.nav-desktop li:first-child{
+    position: absolute!important;
+    left: 30px!important;
   }
   
