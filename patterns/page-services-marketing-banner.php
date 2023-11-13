@@ -18,9 +18,9 @@
       <div class="wp-block-group title-wrapper relative container mx-auto desktop:flex">
         <!-- wp:group -->
         <div class="wp-block-group section-title grid desktop:basis-auto desktop:w-[145px] uppercase text-primaryYellow">
-          <!-- wp:paragraph -->
-          <p class="m-0 desktop:justify-self-end pt-[3px] pr-[15px]">Usługi</p>
-          <!-- /wp:paragraph -->
+          <!-- wp:heading {"level":3} -->
+          <h3 class="m-0 desktop:justify-self-end pt-[3px] pr-[15px]">Usługi</h3>
+          <!-- /wp:heading -->
         </div>
         <!-- /wp:group -->
 
