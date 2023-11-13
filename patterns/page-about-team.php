@@ -44,7 +44,7 @@
 
       <!-- wp:heading {"level":3} -->
       <h3 class="wp-block-heading h-fit overflow-hidden">
-        <span data-aos="fade-up" data-aos-duration="600" data-aos-offset="50" class="section-title desktop:w-[145px] pt-[5px] desktop:basis-auto uppercase text-primaryYellow ">Team Mutiny</span>
+        <span data-aos="fade-up" data-aos-duration="600" data-aos-offset="50" class="section-title mr-[10px] desktop:w-[145px] pt-[5px] desktop:basis-auto uppercase text-primaryYellow ">Team Mutiny</span>
       </h3>
       <!-- /wp:heading -->
 
