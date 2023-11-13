@@ -46,35 +46,27 @@
 
         <!-- wp:group -->
         <div class="wp-block-group section-title grid desktop:basis-auto desktop:w-[30px] uppercase text-primaryYellow">
-          <!-- wp:group -->
-          <div class="wp-block-group overflow-hidden">
+          <!-- wp:heading {"level":3} -->
+          <h3 class="wp-block-heading overflow-hidden">
             <!-- wp:paragraph -->
             <span data-aos="fade-up" data-aos-duration="600" data-aos-offset="30" class="block desktop:justify-self-end pt-[7px] pr-[15px] text-[20px]">02</span>
             <!-- /wp:paragraph -->
-          </div>
+          </h3>
           <!-- /wp:group -->
         </div>
         <!-- /wp:group -->
 
-        <!-- wp:group -->
-        <div class="wp-block-group uslugi-title uppercase font-medium desktop:text-[50px] text-[24px] desktop:leading-[60px] leading-[30px]">
-          <!-- wp:group -->
-          <div class="wp-block-group overflow-hidden">
-            <!-- wp:paragraph -->
+        <!-- wp:heading -->
+        <h2 class="wp-block-heading uslugi-title uppercase font-medium desktop:text-[50px] text-[24px] desktop:leading-[60px] leading-[30px]">
+          <span class="block overflow-hidden">
             <span data-aos="fade-up" data-aos-duration="600" data-aos-offset="30" class="uppercase block">Content</span>
-            <!-- /wp:paragraph -->
-          </div>
-          <!-- /wp:group -->
+          </span>
 
-          <!-- wp:group -->
-          <div class="wp-block-group overflow-hidden">
-            <!-- wp:paragraph -->
+          <span class="block overflow-hidden">
             <span data-aos="fade-up" data-aos-duration="600" data-aos-offset="30" class="relative block desktop:text-[50px] text-[24px] uppercase italic before:content-[''] before:inline-block desktop:before:mr-[8px] before:mr-[4px] before:bottom-0 before:left-0 desktop:before:w-[90px] before:w-[30px] desktop:before:h-[3px] before:h-[2px] before:bg-black">Marketing</span>
-            <!-- /wp:paragraph -->
-          </div>
-          <!-- /wp:group -->
-        </div>
-        <!-- /wp:group -->
+          </span>
+        </h2>
+        <!-- /wp:heading -->
       </div>
       <!-- /wp:group -->
     </div>
