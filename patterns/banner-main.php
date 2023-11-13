@@ -61,14 +61,41 @@
 
 
 
-        <!-- wp:heading {"level":1} -->
-        <h1 class="wp-block-heading title-text-wrapper mb-[60px] desktop:mb-[70px] uppercase relative z-[1]">
-          <!-- wp:paragraph -->
-          <span class="company-title font-normal text-[16px] leading-[125%] overflow-hidden"><span class="block">Mutiny Group</span></span>
-          <!-- /wp:paragraph -->
+        <!-- wp:group -->
+        <div class="wp-block-group title-text-wrapper mb-[60px] desktop:mb-[70px] uppercase relative z-[1]">
+          <!-- wp:heading {"level":1} -->
+          <h1 class="company-title font-normal text-[16px] leading-[125%] overflow-hidden"><span class="block">Mutiny Group</span></h1>
+          <!-- /wp:heading -->
 
-        </h1>
-        <!-- /wp:heading -->
+          <!-- wp:heading {"level":1} -->
+          <h1 class="company-title font-medium overflow-hidden"><span class="block">Wchodzimy</span></h1>
+          <!-- /wp:heading {"level":1} -->
+
+          <!-- wp:heading {"level":1} -->
+          <h1 class="company-title font-medium overflow-hidden"><span class="block">NA RYNEK Z MOCNYM</span></h1>
+          <!-- /wp:heading {"level":1} -->
+
+          <!-- wp:group -->
+          <div class="wp-block-group relative italic font-medium  company-title overflow-hidden">
+            <!-- wp:group -->
+            <div class="wp-block-group test01 flex transition ease-out duration-300">
+              <!-- wp:group -->
+              <div class="wp-block-group self-end mb-[5px] desktop:mr-[70px] mr-[5px]  desktop:w-[280px] w-[30px] desktop:h-[6px] h-[2px] bg-white">
+                <!-- wp:paragraph -->
+                <p class="hidden">separator</p>
+                <!-- /wp:paragraph -->
+              </div>
+              <!-- /wp:group -->
+
+              <!-- wp:paragraph -->
+              <p>UDERZENIEM</p>
+              <!-- /wp:paragraph -->
+            </div>
+            <!-- /wp:group -->
+          </div>
+          <!-- /wp:group -->
+        </div>
+        <!-- /wp:group -->
 
         <!-- wp:paragraph -->
         <span data-aos="fade-right" data-aos-duration="500" data-aos-offset="0" class="banner-paragraph block desktop:ml-[45px] ml-[20px] mb-[40px] desktop:w-[264px] max-w-[300px] desktop:text-[18px] text-[18px] font-light leading-[22px] relative z-[1]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore <span data-aos="fade-right" data-aos-duration="500" data-aos-offset="0" class="text-primaryYellow">magna aliqua.</span></span>
