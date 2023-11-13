@@ -42,34 +42,32 @@
       </p>
       <!-- /wp:paragraph -->
 
-      <!-- wp:group -->
-      <div class="wp-block-group h-fit overflow-hidden">
-        <!-- wp:paragraph -->
+      <!-- wp:heading {"level":3} -->
+      <h3 class="wp-block-heading h-fit overflow-hidden">
         <span data-aos="fade-up" data-aos-duration="600" data-aos-offset="50" class="section-title desktop:w-[145px] pt-[5px] desktop:basis-auto uppercase text-primaryYellow ">Team Mutiny</span>
-        <!-- /wp:paragraph -->
-      </div>
-      <!-- /wp:group -->
+      </h3>
+      <!-- /wp:heading -->
 
 
-      <!-- wp:group -->
-      <div class="wp-block-group uslugi-title desktop:text-[50px] text-[24px] desktop:leading-[55px] leading-[30px]">
-        <!-- wp:group -->
-        <div class="wp-block-group overflow-hidden">
-          <!-- wp:heading -->
-          <h2><span data-aos="fade-up" data-aos-duration="600" data-aos-offset="50" class="company-title overflow-hidden"><span class="block uppercase">ZGRANY ZESPÓŁ</span></span></h2>
-          <!-- /wp:heading -->
-        </div>
-        <!-- /wp:group -->
+      <!-- wp:heading -->
+      <h2 class="wp-block-heading uslugi-title desktop:text-[50px] text-[24px] desktop:leading-[55px] leading-[30px]">
 
-        <!-- wp:group -->
-        <div class="wp-block-group overflow-hidden">
-          <!-- wp:heading -->
-          <h2><span data-aos="fade-up" data-aos-duration="600" data-aos-offset="50" class="uppercase test01 inline-block ">TO<span class="relative ml-[12px] inline-block uppercase italic before:content-[''] before:inline-block desktop:before:mr-[18px] before:mr-[8px] before:bottom-0 before:left-0 desktop:before:w-[90px] before:w-[30px] desktop:before:h-[3px] before:h-[2px] before:bg-black">PODSTAWA</span></span></h2>
-          <!-- /wp:heading -->
-        </div>
-        <!-- /wp:group -->
-      </div>
-      <!-- /wp:group -->
+        <span class="block overflow-hidden">
+
+          <span data-aos="fade-up" data-aos-duration="600" data-aos-offset="50" class="company-title overflow-hidden"><span class="block uppercase">ZGRANY ZESPÓŁ</span></span>
+
+        </span>
+
+
+
+        <span class="block overflow-hidden">
+
+          <span data-aos="fade-up" data-aos-duration="600" data-aos-offset="50" class="uppercase test01 inline-block ">TO<span class="relative ml-[12px] inline-block uppercase italic before:content-[''] before:inline-block desktop:before:mr-[18px] before:mr-[8px] before:bottom-0 before:left-0 desktop:before:w-[90px] before:w-[30px] desktop:before:h-[3px] before:h-[2px] before:bg-black">PODSTAWA</span></span>
+
+        </span>
+
+      </h2>
+
     </div>
     <!-- /wp:group -->
 
