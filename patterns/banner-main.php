@@ -61,19 +61,19 @@
 
 
 
-        <!-- wp:group -->
-        <div class="wp-block-group title-text-wrapper mb-[60px] desktop:mb-[70px] uppercase relative z-[1]">
-          <!-- wp:heading {"level":1} -->
-          <h1 class="company-title font-normal text-[16px] leading-[125%] overflow-hidden"><span class="block">Mutiny Group</span></h1>
-          <!-- /wp:heading -->
+        <!-- wp:heading {"level":1} -->
+        <h1 class=" title-text-wrapper mb-[60px] desktop:mb-[70px] uppercase relative z-[1]">
+          <!-- wp:paragraph -->
+          <p class="company-title font-normal text-[16px] leading-[125%] overflow-hidden"><span class="block">Mutiny Group</span></p>
+          <!-- /wp:paragraph -->
 
-          <!-- wp:heading {"level":1} -->
-          <h1 class="company-title font-medium overflow-hidden"><span class="block">Wchodzimy</span></h1>
-          <!-- /wp:heading {"level":1} -->
+          <!-- wp:paragraph -->
+          <p class="company-title font-medium overflow-hidden"><span class="block">Wchodzimy</span></p>
+          <!-- /wp:paragraph -->
 
-          <!-- wp:heading {"level":1} -->
-          <h1 class="company-title font-medium overflow-hidden"><span class="block">NA RYNEK Z MOCNYM</span></h1>
-          <!-- /wp:heading {"level":1} -->
+          <!-- wp:paragraph -->
+          <p class="company-title font-medium overflow-hidden"><span class="block">NA RYNEK Z MOCNYM</span></p>
+          <!-- /wp:paragraph -->
 
           <!-- wp:group -->
           <div class="wp-block-group relative italic font-medium  company-title overflow-hidden">
@@ -94,8 +94,8 @@
             <!-- /wp:group -->
           </div>
           <!-- /wp:group -->
-        </div>
-        <!-- /wp:group -->
+        </h1>
+        <!-- /wp:heading -->
 
         <!-- wp:paragraph -->
         <span data-aos="fade-right" data-aos-duration="500" data-aos-offset="0" class="banner-paragraph block desktop:ml-[45px] ml-[20px] mb-[40px] desktop:w-[264px] max-w-[300px] desktop:text-[18px] text-[18px] font-light leading-[22px] relative z-[1]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore <span data-aos="fade-right" data-aos-duration="500" data-aos-offset="0" class="text-primaryYellow">magna aliqua.</span></span>
