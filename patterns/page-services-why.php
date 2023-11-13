@@ -181,6 +181,7 @@
               <span data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="block mb-[50px] text-[35px] leading-[42px] font-semibold uppercase relative">Mamy nieszablonowe <br />podejście</span>
 
             </h4>
+            <!-- /wp:heading -->
             <!-- wp:paragraph -->
             <span data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="mb-[50px] text-[20px] leading-[30px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, seddo eiusmod tempor incididunt ut labore et dolore magnaaliqua. Ut enim ad minim veniam, quis nostrud exercitationullamco laboris nisi ut aliquip ex ea commodo consequat.</span>
             <!-- /wp:paragraph -->
@@ -282,6 +283,7 @@
               <span data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="block mb-[50px] text-[35px] leading-[42px] font-semibold uppercase relative">Mamy nieszablonowe <br />podejście</span>
 
             </h4>
+            <!-- /wp:heading -->
             <!-- wp:paragraph -->
             <span data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="mb-[50px] text-[20px] leading-[30px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, seddo eiusmod tempor incididunt ut labore et dolore magnaaliqua. Ut enim ad minim veniam, quis nostrud exercitationullamco laboris nisi ut aliquip ex ea commodo consequat.</span>
             <!-- /wp:paragraph -->
@@ -383,6 +385,7 @@
               <span data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="block mb-[50px] text-[35px] leading-[42px] font-semibold uppercase relative">Mamy nieszablonowe <br />podejście</span>
 
             </h4>
+            <!-- /wp:heading -->
             <!-- wp:paragraph -->
             <span data-aos="fade-right" data-aos-duration="600" data-aos-offset="85" class="mb-[50px] text-[20px] leading-[30px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, seddo eiusmod tempor incididunt ut labore et dolore magnaaliqua. Ut enim ad minim veniam, quis nostrud exercitationullamco laboris nisi ut aliquip ex ea commodo consequat.</span>
             <!-- /wp:paragraph -->
