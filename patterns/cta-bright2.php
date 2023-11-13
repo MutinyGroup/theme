@@ -85,59 +85,59 @@
 
 
         </span>
-        <!-- /wp:group -->
+
+      </h2>
+      <!-- /wp:heading -->
+    </div>
+    <!-- /wp:group -->
+
+    <!-- wp:group -->
+    <div class="wp-block-group btn-more group desktop:w-[175px] w-[140px] desktop:h-[175px] h-[140px] mx-auto text-center rounded-full relative desktop:ml-[120px] group-hover:bg-primaryYellow group-hover:text-white transition ease-out duration-300 flex flex-col justify-center items-center gap-y-0 cursor-pointer z-[1] overflow-hidden">
+      <!-- wp:group -->
+      <div class="wp-block-group yellow-bg w-full h-full rounded-full bg-primaryYellow scale-100 group-hover:scale-[85%] absolute transition ease-in-out duration-[550ms] z-0">
+        <!-- wp:paragraph -->
+        <p class="hidden">yellow bg</p>
+        <!-- /wp:paragraph -->
+      </div>
+      <!-- /wp:group -->
+      <!-- wp:group -->
+      <div class="wp-block-group white-bg w-full h-full rounded-full bg-white scale-0 group-hover:scale-[85%] absolute transition ease-in-out duration-[550ms] z-[1]">
+        <!-- wp:paragraph -->
+        <p class="hidden">white bg</p>
+        <!-- /wp:paragraph -->
+      </div>
+      <!-- /wp:group -->
+
+      <!-- wp:paragraph -->
+      <p class="z-[2] text-white group-hover:text-black transition ease-in-out duration-[550ms]">
+        <a href="<?php echo get_home_url() . '/contact'; ?>">
+          <span class="font-bold block">Skontaktuj się</span>
+          <span class="font-bold block text-[25px] uppercase">TERAZ</span>
+        </a>
+      </p>
+      <!-- /wp:paragraph -->
     </div>
     <!-- /wp:group -->
   </div>
   <!-- /wp:group -->
 
   <!-- wp:group -->
-  <div class="wp-block-group btn-more group desktop:w-[175px] w-[140px] desktop:h-[175px] h-[140px] mx-auto text-center rounded-full relative desktop:ml-[120px] group-hover:bg-primaryYellow group-hover:text-white transition ease-out duration-300 flex flex-col justify-center items-center gap-y-0 cursor-pointer z-[1] overflow-hidden">
-    <!-- wp:group -->
-    <div class="wp-block-group yellow-bg w-full h-full rounded-full bg-primaryYellow scale-100 group-hover:scale-[85%] absolute transition ease-in-out duration-[550ms] z-0">
-      <!-- wp:paragraph -->
-      <p class="hidden">yellow bg</p>
-      <!-- /wp:paragraph -->
-    </div>
-    <!-- /wp:group -->
-    <!-- wp:group -->
-    <div class="wp-block-group white-bg w-full h-full rounded-full bg-white scale-0 group-hover:scale-[85%] absolute transition ease-in-out duration-[550ms] z-[1]">
-      <!-- wp:paragraph -->
-      <p class="hidden">white bg</p>
-      <!-- /wp:paragraph -->
-    </div>
-    <!-- /wp:group -->
-
+  <div class="wp-block-group img-clip-path-wrapper w-[100%] desktop:w-[58%] h-[380px] desktop:h-full rounded-tl-[20px] overflow-hidden absolute right-0 desktop:top-0 top-[-40px] z-[0]">
+    <!-- wp:image -->
+    <figure class="wp-block-image clip-path-url-['#clipped-cta'] h-full before:content-[''] before:w-full before:h-full before:bg-white before:z-[1] before:opacity-[90%] desktop:before:opacity-[60%] before:absolute before:top-0 before:left-0">
+      <img src="<?php echo home_url() . '/wp-content/themes/mutiny/assets/img/cta-bright-bg2.jpg'; ?>" alt="cta-backgroun-image">
+    </figure>
+    <!-- /wp:image -->
     <!-- wp:paragraph -->
-    <p class="z-[2] text-white group-hover:text-black transition ease-in-out duration-[550ms]">
-      <a href="<?php echo get_home_url() . '/contact'; ?>">
-        <span class="font-bold block">Skontaktuj się</span>
-        <span class="font-bold block text-[25px] uppercase">TERAZ</span>
-      </a>
-    </p>
+    <svg x="0px" y="0px" viewBox="0 0 1374.7 1083.6" class="absolute top-0">
+      <defs>
+        <clipPath id="clipped-cta" class="scale-[0.00125] desktop:scale-[0.0013] desktop:scale-y-[0.0015] wide:scale-y-[0.001525]" clipPathUnits="objectBoundingBox">
+          <path d="M0 20C0 8.9543 8.95431 0 20 0L808 0V650H212.426C204.47 650 196.839 646.839 191.213 641.213L8.78681 458.787C3.16072 453.161 0 445.53 0 437.574V20Z" />
+        </clipPath>
+      </defs>
+    </svg>
     <!-- /wp:paragraph -->
   </div>
   <!-- /wp:group -->
-</div>
-<!-- /wp:group -->
-
-<!-- wp:group -->
-<div class="wp-block-group img-clip-path-wrapper w-[100%] desktop:w-[58%] h-[380px] desktop:h-full rounded-tl-[20px] overflow-hidden absolute right-0 desktop:top-0 top-[-40px] z-[0]">
-  <!-- wp:image -->
-  <figure class="wp-block-image clip-path-url-['#clipped-cta'] h-full before:content-[''] before:w-full before:h-full before:bg-white before:z-[1] before:opacity-[90%] desktop:before:opacity-[60%] before:absolute before:top-0 before:left-0">
-    <img src="<?php echo home_url() . '/wp-content/themes/mutiny/assets/img/cta-bright-bg2.jpg'; ?>" alt="cta-backgroun-image">
-  </figure>
-  <!-- /wp:image -->
-  <!-- wp:paragraph -->
-  <svg x="0px" y="0px" viewBox="0 0 1374.7 1083.6" class="absolute top-0">
-    <defs>
-      <clipPath id="clipped-cta" class="scale-[0.00125] desktop:scale-[0.0013] desktop:scale-y-[0.0015] wide:scale-y-[0.001525]" clipPathUnits="objectBoundingBox">
-        <path d="M0 20C0 8.9543 8.95431 0 20 0L808 0V650H212.426C204.47 650 196.839 646.839 191.213 641.213L8.78681 458.787C3.16072 453.161 0 445.53 0 437.574V20Z" />
-      </clipPath>
-    </defs>
-  </svg>
-  <!-- /wp:paragraph -->
-</div>
-<!-- /wp:group -->
 </div>
 <!-- /wp:group -->
