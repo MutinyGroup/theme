@@ -7,7 +7,7 @@
  * Viewport Width: 1280
  */
 ?>
-<!-- wp:group {"templateLock":"contentOnly","anchor":true} -->
+<!-- wp:group {"anchor":true} -->
 <div id="CTA" class="wp-block-group relative cta-bright1 mb-[150px] z-[1]">
   <!-- wp:paragraph -->
   <p class="scale-[0.3] desktop:scale-[1] absolute left-0">
