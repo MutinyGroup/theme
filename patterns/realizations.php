@@ -69,7 +69,7 @@
         <!-- wp:heading -->
         <h2>
           <span class="block overflow-hidden">
-            <span data-aos="fade-up" data-aos-duration="600" data-aos-offset="30" class="uppercase desktop:text-[50px] text-[24px] desktop:leading-[55px] leading-[30px]">Zobacz efekty</span>
+            <span data-aos="fade-up" data-aos-duration="600" data-aos-offset="30" class="uppercase inline-block desktop:text-[50px] text-[24px] desktop:leading-[55px] leading-[30px]">Zobacz efekty</span>
           </span>
           <span class="block overflow-hidden">
             <span data-aos="fade-up" data-aos-duration="600" data-aos-offset="30" class="relative ml-[12px] desktop:text-[50px] text-[24px] desktop:leading-[55px] leading-[30px] inline-block uppercase italic before:content-[''] before:inline-block desktop:before:mr-[18px] before:mr-[8px] before:bottom-0 before:left-0 desktop:before:w-[90px] before:w-[30px] desktop:before:h-[3px] before:h-[2px] before:bg-white">naszej pracy</span>
