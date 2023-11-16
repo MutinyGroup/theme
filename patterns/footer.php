@@ -160,11 +160,17 @@
         <!-- wp:paragraph -->
         <p class="italic text-[#808080] w-fit mt-[4px]">Delivered by</p>
         <!-- /wp:paragraph -->
-        <!-- wp:image -->
-        <figure class="wp-block-image w-[50px]">
-          <img src="<?php echo home_url() . '/wp-content/themes/mutiny/assets/img/front-page/logo-webo.png'; ?>" alt="webo-logo" />
-        </figure>
-        <!-- /wp:image -->
+        <!-- wp:paragraph -->
+        <span>
+          <a href="https://webo.pl/">
+            <!-- wp:image -->
+            <figure class="wp-block-image w-[50px]">
+              <img src="<?php echo home_url() . '/wp-content/themes/mutiny/assets/img/front-page/logo-webo.png'; ?>" alt="webo-logo" />
+              <!-- /wp:image -->
+            </figure>
+          </a>
+        </span>
+        <!-- wp:paragraph -->
       </li>
       <!-- /wp:list-item -->
     </ul>
