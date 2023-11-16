@@ -166,8 +166,8 @@
             <!-- wp:image -->
             <figure class="wp-block-image w-[50px]">
               <img src="<?php echo home_url() . '/wp-content/themes/mutiny/assets/img/front-page/logo-webo.png'; ?>" alt="webo-logo" />
-              <!-- /wp:image -->
             </figure>
+            <!-- /wp:image -->
           </a>
         </span>
         <!-- /wp:paragraph -->
