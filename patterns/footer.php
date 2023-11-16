@@ -170,7 +170,7 @@
             </figure>
           </a>
         </span>
-        <!-- wp:paragraph -->
+        <!-- /wp:paragraph -->
       </li>
       <!-- /wp:list-item -->
     </ul>
